@@ -1,0 +1,14 @@
+{
+    "@context": {
+        "@version": "1.1",
+        "@vocab": "https://api.weather.gov/ontology#"
+    },
+    "@id": "https://api.weather.gov/products/55ae1236-db96-40aa-8652-8096dd706be7",
+    "id": "55ae1236-db96-40aa-8652-8096dd706be7",
+    "wmoCollectiveId": "CDUS44",
+    "issuingOffice": "KOUN",
+    "issuanceTime": "2026-10-19T21:11:00+00:00",
+    "productCode": "CLI",
+    "productName": "Climatological Report (Daily)",
+    "productText": "\n000\nCDUS44 KOUN 192111\nCLIOKC\n\nCLIMATE REPORT \nNATIONAL WEATHER SERVICE NORMAN OK\n411 PM CDT MON OCT 19 2026\n\n...................................\n\n...THE OKLAHOMA CITY CLIMATE SUMMARY FOR OCTOBER 19 2026...\nVALID AS OF 0400 PM LOCAL TIME.\n\nCLIMATE NORMAL PERIOD 1991 TO 2020\nCLIMATE RECORD PERIOD 1890 TO 2026\n\n\nWEATHER ITEM   OBSERVED RECORD YEAR NORMAL DEPARTURE                  \n                VALUE   VALUE       VALUE  FROM                      \n                                           NORMAL                  \n.........................................................\nTEMPERATURE (F)                                                          \n TODAY                                                               \n  MAXIMUM         72     92    1894  72      0                        \n  MINIMUM         47     25    1917  48     -1                        \n\nPRECIPITATION (IN)                                                    \n  TODAY            0.00                                               \n\n.........................................................\n\n\n\n-  INDICATES NEGATIVE NUMBERS.\nR  INDICATES RECORD WAS SET OR TIED.\nMM INDICATES DATA IS MISSING.\nT  INDICATES TRACE AMOUNT.\n\n\n\n\n$$\n"
+}

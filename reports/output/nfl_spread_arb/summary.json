@@ -1,0 +1,131 @@
+{
+  "games_evaluated": 364,
+  "markets_excluded": 4,
+  "opportunities": 444,
+  "opportunities_net10_positive": 444,
+  "fills": {
+    "opportunities": 444,
+    "fetched": 444,
+    "skipped_no_fetch": 0,
+    "fetched_windows": 888
+  },
+  "stood_unconfirmed": {
+    "n": 84,
+    "n_pre_net10_ge_1c": 7,
+    "pre_value_at_10_net10_ge_1c": 7.498629999999998,
+    "note": "not counted in the verdict"
+  },
+  "verdict": {
+    "required_seasons": [
+      2025,
+      2026
+    ],
+    "seasons": {
+      "2025": {
+        "n_weeks": 22,
+        "pre_strict": {
+          "manual_total": 0.5397400000000008,
+          "manual_per_week": 0.0245336363636364,
+          "bot_total": 57.03178,
+          "bot_per_week": 2.592353636363636
+        },
+        "pre_loose": {
+          "manual_total": 0.5397400000000008,
+          "manual_per_week": 0.0245336363636364,
+          "bot_total": 121.57020900000003,
+          "bot_per_week": 5.525918590909092
+        },
+        "in_strict": {
+          "manual_total": 2.8802999999999996,
+          "manual_per_week": 0.13092272727272725,
+          "bot_total": 158.25756300000006,
+          "bot_per_week": 7.193525590909093
+        },
+        "in_loose": {
+          "manual_total": 5.512739999999998,
+          "manual_per_week": 0.2505790909090908,
+          "bot_total": 436.5962030000001,
+          "bot_per_week": 19.84528195454546
+        }
+      },
+      "2026": {
+        "n_weeks": 5,
+        "pre_strict": {
+          "manual_total": 0.0,
+          "manual_per_week": 0.0,
+          "bot_total": 22.482060999999998,
+          "bot_per_week": 4.4964122
+        },
+        "pre_loose": {
+          "manual_total": 0.0,
+          "manual_per_week": 0.0,
+          "bot_total": 55.32626200000001,
+          "bot_per_week": 11.065252400000002
+        },
+        "in_strict": {
+          "manual_total": 0.0,
+          "manual_per_week": 0.0,
+          "bot_total": 4.552599999999998,
+          "bot_per_week": 0.9105199999999997
+        },
+        "in_loose": {
+          "manual_total": 0.0,
+          "manual_per_week": 0.0,
+          "bot_total": 4.552599999999998,
+          "bot_per_week": 0.9105199999999997
+        }
+      }
+    },
+    "manual": {
+      "verdict": "FAIL",
+      "threshold_per_week": 2.0,
+      "per_week_by_season": {
+        "2025": 0.0245336363636364,
+        "2026": 0.0
+      }
+    },
+    "bot": {
+      "verdict": "FAIL",
+      "threshold_per_week": 5.0,
+      "per_week_by_season": {
+        "2025": 2.592353636363636,
+        "2026": 4.4964122
+      }
+    }
+  },
+  "weeks_by_season": {
+    "2025": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "2026": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "d3_median_known_share": 1.0,
+  "best_net10_pre": 0.872328
+}

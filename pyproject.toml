@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kpm"
+version = "0.1.0"
+description = "Kalshi vs Polymarket NFL price-gap research (read-only)"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.31",
+    "pandas>=2.2",
+    "numpy>=1.26",
+    "matplotlib>=3.8",
+    "pydantic>=2.6",
+    "python-dotenv>=1.0",
+    "pyyaml>=6.0",
+    "nflreadpy>=0.1",
+    "pyarrow>=15",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+# Only for the live system; installing it does not enable paid calls (see config).
+claude = ["anthropic>=0.70"]
+# Live trading: RSA-PSS request signing and the real-time feed. Installing does not enable trading (see config).
+trading = ["cryptography>=42", "websockets>=12"]
+
+[project.scripts]
+kpm = "kpm.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+kpm = ["core/schema.sql", "dashboard/static/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+markers = [
+    "browser: drives a real headless browser (Node 22+ and Chrome; about 30 s); skip with -m 'not browser'",
+]

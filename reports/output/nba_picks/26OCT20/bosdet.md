@@ -1,0 +1,173 @@
+# BOSDET full scan
+Pulled UTC 2026-10-20 17:49:15; markets 564, with a quote 564, in tickers list but not open 0
+
+## Ladder groups
+
+- KXNBA1HSPREAD-26OCT20BOSDET | BOS | ge | n=10 strikes [1.5, 3.5, 5.5, 7.5, 9.5, 11.5, 13.5, 15.5, 17.5, 19.5]
+- KXNBA1HSPREAD-26OCT20BOSDET | DET | ge | n=9 strikes [1.5, 2.5, 4.5, 6.5, 8.5, 10.5, 12.5, 14.5, 16.5]
+- KXNBA1HTEAMTOTAL-26OCT20BOSDET | BOS | ge | n=11 strikes [47.5, 49.5, 51.5, 53.5, 55.5, 57.5, 59.5, 61.5, 63.5, 65.5, 67.5]
+- KXNBA1HTEAMTOTAL-26OCT20BOSDET | DET | ge | n=11 strikes [47.5, 49.5, 51.5, 53.5, 55.5, 57.5, 59.5, 61.5, 63.5, 65.5, 67.5]
+- KXNBA1HTOTAL-26OCT20BOSDET |  | ge | n=19 strikes [96.5, 98.5, 100.5, 102.5, 104.5, 106.5, 108.5, 110.5, 112.5, 114.5, 116.5, 118.5, 120.5, 122.5, 124.5, 126.5, 128.5, 130.5, 132.5]
+- KXNBA1QSPREAD-26OCT20BOSDET | BOS | ge | n=7 strikes [1.5, 3.5, 5.5, 7.5, 9.5, 11.5, 13.5]
+- KXNBA1QSPREAD-26OCT20BOSDET | DET | ge | n=6 strikes [1.5, 2.5, 4.5, 6.5, 8.5, 10.5]
+- KXNBA1QTOTAL-26OCT20BOSDET |  | ge | n=13 strikes [45.5, 47.5, 49.5, 51.5, 53.5, 55.5, 57.5, 59.5, 61.5, 63.5, 65.5, 67.5, 69.5]
+- KXNBA2D-26OCT20BOSDET | BOSJTATUM | ge | n=1 strikes [0.5]
+- KXNBA2D-26OCT20BOSDET | BOSNQUETA | ge | n=1 strikes [0.5]
+- KXNBA2D-26OCT20BOSDET | DETCCUNNINGHAM | ge | n=1 strikes [0.5]
+- KXNBA2D-26OCT20BOSDET | DETJDUREN | ge | n=1 strikes [0.5]
+- KXNBA2HSPREAD-26OCT20BOSDET | BOS | ge | n=9 strikes [1.5, 2.5, 4.5, 6.5, 8.5, 10.5, 12.5, 14.5, 16.5]
+- KXNBA2HSPREAD-26OCT20BOSDET | DET | ge | n=10 strikes [1.5, 3.5, 5.5, 7.5, 9.5, 11.5, 13.5, 15.5, 17.5, 19.5]
+- KXNBA2HTOTAL-26OCT20BOSDET |  | ge | n=19 strikes [88.5, 90.5, 92.5, 94.5, 96.5, 98.5, 100.5, 102.5, 104.5, 106.5, 108.5, 110.5, 112.5, 114.5, 116.5, 118.5, 120.5, 122.5, 124.5]
+- KXNBA2QSPREAD-26OCT20BOSDET | BOS | ge | n=6 strikes [1.5, 2.5, 4.5, 6.5, 8.5, 10.5]
+- KXNBA2QSPREAD-26OCT20BOSDET | DET | ge | n=7 strikes [1.5, 3.5, 5.5, 7.5, 9.5, 11.5, 13.5]
+- KXNBA2QTOTAL-26OCT20BOSDET |  | ge | n=13 strikes [44.5, 46.5, 48.5, 50.5, 52.5, 54.5, 56.5, 58.5, 60.5, 62.5, 64.5, 66.5, 68.5]
+- KXNBA3D-26OCT20BOSDET | BOSJTATUM | ge | n=1 strikes [0.5]
+- KXNBA3D-26OCT20BOSDET | DETCCUNNINGHAM | ge | n=1 strikes [0.5]
+- KXNBA3PT-26OCT20BOSDET | BOSDWHITE9 | ge | n=5 strikes [0.5, 1.5, 2.5, 3.5, 4.5]
+- KXNBA3PT-26OCT20BOSDET | BOSJTATUM0 | ge | n=6 strikes [0.5, 1.5, 2.5, 3.5, 4.5, 5.5]
+- KXNBA3PT-26OCT20BOSDET | BOSPGEORGE13 | ge | n=5 strikes [0.5, 1.5, 2.5, 3.5, 4.5]
+- KXNBA3PT-26OCT20BOSDET | BOSPPRITCHARD11 | ge | n=5 strikes [0.5, 1.5, 2.5, 3.5, 4.5]
+- KXNBA3PT-26OCT20BOSDET | BOSSHAUSER30 | ge | n=5 strikes [0.5, 1.5, 2.5, 3.5, 4.5]
+- KXNBA3PT-26OCT20BOSDET | DETCCUNNINGHAM2 | ge | n=5 strikes [0.5, 1.5, 2.5, 3.5, 4.5]
+- KXNBA3PT-26OCT20BOSDET | DETDROBINSON55 | ge | n=5 strikes [0.5, 1.5, 2.5, 3.5, 4.5]
+- KXNBA3QSPREAD-26OCT20BOSDET | BOS | ge | n=6 strikes [1.5, 2.5, 4.5, 6.5, 8.5, 10.5]
+- KXNBA3QSPREAD-26OCT20BOSDET | DET | ge | n=7 strikes [1.5, 3.5, 5.5, 7.5, 9.5, 11.5, 13.5]
+- KXNBA3QTOTAL-26OCT20BOSDET |  | ge | n=13 strikes [42.5, 44.5, 46.5, 48.5, 50.5, 52.5, 54.5, 56.5, 58.5, 60.5, 62.5, 64.5, 66.5]
+- KXNBA4QSPREAD-26OCT20BOSDET | BOS | ge | n=7 strikes [1.5, 3.5, 5.5, 7.5, 9.5, 11.5, 13.5]
+- KXNBA4QSPREAD-26OCT20BOSDET | DET | ge | n=6 strikes [1.5, 2.5, 4.5, 6.5, 8.5, 10.5]
+- KXNBA4QTOTAL-26OCT20BOSDET |  | ge | n=13 strikes [40.5, 42.5, 44.5, 46.5, 48.5, 50.5, 52.5, 54.5, 56.5, 58.5, 60.5, 62.5, 64.5]
+- KXNBAAST-26OCT20BOSDET | BOSDWHITE9 | ge | n=4 strikes [1.5, 3.5, 5.5, 7.5]
+- KXNBAAST-26OCT20BOSDET | BOSJTATUM0 | ge | n=5 strikes [1.5, 3.5, 5.5, 7.5, 9.5]
+- KXNBAAST-26OCT20BOSDET | BOSPGEORGE13 | ge | n=4 strikes [1.5, 3.5, 5.5, 7.5]
+- KXNBAAST-26OCT20BOSDET | BOSPPRITCHARD11 | ge | n=4 strikes [1.5, 3.5, 5.5, 7.5]
+- KXNBAAST-26OCT20BOSDET | DETATHOMPSON9 | ge | n=3 strikes [1.5, 3.5, 5.5]
+- KXNBAAST-26OCT20BOSDET | DETCCUNNINGHAM2 | ge | n=6 strikes [3.5, 5.5, 7.5, 9.5, 11.5, 13.5]
+- KXNBAAST-26OCT20BOSDET | DETJCOLLINS20 | ge | n=3 strikes [1.5, 3.5, 5.5]
+- KXNBABLK-26OCT20BOSDET | BOSDWHITE9 | ge | n=3 strikes [0.5, 1.5, 2.5]
+- KXNBABLK-26OCT20BOSDET | BOSMROBINSON4 | ge | n=3 strikes [0.5, 1.5, 2.5]
+- KXNBABLK-26OCT20BOSDET | DETATHOMPSON9 | ge | n=3 strikes [0.5, 1.5, 2.5]
+- KXNBABLK-26OCT20BOSDET | DETCCUNNINGHAM2 | ge | n=2 strikes [0.5, 1.5]
+- KXNBABLK-26OCT20BOSDET | DETJDUREN0 | ge | n=2 strikes [0.5, 1.5]
+- KXNBAOT-26OCT20BOSDET |  | ge | n=1 strikes [0.5]
+- KXNBAPRA-26OCT20BOSDET | BOSDWHITE9 | ge | n=3 strikes [19.5, 24.5, 29.5]
+- KXNBAPRA-26OCT20BOSDET | BOSJTATUM0 | ge | n=4 strikes [34.5, 39.5, 44.5, 49.5]
+- KXNBAPRA-26OCT20BOSDET | BOSPGEORGE13 | ge | n=3 strikes [19.5, 24.5, 29.5]
+- KXNBAPRA-26OCT20BOSDET | BOSPPRITCHARD11 | ge | n=3 strikes [19.5, 24.5, 29.5]
+- KXNBAPRA-26OCT20BOSDET | DETCCUNNINGHAM2 | ge | n=3 strikes [34.5, 39.5, 44.5]
+- KXNBAPRA-26OCT20BOSDET | DETJDUREN0 | ge | n=3 strikes [24.5, 29.5, 34.5]
+- KXNBAPTS-26OCT20BOSDET | BOSDWHITE9 | ge | n=4 strikes [9.5, 14.5, 19.5, 24.5]
+- KXNBAPTS-26OCT20BOSDET | BOSJTATUM0 | ge | n=4 strikes [19.5, 24.5, 29.5, 34.5]
+- KXNBAPTS-26OCT20BOSDET | BOSMROBINSON4 | ge | n=2 strikes [9.5, 14.5]
+- KXNBAPTS-26OCT20BOSDET | BOSNQUETA88 | ge | n=2 strikes [9.5, 14.5]
+- KXNBAPTS-26OCT20BOSDET | BOSPGEORGE13 | ge | n=4 strikes [9.5, 14.5, 19.5, 24.5]
+- KXNBAPTS-26OCT20BOSDET | BOSPPRITCHARD11 | ge | n=4 strikes [9.5, 14.5, 19.5, 24.5]
+- KXNBAPTS-26OCT20BOSDET | BOSSHAUSER30 | ge | n=2 strikes [9.5, 14.5]
+- KXNBAPTS-26OCT20BOSDET | DETATHOMPSON9 | ge | n=3 strikes [9.5, 14.5, 19.5]
+- KXNBAPTS-26OCT20BOSDET | DETCCUNNINGHAM2 | ge | n=5 strikes [14.5, 19.5, 24.5, 29.5, 34.5]
+- KXNBAPTS-26OCT20BOSDET | DETDROBINSON55 | ge | n=3 strikes [9.5, 14.5, 19.5]
+- KXNBAPTS-26OCT20BOSDET | DETJCOLLINS20 | ge | n=3 strikes [9.5, 14.5, 19.5]
+- KXNBAPTS-26OCT20BOSDET | DETJDUREN0 | ge | n=4 strikes [9.5, 14.5, 19.5, 24.5]
+- KXNBAREB-26OCT20BOSDET | BOSDWHITE9 | ge | n=4 strikes [1.5, 3.5, 5.5, 7.5]
+- KXNBAREB-26OCT20BOSDET | BOSJTATUM0 | ge | n=6 strikes [3.5, 5.5, 7.5, 9.5, 11.5, 13.5]
+- KXNBAREB-26OCT20BOSDET | BOSMROBINSON4 | ge | n=5 strikes [3.5, 5.5, 7.5, 9.5, 11.5]
+- KXNBAREB-26OCT20BOSDET | BOSNQUETA88 | ge | n=5 strikes [3.5, 5.5, 7.5, 9.5, 11.5]
+- KXNBAREB-26OCT20BOSDET | BOSPGEORGE13 | ge | n=4 strikes [1.5, 3.5, 5.5, 7.5]
+- KXNBAREB-26OCT20BOSDET | BOSPPRITCHARD11 | ge | n=4 strikes [1.5, 3.5, 5.5, 7.5]
+- KXNBAREB-26OCT20BOSDET | DETATHOMPSON9 | ge | n=4 strikes [3.5, 5.5, 7.5, 9.5]
+- KXNBAREB-26OCT20BOSDET | DETCCUNNINGHAM2 | ge | n=4 strikes [1.5, 3.5, 5.5, 7.5]
+- KXNBAREB-26OCT20BOSDET | DETDROBINSON55 | ge | n=3 strikes [1.5, 3.5, 5.5]
+- KXNBAREB-26OCT20BOSDET | DETJCOLLINS20 | ge | n=4 strikes [1.5, 3.5, 5.5, 7.5]
+- KXNBAREB-26OCT20BOSDET | DETJDUREN0 | ge | n=5 strikes [5.5, 7.5, 9.5, 11.5, 13.5]
+- KXNBASPREAD-26OCT20BOSDET | BOS | ge | n=16 strikes [1.5, 2.5, 3.5, 4.5, 5.5, 6.5, 8.5, 10.5, 12.5, 14.5, 16.5, 18.5, 20.5, 22.5, 24.5, 26.5]
+- KXNBASPREAD-26OCT20BOSDET | DET | ge | n=17 strikes [1.5, 2.5, 3.5, 4.5, 5.5, 6.5, 7.5, 9.5, 11.5, 13.5, 15.5, 17.5, 19.5, 21.5, 23.5, 25.5, 27.5]
+- KXNBASTL-26OCT20BOSDET | BOSJTATUM0 | ge | n=3 strikes [0.5, 1.5, 2.5]
+- KXNBASTL-26OCT20BOSDET | BOSPGEORGE13 | ge | n=3 strikes [0.5, 1.5, 2.5]
+- KXNBASTL-26OCT20BOSDET | DETATHOMPSON9 | ge | n=4 strikes [0.5, 1.5, 2.5, 3.5]
+- KXNBASTL-26OCT20BOSDET | DETCCUNNINGHAM2 | ge | n=3 strikes [0.5, 1.5, 2.5]
+- KXNBASTOCK-26OCT20BOSDET | BOSDWHITE9 | ge | n=3 strikes [1.5, 2.5, 3.5]
+- KXNBASTOCK-26OCT20BOSDET | BOSJTATUM0 | ge | n=3 strikes [0.5, 1.5, 2.5]
+- KXNBASTOCK-26OCT20BOSDET | BOSMROBINSON4 | ge | n=3 strikes [1.5, 2.5, 3.5]
+- KXNBASTOCK-26OCT20BOSDET | BOSPGEORGE13 | ge | n=3 strikes [1.5, 2.5, 3.5]
+- KXNBASTOCK-26OCT20BOSDET | DETATHOMPSON9 | ge | n=3 strikes [2.5, 3.5, 4.5]
+- KXNBASTOCK-26OCT20BOSDET | DETCCUNNINGHAM2 | ge | n=3 strikes [0.5, 1.5, 2.5]
+- KXNBASTOCK-26OCT20BOSDET | DETJDUREN0 | ge | n=3 strikes [0.5, 1.5, 2.5]
+- KXNBATEAMTOTAL-26OCT20BOSDET | BOS | ge | n=19 strikes [93.5, 95.5, 97.5, 99.5, 101.5, 103.5, 105.5, 107.5, 109.5, 111.5, 113.5, 115.5, 117.5, 119.5, 121.5, 123.5, 125.5, 127.5, 129.5]
+- KXNBATEAMTOTAL-26OCT20BOSDET | DET | ge | n=19 strikes [92.5, 94.5, 96.5, 98.5, 100.5, 102.5, 104.5, 106.5, 108.5, 110.5, 112.5, 114.5, 116.5, 118.5, 120.5, 122.5, 124.5, 126.5, 128.5]
+- KXNBATOTAL-26OCT20BOSDET |  | ge | n=29 strikes [194.5, 196.5, 198.5, 200.5, 202.5, 204.5, 206.5, 208.5, 210.5, 212.5, 214.5, 216.5, 218.5, 220.5, 222.5, 224.5, 226.5, 228.5, 230.5, 232.5, 234.5, 236.5, 238.5, 240.5, 242.5, 244.5, 246.5, 248.5, 250.5]
+
+## Check 1 riskless ladder inversions (bid_strong > ask_weak)
+
+- none
+
+Nearest misses (within 3c)
+
+- KXNBATOTAL-26OCT20BOSDET-247 ask 0.07 vs KXNBATOTAL-26OCT20BOSDET-249 bid 0.06 gross -0.010
+- KXNBA1HSPREAD-26OCT20BOSDET-DET15 ask 0.09 vs KXNBA1HSPREAD-26OCT20BOSDET-DET17 bid 0.07 gross -0.020
+- KXNBASPREAD-26OCT20BOSDET-DET26 ask 0.03 vs KXNBASPREAD-26OCT20BOSDET-DET28 bid 0.01 gross -0.020
+- KXNBASPREAD-26OCT20BOSDET-DET24 ask 0.04 vs KXNBASPREAD-26OCT20BOSDET-DET26 bid 0.02 gross -0.020
+- KXNBASPREAD-26OCT20BOSDET-BOS19 ask 0.1 vs KXNBASPREAD-26OCT20BOSDET-BOS21 bid 0.08 gross -0.020
+- KXNBASPREAD-26OCT20BOSDET-BOS25 ask 0.05 vs KXNBASPREAD-26OCT20BOSDET-BOS27 bid 0.03 gross -0.020
+- KXNBATOTAL-26OCT20BOSDET-197 ask 0.93 vs KXNBATOTAL-26OCT20BOSDET-199 bid 0.91 gross -0.020
+- KXNBATOTAL-26OCT20BOSDET-195 ask 0.95 vs KXNBATOTAL-26OCT20BOSDET-197 bid 0.92 gross -0.030
+- KXNBASPREAD-26OCT20BOSDET-BOS4 ask 0.43 vs KXNBASPREAD-26OCT20BOSDET-BOS5 bid 0.4 gross -0.030
+- KXNBASPREAD-26OCT20BOSDET-BOS5 ask 0.41 vs KXNBASPREAD-26OCT20BOSDET-BOS6 bid 0.38 gross -0.030
+- KXNBASPREAD-26OCT20BOSDET-DET3 ask 0.42 vs KXNBASPREAD-26OCT20BOSDET-DET4 bid 0.39 gross -0.030
+- KXNBATOTAL-26OCT20BOSDET-231 ask 0.29 vs KXNBATOTAL-26OCT20BOSDET-233 bid 0.26 gross -0.030
+
+## Check 2 mutually exclusive sets
+
+- KXNBA1H-26OCT20BOSDET n=3 me=True exh=False sumbid=0.980 sumask=1.030 NOall margin=-0.058 YESall margin=-
+- KXNBA1Q-26OCT20BOSDET n=3 me=True exh=False sumbid=0.990 sumask=1.030 NOall margin=-0.048 YESall margin=-
+- KXNBA2H-26OCT20BOSDET n=3 me=True exh=False sumbid=0.780 sumask=1.110 NOall margin=-0.254 YESall margin=-
+- KXNBA2Q-26OCT20BOSDET n=3 me=True exh=False sumbid=0.930 sumask=1.080 NOall margin=-0.107 YESall margin=-
+- KXNBA3Q-26OCT20BOSDET n=3 me=True exh=False sumbid=0.930 sumask=1.080 NOall margin=-0.107 YESall margin=-
+- KXNBA4Q-26OCT20BOSDET n=3 me=True exh=False sumbid=0.920 sumask=1.080 NOall margin=-0.117 YESall margin=-
+- KXNBAGAME-26OCT20BOSDET n=2 me=True exh=True sumbid=0.990 sumask=1.010 NOall margin=-0.045 YESall margin=-0.045
+- KXNBARACE-26OCT20BOSDET-10 n=2 me=True exh=False sumbid=0.970 sumask=1.020 NOall margin=-0.065 YESall margin=-
+- KXNBARACE-26OCT20BOSDET-25 n=3 me=True exh=False sumbid=0.030 sumask=2.970 NOall margin=-0.972 YESall margin=-
+- KXNBARACE-26OCT20BOSDET-50 n=3 me=True exh=False sumbid=0.030 sumask=2.970 NOall margin=-0.972 YESall margin=-
+- KXNBAWINMARGIN-26OCT20BOSDET n=8 me=True exh=True sumbid=0.760 sumask=1.170 NOall margin=-0.288 YESall margin=-0.239
+
+## Check 3 margin buckets (game mids {'BOS': 0.525, 'DET': 0.475})
+
+- {"ticker": "KXNBAWINMARGIN-26OCT20BOSDET-BOS1TO5", "title": "Boston wins by 1-5 points", "bid": 0.13, "bsz": 9.0, "ask": 0.2, "asz": 1690.78, "fair": 0.14, "ev_yes_1": -0.0712, "ev_yes_sz": -0.0712, "ev_no_1": -0.01800000000000001, "ev_no_sz": -0.017922222222222232}
+- {"ticker": "KXNBAWINMARGIN-26OCT20BOSDET-BOS6TO10", "title": "Boston wins by 6-10 points", "bid": 0.14, "bsz": 19.0, "ask": 0.18, "asz": 536.85, "fair": 0.15000000000000002, "ev_yes_1": -0.04039999999999997, "ev_yes_sz": -0.04033208955223878, "ev_no_1": -0.01850000000000001, "ev_no_sz": -0.01843157894736843}
+- {"ticker": "KXNBAWINMARGIN-26OCT20BOSDET-BOS11TO20", "title": "Boston wins by 11-20 points", "bid": 0.11, "bsz": 348.0, "ask": 0.17, "asz": 1.0, "fair": 0.15, "ev_yes_1": -0.029900000000000017, "ev_yes_sz": -0.029900000000000017, "ev_no_1": -0.0469, "ev_no_sz": -0.04685316091954023}
+- {"ticker": "KXNBAWINMARGIN-26OCT20BOSDET-BOS21PLUS", "title": "Boston wins by 21+ points", "bid": 0.05, "bsz": 28.0, "ask": 0.09, "asz": 17.0, "fair": 0.08499999999999999, "ev_yes_1": -0.010800000000000004, "ev_yes_sz": -0.010735294117647063, "ev_no_1": -0.03839999999999999, "ev_no_sz": -0.03832499999999999}
+- {"ticker": "KXNBAWINMARGIN-26OCT20BOSDET-DET1TO5", "title": "Detroit wins by 1-5 points", "bid": 0.12, "bsz": 28.0, "ask": 0.16, "asz": 16.38, "fair": 0.14999999999999997, "ev_yes_1": -0.019500000000000038, "ev_yes_sz": -0.019412500000000037, "ev_no_1": -0.037399999999999975, "ev_no_sz": -0.03739285714285712}
+- {"ticker": "KXNBAWINMARGIN-26OCT20BOSDET-DET6TO10", "title": "Detroit wins by 6-10 points", "bid": 0.09, "bsz": 11.0, "ask": 0.15, "asz": 219.0, "skip": "invalid input leg"}
+- {"ticker": "KXNBAWINMARGIN-26OCT20BOSDET-DET11TO20", "title": "Detroit wins by 11-20 points", "bid": 0.08, "bsz": 469.0, "ask": 0.15, "asz": 13.0, "skip": "invalid input leg"}
+- {"ticker": "KXNBAWINMARGIN-26OCT20BOSDET-DET21PLUS", "title": "Detroit wins by 21+ points", "bid": 0.04, "bsz": 2001.0, "ask": 0.07, "asz": 1.0, "skip": "invalid input leg"}
+
+## Check 4 totals
+
+total ladder mids [(194.5, 0.945), (196.5, 0.925), (198.5, 0.915), (200.5, 0.895), (202.5, 0.865), (204.5, 0.845), (206.5, 0.815), (208.5, 0.775), (210.5, 0.735), (212.5, 0.695), (214.5, 0.655), (216.5, 0.605), (218.5, 0.555), (220.5, 0.515), (222.5, 0.455), (224.5, 0.415), (226.5, 0.365), (228.5, 0.335), (230.5, 0.28500000000000003), (232.5, 0.265), (234.5, 0.225), (236.5, 0.195), (238.5, 0.175), (240.5, 0.14500000000000002), (242.5, 0.10500000000000001), (244.5, 0.08), (246.5, 0.065), (248.5, 0.065), (250.5, 0.045)]
+median total 221.0, sd 17.420311341734617; margin(BOS) median 1.5, sd 13.417346182357303
+- KXNBATEAMTOTAL-26OCT20BOSDET-BOS102 Boston over 101.5 points mid 0.815 model 0.812 diff +0.003
+- KXNBATEAMTOTAL-26OCT20BOSDET-BOS104 Boston over 103.5 points mid 0.750 model 0.760 diff -0.010
+- KXNBATEAMTOTAL-26OCT20BOSDET-BOS106 Boston over 105.5 points mid 0.690 model 0.700 diff -0.010
+- KXNBATEAMTOTAL-26OCT20BOSDET-BOS108 Boston over 107.5 points mid 0.620 model 0.633 diff -0.013
+- KXNBATEAMTOTAL-26OCT20BOSDET-BOS110 Boston over 109.5 points mid 0.545 model 0.563 diff -0.018
+- KXNBATEAMTOTAL-26OCT20BOSDET-BOS112 Boston over 111.5 points mid 0.495 model 0.491 diff +0.004
+- KXNBATEAMTOTAL-26OCT20BOSDET-BOS114 Boston over 113.5 points mid 0.415 model 0.419 diff -0.004
+- KXNBATEAMTOTAL-26OCT20BOSDET-BOS116 Boston over 115.5 points mid 0.350 model 0.350 diff +0.000
+- KXNBATEAMTOTAL-26OCT20BOSDET-BOS118 Boston over 117.5 points mid 0.280 model 0.285 diff -0.005
+- KXNBATEAMTOTAL-26OCT20BOSDET-BOS120 Boston over 119.5 points mid 0.225 model 0.227 diff -0.002
+- KXNBATEAMTOTAL-26OCT20BOSDET-BOS122 Boston over 121.5 points mid 0.190 model 0.176 diff +0.014
+- KXNBATEAMTOTAL-26OCT20BOSDET-BOS130 Boston over 129.5 points mid 0.055 model 0.048 diff +0.007
+- KXNBATEAMTOTAL-26OCT20BOSDET-BOS96 Boston over 95.5 points mid 0.925 model 0.924 diff +0.001
+- KXNBATEAMTOTAL-26OCT20BOSDET-BOS98 Boston over 97.5 points mid 0.905 model 0.894 diff +0.011
+- KXNBATEAMTOTAL-26OCT20BOSDET-DET101 Detroit over 100.5 points mid 0.810 model 0.800 diff +0.010
+- KXNBATEAMTOTAL-26OCT20BOSDET-DET105 Detroit over 104.5 points mid 0.700 model 0.684 diff +0.016
+- KXNBATEAMTOTAL-26OCT20BOSDET-DET107 Detroit over 106.5 points mid 0.640 model 0.616 diff +0.024
+- KXNBATEAMTOTAL-26OCT20BOSDET-DET109 Detroit over 108.5 points mid 0.565 model 0.545 diff +0.020
+- KXNBATEAMTOTAL-26OCT20BOSDET-DET111 Detroit over 110.5 points mid 0.485 model 0.473 diff +0.012
+- KXNBATEAMTOTAL-26OCT20BOSDET-DET113 Detroit over 112.5 points mid 0.415 model 0.401 diff +0.014
+- KXNBATEAMTOTAL-26OCT20BOSDET-DET115 Detroit over 114.5 points mid 0.345 model 0.333 diff +0.012
+- KXNBATEAMTOTAL-26OCT20BOSDET-DET117 Detroit over 116.5 points mid 0.295 model 0.270 diff +0.025
+- KXNBATEAMTOTAL-26OCT20BOSDET-DET119 Detroit over 118.5 points mid 0.230 model 0.213 diff +0.017
+- KXNBATEAMTOTAL-26OCT20BOSDET-DET121 Detroit over 120.5 points mid 0.195 model 0.164 diff +0.031
+- KXNBATEAMTOTAL-26OCT20BOSDET-DET93 Detroit over 92.5 points mid 0.940 model 0.942 diff -0.002
+- KXNBATEAMTOTAL-26OCT20BOSDET-DET95 Detroit over 94.5 points mid 0.925 model 0.917 diff +0.008
+- KXNBATEAMTOTAL-26OCT20BOSDET-DET97 Detroit over 96.5 points mid 0.895 model 0.886 diff +0.009
+- KXNBATEAMTOTAL-26OCT20BOSDET-DET99 Detroit over 98.5 points mid 0.865 model 0.847 diff +0.018

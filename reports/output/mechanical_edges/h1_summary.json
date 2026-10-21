@@ -1,0 +1,11 @@
+{
+  "markets_with_data": 11825,
+  "markets_downloaded": 11835,
+  "markets_by_split": {
+    "fresh": 5685,
+    "later": 3308,
+    "early": 2832
+  },
+  "observations": 52185,
+  "buckets_passing": []
+}

@@ -1,0 +1,25 @@
+{
+ "type": "fill",
+ "sending_ts_ms": 1671899397123,
+ "sid": 13,
+ "msg": {
+  "trade_id": "d91bc706-ee49-470d-82d8-11418bda6fed",
+  "order_id": "ee587a1c-8b87-4dcf-b721-9f6f790619fa",
+  "client_order_id": "my-order-1",
+  "market_ticker": "HIGHNY-22DEC23-B53.5",
+  "exchange_index": 2,
+  "is_taker": true,
+  "side": "yes",
+  "yes_price_dollars": "0.7500",
+  "count_fp": "278.00",
+  "fee_cost": "0.010000",
+  "action": "buy",
+  "ts": 1671899397,
+  "ts_ms": 1671899397000,
+  "post_position_fp": "500.00",
+  "purchased_side": "yes",
+  "outcome_side": "yes",
+  "book_side": "bid",
+  "subaccount": 3
+ }
+}

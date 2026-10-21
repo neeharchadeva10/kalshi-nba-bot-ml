@@ -1,0 +1,1753 @@
+{
+ "label": "source",
+ "config": {
+  "primary": "cheapest-L10",
+  "versions": [
+   "cheapest-L10",
+   "cheapest-L40",
+   "stale-L10",
+   "stale-L40",
+   "trigger-L10",
+   "trigger-L40"
+  ],
+  "latencies": {
+   "10": 0.01,
+   "40": 0.04
+  },
+  "min_profit": 0.01,
+  "refire_s": 60.0,
+  "dedupe_ms": 50.0,
+  "seed": 20261021,
+  "draws": 10000,
+  "copies": 500,
+  "games_per_week": 50,
+  "reservoir_cap": 300,
+  "coin": true,
+  "args": {
+   "raw": [
+    "data/ws/nba/26OCT20/raw"
+   ],
+   "markets": [
+    "data/ws/nba/26OCT20/markets.json"
+   ],
+   "out": "reports/output/cheapleg/source_26OCT20",
+   "label": "source",
+   "no_fetch": false,
+   "no_coin": false,
+   "live_events": "C:\\Users\\Jarvis\\Documents\\Kalshi-PM\\reports\\output\\ohio_trial\\live_26OCT20\\events.jsonl"
+  }
+ },
+ "inputs": {
+  "raw_files": [
+   {
+    "path": "data\\ws\\nba\\26OCT20\\raw\\msgs-2026102005-1792472706.jsonl.gz",
+    "bytes": 8833882
+   },
+   {
+    "path": "data\\ws\\nba\\26OCT20\\raw\\msgs-2026102006-1792472706.jsonl.gz",
+    "bytes": 9105654
+   },
+   {
+    "path": "data\\ws\\nba\\26OCT20\\raw\\msgs-2026102007-1792472706.jsonl.gz",
+    "bytes": 12198132
+   },
+   {
+    "path": "data\\ws\\nba\\26OCT20\\raw\\msgs-2026102008-1792472706.jsonl.gz",
+    "bytes": 8343920
+   },
+   {
+    "path": "data\\ws\\nba\\26OCT20\\raw\\msgs-2026102009-1792472706.jsonl.gz",
+    "bytes": 8710998
+   },
+   {
+    "path": "data\\ws\\nba\\26OCT20\\raw\\msgs-2026102010-1792472706.jsonl.gz",
+    "bytes": 10911702
+   },
+   {
+    "path": "data\\ws\\nba\\26OCT20\\raw\\msgs-2026102011-1792472706.jsonl.gz",
+    "bytes": 11413999
+   },
+   {
+    "path": "data\\ws\\nba\\26OCT20\\raw\\msgs-2026102012-1792472706.jsonl.gz",
+    "bytes": 14001276
+   },
+   {
+    "path": "data\\ws\\nba\\26OCT20\\raw\\msgs-2026102013-1792472706.jsonl.gz",
+    "bytes": 14411262
+   },
+   {
+    "path": "data\\ws\\nba\\26OCT20\\raw\\msgs-2026102014-1792472706.jsonl.gz",
+    "bytes": 16411468
+   },
+   {
+    "path": "data\\ws\\nba\\26OCT20\\raw\\msgs-2026102015-1792472706.jsonl.gz",
+    "bytes": 16352408
+   },
+   {
+    "path": "data\\ws\\nba\\26OCT20\\raw\\msgs-2026102016-1792472706.jsonl.gz",
+    "bytes": 16908448
+   },
+   {
+    "path": "data\\ws\\nba\\26OCT20\\raw\\msgs-2026102017-1792472706.jsonl.gz",
+    "bytes": 16462886
+   },
+   {
+    "path": "data\\ws\\nba\\26OCT20\\raw\\msgs-2026102018-1792472706.jsonl.gz",
+    "bytes": 23793879
+   },
+   {
+    "path": "data\\ws\\nba\\26OCT20\\raw\\msgs-2026102019-1792472706.jsonl.gz",
+    "bytes": 144712465
+   },
+   {
+    "path": "data\\ws\\nba\\26OCT20\\raw\\msgs-2026102020-1792472706.jsonl.gz",
+    "bytes": 150065727
+   },
+   {
+    "path": "data\\ws\\nba\\26OCT20\\raw\\msgs-2026102021-1792472706.jsonl.gz",
+    "bytes": 112420557
+   },
+   {
+    "path": "data\\ws\\nba\\26OCT20\\raw\\msgs-2026102022-1792472706.jsonl.gz",
+    "bytes": 25368259
+   },
+   {
+    "path": "data\\ws\\nba\\26OCT20\\raw\\msgs-2026102023-1792472706.jsonl.gz",
+    "bytes": 163207568
+   },
+   {
+    "path": "data\\ws\\nba\\26OCT20\\raw\\msgs-2026102100-1792472706.jsonl.gz",
+    "bytes": 156673578
+   },
+   {
+    "path": "data\\ws\\nba\\26OCT20\\raw\\msgs-2026102101-1792472706.jsonl.gz",
+    "bytes": 216131799
+   },
+   {
+    "path": "data\\ws\\nba\\26OCT20\\raw\\msgs-2026102102-1792472706.jsonl.gz",
+    "bytes": 202563703
+   },
+   {
+    "path": "data\\ws\\nba\\26OCT20\\raw\\msgs-2026102103-1792472706.jsonl.gz",
+    "bytes": 156455050
+   },
+   {
+    "path": "data\\ws\\nba\\26OCT20\\raw\\msgs-2026102104-1792472706.jsonl.gz",
+    "bytes": 69243640
+   }
+  ],
+  "total_bytes": 1584702260,
+  "markets_files": [
+   "data/ws/nba/26OCT20/markets.json"
+  ]
+ },
+ "replay": {
+  "lines": 89603117,
+  "lock_open_total": 588,
+  "below_min_profit": 527,
+  "candidates": 61,
+  "deduped_events": 50,
+  "arrival_outcomes": {
+   "fill": 109,
+   "price_moved": 128,
+   "no_quote": 13
+  },
+  "trigger_not_found": 0,
+  "tickers_in_two_streams": [],
+  "silences": {
+   "data/ws/nba/26OCT20/raw": {
+    "gaps_over_60s": 0,
+    "seconds": 0.0
+   }
+  },
+  "coin_samples": 84730,
+  "by_kind": {
+   "me_no": 11,
+   "ladder": 39
+  },
+  "legs_hist": {
+   "3": 8,
+   "2": 42
+  },
+  "runtime_s": 2472.6
+ },
+ "games": {
+  "order": [
+   "26OCT20BOSDET",
+   "26OCT20PHINYK",
+   "26OCT20OKCSAS"
+  ],
+  "discovery": null,
+  "unseen": null
+ },
+ "coverage": {
+  "26OCT20BOSDET": {
+   "recorded": 463,
+   "listed_by_api": 585,
+   "with_book_events": 463,
+   "recorded_not_in_api": 2,
+   "unsettled_markets": 2,
+   "tip_iso": "2026-10-20T19:00:00+00:00",
+   "tip_source": "occurrence_datetime",
+   "kickoff_raw": {
+    "expected_expiration_time": "2026-10-21T01:00:00Z",
+    "occurrence_datetime": "2026-10-20T22:00:00Z"
+   }
+  },
+  "26OCT20OKCSAS": {
+   "recorded": 457,
+   "listed_by_api": 589,
+   "with_book_events": 457,
+   "recorded_not_in_api": 2,
+   "unsettled_markets": 2,
+   "tip_iso": "2026-10-21T01:30:00+00:00",
+   "tip_source": "occurrence_datetime",
+   "kickoff_raw": {
+    "expected_expiration_time": "2026-10-21T07:30:00Z",
+    "occurrence_datetime": "2026-10-21T04:30:00Z"
+   }
+  },
+  "26OCT20PHINYK": {
+   "recorded": 517,
+   "listed_by_api": 606,
+   "with_book_events": 517,
+   "recorded_not_in_api": 2,
+   "unsettled_markets": 2,
+   "tip_iso": "2026-10-20T23:00:00+00:00",
+   "tip_source": "occurrence_datetime",
+   "kickoff_raw": {
+    "expected_expiration_time": "2026-10-21T05:00:00Z",
+    "occurrence_datetime": "2026-10-21T02:00:00Z"
+   }
+  }
+ },
+ "tip_vs_settlement": {
+  "26OCT20BOSDET": {
+   "settle_minus_tip_h": 2.64
+  },
+  "26OCT20OKCSAS": {
+   "settle_minus_tip_h": 3.02
+  },
+  "26OCT20PHINYK": {
+   "settle_minus_tip_h": 3.07
+  }
+ },
+ "versions": {
+  "cheapest-L10": {
+   "overall": {
+    "games": 3,
+    "lock_events": 43,
+    "refire_skipped": 7,
+    "fills": 31,
+    "misses": 12,
+    "fill_rate": 0.7209302325581395,
+    "settled_fills": 31,
+    "unsettled_excluded": 0,
+    "void_excluded": 0,
+    "mean_pnl_per_fill": 0.020364516129032256,
+    "win_rate": 0.0967741935483871,
+    "mean_price": 0.07258064516129033,
+    "mean_fee": 0.003829032258064516,
+    "total_pnl": 0.6313,
+    "pnl_per_game": 0.21043333333333333,
+    "dollars_per_week": 10.521666666666667,
+    "miss_reasons": {
+     "price_moved": 12
+    },
+    "bootstrap": {
+     "draws": 10000,
+     "seed": 20261021,
+     "ci_mean_per_fill": [
+      -0.09441818181818182,
+      0.26127142857142854
+     ],
+     "ci_mean_per_game": [
+      -1.0386,
+      1.8288999999999997
+     ]
+    },
+    "coin_flip": {
+     "n": 31,
+     "matched": 31,
+     "no_candidate": 0,
+     "real_mean_matched": 0.02036451612903226,
+     "coin_mean": -0.014758845161290314,
+     "coin_p5": -0.07504241935483867,
+     "coin_p95": 0.05435161290322581,
+     "share_ge_real": 0.24,
+     "copies": 500,
+     "seed": 20261021
+    }
+   },
+   "by_price_bucket": {
+    "1-2c": {
+     "n": 17,
+     "win_rate": 0.058823529411764705,
+     "mean_price": 0.014117647058823528,
+     "mean_fee": 0.000988235294117647,
+     "mean_pnl": 0.043717647058823535,
+     "total_pnl": 0.7432000000000001
+    },
+    "11-25c": {
+     "n": 3,
+     "win_rate": 0.0,
+     "mean_price": 0.13,
+     "mean_fee": 0.007966666666666667,
+     "mean_pnl": -0.13796666666666668,
+     "total_pnl": -0.41390000000000005
+    },
+    "26-50c": {
+     "n": 3,
+     "win_rate": 0.3333333333333333,
+     "mean_price": 0.4033333333333333,
+     "mean_fee": 0.0168,
+     "mean_pnl": -0.08679999999999999,
+     "total_pnl": -0.26039999999999996
+    },
+    "3-5c": {
+     "n": 6,
+     "win_rate": 0.16666666666666666,
+     "mean_price": 0.045000000000000005,
+     "mean_fee": 0.0030666666666666668,
+     "mean_pnl": 0.1186,
+     "total_pnl": 0.7116
+    },
+    "6-10c": {
+     "n": 2,
+     "win_rate": 0.0,
+     "mean_price": 0.07,
+     "mean_fee": 0.0046,
+     "mean_pnl": -0.0746,
+     "total_pnl": -0.1492
+    }
+   },
+   "by_market_type": {
+    "1H:total": {
+     "n": 1,
+     "win_rate": 0.0,
+     "mean_price": 0.01,
+     "mean_fee": 0.0007,
+     "mean_pnl": -0.0107,
+     "total_pnl": -0.0107
+    },
+    "1H:winner": {
+     "n": 1,
+     "win_rate": 0.0,
+     "mean_price": 0.02,
+     "mean_fee": 0.0014,
+     "mean_pnl": -0.0214,
+     "total_pnl": -0.0214
+    },
+    "1Q:winner": {
+     "n": 2,
+     "win_rate": 0.0,
+     "mean_price": 0.04,
+     "mean_fee": 0.00265,
+     "mean_pnl": -0.04265,
+     "total_pnl": -0.0853
+    },
+    "2H:total": {
+     "n": 2,
+     "win_rate": 0.0,
+     "mean_price": 0.05,
+     "mean_fee": 0.0034000000000000002,
+     "mean_pnl": -0.0534,
+     "total_pnl": -0.1068
+    },
+    "3Q:total": {
+     "n": 1,
+     "win_rate": 1.0,
+     "mean_price": 0.05,
+     "mean_fee": 0.0034000000000000002,
+     "mean_pnl": 0.9466,
+     "total_pnl": 0.9466
+    },
+    "3Q:winner": {
+     "n": 1,
+     "win_rate": 0.0,
+     "mean_price": 0.01,
+     "mean_fee": 0.0007,
+     "mean_pnl": -0.0107,
+     "total_pnl": -0.0107
+    },
+    "4Q:spread": {
+     "n": 1,
+     "win_rate": 0.0,
+     "mean_price": 0.01,
+     "mean_fee": 0.0007,
+     "mean_pnl": -0.0107,
+     "total_pnl": -0.0107
+    },
+    "4Q:total": {
+     "n": 1,
+     "win_rate": 0.0,
+     "mean_price": 0.04,
+     "mean_fee": 0.0027,
+     "mean_pnl": -0.0427,
+     "total_pnl": -0.0427
+    },
+    "moneyline": {
+     "n": 3,
+     "win_rate": 0.3333333333333333,
+     "mean_price": 0.4033333333333333,
+     "mean_fee": 0.0168,
+     "mean_pnl": -0.08679999999999999,
+     "total_pnl": -0.26039999999999996
+    },
+    "prop": {
+     "n": 3,
+     "win_rate": 0.3333333333333333,
+     "mean_price": 0.023333333333333334,
+     "mean_fee": 0.0016333333333333332,
+     "mean_pnl": 0.3083666666666667,
+     "total_pnl": 0.9251
+    },
+    "spread": {
+     "n": 8,
+     "win_rate": 0.0,
+     "mean_price": 0.06375,
+     "mean_fee": 0.004025,
+     "mean_pnl": -0.067775,
+     "total_pnl": -0.5422
+    },
+    "teamtotal": {
+     "n": 5,
+     "win_rate": 0.0,
+     "mean_price": 0.012,
+     "mean_fee": 0.0008399999999999999,
+     "mean_pnl": -0.012839999999999999,
+     "total_pnl": -0.0642
+    },
+    "total": {
+     "n": 2,
+     "win_rate": 0.0,
+     "mean_price": 0.04,
+     "mean_fee": 0.00265,
+     "mean_pnl": -0.04265,
+     "total_pnl": -0.0853
+    }
+   },
+   "by_kind": {
+    "ladder": {
+     "n": 24,
+     "win_rate": 0.08333333333333333,
+     "mean_price": 0.03875,
+     "mean_fee": 0.0025375000000000003,
+     "mean_pnl": 0.04204583333333333,
+     "total_pnl": 1.0090999999999999
+    },
+    "me_no": {
+     "n": 7,
+     "win_rate": 0.14285714285714285,
+     "mean_price": 0.18857142857142858,
+     "mean_fee": 0.008257142857142857,
+     "mean_pnl": -0.053971428571428566,
+     "total_pnl": -0.37779999999999997
+    }
+   },
+   "by_phase": {
+    "in": {
+     "n": 31,
+     "win_rate": 0.0967741935483871,
+     "mean_price": 0.07258064516129033,
+     "mean_fee": 0.003829032258064516,
+     "mean_pnl": 0.020364516129032256,
+     "total_pnl": 0.6313
+    }
+   },
+   "fills_per_game": {
+    "26OCT20BOSDET": 13,
+    "26OCT20PHINYK": 11,
+    "26OCT20OKCSAS": 7
+   },
+   "lock_events_per_game": {
+    "26OCT20BOSDET": 17,
+    "26OCT20PHINYK": 14,
+    "26OCT20OKCSAS": 12
+   }
+  },
+  "cheapest-L40": {
+   "overall": {
+    "games": 3,
+    "lock_events": 44,
+    "refire_skipped": 6,
+    "fills": 21,
+    "misses": 23,
+    "fill_rate": 0.4772727272727273,
+    "settled_fills": 21,
+    "unsettled_excluded": 0,
+    "void_excluded": 0,
+    "mean_pnl_per_fill": 0.06971428571428571,
+    "win_rate": 0.14285714285714285,
+    "mean_price": 0.06952380952380952,
+    "mean_fee": 0.003619047619047619,
+    "total_pnl": 1.464,
+    "pnl_per_game": 0.488,
+    "dollars_per_week": 24.4,
+    "miss_reasons": {
+     "price_moved": 23
+    },
+    "bootstrap": {
+     "draws": 10000,
+     "seed": 20261021,
+     "ci_mean_per_fill": [
+      -0.07370000000000002,
+      0.47594999999999993
+     ],
+     "ci_mean_per_game": [
+      -0.6633000000000001,
+      1.9037999999999997
+     ]
+    },
+    "coin_flip": {
+     "n": 21,
+     "matched": 21,
+     "no_candidate": 0,
+     "real_mean_matched": 0.06971428571428573,
+     "coin_mean": -0.01676825714285714,
+     "coin_p5": -0.07308285714285714,
+     "coin_p95": 0.07021428571428572,
+     "share_ge_real": 0.054,
+     "copies": 500,
+     "seed": 20261021
+    }
+   },
+   "by_price_bucket": {
+    "1-2c": {
+     "n": 12,
+     "win_rate": 0.08333333333333333,
+     "mean_price": 0.013333333333333334,
+     "mean_fee": 0.0009333333333333333,
+     "mean_pnl": 0.06906666666666667,
+     "total_pnl": 0.8288
+    },
+    "11-25c": {
+     "n": 1,
+     "win_rate": 0.0,
+     "mean_price": 0.11,
+     "mean_fee": 0.006900000000000001,
+     "mean_pnl": -0.1169,
+     "total_pnl": -0.1169
+    },
+    "26-50c": {
+     "n": 2,
+     "win_rate": 0.5,
+     "mean_price": 0.41500000000000004,
+     "mean_fee": 0.01695,
+     "mean_pnl": 0.06805000000000003,
+     "total_pnl": 0.13610000000000005
+    },
+    "3-5c": {
+     "n": 3,
+     "win_rate": 0.3333333333333333,
+     "mean_price": 0.05000000000000001,
+     "mean_fee": 0.0034000000000000002,
+     "mean_pnl": 0.2799333333333333,
+     "total_pnl": 0.8398
+    },
+    "6-10c": {
+     "n": 3,
+     "win_rate": 0.0,
+     "mean_price": 0.07,
+     "mean_fee": 0.0046,
+     "mean_pnl": -0.0746,
+     "total_pnl": -0.2238
+    }
+   },
+   "by_market_type": {
+    "1H:total": {
+     "n": 1,
+     "win_rate": 0.0,
+     "mean_price": 0.01,
+     "mean_fee": 0.0007,
+     "mean_pnl": -0.0107,
+     "total_pnl": -0.0107
+    },
+    "1H:winner": {
+     "n": 1,
+     "win_rate": 0.0,
+     "mean_price": 0.02,
+     "mean_fee": 0.0014,
+     "mean_pnl": -0.0214,
+     "total_pnl": -0.0214
+    },
+    "1Q:winner": {
+     "n": 2,
+     "win_rate": 0.0,
+     "mean_price": 0.04,
+     "mean_fee": 0.00265,
+     "mean_pnl": -0.04265,
+     "total_pnl": -0.0853
+    },
+    "2H:total": {
+     "n": 2,
+     "win_rate": 0.0,
+     "mean_price": 0.05,
+     "mean_fee": 0.0034000000000000002,
+     "mean_pnl": -0.0534,
+     "total_pnl": -0.1068
+    },
+    "3Q:total": {
+     "n": 1,
+     "win_rate": 1.0,
+     "mean_price": 0.05,
+     "mean_fee": 0.0034000000000000002,
+     "mean_pnl": 0.9466,
+     "total_pnl": 0.9466
+    },
+    "3Q:winner": {
+     "n": 1,
+     "win_rate": 0.0,
+     "mean_price": 0.01,
+     "mean_fee": 0.0007,
+     "mean_pnl": -0.0107,
+     "total_pnl": -0.0107
+    },
+    "4Q:spread": {
+     "n": 1,
+     "win_rate": 0.0,
+     "mean_price": 0.01,
+     "mean_fee": 0.0007,
+     "mean_pnl": -0.0107,
+     "total_pnl": -0.0107
+    },
+    "moneyline": {
+     "n": 2,
+     "win_rate": 0.5,
+     "mean_price": 0.41500000000000004,
+     "mean_fee": 0.01695,
+     "mean_pnl": 0.06805000000000003,
+     "total_pnl": 0.13610000000000005
+    },
+    "prop": {
+     "n": 2,
+     "win_rate": 0.5,
+     "mean_price": 0.02,
+     "mean_fee": 0.0014,
+     "mean_pnl": 0.4786,
+     "total_pnl": 0.9572
+    },
+    "spread": {
+     "n": 1,
+     "win_rate": 0.0,
+     "mean_price": 0.11,
+     "mean_fee": 0.006900000000000001,
+     "mean_pnl": -0.1169,
+     "total_pnl": -0.1169
+    },
+    "teamtotal": {
+     "n": 5,
+     "win_rate": 0.0,
+     "mean_price": 0.012,
+     "mean_fee": 0.0008399999999999999,
+     "mean_pnl": -0.012839999999999999,
+     "total_pnl": -0.0642
+    },
+    "total": {
+     "n": 2,
+     "win_rate": 0.0,
+     "mean_price": 0.07,
+     "mean_fee": 0.0046,
+     "mean_pnl": -0.0746,
+     "total_pnl": -0.1492
+    }
+   },
+   "by_kind": {
+    "ladder": {
+     "n": 15,
+     "win_rate": 0.13333333333333333,
+     "mean_price": 0.034666666666666665,
+     "mean_fee": 0.0023133333333333335,
+     "mean_pnl": 0.09635333333333333,
+     "total_pnl": 1.4453
+    },
+    "me_no": {
+     "n": 6,
+     "win_rate": 0.16666666666666666,
+     "mean_price": 0.15666666666666668,
+     "mean_fee": 0.006883333333333334,
+     "mean_pnl": 0.003116666666666676,
+     "total_pnl": 0.018700000000000057
+    }
+   },
+   "by_phase": {
+    "in": {
+     "n": 21,
+     "win_rate": 0.14285714285714285,
+     "mean_price": 0.06952380952380952,
+     "mean_fee": 0.003619047619047619,
+     "mean_pnl": 0.06971428571428571,
+     "total_pnl": 1.464
+    }
+   },
+   "fills_per_game": {
+    "26OCT20BOSDET": 8,
+    "26OCT20PHINYK": 9,
+    "26OCT20OKCSAS": 4
+   },
+   "lock_events_per_game": {
+    "26OCT20BOSDET": 18,
+    "26OCT20PHINYK": 14,
+    "26OCT20OKCSAS": 12
+   }
+  },
+  "stale-L10": {
+   "overall": {
+    "games": 3,
+    "lock_events": 47,
+    "refire_skipped": 3,
+    "fills": 20,
+    "misses": 27,
+    "fill_rate": 0.425531914893617,
+    "settled_fills": 20,
+    "unsettled_excluded": 0,
+    "void_excluded": 0,
+    "mean_pnl_per_fill": 0.032925,
+    "win_rate": 0.6,
+    "mean_price": 0.561,
+    "mean_fee": 0.0060750000000000005,
+    "total_pnl": 0.6585000000000001,
+    "pnl_per_game": 0.21950000000000003,
+    "dollars_per_week": 10.975000000000001,
+    "miss_reasons": {
+     "price_moved": 24,
+     "no_quote": 3
+    },
+    "bootstrap": {
+     "draws": 10000,
+     "seed": 20261021,
+     "ci_mean_per_fill": [
+      0.009966666666666676,
+      0.052833333333333336
+     ],
+     "ci_mean_per_game": [
+      0.08970000000000007,
+      0.47550000000000003
+     ]
+    },
+    "coin_flip": {
+     "n": 20,
+     "matched": 20,
+     "no_candidate": 0,
+     "real_mean_matched": 0.032925,
+     "coin_mean": -0.05893469999999999,
+     "coin_p5": -0.168587,
+     "coin_p95": 0.08228075000000004,
+     "share_ge_real": 0.134,
+     "copies": 500,
+     "seed": 20261021
+    }
+   },
+   "by_price_bucket": {
+    "1-2c": {
+     "n": 2,
+     "win_rate": 0.0,
+     "mean_price": 0.015,
+     "mean_fee": 0.00105,
+     "mean_pnl": -0.01605,
+     "total_pnl": -0.0321
+    },
+    "11-25c": {
+     "n": 2,
+     "win_rate": 0.0,
+     "mean_price": 0.14,
+     "mean_fee": 0.0085,
+     "mean_pnl": -0.14850000000000002,
+     "total_pnl": -0.29700000000000004
+    },
+    "26-50c": {
+     "n": 2,
+     "win_rate": 0.5,
+     "mean_price": 0.41500000000000004,
+     "mean_fee": 0.01695,
+     "mean_pnl": 0.06805000000000003,
+     "total_pnl": 0.13610000000000005
+    },
+    "3-5c": {
+     "n": 2,
+     "win_rate": 0.0,
+     "mean_price": 0.05,
+     "mean_fee": 0.0034000000000000002,
+     "mean_pnl": -0.0534,
+     "total_pnl": -0.1068
+    },
+    "6-10c": {
+     "n": 1,
+     "win_rate": 0.0,
+     "mean_price": 0.07,
+     "mean_fee": 0.0046,
+     "mean_pnl": -0.0746,
+     "total_pnl": -0.0746
+    },
+    ">50c": {
+     "n": 11,
+     "win_rate": 1.0,
+     "mean_price": 0.9009090909090909,
+     "mean_fee": 0.0051909090909090915,
+     "mean_pnl": 0.09390000000000001,
+     "total_pnl": 1.0329000000000002
+    }
+   },
+   "by_market_type": {
+    "1Q:winner": {
+     "n": 2,
+     "win_rate": 0.5,
+     "mean_price": 0.53,
+     "mean_fee": 0.00265,
+     "mean_pnl": -0.03265,
+     "total_pnl": -0.0653
+    },
+    "2H:total": {
+     "n": 3,
+     "win_rate": 0.3333333333333333,
+     "mean_price": 0.3566666666666667,
+     "mean_fee": 0.0029666666666666674,
+     "mean_pnl": -0.026299999999999994,
+     "total_pnl": -0.07889999999999998
+    },
+    "2Q:winner": {
+     "n": 1,
+     "win_rate": 1.0,
+     "mean_price": 0.99,
+     "mean_fee": 0.0007,
+     "mean_pnl": 0.00930000000000001,
+     "total_pnl": 0.00930000000000001
+    },
+    "3Q:total": {
+     "n": 1,
+     "win_rate": 1.0,
+     "mean_price": 0.93,
+     "mean_fee": 0.0046,
+     "mean_pnl": 0.06539999999999996,
+     "total_pnl": 0.06539999999999996
+    },
+    "4Q:winner": {
+     "n": 1,
+     "win_rate": 1.0,
+     "mean_price": 0.98,
+     "mean_fee": 0.0014,
+     "mean_pnl": 0.01860000000000002,
+     "total_pnl": 0.01860000000000002
+    },
+    "moneyline": {
+     "n": 3,
+     "win_rate": 0.6666666666666666,
+     "mean_price": 0.4666666666666666,
+     "mean_fee": 0.017033333333333334,
+     "mean_pnl": 0.18296666666666672,
+     "total_pnl": 0.5489000000000002
+    },
+    "spread": {
+     "n": 4,
+     "win_rate": 0.5,
+     "mean_price": 0.54,
+     "mean_fee": 0.0062250000000000005,
+     "mean_pnl": -0.04622500000000001,
+     "total_pnl": -0.18490000000000004
+    },
+    "teamtotal": {
+     "n": 1,
+     "win_rate": 0.0,
+     "mean_price": 0.02,
+     "mean_fee": 0.0014,
+     "mean_pnl": -0.0214,
+     "total_pnl": -0.0214
+    },
+    "total": {
+     "n": 4,
+     "win_rate": 0.75,
+     "mean_price": 0.6525,
+     "mean_fee": 0.0058000000000000005,
+     "mean_pnl": 0.0917,
+     "total_pnl": 0.3668
+    }
+   },
+   "by_kind": {
+    "ladder": {
+     "n": 13,
+     "win_rate": 0.5384615384615384,
+     "mean_price": 0.5223076923076924,
+     "mean_fee": 0.004846153846153846,
+     "mean_pnl": 0.011307692307692303,
+     "total_pnl": 0.14699999999999994
+    },
+    "me_no": {
+     "n": 7,
+     "win_rate": 0.7142857142857143,
+     "mean_price": 0.6328571428571428,
+     "mean_fee": 0.008357142857142858,
+     "mean_pnl": 0.07307142857142859,
+     "total_pnl": 0.5115000000000002
+    }
+   },
+   "by_phase": {
+    "in": {
+     "n": 20,
+     "win_rate": 0.6,
+     "mean_price": 0.561,
+     "mean_fee": 0.0060750000000000005,
+     "mean_pnl": 0.032925,
+     "total_pnl": 0.6585000000000001
+    }
+   },
+   "fills_per_game": {
+    "26OCT20BOSDET": 9,
+    "26OCT20PHINYK": 9,
+    "26OCT20OKCSAS": 2
+   },
+   "lock_events_per_game": {
+    "26OCT20BOSDET": 18,
+    "26OCT20PHINYK": 17,
+    "26OCT20OKCSAS": 12
+   }
+  },
+  "stale-L40": {
+   "overall": {
+    "games": 3,
+    "lock_events": 49,
+    "refire_skipped": 1,
+    "fills": 9,
+    "misses": 40,
+    "fill_rate": 0.1836734693877551,
+    "settled_fills": 9,
+    "unsettled_excluded": 0,
+    "void_excluded": 0,
+    "mean_pnl_per_fill": 0.06594444444444446,
+    "win_rate": 0.4444444444444444,
+    "mean_price": 0.3733333333333333,
+    "mean_fee": 0.005166666666666667,
+    "total_pnl": 0.5935000000000001,
+    "pnl_per_game": 0.1978333333333334,
+    "dollars_per_week": 9.89166666666667,
+    "miss_reasons": {
+     "price_moved": 34,
+     "no_quote": 6
+    },
+    "bootstrap": {
+     "draws": 10000,
+     "seed": 20261021,
+     "ci_mean_per_fill": [
+      -0.016724999999999993,
+      0.13208000000000003
+     ],
+     "ci_mean_per_game": [
+      -0.06689999999999997,
+      0.6604000000000001
+     ]
+    },
+    "coin_flip": {
+     "n": 9,
+     "matched": 9,
+     "no_candidate": 0,
+     "real_mean_matched": 0.06594444444444444,
+     "coin_mean": -0.046187866666666653,
+     "coin_p5": -0.15855777777777774,
+     "coin_p95": 0.07058388888888885,
+     "share_ge_real": 0.202,
+     "copies": 500,
+     "seed": 20261021
+    }
+   },
+   "by_price_bucket": {
+    "1-2c": {
+     "n": 2,
+     "win_rate": 0.0,
+     "mean_price": 0.015,
+     "mean_fee": 0.00105,
+     "mean_pnl": -0.01605,
+     "total_pnl": -0.0321
+    },
+    "26-50c": {
+     "n": 1,
+     "win_rate": 1.0,
+     "mean_price": 0.45,
+     "mean_fee": 0.017400000000000002,
+     "mean_pnl": 0.5326000000000001,
+     "total_pnl": 0.5326000000000001
+    },
+    "3-5c": {
+     "n": 2,
+     "win_rate": 0.0,
+     "mean_price": 0.05,
+     "mean_fee": 0.0034000000000000002,
+     "mean_pnl": -0.0534,
+     "total_pnl": -0.1068
+    },
+    "6-10c": {
+     "n": 1,
+     "win_rate": 0.0,
+     "mean_price": 0.07,
+     "mean_fee": 0.0046,
+     "mean_pnl": -0.0746,
+     "total_pnl": -0.0746
+    },
+    ">50c": {
+     "n": 3,
+     "win_rate": 1.0,
+     "mean_price": 0.9033333333333333,
+     "mean_fee": 0.0052,
+     "mean_pnl": 0.09146666666666668,
+     "total_pnl": 0.27440000000000003
+    }
+   },
+   "by_market_type": {
+    "1Q:winner": {
+     "n": 1,
+     "win_rate": 0.0,
+     "mean_price": 0.07,
+     "mean_fee": 0.0046,
+     "mean_pnl": -0.0746,
+     "total_pnl": -0.0746
+    },
+    "2H:total": {
+     "n": 2,
+     "win_rate": 0.0,
+     "mean_price": 0.05,
+     "mean_fee": 0.0034000000000000002,
+     "mean_pnl": -0.0534,
+     "total_pnl": -0.1068
+    },
+    "2Q:winner": {
+     "n": 1,
+     "win_rate": 1.0,
+     "mean_price": 0.99,
+     "mean_fee": 0.0007,
+     "mean_pnl": 0.00930000000000001,
+     "total_pnl": 0.00930000000000001
+    },
+    "4Q:winner": {
+     "n": 1,
+     "win_rate": 1.0,
+     "mean_price": 0.98,
+     "mean_fee": 0.0014,
+     "mean_pnl": 0.01860000000000002,
+     "total_pnl": 0.01860000000000002
+    },
+    "moneyline": {
+     "n": 1,
+     "win_rate": 1.0,
+     "mean_price": 0.45,
+     "mean_fee": 0.017400000000000002,
+     "mean_pnl": 0.5326000000000001,
+     "total_pnl": 0.5326000000000001
+    },
+    "teamtotal": {
+     "n": 1,
+     "win_rate": 0.0,
+     "mean_price": 0.02,
+     "mean_fee": 0.0014,
+     "mean_pnl": -0.0214,
+     "total_pnl": -0.0214
+    },
+    "total": {
+     "n": 2,
+     "win_rate": 0.5,
+     "mean_price": 0.375,
+     "mean_fee": 0.0070999999999999995,
+     "mean_pnl": 0.1179,
+     "total_pnl": 0.2358
+    }
+   },
+   "by_kind": {
+    "ladder": {
+     "n": 5,
+     "win_rate": 0.2,
+     "mean_price": 0.174,
+     "mean_fee": 0.00448,
+     "mean_pnl": 0.021519999999999997,
+     "total_pnl": 0.10759999999999999
+    },
+    "me_no": {
+     "n": 4,
+     "win_rate": 0.75,
+     "mean_price": 0.6225,
+     "mean_fee": 0.006025000000000001,
+     "mean_pnl": 0.12147500000000003,
+     "total_pnl": 0.4859000000000001
+    }
+   },
+   "by_phase": {
+    "in": {
+     "n": 9,
+     "win_rate": 0.4444444444444444,
+     "mean_price": 0.3733333333333333,
+     "mean_fee": 0.005166666666666667,
+     "mean_pnl": 0.06594444444444446,
+     "total_pnl": 0.5935000000000001
+    }
+   },
+   "fills_per_game": {
+    "26OCT20BOSDET": 5,
+    "26OCT20PHINYK": 4,
+    "26OCT20OKCSAS": 0
+   },
+   "lock_events_per_game": {
+    "26OCT20BOSDET": 19,
+    "26OCT20PHINYK": 18,
+    "26OCT20OKCSAS": 12
+   }
+  },
+  "trigger-L10": {
+   "overall": {
+    "games": 3,
+    "lock_events": 46,
+    "refire_skipped": 4,
+    "fills": 29,
+    "misses": 17,
+    "fill_rate": 0.6304347826086957,
+    "settled_fills": 29,
+    "unsettled_excluded": 0,
+    "void_excluded": 0,
+    "mean_pnl_per_fill": 0.050231034482758626,
+    "win_rate": 0.2413793103448276,
+    "mean_price": 0.18689655172413794,
+    "mean_fee": 0.004251724137931035,
+    "total_pnl": 1.4567,
+    "pnl_per_game": 0.4855666666666667,
+    "dollars_per_week": 24.278333333333336,
+    "miss_reasons": {
+     "price_moved": 16,
+     "no_quote": 1
+    },
+    "bootstrap": {
+     "draws": 10000,
+     "seed": 20261021,
+     "ci_mean_per_fill": [
+      -0.017507692307692304,
+      0.26127142857142854
+     ],
+     "ci_mean_per_game": [
+      -0.22759999999999994,
+      1.8288999999999997
+     ]
+    },
+    "coin_flip": {
+     "n": 29,
+     "matched": 29,
+     "no_candidate": 0,
+     "real_mean_matched": 0.05023103448275862,
+     "coin_mean": -0.044753951724137916,
+     "coin_p5": -0.12067655172413787,
+     "coin_p95": 0.05051706896551724,
+     "share_ge_real": 0.052,
+     "copies": 500,
+     "seed": 20261021
+    }
+   },
+   "by_price_bucket": {
+    "1-2c": {
+     "n": 16,
+     "win_rate": 0.0625,
+     "mean_price": 0.01375,
+     "mean_fee": 0.0009625,
+     "mean_pnl": 0.047787500000000004,
+     "total_pnl": 0.7646000000000001
+    },
+    "11-25c": {
+     "n": 1,
+     "win_rate": 0.0,
+     "mean_price": 0.11,
+     "mean_fee": 0.006900000000000001,
+     "mean_pnl": -0.1169,
+     "total_pnl": -0.1169
+    },
+    "26-50c": {
+     "n": 2,
+     "win_rate": 0.0,
+     "mean_price": 0.425,
+     "mean_fee": 0.017,
+     "mean_pnl": -0.442,
+     "total_pnl": -0.884
+    },
+    "3-5c": {
+     "n": 4,
+     "win_rate": 0.25,
+     "mean_price": 0.0425,
+     "mean_fee": 0.0029000000000000002,
+     "mean_pnl": 0.2046,
+     "total_pnl": 0.8184
+    },
+    "6-10c": {
+     "n": 1,
+     "win_rate": 0.0,
+     "mean_price": 0.07,
+     "mean_fee": 0.0046,
+     "mean_pnl": -0.0746,
+     "total_pnl": -0.0746
+    },
+    ">50c": {
+     "n": 5,
+     "win_rate": 1.0,
+     "mean_price": 0.8,
+     "mean_fee": 0.010159999999999999,
+     "mean_pnl": 0.18984,
+     "total_pnl": 0.9492
+    }
+   },
+   "by_market_type": {
+    "1H:total": {
+     "n": 1,
+     "win_rate": 0.0,
+     "mean_price": 0.01,
+     "mean_fee": 0.0007,
+     "mean_pnl": -0.0107,
+     "total_pnl": -0.0107
+    },
+    "1H:winner": {
+     "n": 1,
+     "win_rate": 0.0,
+     "mean_price": 0.02,
+     "mean_fee": 0.0014,
+     "mean_pnl": -0.0214,
+     "total_pnl": -0.0214
+    },
+    "1Q:winner": {
+     "n": 2,
+     "win_rate": 0.5,
+     "mean_price": 0.445,
+     "mean_fee": 0.00405,
+     "mean_pnl": 0.050949999999999995,
+     "total_pnl": 0.10189999999999999
+    },
+    "3Q:total": {
+     "n": 1,
+     "win_rate": 1.0,
+     "mean_price": 0.05,
+     "mean_fee": 0.0034000000000000002,
+     "mean_pnl": 0.9466,
+     "total_pnl": 0.9466
+    },
+    "3Q:winner": {
+     "n": 1,
+     "win_rate": 0.0,
+     "mean_price": 0.01,
+     "mean_fee": 0.0007,
+     "mean_pnl": -0.0107,
+     "total_pnl": -0.0107
+    },
+    "4Q:spread": {
+     "n": 1,
+     "win_rate": 0.0,
+     "mean_price": 0.01,
+     "mean_fee": 0.0007,
+     "mean_pnl": -0.0107,
+     "total_pnl": -0.0107
+    },
+    "4Q:total": {
+     "n": 1,
+     "win_rate": 0.0,
+     "mean_price": 0.04,
+     "mean_fee": 0.0027,
+     "mean_pnl": -0.0427,
+     "total_pnl": -0.0427
+    },
+    "moneyline": {
+     "n": 3,
+     "win_rate": 0.3333333333333333,
+     "mean_price": 0.47000000000000003,
+     "mean_fee": 0.0171,
+     "mean_pnl": -0.1537666666666667,
+     "total_pnl": -0.46130000000000004
+    },
+    "prop": {
+     "n": 3,
+     "win_rate": 0.3333333333333333,
+     "mean_price": 0.023333333333333334,
+     "mean_fee": 0.0016333333333333332,
+     "mean_pnl": 0.3083666666666667,
+     "total_pnl": 0.9251
+    },
+    "spread": {
+     "n": 9,
+     "win_rate": 0.3333333333333333,
+     "mean_price": 0.31,
+     "mean_fee": 0.004588888888888889,
+     "mean_pnl": 0.018744444444444452,
+     "total_pnl": 0.16870000000000007
+    },
+    "teamtotal": {
+     "n": 4,
+     "win_rate": 0.0,
+     "mean_price": 0.01,
+     "mean_fee": 0.0007,
+     "mean_pnl": -0.0107,
+     "total_pnl": -0.0428
+    },
+    "total": {
+     "n": 2,
+     "win_rate": 0.0,
+     "mean_price": 0.04,
+     "mean_fee": 0.00265,
+     "mean_pnl": -0.04265,
+     "total_pnl": -0.0853
+    }
+   },
+   "by_kind": {
+    "ladder": {
+     "n": 22,
+     "win_rate": 0.22727272727272727,
+     "mean_price": 0.14045454545454544,
+     "mean_fee": 0.002809090909090909,
+     "mean_pnl": 0.08400909090909091,
+     "total_pnl": 1.8482
+    },
+    "me_no": {
+     "n": 7,
+     "win_rate": 0.2857142857142857,
+     "mean_price": 0.33285714285714285,
+     "mean_fee": 0.008785714285714286,
+     "mean_pnl": -0.05592857142857144,
+     "total_pnl": -0.39150000000000007
+    }
+   },
+   "by_phase": {
+    "in": {
+     "n": 29,
+     "win_rate": 0.2413793103448276,
+     "mean_price": 0.18689655172413794,
+     "mean_fee": 0.004251724137931035,
+     "mean_pnl": 0.050231034482758626,
+     "total_pnl": 1.4567
+    }
+   },
+   "fills_per_game": {
+    "26OCT20BOSDET": 13,
+    "26OCT20PHINYK": 9,
+    "26OCT20OKCSAS": 7
+   },
+   "lock_events_per_game": {
+    "26OCT20BOSDET": 18,
+    "26OCT20PHINYK": 16,
+    "26OCT20OKCSAS": 12
+   }
+  },
+  "trigger-L40": {
+   "overall": {
+    "games": 3,
+    "lock_events": 47,
+    "refire_skipped": 3,
+    "fills": 20,
+    "misses": 27,
+    "fill_rate": 0.425531914893617,
+    "settled_fills": 20,
+    "unsettled_excluded": 0,
+    "void_excluded": 0,
+    "mean_pnl_per_fill": 0.06616,
+    "win_rate": 0.25,
+    "mean_price": 0.179,
+    "mean_fee": 0.00484,
+    "total_pnl": 1.3232,
+    "pnl_per_game": 0.44106666666666666,
+    "dollars_per_week": 22.053333333333335,
+    "miss_reasons": {
+     "price_moved": 26,
+     "no_quote": 1
+    },
+    "bootstrap": {
+     "draws": 10000,
+     "seed": 20261021,
+     "ci_mean_per_fill": [
+      -0.051849999999999986,
+      0.47594999999999993
+     ],
+     "ci_mean_per_game": [
+      -0.4147999999999999,
+      1.9037999999999997
+     ]
+    },
+    "coin_flip": {
+     "n": 20,
+     "matched": 20,
+     "no_candidate": 0,
+     "real_mean_matched": 0.06616,
+     "coin_mean": -0.03890694999999999,
+     "coin_p5": -0.13334374999999998,
+     "coin_p95": 0.06619225,
+     "share_ge_real": 0.052,
+     "copies": 500,
+     "seed": 20261021
+    }
+   },
+   "by_price_bucket": {
+    "1-2c": {
+     "n": 11,
+     "win_rate": 0.09090909090909091,
+     "mean_price": 0.012727272727272728,
+     "mean_fee": 0.0008909090909090909,
+     "mean_pnl": 0.07729090909090909,
+     "total_pnl": 0.8502000000000001
+    },
+    "11-25c": {
+     "n": 1,
+     "win_rate": 0.0,
+     "mean_price": 0.11,
+     "mean_fee": 0.006900000000000001,
+     "mean_pnl": -0.1169,
+     "total_pnl": -0.1169
+    },
+    "26-50c": {
+     "n": 2,
+     "win_rate": 0.0,
+     "mean_price": 0.425,
+     "mean_fee": 0.017,
+     "mean_pnl": -0.442,
+     "total_pnl": -0.884
+    },
+    "3-5c": {
+     "n": 1,
+     "win_rate": 1.0,
+     "mean_price": 0.05,
+     "mean_fee": 0.0034000000000000002,
+     "mean_pnl": 0.9466,
+     "total_pnl": 0.9466
+    },
+    "6-10c": {
+     "n": 2,
+     "win_rate": 0.0,
+     "mean_price": 0.07,
+     "mean_fee": 0.0046,
+     "mean_pnl": -0.0746,
+     "total_pnl": -0.1492
+    },
+    ">50c": {
+     "n": 3,
+     "win_rate": 1.0,
+     "mean_price": 0.7633333333333333,
+     "mean_fee": 0.011166666666666667,
+     "mean_pnl": 0.2255,
+     "total_pnl": 0.6765
+    }
+   },
+   "by_market_type": {
+    "1H:total": {
+     "n": 1,
+     "win_rate": 0.0,
+     "mean_price": 0.01,
+     "mean_fee": 0.0007,
+     "mean_pnl": -0.0107,
+     "total_pnl": -0.0107
+    },
+    "1H:winner": {
+     "n": 1,
+     "win_rate": 0.0,
+     "mean_price": 0.02,
+     "mean_fee": 0.0014,
+     "mean_pnl": -0.0214,
+     "total_pnl": -0.0214
+    },
+    "1Q:winner": {
+     "n": 1,
+     "win_rate": 0.0,
+     "mean_price": 0.01,
+     "mean_fee": 0.0007,
+     "mean_pnl": -0.0107,
+     "total_pnl": -0.0107
+    },
+    "3Q:total": {
+     "n": 1,
+     "win_rate": 1.0,
+     "mean_price": 0.05,
+     "mean_fee": 0.0034000000000000002,
+     "mean_pnl": 0.9466,
+     "total_pnl": 0.9466
+    },
+    "3Q:winner": {
+     "n": 1,
+     "win_rate": 0.0,
+     "mean_price": 0.01,
+     "mean_fee": 0.0007,
+     "mean_pnl": -0.0107,
+     "total_pnl": -0.0107
+    },
+    "4Q:spread": {
+     "n": 1,
+     "win_rate": 0.0,
+     "mean_price": 0.01,
+     "mean_fee": 0.0007,
+     "mean_pnl": -0.0107,
+     "total_pnl": -0.0107
+    },
+    "moneyline": {
+     "n": 3,
+     "win_rate": 0.3333333333333333,
+     "mean_price": 0.47000000000000003,
+     "mean_fee": 0.0171,
+     "mean_pnl": -0.1537666666666667,
+     "total_pnl": -0.46130000000000004
+    },
+    "prop": {
+     "n": 2,
+     "win_rate": 0.5,
+     "mean_price": 0.02,
+     "mean_fee": 0.0014,
+     "mean_pnl": 0.4786,
+     "total_pnl": 0.9572
+    },
+    "spread": {
+     "n": 3,
+     "win_rate": 0.6666666666666666,
+     "mean_price": 0.6133333333333334,
+     "mean_fee": 0.007700000000000001,
+     "mean_pnl": 0.04563333333333334,
+     "total_pnl": 0.13690000000000002
+    },
+    "teamtotal": {
+     "n": 4,
+     "win_rate": 0.0,
+     "mean_price": 0.01,
+     "mean_fee": 0.0007,
+     "mean_pnl": -0.0107,
+     "total_pnl": -0.0428
+    },
+    "total": {
+     "n": 2,
+     "win_rate": 0.0,
+     "mean_price": 0.07,
+     "mean_fee": 0.0046,
+     "mean_pnl": -0.0746,
+     "total_pnl": -0.1492
+    }
+   },
+   "by_kind": {
+    "ladder": {
+     "n": 14,
+     "win_rate": 0.2857142857142857,
+     "mean_price": 0.15214285714285714,
+     "mean_fee": 0.00305,
+     "mean_pnl": 0.1305214285714286,
+     "total_pnl": 1.8273000000000001
+    },
+    "me_no": {
+     "n": 6,
+     "win_rate": 0.16666666666666666,
+     "mean_price": 0.24166666666666667,
+     "mean_fee": 0.009016666666666668,
+     "mean_pnl": -0.08401666666666667,
+     "total_pnl": -0.5041
+    }
+   },
+   "by_phase": {
+    "in": {
+     "n": 20,
+     "win_rate": 0.25,
+     "mean_price": 0.179,
+     "mean_fee": 0.00484,
+     "mean_pnl": 0.06616,
+     "total_pnl": 1.3232
+    }
+   },
+   "fills_per_game": {
+    "26OCT20BOSDET": 8,
+    "26OCT20PHINYK": 8,
+    "26OCT20OKCSAS": 4
+   },
+   "lock_events_per_game": {
+    "26OCT20BOSDET": 19,
+    "26OCT20PHINYK": 16,
+    "26OCT20OKCSAS": 12
+   }
+  }
+ },
+ "pass_bar": {
+  "verdict": "source night (not counted)"
+ },
+ "live_fill_reproduction": [
+  {
+   "attempt_time": "2026-10-21T01:15:13.906Z",
+   "ticker": "KXNBA3Q-26OCT20PHINYK-PHI",
+   "side": "NO",
+   "live_price": 0.01,
+   "lock_kind": "me_no",
+   "lock_events_within_2s": 1,
+   "nearest_dt_ms": -64.3,
+   "was_cheapest_leg": true,
+   "sim_fill_L10": true,
+   "sim_fill_L40": true,
+   "nearest_lock_prices": [
+    0.98,
+    0.01,
+    0.98
+   ]
+  },
+  {
+   "attempt_time": "2026-10-21T01:56:45.049Z",
+   "ticker": "KXNBATOTAL-26OCT20PHINYK-217",
+   "side": "YES",
+   "live_price": 0.04,
+   "lock_kind": "ladder",
+   "lock_events_within_2s": 1,
+   "nearest_dt_ms": -1196.8,
+   "was_cheapest_leg": true,
+   "sim_fill_L10": false,
+   "sim_fill_L40": true,
+   "nearest_lock_prices": [
+    0.07,
+    0.9
+   ]
+  },
+  {
+   "attempt_time": "2026-10-21T01:57:21.123Z",
+   "ticker": "KXNBATEAMTOTAL-26OCT20PHINYK-PHI110",
+   "side": "YES",
+   "live_price": 0.02,
+   "lock_kind": "ladder",
+   "lock_events_within_2s": 1,
+   "nearest_dt_ms": -60.6,
+   "was_cheapest_leg": true,
+   "sim_fill_L10": true,
+   "sim_fill_L40": true,
+   "nearest_lock_prices": [
+    0.02,
+    0.94
+   ]
+  },
+  {
+   "attempt_time": "2026-10-21T02:00:06.171Z",
+   "ticker": "KXNBATOTAL-26OCT20PHINYK-207",
+   "side": "YES",
+   "live_price": 0.07,
+   "lock_kind": "ladder",
+   "lock_events_within_2s": 7,
+   "nearest_dt_ms": -57.2,
+   "was_cheapest_leg": true,
+   "sim_fill_L10": true,
+   "sim_fill_L40": true,
+   "nearest_lock_prices": [
+    0.07,
+    0.89
+   ]
+  },
+  {
+   "attempt_time": "2026-10-21T02:00:09.587Z",
+   "ticker": "KXNBATEAMTOTAL-26OCT20PHINYK-NYK101",
+   "side": "YES",
+   "live_price": 0.01,
+   "lock_kind": "ladder",
+   "lock_events_within_2s": 1,
+   "nearest_dt_ms": -13.4,
+   "was_cheapest_leg": true,
+   "sim_fill_L10": true,
+   "sim_fill_L40": true,
+   "nearest_lock_prices": [
+    0.01,
+    0.95
+   ]
+  },
+  {
+   "attempt_time": "2026-10-21T02:00:09.859Z",
+   "ticker": "KXNBA2HTOTAL-26OCT20PHINYK-95",
+   "side": "YES",
+   "live_price": 0.05,
+   "lock_kind": "ladder",
+   "lock_events_within_2s": 1,
+   "nearest_dt_ms": -34.0,
+   "was_cheapest_leg": true,
+   "sim_fill_L10": true,
+   "sim_fill_L40": true,
+   "nearest_lock_prices": [
+    0.05,
+    0.9
+   ]
+  },
+  {
+   "attempt_time": "2026-10-21T02:00:15.248Z",
+   "ticker": "KXNBA4QSPREAD-26OCT20PHINYK-NYK2",
+   "side": "YES",
+   "live_price": 0.01,
+   "lock_kind": "ladder",
+   "lock_events_within_2s": 1,
+   "nearest_dt_ms": -65.4,
+   "was_cheapest_leg": true,
+   "sim_fill_L10": true,
+   "sim_fill_L40": true,
+   "nearest_lock_prices": [
+    0.01,
+    0.97
+   ]
+  },
+  {
+   "attempt_time": "2026-10-21T02:03:46.977Z",
+   "ticker": "KXNBARACE-26OCT20OKCSAS-10-SAS",
+   "side": "NO",
+   "live_price": 0.02,
+   "lock_kind": "me_no",
+   "lock_events_within_2s": 0,
+   "nearest_dt_ms": null,
+   "was_cheapest_leg": null,
+   "sim_fill_L10": null,
+   "sim_fill_L40": null
+  },
+  {
+   "attempt_time": "2026-10-21T02:55:47.286Z",
+   "ticker": "KXNBA1HTOTAL-26OCT20OKCSAS-111",
+   "side": "YES",
+   "live_price": 0.01,
+   "lock_kind": "ladder",
+   "lock_events_within_2s": 2,
+   "nearest_dt_ms": -58.2,
+   "was_cheapest_leg": true,
+   "sim_fill_L10": true,
+   "sim_fill_L40": true,
+   "nearest_lock_prices": [
+    0.01,
+    0.95
+   ]
+  },
+  {
+   "attempt_time": "2026-10-21T03:48:04.308Z",
+   "ticker": "KXNBA3QTOTAL-26OCT20OKCSAS-63",
+   "side": "YES",
+   "live_price": 0.05,
+   "lock_kind": "ladder",
+   "lock_events_within_2s": 1,
+   "nearest_dt_ms": -108.3,
+   "was_cheapest_leg": true,
+   "sim_fill_L10": true,
+   "sim_fill_L40": true,
+   "nearest_lock_prices": [
+    0.05,
+    0.93
+   ]
+  },
+  {
+   "attempt_time": "2026-10-21T03:52:54.606Z",
+   "ticker": "KXNBAREB-26OCT20OKCSAS-SASJCHAMPAGNIE30-4",
+   "side": "YES",
+   "live_price": 0.04,
+   "lock_kind": "ladder",
+   "lock_events_within_2s": 0,
+   "nearest_dt_ms": null,
+   "was_cheapest_leg": null,
+   "sim_fill_L10": null,
+   "sim_fill_L40": null
+  },
+  {
+   "attempt_time": "2026-10-21T03:53:04.407Z",
+   "ticker": "KXNBAREB-26OCT20OKCSAS-OKCCHOLMGREN7-6",
+   "side": "YES",
+   "live_price": 0.02,
+   "lock_kind": "ladder",
+   "lock_events_within_2s": 1,
+   "nearest_dt_ms": -77.5,
+   "was_cheapest_leg": true,
+   "sim_fill_L10": true,
+   "sim_fill_L40": true,
+   "nearest_lock_prices": [
+    0.02,
+    0.96
+   ]
+  },
+  {
+   "attempt_time": "2026-10-21T04:21:24.495Z",
+   "ticker": "KXNBAPTS-26OCT20OKCSAS-SASDVASSELL24-10",
+   "side": "YES",
+   "live_price": 0.01,
+   "lock_kind": "ladder",
+   "lock_events_within_2s": 0,
+   "nearest_dt_ms": null,
+   "was_cheapest_leg": null,
+   "sim_fill_L10": null,
+   "sim_fill_L40": null
+  }
+ ]
+}

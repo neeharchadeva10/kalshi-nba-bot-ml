@@ -1,0 +1,1768 @@
+{
+ "n_box_games": 6605,
+ "feature_stats": {
+  "listed_Out": 49495,
+  "listed_nonavailable": 60603,
+  "no_window_games": 17088,
+  "unmatched_never_in_box_this_season": 4014,
+  "listed_Probable": 2608,
+  "listed_Questionable": 7580,
+  "listed_Available": 5484,
+  "listed_Doubtful": 920,
+  "value_zeroed_first5": 5205,
+  "season_rollovers": 4,
+  "unmatched_name_examples": {
+   "lonzoball": 168,
+   "nikolatopic": 106,
+   "jameswiseman": 104,
+   "danilogallinari": 102,
+   "jasonpreston": 98,
+   "thomassorber": 97,
+   "daronholmes": 96,
+   "dariosaric": 95,
+   "vlatkocancar": 94,
+   "zionwilliamson": 90,
+   "fredvanvleet": 88,
+   "damianlillard": 88,
+   "jamalmurray": 87,
+   "bensimmons": 86,
+   "damionlee": 86,
+   "kawhileonard": 84,
+   "chetholmgren": 84,
+   "ejliddell": 83,
+   "stevenadams": 83,
+   "kendricknunn": 82,
+   "tjwarren": 82,
+   "jonathanisaac": 82,
+   "collingillespie": 82,
+   "jaylenclark": 82,
+   "saddiqbey": 82
+  }
+ },
+ "versions": {
+  "full theta=2%": {
+   "train": {
+    "n": 2643,
+    "mean": -0.0028466190083950007,
+    "by_season": {
+     "2021-22": {
+      "n": 969,
+      "mean": 0.012634221151822191
+     },
+     "2022-23": {
+      "n": 880,
+      "mean": 0.036636959036432534
+     },
+     "2023-24": {
+      "n": 794,
+      "mean": -0.06549962000927496
+     }
+    }
+   },
+   "test": {
+    "n": 836,
+    "weeks": 36,
+    "mean": -0.017967741879925996,
+    "total": -15.021032211618131,
+    "ci_lo": -0.11787094184683049,
+    "ci_hi": 0.08598027100345512,
+    "usd_per_week": -4.172508947671704,
+    "coinflip_share_ge": 0.254,
+    "coinflip_mean": -0.04158765406569125
+   }
+  },
+  "full theta=4%": {
+   "train": {
+    "n": 2134,
+    "mean": -0.015279891759602001,
+    "by_season": {
+     "2021-22": {
+      "n": 792,
+      "mean": 0.0023409526720010046
+     },
+     "2022-23": {
+      "n": 724,
+      "mean": 0.026775175980842295
+     },
+     "2023-24": {
+      "n": 618,
+      "mean": -0.08713034132903767
+     }
+    }
+   },
+   "test": {
+    "n": 660,
+    "weeks": 36,
+    "mean": -0.04250161720177767,
+    "total": -28.051067353173263,
+    "ci_lo": -0.15878147831121306,
+    "ci_hi": 0.07737666711312617,
+    "usd_per_week": -7.791963153659239,
+    "coinflip_share_ge": 0.538,
+    "coinflip_mean": -0.038927684945000034
+   }
+  },
+  "full theta=6%": {
+   "train": {
+    "n": 1654,
+    "mean": -0.02037842032642652,
+    "by_season": {
+     "2021-22": {
+      "n": 646,
+      "mean": -0.006960210390872059
+     },
+     "2022-23": {
+      "n": 562,
+      "mean": 0.018686139289633818
+     },
+     "2023-24": {
+      "n": 446,
+      "mean": -0.08903861342641328
+     }
+    }
+   },
+   "test": {
+    "n": 510,
+    "weeks": 36,
+    "mean": -0.03131393900806986,
+    "total": -15.970108894115631,
+    "ci_lo": -0.16108214374154878,
+    "ci_hi": 0.1077451267376715,
+    "usd_per_week": -4.436141359476564,
+    "coinflip_share_ge": 0.494,
+    "coinflip_mean": -0.03128976225014292
+   }
+  },
+  "elo_only theta=2%": {
+   "train": {
+    "n": 2698,
+    "mean": -0.03352178789917879,
+    "by_season": {
+     "2021-22": {
+      "n": 982,
+      "mean": -0.022355042838913698
+     },
+     "2022-23": {
+      "n": 891,
+      "mean": 0.023334777697193488
+     },
+     "2023-24": {
+      "n": 825,
+      "mean": -0.1082186892271158
+     }
+    }
+   },
+   "test": {
+    "n": 863,
+    "weeks": 36,
+    "mean": -0.02238585508992799,
+    "total": -19.318992942607853,
+    "ci_lo": -0.12444442116680861,
+    "ci_hi": 0.080300918251599,
+    "usd_per_week": -5.366386928502182,
+    "coinflip_share_ge": 0.402,
+    "coinflip_mean": -0.0308963319945405
+   }
+  },
+  "elo_only theta=4%": {
+   "train": {
+    "n": 2157,
+    "mean": -0.032673625715004394,
+    "by_season": {
+     "2021-22": {
+      "n": 811,
+      "mean": -0.029201085209640463
+     },
+     "2022-23": {
+      "n": 731,
+      "mean": 0.02026927544197929
+     },
+     "2023-24": {
+      "n": 615,
+      "mean": -0.10018174131761448
+     }
+    }
+   },
+   "test": {
+    "n": 700,
+    "weeks": 36,
+    "mean": -0.03961125940941303,
+    "total": -27.72788158658912,
+    "ci_lo": -0.15210970037919644,
+    "ci_hi": 0.07951670736216104,
+    "usd_per_week": -7.702189329608087,
+    "coinflip_share_ge": 0.56,
+    "coinflip_mean": -0.03112458051257717
+   }
+  },
+  "elo_only theta=6%": {
+   "train": {
+    "n": 1733,
+    "mean": -0.05795060697401153,
+    "by_season": {
+     "2021-22": {
+      "n": 674,
+      "mean": -0.06261698415396588
+     },
+     "2022-23": {
+      "n": 588,
+      "mean": 0.0016610046971832805
+     },
+     "2023-24": {
+      "n": 471,
+      "mean": -0.12569262277735196
+     }
+    }
+   },
+   "test": {
+    "n": 567,
+    "weeks": 36,
+    "mean": -0.04818829366726926,
+    "total": -27.322762509341672,
+    "ci_lo": -0.17265940657443488,
+    "ci_hi": 0.07854093323130813,
+    "usd_per_week": -7.589656252594908,
+    "coinflip_share_ge": 0.638,
+    "coinflip_mean": -0.03174120328864232
+   }
+  }
+ },
+ "models": {
+  "A full": {
+   "train_seasons": [
+    "2021-22",
+    "2022-23",
+    "2023-24"
+   ],
+   "train_games": 3962,
+   "cols": [
+    "elo_diff",
+    "net_diff",
+    "rest_diff",
+    "b2b_diff",
+    "inj_diff"
+   ],
+   "intercept_std": 0.26356650635038026,
+   "weights_standardized": {
+    "elo_diff": 0.7173040044398471,
+    "net_diff": 0.018501777813527066,
+    "rest_diff": 0.06719025372202224,
+    "b2b_diff": -0.13178543976075854,
+    "inj_diff": -0.02775051651433075
+   },
+   "weights_per_raw_unit": {
+    "elo_diff": 0.005323835573578252,
+    "net_diff": 0.0019398974517749132,
+    "rest_diff": 0.07603869991011816,
+    "b2b_diff": -0.2729828461493357,
+    "inj_diff": -0.0048165905947498925
+   },
+   "feature_mean_train": {
+    "elo_diff": 0.6993541145941232,
+    "net_diff": -0.23379526133185838,
+    "rest_diff": 0.09591115598182735,
+    "b2b_diff": -0.0408884401817264,
+    "inj_diff": -0.06074482075569002
+   },
+   "feature_sd_train": {
+    "elo_diff": 134.7344399589962,
+    "net_diff": 9.537503024502056,
+    "rest_diff": 0.8836323319762797,
+    "b2b_diff": 0.48276088266976713,
+    "inj_diff": 5.761443902784461
+   }
+  },
+  "A elo_only": {
+   "train_seasons": [
+    "2021-22",
+    "2022-23",
+    "2023-24"
+   ],
+   "train_games": 3962,
+   "cols": [
+    "elo_diff"
+   ],
+   "intercept_std": 0.2621573355483894,
+   "weights_standardized": {
+    "elo_diff": 0.7080699486768826
+   },
+   "weights_per_raw_unit": {
+    "elo_diff": 0.005255300344087009
+   },
+   "feature_mean_train": {
+    "elo_diff": 0.699354114594123
+   },
+   "feature_sd_train": {
+    "elo_diff": 134.7344399589961
+   }
+  },
+  "B full": {
+   "train_seasons": [
+    "2021-22",
+    "2022-23",
+    "2023-24",
+    "2024-25"
+   ],
+   "train_games": 5283,
+   "cols": [
+    "elo_diff",
+    "net_diff",
+    "rest_diff",
+    "b2b_diff",
+    "inj_diff"
+   ],
+   "intercept_std": 0.25150654137337636,
+   "weights_standardized": {
+    "elo_diff": 0.725734185317877,
+    "net_diff": 0.05507577414827571,
+    "rest_diff": 0.0671054696770697,
+    "b2b_diff": -0.13827951554469353,
+    "inj_diff": -0.006820475586314629
+   },
+   "weights_per_raw_unit": {
+    "elo_diff": 0.005071615076597161,
+    "net_diff": 0.00550787628038347,
+    "rest_diff": 0.0771007741420191,
+    "b2b_diff": -0.28628557877373645,
+    "inj_diff": -0.0011129894911384548
+   },
+   "feature_mean_train": {
+    "elo_diff": 1.1773630123769963,
+    "net_diff": -0.16799730492234685,
+    "rest_diff": 0.08252886617452206,
+    "b2b_diff": -0.03217868635245126,
+    "inj_diff": -0.03161963093063502
+   },
+   "feature_sd_train": {
+    "elo_diff": 143.09725291786418,
+    "net_diff": 9.999457385132336,
+    "rest_diff": 0.8703605174373722,
+    "b2b_diff": 0.48301250847840177,
+    "inj_diff": 6.128068270741802
+   }
+  },
+  "B elo_only": {
+   "train_seasons": [
+    "2021-22",
+    "2022-23",
+    "2023-24",
+    "2024-25"
+   ],
+   "train_games": 5283,
+   "cols": [
+    "elo_diff"
+   ],
+   "intercept_std": 0.2495402604466434,
+   "weights_standardized": {
+    "elo_diff": 0.7541906510439561
+   },
+   "weights_per_raw_unit": {
+    "elo_diff": 0.005270476096958002
+   },
+   "feature_mean_train": {
+    "elo_diff": 1.177363012376996
+   },
+   "feature_sd_train": {
+    "elo_diff": 143.09725291786404
+   }
+  }
+ },
+ "coverage": {
+  "2021-22": {
+   "box_games": 1323,
+   "odds_matched": 1323,
+   "report_file_found": 1323,
+   "game_listed_in_report": 1323,
+   "one_team_not_yet_submitted": 0,
+   "both_not_yet_submitted": 0,
+   "nonzero_inj_diff": 1214,
+   "home_win_rate": 0.5479969765684052,
+   "report_lag_min_mean": 81.84654824892921,
+   "parse": {
+    "files": 708,
+    "errors": 0,
+    "files_with_problems": 0,
+    "problem_items": 0,
+    "zero_row_files": 0,
+    "layouts": {
+     "old": 708,
+     "new": 0,
+     "?": 0
+    },
+    "rows": 74250
+   }
+  },
+  "2022-23": {
+   "box_games": 1320,
+   "odds_matched": 1318,
+   "report_file_found": 1320,
+   "game_listed_in_report": 1318,
+   "one_team_not_yet_submitted": 0,
+   "both_not_yet_submitted": 0,
+   "nonzero_inj_diff": 1206,
+   "home_win_rate": 0.581060606060606,
+   "report_lag_min_mean": 92.16786616161617,
+   "parse": {
+    "files": 691,
+    "errors": 0,
+    "files_with_problems": 0,
+    "problem_items": 0,
+    "zero_row_files": 0,
+    "layouts": {
+     "old": 654,
+     "new": 37,
+     "?": 0
+    },
+    "rows": 65448
+   }
+  },
+  "2023-24": {
+   "box_games": 1319,
+   "odds_matched": 1253,
+   "report_file_found": 1319,
+   "game_listed_in_report": 1318,
+   "one_team_not_yet_submitted": 0,
+   "both_not_yet_submitted": 0,
+   "nonzero_inj_diff": 1226,
+   "home_win_rate": 0.5473843821076573,
+   "report_lag_min_mean": 99.8173363659338,
+   "parse": {
+    "files": 651,
+    "errors": 0,
+    "files_with_problems": 0,
+    "problem_items": 0,
+    "zero_row_files": 0,
+    "layouts": {
+     "old": 0,
+     "new": 651,
+     "?": 0
+    },
+    "rows": 69497
+   }
+  },
+  "2024-25": {
+   "box_games": 1321,
+   "odds_matched": 1321,
+   "report_file_found": 1321,
+   "game_listed_in_report": 1320,
+   "one_team_not_yet_submitted": 0,
+   "both_not_yet_submitted": 0,
+   "nonzero_inj_diff": 1213,
+   "home_win_rate": 0.5450416351249053,
+   "report_lag_min_mean": 100.04742619227859,
+   "parse": {
+    "files": 662,
+    "errors": 0,
+    "files_with_problems": 0,
+    "problem_items": 0,
+    "zero_row_files": 0,
+    "layouts": {
+     "old": 0,
+     "new": 662,
+     "?": 0
+    },
+    "rows": 76279
+   }
+  },
+  "2025-26": {
+   "box_games": 1322,
+   "odds_matched": 0,
+   "report_file_found": 1322,
+   "game_listed_in_report": 1320,
+   "one_team_not_yet_submitted": 0,
+   "both_not_yet_submitted": 0,
+   "nonzero_inj_diff": 1227,
+   "home_win_rate": 0.5552193645990923,
+   "report_lag_min_mean": 82.32992939989914,
+   "parse": {
+    "files": 821,
+    "errors": 0,
+    "files_with_problems": 0,
+    "problem_items": 0,
+    "zero_row_files": 0,
+    "layouts": {
+     "old": 0,
+     "new": 821,
+     "?": 0
+    },
+    "rows": 97319
+   }
+  }
+ },
+ "interpretations": [
+  "Fit (both models): logistic regression for P(home win), one row per game, intercept = home flag, numpy IRLS with ridge 1e-6 on the slopes (model.fit_logit), features standardized with TRAINING mean/sd only. Fitted on ALL box-score games of the training seasons (odds and Kalshi quotes are not needed to fit). Model A = 2021-22..2023-24; Model B = 2021-22..2024-25.",
+  "Moneylines: odds_2021-22_new, odds_2022-23_new, 2023-24, 2024-25 tables. ML values like '+145' with non-breaking spaces are parsed to integers. Join to box games on (local date, home team); exact date first, then +-1 day; away team must agree. Odds rows that match no game, and box games with no odds, are listed in the results (unmatched).",
+  "Implied probability of American odds p: 100/(p+100) if p > 0 else -p/(-p+100) (raw, vig included). Edge = model P(team) - implied P(team). Bet the side with the larger edge (home on a tie) if edge >= theta (1e-12 tolerance); at most one bet per game; $1 stake; profit = p/100 (p>0) or 100/(-p) (p<0) if the team wins, else -1.",
+  "Bootstrap: 10,000 resamples of the 2024-25 bets (games), seed 20261021, percentile 2.5/97.5 (drift.bootstrap_ci). Coin flip: 500 copies, same bet games, random side (uniform) per game at that side's own American odds, seed 20261021 (fresh generator per version); share = fraction of copies with mean return >= the strategy's.",
+  "$/week at $10 per bet = mean return per $1 x 10 x bets / weeks, weeks = ISO weeks (UTC tip time) with at least one 2024-25 odds-matched game (weeks with games). Kalshi confirmation: mean net per contract x 10 x bets / ISO weeks of the Kalshi 2025-26 game list.",
+  "Rule 6 Brier is computed on the same 2024-25 odds-matched games for the model and for the de-vigged moneyline (home implied / (home implied + away implied)). 'Within 0.002 while rules 1-5 pass' = model - moneyline <= 0.002 AND rules 1-5 pass.",
+  "Kalshi confirmation (Model B): games = drift.load_nba() (#24: clean results, T >= 2025-10-21) mapped to box games on (ticker date, home, away) with +-1 day tolerance; features come from the box-score row (full 5-season Elo with carry-over); quotes, edge = model p - YES ask - fee(ask, 10 contracts), hold to settlement, exactly as #31 (model.quotes_for / make_bets); theta equals the primary version's theta. Kalshi game result is used for settlement (box winner disagreements are counted).",
+  "Return by favourite vs underdog: favourite = the bet side's American odds < 0 (underdog > 0; even money counts as underdog). Season types: 2 regular season, 3 playoffs, 5 play-in (shown separately).",
+  "Game universe = every hoopR box-score game of the 30 NBA teams in 2021-22..2025-26 (regular season, play-in, playoffs; no preseason, All-Star dropped), sorted by (tip, game id). Elo and rolling stats run over this complete list (not over the Kalshi list). Tip = ESPN game_date_time (scheduled start). Local date = ESPN game_date (US Eastern).",
+  "Elo: K=20, home advantage 100, 538 multiplier, exact box-score margin for every game (v1/v2 formulas, features.elo_update). 2021-22 starts every team at 1500 (v1 value). At the first game of each later season every rating is replaced by 0.75 * (rating after the team's last game of the previous season, playoffs included) + 0.25 * 1505.",
+  "Rolling 10-game net margin and rest (calendar days, cap 4, first game of a season = 4) are computed within a season only and reset at each season start (only Elo carries over, as the pre-registration says).",
+  "Player value = v2 recipe (last 15 games of the player's team in the same season with a strictly earlier local date; pooled plus-minus per minute x average minutes x n/(n+10)). 'A player's first 5 games of a season get shrinkage only' is read as: a listed player who has played fewer than 5 games for any team earlier in the same season (box-score minutes > 0, strictly earlier date) gets value 0 (the prior); no previous-season data is used. Sensitivity column inj_diff_v2 keeps the v2 value (n/(n+10) shrinkage only) and is reported for the primary version.",
+  "Injury report per game: the file with the latest PDF CreationDate <= tip - 3600 s (as v2). Matchup AWAY@HOME on the game's local date must appear in that report for the game to be 'covered'; otherwise inj_diff = 0 (neutral). Team-name map: ESPN display names without spaces (+ 'LAClippers', 'LosAngelesClippers').",
+  "The 2021-22 / 2022-23 PDFs use an older layout (two-word headers, names with spaces); injury_parse_v3.parse_old reads it and returns the same text form ('TrentJr.,Gary'), so the v2 name normalisation is unchanged."
+ ],
+ "odds_join": {
+  "summary": {
+   "2021-22": {
+    "odds_rows": 1323,
+    "box_games": 1323,
+    "matched": 1323,
+    "matched_off_by_one_day": 1,
+    "box_games_without_odds": 0
+   },
+   "2022-23": {
+    "odds_rows": 1319,
+    "box_games": 1320,
+    "matched": 1318,
+    "odds_row_unmatched": 1,
+    "box_games_without_odds": 2
+   },
+   "2023-24": {
+    "odds_rows": 1255,
+    "box_games": 1319,
+    "matched": 1253,
+    "odds_row_unmatched": 2,
+    "box_games_without_odds": 66
+   },
+   "2024-25": {
+    "odds_rows": 1326,
+    "box_games": 1321,
+    "matched": 1321,
+    "odds_row_unmatched": 5,
+    "box_games_without_odds": 0
+   }
+  },
+  "unmatched_detail": {
+   "2021-22": {
+    "matched_off_by_one_day": [
+     [
+      "2022-06-06",
+      "GSW",
+      "BOS",
+      -1
+     ]
+    ],
+    "box_games_without_odds": []
+   },
+   "2022-23": {
+    "odds_row_unmatched": [
+     [
+      "2023-02-01",
+      "DET",
+      "WAS"
+     ]
+    ],
+    "box_games_without_odds": [
+     [
+      "2022-10-18",
+      "BOS",
+      "PHI",
+      2
+     ],
+     [
+      "2022-10-18",
+      "GSW",
+      "LAL",
+      2
+     ]
+    ]
+   },
+   "2023-24": {
+    "odds_row_unmatched": [
+     [
+      "2024-01-17",
+      "UTA",
+      "GSW"
+     ],
+     [
+      "2024-01-19",
+      "GSW",
+      "DAL"
+     ]
+    ],
+    "box_games_without_odds": [
+     [
+      "2024-06-17",
+      "BOS",
+      "DAL",
+      3
+     ],
+     [
+      "2024-06-14",
+      "DAL",
+      "BOS",
+      3
+     ],
+     [
+      "2024-06-12",
+      "DAL",
+      "BOS",
+      3
+     ],
+     [
+      "2024-06-09",
+      "BOS",
+      "DAL",
+      3
+     ],
+     [
+      "2024-06-06",
+      "BOS",
+      "DAL",
+      3
+     ],
+     [
+      "2024-05-30",
+      "MIN",
+      "DAL",
+      3
+     ],
+     [
+      "2024-05-28",
+      "DAL",
+      "MIN",
+      3
+     ],
+     [
+      "2024-05-27",
+      "IND",
+      "BOS",
+      3
+     ],
+     [
+      "2024-05-26",
+      "DAL",
+      "MIN",
+      3
+     ],
+     [
+      "2024-05-25",
+      "IND",
+      "BOS",
+      3
+     ],
+     [
+      "2024-05-24",
+      "MIN",
+      "DAL",
+      3
+     ],
+     [
+      "2024-05-23",
+      "BOS",
+      "IND",
+      3
+     ],
+     [
+      "2024-05-22",
+      "MIN",
+      "DAL",
+      3
+     ],
+     [
+      "2024-05-21",
+      "BOS",
+      "IND",
+      3
+     ],
+     [
+      "2024-05-19",
+      "NYK",
+      "IND",
+      3
+     ],
+     [
+      "2024-05-19",
+      "DEN",
+      "MIN",
+      3
+     ],
+     [
+      "2024-05-18",
+      "DAL",
+      "OKC",
+      3
+     ],
+     [
+      "2024-05-17",
+      "IND",
+      "NYK",
+      3
+     ],
+     [
+      "2024-05-16",
+      "MIN",
+      "DEN",
+      3
+     ],
+     [
+      "2024-05-15",
+      "BOS",
+      "CLE",
+      3
+     ],
+     [
+      "2024-05-15",
+      "OKC",
+      "DAL",
+      3
+     ],
+     [
+      "2024-05-14",
+      "NYK",
+      "IND",
+      3
+     ],
+     [
+      "2024-05-14",
+      "DEN",
+      "MIN",
+      3
+     ],
+     [
+      "2024-05-13",
+      "CLE",
+      "BOS",
+      3
+     ],
+     [
+      "2024-05-13",
+      "DAL",
+      "OKC",
+      3
+     ],
+     [
+      "2024-05-12",
+      "IND",
+      "NYK",
+      3
+     ],
+     [
+      "2024-05-12",
+      "MIN",
+      "DEN",
+      3
+     ],
+     [
+      "2024-05-11",
+      "DAL",
+      "OKC",
+      3
+     ],
+     [
+      "2024-05-11",
+      "CLE",
+      "BOS",
+      3
+     ],
+     [
+      "2024-05-10",
+      "IND",
+      "NYK",
+      3
+     ],
+     [
+      "2024-05-10",
+      "MIN",
+      "DEN",
+      3
+     ],
+     [
+      "2024-05-09",
+      "BOS",
+      "CLE",
+      3
+     ],
+     [
+      "2024-05-09",
+      "OKC",
+      "DAL",
+      3
+     ],
+     [
+      "2024-05-08",
+      "NYK",
+      "IND",
+      3
+     ],
+     [
+      "2024-05-07",
+      "BOS",
+      "CLE",
+      3
+     ],
+     [
+      "2024-05-07",
+      "OKC",
+      "DAL",
+      3
+     ],
+     [
+      "2024-05-06",
+      "NYK",
+      "IND",
+      3
+     ],
+     [
+      "2024-05-06",
+      "DEN",
+      "MIN",
+      3
+     ],
+     [
+      "2024-05-05",
+      "CLE",
+      "ORL",
+      3
+     ],
+     [
+      "2024-05-04",
+      "DEN",
+      "MIN",
+      3
+     ],
+     [
+      "2024-05-03",
+      "ORL",
+      "CLE",
+      3
+     ],
+     [
+      "2024-05-03",
+      "DAL",
+      "LAC",
+      3
+     ],
+     [
+      "2024-05-02",
+      "IND",
+      "MIL",
+      3
+     ],
+     [
+      "2024-05-02",
+      "PHI",
+      "NYK",
+      3
+     ],
+     [
+      "2024-05-01",
+      "BOS",
+      "MIA",
+      3
+     ],
+     [
+      "2024-05-01",
+      "LAC",
+      "DAL",
+      3
+     ],
+     [
+      "2024-04-30",
+      "NYK",
+      "PHI",
+      3
+     ],
+     [
+      "2024-04-30",
+      "CLE",
+      "ORL",
+      3
+     ],
+     [
+      "2024-04-30",
+      "MIL",
+      "IND",
+      3
+     ],
+     [
+      "2024-04-29",
+      "MIA",
+      "BOS",
+      3
+     ],
+     [
+      "2024-04-29",
+      "NOP",
+      "OKC",
+      3
+     ],
+     [
+      "2024-04-29",
+      "DEN",
+      "LAL",
+      3
+     ],
+     [
+      "2024-04-02",
+      "GSW",
+      "DAL",
+      2
+     ],
+     [
+      "2024-03-29",
+      "CHA",
+      "GSW",
+      2
+     ],
+     [
+      "2024-03-29",
+      "IND",
+      "LAL",
+      2
+     ],
+     [
+      "2024-03-29",
+      "ORL",
+      "LAC",
+      2
+     ],
+     [
+      "2024-03-29",
+      "WAS",
+      "DET",
+      2
+     ],
+     [
+      "2024-03-29",
+      "BKN",
+      "CHI",
+      2
+     ],
+     [
+      "2024-03-29",
+      "CLE",
+      "PHI",
+      2
+     ],
+     [
+      "2024-03-29",
+      "MIA",
+      "POR",
+      2
+     ]
+    ]
+   },
+   "2024-25": {
+    "odds_row_unmatched": [
+     [
+      "2025-01-09",
+      "LAL",
+      "CHA"
+     ],
+     [
+      "2025-01-11",
+      "ATL",
+      "HOU"
+     ],
+     [
+      "2025-01-11",
+      "LAC",
+      "CHA"
+     ],
+     [
+      "2025-01-11",
+      "LAL",
+      "SAS"
+     ],
+     [
+      "2025-01-22",
+      "NOP",
+      "MIL"
+     ]
+    ],
+    "box_games_without_odds": []
+   }
+  },
+  "validation_vs_odds_file_results": {
+   "2021-22": {
+    "checked": 1323,
+    "winner_disagrees_with_odds_file_Win_Margin": 0,
+    "total_points_disagree": 0
+   },
+   "2022-23": {
+    "checked": 1318,
+    "winner_disagrees_with_odds_file_Win_Margin": 0,
+    "total_points_disagree": 0
+   },
+   "2023-24": {
+    "checked": 1253,
+    "winner_disagrees_with_odds_file_Win_Margin": 0,
+    "total_points_disagree": 0
+   },
+   "2024-25": {
+    "checked": 1321,
+    "winner_disagrees_with_odds_file_Win_Margin": 0,
+    "total_points_disagree": 2
+   }
+  }
+ },
+ "quality": {
+  "by_season": {
+   "2021-22": {
+    "all_games": {
+     "model A full": {
+      "n": 1323,
+      "brier": 0.22195222808694215,
+      "logloss": 0.6349162565538734
+     },
+     "model A elo_only": {
+      "n": 1323,
+      "brier": 0.22420220401143734,
+      "logloss": 0.6398626512161336
+     },
+     "model B full": {
+      "n": 1323,
+      "brier": 0.22208392394752874,
+      "logloss": 0.6352227841995739
+     },
+     "model B elo_only": {
+      "n": 1323,
+      "brier": 0.2240997921138862,
+      "logloss": 0.639665285603362
+     }
+    },
+    "odds_matched_games": {
+     "moneyline devig": {
+      "n": 1323,
+      "brier": 0.20974158390034925,
+      "logloss": 0.6069483038608741
+     },
+     "model A full": {
+      "n": 1323,
+      "brier": 0.22195222808694215,
+      "logloss": 0.6349162565538734
+     },
+     "model A elo_only": {
+      "n": 1323,
+      "brier": 0.22420220401143734,
+      "logloss": 0.6398626512161336
+     },
+     "model B full": {
+      "n": 1323,
+      "brier": 0.22208392394752874,
+      "logloss": 0.6352227841995739
+     },
+     "model B elo_only": {
+      "n": 1323,
+      "brier": 0.2240997921138862,
+      "logloss": 0.639665285603362
+     }
+    },
+    "in_sample": {
+     "A": true,
+     "B": true
+    }
+   },
+   "2022-23": {
+    "all_games": {
+     "model A full": {
+      "n": 1320,
+      "brier": 0.22791064495326027,
+      "logloss": 0.6478001981131108
+     },
+     "model A elo_only": {
+      "n": 1320,
+      "brier": 0.2289724366100452,
+      "logloss": 0.6501508930888789
+     },
+     "model B full": {
+      "n": 1320,
+      "brier": 0.2279311629319504,
+      "logloss": 0.6477547494080037
+     },
+     "model B elo_only": {
+      "n": 1320,
+      "brier": 0.22916550774825245,
+      "logloss": 0.6505468441275812
+     }
+    },
+    "odds_matched_games": {
+     "moneyline devig": {
+      "n": 1318,
+      "brier": 0.21730437579148246,
+      "logloss": 0.6253779514702219
+     },
+     "model A full": {
+      "n": 1318,
+      "brier": 0.22813714248807065,
+      "logloss": 0.6482964206193012
+     },
+     "model A elo_only": {
+      "n": 1318,
+      "brier": 0.2292020128923575,
+      "logloss": 0.6506540300261199
+     },
+     "model B full": {
+      "n": 1318,
+      "brier": 0.2281508549656457,
+      "logloss": 0.6482329287820539
+     },
+     "model B elo_only": {
+      "n": 1318,
+      "brier": 0.2293931708382563,
+      "logloss": 0.651045161003917
+     }
+    },
+    "in_sample": {
+     "A": true,
+     "B": true
+    }
+   },
+   "2023-24": {
+    "all_games": {
+     "model A full": {
+      "n": 1319,
+      "brier": 0.21032318112612217,
+      "logloss": 0.6081715487706855
+     },
+     "model A elo_only": {
+      "n": 1319,
+      "brier": 0.21275266874781917,
+      "logloss": 0.6125210655607208
+     },
+     "model B full": {
+      "n": 1319,
+      "brier": 0.2103522259905305,
+      "logloss": 0.6082831942910327
+     },
+     "model B elo_only": {
+      "n": 1319,
+      "brier": 0.21269879833779498,
+      "logloss": 0.6124016580481151
+     }
+    },
+    "odds_matched_games": {
+     "moneyline devig": {
+      "n": 1253,
+      "brier": 0.19795295189468154,
+      "logloss": 0.5802010951139763
+     },
+     "model A full": {
+      "n": 1253,
+      "brier": 0.20956944142349718,
+      "logloss": 0.6064310327236564
+     },
+     "model A elo_only": {
+      "n": 1253,
+      "brier": 0.2120451875834006,
+      "logloss": 0.6108252519016975
+     },
+     "model B full": {
+      "n": 1253,
+      "brier": 0.20955964522180903,
+      "logloss": 0.6064633241675389
+     },
+     "model B elo_only": {
+      "n": 1253,
+      "brier": 0.21199864435096313,
+      "logloss": 0.6107217933786115
+     }
+    },
+    "in_sample": {
+     "A": true,
+     "B": true
+    }
+   },
+   "2024-25": {
+    "all_games": {
+     "model A full": {
+      "n": 1321,
+      "brier": 0.21088845284325158,
+      "logloss": 0.6082883140058248
+     },
+     "model A elo_only": {
+      "n": 1321,
+      "brier": 0.2128370080839805,
+      "logloss": 0.6129332653284757
+     },
+     "model B full": {
+      "n": 1321,
+      "brier": 0.210504711596011,
+      "logloss": 0.6073956938743591
+     },
+     "model B elo_only": {
+      "n": 1321,
+      "brier": 0.21276264629038574,
+      "logloss": 0.6127504881991732
+     }
+    },
+    "odds_matched_games": {
+     "moneyline devig": {
+      "n": 1321,
+      "brier": 0.20115483189286273,
+      "logloss": 0.5858375676509886
+     },
+     "model A full": {
+      "n": 1321,
+      "brier": 0.21088845284325158,
+      "logloss": 0.6082883140058248
+     },
+     "model A elo_only": {
+      "n": 1321,
+      "brier": 0.2128370080839805,
+      "logloss": 0.6129332653284757
+     },
+     "model B full": {
+      "n": 1321,
+      "brier": 0.210504711596011,
+      "logloss": 0.6073956938743591
+     },
+     "model B elo_only": {
+      "n": 1321,
+      "brier": 0.21276264629038574,
+      "logloss": 0.6127504881991732
+     }
+    },
+    "in_sample": {
+     "A": false,
+     "B": true
+    }
+   },
+   "2025-26": {
+    "all_games": {
+     "model A full": {
+      "n": 1322,
+      "brier": 0.20753881742264513,
+      "logloss": 0.6021347674461653
+     },
+     "model A elo_only": {
+      "n": 1322,
+      "brier": 0.20699511932095976,
+      "logloss": 0.6014879015620911
+     },
+     "model B full": {
+      "n": 1322,
+      "brier": 0.20724622520330926,
+      "logloss": 0.6014271115554497
+     },
+     "model B elo_only": {
+      "n": 1322,
+      "brier": 0.20699483489891135,
+      "logloss": 0.6014369338410878
+     }
+    },
+    "odds_matched_games": {},
+    "in_sample": {
+     "A": false,
+     "B": false
+    }
+   }
+  },
+  "kalshi_2025_26_valid_quote_games": {
+   "kalshi T-1h mid (normalized)": {
+    "n": 1313,
+    "brier": 0.19797723768889836,
+    "logloss": 0.577414404089775
+   },
+   "model B full": {
+    "n": 1313,
+    "brier": 0.2074769466843755,
+    "logloss": 0.601948081770474
+   },
+   "model B elo_only": {
+    "n": 1313,
+    "brier": 0.20722455965864608,
+    "logloss": 0.6019559208969539
+   },
+   "model A full": {
+    "n": 1313,
+    "brier": 0.20778333990586764,
+    "logloss": 0.6026869307850143
+   },
+   "model A elo_only": {
+    "n": 1313,
+    "brier": 0.20722775518785075,
+    "logloss": 0.6020144428544774
+   }
+  }
+ },
+ "calibration_2024_25": {
+  "model_A_full": [
+   {
+    "bucket": "0.0-0.1",
+    "n": 3,
+    "mean_p": 0.08218638200421663,
+    "win_rate": 0.0
+   },
+   {
+    "bucket": "0.1-0.2",
+    "n": 42,
+    "mean_p": 0.16146226028853383,
+    "win_rate": 0.07142857142857142
+   },
+   {
+    "bucket": "0.2-0.3",
+    "n": 101,
+    "mean_p": 0.25667226776805224,
+    "win_rate": 0.24752475247524752
+   },
+   {
+    "bucket": "0.3-0.4",
+    "n": 157,
+    "mean_p": 0.35202551740877036,
+    "win_rate": 0.40764331210191085
+   },
+   {
+    "bucket": "0.4-0.5",
+    "n": 204,
+    "mean_p": 0.45315663220873076,
+    "win_rate": 0.4068627450980392
+   },
+   {
+    "bucket": "0.5-0.6",
+    "n": 236,
+    "mean_p": 0.5496219426073273,
+    "win_rate": 0.5254237288135594
+   },
+   {
+    "bucket": "0.6-0.7",
+    "n": 247,
+    "mean_p": 0.6505439838098844,
+    "win_rate": 0.6477732793522267
+   },
+   {
+    "bucket": "0.7-0.8",
+    "n": 187,
+    "mean_p": 0.7478679046575419,
+    "win_rate": 0.732620320855615
+   },
+   {
+    "bucket": "0.8-0.9",
+    "n": 125,
+    "mean_p": 0.8400978340994434,
+    "win_rate": 0.848
+   },
+   {
+    "bucket": "0.9-1.0",
+    "n": 19,
+    "mean_p": 0.9246056654132572,
+    "win_rate": 0.9473684210526315
+   }
+  ],
+  "moneyline_devig": [
+   {
+    "bucket": "0.0-0.1",
+    "n": 7,
+    "mean_p": 0.09342774359715508,
+    "win_rate": 0.0
+   },
+   {
+    "bucket": "0.1-0.2",
+    "n": 73,
+    "mean_p": 0.15326862190019225,
+    "win_rate": 0.0547945205479452
+   },
+   {
+    "bucket": "0.2-0.3",
+    "n": 113,
+    "mean_p": 0.25503860625487745,
+    "win_rate": 0.2920353982300885
+   },
+   {
+    "bucket": "0.3-0.4",
+    "n": 181,
+    "mean_p": 0.34976723103781043,
+    "win_rate": 0.3756906077348066
+   },
+   {
+    "bucket": "0.4-0.5",
+    "n": 156,
+    "mean_p": 0.44776729797384024,
+    "win_rate": 0.40384615384615385
+   },
+   {
+    "bucket": "0.5-0.6",
+    "n": 177,
+    "mean_p": 0.5549475408202496,
+    "win_rate": 0.5988700564971752
+   },
+   {
+    "bucket": "0.6-0.7",
+    "n": 217,
+    "mean_p": 0.6525972410055646,
+    "win_rate": 0.5944700460829493
+   },
+   {
+    "bucket": "0.7-0.8",
+    "n": 195,
+    "mean_p": 0.7450548788999877,
+    "win_rate": 0.7384615384615385
+   },
+   {
+    "bucket": "0.8-0.9",
+    "n": 179,
+    "mean_p": 0.8439934472414261,
+    "win_rate": 0.8435754189944135
+   },
+   {
+    "bucket": "0.9-1.0",
+    "n": 23,
+    "mean_p": 0.9191075354937377,
+    "win_rate": 0.9565217391304348
+   }
+  ]
+ },
+ "bets_by_edge_full_theta2": [
+  {
+   "edge_range": "0.02-0.04",
+   "n": 176,
+   "mean": 0.07403429057701774
+  },
+  {
+   "edge_range": "0.04-0.06",
+   "n": 150,
+   "mean": -0.08053972306038418
+  },
+  {
+   "edge_range": "0.06-0.10",
+   "n": 218,
+   "mean": -0.024973664435732304
+  },
+  {
+   "edge_range": "0.10-9.00",
+   "n": 292,
+   "mean": -0.03604743166823968
+  }
+ ],
+ "bets_by_side_type_full_theta4": {
+  "favourite": {
+   "n": 122,
+   "mean": -0.10115628978010864
+  },
+  "underdog": {
+   "n": 538,
+   "mean": -0.02920074349442379
+  },
+  "home side": {
+   "n": 327,
+   "mean": -0.11272391644032184
+  },
+  "away side": {
+   "n": 333,
+   "mean": 0.026455415383819778
+  },
+  "regular season": {
+   "n": 603,
+   "mean": -0.036395292654760075
+  },
+  "play-in": {
+   "n": 2,
+   "mean": -1.0
+  },
+  "playoffs": {
+   "n": 55,
+   "mean": -0.07463101604278076
+  },
+  "game listed in injury report": {
+   "n": 660,
+   "mean": -0.04250161720177767
+  }
+ },
+ "sensitivity_v2_style_injury_value_full_theta4": {
+  "n": 659,
+  "weeks": 36,
+  "mean": -0.053946991431218914,
+  "total": -35.551067353173266,
+  "ci_lo": -0.1677600241035001,
+  "ci_hi": 0.06674425687722861,
+  "usd_per_week": -9.875296486992575,
+  "coinflip_share_ge": 0.614,
+  "coinflip_mean": -0.042051018688057405
+ },
+ "kalshi_confirmation": {
+  "games_mapped": {
+   "matched": 1317,
+   "matched_off_by_one_day": 1
+  },
+  "kalshi_games": 1317,
+  "loader_exclusions": {
+   "preseason (T before 2025-10-21)": 43,
+   "no clean result ['scalar', 'scalar']": 3
+  },
+  "quote_exclusions": {
+   "no valid bid/ask at entry": 4
+  },
+  "games_with_valid_quotes": 1313,
+  "weeks": 34,
+  "versions": {
+   "full theta=2%": {
+    "n": 833,
+    "weeks": 34,
+    "mean": -0.023520288115246087,
+    "total": -19.59239999999999,
+    "ci_lo": -0.05368858883553421,
+    "ci_hi": 0.006372602941176465,
+    "usd_per_week": -5.762470588235292,
+    "coinflip_share_ge": 0.656,
+    "coinflip_mean": -0.01788887915966386
+   },
+   "full theta=4%": {
+    "n": 637,
+    "weeks": 34,
+    "mean": -0.024180156985871268,
+    "total": -15.402759999999997,
+    "ci_lo": -0.058287377158555725,
+    "ci_hi": 0.011297097331240182,
+    "usd_per_week": -4.530223529411764,
+    "coinflip_share_ge": 0.582,
+    "coinflip_mean": -0.02033417522762951
+   },
+   "full theta=6%": {
+    "n": 478,
+    "weeks": 34,
+    "mean": -0.028167384937238485,
+    "total": -13.464009999999996,
+    "ci_lo": -0.06701870972803346,
+    "ci_hi": 0.011391474895397453,
+    "usd_per_week": -3.9600029411764686,
+    "coinflip_share_ge": 0.66,
+    "coinflip_mean": -0.01944818824267782
+   },
+   "elo_only theta=2%": {
+    "n": 854,
+    "weeks": 34,
+    "mean": -0.026935398126463696,
+    "total": -23.002829999999996,
+    "ci_lo": -0.05574578249414519,
+    "ci_hi": 0.002253528395784543,
+    "usd_per_week": -6.765538235294116,
+    "coinflip_share_ge": 0.676,
+    "coinflip_mean": -0.020142019180327864
+   },
+   "elo_only theta=4%": {
+    "n": 670,
+    "weeks": 34,
+    "mean": -0.017942731343283575,
+    "total": -12.021629999999995,
+    "ci_lo": -0.05057052014925373,
+    "ci_hi": 0.015119070895522365,
+    "usd_per_week": -3.535773529411763,
+    "coinflip_share_ge": 0.444,
+    "coinflip_mean": -0.02088538811940298
+   },
+   "elo_only theta=6%": {
+    "n": 507,
+    "weeks": 34,
+    "mean": -0.009910276134122287,
+    "total": -5.024509999999999,
+    "ci_lo": -0.04810720069033531,
+    "ci_hi": 0.029868093195266253,
+    "usd_per_week": -1.4777970588235292,
+    "coinflip_share_ge": 0.312,
+    "coinflip_mean": -0.01881545672583826
+   }
+  }
+ },
+ "calibration_2025_26": {
+  "model_B_full": [
+   {
+    "bucket": "0.0-0.1",
+    "n": 4,
+    "mean_p": 0.08068372210267183,
+    "win_rate": 0.0
+   },
+   {
+    "bucket": "0.1-0.2",
+    "n": 47,
+    "mean_p": 0.1670674349303585,
+    "win_rate": 0.0851063829787234
+   },
+   {
+    "bucket": "0.2-0.3",
+    "n": 98,
+    "mean_p": 0.25302607743377625,
+    "win_rate": 0.23469387755102042
+   },
+   {
+    "bucket": "0.3-0.4",
+    "n": 166,
+    "mean_p": 0.35243486873478885,
+    "win_rate": 0.3192771084337349
+   },
+   {
+    "bucket": "0.4-0.5",
+    "n": 200,
+    "mean_p": 0.4506673032620969,
+    "win_rate": 0.475
+   },
+   {
+    "bucket": "0.5-0.6",
+    "n": 232,
+    "mean_p": 0.5499195209799277,
+    "win_rate": 0.5905172413793104
+   },
+   {
+    "bucket": "0.6-0.7",
+    "n": 220,
+    "mean_p": 0.6488858653417331,
+    "win_rate": 0.6727272727272727
+   },
+   {
+    "bucket": "0.7-0.8",
+    "n": 208,
+    "mean_p": 0.7463810914563578,
+    "win_rate": 0.7403846153846154
+   },
+   {
+    "bucket": "0.8-0.9",
+    "n": 117,
+    "mean_p": 0.8443673024032767,
+    "win_rate": 0.8034188034188035
+   },
+   {
+    "bucket": "0.9-1.0",
+    "n": 21,
+    "mean_p": 0.9181760940734455,
+    "win_rate": 0.9047619047619048
+   }
+  ],
+  "kalshi": [
+   {
+    "bucket": "0.0-0.1",
+    "n": 23,
+    "mean_p": 0.07595095361573762,
+    "win_rate": 0.0
+   },
+   {
+    "bucket": "0.1-0.2",
+    "n": 75,
+    "mean_p": 0.1548282893588602,
+    "win_rate": 0.12
+   },
+   {
+    "bucket": "0.2-0.3",
+    "n": 97,
+    "mean_p": 0.24880048028494164,
+    "win_rate": 0.24742268041237114
+   },
+   {
+    "bucket": "0.3-0.4",
+    "n": 164,
+    "mean_p": 0.35144158327018804,
+    "win_rate": 0.38414634146341464
+   },
+   {
+    "bucket": "0.4-0.5",
+    "n": 181,
+    "mean_p": 0.44910410772324094,
+    "win_rate": 0.4972375690607735
+   },
+   {
+    "bucket": "0.5-0.6",
+    "n": 182,
+    "mean_p": 0.5558335722608054,
+    "win_rate": 0.5439560439560439
+   },
+   {
+    "bucket": "0.6-0.7",
+    "n": 197,
+    "mean_p": 0.6522297732883822,
+    "win_rate": 0.6345177664974619
+   },
+   {
+    "bucket": "0.7-0.8",
+    "n": 184,
+    "mean_p": 0.7515413056153772,
+    "win_rate": 0.7771739130434783
+   },
+   {
+    "bucket": "0.8-0.9",
+    "n": 166,
+    "mean_p": 0.8495963520441109,
+    "win_rate": 0.7891566265060241
+   },
+   {
+    "bucket": "0.9-1.0",
+    "n": 44,
+    "mean_p": 0.926717011253364,
+    "win_rate": 0.9772727272727273
+   }
+  ]
+ },
+ "kalshi_bets_by_edge_full_theta2": [
+  {
+   "edge_range": "0.02-0.04",
+   "n": 196,
+   "mean": -0.021375714285714286
+  },
+  {
+   "edge_range": "0.04-0.06",
+   "n": 159,
+   "mean": -0.01219339622641509
+  },
+  {
+   "edge_range": "0.06-0.10",
+   "n": 229,
+   "mean": -0.04819104803493449
+  },
+  {
+   "edge_range": "0.10-9.00",
+   "n": 249,
+   "mean": -0.009752048192771081
+  }
+ ],
+ "odds_timing_checks": {
+  "odds_2025_26_table_rows": 554,
+  "joined_to_box": {
+   "odds_rows": 554,
+   "box_games": 1322,
+   "matched": 554,
+   "box_games_without_odds": 768
+  },
+  "overlap_with_kalshi_valid_quotes": 553,
+  "mean_abs_diff_ml_vs_kalshi_prob": 0.031210442168045253,
+  "corr_ml_vs_kalshi": 0.9716911594947627,
+  "brier_ml_devig": 0.21493627211617988,
+  "brier_kalshi": 0.21435608594338088,
+  "logloss_ml_devig": 0.6183881277556059,
+  "logloss_kalshi": 0.6162336127981599,
+  "first_game_date": "2025-10-21",
+  "last_game_date": "2026-01-07",
+  "spread_vs_devig_logit": {
+   "n": 5223,
+   "corr": 0.8703119443333996,
+   "logit_per_point_slope": 0.12333958853752854,
+   "note": "spread is the home-favourite margin in the file; a closing line typically gives about 0.14-0.15 logit per point"
+  }
+ },
+ "primary": {
+  "pass": false,
+  "rules": [
+   [
+    "1 mean return per $1 > 0 on 2024-25 AND mean net > 0 on the 2025-26 Kalshi confirmation",
+    false,
+    "2024-25 -0.0425, Kalshi 2025-26 -0.0242"
+   ],
+   [
+    "2 2024-25 95% bootstrap lower bound > 0",
+    false,
+    "CI [-0.1588, +0.0774]"
+   ],
+   [
+    "3 at least 200 bets in 2024-25",
+    true,
+    "n 660"
+   ],
+   [
+    "4 coin flip: at most 5% of 500 random-side copies do as well",
+    false,
+    "share 0.538"
+   ],
+   [
+    "5 at least $2/week at $10 per bet on 2024-25",
+    false,
+    "$-7.79/wk"
+   ],
+   [
+    "6 2024-25 model Brier <= de-vigged moneyline Brier (or within 0.002 while rules 1-5 pass)",
+    false,
+    "model 0.2109 vs moneyline 0.2012, diff +0.0097"
+   ]
+  ]
+ }
+}

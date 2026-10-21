@@ -1,0 +1,14 @@
+{
+    "@context": {
+        "@version": "1.1",
+        "@vocab": "https://api.weather.gov/ontology#"
+    },
+    "@id": "https://api.weather.gov/products/0870c53d-0270-4aff-8b25-9b3e11b219b4",
+    "id": "0870c53d-0270-4aff-8b25-9b3e11b219b4",
+    "wmoCollectiveId": "CDUS44",
+    "issuingOffice": "KEWX",
+    "issuanceTime": "2026-10-16T21:32:00+00:00",
+    "productCode": "CLI",
+    "productName": "Climatological Report (Daily)",
+    "productText": "\n000\nCDUS44 KEWX 162132\nCLIAUS\n\nCLIMATE REPORT \nNATIONAL WEATHER SERVICE AUSTIN/SAN ANTONIO\n432 PM CDT FRI OCT 16 2026\n\n...................................\n\n...THE AUSTIN BERGSTROM CLIMATE SUMMARY FOR OCTOBER 16 2026...\nVALID AS OF 0400 PM LOCAL TIME.\n\nCLIMATE NORMAL PERIOD: 1991 TO 2020\nCLIMATE RECORD PERIOD: 1943 TO 2026\n\n\nWEATHER ITEM   OBSERVED TIME   RECORD YEAR NORMAL DEPARTURE           \n                VALUE   (LST)  VALUE       VALUE  FROM               \n                                                  NORMAL           \n................................................................\nTEMPERATURE (F)                                                          \n TODAY                                                               \n  MAXIMUM         75   1:17 AM  92    1993  83     -8                 \n                                      2016                           \n                                      2022                           \n  MINIMUM         64   9:23 AM  41    2001  57      7                 \n  AVERAGE         70                                               \n\nPRECIPITATION (IN)                                                    \n  TODAY            0.00          1.63 1960   0.15  -0.15              \n  MONTH TO DATE    1.75                      1.91  -0.16              \n  SINCE SEP 1      1.83                      4.94  -3.11              \n  SINCE JAN 1     25.33                     27.94  -2.61              \n\n................................................................\n\n\nTHE AUSTIN BERGSTROM CLIMATE NORMALS FOR TOMORROW\n                         NORMAL    RECORD    YEAR                     \n MAXIMUM TEMPERATURE (F)   82        97      1993                      \n MINIMUM TEMPERATURE (F)   57        35      2001                      \n\n\nSUNRISE AND SUNSET                                                    \nOCTOBER 16 2026.......SUNRISE   7:33 AM CDT   SUNSET   6:58 PM CDT     \nOCTOBER 17 2026.......SUNRISE   7:34 AM CDT   SUNSET   6:57 PM CDT     \n\n\n-  INDICATES NEGATIVE NUMBERS.\nR  INDICATES RECORD WAS SET OR TIED.\nMM INDICATES DATA IS MISSING.\nT  INDICATES TRACE AMOUNT.\n\n\n\n\n$$\n"
+}

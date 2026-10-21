@@ -1,0 +1,136 @@
+{
+  "kalshi_arb": {
+    "early": {
+      "games": 135,
+      "minutes": 1353736,
+      "minutes_yes_pair_positive": 3,
+      "minutes_no_pair_positive": 12,
+      "episodes": 5,
+      "fillable_episodes": 1,
+      "fillable": {
+        "n_trades": 1,
+        "n_games": 1,
+        "mean_c": 0.41000000000001036,
+        "ci95_c": [
+          0.41,
+          0.41
+        ],
+        "win_rate": 1.0,
+        "total_usd": 0.41000000000001036
+      }
+    },
+    "later": {
+      "games": 147,
+      "minutes": 1456623,
+      "minutes_yes_pair_positive": 12,
+      "minutes_no_pair_positive": 20,
+      "episodes": 8,
+      "fillable_episodes": 0,
+      "fillable": {
+        "n_trades": 0,
+        "n_games": 0
+      }
+    }
+  },
+  "drift": {
+    "chosen_on_early": {
+      "h": 3,
+      "rule": "reversal",
+      "exit": "pnl_hold",
+      "n_trades": 97,
+      "mean_c": 5.516597938144331,
+      "ci95_c": [
+        -3.37,
+        14.93
+      ]
+    },
+    "note": "best mean on early weeks among sets with >= 50 trades",
+    "later": {
+      "n_trades": 112,
+      "n_games": 112,
+      "mean_c": -6.5024999999999995,
+      "ci95_c": [
+        -15.17,
+        1.64
+      ],
+      "win_rate": 0.4017857142857143
+    },
+    "early_sets_positive": 3,
+    "early_sets": 24
+  },
+  "price_bucket": {
+    "chosen_on_early": {
+      "h": 24,
+      "bucket": "20-40c",
+      "n_trades": 31,
+      "mean_c": 4.623225806451611,
+      "ci95_c": [
+        -12.81,
+        20.51
+      ]
+    },
+    "note": "best mean on early weeks among sets with >= 30 trades",
+    "later": {
+      "n_trades": 38,
+      "n_games": 38,
+      "mean_c": 9.465263157894736,
+      "ci95_c": [
+        -5.27,
+        26.55
+      ],
+      "win_rate": 0.42105263157894735
+    },
+    "early_buckets_positive": 2,
+    "early_buckets": 9
+  },
+  "venue_choice": {
+    "0.25": {
+      "n": 274,
+      "pct_polyus_cheaper": 63.868613138686136,
+      "avg_saving_c_when_cheaper": 0.3675428571428575,
+      "avg_saving_c_all_bets": 0.23474452554744552
+    },
+    "3.0": {
+      "n": 262,
+      "pct_polyus_cheaper": 59.92366412213741,
+      "avg_saving_c_when_cheaper": 0.40191082802547773,
+      "avg_saving_c_all_bets": 0.24083969465648858
+    },
+    "24.0": {
+      "n": 230,
+      "pct_polyus_cheaper": 65.65217391304347,
+      "avg_saving_c_when_cheaper": 0.44821192052980124,
+      "avg_saving_c_all_bets": 0.29426086956521735
+    }
+  },
+  "maker": {
+    "1": {
+      "orders": 564,
+      "fill_rate": 0.7553191489361702,
+      "avg_saving_c_if_filled": 2.1176995305164317,
+      "maker_pnl_hold_filled_c": -1.8588262910798121,
+      "taker_pnl_hold_all_c": -2.056631205673759,
+      "taker_pnl_hold_same_orders_c": -3.976525821596243
+    },
+    "3": {
+      "orders": 564,
+      "fill_rate": 0.5656028368794326,
+      "avg_saving_c_if_filled": 2.1127586206896556,
+      "maker_pnl_hold_filled_c": -1.1762695924764885,
+      "taker_pnl_hold_all_c": -2.0362056737588654,
+      "taker_pnl_hold_same_orders_c": -3.289028213166144
+    },
+    "24": {
+      "orders": 564,
+      "fill_rate": 0.1950354609929078,
+      "avg_saving_c_if_filled": 2.185909090909091,
+      "maker_pnl_hold_filled_c": 3.143363636363636,
+      "taker_pnl_hold_all_c": -2.106471631205674,
+      "taker_pnl_hold_same_orders_c": 0.9574545454545449
+    }
+  },
+  "closing_line_longrun": {
+    "seasons": "2006-2025",
+    "max_abs_z_prior_seasons": 1.062332498373498
+  }
+}

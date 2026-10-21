@@ -1,0 +1,148 @@
+# All timestamps are UTC. Prices are dollars in [0, 1].
+paths:
+  data_dir: data
+  raw_cache_dir: data/raw
+  db_path: data/kpm.sqlite
+  logs_dir: logs
+  review_dir: review
+  report_dir: reports/output
+
+season: 2025
+# Weeks <= dev_last_week (regular season) are the "early" set used to pick thresholds.
+# Later regular-season weeks AND all playoff games are the holdout.
+split:
+  dev_last_week: 9
+
+kalshi:
+  base_url: https://api.elections.kalshi.com/trade-api/v2
+  series_ticker: KXNFLGAME
+  min_request_interval_s: 0.1        # shared across workers; historical endpoints 429 at ~16/s
+  workers: 6                         # parallel downloads; requests have ~1s latency
+  candle_interval_min: 1
+  max_candles_per_request: 5000      # documented server limit (verified)
+
+polymarket:
+  gamma_url: https://gamma-api.polymarket.com
+  clob_url: https://clob.polymarket.com
+  data_api_url: https://data-api.polymarket.com
+  # Gamma series for NFL game events. 2025 season = 10187 (verified); 12185 is the newer series.
+  nfl_series_ids: [10187, 12185]
+  min_request_interval_s: 0.12
+  prices_history_fidelity_min: 1
+  prices_history_chunk_s: 86400
+  # Fall back to Data API trades when median spacing of prices-history exceeds this.
+  fallback_if_resolution_over_s: 300
+
+collection:
+  # Pre-kickoff window collected for both venues.
+  window_before_kickoff_s: 604800    # 7 days
+  window_after_kickoff_s: 300        # small buffer; analysis cuts strictly at kickoff
+
+fees:
+  # Kalshi taker fee = ceil_to_cent(multiplier * C * P * (1 - P)); maker = maker_fraction * taker.
+  # KXNFLGAME series reports fee_type=quadratic_with_maker_fees, fee_multiplier=1.
+  taker_multiplier: 0.07
+  maker_fraction: 0.25
+  rounding: cent_ceil                # cent_ceil | micro_ceil | none
+  order_size: 100                    # contracts per simulated order (fee rounding is per order)
+
+# Polymarket US (only venue a US resident can trade Polymarket on). Exchange-wide schedule effective
+# 2026-10-01: taker = 0.0695 x C x p x (1-p), rounded to the nearest cent (banker's rounding).
+# Applied to 2025 data as "what you would pay today"; the schedule in force during 2025 may have differed.
+polymarket_us:
+  gateway_url: https://gateway.polymarket.us
+  min_request_interval_s: 0.1        # documented public limit is 20 req/s/IP
+  taker_multiplier: 0.0695
+  maker_fraction: 0.0                # makers receive a rebate; taker-only strategies here
+  rounding: cent_half_even
+  max_spread: 0.10                   # ignore minutes where the book is wider than this
+  # Polymarket US NFL markets start in week 9, so the early/late split is re-drawn inside its coverage.
+  early_last_week: 13
+
+crypto:
+  series: KXBTC15M                   # BTC up/down over 15 minutes; settles on CF Benchmarks BRTI 60s averages
+  coinbase_url: https://api.exchange.coinbase.com
+  product: BTC-USD
+  start: "2026-06-01T00:00:00Z"
+  early_end: "2026-07-01T00:00:00Z"  # choose settings on [start, early_end)
+  later_end: "2026-08-05T00:00:00Z"  # test on [early_end, later_end)  (end of Kalshi's historical tier)
+  fresh_end: "2026-10-04T00:00:00Z"  # confirm on [later_end, fresh_end) (never used for choosing)
+  vol_lookback_min: 120
+  order_size: 100
+  maker_fee: 0.0                     # crypto series are not flagged quadratic_with_maker_fees
+
+# Live trading (opt-in). Without --live every bot is watch-only: it reads public data, detects, paper-trades and sends
+# nothing, and needs no keys. An order leaves this process only if ALL of these hold: enabled is true below, the command
+# has --live and --env prod, KALSHI_ENV=prod, the loss cap is not used up, no kill file exists, the PC clock is within
+# max_clock_skew_s of Kalshi's, and "LIVE PROD 5" is typed at an interactive prompt (no TTY: refused).
+# Keys come only from .env. Hosts are fixed in code (kpm.execution.env) and cannot be set here.
+# Values marked "ceiling" or "floor" are hard limits in kpm.execution.safety: a value past one refuses to start.
+# Money and counts are strings so that YAML never turns them into floats.
+trading:
+  enabled: true
+  max_loss_usd: "5.00"               # ceiling 5.00. ONE account-wide cap: realized loss + open worst case; auto-stop + cancel path
+  max_cost_per_order_usd: "1.00"     # ceiling 1.00: collateral of one order
+  max_contracts_per_order: "1"       # ceiling 1
+  max_open_exposure_usd: "3.00"      # ceiling 3.00: collateral of unsettled positions and unfinished orders
+  max_orders_per_minute: 10          # ceiling 10, counted over every run in the environment
+  max_orders_per_session: 300        # entries one run (one kpm bot run) may create; exits are never capped
+  max_clock_skew_s: 2.0              # ceiling 2.0: PC clock vs Kalshi's Date header (median of 3 probes). Checked at start,
+                                     #   then re-measured every 10 minutes during a run (the bots do it while they idle);
+                                     #   an order is refused while the latest reading is off by more or is over 21 min old
+  allowed_series: [KXBTC15M, KXBTCD]
+  price_min: "0.001"                 # floor 0.001. The YES price of every order must lie in [price_min, price_max] AND on
+  price_max: "0.999"                 #   the market's exact tick grid; ceiling 0.999 (user: take 99-99.9c favorites, ~$1 risk each)
+  min_seconds_to_close: 20           # floor 20 (10 more when the market can close early)
+  kill_switch_file: data/KILL        # if this file exists: no new orders, resting ones cancelled, the run stops
+  late_favorite:                     # strategy 1 (ported from aulekator/Polymarket-BTC-15-Minute-Trading-Bot)
+    window_start_s: 780              # The rule is fixed in code. These four lines only repeat it: change one and the
+    window_end_s: 840                #   bot refuses to start. 780-840 s into the 900 s window = 120-60 s before close.
+    up_threshold: "0.60"             # YES mid above this: buy 1 YES at the YES ask
+    down_threshold: "0.40"           # YES mid below this: buy 1 NO at the NO ask
+    contracts: "1"
+    max_attempts: 3                  # IOC attempts per window; never more than one filled trade per window
+    poll_interval_s: 1.0
+    max_book_age_s: 2.0
+  pair:                              # strategy 2, H2: hourly KXBTCD strike vs the KXBTC15M market ending on the hour
+    window_min: 15
+    strikes_each_side: 2
+    min_edge_usd: "0.001"            # act only if 1 - (cost of both legs + taker fees) >= this
+    poll_interval_s: 1.0
+    contracts: "1"
+    max_book_age_s: 2.0
+    stop_before_close_s: 45          # at least 30: Safety refuses every entry in the last min_seconds_to_close (20) + 10 s
+                                     #   (these markets can close early) before the close; the bot refuses to start below it
+    max_live_pairs_per_hour: 2
+
+dashboard:
+  host: 127.0.0.1                    # localhost only
+  port: 8765
+  refresh_s: 2
+
+matcher:
+  version: rules-v1
+  kickoff_tolerance_s: 7200
+  approve_threshold: 0.9
+  review_backend: session            # session | claude_api
+  allow_paid_api: false              # must be explicitly true to make paid Claude API calls
+  claude_model: claude-opus-5-5
+
+analysis:
+  grid_s: 60
+  poly_max_staleness_s: 600
+  # "Active" = the Polymarket price changed within this window. Fixed a priori as a data-quality
+  # definition (prices-history emits a point every minute even when the book is dormant).
+  poly_active_max_unchanged_s: 1800
+  kalshi_max_staleness_s: 3600
+  edge_thresholds: [0.01, 0.02, 0.03, 0.05]
+  horizons_min: [5, 15, 60]
+  converge_tolerance: 0.005
+  fill_window_s: 60
+  ttk_buckets:                       # label: [min_s, max_s) seconds before kickoff
+    ">24h": [86400, 1.0e+12]
+    "24h-3h": [10800, 86400]
+    "3h-90m": [5400, 10800]
+    "last 90m": [0, 5400]
+  min_games_trust: 30
+  min_trades_trust: 50
+  bootstrap_reps: 2000

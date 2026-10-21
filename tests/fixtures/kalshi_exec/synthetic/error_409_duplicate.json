@@ -1,0 +1,6 @@
+{
+ "error": {
+  "code": "order_already_exists",
+  "message": "order with this client_order_id already exists"
+ }
+}

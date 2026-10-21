@@ -1,0 +1,30 @@
+# Secrets
+.env
+*.pem
+*.key
+
+# Environments
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+
+# Data and logs (raw API cache and the SQLite db are reproducible from the collectors)
+data/
+logs/
+
+# Review working files may contain full market text; keep the decisions, not scratch
+review/review_packets/
+
+# Local secrets (Discord webhook etc.)
+secrets/
+
+# Large research databases and outputs (rebuildable from the code; GitHub limit is 100 MB per file)
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.parquet
+reports/output/nba_model/injury_parsed_v3.json
+
+# Personal Claude Code settings
+.claude/settings.local.json

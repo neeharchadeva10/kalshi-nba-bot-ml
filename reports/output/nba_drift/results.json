@@ -1,0 +1,3615 @@
+{
+ "NBA": {
+  "n_games": 1317,
+  "discovery_games": 659,
+  "unseen_games": 658,
+  "split_tip_utc": "2026-01-23T01:00:00+00:00",
+  "first_tip_utc": "2025-10-21T23:30:00+00:00",
+  "last_tip_utc": "2026-06-14T00:30:00+00:00",
+  "unseen_weeks": 20.282738095238095,
+  "versions": {
+   "V1 favourite @ T-24h": {
+    "n_total": 1295,
+    "n_disc": 653,
+    "n_unseen": 642,
+    "disc_mean_clv": -0.025893583460949464,
+    "unseen_mean_clv": -0.021130171339563866,
+    "unseen_ci_lo": -0.024961022585669786,
+    "unseen_ci_hi": -0.017451962227414332,
+    "unseen_mean_settle": -0.013746993769470403,
+    "unseen_mean_exit": -0.039620249221183804,
+    "all_mean_clv": -0.023532108108108112,
+    "unseen_trades_per_week": 30.571428571428573,
+    "unseen_usd_per_week": -6.459795238095239,
+    "unseen_usd_per_active_week": -6.459795238095239,
+    "coinflip_share_ge": 0.194,
+    "coinflip_mean": -0.0227335631152648
+   },
+   "V2 underdog @ T-24h": {
+    "n_total": 1291,
+    "n_disc": 651,
+    "n_unseen": 640,
+    "disc_mean_clv": -0.028868448540706606,
+    "unseen_mean_clv": -0.025010609375000003,
+    "unseen_ci_lo": -0.028761951953125,
+    "unseen_ci_hi": -0.021221664453125004,
+    "unseen_mean_settle": -0.030541859375,
+    "unseen_mean_exit": -0.04326434375,
+    "all_mean_clv": -0.026955964368706432,
+    "unseen_trades_per_week": 30.476190476190474,
+    "unseen_usd_per_week": -7.622280952380953,
+    "unseen_usd_per_active_week": -7.622280952380953,
+    "coinflip_share_ge": 0.89,
+    "coinflip_mean": -0.022711934500000003
+   },
+   "V3 home @ T-24h": {
+    "n_total": 1305,
+    "n_disc": 659,
+    "n_unseen": 646,
+    "disc_mean_clv": -0.02529854324734446,
+    "unseen_mean_clv": -0.017995835913312698,
+    "unseen_ci_lo": -0.021704315789473686,
+    "unseen_ci_hi": -0.014272475232198148,
+    "unseen_mean_settle": -0.02952834365325076,
+    "unseen_mean_exit": -0.03645241486068111,
+    "all_mean_clv": -0.021683563218390805,
+    "unseen_trades_per_week": 30.761904761904763,
+    "unseen_usd_per_week": -5.535861904761906,
+    "unseen_usd_per_active_week": -5.535861904761906,
+    "coinflip_share_ge": 0.002,
+    "coinflip_mean": -0.022924636315789476
+   },
+   "V4 away @ T-24h": {
+    "n_total": 1305,
+    "n_disc": 659,
+    "n_unseen": 646,
+    "disc_mean_clv": -0.02967960546282246,
+    "unseen_mean_clv": -0.02771986068111455,
+    "unseen_ci_lo": -0.03145089821981424,
+    "unseen_ci_hi": -0.023977205495356035,
+    "unseen_mean_settle": -0.01791335913312693,
+    "unseen_mean_exit": -0.046075479876160993,
+    "all_mean_clv": -0.028709494252873564,
+    "unseen_trades_per_week": 30.761904761904763,
+    "unseen_usd_per_week": -8.527157142857144,
+    "unseen_usd_per_active_week": -8.527157142857144,
+    "coinflip_share_ge": 1.0,
+    "coinflip_mean": -0.02275633238390093
+   },
+   "V5 momentum @ T-24h": {
+    "n_total": 1134,
+    "n_disc": 602,
+    "n_unseen": 532,
+    "disc_mean_clv": -0.02889099667774087,
+    "unseen_mean_clv": -0.01689385338345865,
+    "unseen_ci_lo": -0.02083155921052632,
+    "unseen_ci_hi": -0.013012688439849627,
+    "unseen_mean_settle": 0.00220389097744361,
+    "unseen_mean_exit": -0.03530236842105264,
+    "all_mean_clv": -0.02326270723104057,
+    "unseen_trades_per_week": 25.333333333333332,
+    "unseen_usd_per_week": -4.279776190476191,
+    "unseen_usd_per_active_week": -4.279776190476191,
+    "coinflip_share_ge": 0.0,
+    "coinflip_mean": -0.022834434774436092
+   },
+   "V6 reversal @ T-24h": {
+    "n_total": 885,
+    "n_disc": 410,
+    "n_unseen": 475,
+    "disc_mean_clv": -0.026645731707317072,
+    "unseen_mean_clv": -0.02904206315789474,
+    "unseen_ci_lo": -0.033260698421052635,
+    "unseen_ci_hi": -0.024914198947368422,
+    "unseen_mean_settle": -0.050684168421052625,
+    "unseen_mean_exit": -0.04716745263157895,
+    "all_mean_clv": -0.027931898305084742,
+    "unseen_trades_per_week": 22.61904761904762,
+    "unseen_usd_per_week": -6.569038095238096,
+    "unseen_usd_per_active_week": -6.569038095238096,
+    "coinflip_share_ge": 1.0,
+    "coinflip_mean": -0.022374551410526314
+   },
+   "V7 elo edge @ T-24h": {
+    "n_total": 909,
+    "n_disc": 414,
+    "n_unseen": 495,
+    "disc_mean_clv": -0.030365869565217394,
+    "unseen_mean_clv": -0.022911535353535357,
+    "unseen_ci_lo": -0.02723220757575758,
+    "unseen_ci_hi": -0.018447379292929295,
+    "unseen_mean_settle": -0.034295373737373736,
+    "unseen_mean_exit": -0.04173307070707071,
+    "all_mean_clv": -0.026306578657865787,
+    "unseen_trades_per_week": 23.571428571428573,
+    "unseen_usd_per_week": -5.400576190476191,
+    "unseen_usd_per_active_week": -5.400576190476191,
+    "coinflip_share_ge": 0.442,
+    "coinflip_mean": -0.023334450505050505
+   },
+   "V1 favourite @ T-6h": {
+    "n_total": 1312,
+    "n_disc": 658,
+    "n_unseen": 654,
+    "disc_mean_clv": -0.02297934650455927,
+    "unseen_mean_clv": -0.021976972477064222,
+    "unseen_ci_lo": -0.024585406345565754,
+    "unseen_ci_hi": -0.0193677637614679,
+    "unseen_mean_settle": -0.029920397553516814,
+    "unseen_mean_exit": -0.04047487767584098,
+    "all_mean_clv": -0.022479687499999998,
+    "unseen_trades_per_week": 31.142857142857142,
+    "unseen_usd_per_week": -6.844257142857143,
+    "unseen_usd_per_active_week": -6.844257142857143,
+    "coinflip_share_ge": 0.978,
+    "coinflip_mean": -0.01929460122324159
+   },
+   "V2 underdog @ T-6h": {
+    "n_total": 1306,
+    "n_disc": 655,
+    "n_unseen": 651,
+    "disc_mean_clv": -0.017930259541984732,
+    "unseen_mean_clv": -0.01655244239631336,
+    "unseen_ci_lo": -0.01909883525345622,
+    "unseen_ci_hi": -0.013917243471582184,
+    "unseen_mean_settle": -0.0109226420890937,
+    "unseen_mean_exit": -0.03482973886328725,
+    "all_mean_clv": -0.01724346094946401,
+    "unseen_trades_per_week": 31.0,
+    "unseen_usd_per_week": -5.131257142857142,
+    "unseen_usd_per_active_week": -5.131257142857142,
+    "coinflip_share_ge": 0.026,
+    "coinflip_mean": -0.019102800215053766
+   },
+   "V3 home @ T-6h": {
+    "n_total": 1313,
+    "n_disc": 659,
+    "n_unseen": 654,
+    "disc_mean_clv": -0.02173708649468892,
+    "unseen_mean_clv": -0.018878975535168197,
+    "unseen_ci_lo": -0.02144750152905199,
+    "unseen_ci_hi": -0.01623362270642202,
+    "unseen_mean_settle": -0.029047171253822623,
+    "unseen_mean_exit": -0.037326100917431194,
+    "all_mean_clv": -0.020313472962680885,
+    "unseen_trades_per_week": 31.142857142857142,
+    "unseen_usd_per_week": -5.879452380952381,
+    "unseen_usd_per_active_week": -5.879452380952381,
+    "coinflip_share_ge": 0.404,
+    "coinflip_mean": -0.019203081865443426
+   },
+   "V4 away @ T-6h": {
+    "n_total": 1313,
+    "n_disc": 659,
+    "n_unseen": 654,
+    "disc_mean_clv": -0.019374036418816392,
+    "unseen_mean_clv": -0.01958597859327217,
+    "unseen_ci_lo": -0.022229511850152903,
+    "unseen_ci_hi": -0.017045926223241595,
+    "unseen_mean_settle": -0.011107385321100918,
+    "unseen_mean_exit": -0.03793298165137615,
+    "all_mean_clv": -0.019479603960396042,
+    "unseen_trades_per_week": 31.142857142857142,
+    "unseen_usd_per_week": -6.099633333333333,
+    "unseen_usd_per_active_week": -6.099633333333333,
+    "coinflip_share_ge": 0.606,
+    "coinflip_mean": -0.019284102048929667
+   },
+   "V5 momentum @ T-6h": {
+    "n_total": 1164,
+    "n_disc": 591,
+    "n_unseen": 573,
+    "disc_mean_clv": -0.020760795262267342,
+    "unseen_mean_clv": -0.02216689354275742,
+    "unseen_ci_lo": -0.025071331588132635,
+    "unseen_ci_hi": -0.01932938743455498,
+    "unseen_mean_settle": -0.030474048865619545,
+    "unseen_mean_exit": -0.040727085514834206,
+    "all_mean_clv": -0.021452972508591066,
+    "unseen_trades_per_week": 27.285714285714285,
+    "unseen_usd_per_week": -6.048395238095238,
+    "unseen_usd_per_active_week": -6.048395238095238,
+    "coinflip_share_ge": 0.966,
+    "coinflip_mean": -0.019563364572425832
+   },
+   "V6 reversal @ T-6h": {
+    "n_total": 1199,
+    "n_disc": 610,
+    "n_unseen": 589,
+    "disc_mean_clv": -0.02025988524590164,
+    "unseen_mean_clv": -0.017498200339558578,
+    "unseen_ci_lo": -0.020234095500848898,
+    "unseen_ci_hi": -0.01477527589134126,
+    "unseen_mean_settle": -0.011649303904923596,
+    "unseen_mean_exit": -0.035912037351443125,
+    "all_mean_clv": -0.018903227689741453,
+    "unseen_trades_per_week": 28.047619047619047,
+    "unseen_usd_per_week": -4.907828571428572,
+    "unseen_usd_per_active_week": -4.907828571428572,
+    "coinflip_share_ge": 0.118,
+    "coinflip_mean": -0.019100712190152806
+   },
+   "V7 elo edge @ T-6h": {
+    "n_total": 959,
+    "n_disc": 444,
+    "n_unseen": 515,
+    "disc_mean_clv": -0.02132234234234234,
+    "unseen_mean_clv": -0.0179172427184466,
+    "unseen_ci_lo": -0.020942831553398062,
+    "unseen_ci_hi": -0.014786416990291262,
+    "unseen_mean_settle": -0.031975495145631055,
+    "unseen_mean_exit": -0.03653605825242719,
+    "all_mean_clv": -0.01949374348279458,
+    "unseen_trades_per_week": 24.523809523809526,
+    "unseen_usd_per_week": -4.393990476190476,
+    "unseen_usd_per_active_week": -4.393990476190476,
+    "coinflip_share_ge": 0.17,
+    "coinflip_mean": -0.01940281196116505
+   },
+   "V1 favourite @ T-1h": {
+    "n_total": 1309,
+    "n_disc": 657,
+    "n_unseen": 652,
+    "disc_mean_clv": -0.020013348554033486,
+    "unseen_mean_clv": -0.019611395705521475,
+    "unseen_ci_lo": -0.020953131901840494,
+    "unseen_ci_hi": -0.018322827070552147,
+    "unseen_mean_settle": -0.01708838957055214,
+    "unseen_mean_exit": -0.03809820552147239,
+    "all_mean_clv": -0.019813139801375095,
+    "unseen_trades_per_week": 31.047619047619047,
+    "unseen_usd_per_week": -6.08887142857143,
+    "unseen_usd_per_active_week": -6.08887142857143,
+    "coinflip_share_ge": 0.952,
+    "coinflip_mean": -0.01860671346625767
+   },
+   "V2 underdog @ T-1h": {
+    "n_total": 1309,
+    "n_disc": 656,
+    "n_unseen": 653,
+    "disc_mean_clv": -0.01925664634146342,
+    "unseen_mean_clv": -0.01762906584992343,
+    "unseen_ci_lo": -0.01891925038284839,
+    "unseen_ci_hi": -0.016305531010719753,
+    "unseen_mean_settle": -0.02103641653905053,
+    "unseen_mean_exit": -0.03591773353751914,
+    "all_mean_clv": -0.018444721161191748,
+    "unseen_trades_per_week": 31.095238095238095,
+    "unseen_usd_per_week": -5.4818,
+    "unseen_usd_per_active_week": -5.4818,
+    "coinflip_share_ge": 0.07,
+    "coinflip_mean": -0.018671041010719754
+   },
+   "V3 home @ T-1h": {
+    "n_total": 1313,
+    "n_disc": 659,
+    "n_unseen": 654,
+    "disc_mean_clv": -0.020502655538694993,
+    "unseen_mean_clv": -0.01925894495412844,
+    "unseen_ci_lo": -0.020557476681957187,
+    "unseen_ci_hi": -0.017938173547400613,
+    "unseen_mean_settle": -0.029427140672782872,
+    "unseen_mean_exit": -0.03770607033639144,
+    "all_mean_clv": -0.019883168316831682,
+    "unseen_trades_per_week": 31.142857142857142,
+    "unseen_usd_per_week": -5.9977857142857145,
+    "unseen_usd_per_active_week": -5.9977857142857145,
+    "coinflip_share_ge": 0.872,
+    "coinflip_mean": -0.01857293611620795
+   },
+   "V4 away @ T-1h": {
+    "n_total": 1313,
+    "n_disc": 659,
+    "n_unseen": 654,
+    "disc_mean_clv": -0.018827587253414265,
+    "unseen_mean_clv": -0.017967217125382264,
+    "unseen_ci_lo": -0.019289485856269117,
+    "unseen_ci_hi": -0.016692474388379206,
+    "unseen_mean_settle": -0.009488623853211007,
+    "unseen_mean_exit": -0.03631422018348624,
+    "all_mean_clv": -0.01839904036557502,
+    "unseen_trades_per_week": 31.142857142857142,
+    "unseen_usd_per_week": -5.595504761904762,
+    "unseen_usd_per_active_week": -5.595504761904762,
+    "coinflip_share_ge": 0.148,
+    "coinflip_mean": -0.018653886483180428
+   },
+   "V5 momentum @ T-1h": {
+    "n_total": 1137,
+    "n_disc": 575,
+    "n_unseen": 562,
+    "disc_mean_clv": -0.018479391304347826,
+    "unseen_mean_clv": -0.01840211743772242,
+    "unseen_ci_lo": -0.01988916147686833,
+    "unseen_ci_hi": -0.016911556494661924,
+    "unseen_mean_settle": -0.0013647508896797087,
+    "unseen_mean_exit": -0.03694959074733096,
+    "all_mean_clv": -0.018441196130167106,
+    "unseen_trades_per_week": 26.761904761904763,
+    "unseen_usd_per_week": -4.924757142857143,
+    "unseen_usd_per_active_week": -4.924757142857143,
+    "coinflip_share_ge": 0.286,
+    "coinflip_mean": -0.018837635017793595
+   },
+   "V6 reversal @ T-1h": {
+    "n_total": 1211,
+    "n_disc": 609,
+    "n_unseen": 602,
+    "disc_mean_clv": -0.021353891625615764,
+    "unseen_mean_clv": -0.019033073089701,
+    "unseen_ci_lo": -0.020433187707641198,
+    "unseen_ci_hi": -0.01759566611295681,
+    "unseen_mean_settle": -0.025179252491694348,
+    "unseen_mean_exit": -0.03743254152823921,
+    "all_mean_clv": -0.020200189925681258,
+    "unseen_trades_per_week": 28.666666666666668,
+    "unseen_usd_per_week": -5.456147619047621,
+    "unseen_usd_per_active_week": -5.456147619047621,
+    "coinflip_share_ge": 0.738,
+    "coinflip_mean": -0.018612909933554817
+   },
+   "V7 elo edge @ T-1h": {
+    "n_total": 946,
+    "n_disc": 438,
+    "n_unseen": 508,
+    "disc_mean_clv": -0.02022735159817352,
+    "unseen_mean_clv": -0.019265688976377954,
+    "unseen_ci_lo": -0.02085388976377953,
+    "unseen_ci_hi": -0.01766492372047244,
+    "unseen_mean_settle": -0.03673616141732283,
+    "unseen_mean_exit": -0.03782574803149606,
+    "all_mean_clv": -0.019710940803382666,
+    "unseen_trades_per_week": 24.19047619047619,
+    "unseen_usd_per_week": -4.660461904761905,
+    "unseen_usd_per_active_week": -4.660461904761905,
+    "coinflip_share_ge": 0.786,
+    "coinflip_mean": -0.018739863740157483
+   }
+  },
+  "exclusions": {
+   "T-24h": {
+    "kept_games": 1305,
+    "excluded": {
+     "no close candle": 4,
+     "no entry candle": 8
+    }
+   },
+   "T-6h": {
+    "kept_games": 1313,
+    "excluded": {
+     "no close candle": 4
+    }
+   },
+   "T-1h": {
+    "kept_games": 1313,
+    "excluded": {
+     "no valid bid/ask at entry": 4
+    }
+   }
+  },
+  "descr": {
+   "T-24h": {
+    "team_markets": 2610,
+    "mean_abs_drift_entry_to_close": 0.034189655172413784,
+    "median_abs_drift": 0.024999999999999994,
+    "mean_entry_spread": 0.01954022988505747,
+    "median_entry_candle_age_s": 0.0,
+    "p95_entry_candle_age_s": 1800.0,
+    "v1_fav_still_fav_at_close": 0.9424405218726016,
+    "v1_fav_games": 1303
+   },
+   "T-6h": {
+    "team_markets": 2626,
+    "mean_abs_drift_entry_to_close": 0.01944211728865194,
+    "median_abs_drift": 0.010000000000000009,
+    "mean_entry_spread": 0.011058644325971059,
+    "median_entry_candle_age_s": 0.0,
+    "p95_entry_candle_age_s": 1800.0,
+    "v1_fav_still_fav_at_close": 0.9694189602446484,
+    "v1_fav_games": 1308
+   },
+   "close_mean_spread": 0.010575019040365573,
+   "T-1h": {
+    "team_markets": 2626,
+    "mean_abs_drift_entry_to_close": 0.009207920792079207,
+    "median_abs_drift": 0.009999999999999898,
+    "mean_entry_spread": 0.010666412795125665,
+    "median_entry_candle_age_s": 0.0,
+    "p95_entry_candle_age_s": 1800.0,
+    "v1_fav_still_fav_at_close": 0.9908396946564886,
+    "v1_fav_games": 1310
+   }
+  },
+  "calibration": {
+   "T-24h entry mid": {
+    "n": 2610,
+    "brier": 0.20183988505747127,
+    "buckets": [
+     {
+      "bucket": "0.0-0.1",
+      "n": 42,
+      "mean_mid": 0.07750000000000001,
+      "win_rate": 0.0
+     },
+     {
+      "bucket": "0.1-0.2",
+      "n": 228,
+      "mean_mid": 0.15186403508771928,
+      "win_rate": 0.15350877192982457
+     },
+     {
+      "bucket": "0.2-0.3",
+      "n": 279,
+      "mean_mid": 0.2512544802867384,
+      "win_rate": 0.23655913978494625
+     },
+     {
+      "bucket": "0.3-0.4",
+      "n": 374,
+      "mean_mid": 0.34949197860962566,
+      "win_rate": 0.3663101604278075
+     },
+     {
+      "bucket": "0.4-0.5",
+      "n": 372,
+      "mean_mid": 0.4483064516129033,
+      "win_rate": 0.4650537634408602
+     },
+     {
+      "bucket": "0.5-0.6",
+      "n": 362,
+      "mean_mid": 0.549074585635359,
+      "win_rate": 0.5469613259668509
+     },
+     {
+      "bucket": "0.6-0.7",
+      "n": 378,
+      "mean_mid": 0.6481613756613757,
+      "win_rate": 0.6005291005291006
+     },
+     {
+      "bucket": "0.7-0.8",
+      "n": 285,
+      "mean_mid": 0.7455964912280701,
+      "win_rate": 0.7719298245614035
+     },
+     {
+      "bucket": "0.8-0.9",
+      "n": 237,
+      "mean_mid": 0.8473628691983122,
+      "win_rate": 0.8270042194092827
+     },
+     {
+      "bucket": "0.9-1.0",
+      "n": 53,
+      "mean_mid": 0.92188679245283,
+      "win_rate": 1.0
+     }
+    ]
+   },
+   "T-6h entry mid": {
+    "n": 2626,
+    "brier": 0.1991941355674029,
+    "buckets": [
+     {
+      "bucket": "0.0-0.1",
+      "n": 62,
+      "mean_mid": 0.07443548387096774,
+      "win_rate": 0.016129032258064516
+     },
+     {
+      "bucket": "0.1-0.2",
+      "n": 245,
+      "mean_mid": 0.1509387755102041,
+      "win_rate": 0.1836734693877551
+     },
+     {
+      "bucket": "0.2-0.3",
+      "n": 286,
+      "mean_mid": 0.2510839160839161,
+      "win_rate": 0.22377622377622378
+     },
+     {
+      "bucket": "0.3-0.4",
+      "n": 352,
+      "mean_mid": 0.3505539772727273,
+      "win_rate": 0.375
+     },
+     {
+      "bucket": "0.4-0.5",
+      "n": 361,
+      "mean_mid": 0.4459972299168975,
+      "win_rate": 0.4930747922437673
+     },
+     {
+      "bucket": "0.5-0.6",
+      "n": 352,
+      "mean_mid": 0.5526846590909091,
+      "win_rate": 0.5085227272727273
+     },
+     {
+      "bucket": "0.6-0.7",
+      "n": 357,
+      "mean_mid": 0.6467927170868347,
+      "win_rate": 0.6190476190476191
+     },
+     {
+      "bucket": "0.7-0.8",
+      "n": 293,
+      "mean_mid": 0.7474744027303754,
+      "win_rate": 0.7542662116040956
+     },
+     {
+      "bucket": "0.8-0.9",
+      "n": 252,
+      "mean_mid": 0.8488690476190476,
+      "win_rate": 0.8253968253968254
+     },
+     {
+      "bucket": "0.9-1.0",
+      "n": 66,
+      "mean_mid": 0.926060606060606,
+      "win_rate": 0.9696969696969697
+     }
+    ]
+   },
+   "close mid (T-5m; games valid at T-6h)": {
+    "n": 2626,
+    "brier": 0.19740737814166034,
+    "buckets": [
+     {
+      "bucket": "0.0-0.1",
+      "n": 69,
+      "mean_mid": 0.07405797101449274,
+      "win_rate": 0.0
+     },
+     {
+      "bucket": "0.1-0.2",
+      "n": 236,
+      "mean_mid": 0.15292372881355934,
+      "win_rate": 0.1906779661016949
+     },
+     {
+      "bucket": "0.2-0.3",
+      "n": 285,
+      "mean_mid": 0.24887719298245617,
+      "win_rate": 0.23157894736842105
+     },
+     {
+      "bucket": "0.3-0.4",
+      "n": 353,
+      "mean_mid": 0.35002832861189803,
+      "win_rate": 0.3597733711048159
+     },
+     {
+      "bucket": "0.4-0.5",
+      "n": 369,
+      "mean_mid": 0.44711382113821135,
+      "win_rate": 0.46612466124661245
+     },
+     {
+      "bucket": "0.5-0.6",
+      "n": 361,
+      "mean_mid": 0.5534487534626038,
+      "win_rate": 0.5290858725761773
+     },
+     {
+      "bucket": "0.6-0.7",
+      "n": 352,
+      "mean_mid": 0.6496022727272728,
+      "win_rate": 0.6448863636363636
+     },
+     {
+      "bucket": "0.7-0.8",
+      "n": 288,
+      "mean_mid": 0.7498090277777778,
+      "win_rate": 0.7534722222222222
+     },
+     {
+      "bucket": "0.8-0.9",
+      "n": 243,
+      "mean_mid": 0.8473045267489712,
+      "win_rate": 0.8148148148148148
+     },
+     {
+      "bucket": "0.9-1.0",
+      "n": 70,
+      "mean_mid": 0.9260714285714287,
+      "win_rate": 1.0
+     }
+    ]
+   },
+   "T-1h entry mid": {
+    "n": 2626,
+    "brier": 0.19793273990860627,
+    "buckets": [
+     {
+      "bucket": "0.0-0.1",
+      "n": 67,
+      "mean_mid": 0.07425373134328359,
+      "win_rate": 0.014925373134328358
+     },
+     {
+      "bucket": "0.1-0.2",
+      "n": 240,
+      "mean_mid": 0.15183333333333332,
+      "win_rate": 0.18333333333333332
+     },
+     {
+      "bucket": "0.2-0.3",
+      "n": 280,
+      "mean_mid": 0.2485357142857143,
+      "win_rate": 0.225
+     },
+     {
+      "bucket": "0.3-0.4",
+      "n": 360,
+      "mean_mid": 0.34947222222222224,
+      "win_rate": 0.375
+     },
+     {
+      "bucket": "0.4-0.5",
+      "n": 364,
+      "mean_mid": 0.4471978021978022,
+      "win_rate": 0.4725274725274725
+     },
+     {
+      "bucket": "0.5-0.6",
+      "n": 355,
+      "mean_mid": 0.5532676056338028,
+      "win_rate": 0.5295774647887324
+     },
+     {
+      "bucket": "0.6-0.7",
+      "n": 365,
+      "mean_mid": 0.6497945205479453,
+      "win_rate": 0.6191780821917808
+     },
+     {
+      "bucket": "0.7-0.8",
+      "n": 282,
+      "mean_mid": 0.7510283687943263,
+      "win_rate": 0.7624113475177305
+     },
+     {
+      "bucket": "0.8-0.9",
+      "n": 245,
+      "mean_mid": 0.8485102040816326,
+      "win_rate": 0.8244897959183674
+     },
+     {
+      "bucket": "0.9-1.0",
+      "n": 68,
+      "mean_mid": 0.9263235294117648,
+      "win_rate": 0.9852941176470589
+     }
+    ]
+   }
+  },
+  "unseen_active_weeks": 21,
+  "loader_exclusions": {
+   "preseason (T before 2025-10-21)": 43,
+   "no clean result ['scalar', 'scalar']": 3
+  },
+  "flags": {
+   "title_ticker_home_mismatch": [],
+   "title_unresolved": [
+    [
+     "KXNBAGAME-25DEC01ATLDET",
+     "Atlanta vs Detroit"
+    ],
+    [
+     "KXNBAGAME-25DEC01CHABKN",
+     "Charlotte vs Brooklyn"
+    ],
+    [
+     "KXNBAGAME-25DEC01CHIORL",
+     "Chicago vs Orlando"
+    ],
+    [
+     "KXNBAGAME-25DEC01CLEIND",
+     "Cleveland vs Indiana"
+    ],
+    [
+     "KXNBAGAME-25DEC01DALDEN",
+     "Dallas vs Denver"
+    ],
+    [
+     "KXNBAGAME-25DEC01HOUUTA",
+     "Houston vs Utah"
+    ],
+    [
+     "KXNBAGAME-25DEC01LACMIA",
+     "Los Angeles C vs Miami"
+    ],
+    [
+     "KXNBAGAME-25DEC01MILWAS",
+     "Milwaukee vs Washington"
+    ],
+    [
+     "KXNBAGAME-25DEC01PHXLAL",
+     "Phoenix vs Los Angeles L"
+    ],
+    [
+     "KXNBAGAME-25DEC02MEMSAS",
+     "Memphis vs San Antonio"
+    ],
+    [
+     "KXNBAGAME-25DEC02MINNOP",
+     "Minnesota vs New Orleans"
+    ],
+    [
+     "KXNBAGAME-25DEC02NYKBOS",
+     "New York K vs Boston"
+    ],
+    [
+     "KXNBAGAME-25DEC02OKCGSW",
+     "Oklahoma City vs Golden State"
+    ],
+    [
+     "KXNBAGAME-25DEC02PORTOR",
+     "Portland vs Toronto"
+    ],
+    [
+     "KXNBAGAME-25DEC02WASPHI",
+     "Washington vs Philadelphia"
+    ],
+    [
+     "KXNBAGAME-25DEC03BKNCHI",
+     "Brooklyn vs Chicago"
+    ],
+    [
+     "KXNBAGAME-25DEC03CHANYK",
+     "Charlotte vs New York K"
+    ],
+    [
+     "KXNBAGAME-25DEC03DENIND",
+     "Denver vs Indiana"
+    ],
+    [
+     "KXNBAGAME-25DEC03DETMIL",
+     "Detroit vs Milwaukee"
+    ],
+    [
+     "KXNBAGAME-25DEC03LACATL",
+     "Los Angeles C vs Atlanta"
+    ],
+    [
+     "KXNBAGAME-25DEC03MIADAL",
+     "Miami vs Dallas"
+    ],
+    [
+     "KXNBAGAME-25DEC03PORCLE",
+     "Portland vs Cleveland"
+    ],
+    [
+     "KXNBAGAME-25DEC03SACHOU",
+     "Sacramento vs Houston"
+    ],
+    [
+     "KXNBAGAME-25DEC03SASORL",
+     "San Antonio vs Orlando"
+    ],
+    [
+     "KXNBAGAME-25DEC04BOSWAS",
+     "Boston vs Washington"
+    ],
+    [
+     "KXNBAGAME-25DEC04GSWPHI",
+     "Golden State vs Philadelphia"
+    ],
+    [
+     "KXNBAGAME-25DEC04LALTOR",
+     "Los Angeles L vs Toronto"
+    ],
+    [
+     "KXNBAGAME-25DEC04MINNOP",
+     "Minnesota vs New Orleans"
+    ],
+    [
+     "KXNBAGAME-25DEC04UTABKN",
+     "Utah vs Brooklyn"
+    ],
+    [
+     "KXNBAGAME-25DEC05CHATOR",
+     "Charlotte vs Toronto"
+    ],
+    [
+     "KXNBAGAME-25DEC05DALOKC",
+     "Dallas vs Oklahoma City"
+    ],
+    [
+     "KXNBAGAME-25DEC05DENATL",
+     "Denver vs Atlanta"
+    ],
+    [
+     "KXNBAGAME-25DEC05INDCHI",
+     "Indiana vs Chicago"
+    ],
+    [
+     "KXNBAGAME-25DEC05LACMEM",
+     "Los Angeles C vs Memphis"
+    ],
+    [
+     "KXNBAGAME-25DEC05LALBOS",
+     "Los Angeles L vs Boston"
+    ],
+    [
+     "KXNBAGAME-25DEC05MIAORL",
+     "Miami vs Orlando"
+    ],
+    [
+     "KXNBAGAME-25DEC05PHIMIL",
+     "Philadelphia vs Milwaukee"
+    ],
+    [
+     "KXNBAGAME-25DEC05PHXHOU",
+     "Phoenix vs Houston"
+    ],
+    [
+     "KXNBAGAME-25DEC05PORDET",
+     "Portland vs Detroit"
+    ],
+    [
+     "KXNBAGAME-25DEC05SASCLE",
+     "San Antonio vs Cleveland"
+    ],
+    [
+     "KXNBAGAME-25DEC05UTANYK",
+     "Utah vs New York K"
+    ],
+    [
+     "KXNBAGAME-25DEC06ATLWAS",
+     "Atlanta vs Washington"
+    ],
+    [
+     "KXNBAGAME-25DEC06GSWCLE",
+     "Golden State vs Cleveland"
+    ],
+    [
+     "KXNBAGAME-25DEC06HOUDAL",
+     "Houston vs Dallas"
+    ],
+    [
+     "KXNBAGAME-25DEC06LACMIN",
+     "Los Angeles C vs Minnesota"
+    ],
+    [
+     "KXNBAGAME-25DEC06MILDET",
+     "Milwaukee vs Detroit"
+    ],
+    [
+     "KXNBAGAME-25DEC06NOPBKN",
+     "New Orleans vs Brooklyn"
+    ],
+    [
+     "KXNBAGAME-25DEC06SACMIA",
+     "Sacramento vs Miami"
+    ],
+    [
+     "KXNBAGAME-25DEC07BOSTOR",
+     "Boston vs Toronto"
+    ],
+    [
+     "KXNBAGAME-25DEC07DENCHA",
+     "Denver vs Charlotte"
+    ],
+    [
+     "KXNBAGAME-25DEC07GSWCHI",
+     "Golden State vs Chicago"
+    ],
+    [
+     "KXNBAGAME-25DEC07LALPHI",
+     "Los Angeles L vs Philadelphia"
+    ],
+    [
+     "KXNBAGAME-25DEC07OKCUTA",
+     "Oklahoma City vs Utah"
+    ],
+    [
+     "KXNBAGAME-25DEC07ORLNYK",
+     "Orlando vs New York K"
+    ],
+    [
+     "KXNBAGAME-25DEC07PORMEM",
+     "Portland vs Memphis"
+    ],
+    [
+     "KXNBAGAME-25DEC08PHXMIN",
+     "Phoenix vs Minnesota"
+    ],
+    [
+     "KXNBAGAME-25DEC08SACIND",
+     "Sacramento vs Indiana"
+    ],
+    [
+     "KXNBAGAME-25DEC08SASNOP",
+     "San Antonio vs New Orleans"
+    ],
+    [
+     "KXNBAGAME-25DEC09MIAORL",
+     "Miami vs Orlando"
+    ],
+    [
+     "KXNBAGAME-25DEC09NYKTOR",
+     "New York K vs Toronto"
+    ],
+    [
+     "KXNBAGAME-25DEC10PHXOKC",
+     "Phoenix vs Oklahoma City"
+    ],
+    [
+     "KXNBAGAME-25DEC10SASLAL",
+     "San Antonio vs Los Angeles L"
+    ],
+    [
+     "KXNBAGAME-25DEC11BOSMIL",
+     "Boston vs Milwaukee"
+    ],
+    [
+     "KXNBAGAME-25DEC11DENSAC",
+     "Denver vs Sacramento"
+    ],
+    [
+     "KXNBAGAME-25DEC11LACHOU",
+     "Los Angeles C vs Houston"
+    ],
+    [
+     "KXNBAGAME-25DEC11PORNOP",
+     "Portland vs New Orleans"
+    ],
+    [
+     "KXNBAGAME-25DEC12ATLDET",
+     "Atlanta vs Detroit"
+    ],
+    [
+     "KXNBAGAME-25DEC12BKNDAL",
+     "Brooklyn vs Dallas"
+    ],
+    [
+     "KXNBAGAME-25DEC12CHICHA",
+     "Chicago vs Charlotte"
+    ],
+    [
+     "KXNBAGAME-25DEC12CLEWAS",
+     "Cleveland vs Washington"
+    ],
+    [
+     "KXNBAGAME-25DEC12INDPHI",
+     "Indiana vs Philadelphia"
+    ],
+    [
+     "KXNBAGAME-25DEC12MINGSW",
+     "Minnesota vs Golden State"
+    ],
+    [
+     "KXNBAGAME-25DEC12UTAMEM",
+     "Utah vs Memphis"
+    ],
+    [
+     "KXNBAGAME-25DEC13NYKORL",
+     "New York K vs Orlando"
+    ],
+    [
+     "KXNBAGAME-25DEC13SASOKC",
+     "San Antonio vs Oklahoma City"
+    ],
+    [
+     "KXNBAGAME-25DEC14CHACLE",
+     "Charlotte vs Cleveland"
+    ],
+    [
+     "KXNBAGAME-25DEC14GSWPOR",
+     "Golden State vs Portland"
+    ],
+    [
+     "KXNBAGAME-25DEC14LALPHX",
+     "Los Angeles L vs Phoenix"
+    ],
+    [
+     "KXNBAGAME-25DEC14MILBKN",
+     "Milwaukee vs Brooklyn"
+    ],
+    [
+     "KXNBAGAME-25DEC14NOPCHI",
+     "New Orleans vs Chicago"
+    ],
+    [
+     "KXNBAGAME-25DEC14PHIATL",
+     "Philadelphia vs Atlanta"
+    ],
+    [
+     "KXNBAGAME-25DEC14SACMIN",
+     "Sacramento vs Minnesota"
+    ],
+    [
+     "KXNBAGAME-25DEC14WASIND",
+     "Washington vs Indiana"
+    ],
+    [
+     "KXNBAGAME-25DEC15DALUTA",
+     "Dallas vs Utah"
+    ],
+    [
+     "KXNBAGAME-25DEC15DETBOS",
+     "Detroit vs Boston"
+    ],
+    [
+     "KXNBAGAME-25DEC15HOUDEN",
+     "Houston vs Denver"
+    ],
+    [
+     "KXNBAGAME-25DEC15MEMLAC",
+     "Memphis vs Los Angeles C"
+    ],
+    [
+     "KXNBAGAME-25DEC15TORMIA",
+     "Toronto vs Miami"
+    ],
+    [
+     "KXNBAGAME-25DEC17CLECHI",
+     "Cleveland vs Chicago"
+    ],
+    [
+     "KXNBAGAME-25DEC17MEMMIN",
+     "Memphis vs Minnesota"
+    ],
+    [
+     "KXNBAGAME-25DEC18ATLCHA",
+     "Atlanta vs Charlotte"
+    ],
+    [
+     "KXNBAGAME-25DEC18DETDAL",
+     "Detroit vs Dallas"
+    ],
+    [
+     "KXNBAGAME-25DEC18GSWPHX",
+     "Golden State vs Phoenix"
+    ],
+    [
+     "KXNBAGAME-25DEC18HOUNOP",
+     "Houston vs New Orleans"
+    ],
+    [
+     "KXNBAGAME-25DEC18LACOKC",
+     "Los Angeles C vs Oklahoma City"
+    ],
+    [
+     "KXNBAGAME-25DEC18LALUTA",
+     "Los Angeles L vs Utah"
+    ],
+    [
+     "KXNBAGAME-25DEC18MIABKN",
+     "Miami vs Brooklyn"
+    ],
+    [
+     "KXNBAGAME-25DEC18NYKIND",
+     "New York vs Indiana"
+    ],
+    [
+     "KXNBAGAME-25DEC18ORLDEN",
+     "Orlando vs Denver"
+    ],
+    [
+     "KXNBAGAME-25DEC18SACPOR",
+     "Sacramento vs Portland"
+    ],
+    [
+     "KXNBAGAME-25DEC18TORMIL",
+     "Toronto vs Milwaukee"
+    ],
+    [
+     "KXNBAGAME-25DEC18WASSAS",
+     "Washington vs San Antonio"
+    ],
+    [
+     "KXNBAGAME-25DEC19CHICLE",
+     "Chicago vs Cleveland"
+    ],
+    [
+     "KXNBAGAME-25DEC19MIABOS",
+     "Miami vs Boston"
+    ],
+    [
+     "KXNBAGAME-25DEC19OKCMIN",
+     "Oklahoma City vs Minnesota"
+    ],
+    [
+     "KXNBAGAME-25DEC19PHINYK",
+     "Philadelphia vs New York"
+    ],
+    [
+     "KXNBAGAME-25DEC19SASATL",
+     "San Antonio vs Atlanta"
+    ],
+    [
+     "KXNBAGAME-25DEC20BOSTOR",
+     "Boston vs Toronto"
+    ],
+    [
+     "KXNBAGAME-25DEC20CHADET",
+     "Charlotte vs Detroit"
+    ],
+    [
+     "KXNBAGAME-25DEC20DALPHI",
+     "Dallas vs Philadelphia"
+    ],
+    [
+     "KXNBAGAME-25DEC20HOUDEN",
+     "Houston vs Denver"
+    ],
+    [
+     "KXNBAGAME-25DEC20INDNOP",
+     "Indiana vs New Orleans"
+    ],
+    [
+     "KXNBAGAME-25DEC20LALLAC",
+     "Los Angeles L vs Los Angeles C"
+    ],
+    [
+     "KXNBAGAME-25DEC20ORLUTA",
+     "Orlando vs Utah"
+    ],
+    [
+     "KXNBAGAME-25DEC20PHXGSW",
+     "Phoenix vs Golden State"
+    ],
+    [
+     "KXNBAGAME-25DEC20PORSAC",
+     "Portland vs Sacramento"
+    ],
+    [
+     "KXNBAGAME-25DEC20WASMEM",
+     "Washington vs Memphis"
+    ],
+    [
+     "KXNBAGAME-25DEC21CHIATL",
+     "Chicago vs Atlanta"
+    ],
+    [
+     "KXNBAGAME-25DEC21HOUSAC",
+     "Houston vs Sacramento"
+    ],
+    [
+     "KXNBAGAME-25DEC21MIANYK",
+     "Miami vs New York"
+    ],
+    [
+     "KXNBAGAME-25DEC21MILMIN",
+     "Milwaukee vs Minnesota"
+    ],
+    [
+     "KXNBAGAME-25DEC21SASWAS",
+     "San Antonio vs Washington"
+    ],
+    [
+     "KXNBAGAME-25DEC21TORBKN",
+     "Toronto vs Brooklyn"
+    ],
+    [
+     "KXNBAGAME-25DEC22CHACLE",
+     "Charlotte vs Cleveland"
+    ],
+    [
+     "KXNBAGAME-25DEC22DALNOP",
+     "Dallas vs New Orleans"
+    ],
+    [
+     "KXNBAGAME-25DEC22DETPOR",
+     "Detroit vs Portland"
+    ],
+    [
+     "KXNBAGAME-25DEC22INDBOS",
+     "Indiana vs Boston"
+    ],
+    [
+     "KXNBAGAME-25DEC22MEMOKC",
+     "Memphis vs Oklahoma City"
+    ],
+    [
+     "KXNBAGAME-25DEC22ORLGSW",
+     "Orlando vs Golden State"
+    ],
+    [
+     "KXNBAGAME-25DEC22UTADEN",
+     "Utah vs Denver"
+    ],
+    [
+     "KXNBAGAME-25DEC23BKNPHI",
+     "Brooklyn vs Philadelphia"
+    ],
+    [
+     "KXNBAGAME-25DEC23CHIATL",
+     "Chicago vs Atlanta"
+    ],
+    [
+     "KXNBAGAME-25DEC23DENDAL",
+     "Denver vs Dallas"
+    ],
+    [
+     "KXNBAGAME-25DEC23DETSAC",
+     "Detroit vs Sacramento"
+    ],
+    [
+     "KXNBAGAME-25DEC23HOULAC",
+     "Houston vs Los Angeles C"
+    ],
+    [
+     "KXNBAGAME-25DEC23LALPHX",
+     "Los Angeles L vs Phoenix"
+    ],
+    [
+     "KXNBAGAME-25DEC23MEMUTA",
+     "Memphis vs Utah"
+    ],
+    [
+     "KXNBAGAME-25DEC23MILIND",
+     "Milwaukee vs Indiana"
+    ],
+    [
+     "KXNBAGAME-25DEC23NOPCLE",
+     "New Orleans vs Cleveland"
+    ],
+    [
+     "KXNBAGAME-25DEC23NYKMIN",
+     "New York vs Minnesota"
+    ],
+    [
+     "KXNBAGAME-25DEC23OKCSAS",
+     "Oklahoma City vs San Antonio"
+    ],
+    [
+     "KXNBAGAME-25DEC23ORLPOR",
+     "Orlando vs Portland"
+    ],
+    [
+     "KXNBAGAME-25DEC23TORMIA",
+     "Toronto vs Miami"
+    ],
+    [
+     "KXNBAGAME-25DEC23WASCHA",
+     "Washington vs Charlotte"
+    ],
+    [
+     "KXNBAGAME-25DEC25CLENYK",
+     "Cleveland vs New York"
+    ],
+    [
+     "KXNBAGAME-25DEC25DALGSW",
+     "Dallas vs Golden State"
+    ],
+    [
+     "KXNBAGAME-25DEC25HOULAL",
+     "Houston vs Los Angeles L"
+    ],
+    [
+     "KXNBAGAME-25DEC25MINDEN",
+     "Minnesota vs Denver"
+    ],
+    [
+     "KXNBAGAME-25DEC25SASOKC",
+     "San Antonio vs Oklahoma City"
+    ],
+    [
+     "KXNBAGAME-25DEC26BOSIND",
+     "Boston vs Indiana"
+    ],
+    [
+     "KXNBAGAME-25DEC26CHAORL",
+     "Charlotte vs Orlando"
+    ],
+    [
+     "KXNBAGAME-25DEC26DETUTA",
+     "Detroit vs Utah"
+    ],
+    [
+     "KXNBAGAME-25DEC26LACPOR",
+     "Los Angeles C vs Portland"
+    ],
+    [
+     "KXNBAGAME-25DEC26MIAATL",
+     "Miami vs Atlanta"
+    ],
+    [
+     "KXNBAGAME-25DEC26MILMEM",
+     "Milwaukee vs Memphis"
+    ],
+    [
+     "KXNBAGAME-25DEC26PHICHI",
+     "Philadelphia vs Chicago"
+    ],
+    [
+     "KXNBAGAME-25DEC26PHXNOP",
+     "Phoenix vs New Orleans"
+    ],
+    [
+     "KXNBAGAME-25DEC26TORWAS",
+     "Toronto vs Washington"
+    ],
+    [
+     "KXNBAGAME-25DEC27BKNMIN",
+     "Brooklyn vs Minnesota"
+    ],
+    [
+     "KXNBAGAME-25DEC27CLEHOU",
+     "Cleveland vs Houston"
+    ],
+    [
+     "KXNBAGAME-25DEC27DALSAC",
+     "Dallas vs Sacramento"
+    ],
+    [
+     "KXNBAGAME-25DEC27DENORL",
+     "Denver vs Orlando"
+    ],
+    [
+     "KXNBAGAME-25DEC27INDMIA",
+     "Indiana vs Miami"
+    ],
+    [
+     "KXNBAGAME-25DEC27MILCHI",
+     "Milwaukee vs Chicago"
+    ],
+    [
+     "KXNBAGAME-25DEC27NYKATL",
+     "New York vs Atlanta"
+    ],
+    [
+     "KXNBAGAME-25DEC27PHXNOP",
+     "Phoenix vs New Orleans"
+    ],
+    [
+     "KXNBAGAME-25DEC27UTASAS",
+     "Utah vs San Antonio"
+    ],
+    [
+     "KXNBAGAME-25DEC28BOSPOR",
+     "Boston vs Portland"
+    ],
+    [
+     "KXNBAGAME-25DEC28DETLAC",
+     "Detroit vs Los Angeles C"
+    ],
+    [
+     "KXNBAGAME-25DEC28GSWTOR",
+     "Golden State vs Toronto"
+    ],
+    [
+     "KXNBAGAME-25DEC28MEMWAS",
+     "Memphis vs Washington"
+    ],
+    [
+     "KXNBAGAME-25DEC28PHIOKC",
+     "Philadelphia vs Oklahoma City"
+    ],
+    [
+     "KXNBAGAME-25DEC28SACLAL",
+     "Sacramento vs Los Angeles L"
+    ],
+    [
+     "KXNBAGAME-25DEC29ATLOKC",
+     "Atlanta vs Oklahoma City"
+    ],
+    [
+     "KXNBAGAME-25DEC29CLESAS",
+     "Cleveland vs San Antonio"
+    ],
+    [
+     "KXNBAGAME-25DEC29DALPOR",
+     "Dallas vs Portland"
+    ],
+    [
+     "KXNBAGAME-25DEC29DENMIA",
+     "Denver vs Miami"
+    ],
+    [
+     "KXNBAGAME-25DEC29GSWBKN",
+     "Golden State vs Brooklyn"
+    ],
+    [
+     "KXNBAGAME-25DEC29INDHOU",
+     "Indiana vs Houston"
+    ],
+    [
+     "KXNBAGAME-25DEC29MILCHA",
+     "Milwaukee vs Charlotte"
+    ],
+    [
+     "KXNBAGAME-25DEC29MINCHI",
+     "Minnesota vs Chicago"
+    ],
+    [
+     "KXNBAGAME-25DEC29NYKNOP",
+     "New York vs New Orleans"
+    ],
+    [
+     "KXNBAGAME-25DEC29ORLTOR",
+     "Orlando vs Toronto"
+    ],
+    [
+     "KXNBAGAME-25DEC29PHXWAS",
+     "Phoenix vs Washington"
+    ],
+    [
+     "KXNBAGAME-25DEC30BOSUTA",
+     "Boston vs Utah"
+    ],
+    [
+     "KXNBAGAME-25DEC30DETLAL",
+     "Detroit vs Los Angeles L"
+    ],
+    [
+     "KXNBAGAME-25DEC30PHIMEM",
+     "Philadelphia vs Memphis"
+    ],
+    [
+     "KXNBAGAME-25DEC30SACLAC",
+     "Sacramento vs Los Angeles C"
+    ],
+    [
+     "KXNBAGAME-25DEC31DENTOR",
+     "Denver vs Toronto"
+    ],
+    [
+     "KXNBAGAME-25DEC31GSWCHA",
+     "Golden State vs Charlotte"
+    ],
+    [
+     "KXNBAGAME-25DEC31MINATL",
+     "Minnesota vs Atlanta"
+    ],
+    [
+     "KXNBAGAME-25DEC31NOPCHI",
+     "New Orleans vs Chicago"
+    ],
+    [
+     "KXNBAGAME-25DEC31NYKSAS",
+     "New York vs San Antonio"
+    ],
+    [
+     "KXNBAGAME-25DEC31ORLIND",
+     "Orlando vs Indiana"
+    ],
+    [
+     "KXNBAGAME-25DEC31PHXCLE",
+     "Phoenix vs Cleveland"
+    ],
+    [
+     "KXNBAGAME-25DEC31POROKC",
+     "Portland vs Oklahoma City"
+    ],
+    [
+     "KXNBAGAME-25DEC31WASMIL",
+     "Washington vs Milwaukee"
+    ],
+    [
+     "KXNBAGAME-25NOV01DALDET",
+     "Dallas vs Detroit"
+    ],
+    [
+     "KXNBAGAME-25NOV01GSWIND",
+     "Golden State vs Indiana"
+    ],
+    [
+     "KXNBAGAME-25NOV01HOUBOS",
+     "Houston vs Boston"
+    ],
+    [
+     "KXNBAGAME-25NOV01MINCHA",
+     "Minnesota vs Charlotte"
+    ],
+    [
+     "KXNBAGAME-25NOV01ORLWAS",
+     "Orlando vs Washington"
+    ],
+    [
+     "KXNBAGAME-25NOV01SACMIL",
+     "Sacramento vs Milwaukee"
+    ],
+    [
+     "KXNBAGAME-25NOV02ATLCLE",
+     "Atlanta vs Cleveland"
+    ],
+    [
+     "KXNBAGAME-25NOV02CHINYK",
+     "Chicago vs New York K"
+    ],
+    [
+     "KXNBAGAME-25NOV02MEMTOR",
+     "Memphis vs Toronto"
+    ],
+    [
+     "KXNBAGAME-25NOV02MIALAL",
+     "Miami vs Los Angeles"
+    ],
+    [
+     "KXNBAGAME-25NOV02NOPOKC",
+     "New Orleans vs Oklahoma City"
+    ],
+    [
+     "KXNBAGAME-25NOV02PHIBKN",
+     "Philadelphia vs Brooklyn"
+    ],
+    [
+     "KXNBAGAME-25NOV02SASPHX",
+     "San Antonio vs Phoenix"
+    ],
+    [
+     "KXNBAGAME-25NOV02UTACHA",
+     "Utah vs Charlotte"
+    ],
+    [
+     "KXNBAGAME-25NOV03DALHOU",
+     "Dallas vs Houston"
+    ],
+    [
+     "KXNBAGAME-25NOV03DETMEM",
+     "Detroit vs Memphis"
+    ],
+    [
+     "KXNBAGAME-25NOV03LALPOR",
+     "Los Angeles vs Portland"
+    ],
+    [
+     "KXNBAGAME-25NOV03MIALAC",
+     "Miami vs LA"
+    ],
+    [
+     "KXNBAGAME-25NOV03MILIND",
+     "Milwaukee vs Indiana"
+    ],
+    [
+     "KXNBAGAME-25NOV03MINBKN",
+     "Minnesota vs Brooklyn"
+    ],
+    [
+     "KXNBAGAME-25NOV03SACDEN",
+     "Sacramento vs Denver"
+    ],
+    [
+     "KXNBAGAME-25NOV03UTABOS",
+     "Utah vs Boston"
+    ],
+    [
+     "KXNBAGAME-25NOV03WASNYK",
+     "Washington vs New York K"
+    ],
+    [
+     "KXNBAGAME-25NOV04CHANOP",
+     "Charlotte vs New Orleans"
+    ],
+    [
+     "KXNBAGAME-25NOV04MILTOR",
+     "Milwaukee vs Toronto"
+    ],
+    [
+     "KXNBAGAME-25NOV04OKCLAC",
+     "Oklahoma City vs Los Angeles C"
+    ],
+    [
+     "KXNBAGAME-25NOV04ORLATL",
+     "Orlando vs Atlanta"
+    ],
+    [
+     "KXNBAGAME-25NOV04PHICHI",
+     "Philadelphia vs Chicago"
+    ],
+    [
+     "KXNBAGAME-25NOV04PHXGSW",
+     "Phoenix vs Golden State"
+    ],
+    [
+     "KXNBAGAME-25NOV05BKNIND",
+     "Brooklyn vs Indiana"
+    ],
+    [
+     "KXNBAGAME-25NOV05GSWSAC",
+     "Golden State vs Sacramento"
+    ],
+    [
+     "KXNBAGAME-25NOV05HOUMEM",
+     "Houston vs Memphis"
+    ],
+    [
+     "KXNBAGAME-25NOV05MIADEN",
+     "Miami vs Denver"
+    ],
+    [
+     "KXNBAGAME-25NOV05MINNYK",
+     "Minnesota vs New York K"
+    ],
+    [
+     "KXNBAGAME-25NOV05NOPDAL",
+     "New Orleans vs Dallas"
+    ],
+    [
+     "KXNBAGAME-25NOV05OKCPOR",
+     "Oklahoma City vs Portland"
+    ],
+    [
+     "KXNBAGAME-25NOV05PHICLE",
+     "Philadelphia vs Cleveland"
+    ],
+    [
+     "KXNBAGAME-25NOV05SASLAL",
+     "San Antonio vs Los Angeles L"
+    ],
+    [
+     "KXNBAGAME-25NOV05UTADET",
+     "Utah vs Detroit"
+    ],
+    [
+     "KXNBAGAME-25NOV05WASBOS",
+     "Washington vs Boston"
+    ],
+    [
+     "KXNBAGAME-25NOV06LACPHX",
+     "LA vs Phoenix"
+    ],
+    [
+     "KXNBAGAME-25NOV07BOSORL",
+     "Boston vs Orlando"
+    ],
+    [
+     "KXNBAGAME-25NOV07CHAMIA",
+     "Charlotte vs Miami"
+    ],
+    [
+     "KXNBAGAME-25NOV07CHIMIL",
+     "Chicago vs Milwaukee"
+    ],
+    [
+     "KXNBAGAME-25NOV07CLEWAS",
+     "Cleveland vs Washington"
+    ],
+    [
+     "KXNBAGAME-25NOV07DALMEM",
+     "Dallas vs Memphis"
+    ],
+    [
+     "KXNBAGAME-25NOV07DETBKN",
+     "Detroit vs Brooklyn"
+    ],
+    [
+     "KXNBAGAME-25NOV07GSWDEN",
+     "Golden State vs Denver"
+    ],
+    [
+     "KXNBAGAME-25NOV07HOUSAS",
+     "Houston vs San Antonio"
+    ],
+    [
+     "KXNBAGAME-25NOV07OKCSAC",
+     "Oklahoma City vs Sacramento"
+    ],
+    [
+     "KXNBAGAME-25NOV07TORATL",
+     "Toronto vs Atlanta"
+    ],
+    [
+     "KXNBAGAME-25NOV07UTAMIN",
+     "Utah vs Minnesota"
+    ],
+    [
+     "KXNBAGAME-25NOV08CHICLE",
+     "Chicago vs Cleveland"
+    ],
+    [
+     "KXNBAGAME-25NOV08DALWAS",
+     "Dallas vs Washington"
+    ],
+    [
+     "KXNBAGAME-25NOV08INDDEN",
+     "Indiana vs Denver"
+    ],
+    [
+     "KXNBAGAME-25NOV08LALATL",
+     "Los Angeles L vs Atlanta"
+    ],
+    [
+     "KXNBAGAME-25NOV08NOPSAS",
+     "New Orleans vs San Antonio"
+    ],
+    [
+     "KXNBAGAME-25NOV08PHXLAC",
+     "Phoenix vs Los Angeles C"
+    ],
+    [
+     "KXNBAGAME-25NOV08PORMIA",
+     "Portland vs Miami"
+    ],
+    [
+     "KXNBAGAME-25NOV08TORPHI",
+     "Toronto vs Philadelphia"
+    ],
+    [
+     "KXNBAGAME-25NOV09BKNNYK",
+     "Brooklyn vs New York K"
+    ],
+    [
+     "KXNBAGAME-25NOV09BOSORL",
+     "Boston vs Orlando"
+    ],
+    [
+     "KXNBAGAME-25NOV09DETPHI",
+     "Detroit vs Philadelphia"
+    ],
+    [
+     "KXNBAGAME-25NOV09HOUMIL",
+     "Houston vs Milwaukee"
+    ],
+    [
+     "KXNBAGAME-25NOV09INDGSW",
+     "Indiana vs Golden State"
+    ],
+    [
+     "KXNBAGAME-25NOV09MINSAC",
+     "Minnesota vs Sacramento"
+    ],
+    [
+     "KXNBAGAME-25NOV09OKCMEM",
+     "Oklahoma City vs Memphis"
+    ],
+    [
+     "KXNBAGAME-25NOV10ATLLAC",
+     "Atlanta vs Los Angeles C"
+    ],
+    [
+     "KXNBAGAME-25NOV10CLEMIA",
+     "Cleveland vs Miami"
+    ],
+    [
+     "KXNBAGAME-25NOV10LALCHA",
+     "Los Angeles L vs Charlotte"
+    ],
+    [
+     "KXNBAGAME-25NOV10MILDAL",
+     "Milwaukee vs Dallas"
+    ],
+    [
+     "KXNBAGAME-25NOV10MINUTA",
+     "Minnesota vs Utah"
+    ],
+    [
+     "KXNBAGAME-25NOV10NOPPHX",
+     "New Orleans vs Phoenix"
+    ],
+    [
+     "KXNBAGAME-25NOV10PORORL",
+     "Portland vs Orlando"
+    ],
+    [
+     "KXNBAGAME-25NOV10SASCHI",
+     "San Antonio vs Chicago"
+    ],
+    [
+     "KXNBAGAME-25NOV10WASDET",
+     "Washington vs Detroit"
+    ],
+    [
+     "KXNBAGAME-25NOV11BOSPHI",
+     "Boston vs Philadelphia"
+    ],
+    [
+     "KXNBAGAME-25NOV11DENSAC",
+     "Denver vs Sacramento"
+    ],
+    [
+     "KXNBAGAME-25NOV11GSWOKC",
+     "Golden State vs Oklahoma City"
+    ],
+    [
+     "KXNBAGAME-25NOV11INDUTA",
+     "Indiana vs Utah"
+    ],
+    [
+     "KXNBAGAME-25NOV11MEMNYK",
+     "Memphis vs New York K"
+    ],
+    [
+     "KXNBAGAME-25NOV11TORBKN",
+     "Toronto vs Brooklyn"
+    ],
+    [
+     "KXNBAGAME-25NOV12ATLSAC",
+     "Atlanta vs Sacramento"
+    ],
+    [
+     "KXNBAGAME-25NOV12CHIDET",
+     "Chicago vs Detroit"
+    ],
+    [
+     "KXNBAGAME-25NOV12CLEMIA",
+     "Cleveland vs Miami"
+    ],
+    [
+     "KXNBAGAME-25NOV12DENLAC",
+     "Denver vs Los Angeles C"
+    ],
+    [
+     "KXNBAGAME-25NOV12GSWSAS",
+     "Golden State vs San Antonio"
+    ],
+    [
+     "KXNBAGAME-25NOV12LALOKC",
+     "Los Angeles L vs Oklahoma City"
+    ],
+    [
+     "KXNBAGAME-25NOV12MEMBOS",
+     "Memphis vs Boston"
+    ],
+    [
+     "KXNBAGAME-25NOV12MILCHA",
+     "Milwaukee vs Charlotte"
+    ],
+    [
+     "KXNBAGAME-25NOV12ORLNYK",
+     "Orlando vs New York K"
+    ],
+    [
+     "KXNBAGAME-25NOV12PHXDAL",
+     "Phoenix vs Dallas"
+    ],
+    [
+     "KXNBAGAME-25NOV12PORNOP",
+     "Portland vs New Orleans"
+    ],
+    [
+     "KXNBAGAME-25NOV12WASHOU",
+     "Washington vs Houston"
+    ],
+    [
+     "KXNBAGAME-25NOV13ATLUTA",
+     "Atlanta vs Utah"
+    ],
+    [
+     "KXNBAGAME-25NOV13INDPHX",
+     "Indiana vs Phoenix"
+    ],
+    [
+     "KXNBAGAME-25NOV13TORCLE",
+     "Toronto vs Cleveland"
+    ],
+    [
+     "KXNBAGAME-25NOV14BKNORL",
+     "Brooklyn vs Orlando"
+    ],
+    [
+     "KXNBAGAME-25NOV14CHAMIL",
+     "Charlotte vs Milwaukee"
+    ],
+    [
+     "KXNBAGAME-25NOV14GSWSAS",
+     "Golden State vs San Antonio"
+    ],
+    [
+     "KXNBAGAME-25NOV14LACDAL",
+     "Los Angeles C vs Dallas"
+    ],
+    [
+     "KXNBAGAME-25NOV14LALNOP",
+     "Los Angeles L vs New Orleans"
+    ],
+    [
+     "KXNBAGAME-25NOV14MIANYK",
+     "Miami vs New York K"
+    ],
+    [
+     "KXNBAGAME-25NOV14PHIDET",
+     "Philadelphia vs Detroit"
+    ],
+    [
+     "KXNBAGAME-25NOV14PORHOU",
+     "Portland vs Houston"
+    ],
+    [
+     "KXNBAGAME-25NOV14SACMIN",
+     "Sacramento vs Minnesota"
+    ],
+    [
+     "KXNBAGAME-25NOV15DENMIN",
+     "Denver vs Minnesota"
+    ],
+    [
+     "KXNBAGAME-25NOV15LALMIL",
+     "Los Angeles L vs Milwaukee"
+    ],
+    [
+     "KXNBAGAME-25NOV15MEMCLE",
+     "Memphis vs Cleveland"
+    ],
+    [
+     "KXNBAGAME-25NOV15OKCCHA",
+     "Oklahoma City vs Charlotte"
+    ],
+    [
+     "KXNBAGAME-25NOV15TORIND",
+     "Toronto vs Indiana"
+    ],
+    [
+     "KXNBAGAME-25NOV16ATLPHX",
+     "Atlanta vs Phoenix"
+    ],
+    [
+     "KXNBAGAME-25NOV16BKNWAS",
+     "Brooklyn vs Washington"
+    ],
+    [
+     "KXNBAGAME-25NOV16CHIUTA",
+     "Chicago vs Utah"
+    ],
+    [
+     "KXNBAGAME-25NOV16GSWNOP",
+     "Golden State vs New Orleans"
+    ],
+    [
+     "KXNBAGAME-25NOV16LACBOS",
+     "Los Angeles C vs Boston"
+    ],
+    [
+     "KXNBAGAME-25NOV16ORLHOU",
+     "Orlando vs Houston"
+    ],
+    [
+     "KXNBAGAME-25NOV16PORDAL",
+     "Portland vs Dallas"
+    ],
+    [
+     "KXNBAGAME-25NOV16SACSAS",
+     "Sacramento vs San Antonio"
+    ],
+    [
+     "KXNBAGAME-25NOV17CHATOR",
+     "Charlotte vs Toronto"
+    ],
+    [
+     "KXNBAGAME-25NOV17CHIDEN",
+     "Chicago vs Denver"
+    ],
+    [
+     "KXNBAGAME-25NOV17DALMIN",
+     "Dallas vs Minnesota"
+    ],
+    [
+     "KXNBAGAME-25NOV17INDDET",
+     "Indiana vs Detroit"
+    ],
+    [
+     "KXNBAGAME-25NOV17LACPHI",
+     "Los Angeles C vs Philadelphia"
+    ],
+    [
+     "KXNBAGAME-25NOV17MILCLE",
+     "Milwaukee vs Cleveland"
+    ],
+    [
+     "KXNBAGAME-25NOV17NYKMIA",
+     "New York K vs Miami"
+    ],
+    [
+     "KXNBAGAME-25NOV17OKCNOP",
+     "Oklahoma City vs New Orleans"
+    ],
+    [
+     "KXNBAGAME-25NOV18BOSBKN",
+     "Boston vs Brooklyn"
+    ],
+    [
+     "KXNBAGAME-25NOV18DETATL",
+     "Detroit vs Atlanta"
+    ],
+    [
+     "KXNBAGAME-25NOV18GSWORL",
+     "Golden State vs Orlando"
+    ],
+    [
+     "KXNBAGAME-25NOV18MEMSAS",
+     "Memphis vs San Antonio"
+    ],
+    [
+     "KXNBAGAME-25NOV18PHXPOR",
+     "Phoenix vs Portland"
+    ],
+    [
+     "KXNBAGAME-25NOV18UTALAL",
+     "Utah vs Los Angeles L"
+    ],
+    [
+     "KXNBAGAME-25NOV19CHAIND",
+     "Charlotte vs Indiana"
+    ],
+    [
+     "KXNBAGAME-25NOV19CHIPOR",
+     "Chicago vs Portland"
+    ],
+    [
+     "KXNBAGAME-25NOV19DENNOP",
+     "Denver vs New Orleans"
+    ],
+    [
+     "KXNBAGAME-25NOV19GSWMIA",
+     "Golden State vs Miami"
+    ],
+    [
+     "KXNBAGAME-25NOV19HOUCLE",
+     "Houston vs Cleveland"
+    ],
+    [
+     "KXNBAGAME-25NOV19NYKDAL",
+     "New York K vs Dallas"
+    ],
+    [
+     "KXNBAGAME-25NOV19SACOKC",
+     "Sacramento vs Oklahoma City"
+    ],
+    [
+     "KXNBAGAME-25NOV19TORPHI",
+     "Toronto vs Philadelphia"
+    ],
+    [
+     "KXNBAGAME-25NOV19WASMIN",
+     "Washington vs Minnesota"
+    ],
+    [
+     "KXNBAGAME-25NOV20ATLSAS",
+     "Atlanta vs San Antonio"
+    ],
+    [
+     "KXNBAGAME-25NOV20LACORL",
+     "Los Angeles C vs Orlando"
+    ],
+    [
+     "KXNBAGAME-25NOV20PHIMIL",
+     "Philadelphia vs Milwaukee"
+    ],
+    [
+     "KXNBAGAME-25NOV20SACMEM",
+     "Sacramento vs Memphis"
+    ],
+    [
+     "KXNBAGAME-25NOV21BKNBOS",
+     "Brooklyn vs Boston"
+    ],
+    [
+     "KXNBAGAME-25NOV21DENHOU",
+     "Denver vs Houston"
+    ],
+    [
+     "KXNBAGAME-25NOV21INDCLE",
+     "Indiana vs Cleveland"
+    ],
+    [
+     "KXNBAGAME-25NOV21MIACHI",
+     "Miami vs Chicago"
+    ],
+    [
+     "KXNBAGAME-25NOV21MINPHX",
+     "Minnesota vs Phoenix"
+    ],
+    [
+     "KXNBAGAME-25NOV21NOPDAL",
+     "New Orleans vs Dallas"
+    ],
+    [
+     "KXNBAGAME-25NOV21OKCUTA",
+     "Oklahoma City vs Utah"
+    ],
+    [
+     "KXNBAGAME-25NOV21PORGSW",
+     "Portland vs Golden State"
+    ],
+    [
+     "KXNBAGAME-25NOV21WASTOR",
+     "Washington vs Toronto"
+    ],
+    [
+     "KXNBAGAME-25NOV22ATLNOP",
+     "Atlanta vs New Orleans"
+    ],
+    [
+     "KXNBAGAME-25NOV22DETMIL",
+     "Detroit vs Milwaukee"
+    ],
+    [
+     "KXNBAGAME-25NOV22LACCHA",
+     "Los Angeles C vs Charlotte"
+    ],
+    [
+     "KXNBAGAME-25NOV22MEMDAL",
+     "Memphis vs Dallas"
+    ],
+    [
+     "KXNBAGAME-25NOV22NYKORL",
+     "New York K vs Orlando"
+    ],
+    [
+     "KXNBAGAME-25NOV22SACDEN",
+     "Sacramento vs Denver"
+    ],
+    [
+     "KXNBAGAME-25NOV22WASCHI",
+     "Washington vs Chicago"
+    ],
+    [
+     "KXNBAGAME-25NOV23BKNTOR",
+     "Brooklyn vs Toronto"
+    ],
+    [
+     "KXNBAGAME-25NOV23CHAATL",
+     "Charlotte vs Atlanta"
+    ],
+    [
+     "KXNBAGAME-25NOV23LACCLE",
+     "Los Angeles C vs Cleveland"
+    ],
+    [
+     "KXNBAGAME-25NOV23LALUTA",
+     "Los Angeles L vs Utah"
+    ],
+    [
+     "KXNBAGAME-25NOV23MIAPHI",
+     "Miami vs Philadelphia"
+    ],
+    [
+     "KXNBAGAME-25NOV23ORLBOS",
+     "Orlando vs Boston"
+    ],
+    [
+     "KXNBAGAME-25NOV23POROKC",
+     "Portland vs Oklahoma City"
+    ],
+    [
+     "KXNBAGAME-25NOV23SASPHX",
+     "San Antonio vs Phoenix"
+    ],
+    [
+     "KXNBAGAME-25NOV24CHINOP",
+     "Chicago vs New Orleans"
+    ],
+    [
+     "KXNBAGAME-25NOV24CLETOR",
+     "Cleveland vs Toronto"
+    ],
+    [
+     "KXNBAGAME-25NOV24DALMIA",
+     "Dallas vs Miami"
+    ],
+    [
+     "KXNBAGAME-25NOV24DENMEM",
+     "Denver vs Memphis"
+    ],
+    [
+     "KXNBAGAME-25NOV24DETIND",
+     "Detroit vs Indiana"
+    ],
+    [
+     "KXNBAGAME-25NOV24HOUPHX",
+     "Houston vs Phoenix"
+    ],
+    [
+     "KXNBAGAME-25NOV24MINSAC",
+     "Minnesota vs Sacramento"
+    ],
+    [
+     "KXNBAGAME-25NOV24NYKBKN",
+     "New York K vs Brooklyn"
+    ],
+    [
+     "KXNBAGAME-25NOV24PORMIL",
+     "Portland vs Milwaukee"
+    ],
+    [
+     "KXNBAGAME-25NOV24UTAGSW",
+     "Utah vs Golden State"
+    ],
+    [
+     "KXNBAGAME-25NOV25ATLWAS",
+     "Atlanta vs Washington"
+    ],
+    [
+     "KXNBAGAME-25NOV25LACLAL",
+     "Los Angeles C vs Los Angeles L"
+    ],
+    [
+     "KXNBAGAME-25NOV25ORLPHI",
+     "Orlando vs Philadelphia"
+    ],
+    [
+     "KXNBAGAME-25NOV26DETBOS",
+     "Detroit vs Boston"
+    ],
+    [
+     "KXNBAGAME-25NOV26HOUGSW",
+     "Houston vs Golden State"
+    ],
+    [
+     "KXNBAGAME-25NOV26INDTOR",
+     "Indiana vs Toronto"
+    ],
+    [
+     "KXNBAGAME-25NOV26MEMNOP",
+     "Memphis vs New Orleans"
+    ],
+    [
+     "KXNBAGAME-25NOV26MILMIA",
+     "Milwaukee vs Miami"
+    ],
+    [
+     "KXNBAGAME-25NOV26MINOKC",
+     "Minnesota vs Oklahoma City"
+    ],
+    [
+     "KXNBAGAME-25NOV26NYKCHA",
+     "New York K vs Charlotte"
+    ],
+    [
+     "KXNBAGAME-25NOV26PHXSAC",
+     "Phoenix vs Sacramento"
+    ],
+    [
+     "KXNBAGAME-25NOV26SASPOR",
+     "San Antonio vs Portland"
+    ],
+    [
+     "KXNBAGAME-25NOV28CHICHA",
+     "Chicago vs Charlotte"
+    ],
+    [
+     "KXNBAGAME-25NOV28CLEATL",
+     "Cleveland vs Atlanta"
+    ],
+    [
+     "KXNBAGAME-25NOV28DALLAL",
+     "Dallas vs Los Angeles L"
+    ],
+    [
+     "KXNBAGAME-25NOV28MEMLAC",
+     "Memphis vs Los Angeles C"
+    ],
+    [
+     "KXNBAGAME-25NOV28MILNYK",
+     "Milwaukee vs New York K"
+    ],
+    [
+     "KXNBAGAME-25NOV28ORLDET",
+     "Orlando vs Detroit"
+    ],
+    [
+     "KXNBAGAME-25NOV28PHIBKN",
+     "Philadelphia vs Brooklyn"
+    ],
+    [
+     "KXNBAGAME-25NOV28PHXOKC",
+     "Phoenix vs Oklahoma City"
+    ],
+    [
+     "KXNBAGAME-25NOV28SACUTA",
+     "Sacramento vs Utah"
+    ],
+    [
+     "KXNBAGAME-25NOV28SASDEN",
+     "San Antonio vs Denver"
+    ],
+    [
+     "KXNBAGAME-25NOV28WASIND",
+     "Washington vs Indiana"
+    ],
+    [
+     "KXNBAGAME-25NOV29BKNMIL",
+     "Brooklyn vs Milwaukee"
+    ],
+    [
+     "KXNBAGAME-25NOV29BOSMIN",
+     "Boston vs Minnesota"
+    ],
+    [
+     "KXNBAGAME-25NOV29CHIIND",
+     "Chicago vs Indiana"
+    ],
+    [
+     "KXNBAGAME-25NOV29DALLAC",
+     "Dallas vs Los Angeles C"
+    ],
+    [
+     "KXNBAGAME-25NOV29DENPHX",
+     "Denver vs Phoenix"
+    ],
+    [
+     "KXNBAGAME-25NOV29DETMIA",
+     "Detroit vs Miami"
+    ],
+    [
+     "KXNBAGAME-25NOV29NOPGSW",
+     "New Orleans vs Golden State"
+    ],
+    [
+     "KXNBAGAME-25NOV29TORCHA",
+     "Toronto vs Charlotte"
+    ],
+    [
+     "KXNBAGAME-25NOV30ATLPHI",
+     "Atlanta vs Philadelphia"
+    ],
+    [
+     "KXNBAGAME-25NOV30BOSCLE",
+     "Boston vs Cleveland"
+    ],
+    [
+     "KXNBAGAME-25NOV30HOUUTA",
+     "Houston vs Utah"
+    ],
+    [
+     "KXNBAGAME-25NOV30MEMSAC",
+     "Memphis vs Sacramento"
+    ],
+    [
+     "KXNBAGAME-25NOV30NOPLAL",
+     "New Orleans vs Los Angeles L"
+    ],
+    [
+     "KXNBAGAME-25NOV30OKCPOR",
+     "Oklahoma City vs Portland"
+    ],
+    [
+     "KXNBAGAME-25NOV30SASMIN",
+     "San Antonio vs Minnesota"
+    ],
+    [
+     "KXNBAGAME-25NOV30TORNYK",
+     "Toronto vs New York K"
+    ],
+    [
+     "KXNBAGAME-25OCT21GSWLAL",
+     "Golden State vs Los Angeles L"
+    ],
+    [
+     "KXNBAGAME-25OCT21HOUOKC",
+     "Houston vs Oklahoma City"
+    ],
+    [
+     "KXNBAGAME-25OCT22BKNCHA",
+     "Brooklyn vs Charlotte"
+    ],
+    [
+     "KXNBAGAME-25OCT22CLENYK",
+     "Cleveland vs New York"
+    ],
+    [
+     "KXNBAGAME-25OCT22DETCHI",
+     "Detroit vs Chicago"
+    ],
+    [
+     "KXNBAGAME-25OCT22LACUTA",
+     "Los Angeles C vs Utah"
+    ],
+    [
+     "KXNBAGAME-25OCT22MIAORL",
+     "Miami vs Orlando"
+    ],
+    [
+     "KXNBAGAME-25OCT22MINPOR",
+     "Minnesota vs Portland"
+    ],
+    [
+     "KXNBAGAME-25OCT22NOPMEM",
+     "New Orleans vs Memphis"
+    ],
+    [
+     "KXNBAGAME-25OCT22PHIBOS",
+     "Philadelphia vs Boston"
+    ],
+    [
+     "KXNBAGAME-25OCT22SACPHX",
+     "Sacramento vs Phoenix"
+    ],
+    [
+     "KXNBAGAME-25OCT22SASDAL",
+     "San Antonio vs Dallas"
+    ],
+    [
+     "KXNBAGAME-25OCT22TORATL",
+     "Toronto vs Atlanta"
+    ],
+    [
+     "KXNBAGAME-25OCT22WASMIL",
+     "Washington vs Milwaukee"
+    ],
+    [
+     "KXNBAGAME-25OCT23DENGSW",
+     "Denver vs Golden State"
+    ],
+    [
+     "KXNBAGAME-25OCT23OKCIND",
+     "Oklahoma City vs Indiana"
+    ],
+    [
+     "KXNBAGAME-25OCT24ATLORL",
+     "Atlanta vs Orlando"
+    ],
+    [
+     "KXNBAGAME-25OCT24BOSNYK",
+     "Boston vs New York"
+    ],
+    [
+     "KXNBAGAME-25OCT24CLEBKN",
+     "Cleveland vs Brooklyn"
+    ],
+    [
+     "KXNBAGAME-25OCT24DETHOU",
+     "Detroit vs Houston"
+    ],
+    [
+     "KXNBAGAME-25OCT24GSWPOR",
+     "Golden State vs Portland"
+    ],
+    [
+     "KXNBAGAME-25OCT24MIAMEM",
+     "Miami vs Memphis"
+    ],
+    [
+     "KXNBAGAME-25OCT24MILTOR",
+     "Milwaukee vs Toronto"
+    ],
+    [
+     "KXNBAGAME-25OCT24MINLAL",
+     "Minnesota vs Los Angeles L"
+    ],
+    [
+     "KXNBAGAME-25OCT24PHXLAC",
+     "Phoenix vs Los Angeles C"
+    ],
+    [
+     "KXNBAGAME-25OCT24SASNOP",
+     "San Antonio vs New Orleans"
+    ],
+    [
+     "KXNBAGAME-25OCT24UTASAC",
+     "Utah vs Sacramento"
+    ],
+    [
+     "KXNBAGAME-25OCT24WASDAL",
+     "Washington vs Dallas"
+    ],
+    [
+     "KXNBAGAME-25OCT25CHAPHI",
+     "Charlotte vs Philadelphia"
+    ],
+    [
+     "KXNBAGAME-25OCT25CHIORL",
+     "Chicago vs Orlando"
+    ],
+    [
+     "KXNBAGAME-25OCT25INDMEM",
+     "Indiana vs Memphis"
+    ],
+    [
+     "KXNBAGAME-25OCT25OKCATL",
+     "Oklahoma City vs Atlanta"
+    ],
+    [
+     "KXNBAGAME-25OCT25PHXDEN",
+     "Phoenix vs Denver"
+    ],
+    [
+     "KXNBAGAME-25OCT26BKNSAS",
+     "Brooklyn vs San Antonio"
+    ],
+    [
+     "KXNBAGAME-25OCT26BOSDET",
+     "Boston vs Detroit"
+    ],
+    [
+     "KXNBAGAME-25OCT26CHAWAS",
+     "Charlotte vs Washington"
+    ],
+    [
+     "KXNBAGAME-25OCT26INDMIN",
+     "Indiana vs Minnesota"
+    ],
+    [
+     "KXNBAGAME-25OCT26LALSAC",
+     "Los Angeles L vs Sacramento"
+    ],
+    [
+     "KXNBAGAME-25OCT26MILCLE",
+     "Milwaukee vs Cleveland"
+    ],
+    [
+     "KXNBAGAME-25OCT26NYKMIA",
+     "New York vs Miami"
+    ],
+    [
+     "KXNBAGAME-25OCT26PORLAC",
+     "Portland vs Los Angeles C"
+    ],
+    [
+     "KXNBAGAME-25OCT26TORDAL",
+     "Toronto vs Dallas"
+    ],
+    [
+     "KXNBAGAME-25OCT27ATLCHI",
+     "Atlanta vs Chicago"
+    ],
+    [
+     "KXNBAGAME-25OCT27BKNHOU",
+     "Brooklyn vs Houston"
+    ],
+    [
+     "KXNBAGAME-25OCT27BOSNOP",
+     "Boston vs New Orleans"
+    ],
+    [
+     "KXNBAGAME-25OCT27CLEDET",
+     "Cleveland vs Detroit"
+    ],
+    [
+     "KXNBAGAME-25OCT27DENMIN",
+     "Denver vs Minnesota"
+    ],
+    [
+     "KXNBAGAME-25OCT27MEMGSW",
+     "Memphis vs Golden State"
+    ],
+    [
+     "KXNBAGAME-25OCT27OKCDAL",
+     "Oklahoma City vs Dallas"
+    ],
+    [
+     "KXNBAGAME-25OCT27ORLPHI",
+     "Orlando vs Philadelphia"
+    ],
+    [
+     "KXNBAGAME-25OCT27PHXUTA",
+     "Phoenix vs Utah"
+    ],
+    [
+     "KXNBAGAME-25OCT27PORLAL",
+     "Portland vs Los Angeles L"
+    ],
+    [
+     "KXNBAGAME-25OCT27TORSAS",
+     "Toronto vs San Antonio"
+    ],
+    [
+     "KXNBAGAME-25OCT28CHAMIA",
+     "Charlotte vs Miami"
+    ],
+    [
+     "KXNBAGAME-25OCT28LACGSW",
+     "Los Angeles C vs Golden State"
+    ],
+    [
+     "KXNBAGAME-25OCT28NYKMIL",
+     "New York vs Milwaukee"
+    ],
+    [
+     "KXNBAGAME-25OCT28PHIWAS",
+     "Philadelphia vs Washington"
+    ],
+    [
+     "KXNBAGAME-25OCT28SACOKC",
+     "Sacramento vs Oklahoma City"
+    ],
+    [
+     "KXNBAGAME-25OCT29ATLBKN",
+     "Atlanta vs Brooklyn"
+    ],
+    [
+     "KXNBAGAME-25OCT29CLEBOS",
+     "Cleveland vs Boston"
+    ],
+    [
+     "KXNBAGAME-25OCT29HOUTOR",
+     "Houston vs Toronto"
+    ],
+    [
+     "KXNBAGAME-25OCT29INDDAL",
+     "Indiana vs Dallas"
+    ],
+    [
+     "KXNBAGAME-25OCT29LALMIN",
+     "Los Angeles L vs Minnesota"
+    ],
+    [
+     "KXNBAGAME-25OCT29MEMPHX",
+     "Memphis vs Phoenix"
+    ],
+    [
+     "KXNBAGAME-25OCT29NOPDEN",
+     "New Orleans vs Denver"
+    ],
+    [
+     "KXNBAGAME-25OCT29ORLDET",
+     "Orlando vs Detroit"
+    ],
+    [
+     "KXNBAGAME-25OCT29PORUTA",
+     "Portland vs Utah"
+    ],
+    [
+     "KXNBAGAME-25OCT29SACCHI",
+     "Sacramento vs Chicago"
+    ],
+    [
+     "KXNBAGAME-25OCT30GSWMIL",
+     "Golden State vs Milwaukee"
+    ],
+    [
+     "KXNBAGAME-25OCT30MIASAS",
+     "Miami vs San Antonio"
+    ],
+    [
+     "KXNBAGAME-25OCT30ORLCHA",
+     "Orlando vs Charlotte"
+    ],
+    [
+     "KXNBAGAME-25OCT30WASOKC",
+     "Washington vs Oklahoma City"
+    ],
+    [
+     "KXNBAGAME-25OCT31ATLIND",
+     "Atlanta vs Indiana"
+    ],
+    [
+     "KXNBAGAME-25OCT31BOSPHI",
+     "Boston vs Philadelphia"
+    ],
+    [
+     "KXNBAGAME-25OCT31DENPOR",
+     "Denver vs Portland"
+    ],
+    [
+     "KXNBAGAME-25OCT31LALMEM",
+     "Los Angeles L vs Memphis"
+    ],
+    [
+     "KXNBAGAME-25OCT31NOPLAC",
+     "New Orleans vs Los Angeles C"
+    ],
+    [
+     "KXNBAGAME-25OCT31NYKCHI",
+     "New York vs Chicago"
+    ],
+    [
+     "KXNBAGAME-25OCT31TORCLE",
+     "Toronto vs Cleveland"
+    ],
+    [
+     "KXNBAGAME-25OCT31UTAPHX",
+     "Utah vs Phoenix"
+    ],
+    [
+     "KXNBAGAME-26JAN01BOSSAC",
+     "Boston vs Sacramento"
+    ],
+    [
+     "KXNBAGAME-26JAN01HOUBKN",
+     "Houston vs Brooklyn"
+    ],
+    [
+     "KXNBAGAME-26JAN01MIADET",
+     "Miami vs Detroit"
+    ],
+    [
+     "KXNBAGAME-26JAN01PHIDAL",
+     "Philadelphia vs Dallas"
+    ],
+    [
+     "KXNBAGAME-26JAN01UTALAC",
+     "Utah vs Los Angeles C"
+    ],
+    [
+     "KXNBAGAME-26JAN02ATLNYK",
+     "Atlanta vs New York"
+    ],
+    [
+     "KXNBAGAME-26JAN02BKNWAS",
+     "Brooklyn vs Washington"
+    ],
+    [
+     "KXNBAGAME-26JAN02CHAMIL",
+     "Charlotte vs Milwaukee"
+    ],
+    [
+     "KXNBAGAME-26JAN02DENCLE",
+     "Denver vs Cleveland"
+    ],
+    [
+     "KXNBAGAME-26JAN02MEMLAL",
+     "Memphis vs Los Angeles L"
+    ],
+    [
+     "KXNBAGAME-26JAN02OKCGSW",
+     "Oklahoma City vs Golden State"
+    ],
+    [
+     "KXNBAGAME-26JAN02ORLCHI",
+     "Orlando vs Chicago"
+    ],
+    [
+     "KXNBAGAME-26JAN02PORNOP",
+     "Portland vs New Orleans"
+    ],
+    [
+     "KXNBAGAME-26JAN02SACPHX",
+     "Sacramento vs Phoenix"
+    ],
+    [
+     "KXNBAGAME-26JAN02SASIND",
+     "San Antonio vs Indiana"
+    ],
+    [
+     "KXNBAGAME-26JAN03ATLTOR",
+     "Atlanta vs Toronto"
+    ],
+    [
+     "KXNBAGAME-26JAN03BOSLAC",
+     "Boston vs Los Angeles C"
+    ],
+    [
+     "KXNBAGAME-26JAN03CHACHI",
+     "Charlotte vs Chicago"
+    ],
+    [
+     "KXNBAGAME-26JAN03HOUDAL",
+     "Houston vs Dallas"
+    ],
+    [
+     "KXNBAGAME-26JAN03MINMIA",
+     "Minnesota vs Miami"
+    ],
+    [
+     "KXNBAGAME-26JAN03PHINYK",
+     "Philadelphia vs New York"
+    ],
+    [
+     "KXNBAGAME-26JAN03PORSAS",
+     "Portland vs San Antonio"
+    ],
+    [
+     "KXNBAGAME-26JAN03UTAGSW",
+     "Utah vs Golden State"
+    ],
+    [
+     "KXNBAGAME-26JAN04DENBKN",
+     "Denver vs Brooklyn"
+    ],
+    [
+     "KXNBAGAME-26JAN04DETCLE",
+     "Detroit vs Cleveland"
+    ],
+    [
+     "KXNBAGAME-26JAN04INDORL",
+     "Indiana vs Orlando"
+    ],
+    [
+     "KXNBAGAME-26JAN04MEMLAL",
+     "Memphis vs Los Angeles L"
+    ],
+    [
+     "KXNBAGAME-26JAN04MILSAC",
+     "Milwaukee vs Sacramento"
+    ],
+    [
+     "KXNBAGAME-26JAN04MINWAS",
+     "Minnesota vs Washington"
+    ],
+    [
+     "KXNBAGAME-26JAN04NOPMIA",
+     "New Orleans vs Miami"
+    ],
+    [
+     "KXNBAGAME-26JAN04OKCPHX",
+     "Oklahoma City vs Phoenix"
+    ],
+    [
+     "KXNBAGAME-26JAN05ATLTOR",
+     "Atlanta vs Toronto"
+    ],
+    [
+     "KXNBAGAME-26JAN05CHAOKC",
+     "Charlotte vs Oklahoma City"
+    ],
+    [
+     "KXNBAGAME-26JAN05CHIBOS",
+     "Chicago vs Boston"
+    ],
+    [
+     "KXNBAGAME-26JAN05DENPHI",
+     "Denver vs Philadelphia"
+    ],
+    [
+     "KXNBAGAME-26JAN05GSWLAC",
+     "Golden State vs Los Angeles C"
+    ],
+    [
+     "KXNBAGAME-26JAN05NYKDET",
+     "New York vs Detroit"
+    ],
+    [
+     "KXNBAGAME-26JAN05PHXHOU",
+     "Phoenix vs Houston"
+    ],
+    [
+     "KXNBAGAME-26JAN05UTAPOR",
+     "Utah vs Portland"
+    ]
+   ],
+   "occ_source": {
+    "expected_exp": 1235,
+    "occurrence": 82
+   },
+   "code_mismatch": []
+  },
+  "primary_spec": {
+   "pass": false,
+   "rules": [
+    [
+     "1 mean CLV net > 0 in discovery and unseen",
+     false,
+     "discovery -0.0230, unseen -0.0220"
+    ],
+    [
+     "2 unseen 95% bootstrap lower bound > 0",
+     false,
+     "CI [-0.0246, -0.0194]"
+    ],
+    [
+     "3 at least 200 unseen trades",
+     true,
+     "n_unseen 654"
+    ],
+    [
+     "4 coin flip: <= 5% of 500 random-side copies do as well",
+     false,
+     "share 0.978"
+    ],
+    [
+     "5 unseen mean hold-to-settlement P&L >= 0",
+     false,
+     "-0.0299"
+    ],
+    [
+     "6 >= $2/week at 10 contracts (unseen)",
+     false,
+     "$-6.84/wk"
+    ]
+   ]
+  }
+ },
+ "NFL": {
+  "n_games": 360,
+  "discovery_games": 180,
+  "unseen_games": 180,
+  "split_tip_utc": "2025-11-28T20:00:00+00:00",
+  "first_tip_utc": "2025-09-05T00:20:00+00:00",
+  "last_tip_utc": "2026-10-13T00:15:00+00:00",
+  "unseen_weeks": 45.45386904761905,
+  "versions": {
+   "V1 favourite @ T-24h": {
+    "n_total": 346,
+    "n_disc": 180,
+    "n_unseen": 166,
+    "disc_mean_clv": -0.0210283888888889,
+    "unseen_mean_clv": -0.022402349397590362,
+    "unseen_ci_lo": -0.03346043524096386,
+    "unseen_ci_hi": -0.0129462108433735,
+    "unseen_mean_settle": -0.06812524096385542,
+    "unseen_mean_exit": -0.041982349397590366,
+    "all_mean_clv": -0.021687572254335267,
+    "unseen_trades_per_week": 11.066666666666666,
+    "unseen_usd_per_week": -2.4791933333333334,
+    "unseen_usd_per_active_week": -2.4791933333333334,
+    "coinflip_share_ge": 0.648,
+    "coinflip_mean": -0.02034000855421687
+   },
+   "V2 underdog @ T-24h": {
+    "n_total": 346,
+    "n_disc": 180,
+    "n_unseen": 166,
+    "disc_mean_clv": -0.019086111111111113,
+    "unseen_mean_clv": -0.01885132530120482,
+    "unseen_ci_lo": -0.028360286144578313,
+    "unseen_ci_hi": -0.007582786144578318,
+    "unseen_mean_settle": 0.02663060240963856,
+    "unseen_mean_exit": -0.03814626506024096,
+    "all_mean_clv": -0.018973468208092484,
+    "unseen_trades_per_week": 11.066666666666666,
+    "unseen_usd_per_week": -2.0862133333333333,
+    "unseen_usd_per_active_week": -2.0862133333333333,
+    "coinflip_share_ge": 0.348,
+    "coinflip_mean": -0.020880875542168675
+   },
+   "V3 home @ T-24h": {
+    "n_total": 346,
+    "n_disc": 180,
+    "n_unseen": 166,
+    "disc_mean_clv": -0.014599722222222226,
+    "unseen_mean_clv": -0.013757108433734943,
+    "unseen_ci_lo": -0.024049743975903613,
+    "unseen_ci_hi": -0.003403984939759038,
+    "unseen_mean_settle": -0.04824506024096385,
+    "unseen_mean_exit": -0.033218734939759034,
+    "all_mean_clv": -0.014195462427745666,
+    "unseen_trades_per_week": 11.066666666666666,
+    "unseen_usd_per_week": -1.5224533333333339,
+    "unseen_usd_per_active_week": -1.5224533333333339,
+    "coinflip_share_ge": 0.112,
+    "coinflip_mean": -0.02062356337349398
+   },
+   "V4 away @ T-24h": {
+    "n_total": 346,
+    "n_disc": 180,
+    "n_unseen": 166,
+    "disc_mean_clv": -0.02551477777777778,
+    "unseen_mean_clv": -0.02749656626506024,
+    "unseen_ci_lo": -0.037960832831325314,
+    "unseen_ci_hi": -0.01711588102409639,
+    "unseen_mean_settle": 0.006750421686746997,
+    "unseen_mean_exit": -0.04690987951807229,
+    "all_mean_clv": -0.02646557803468208,
+    "unseen_trades_per_week": 11.066666666666666,
+    "unseen_usd_per_week": -3.0429533333333336,
+    "unseen_usd_per_active_week": -3.0429533333333336,
+    "coinflip_share_ge": 0.92,
+    "coinflip_mean": -0.020397709879518076
+   },
+   "V5 momentum @ T-24h": {
+    "n_total": 154,
+    "n_disc": 81,
+    "n_unseen": 73,
+    "disc_mean_clv": -0.01914777777777778,
+    "unseen_mean_clv": -0.007992602739726028,
+    "unseen_ci_lo": -0.022751609589041103,
+    "unseen_ci_hi": 0.00949988013698629,
+    "unseen_mean_settle": 0.0474868493150685,
+    "unseen_mean_exit": -0.02740013698630137,
+    "all_mean_clv": -0.013859935064935068,
+    "unseen_trades_per_week": 4.866666666666666,
+    "unseen_usd_per_week": -0.3889733333333334,
+    "unseen_usd_per_active_week": -0.3889733333333334,
+    "coinflip_share_ge": 0.054,
+    "coinflip_mean": -0.021226531780821917
+   },
+   "V6 reversal @ T-24h": {
+    "n_total": 188,
+    "n_disc": 103,
+    "n_unseen": 85,
+    "disc_mean_clv": -0.02229786407766991,
+    "unseen_mean_clv": -0.03372388235294117,
+    "unseen_ci_lo": -0.0486713,
+    "unseen_ci_hi": -0.020979414705882358,
+    "unseen_mean_settle": -0.1461356470588235,
+    "unseen_mean_exit": -0.05341094117647058,
+    "all_mean_clv": -0.027463882978723406,
+    "unseen_trades_per_week": 5.666666666666667,
+    "unseen_usd_per_week": -1.9110199999999997,
+    "unseen_usd_per_active_week": -1.9110199999999997,
+    "coinflip_share_ge": 0.986,
+    "coinflip_mean": -0.02017984094117647
+   },
+   "V7 elo edge @ T-24h": {
+    "n_total": 247,
+    "n_disc": 128,
+    "n_unseen": 119,
+    "disc_mean_clv": -0.014523359375000003,
+    "unseen_mean_clv": -0.020181596638655465,
+    "unseen_ci_lo": -0.029066102941176473,
+    "unseen_ci_hi": -0.01145475210084035,
+    "unseen_mean_settle": 0.024818403361344547,
+    "unseen_mean_exit": -0.039408655462184874,
+    "all_mean_clv": -0.017249392712550608,
+    "unseen_trades_per_week": 7.933333333333334,
+    "unseen_usd_per_week": -1.6010733333333333,
+    "unseen_usd_per_active_week": -1.6010733333333333,
+    "coinflip_share_ge": 0.414,
+    "coinflip_mean": -0.02084587361344538
+   },
+   "V1 favourite @ T-6h": {
+    "n_total": 346,
+    "n_disc": 180,
+    "n_unseen": 166,
+    "disc_mean_clv": -0.02269722222222223,
+    "unseen_mean_clv": -0.02302048192771084,
+    "unseen_ci_lo": -0.034319143072289164,
+    "unseen_ci_hi": -0.013706003012048197,
+    "unseen_mean_settle": -0.0687433734939759,
+    "unseen_mean_exit": -0.04260048192771085,
+    "all_mean_clv": -0.022852312138728327,
+    "unseen_trades_per_week": 11.066666666666666,
+    "unseen_usd_per_week": -2.5475999999999996,
+    "unseen_usd_per_active_week": -2.5475999999999996,
+    "coinflip_share_ge": 0.75,
+    "coinflip_mean": -0.019552492048192774
+   },
+   "V2 underdog @ T-6h": {
+    "n_total": 346,
+    "n_disc": 180,
+    "n_unseen": 166,
+    "disc_mean_clv": -0.018891333333333333,
+    "unseen_mean_clv": -0.016662108433734942,
+    "unseen_ci_lo": -0.025995560240963854,
+    "unseen_ci_hi": -0.005529924698795182,
+    "unseen_mean_settle": 0.02881981927710844,
+    "unseen_mean_exit": -0.035957048192771075,
+    "all_mean_clv": -0.017821820809248552,
+    "unseen_trades_per_week": 11.066666666666666,
+    "unseen_usd_per_week": -1.8439400000000004,
+    "unseen_usd_per_active_week": -1.8439400000000004,
+    "coinflip_share_ge": 0.258,
+    "coinflip_mean": -0.02017995638554217
+   },
+   "V3 home @ T-6h": {
+    "n_total": 346,
+    "n_disc": 180,
+    "n_unseen": 166,
+    "disc_mean_clv": -0.01683377777777778,
+    "unseen_mean_clv": -0.015132710843373495,
+    "unseen_ci_lo": -0.02538799849397591,
+    "unseen_ci_hi": -0.004820884036144594,
+    "unseen_mean_settle": -0.0496206626506024,
+    "unseen_mean_exit": -0.03459433734939758,
+    "all_mean_clv": -0.01601765895953757,
+    "unseen_trades_per_week": 11.066666666666666,
+    "unseen_usd_per_week": -1.6746866666666669,
+    "unseen_usd_per_active_week": -1.6746866666666669,
+    "coinflip_share_ge": 0.212,
+    "coinflip_mean": -0.019594062289156625
+   },
+   "V4 away @ T-6h": {
+    "n_total": 346,
+    "n_disc": 180,
+    "n_unseen": 166,
+    "disc_mean_clv": -0.024754777777777775,
+    "unseen_mean_clv": -0.024549879518072287,
+    "unseen_ci_lo": -0.035015778614457836,
+    "unseen_ci_hi": -0.014228710843373496,
+    "unseen_mean_settle": 0.009697108433734943,
+    "unseen_mean_exit": -0.04396319277108433,
+    "all_mean_clv": -0.024656473988439308,
+    "unseen_trades_per_week": 11.066666666666666,
+    "unseen_usd_per_week": -2.716853333333333,
+    "unseen_usd_per_active_week": -2.716853333333333,
+    "coinflip_share_ge": 0.814,
+    "coinflip_mean": -0.019918620240963855
+   },
+   "V5 momentum @ T-6h": {
+    "n_total": 216,
+    "n_disc": 132,
+    "n_unseen": 84,
+    "disc_mean_clv": -0.019171742424242424,
+    "unseen_mean_clv": -0.03313738095238096,
+    "unseen_ci_lo": -0.05221567559523811,
+    "unseen_ci_hi": -0.018624544642857146,
+    "unseen_mean_settle": -0.006470714285714272,
+    "unseen_mean_exit": -0.05256595238095238,
+    "all_mean_clv": -0.024602824074074076,
+    "unseen_trades_per_week": 5.6,
+    "unseen_usd_per_week": -1.8556933333333336,
+    "unseen_usd_per_active_week": -1.8556933333333336,
+    "coinflip_share_ge": 0.926,
+    "coinflip_mean": -0.020406164285714287
+   },
+   "V6 reversal @ T-6h": {
+    "n_total": 199,
+    "n_disc": 108,
+    "n_unseen": 91,
+    "disc_mean_clv": -0.023313055555555563,
+    "unseen_mean_clv": -0.011397582417582418,
+    "unseen_ci_lo": -0.022281892857142854,
+    "unseen_ci_hi": 0.002841368131868133,
+    "unseen_mean_settle": -0.04980417582417582,
+    "unseen_mean_exit": -0.031152197802197797,
+    "all_mean_clv": -0.01786427135678392,
+    "unseen_trades_per_week": 6.066666666666666,
+    "unseen_usd_per_week": -0.6914533333333334,
+    "unseen_usd_per_active_week": -0.6914533333333334,
+    "coinflip_share_ge": 0.122,
+    "coinflip_mean": -0.01936985758241758
+   },
+   "V7 elo edge @ T-6h": {
+    "n_total": 248,
+    "n_disc": 128,
+    "n_unseen": 120,
+    "disc_mean_clv": -0.015199453125000002,
+    "unseen_mean_clv": -0.019555749999999997,
+    "unseen_ci_lo": -0.028188985416666666,
+    "unseen_ci_hi": -0.010987897916666671,
+    "unseen_mean_settle": 0.015944250000000007,
+    "unseen_mean_exit": -0.03869533333333333,
+    "all_mean_clv": -0.017307338709677416,
+    "unseen_trades_per_week": 8.0,
+    "unseen_usd_per_week": -1.5644599999999997,
+    "unseen_usd_per_active_week": -1.5644599999999997,
+    "coinflip_share_ge": 0.458,
+    "coinflip_mean": -0.0201594895
+   },
+   "V1 favourite @ T-1h": {
+    "n_total": 346,
+    "n_disc": 180,
+    "n_unseen": 166,
+    "disc_mean_clv": -0.02101927777777778,
+    "unseen_mean_clv": -0.03691939759036145,
+    "unseen_ci_lo": -0.04875015662650603,
+    "unseen_ci_hi": -0.026887158132530127,
+    "unseen_mean_settle": -0.06074469879518072,
+    "unseen_mean_exit": -0.05646487951807229,
+    "all_mean_clv": -0.028647658959537574,
+    "unseen_trades_per_week": 11.066666666666666,
+    "unseen_usd_per_week": -4.085746666666667,
+    "unseen_usd_per_active_week": -4.085746666666667,
+    "coinflip_share_ge": 1.0,
+    "coinflip_mean": -0.019193692409638554
+   },
+   "V2 underdog @ T-1h": {
+    "n_total": 344,
+    "n_disc": 178,
+    "n_unseen": 166,
+    "disc_mean_clv": -0.019492528089887644,
+    "unseen_mean_clv": -0.0013342771084337375,
+    "unseen_ci_lo": -0.011535603915662654,
+    "unseen_ci_hi": 0.010503637048192759,
+    "unseen_mean_settle": 0.02225006024096386,
+    "unseen_mean_exit": -0.020663734939759038,
+    "all_mean_clv": -0.010730116279069767,
+    "unseen_trades_per_week": 11.066666666666666,
+    "unseen_usd_per_week": -0.1476600000000003,
+    "unseen_usd_per_active_week": -0.1476600000000003,
+    "coinflip_share_ge": 0.0,
+    "coinflip_mean": -0.01898934975903615
+   },
+   "V3 home @ T-1h": {
+    "n_total": 346,
+    "n_disc": 180,
+    "n_unseen": 166,
+    "disc_mean_clv": -0.018092611111111115,
+    "unseen_mean_clv": -0.022252469879518073,
+    "unseen_ci_lo": -0.033903268072289154,
+    "unseen_ci_hi": -0.011132215361445787,
+    "unseen_mean_settle": -0.05674042168674699,
+    "unseen_mean_exit": -0.041714096385542174,
+    "all_mean_clv": -0.020088381502890176,
+    "unseen_trades_per_week": 11.066666666666666,
+    "unseen_usd_per_week": -2.4626066666666664,
+    "unseen_usd_per_active_week": -2.4626066666666664,
+    "coinflip_share_ge": 0.668,
+    "coinflip_mean": -0.019512995421686746
+   },
+   "V4 away @ T-1h": {
+    "n_total": 346,
+    "n_disc": 180,
+    "n_unseen": 166,
+    "disc_mean_clv": -0.022508166666666666,
+    "unseen_mean_clv": -0.016001204819277113,
+    "unseen_ci_lo": -0.02716349397590362,
+    "unseen_ci_hi": -0.004269998493975908,
+    "unseen_mean_settle": 0.01824578313253012,
+    "unseen_mean_exit": -0.03541451807228915,
+    "all_mean_clv": -0.019386329479768788,
+    "unseen_trades_per_week": 11.066666666666666,
+    "unseen_usd_per_week": -1.7708000000000004,
+    "unseen_usd_per_active_week": -1.7708000000000004,
+    "coinflip_share_ge": 0.282,
+    "coinflip_mean": -0.019406851325301205
+   },
+   "V5 momentum @ T-1h": {
+    "n_total": 261,
+    "n_disc": 145,
+    "n_unseen": 116,
+    "disc_mean_clv": -0.017997586206896555,
+    "unseen_mean_clv": -0.043186551724137934,
+    "unseen_ci_lo": -0.06041469181034483,
+    "unseen_ci_hi": -0.02897700215517242,
+    "unseen_mean_settle": 0.010649655172413801,
+    "unseen_mean_exit": -0.06284931034482759,
+    "all_mean_clv": -0.02919268199233717,
+    "unseen_trades_per_week": 7.733333333333333,
+    "unseen_usd_per_week": -3.33976,
+    "unseen_usd_per_active_week": -3.33976,
+    "coinflip_share_ge": 0.998,
+    "coinflip_mean": -0.019685630172413794
+   },
+   "V6 reversal @ T-1h": {
+    "n_total": 245,
+    "n_disc": 130,
+    "n_unseen": 115,
+    "disc_mean_clv": -0.02292215384615385,
+    "unseen_mean_clv": 0.004504173913043476,
+    "unseen_ci_lo": -0.009934556521739132,
+    "unseen_ci_hi": 0.022256560869565206,
+    "unseen_mean_settle": -0.030191478260869563,
+    "unseen_mean_exit": -0.014905304347826082,
+    "all_mean_clv": -0.010048571428571431,
+    "unseen_trades_per_week": 7.666666666666667,
+    "unseen_usd_per_week": 0.34531999999999985,
+    "unseen_usd_per_active_week": 0.34531999999999985,
+    "coinflip_share_ge": 0.0,
+    "coinflip_mean": -0.018738746956521744
+   },
+   "V7 elo edge @ T-1h": {
+    "n_total": 248,
+    "n_disc": 128,
+    "n_unseen": 120,
+    "disc_mean_clv": -0.0176946875,
+    "unseen_mean_clv": -0.008826416666666668,
+    "unseen_ci_lo": -0.022010877083333335,
+    "unseen_ci_hi": 0.005354043749999986,
+    "unseen_mean_settle": 0.0027569166666666645,
+    "unseen_mean_exit": -0.02789575,
+    "all_mean_clv": -0.013403588709677419,
+    "unseen_trades_per_week": 8.0,
+    "unseen_usd_per_week": -0.7061133333333335,
+    "unseen_usd_per_active_week": -0.7061133333333335,
+    "coinflip_share_ge": 0.056,
+    "coinflip_mean": -0.01944406116666667
+   }
+  },
+  "exclusions": {
+   "T-24h": {
+    "kept_games": 346,
+    "excluded": {
+     "no valid bid/ask at close": 13,
+     "no entry candle": 1
+    }
+   },
+   "T-6h": {
+    "kept_games": 346,
+    "excluded": {
+     "no valid bid/ask at entry": 3,
+     "no entry candle": 1,
+     "no valid bid/ask at close": 10
+    }
+   },
+   "T-1h": {
+    "kept_games": 346,
+    "excluded": {
+     "no valid bid/ask at entry": 4,
+     "no entry candle": 1,
+     "no valid bid/ask at close": 9
+    }
+   }
+  },
+  "descr": {
+   "T-24h": {
+    "team_markets": 692,
+    "mean_abs_drift_entry_to_close": 0.021654624277456645,
+    "median_abs_drift": 0.010000000000000009,
+    "mean_entry_spread": 0.01114161849710983,
+    "median_entry_candle_age_s": 0.0,
+    "p95_entry_candle_age_s": 60.0,
+    "v1_fav_still_fav_at_close": 0.9682080924855492,
+    "v1_fav_games": 346
+   },
+   "T-6h": {
+    "team_markets": 692,
+    "mean_abs_drift_entry_to_close": 0.018280346820809253,
+    "median_abs_drift": 0.010000000000000009,
+    "mean_entry_spread": 0.010809248554913295,
+    "median_entry_candle_age_s": 0.0,
+    "p95_entry_candle_age_s": 60.0,
+    "v1_fav_still_fav_at_close": 0.9739884393063584,
+    "v1_fav_games": 346
+   },
+   "close_mean_spread": 0.010346820809248555,
+   "T-1h": {
+    "team_markets": 692,
+    "mean_abs_drift_entry_to_close": 0.013786127167630061,
+    "median_abs_drift": 0.0,
+    "mean_entry_spread": 0.010260115606936418,
+    "median_entry_candle_age_s": 0.0,
+    "p95_entry_candle_age_s": 0.0,
+    "v1_fav_still_fav_at_close": 0.9768115942028985,
+    "v1_fav_games": 345
+   }
+  },
+  "calibration": {
+   "T-24h entry mid": {
+    "n": 692,
+    "brier": 0.2146613078034682,
+    "buckets": [
+     {
+      "bucket": "0.0-0.1",
+      "n": 2,
+      "mean_mid": 0.095,
+      "win_rate": 0.0
+     },
+     {
+      "bucket": "0.1-0.2",
+      "n": 37,
+      "mean_mid": 0.14662162162162162,
+      "win_rate": 0.08108108108108109
+     },
+     {
+      "bucket": "0.2-0.3",
+      "n": 88,
+      "mean_mid": 0.24710227272727273,
+      "win_rate": 0.29545454545454547
+     },
+     {
+      "bucket": "0.3-0.4",
+      "n": 112,
+      "mean_mid": 0.3553571428571428,
+      "win_rate": 0.375
+     },
+     {
+      "bucket": "0.4-0.5",
+      "n": 107,
+      "mean_mid": 0.4449065420560747,
+      "win_rate": 0.4485981308411215
+     },
+     {
+      "bucket": "0.5-0.6",
+      "n": 106,
+      "mean_mid": 0.5549528301886792,
+      "win_rate": 0.5754716981132075
+     },
+     {
+      "bucket": "0.6-0.7",
+      "n": 106,
+      "mean_mid": 0.641320754716981,
+      "win_rate": 0.6037735849056604
+     },
+     {
+      "bucket": "0.7-0.8",
+      "n": 95,
+      "mean_mid": 0.7501052631578946,
+      "win_rate": 0.6947368421052632
+     },
+     {
+      "bucket": "0.8-0.9",
+      "n": 36,
+      "mean_mid": 0.8544444444444443,
+      "win_rate": 0.9166666666666666
+     },
+     {
+      "bucket": "0.9-1.0",
+      "n": 3,
+      "mean_mid": 0.9083333333333333,
+      "win_rate": 1.0
+     }
+    ]
+   },
+   "T-6h entry mid": {
+    "n": 692,
+    "brier": 0.2150244219653179,
+    "buckets": [
+     {
+      "bucket": "0.0-0.1",
+      "n": 2,
+      "mean_mid": 0.09,
+      "win_rate": 0.0
+     },
+     {
+      "bucket": "0.1-0.2",
+      "n": 41,
+      "mean_mid": 0.1479268292682927,
+      "win_rate": 0.0975609756097561
+     },
+     {
+      "bucket": "0.2-0.3",
+      "n": 86,
+      "mean_mid": 0.24808139534883722,
+      "win_rate": 0.29069767441860467
+     },
+     {
+      "bucket": "0.3-0.4",
+      "n": 110,
+      "mean_mid": 0.35495454545454536,
+      "win_rate": 0.39090909090909093
+     },
+     {
+      "bucket": "0.4-0.5",
+      "n": 107,
+      "mean_mid": 0.44607476635514015,
+      "win_rate": 0.4205607476635514
+     },
+     {
+      "bucket": "0.5-0.6",
+      "n": 106,
+      "mean_mid": 0.5554245283018868,
+      "win_rate": 0.5849056603773585
+     },
+     {
+      "bucket": "0.6-0.7",
+      "n": 111,
+      "mean_mid": 0.6459909909909909,
+      "win_rate": 0.6036036036036037
+     },
+     {
+      "bucket": "0.7-0.8",
+      "n": 86,
+      "mean_mid": 0.7525000000000001,
+      "win_rate": 0.7093023255813954
+     },
+     {
+      "bucket": "0.8-0.9",
+      "n": 40,
+      "mean_mid": 0.8524999999999998,
+      "win_rate": 0.9
+     },
+     {
+      "bucket": "0.9-1.0",
+      "n": 3,
+      "mean_mid": 0.9066666666666666,
+      "win_rate": 1.0
+     }
+    ]
+   },
+   "close mid (T-5m; games valid at T-6h)": {
+    "n": 692,
+    "brier": 0.21291271676300577,
+    "buckets": [
+     {
+      "bucket": "0.0-0.1",
+      "n": 3,
+      "mean_mid": 0.09500000000000001,
+      "win_rate": 0.0
+     },
+     {
+      "bucket": "0.1-0.2",
+      "n": 43,
+      "mean_mid": 0.15267441860465117,
+      "win_rate": 0.09302325581395349
+     },
+     {
+      "bucket": "0.2-0.3",
+      "n": 84,
+      "mean_mid": 0.248452380952381,
+      "win_rate": 0.2976190476190476
+     },
+     {
+      "bucket": "0.3-0.4",
+      "n": 115,
+      "mean_mid": 0.3521739130434783,
+      "win_rate": 0.3739130434782609
+     },
+     {
+      "bucket": "0.4-0.5",
+      "n": 99,
+      "mean_mid": 0.445959595959596,
+      "win_rate": 0.4444444444444444
+     },
+     {
+      "bucket": "0.5-0.6",
+      "n": 105,
+      "mean_mid": 0.5534761904761905,
+      "win_rate": 0.5523809523809524
+     },
+     {
+      "bucket": "0.6-0.7",
+      "n": 111,
+      "mean_mid": 0.6492342342342342,
+      "win_rate": 0.6306306306306306
+     },
+     {
+      "bucket": "0.7-0.8",
+      "n": 85,
+      "mean_mid": 0.7498823529411764,
+      "win_rate": 0.6941176470588235
+     },
+     {
+      "bucket": "0.8-0.9",
+      "n": 45,
+      "mean_mid": 0.8491111111111109,
+      "win_rate": 0.9111111111111111
+     },
+     {
+      "bucket": "0.9-1.0",
+      "n": 2,
+      "mean_mid": 0.905,
+      "win_rate": 1.0
+     }
+    ]
+   },
+   "T-1h entry mid": {
+    "n": 692,
+    "brier": 0.21330802023121387,
+    "buckets": [
+     {
+      "bucket": "0.0-0.1",
+      "n": 6,
+      "mean_mid": 0.07666666666666667,
+      "win_rate": 0.0
+     },
+     {
+      "bucket": "0.1-0.2",
+      "n": 43,
+      "mean_mid": 0.15186046511627907,
+      "win_rate": 0.11627906976744186
+     },
+     {
+      "bucket": "0.2-0.3",
+      "n": 84,
+      "mean_mid": 0.2494047619047619,
+      "win_rate": 0.30952380952380953
+     },
+     {
+      "bucket": "0.3-0.4",
+      "n": 114,
+      "mean_mid": 0.35425438596491227,
+      "win_rate": 0.38596491228070173
+     },
+     {
+      "bucket": "0.4-0.5",
+      "n": 97,
+      "mean_mid": 0.44592783505154643,
+      "win_rate": 0.422680412371134
+     },
+     {
+      "bucket": "0.5-0.6",
+      "n": 100,
+      "mean_mid": 0.55275,
+      "win_rate": 0.58
+     },
+     {
+      "bucket": "0.6-0.7",
+      "n": 115,
+      "mean_mid": 0.6466521739130434,
+      "win_rate": 0.6086956521739131
+     },
+     {
+      "bucket": "0.7-0.8",
+      "n": 84,
+      "mean_mid": 0.7507142857142858,
+      "win_rate": 0.6904761904761905
+     },
+     {
+      "bucket": "0.8-0.9",
+      "n": 43,
+      "mean_mid": 0.8497674418604653,
+      "win_rate": 0.8837209302325582
+     },
+     {
+      "bucket": "0.9-1.0",
+      "n": 6,
+      "mean_mid": 0.9216666666666665,
+      "win_rate": 1.0
+     }
+    ]
+   }
+  },
+  "unseen_active_weeks": 15,
+  "loader_exclusions": {
+   "no clean result ['scalar', 'scalar']": 2
+  },
+  "flags": {
+   "home_mismatch_ticker_vs_gameid": [],
+   "tip_vs_kickoff_col_diff": 0
+  },
+  "primary_spec": {
+   "pass": false,
+   "rules": [
+    [
+     "1 mean CLV net > 0 in discovery and unseen",
+     false,
+     "discovery -0.0227, unseen -0.0230"
+    ],
+    [
+     "2 unseen 95% bootstrap lower bound > 0",
+     false,
+     "CI [-0.0343, -0.0137]"
+    ],
+    [
+     "3 at least 200 unseen trades",
+     false,
+     "n_unseen 166"
+    ],
+    [
+     "4 coin flip: <= 5% of 500 random-side copies do as well",
+     false,
+     "share 0.750"
+    ],
+    [
+     "5 unseen mean hold-to-settlement P&L >= 0",
+     false,
+     "-0.0687"
+    ],
+    [
+     "6 >= $2/week at 10 contracts (unseen)",
+     false,
+     "$-2.55/wk"
+    ]
+   ]
+  }
+ }
+}

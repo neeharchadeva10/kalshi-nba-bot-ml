@@ -1,0 +1,65 @@
+{
+ "winner": {
+  "A": "w0.0",
+  "B": "termown",
+  "C": "decay5",
+  "D": "20",
+  "E": "off",
+  "F": "cat",
+  "G": "on",
+  "H": "off"
+ },
+ "T": 8,
+ "flat": 18394,
+ "discovery_stats": {
+  "n": 204,
+  "wins": 121,
+  "win_rate": 0.5931372549019608,
+  "avg_paid": 0.5206372549019612,
+  "mean": 0.055038191176470616,
+  "sd": 0.4907686085607329,
+  "lb": -0.012308732650035167,
+  "total": 11.227791000000005
+ },
+ "unseen_games": 661,
+ "with_main_strike": 661,
+ "valid_settled": 661,
+ "bets": {
+  "n": 170,
+  "mean": -0.037286100000000016,
+  "ci95": [
+   -0.11152644882352941,
+   0.03900624911764704
+  ],
+  "usd_per_week_at_10": -3.12605611624835,
+  "weeks": 20.276785714285715
+ },
+ "win_rate": 0.5,
+ "avg_paid": 0.5198235294117647,
+ "over_under": {
+  "over": {
+   "n": 57,
+   "mean_net": -0.03377133333333335
+  },
+  "under": {
+   "n": 113,
+   "mean_net": -0.03905903539823009
+  }
+ },
+ "coin_flip": {
+  "n_games": 170,
+  "actual_mean": -0.037286100000000016,
+  "copies_mean": -0.03503706824705883,
+  "frac_copies_ge_actual": 0.518,
+  "copies": 500
+ },
+ "pass_bar": {
+  "1_mean_net_pos": false,
+  "2_boot_lo_gt0": false,
+  "3_bets_ge_100": true,
+  "4_coin_flip_le_5pct": false,
+  "5_usd_per_week_ge_2": false
+ },
+ "PASS": false,
+ "usd_per_week_definition": "sum of net per contract x 10 / weeks spanned by the unseen games' T"
+}

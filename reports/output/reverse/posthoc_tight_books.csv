@@ -1,0 +1,13 @@
+strategy,split,subset,n_trades,n_games,mean_pnl_c,ci95_c,total_usd,win_rate
+poly_gap_close,early,all trades,8,8,8.783750000000001,"(-1.7, 27.7)",70.27000000000001,0.375
+poly_gap_close,early,both books <= 3c wide at entry,7,7,-0.3842857142857129,"(-2.1, 1.7)",-2.68999999999999,0.2857142857142857
+poly_gap_close,later,all trades,22,20,5.091363636363638,"(-2.3, 13.7)",112.01000000000003,0.45454545454545453
+poly_gap_close,later,both books <= 3c wide at entry,11,11,-2.2290909090909086,"(-4.2, -0.4)",-24.519999999999996,0.2727272727272727
+poly_hold,early,all trades,8,8,17.97,"(-9.1, 44.7)",143.76,0.625
+poly_hold,early,both books <= 3c wide at entry,7,7,8.595714285714283,"(-16.4, 30.1)",60.16999999999999,0.5714285714285714
+poly_hold,later,all trades,22,20,12.935454545454547,"(-2.0, 29.0)",284.58,0.45454545454545453
+poly_hold,later,both books <= 3c wide at entry,11,11,4.474545454545455,"(-15.1, 24.6)",49.220000000000006,0.36363636363636365
+arb,early,all trades,4,3,2.5799999999999876,"(2.1, 4.0)",10.31999999999995,1.0
+arb,early,both books <= 3c wide at entry,4,3,2.5799999999999876,"(2.1, 4.0)",10.31999999999995,1.0
+arb,later,all trades,9,4,0.4266666666666622,"(0.2, 1.0)",3.8399999999999594,1.0
+arb,later,both books <= 3c wide at entry,8,3,0.26999999999999497,"(0.1, 0.5)",2.1599999999999597,1.0

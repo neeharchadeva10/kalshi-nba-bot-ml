@@ -1,0 +1,14 @@
+{
+    "@context": {
+        "@version": "1.1",
+        "@vocab": "https://api.weather.gov/ontology#"
+    },
+    "@id": "https://api.weather.gov/products/5841e885-e206-43c7-be2e-890869bc2e44",
+    "id": "5841e885-e206-43c7-be2e-890869bc2e44",
+    "wmoCollectiveId": "CDUS44",
+    "issuingOffice": "KEWX",
+    "issuanceTime": "2026-10-18T21:41:00+00:00",
+    "productCode": "CLI",
+    "productName": "Climatological Report (Daily)",
+    "productText": "\n000\nCDUS44 KEWX 182141\nCLIAUS\n\nCLIMATE REPORT \nNATIONAL WEATHER SERVICE AUSTIN/SAN ANTONIO\n441 PM CDT SUN OCT 18 2026\n\n...................................\n\n...THE AUSTIN BERGSTROM CLIMATE SUMMARY FOR OCTOBER 18 2026...\nVALID AS OF 0400 PM LOCAL TIME.\n\nCLIMATE NORMAL PERIOD: 1991 TO 2020\nCLIMATE RECORD PERIOD: 1943 TO 2026\n\n\nWEATHER ITEM   OBSERVED TIME   RECORD YEAR NORMAL DEPARTURE           \n                VALUE   (LST)  VALUE       VALUE  FROM               \n                                                  NORMAL           \n................................................................\nTEMPERATURE (F)                                                          \n TODAY                                                               \n  MAXIMUM         75   2:40 PM  95    2025  82     -7                 \n  MINIMUM         42   6:48 AM  41    2017  57    -15                 \n  AVERAGE         59                                               \n\nPRECIPITATION (IN)                                                    \n  TODAY            0.00          1.45 1965   0.16  -0.16              \n  MONTH TO DATE    1.75                      2.22  -0.47              \n  SINCE SEP 1      1.83                      5.25  -3.42              \n  SINCE JAN 1     25.33                     28.25  -2.92              \n\n................................................................\n\n\nTHE AUSTIN BERGSTROM CLIMATE NORMALS FOR TOMORROW\n                         NORMAL    RECORD    YEAR                     \n MAXIMUM TEMPERATURE (F)   82        97      2019                      \n MINIMUM TEMPERATURE (F)   56        38      2022                      \n\n\nSUNRISE AND SUNSET                                                    \nOCTOBER 18 2026.......SUNRISE   7:35 AM CDT   SUNSET   6:56 PM CDT     \nOCTOBER 19 2026.......SUNRISE   7:35 AM CDT   SUNSET   6:55 PM CDT     \n\n\n-  INDICATES NEGATIVE NUMBERS.\nR  INDICATES RECORD WAS SET OR TIED.\nMM INDICATES DATA IS MISSING.\nT  INDICATES TRACE AMOUNT.\n\n\n\n\n$$\n"
+}

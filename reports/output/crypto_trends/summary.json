@@ -1,0 +1,200 @@
+{
+  "rules_tested": 94,
+  "early_rules_positive_with_200_trades": 18,
+  "picked": [
+    {
+      "rule": "momentum fade down 25bp | 1-4 min",
+      "early_mean_c": 1.859557522123894,
+      "early_n": 226,
+      "later_mean_c": -2.448101265822785,
+      "later_n": 79,
+      "later_ci": [
+        -7.71,
+        2.47
+      ],
+      "fresh_mean_c": 2.3760119047619046,
+      "fresh_n": 168,
+      "fresh_ci": [
+        -1.09,
+        6.23
+      ],
+      "survives_both": false
+    },
+    {
+      "rule": "buy favorite 0.90-0.95 | 2-4 min left",
+      "early_mean_c": 1.4320632737276473,
+      "early_n": 727,
+      "later_mean_c": -0.2963924050632917,
+      "later_n": 790,
+      "later_ci": [
+        -2.17,
+        1.48
+      ],
+      "fresh_mean_c": -0.8058898847631254,
+      "fresh_n": 1562,
+      "fresh_ci": [
+        -1.98,
+        0.32
+      ],
+      "survives_both": false
+    },
+    {
+      "rule": "buy underdog 0.40-0.50 | 4-7 min left",
+      "early_mean_c": 1.0302749638205522,
+      "early_n": 691,
+      "later_mean_c": -3.2780452920143017,
+      "later_n": 839,
+      "later_ci": [
+        -6.28,
+        -0.6
+      ],
+      "fresh_mean_c": -3.8815369897959173,
+      "fresh_n": 1568,
+      "fresh_ci": [
+        -6.53,
+        -0.98
+      ],
+      "survives_both": false
+    },
+    {
+      "rule": "buy favorite 0.98-1.00 | 4-7 min left",
+      "early_mean_c": 0.9687087912087923,
+      "early_n": 364,
+      "later_mean_c": -0.0670044052863424,
+      "later_n": 454,
+      "later_ci": [
+        -1.05,
+        0.8
+      ],
+      "fresh_mean_c": 0.46931868131868265,
+      "fresh_n": 455,
+      "fresh_ci": [
+        -0.36,
+        1.12
+      ],
+      "survives_both": false
+    },
+    {
+      "rule": "buy favorite 0.90-0.95 | 4-7 min left",
+      "early_mean_c": 0.7880632790028753,
+      "early_n": 1043,
+      "later_mean_c": 0.9730397967823868,
+      "later_n": 1181,
+      "later_ci": [
+        -0.47,
+        2.31
+      ],
+      "fresh_mean_c": 1.4819896373056982,
+      "fresh_n": 1930,
+      "fresh_ci": [
+        0.41,
+        2.47
+      ],
+      "survives_both": false
+    },
+    {
+      "rule": "buy favorite 0.70-0.80 | 7-10 min left",
+      "early_mean_c": 0.7178428465530027,
+      "early_n": 1349,
+      "later_mean_c": -0.8301188118811874,
+      "later_n": 1515,
+      "later_ci": [
+        -3.45,
+        1.5
+      ],
+      "fresh_mean_c": 0.36461013295005446,
+      "fresh_n": 2783,
+      "fresh_ci": [
+        -1.31,
+        1.87
+      ],
+      "survives_both": false
+    },
+    {
+      "rule": "buy favorite 0.50-0.60 | 10-14 min left",
+      "early_mean_c": 0.7142837144190369,
+      "early_n": 2143,
+      "later_mean_c": -2.633581730769232,
+      "later_n": 2496,
+      "later_ci": [
+        -4.75,
+        -0.43
+      ],
+      "fresh_mean_c": -2.148090325538745,
+      "fresh_n": 4362,
+      "fresh_ci": [
+        -3.58,
+        -0.68
+      ],
+      "survives_both": false
+    },
+    {
+      "rule": "buy favorite 0.90-0.95 | 7-10 min left",
+      "early_mean_c": 0.6411363636363621,
+      "early_n": 572,
+      "later_mean_c": 0.20778901734103886,
+      "later_n": 692,
+      "later_ci": [
+        -1.68,
+        2.0
+      ],
+      "fresh_mean_c": 0.8382539682539661,
+      "fresh_n": 882,
+      "fresh_ci": [
+        -0.57,
+        2.28
+      ],
+      "survives_both": false
+    },
+    {
+      "rule": "buy favorite 0.95-0.98 | 4-7 min left",
+      "early_mean_c": 0.6262990196078462,
+      "early_n": 816,
+      "later_mean_c": -0.020560081466392058,
+      "later_n": 982,
+      "later_ci": [
+        -1.2,
+        1.04
+      ],
+      "fresh_mean_c": 0.2466845329249649,
+      "fresh_n": 1306,
+      "fresh_ci": [
+        -0.97,
+        1.31
+      ],
+      "survives_both": false
+    },
+    {
+      "rule": "buy favorite 0.80-0.90 | 7-10 min left",
+      "early_mean_c": 0.5933574297188756,
+      "early_n": 1245,
+      "later_mean_c": 0.4105981035740337,
+      "later_n": 1371,
+      "later_ci": [
+        -1.89,
+        2.51
+      ],
+      "fresh_mean_c": 1.2053309320126069,
+      "fresh_n": 2221,
+      "fresh_ci": [
+        -0.44,
+        2.64
+      ],
+      "survives_both": false
+    }
+  ],
+  "spread_by_session_c": {
+    "US day (9-17 ET)": {
+      "mean": 0.769,
+      "50%": 1.0
+    },
+    "US night/Asia": {
+      "mean": 0.783,
+      "50%": 1.0
+    },
+    "weekend": {
+      "mean": 0.791,
+      "50%": 1.0
+    }
+  }
+}

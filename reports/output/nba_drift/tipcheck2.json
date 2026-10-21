@@ -1,0 +1,105 @@
+{
+ "no_sustained_move": 20,
+ "games": [
+  {
+   "event": "KXNBAGAME-26JAN12UTACLE",
+   "n_big_minutes": 0,
+   "sustained_move_before_T-5m": false
+  },
+  {
+   "event": "KXNBAGAME-26MAY05CLEDET",
+   "n_big_minutes": 0,
+   "sustained_move_before_T-5m": false
+  },
+  {
+   "event": "KXNBAGAME-26APR18HOULAL",
+   "n_big_minutes": 0,
+   "sustained_move_before_T-5m": false
+  },
+  {
+   "event": "KXNBAGAME-25OCT13WASNYK",
+   "n_big_minutes": 0,
+   "sustained_move_before_T-5m": false
+  },
+  {
+   "event": "KXNBAGAME-26JAN18TORLAL",
+   "n_big_minutes": 0,
+   "sustained_move_before_T-5m": false
+  },
+  {
+   "event": "KXNBAGAME-25DEC22MEMOKC",
+   "n_big_minutes": 0,
+   "sustained_move_before_T-5m": false
+  },
+  {
+   "event": "KXNBAGAME-26MAY04MINSAS",
+   "n_big_minutes": 0,
+   "sustained_move_before_T-5m": false
+  },
+  {
+   "event": "KXNBAGAME-26JAN22LALLAC",
+   "n_big_minutes": 0,
+   "sustained_move_before_T-5m": false
+  },
+  {
+   "event": "KXNBAGAME-25DEC28BOSPOR",
+   "n_big_minutes": 0,
+   "sustained_move_before_T-5m": false
+  },
+  {
+   "event": "KXNBAGAME-25NOV15DENMIN",
+   "n_big_minutes": 0,
+   "sustained_move_before_T-5m": false
+  },
+  {
+   "event": "KXNBAGAME-25DEC11PORNOP",
+   "n_big_minutes": 0,
+   "sustained_move_before_T-5m": false
+  },
+  {
+   "event": "KXNBAGAME-26APR24BOSPHI",
+   "n_big_minutes": 0,
+   "sustained_move_before_T-5m": false
+  },
+  {
+   "event": "KXNBAGAME-26JAN26LALCHI",
+   "n_big_minutes": 0,
+   "sustained_move_before_T-5m": false
+  },
+  {
+   "event": "KXNBAGAME-25OCT10BOSTOR",
+   "n_big_minutes": 0,
+   "sustained_move_before_T-5m": false
+  },
+  {
+   "event": "KXNBAGAME-25DEC23HOULAC",
+   "n_big_minutes": 0,
+   "sustained_move_before_T-5m": false
+  },
+  {
+   "event": "KXNBAGAME-25OCT27CLEDET",
+   "n_big_minutes": 0,
+   "sustained_move_before_T-5m": false
+  },
+  {
+   "event": "KXNBAGAME-26JAN04INDORL",
+   "n_big_minutes": 0,
+   "sustained_move_before_T-5m": false
+  },
+  {
+   "event": "KXNBAGAME-25DEC30BOSUTA",
+   "n_big_minutes": 0,
+   "sustained_move_before_T-5m": false
+  },
+  {
+   "event": "KXNBAGAME-26MAR07LACMEM",
+   "n_big_minutes": 0,
+   "sustained_move_before_T-5m": false
+  },
+  {
+   "event": "KXNBAGAME-25OCT17LACGSW",
+   "n_big_minutes": 0,
+   "sustained_move_before_T-5m": false
+  }
+ ]
+}

@@ -1,0 +1,141 @@
+{
+  "D1": {
+    "n_markets": 8734,
+    "n_flagged": 4,
+    "flagged": [
+      {
+        "ticker": "KXNFLSPREAD-25NOV16DETPHI-PHI17",
+        "why": "duplicate (game, kind, team, strike)"
+      },
+      {
+        "ticker": "KXNFLSPREAD-25SEP28NOBUF-BUF22",
+        "why": "duplicate (game, kind, team, strike)"
+      },
+      {
+        "ticker": "KXNFLSPREAD-25NOV16DETPHI-PHILADELPHIA17",
+        "why": "duplicate (game, kind, team, strike)"
+      },
+      {
+        "ticker": "KXNFLSPREAD-25SEP28NOBUF-BUFFALO22",
+        "why": "duplicate (game, kind, team, strike)"
+      }
+    ]
+  },
+  "D5": {
+    "n_non_matching": 0,
+    "non_matching_excluded": []
+  },
+  "D2": {
+    "n_checked": 8734,
+    "n_mismatch": 1,
+    "mismatches": [
+      {
+        "ticker": "KXNFLSPREAD-25SEP28CARNE-NE22",
+        "expected": 1.0,
+        "actual": 0.0,
+        "margin": 29.0
+      }
+    ],
+    "note": null
+  },
+  "D3": {
+    "n_markets": 8730,
+    "median_known_share": 1.0,
+    "mean_known_share": 0.9653905094701748,
+    "mean_null_bid_share": 0.16566947743539276,
+    "mean_null_ask_share": 0.13305071471722069,
+    "median_of_median_carry_age": 14.0,
+    "max_carry_age": 17494.0,
+    "p99_of_max_carry_age": 17046.25,
+    "lowest_known_share": [
+      {
+        "ticker": "KXNFLSPREAD-25SEP28WASATL-WAS6",
+        "known_share": 0.0
+      },
+      {
+        "ticker": "KXNFLSPREAD-25SEP28CARNE-NE22",
+        "known_share": 0.0
+      },
+      {
+        "ticker": "KXNFLGAME-26JAN25LASEA-LA",
+        "known_share": 0.0
+      },
+      {
+        "ticker": "KXNFLGAME-26JAN25LASEA-SEA",
+        "known_share": 0.0
+      },
+      {
+        "ticker": "KXNFLSPREAD-26SEP10SFLAR-SF24",
+        "known_share": 0.0004910698046633443
+      },
+      {
+        "ticker": "KXNFLSPREAD-26SEP10SFLAR-SF21",
+        "known_share": 0.0004910698046633443
+      },
+      {
+        "ticker": "KXNFLSPREAD-26SEP14DENKC-KC34",
+        "known_share": 0.0005598919737838817
+      },
+      {
+        "ticker": "KXNFLSPREAD-26SEP14DENKC-KC31",
+        "known_share": 0.0005598919737838817
+      },
+      {
+        "ticker": "KXNFLSPREAD-26SEP14DENKC-KC28",
+        "known_share": 0.0006916312617330304
+      },
+      {
+        "ticker": "KXNFLSPREAD-26SEP14DENKC-KC24",
+        "known_share": 0.0006916312617330304
+      },
+      {
+        "ticker": "KXNFLSPREAD-26SEP10SFLAR-SF17",
+        "known_share": 0.0007093230511803863
+      },
+      {
+        "ticker": "KXNFLSPREAD-26SEP10SFLAR-SF18",
+        "known_share": 0.0007093230511803863
+      },
+      {
+        "ticker": "KXNFLSPREAD-26SEP28PHICHI-CHI31",
+        "known_share": 0.0007835455435847208
+      },
+      {
+        "ticker": "KXNFLSPREAD-26SEP28PHICHI-CHI28",
+        "known_share": 0.0007835455435847208
+      },
+      {
+        "ticker": "KXNFLSPREAD-26SEP13NYJTEN-NYJ24",
+        "known_share": 0.0008835423250756108
+      },
+      {
+        "ticker": "KXNFLSPREAD-26SEP13NYJTEN-NYJ21",
+        "known_share": 0.0008835423250756108
+      },
+      {
+        "ticker": "KXNFLSPREAD-26SEP13CLEJAC-JAC45",
+        "known_share": 0.0009856904931851399
+      },
+      {
+        "ticker": "KXNFLSPREAD-26SEP13CLEJAC-JAC42",
+        "known_share": 0.0009856904931851399
+      },
+      {
+        "ticker": "KXNFLSPREAD-26SEP13DALNYG-NYG18",
+        "known_share": 0.0011804782623359978
+      },
+      {
+        "ticker": "KXNFLSPREAD-26SEP13DALNYG-NYG17",
+        "known_share": 0.0011804782623359978
+      }
+    ],
+    "note": "Amendment 1: quotes carried forward from the last candle. The check that the open after a gap equals the previous close needs candle opens (not in sp_quotes) and is run separately."
+  },
+  "D4": {
+    "n_markets_with_bid_gt_ask": 0,
+    "n_candle_rows_bid_gt_ask": 0,
+    "n_snapshots_excluded": 0,
+    "by_market": {}
+  },
+  "D6_note": "top20.csv lists the 10 largest opportunities to re-check by hand against the cached raw responses"
+}

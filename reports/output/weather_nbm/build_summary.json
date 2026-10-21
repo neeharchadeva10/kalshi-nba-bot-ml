@@ -1,0 +1,55 @@
+{
+ "events_total": 11827,
+ "markets_total": 67806,
+ "excluded_events": {
+  "no_yes": 173,
+  "obs_inconsistent_with_results(kept for trading, not for calibration)": 1,
+  "overlapping_ranges": 308,
+  "multiple_yes": 138,
+  "obs_missing(kept for trading, not for calibration)": 461,
+  "scalar_result": 4
+ },
+ "events_valid": 11432,
+ "duplicate_station_days": 1,
+ "by_type": {
+  "morning": {
+   "station_days_modelled": 11367,
+   "markets": 66789,
+   "markets_valid_quote": 46415,
+   "markets_no_candle_before_decision": 0,
+   "markets_not_open_at_decision": 0,
+   "markets_missing_bid_or_ask": 20373,
+   "skips": {
+    "no_run_published_by_decision_time": 46,
+    "no_calibration_pool_lt_15": 18
+   },
+   "runs_used": {
+    "06": 11386
+   },
+   "cal_modes": {
+    "pooled": 345,
+    "shrunk": 11023
+   }
+  },
+  "evening": {
+   "station_days_modelled": 11394,
+   "markets": 66951,
+   "markets_valid_quote": 57327,
+   "markets_no_candle_before_decision": 175,
+   "markets_not_open_at_decision": 144,
+   "markets_missing_bid_or_ask": 9449,
+   "skips": {
+    "no_run_published_by_decision_time": 19,
+    "no_calibration_pool_lt_15": 18
+   },
+   "runs_used": {
+    "18": 3744,
+    "00": 7669
+   },
+   "cal_modes": {
+    "pooled": 366,
+    "shrunk": 11029
+   }
+  }
+ }
+}

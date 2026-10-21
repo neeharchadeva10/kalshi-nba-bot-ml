@@ -1,0 +1,28 @@
+{
+ "orders": [
+  {
+   "order_id": "7e1c2b3a-0000-4a5b-8c9d-00000000000a",
+   "client_order_id": "c0ffee00-0000-4000-8000-00000000000a",
+   "fill_count": "1.00",
+   "remaining_count": "0.00",
+   "average_fill_price": "0.5600",
+   "average_fee_paid": "0.017248",
+   "ts_ms": 1791226212345,
+   "error": null
+  },
+  {
+   "order_id": null,
+   "client_order_id": "c0ffee00-0000-4000-8000-00000000000b",
+   "fill_count": null,
+   "remaining_count": null,
+   "average_fill_price": null,
+   "average_fee_paid": null,
+   "ts_ms": null,
+   "error": {
+    "code": "available_balance_too_low",
+    "message": "available balance too low",
+    "details": ""
+   }
+  }
+ ]
+}

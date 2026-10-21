@@ -1,0 +1,7 @@
+{
+ "error": {
+  "code": "bad_request",
+  "message": "bad request",
+  "details": "invalid status filter"
+ }
+}

@@ -1,0 +1,267 @@
+{
+ "build_info": {
+  "markets": 16999,
+  "events": 1409,
+  "unparsed_events": [],
+  "no_T": 0,
+  "T_from_drift": 1319,
+  "T_from_own": 90,
+  "unmatched_hoopr": [
+   "KXNBATOTAL-26JAN08MIACHI",
+   "KXNBATOTAL-26JAN25DALMIL",
+   "KXNBATOTAL-26JAN25DENMEM"
+  ],
+  "unrated": [
+   "KXNBATOTAL-26OCT12LIOPOR"
+  ],
+  "no_ratings_team": [],
+  "T_moved_to_hoopr_tip": [
+   "KXNBATOTAL-26FEB02NOPCHA",
+   "KXNBATOTAL-26JAN24WASCHA",
+   "KXNBATOTAL-26JAN26INDATL",
+   "KXNBATOTAL-26JAN26PHICHA"
+  ],
+  "games": 1405,
+  "games_by_split": {
+   "unseen": 661,
+   "discovery": 660,
+   "forward": 84
+  }
+ },
+ "preregistered_versions": 3,
+ "discovery_missing_actual": 0,
+ "sigma": 19.48428840031698,
+ "discovery_mean_error_actual_minus_proj": 4.319855178459742,
+ "gates": {
+  "qualifying_games_15_85": 660,
+  "qualifying_games_per_week": 49.64405641370047,
+  "accuracy": {
+   "games": 660,
+   "games_with_median": 660,
+   "model_mae": 15.806532715053844,
+   "market_mae": 14.672125944717134,
+   "model_mae_all": 15.806532715053844,
+   "strikes_quoted": 7260,
+   "model_brier": 0.2265074796696536,
+   "market_brier": 0.21024046831955923
+  },
+  "gate1_pass": false,
+  "residual_test": {
+   "coef": 0.05514329123616705,
+   "ci95": [
+    -0.1918220980342502,
+    0.29723518120721093
+   ],
+   "gate2_pass": false
+  },
+  "volume": {
+   "strikes_over_cost": 5658,
+   "per_week": 425.5849563465413,
+   "gate3_pass": true
+  }
+ },
+ "median_sensitivity_spread_le_10c_discovery": {
+  "games": 657,
+  "market_mae_spread_le_10c": 14.693425776887755,
+  "model_mae_same_games": 15.806901841377726
+ },
+ "blend_brier_discovery": 0.21355456561551206,
+ "discovery_by_month": {
+  "2025-10": {
+   "games": 80,
+   "games_with_median": 80,
+   "model_mae": 17.083795303228882,
+   "market_mae": 16.315450238888058,
+   "model_mae_all": 17.083795303228882,
+   "strikes_quoted": 880,
+   "model_brier": 0.23806093196062728,
+   "market_brier": 0.21834082386363637,
+   "bias_actual_minus_proj": 7.2564168097937936
+  },
+  "2025-11": {
+   "games": 218,
+   "games_with_median": 218,
+   "model_mae": 14.947450392652922,
+   "market_mae": 13.81572980600127,
+   "model_mae_all": 14.947450392652922,
+   "strikes_quoted": 2398,
+   "model_brier": 0.2189442172801178,
+   "market_brier": 0.20748633236030026,
+   "bias_actual_minus_proj": 5.374597547859841
+  },
+  "2025-12": {
+   "games": 198,
+   "games_with_median": 198,
+   "model_mae": 16.887696744310954,
+   "market_mae": 15.586548607337868,
+   "model_mae_all": 16.887696744310954,
+   "strikes_quoted": 2178,
+   "model_brier": 0.2372241164549865,
+   "market_brier": 0.2146961776859504,
+   "bias_actual_minus_proj": 5.930114447320119
+  },
+  "2026-01": {
+   "games": 164,
+   "games_with_median": 164,
+   "model_mae": 15.020120894544625,
+   "market_mae": 13.904886478299321,
+   "model_mae_all": 15.020120894544625,
+   "strikes_quoted": 1804,
+   "model_brier": 0.2179868756095621,
+   "market_brier": 0.20457060698447893,
+   "bias_actual_minus_proj": -0.45874300611526414
+  }
+ },
+ "discovery_by_stage": {
+  "regular": {
+   "games": 660,
+   "games_with_median": 660,
+   "model_mae": 15.806532715053844,
+   "market_mae": 14.672125944717134,
+   "model_mae_all": 15.806532715053844,
+   "strikes_quoted": 7260,
+   "model_brier": 0.2265074796696536,
+   "market_brier": 0.21024046831955923,
+   "bias_actual_minus_proj": 4.319855178459742
+  }
+ },
+ "discovery_calibration_model": {
+  "(-0.001, 0.1]": {
+   "n": 193.0,
+   "mean_pred": 0.07606981739409444,
+   "hit_rate": 0.19170984455958548
+  },
+  "(0.1, 0.2]": {
+   "n": 904.0,
+   "mean_pred": 0.15468844204884677,
+   "hit_rate": 0.2776548672566372
+  },
+  "(0.2, 0.3]": {
+   "n": 1219.0,
+   "mean_pred": 0.2495249536198822,
+   "hit_rate": 0.32157506152584087
+  },
+  "(0.3, 0.4]": {
+   "n": 1167.0,
+   "mean_pred": 0.3489033756977026,
+   "hit_rate": 0.4130248500428449
+  },
+  "(0.4, 0.5]": {
+   "n": 1078.0,
+   "mean_pred": 0.4500269806813628,
+   "hit_rate": 0.5269016697588126
+  },
+  "(0.5, 0.6]": {
+   "n": 1013.0,
+   "mean_pred": 0.5497202859927602,
+   "hit_rate": 0.6219151036525172
+  },
+  "(0.6, 0.7]": {
+   "n": 903.0,
+   "mean_pred": 0.6477481214081127,
+   "hit_rate": 0.6644518272425249
+  },
+  "(0.7, 0.8]": {
+   "n": 622.0,
+   "mean_pred": 0.7438238292378044,
+   "hit_rate": 0.7636655948553055
+  },
+  "(0.8, 0.9]": {
+   "n": 161.0,
+   "mean_pred": 0.8277681885098536,
+   "hit_rate": 0.7577639751552795
+  }
+ },
+ "discovery_calibration_market": {
+  "(0.1, 0.2]": {
+   "n": 274.0,
+   "mean_pred": 0.1762773722627737,
+   "hit_rate": 0.15693430656934307
+  },
+  "(0.2, 0.3]": {
+   "n": 1137.0,
+   "mean_pred": 0.25546174142480216,
+   "hit_rate": 0.22251539138082674
+  },
+  "(0.3, 0.4]": {
+   "n": 1153.0,
+   "mean_pred": 0.35092367736339986,
+   "hit_rate": 0.33304423243712056
+  },
+  "(0.4, 0.5]": {
+   "n": 1037.0,
+   "mean_pred": 0.44997107039537126,
+   "hit_rate": 0.43876567020250723
+  },
+  "(0.5, 0.6]": {
+   "n": 1022.0,
+   "mean_pred": 0.5523434442270059,
+   "hit_rate": 0.538160469667319
+  },
+  "(0.6, 0.7]": {
+   "n": 1159.0,
+   "mean_pred": 0.6534081104400344,
+   "hit_rate": 0.6496980155306299
+  },
+  "(0.7, 0.8]": {
+   "n": 1114.0,
+   "mean_pred": 0.7498922800718133,
+   "hit_rate": 0.7307001795332136
+  },
+  "(0.8, 0.9]": {
+   "n": 360.0,
+   "mean_pred": 0.8283472222222221,
+   "hit_rate": 0.8361111111111111
+  },
+  "(0.9, 1.0]": {
+   "n": 4.0,
+   "mean_pred": 0.91125,
+   "hit_rate": 1.0
+  }
+ },
+ "spread_stats_discovery": {
+  "median_spread": 0.030000000000000027,
+  "share_spread_ge_20c": 0.03002754820936639
+ },
+ "total_crosscheck_discovery": {
+  "n": 72,
+  "mismatch": 7
+ },
+ "all_gates_pass": false,
+ "verdict": "the formula is not better than Kalshi's line (gate failed); no betting rule run, unseen untouched",
+ "forward_look_2026_27": {
+  "games": 68,
+  "games_with_median": 68,
+  "model_mae": 14.892993911058655,
+  "market_mae": 14.32844317351238,
+  "model_mae_all": 14.892993911058655,
+  "strikes_quoted": 1452,
+  "model_brier": 0.1929060503040872,
+  "market_brier": 0.19482935606060606,
+  "bias_actual_minus_proj": -1.564496862905924,
+  "by_stage": {
+   "preseason": {
+    "games": 65,
+    "games_with_median": 65,
+    "model_mae": 14.938641161453486,
+    "market_mae": 14.246259431870293,
+    "model_mae_all": 14.938641161453486,
+    "strikes_quoted": 1365,
+    "model_brier": 0.1953476202985318,
+    "market_brier": 0.19591219780219782,
+    "bias_actual_minus_proj": -1.2794326721309635
+   },
+   "regular": {
+    "games": 3,
+    "games_with_median": 3,
+    "model_mae": 13.903970152503982,
+    "market_mae": 16.109090909090906,
+    "model_mae_all": 13.903970152503982,
+    "strikes_quoted": 87,
+    "model_brier": 0.1545986590119396,
+    "market_brier": 0.17783994252873558,
+    "bias_actual_minus_proj": -7.740887663030065
+   }
+  }
+ }
+}
