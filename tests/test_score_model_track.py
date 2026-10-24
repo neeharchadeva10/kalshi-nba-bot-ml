@@ -39,7 +39,8 @@ def run_once(tmp, now, games, predictor=None, fetch=None, box=None, prev=None, *
 
 
 @pytest.fixture
-def box(tmp_path):
+def box(tmp_path, need_data):
+    need_data("data/raw/nba_open/team_box_2027.parquet")
     p = tmp_path / "box.parquet"
     pd.read_parquet(T.BOX_2027).to_parquet(p)
     return p
@@ -124,6 +125,7 @@ def test_team_code_mapping_tricky_six():
         assert m[k] == k
 
 
+@pytest.mark.needs_data("data/raw/nba_open/team_box_2026.parquet")
 def test_tricky_teams_reach_the_placeholder_rows():
     L = T.load_model_modules()["L"]
     tmpl = L.read_year(2026)
@@ -152,6 +154,7 @@ def _games_on(box, d):
             for r in tab.itertuples()]
 
 
+@pytest.mark.needs_data("data/raw/nba_open/team_box_2027.parquet")
 def test_real_placeholders_never_contribute_and_equal_forward_block():
     """Predictions for the Oct 21 games, made from the box cut BEFORE Oct 21 + placeholders, equal the frozen forward_block-style
     prediction made from the full box; they do not change when the placeholder fill changes, nor when rows dated on/after Oct 21 are
@@ -188,6 +191,7 @@ def test_real_placeholders_never_contribute_and_equal_forward_block():
             assert p1[key][mod.lower() + "_" + side] == pytest.approx(pr[mod][i], abs=1e-9)
 
 
+@pytest.mark.needs_data("data/raw/nba_open/team_box_2027.parquet")
 def test_real_features_ignore_rows_on_or_after_the_game_date():
     S = T.load_model_modules()["S"]
     L = T.load_model_modules()["L"]
@@ -204,6 +208,7 @@ def test_real_features_ignore_rows_on_or_after_the_game_date():
     pd.testing.assert_frame_equal(F1[on21][S.FEATS].reset_index(drop=True), F2[on21][S.FEATS].reset_index(drop=True))
 
 
+@pytest.mark.needs_data("data/raw/nba_open/team_box_2027.parquet")
 def test_box_stats_counts_only_earlier_games():
     full = pd.read_parquet(T.BOX_2027)
     st = T.box_stats(full, dt.date(2026, 10, 22))
@@ -324,6 +329,7 @@ def _box_bytes(n_rows=4):
     return b.getvalue()
 
 
+@pytest.mark.needs_data("data/raw/nba_open/team_box_2027.parquet")
 def test_refresh_box(tmp_path):
     p = tmp_path / "team_box_2027.parquet"
     p.write_bytes(_box_bytes(10))

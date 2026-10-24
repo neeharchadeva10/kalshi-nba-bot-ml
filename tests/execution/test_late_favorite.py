@@ -802,6 +802,8 @@ def test_run_records_config_without_secrets(tmp_path):
     assert cfg["rule"]["window_start_s"] == 780.0 and cfg["rule"]["buy_yes_if_mid_above"] == "0.60"
     assert cfg["max_loss_usd"] == "5.0" and cfg["contracts"] == "1"
     text = json.dumps(cfg).lower()
+    for p in {str(tmp_path), str(tmp_path.resolve())}:           # macOS temp dirs live under /private/var
+        text = text.replace(p.lower(), "")
     assert "private" not in text and "key_id" not in text
 
 

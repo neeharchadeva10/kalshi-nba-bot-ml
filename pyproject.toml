@@ -20,7 +20,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dev = ["pytest>=8"]
+dev = ["pytest>=8", "cryptography>=42", "websockets>=12"]
 # Only for the live system; installing it does not enable paid calls (see config).
 claude = ["anthropic>=0.70"]
 # Live trading: RSA-PSS request signing and the real-time feed. Installing does not enable trading (see config).
