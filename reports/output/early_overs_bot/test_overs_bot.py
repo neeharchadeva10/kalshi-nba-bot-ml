@@ -199,7 +199,7 @@ def make_bot(tmp_path, rows=None, games=None, live=True, client=None, compute=No
     rows = rows if rows is not None else [mk_row()]
     seen = {"fetched": None, "row_calls": 0}
 
-    def default_compute(day, now, on_header):
+    def default_compute(day, now, on_header, **_):
         g = list(games)
         if on_header:
             on_header(0, g)                   # real compute_rows passes its own list; the bot may filter it in place
@@ -1132,7 +1132,7 @@ def _two_day_setup(tmp_path):
     tips = {d1: datetime(2026, 10, 25, 19, 0, tzinfo=ET), d2: datetime(2026, 10, 26, 19, 30, tzinfo=ET)}
     keys = {d1: "26OCT25AAABBB", d2: "26OCT26AAABBB"}
 
-    def compute(day, now, on_header):
+    def compute(day, now, on_header, **_):
         key = keys[day]
         games = [(tips[day], key, [{"ticker": tk(key), "exchange_index": 3}])]
         if on_header:
@@ -1185,7 +1185,7 @@ def test_schedule_reloaded_every_30_minutes(tmp_path):
 def test_reload_failure_still_cancels_on_time_and_keeps_schedule(tmp_path):
     base = make_bot(tmp_path)[0]._compute
 
-    def flaky(day, now, hdr):
+    def flaky(day, now, hdr, **_):
         if now >= TIP - timedelta(minutes=20) and hdr is not None and hdr.__name__ == "hdr":
             raise RuntimeError("markets endpoint down")
         return base(day, now, hdr)
@@ -1213,7 +1213,7 @@ def test_decision_uses_current_time_for_fallback(tmp_path):
     bot, c = make_bot(tmp_path, pings={})
     inner = bot._compute
 
-    def spy(day, now, hdr):
+    def spy(day, now, hdr, **_):
         seen.append(now)
         return inner(day, now, hdr)
     bot._compute = spy
@@ -1521,7 +1521,7 @@ def test_compute_rows_raising_in_fallback_does_not_stop_an_armed_game(tmp_path):
     g2 = one_game(G2, TIP + timedelta(minutes=10))
     base = make_bot(tmp_path, games=[one_game(), g2], rows=[mk_row(), mk_row(G2)])[0]._compute
 
-    def flaky(day, now, hdr):
+    def flaky(day, now, hdr, **_):
         if hdr is not None and hdr.__name__ == "only_wanted":
             raise RuntimeError("books endpoint down")
         return base(day, now, hdr)
@@ -1560,7 +1560,7 @@ def test_low_cash_skips_and_cash_error_fails_closed(tmp_path):
 def test_tip_moved_earlier_recomputes_cancel_and_closes_when_past(tmp_path):
     tips = {"t": TIP}
 
-    def compute(day, now, hdr):
+    def compute(day, now, hdr, **_):
         g = [(tips["t"], G1, [{"ticker": TK1, "exchange_index": 3}])]
         if hdr:
             hdr(0, g)
@@ -1579,7 +1579,7 @@ def test_tip_moved_earlier_recomputes_cancel_and_closes_when_past(tmp_path):
 def test_tip_moved_earlier_but_still_before_new_cancel_keeps_game_and_shortens_orders(tmp_path):
     tips = {"t": TIP}
 
-    def compute(day, now, hdr):
+    def compute(day, now, hdr, **_):
         g = [(tips["t"], G1, [{"ticker": TK1, "exchange_index": 3}])]
         if hdr:
             hdr(0, g)
@@ -1674,7 +1674,7 @@ def test_multi_day_run_across_dst_change_oct31_to_nov2(tmp_path):
     keys = {days[0]: "26OCT31AAABBB", days[1]: "26NOV01AAABBB", days[2]: "26NOV02AAABBB"}
     tips = {d: datetime(d.year, d.month, d.day, 19, 0, tzinfo=ET) for d in days}
 
-    def compute(day, now, on_header):
+    def compute(day, now, on_header, **_):
         key = keys[day]
         games = [(tips[day], key, [{"ticker": tk(key), "exchange_index": 3}])]
         if on_header:
@@ -1811,3 +1811,77 @@ def test_heartbeat_written_at_end_of_tick_reflects_cap_exhaustion_mid_tick(tmp_p
     T(bot, IN_WIN)                                                        # this tick spends ~$0.49
     assert len(c.created) == 1
     assert hb_of(tmp_path)["placing"] is False                            # same tick's closing heartbeat says so
+
+
+# ------------------------------------------------------------------ tip no longer confirmed (hoopR schedule)
+def skip_row(game, kind, note):
+    return {"game": game, "bet": False, "side": None, "ticker": None, "tip_skip": kind, "status": f"SKIP: {note}"}
+
+
+def unconfirm(bot, skips, keep=()):
+    """From now on compute_rows lists only `keep` games and reports `skips` as SKIP rows (as the real one does)."""
+    def compute(day, now, on_header, on_skips=None):
+        if on_skips:
+            on_skips(list(skips))
+        g = [x for x in bot.sched[day.isoformat()]["games"] if x[1] in keep]
+        if on_header:
+            on_header(0, g)
+        return list(skips), 0, g, None
+    bot._compute = compute
+
+
+RELOAD = IN_WIN + ob.SCHEDULE_RELOAD + timedelta(minutes=1)   # still before tip-15
+
+
+def test_armed_game_becomes_tbd_is_cancelled_and_closed(tmp_path):
+    bot, c = make_bot(tmp_path)
+    c.rest_mode = True                                       # the IOC is left resting, so there is something to cancel
+    T(bot, IN_WIN)
+    assert len(c.created) == 1 and rec(bot)["state"] in ob.OPEN_STATES
+    unconfirm(bot, [skip_row(G1, "placeholder", "hoopR schedule has no real time (TBD/placeholder)")])
+    T(bot, RELOAD)
+    T(bot, RELOAD + timedelta(minutes=1))
+    assert c.cancelled == [("oid1", 3)] and rec(bot)["state"] == "canceled"
+    assert len(c.created) == 1                               # no further attempts
+    gm = bot.games[(DAY.isoformat(), G1)]
+    assert gm["closed"].startswith("tip no longer confirmed") and "TBD" in gm["closed"]
+    closed = [r for r in logs(tmp_path) if r["event"] == "game_closed"]
+    assert len(closed) == 1 and closed[0]["game"] == G1 and "TBD" in closed[0]["reason"]
+
+
+def test_filled_game_becomes_unconfirmed_fill_untouched(tmp_path):
+    bot, c = make_bot(tmp_path)
+    T(bot, IN_WIN)
+    assert rec(bot)["state"] == "filled" and c.own_pos == {TK1: Decimal(1)}
+    unconfirm(bot, [skip_row(G1, "disagree", "tip disagreement: hoopR 23:20Z vs Kalshi-3h 23:00Z (+20 min, > 15)")])
+    T(bot, RELOAD)
+    T(bot, RELOAD + timedelta(minutes=1))
+    assert len(c.created) == 1 and c.cancelled == []         # no new order, nothing cancelled or sold
+    assert rec(bot)["state"] == "filled" and Decimal(str(rec(bot)["filled"])) == 1
+    assert c.own_pos == {TK1: Decimal(1)}
+
+
+def test_stale_schedule_closes_all_armed_games_with_one_line(tmp_path):
+    bot, c = make_bot(tmp_path, games=[one_game(), one_game(G2)], rows=[mk_row(), mk_row(G2)],
+                      pings=dict([ping(), ping(G2)]))
+    c.rest_mode = True
+    T(bot, IN_WIN)
+    assert len(c.created) == 2
+    note = "hoopR schedule file is 40h old (> 36h)"
+    unconfirm(bot, [skip_row(G1, "stale", note), skip_row(G2, "stale", note)])
+    T(bot, RELOAD)
+    assert sorted(c.cancelled) == [("oid1", 3), ("oid2", 3)]
+    assert all(bot.games[(DAY.isoformat(), g)]["closed"] for g in (G1, G2))
+    closed = [r for r in logs(tmp_path) if r["event"] == "game_closed"]
+    assert len(closed) == 1 and closed[0]["games"] == [G1, G2] and "40h old" in closed[0]["reason"]
+    T(bot, RELOAD + timedelta(minutes=1))
+    assert len(c.created) == 2
+
+
+def test_game_dropped_without_skip_row_is_left_alone(tmp_path):
+    bot, c = make_bot(tmp_path)
+    c.rest_mode = True
+    T(bot, IN_WIN)
+    unconfirm(bot, [])                                       # e.g. markets closed: not a tip problem
+    T(bot, RELOAD)
+    assert c.cancelled == [] and not bot.games[(DAY.isoformat(), G1)]["closed"]

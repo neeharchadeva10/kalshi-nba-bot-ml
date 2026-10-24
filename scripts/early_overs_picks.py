@@ -1,7 +1,8 @@
 """Nightly pick list for research log #40 (early-season NBA totals, FORMULA SIDE version). READ-ONLY.
 
 Public unauthenticated GETs only (/markets, /markets/{ticker}/orderbook) plus the free hoopR-nba-data team_box_2027
-parquet from GitHub. Never places orders, never uses keys. Prices are fetched live with plain requests (no cache).
+and nba_schedule_2027 parquets from GitHub. Tip time comes from the hoopR schedule (kpm.collectors.nba_tip_time); a game
+with no schedule time, or one more than 15 min away from Kalshi's occurrence_datetime - 3h, gets a SKIP row. Never places orders, never uses keys. Prices are fetched live with plain requests (no cache).
 Side = OVER if the F1_R2_S1 projection (research log #39 machinery) > the strike, else UNDER.
 
 Usage:  .venv/Scripts/python.exe scripts/early_overs_picks.py [--date YYYY-MM-DD]
@@ -26,6 +27,7 @@ import requests
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 from kpm.core.fees import FeeModel  # noqa: E402
+from kpm.collectors.nba_tip_time import get_tip_time, parse_game_key as key_date_teams  # noqa: E402
 
 sys.path.insert(0, str(ROOT / "reports" / "output" / "nba_totals_tourney"))
 import tourney as tn  # noqa: E402  (#39 machinery; also brings in #38 ratings2 and #37 lib)
@@ -214,10 +216,6 @@ def in_test_window(tip: datetime) -> bool:
     return WINDOW_START <= tip.astimezone(ET).date() <= WINDOW_END
 
 
-def parse_z(s: str) -> datetime:
-    return datetime.fromisoformat(s.replace("Z", "+00:00"))
-
-
 # ---------------------------------------------------------------- network
 def get(path: str, params: dict | None = None, tries: int = 8) -> dict:
     """Public GET with backoff on 429/5xx. Only /markets paths are ever requested."""
@@ -291,9 +289,10 @@ def recent_game_keys(now: datetime) -> set:
     return keys
 
 
-def compute_rows(day: date, now: datetime, on_header=None):
+def compute_rows(day: date, now: datetime, on_header=None, on_skips=None):
     """Fetch live quotes and build the pick rows for ET date `day`. Returns (rows, n27_games, games, eng).
-    `on_header(n27_games, games)` is called once ratings are loaded (used by the CLI to print its header)."""
+    `on_header(n27_games, games)` is called once ratings are loaded (used by the CLI to print its header).
+    `on_skips(rows)` gets the SKIP rows of games on `day` with no confirmed tip, before on_header (used by the bot)."""
     totals = all_open_markets("KXNBATOTAL")
     games_occ = {}
     for m in all_open_markets("KXNBAGAME"):
@@ -303,23 +302,33 @@ def compute_rows(day: date, now: datetime, on_header=None):
     for m in totals:
         by_game.setdefault(game_key(m["event_ticker"]), []).append(m)
 
-    games = []
+    games, skips = [], []
     for key, ms in by_game.items():
         occ = games_occ.get(key) or ms[0].get("occurrence_datetime")
-        if not occ:
+        tt = get_tip_time(key, occ, live=True, now=now)   # hoopR schedule; no schedule time -> skip, never a guess
+        if tt.tip is None:
+            p = key_date_teams(key)
+            if p is not None and p[0] == day:
+                skips.append({"ts": now.isoformat(), "game": key, "tip_et": f"{day} --:--", "bet": False,
+                              "side": None, "ticker": None, "strike": None, "contracts": None,
+                              "tip_skip": tt.reason, "status": f"SKIP: {tt.note}"})
             continue
-        tip = parse_z(occ) - timedelta(hours=3)
-        if tip.astimezone(ET).date() == day:
-            games.append((tip, key, ms))
+        if tt.tip.astimezone(ET).date() == day:
+            games.append((tt.tip, key, ms))
     games.sort(key=lambda g: (g[0], g[1]))
+    skips.sort(key=lambda r: r["game"])
+    if on_skips:
+        on_skips(skips)
 
     box27 = fetch_box27()
     eng, n27_games = load_engine(BOX, box27)
     sched = build_schedule(recent_game_keys(now) | set(games_occ))
     if on_header:
         on_header(n27_games, games)
+    for r in skips:
+        r["used_box27"] = bool(n27_games)
     if not games:
-        return [], n27_games, games, eng
+        return skips, n27_games, games, eng
     grid_proj, grid_err = {}, None
     if RULE == "grid_winner":
         try:
@@ -327,7 +336,7 @@ def compute_rows(day: date, now: datetime, on_header=None):
             grid_proj = _grid_tonight().project_winner_for_date(day, glist, box27=box27)
         except Exception as e:  # noqa: BLE001  -- fail safe: no bets rather than a silent rule change
             grid_err = f"{type(e).__name__}: {e}"
-    rows = []
+    rows = list(skips)
     for tip, key, ms in games:
         quotes, skipped = [], 0
         for m in sorted(ms, key=lambda m: m["floor_strike"]):
@@ -421,7 +430,7 @@ def main(argv=None) -> int:
         print("Only games tipping ET 2026-10-21..2026-11-03 count for #40; others are marked 'outside test window'.")
 
     rows, n27_games, games, _eng = compute_rows(day, now, header)
-    if not games:
+    if not games and not rows:
         print("No open KXNBATOTAL games found for this ET date.")
         print("Research pick list, not financial advice. You place any bet yourself.")
         return 0

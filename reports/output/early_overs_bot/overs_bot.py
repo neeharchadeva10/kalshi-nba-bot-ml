@@ -14,6 +14,9 @@ that row's taker price as the max price. The source used is logged.
 Per game: 1 contract, IOC at the side's CURRENT ask, only if that ask <= max price (and 15..85c). No fill -> never
 chase: re-check every loop until tip-15 min, send another IOC only when the ask is back <= max price. At most 4 IOC
 attempts per game, 40 per night; the game is DONE once 1 contract is filled. Hard caps are in code (see CAPS).
+Tip times come from the hoopR schedule (compute_rows). If a schedule reload stops confirming an armed game's tip (not in
+the schedule, TBD/postponed, schedule file > 36 h old, or > 15 min from Kalshi), its open orders are cancelled and the
+game is closed; filled contracts are left alone.
 
 Authenticated calls (live only), copied from reports/output/picks/approve.py:
   ExecClient(env, live=True).market(ticker)             GET  /markets/{t}                     (status, floor_strike, ei)
@@ -448,24 +451,26 @@ class Bot:
         self.log("reconcile", f"restored {n} live order record(s) from the log", n=n)
 
     # -------------------------------------------------- schedule
-    def _compute_rows(self, day, now, on_header=None):
+    def _compute_rows(self, day, now, on_header=None, on_skips=None):
+        kw = {} if on_skips is None else {"on_skips": on_skips}
         if self._compute is None:
             import early_overs_picks as eop
-            return eop.compute_rows(day, now, on_header)
-        return self._compute(day, now, on_header)
+            return eop.compute_rows(day, now, on_header, **kw)
+        return self._compute(day, now, on_header, **kw)
 
     def load_schedule(self, day: date, now: datetime):
-        games = []
+        games, skips = [], []
 
         def hdr(n27, g):
             games.extend(g)
             raise _Abort()
         try:
-            self._compute_rows(day, now, hdr)
+            self._compute_rows(day, now, hdr, skips.extend)
         except _Abort:
             pass
         games.sort(key=lambda g: (g[0], g[1]))
         self.sched[day.isoformat()] = {"games": games, "loaded_at": now}
+        self._drop_unconfirmed(day.isoformat(), skips)
         for tip, key, _ in games:                           # an armed game whose tip moved EARLIER gets an earlier cancel
             gm = self.games.get((day.isoformat(), key))
             if gm is None or tip == gm["tip"]:
@@ -484,6 +489,32 @@ class Bot:
         self.log("schedule", f"{day} {len(games)} game(s): " +
                  ", ".join(f"{k} tip {t.astimezone(ET):%H:%M}" for t, k, _ in games), day=day.isoformat(),
                  games=[k for _, k, _ in games])
+
+    def _drop_unconfirmed(self, d: str, skips: list[dict]):
+        """Armed games whose tip is no longer confirmed by the hoopR schedule (SKIP rows from compute_rows: missing,
+        TBD/postponed, stale file, > 15 min from Kalshi): cancel their open orders and close them. Filled contracts are
+        never touched. A stale schedule file closes every such game with ONE summary line instead of one per game."""
+        hit = [(self.games[(d, r["game"])], r) for r in skips if (d, r["game"]) in self.games]
+        if not hit:
+            return
+        stale = all(r.get("tip_skip") == "stale" for r in skips)
+        closed = []
+        for gm, r in hit:
+            why = "tip no longer confirmed: " + str(r.get("status", "")).removeprefix("SKIP: ")
+            for o in self._game_orders(d, gm["game"]):
+                if o["state"] in OPEN_STATES:
+                    self.cancel_order(o, "tip unconfirmed")
+            if gm["closed"]:
+                continue
+            if stale:
+                gm["closed"] = why
+                closed.append(gm["game"])
+            else:
+                self._close(gm, why)
+        if stale and closed:
+            note = str(skips[0].get("status", "")).removeprefix("SKIP: ")
+            self.log("game_closed", f"{len(closed)} armed game(s) closed: {note}: " + ", ".join(closed),
+                     day=d, games=closed, reason=f"tip no longer confirmed: {note}")
 
     # -------------------------------------------------- order state refresh / fills
     def _tonight(self, day: str) -> list[dict]:

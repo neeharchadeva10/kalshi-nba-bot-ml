@@ -32,6 +32,9 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "src"))
+from kpm.collectors.nba_tip_time import get_tip_time  # noqa: E402
+
 ET = ZoneInfo("America/New_York")
 BASE_URL = "https://api.elections.kalshi.com/trade-api/v2"
 log = logging.getLogger("paper_league")
@@ -445,18 +448,19 @@ class League:
             st = parse_ts(items[-1][2].get("start_utc"))
             if st is not None:
                 games[k] = {"sport": "NBA", "key": k, "tip": st, "tip_source": "predictions.start_utc"}
-        # tape events with no locked prediction: fall back to expected_expiration_time - 3 h (observed offset), logged
+        # tape events with no locked prediction: hoopR schedule, else expected_expiration_time - 3 h (logged)
         today = self.now.astimezone(ET).date()
         for off in (-1, 0, 1, 2):
             d = (today + timedelta(days=off)).strftime("%Y-%m-%d")
             for r in tape.rows(d, SERIES["NBA"]):
                 k = r["event_ticker"].split("-", 1)[1]
                 if k not in games:
-                    ex = parse_ts(r.get("expected_expiration_time"))
-                    if ex is not None:
-                        games[k] = {"sport": "NBA", "key": k, "tip": ex - timedelta(hours=3),
-                                    "tip_source": "FALLBACK tape expected_expiration_time - 3h"}
-                        log.warning("tip for %s missing from predictions.jsonl; using tape expected time - 3h", k)
+                    tt = get_tip_time(k, parse_ts(r.get("expected_expiration_time")), live=False, now=self.now)
+                    if tt.tip is not None:
+                        games[k] = {"sport": "NBA", "key": k, "tip": tt.tip,
+                                    "tip_source": "hoopR schedule" if tt.source == "hoopr"
+                                    else "FALLBACK tape expected_expiration_time - 3h"}
+                        log.warning("tip for %s missing from predictions.jsonl; using %s", k, games[k]["tip_source"])
         for g in games.values():
             p = parse_nba_key(g["key"])
             g["night"] = p[0].isoformat() if p else g["tip"].astimezone(ET).strftime("%Y-%m-%d")

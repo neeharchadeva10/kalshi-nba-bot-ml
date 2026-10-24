@@ -44,3 +44,13 @@ def pytest_collection_modifyitems(config: pytest.Config, items: list[pytest.Item
 @pytest.fixture
 def need_data() -> Callable[..., None]:
     return skip_unless_data
+
+
+@pytest.fixture(autouse=True)
+def _no_hoopr_schedule(tmp_path, monkeypatch):
+    """Tip-time lookups never download, and never read a real cached schedule: an empty cache dir per test."""
+    from kpm.collectors import nba_tip_time
+
+    monkeypatch.setattr(nba_tip_time, "DOWNLOAD", False)
+    monkeypatch.setattr(nba_tip_time, "CACHE_DIR", tmp_path / "hoopr_schedule")
+    monkeypatch.setattr(nba_tip_time, "_CACHE", {})

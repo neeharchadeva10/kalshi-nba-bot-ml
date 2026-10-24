@@ -15,7 +15,7 @@ import os
 import re
 import sys
 import time
-from datetime import date, datetime, timedelta, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -231,7 +231,8 @@ def _load_picks():
 
 
 def kalshi_games(picks, day: date):
-    """[(tip_utc, key, [markets])] for open KXNBATOTAL games whose tip (Kalshi rule: occurrence - 3h) is on ET `day`."""
+    """[(tip_utc, key, [markets])] for open KXNBATOTAL games whose tip is on ET `day`. Tip from the hoopR schedule via
+    the same live rule as the pick list (picks.get_tip_time, live=True): a game with no schedule time is left out."""
     occ = {}
     for m in picks.all_open_markets("KXNBAGAME"):
         occ.setdefault(picks.game_key(m["event_ticker"]), m["occurrence_datetime"])
@@ -241,10 +242,8 @@ def kalshi_games(picks, day: date):
     out = []
     for k, ms in by.items():
         o = occ.get(k) or ms[0].get("occurrence_datetime")
-        if not o:
-            continue
-        tip = parse_z(o) - timedelta(hours=3)
-        if tip.astimezone(ET).date() == day:
+        tip = picks.get_tip_time(k, o, live=True).tip
+        if tip is not None and tip.astimezone(ET).date() == day:
             out.append((tip, k, ms))
     return sorted(out, key=lambda g: (g[0], g[1]))
 
