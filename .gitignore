@@ -23,6 +23,7 @@ secrets/
 *.sqlite
 *.sqlite-wal
 *.sqlite-shm
+*.sqlite-journal
 *.parquet
 reports/output/nba_model/injury_parsed_v3.json
 

@@ -1,0 +1,434 @@
+{
+ "label": "discovery",
+ "first": "2025-10-21",
+ "last": "2026-01-22",
+ "report_files_parsed": 5317,
+ "report_parse_errors": [],
+ "n_report_parse_errors": 0,
+ "report_files_with_problems": 0,
+ "stats": {
+  "events": 664,
+  "games_no_report": 0,
+  "games_one_report_only": 0,
+  "games_no_candles": 0
+ },
+ "unmatched_player_listings_total": 294,
+ "unmatched_players_top": [
+  [
+   [
+    "AtlantaHawks",
+    "Djurisic,Nikola"
+   ],
+   32
+  ],
+  [
+   [
+    "Philadelphia76ers",
+    "Beauchamp,MarJon"
+   ],
+   24
+  ],
+  [
+   [
+    "DetroitPistons",
+    "Sasser,Marcus"
+   ],
+   14
+  ],
+  [
+   [
+    "AtlantaHawks",
+    "Dennis,RayJ"
+   ],
+   14
+  ],
+  [
+   [
+    "AtlantaHawks",
+    "Williams,Malik"
+   ],
+   12
+  ],
+  [
+   [
+    "LAClippers",
+    "WashingtonJr.,TyTy"
+   ],
+   12
+  ],
+  [
+   [
+    "WashingtonWizards",
+    "Watkins,Jamir"
+   ],
+   12
+  ],
+  [
+   [
+    "WashingtonWizards",
+    "Branham,Malaki"
+   ],
+   10
+  ],
+  [
+   [
+    "DallasMavericks",
+    "Gafford,Daniel"
+   ],
+   10
+  ],
+  [
+   [
+    "BostonCeltics",
+    "Shulga,Max"
+   ],
+   8
+  ],
+  [
+   [
+    "AtlantaHawks",
+    "Ndiaye,EliJohn"
+   ],
+   8
+  ],
+  [
+   [
+    "PhoenixSuns",
+    "Huntley,CJ"
+   ],
+   8
+  ],
+  [
+   [
+    "NewYorkKnicks",
+    "McCullarJr.,Kevin"
+   ],
+   6
+  ],
+  [
+   [
+    "TorontoRaptors",
+    "Lawson,A.J."
+   ],
+   6
+  ],
+  [
+   [
+    "MinnesotaTimberwolves",
+    "Freeman,Enrique"
+   ],
+   6
+  ],
+  [
+   [
+    "IndianaPacers",
+    "Jones,Kam"
+   ],
+   6
+  ],
+  [
+   [
+    "MinnesotaTimberwolves",
+    "Zikarsky,Rocco"
+   ],
+   6
+  ],
+  [
+   [
+    "OrlandoMagic",
+    "Cain,Jamal"
+   ],
+   6
+  ],
+  [
+   [
+    "OrlandoMagic",
+    "Castleton,Colin"
+   ],
+   6
+  ],
+  [
+   [
+    "ChicagoBulls",
+    "Collins,Zach"
+   ],
+   4
+  ],
+  [
+   [
+    "BrooklynNets",
+    "Johnson,Chaney"
+   ],
+   4
+  ],
+  [
+   [
+    "ClevelandCavaliers",
+    "Livingston,Chris"
+   ],
+   4
+  ],
+  [
+   [
+    "TorontoRaptors",
+    "Martin,Alijah"
+   ],
+   4
+  ],
+  [
+   [
+    "ClevelandCavaliers",
+    "Hunter,De'Andre"
+   ],
+   4
+  ],
+  [
+   [
+    "NewOrleansPelicans",
+    "Matkovic,Karlo"
+   ],
+   4
+  ]
+ ],
+ "detection_counters": {
+  "changed_player_not_material": 647,
+  "changed_player_no_box_match": 147
+ },
+ "events_in_window_ok": 241,
+ "events_tie_skipped": 0,
+ "events_outside_window_not_counted": 55,
+ "events_by_direction": {
+  "DOWN": 241
+ },
+ "trade_skips_by_reason": {},
+ "n_traded": 241,
+ "descriptive": {
+  "overall": {
+   "n_events": 241,
+   "n_total_move_defined": 136,
+   "n_pre_share": 34,
+   "n_late_share": 34,
+   "median_pre_move_share": 0.12645,
+   "median_late_share": 0.8131999999999999
+  },
+  "era_15min": {
+   "n_events": 97,
+   "n_total_move_defined": 68,
+   "n_pre_share": 16,
+   "n_late_share": 16,
+   "median_pre_move_share": 0.08335,
+   "median_late_share": 0.8131999999999999
+  },
+  "era_hourly": {
+   "n_events": 144,
+   "n_total_move_defined": 68,
+   "n_pre_share": 18,
+   "n_late_share": 18,
+   "median_pre_move_share": 0.12645,
+   "median_late_share": 0.7854
+  }
+ },
+ "descriptive_information_only_moves_in_expected_direction": {
+  "INFORMATION ONLY": true,
+  "n_events": 28,
+  "n_total_move_defined": 28,
+  "n_pre_share": 28,
+  "n_late_share": 28,
+  "median_pre_move_share": 0.1856,
+  "median_late_share": 0.6929
+ },
+ "descriptive_information_only_offsets_after_tip_capped_at_tip": {
+  "overall": {
+   "INFORMATION ONLY": true,
+   "n_pre_share": 70,
+   "n_late_share": 70,
+   "median_pre_move_share": 0.28925,
+   "median_late_share": 0.6259
+  },
+  "era_15min": {
+   "INFORMATION ONLY": true,
+   "n_pre_share": 25,
+   "n_late_share": 25,
+   "median_pre_move_share": 0.1806,
+   "median_late_share": 0.7636
+  },
+  "era_hourly": {
+   "INFORMATION ONLY": true,
+   "n_pre_share": 45,
+   "n_late_share": 45,
+   "median_pre_move_share": 0.3373,
+   "median_late_share": 0.5887
+  }
+ },
+ "kill_rule": {
+  "median_pre_move_share_overall": 0.12645,
+  "median_pre_move_share_15min": 0.08335,
+  "fires_overall": false,
+  "fires_15min_era_only": false,
+  "primary_uses": "overall"
+ },
+ "trading": {
+  "n": 241,
+  "mean_net_cents": -4.973443983402492,
+  "lb_2.5_cents": -5.198886052474363,
+  "lb_5_cents": -5.1615815358937684,
+  "ub_97.5_cents": -4.743907039941483,
+  "n_games": 223,
+  "coin_flip_share_as_good": 0.292,
+  "win_rate": 0.024896265560165973
+ },
+ "trading_diagnostics": {
+  "entry_delay_s_quantiles(25/50/75/90)": [
+   175.0,
+   176.0,
+   177.0,
+   177.0
+  ],
+  "mean_fee_total_cents": 3.496265560165976,
+  "mean_gross_cents": -1.4771784232365157,
+  "by_side": {
+   "YES": {
+    "n": 0
+   },
+   "NO": {
+    "n": 241,
+    "mean_net_cents": -4.973443983402492,
+    "lb_2.5_cents": -5.198886052474363,
+    "lb_5_cents": -5.1615815358937684,
+    "ub_97.5_cents": -4.743907039941483,
+    "n_games": 223,
+    "coin_flip_share_as_good": 0.292,
+    "win_rate": 0.024896265560165973
+   }
+  }
+ },
+ "pass_bar": {
+  "1_mean_net_gt_0": false,
+  "2_bootstrap_lb_gt_0": false,
+  "3_at_least_50_events": true,
+  "4_coin_flip_le_5pct": false,
+  "5_kill_rule_does_not_fire": true
+ },
+ "pass_bar_all": false,
+ "information_only": {
+  "NOTE": "INFORMATION ONLY - never selectable; a pass found only here is not a pass",
+  "entry_delay_5min": {
+   "INFORMATION ONLY": true,
+   "n": 241,
+   "mean_net_cents": -5.05261410788382,
+   "lb_2.5_cents": -5.244330310172852,
+   "lb_5_cents": -5.2122178056717825,
+   "ub_97.5_cents": -4.862425344436696,
+   "n_games": 223,
+   "coin_flip_share_as_good": 0.73,
+   "win_rate": 0.008298755186721992
+  },
+  "exit_P+10min": {
+   "INFORMATION ONLY": true,
+   "n": 241,
+   "mean_net_cents": -4.973941908713695,
+   "lb_2.5_cents": -5.1452978411199215,
+   "lb_5_cents": -5.1177384497008696,
+   "ub_97.5_cents": -4.8053848648226305,
+   "n_games": 223,
+   "coin_flip_share_as_good": 0.074,
+   "win_rate": 0.008298755186721992
+  },
+  "exit_P+60min": {
+   "INFORMATION ONLY": true,
+   "n": 241,
+   "mean_net_cents": -4.922738589211621,
+   "lb_2.5_cents": -5.203335805084749,
+   "lb_5_cents": -5.157513621920094,
+   "ub_97.5_cents": -4.64538211382114,
+   "n_games": 223,
+   "coin_flip_share_as_good": 0.168,
+   "win_rate": 0.03734439834024896
+  },
+  "exit_at_tip": {
+   "INFORMATION ONLY": true,
+   "n": 241,
+   "mean_net_cents": -4.991327800829878,
+   "lb_2.5_cents": -5.362157848324517,
+   "lb_5_cents": -5.309503699247582,
+   "ub_97.5_cents": -4.6072200617283965,
+   "n_games": 223,
+   "coin_flip_share_as_good": 0.334,
+   "win_rate": 0.04564315352697095
+  },
+  "entry_carry_forward_at_P+120s": {
+   "INFORMATION ONLY": true,
+   "n": 241,
+   "mean_net_cents": -4.985435684647306,
+   "lb_2.5_cents": -5.227395001388988,
+   "lb_5_cents": -5.188188256553921,
+   "ub_97.5_cents": -4.740968884063578,
+   "n_games": 223,
+   "coin_flip_share_as_good": 0.266,
+   "win_rate": 0.024896265560165973
+  },
+  "hold_to_settlement": {
+   "INFORMATION ONLY": true,
+   "n": 240,
+   "mean_net_cents": 3.697208333333335,
+   "lb_2.5_cents": -3.1368106646850817,
+   "lb_5_cents": -2.102661310070401,
+   "ub_97.5_cents": 10.35081593538167,
+   "n_games": 222,
+   "coin_flip_share_as_good": 1.0,
+   "win_rate": 0.5625,
+   "note": "coin-flip share not meaningful here (same net on both sides)"
+  },
+  "material_threshold_30min": {
+   "INFORMATION ONLY": true,
+   "n": 131,
+   "mean_net_cents": -4.877328244274811,
+   "lb_2.5_cents": -5.189539370078743,
+   "lb_5_cents": -5.138771317829461,
+   "ub_97.5_cents": -4.549688372093025,
+   "n_games": 126,
+   "coin_flip_share_as_good": 0.162,
+   "win_rate": 0.030534351145038167
+  },
+  "DOWN_only": {
+   "INFORMATION ONLY": true,
+   "n": 241,
+   "mean_net_cents": -4.973443983402492,
+   "lb_2.5_cents": -5.198886052474363,
+   "lb_5_cents": -5.1615815358937684,
+   "ub_97.5_cents": -4.743907039941483,
+   "n_games": 223,
+   "coin_flip_share_as_good": 0.292,
+   "win_rate": 0.024896265560165973
+  },
+  "UP_only": {
+   "INFORMATION ONLY": true,
+   "n": 0
+  },
+  "era_hourly": {
+   "INFORMATION ONLY": true,
+   "n": 144,
+   "mean_net_cents": -4.967986111111113,
+   "lb_2.5_cents": -5.282341914893618,
+   "lb_5_cents": -5.232562068965519,
+   "ub_97.5_cents": -4.66081678082192,
+   "n_games": 136,
+   "coin_flip_share_as_good": 0.228,
+   "win_rate": 0.027777777777777776
+  },
+  "era_15min": {
+   "INFORMATION ONLY": true,
+   "n": 97,
+   "mean_net_cents": -4.9815463917525795,
+   "lb_2.5_cents": -5.318132291666667,
+   "lb_5_cents": -5.265815000000001,
+   "ub_97.5_cents": -4.638870258709547,
+   "n_games": 87,
+   "coin_flip_share_as_good": 0.546,
+   "win_rate": 0.020618556701030927
+  }
+ },
+ "candle_download_notes": {
+  "ok": 10400
+ }
+}

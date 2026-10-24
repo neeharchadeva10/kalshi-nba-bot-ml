@@ -1,0 +1,36 @@
+15-minute era starts 2025-12-22
+days 165 slots to probe 5317
+0 5317 0s {'probes': 123, 'net_get': 7, 'local_read': 9, 'cache_hit': 0, 'http_missing': 105, 'errors': 0}
+500 5317 70s {'probes': 623, 'net_get': 280, 'local_read': 236, 'cache_hit': 0, 'http_missing': 105, 'errors': 0}
+1000 5317 155s {'probes': 1116, 'net_get': 621, 'local_read': 388, 'cache_hit': 7, 'http_missing': 105, 'errors': 0}
+1500 5317 251s {'probes': 1611, 'net_get': 997, 'local_read': 507, 'cache_hit': 14, 'http_missing': 105, 'errors': 0}
+2000 5317 344s {'probes': 2110, 'net_get': 1367, 'local_read': 636, 'cache_hit': 14, 'http_missing': 105, 'errors': 0}
+2500 5317 437s {'probes': 2609, 'net_get': 1737, 'local_read': 765, 'cache_hit': 14, 'http_missing': 105, 'errors': 0}
+3000 5317 532s {'probes': 3109, 'net_get': 2114, 'local_read': 888, 'cache_hit': 14, 'http_missing': 105, 'errors': 0}
+3500 5317 626s {'probes': 3609, 'net_get': 2490, 'local_read': 1012, 'cache_hit': 14, 'http_missing': 105, 'errors': 0}
+4000 5317 722s {'probes': 4109, 'net_get': 2871, 'local_read': 1131, 'cache_hit': 14, 'http_missing': 105, 'errors': 0}
+4500 5317 817s {'probes': 4609, 'net_get': 3252, 'local_read': 1250, 'cache_hit': 14, 'http_missing': 105, 'errors': 0}
+5000 5317 912s {'probes': 5110, 'net_get': 3626, 'local_read': 1377, 'cache_hit': 14, 'http_missing': 105, 'errors': 0}
+{
+ "era15_start_probed": "2025-12-22",
+ "days": 165,
+ "slots_probed": 5317,
+ "reports_found": 5317,
+ "slots_missing": 0,
+ "unreadable_pdf": [],
+ "probe_failures_unresolved": [],
+ "stat": {
+  "probes": 5423,
+  "net_get": 3872,
+  "local_read": 1446,
+  "cache_hit": 14,
+  "http_missing": 105,
+  "errors": 0
+ },
+ "days_with_zero_reports": [],
+ "reports_per_day_min_med_max": [
+  10,
+  43,
+  49
+ ]
+}

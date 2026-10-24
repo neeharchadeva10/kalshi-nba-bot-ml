@@ -1,0 +1,22 @@
+{
+ "sample_source": "sample_ids.csv",
+ "n_sample": 200,
+ "missing_from_my_team_game_list": 0,
+ "n_team_games_mine": 12306,
+ "unmatched_by_season": {
+  "2022": 54,
+  "2023": 68,
+  "2024": 42,
+  "2025": 80,
+  "2026": 114
+ },
+ "match_tiers": {
+  "exact_team": 3316,
+  "unmatched": 358
+ },
+ "n30": 30,
+ "n_reports_v3": 3533,
+ "n_reports_union": 4366,
+ "n_skipped_no_creationdate": 0,
+ "skipped_examples": []
+}

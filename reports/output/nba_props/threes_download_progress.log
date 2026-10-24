@@ -1,0 +1,19 @@
+2026-10-22 15:30:45 START selected=6648 cached_already=0 todo=6648 pid=12032
+2026-10-22 15:33:45 progress run_done=107/6648 total_cached=107/6648 target_rate=0.70/s 429s_this_run=0 requests=107 fail=0 404=0 paused_now=False
+2026-10-22 15:36:46 progress run_done=268/6648 total_cached=268/6648 target_rate=1.00/s 429s_this_run=0 requests=268 fail=0 404=0 paused_now=False
+2026-10-22 15:39:46 progress run_done=483/6648 total_cached=483/6648 target_rate=1.40/s 429s_this_run=0 requests=483 fail=0 404=0 paused_now=False
+2026-10-22 15:42:46 progress run_done=747/6648 total_cached=747/6648 target_rate=1.50/s 429s_this_run=0 requests=747 fail=0 404=0 paused_now=False
+2026-10-22 15:45:46 progress run_done=1017/6648 total_cached=1018/6648 target_rate=1.50/s 429s_this_run=0 requests=1017 fail=0 404=0 paused_now=False
+2026-10-22 15:48:46 progress run_done=1288/6648 total_cached=1288/6648 target_rate=1.50/s 429s_this_run=0 requests=1288 fail=0 404=0 paused_now=False
+2026-10-22 15:51:46 progress run_done=1558/6648 total_cached=1558/6648 target_rate=1.50/s 429s_this_run=0 requests=1558 fail=0 404=0 paused_now=False
+2026-10-22 15:54:46 progress run_done=1828/6648 total_cached=1828/6648 target_rate=1.50/s 429s_this_run=0 requests=1828 fail=0 404=0 paused_now=False
+2026-10-22 15:57:47 progress run_done=2098/6648 total_cached=2098/6648 target_rate=1.50/s 429s_this_run=0 requests=2098 fail=0 404=0 paused_now=False
+2026-10-22 16:00:47 progress run_done=2368/6648 total_cached=2369/6648 target_rate=1.50/s 429s_this_run=0 requests=2368 fail=0 404=0 paused_now=False
+2026-10-22 16:03:47 progress run_done=2639/6648 total_cached=2639/6648 target_rate=1.50/s 429s_this_run=0 requests=2639 fail=0 404=0 paused_now=False
+2026-10-22 16:06:47 progress run_done=2909/6648 total_cached=2909/6648 target_rate=1.50/s 429s_this_run=0 requests=2909 fail=0 404=0 paused_now=False
+2026-10-22 16:09:47 progress run_done=3179/6648 total_cached=3179/6648 target_rate=1.50/s 429s_this_run=0 requests=3179 fail=0 404=0 paused_now=False
+2026-10-22 16:12:47 progress run_done=3449/6648 total_cached=3449/6648 target_rate=1.50/s 429s_this_run=0 requests=3449 fail=0 404=0 paused_now=False
+2026-10-22 16:15:47 progress run_done=3719/6648 total_cached=3720/6648 target_rate=1.50/s 429s_this_run=0 requests=3719 fail=0 404=0 paused_now=False
+2026-10-22 16:18:47 progress run_done=3990/6648 total_cached=3990/6648 target_rate=1.50/s 429s_this_run=0 requests=3990 fail=0 404=0 paused_now=False
+2026-10-22 16:21:48 progress run_done=4260/6648 total_cached=4260/6648 target_rate=1.50/s 429s_this_run=0 requests=4260 fail=0 404=0 paused_now=False
+2026-10-22 16:22:58 END run: done=4365 fail=0 404=0 requests=4365 429s=0 cached=4365/6648 flag=no

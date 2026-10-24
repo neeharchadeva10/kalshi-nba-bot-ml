@@ -1,0 +1,125 @@
+{
+ "sign_check": [
+  {
+   "game_id": "2025_01_DAL_PHI",
+   "home": "PHI",
+   "away": "DAL",
+   "spread_line": 8.5,
+   "S_T24h": 8.3,
+   "S_T60": 8.0,
+   "sign_agrees": true
+  },
+  {
+   "game_id": "2025_01_TEN_DEN",
+   "home": "DEN",
+   "away": "TEN",
+   "spread_line": 8.5,
+   "S_T24h": 8.5,
+   "S_T60": 7.833333333333333,
+   "sign_agrees": true
+  },
+  {
+   "game_id": "2025_02_CAR_ARI",
+   "home": "ARI",
+   "away": "CAR",
+   "spread_line": 7.0,
+   "S_T24h": 6.852941176470589,
+   "S_T60": 6.961538461538462,
+   "sign_agrees": true
+  },
+  {
+   "game_id": "2025_02_CLE_BAL",
+   "home": "BAL",
+   "away": "CLE",
+   "spread_line": 12.5,
+   "S_T24h": 11.5,
+   "S_T60": 12.5,
+   "sign_agrees": true
+  },
+  {
+   "game_id": "2025_03_MIA_BUF",
+   "home": "BUF",
+   "away": "MIA",
+   "spread_line": 12.5,
+   "S_T24h": 11.357142857142858,
+   "S_T60": 11.0,
+   "sign_agrees": true
+  },
+  {
+   "game_id": "2025_01_ARI_NO",
+   "home": "NO",
+   "away": "ARI",
+   "spread_line": -6.0,
+   "S_T24h": -6.125,
+   "S_T60": -5.944444444444445,
+   "sign_agrees": true
+  },
+  {
+   "game_id": "2025_02_BUF_NYJ",
+   "home": "NYJ",
+   "away": "BUF",
+   "spread_line": -6.0,
+   "S_T24h": -6.0,
+   "S_T60": -5.611111111111111,
+   "sign_agrees": true
+  },
+  {
+   "game_id": "2025_02_LA_TEN",
+   "home": "TEN",
+   "away": "LA",
+   "spread_line": -5.5,
+   "S_T24h": -5.25,
+   "S_T60": -5.357142857142857,
+   "sign_agrees": true
+  },
+  {
+   "game_id": "2025_03_ATL_CAR",
+   "home": "CAR",
+   "away": "ATL",
+   "spread_line": -5.5,
+   "S_T24h": -4.785714285714286,
+   "S_T60": -4.875,
+   "sign_agrees": true
+  },
+  {
+   "game_id": "2025_03_GB_CLE",
+   "home": "CLE",
+   "away": "GB",
+   "spread_line": -8.5,
+   "S_T24h": -7.357142857142857,
+   "S_T60": -7.184210526315789,
+   "sign_agrees": true
+  }
+ ],
+ "sign_check_all_agree": true,
+ "spread_counts": [
+  {
+   "tau": "T24h",
+   "season": 2025,
+   "games_with_two_sided_spread_quotes": 285,
+   "games_with_S": 281
+  },
+  {
+   "tau": "T24h",
+   "season": 2026,
+   "games_with_two_sided_spread_quotes": 79,
+   "games_with_S": 79
+  },
+  {
+   "tau": "T60",
+   "season": 2025,
+   "games_with_two_sided_spread_quotes": 285,
+   "games_with_S": 282
+  },
+  {
+   "tau": "T60",
+   "season": 2026,
+   "games_with_two_sided_spread_quotes": 79,
+   "games_with_S": 79
+  }
+ ],
+ "r1": 0.5076829393136739,
+ "kalshi": {
+  "status": "pending: Kalshi download not present"
+ }
+}

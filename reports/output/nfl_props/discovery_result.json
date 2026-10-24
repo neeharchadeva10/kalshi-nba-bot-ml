@@ -1,0 +1,99 @@
+{
+ "versions": {
+  "rush_A": {
+   "n": 5,
+   "games": 5,
+   "mean": 0.17359999999999998,
+   "lb": -0.1889,
+   "win_rate": 0.8,
+   "avg_price_paid": 0.61
+  },
+  "rush_B10": {
+   "n": 86,
+   "games": 70,
+   "mean": -0.10687325581395347,
+   "lb": -0.20230992948717952,
+   "win_rate": 0.4186046511627907,
+   "avg_price_paid": 0.5087209302325583
+  },
+  "rush_B20": {
+   "n": 35,
+   "games": 33,
+   "mean": -0.06258571428571429,
+   "lb": -0.22289749999999997,
+   "win_rate": 0.45714285714285713,
+   "avg_price_paid": 0.5031428571428572
+  },
+  "recyds_A": {
+   "n": 0,
+   "games": 0,
+   "mean": NaN,
+   "lb": NaN,
+   "win_rate": null,
+   "avg_price_paid": null
+  },
+  "recyds_B10": {
+   "n": 62,
+   "games": 52,
+   "mean": -0.0388,
+   "lb": -0.15524320564516125,
+   "win_rate": 0.4838709677419355,
+   "avg_price_paid": 0.5056451612903226
+  },
+  "recyds_B20": {
+   "n": 10,
+   "games": 10,
+   "mean": 0.16813999999999996,
+   "lb": -0.11720225000000004,
+   "win_rate": 0.7,
+   "avg_price_paid": 0.5149999999999999
+  },
+  "rec_A": {
+   "n": 0,
+   "games": 0,
+   "mean": NaN,
+   "lb": NaN,
+   "win_rate": null,
+   "avg_price_paid": null
+  },
+  "rec_B10": {
+   "n": 50,
+   "games": 40,
+   "mean": -0.006269999999999994,
+   "lb": -0.12940210779352226,
+   "win_rate": 0.56,
+   "avg_price_paid": 0.55
+  },
+  "rec_B20": {
+   "n": 9,
+   "games": 9,
+   "mean": 0.03536666666666662,
+   "lb": -0.2647933333333334,
+   "win_rate": 0.5555555555555556,
+   "avg_price_paid": 0.5033333333333334
+  }
+ },
+ "eligible": [
+  "rec_B10",
+  "recyds_B10",
+  "rush_B10"
+ ],
+ "selected": "rec_B10",
+ "n_bets_table": 370,
+ "pool_size": 370,
+ "luck_test": {
+  "real_best_lb": -0.12940210779352226,
+  "share_reps_ge_real": 0.188,
+  "n_reps": 500,
+  "n_valid": 500,
+  "verdict": "FAIL",
+  "tolerance_c": 3,
+  "boot_draws_per_rep": 1000,
+  "median_rep_best_lb": -0.16936028162719632,
+  "p95_rep_best_lb": -0.09394972668958897
+ },
+ "coin_flip_selected": {
+  "share_copies_mean_ge_real": 0.38,
+  "copy_mean_median": -0.025455102040816316
+ }
+}

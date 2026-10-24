@@ -16,13 +16,17 @@ import numpy as np
 import pandas as pd
 
 HERE = Path(__file__).resolve().parent
-PBP_DIR = HERE.parents[3] / "data" / "raw" / "nba_open"
+PBP_DIR = HERE.parents[2] / "data" / "raw" / "nba_open"
 SEED = 20261021
 COUNT = 10
 EPS = 1e-9
-XS = (360, 180)                                   # seconds left in Q4: 6:00, 3:00
-BANDS = {"70-92": (0.70, 0.92), "80-95": (0.80, 0.95)}
-PRIMARY = (360, "70-92")
+XS = (540, 360, 180, 90)                          # seconds left in Q4: 9:00, 6:00, 3:00, 1:30 (Amendment 2026-10-22)
+BANDS = {"60-80": (0.60, 0.80), "70-92": (0.70, 0.92), "80-95": (0.80, 0.95), "90-97": (0.90, 0.97)}
+PRIMARY = (360, "70-92")                          # the ORIGINAL primary; still reported (the selected version replaces it)
+SLIP = 0.01                                       # +1c slippage on every entry (Amendment 2026-10-22)
+MIN_DISC_TRADES = 100                             # a version needs >= 100 discovery trades to be eligible for selection
+SEED2 = 20261022                                  # discovery luck test
+LUCK_REPS = 500
 FILL_WINDOW_S = 60
 LATENCY_S = 60                                    # E_X = first whole-minute boundary >= t_X + 60 s
 MAX_QUOTE_AGE_S = 600                             # carried-forward quote must come from a candle ending within 10 min
@@ -52,8 +56,13 @@ def fee(price: float, count: int = COUNT) -> float:
     return fee_e4(price, count) / 10_000
 
 
+def entry_price(ask: float, slip: float = SLIP) -> float:
+    """Price actually paid: displayed ask + 1c slippage (cent grid)."""
+    return round(ask + slip, 2)
+
+
 def net_per_contract(price: float, win: bool, count: int = COUNT) -> float:
-    """1(win) - ask - fee/count."""
+    """1(win) - price - fee/count, where price is the price PAID (slippage already added; fee is on the paid price)."""
     return (1.0 if win else 0.0) - price - fee(price, count) / count
 
 
@@ -106,7 +115,7 @@ def load_pbp(pbp_dir: Path = PBP_DIR) -> dict[int, PbpGame]:
             "home_team_abbrev", "away_team_abbrev", "game_date", "season_type", "home_score", "away_score"]
     parts = [pd.read_parquet(pbp_dir / f"play_by_play_{y}.parquet", columns=cols) for y in (2025, 2026)]
     d = pd.concat(parts, ignore_index=True).drop_duplicates(["game_id", "game_play_number", "sequence_number"])
-    d["wall"] = pd.to_datetime(d["wallclock"], utc=True).astype("int64") // 10**9
+    d["wall"] = pd.to_datetime(d["wallclock"], utc=True).dt.as_unit("s").astype("int64")   # explicit unit: pandas 3 parses to us/s
     d["clock_s"] = d["clock_minutes"].astype(float) * 60 + d["clock_seconds"].astype(float)
     d = d.sort_values(["game_id", "game_play_number", "sequence_number"], kind="stable")
     return {int(gid): build_game(int(gid), g) for gid, g in d.groupby("game_id", sort=False)}
@@ -258,6 +267,42 @@ def coin_flip(groups, n_copies: int = 500, seed: int = SEED):
     return means, len(groups)
 
 
+def select_version(stats: dict, min_trades: int = MIN_DISC_TRADES):
+    """stats: version -> dict(n=..., lb=...).  Highest bootstrap lower bound among versions with n >= min_trades.
+    Ties break on the version name (sorted) so the choice is deterministic.  Returns (name or None, eligible list)."""
+    elig = sorted(v for v, s in stats.items() if s["n"] >= min_trades and s["lb"] == s["lb"])
+    if not elig:
+        return None, []
+    best = max(elig, key=lambda v: (stats[v]["lb"], -elig.index(v)))
+    return best, elig
+
+
+def luck_test(groups: dict, eligible: list, real_best_lb: float, reps: int = LUCK_REPS, seed: int = SEED2,
+              draws: int = 10_000):
+    """Discovery luck test.  groups: version -> list (one per real trade) of candidate minutes, each minute a list of net values
+    (one per qualifying team).  Every rep: per real trade a uniform random minute then a uniform team (trades without a candidate
+    are dropped from that copy); per eligible version the bootstrap 2.5th-percentile lower bound of the copy mean; the best LB over
+    the eligible versions is the rep's result (the selection rule re-run).  Returns dict with per-rep best LBs and the share >= real."""
+    rng = np.random.default_rng(seed)
+    best = np.full(reps, np.nan)
+    for r in range(reps):
+        lbs = []
+        for v in eligible:
+            vals = []
+            for g in groups[v]:
+                if not g:
+                    continue
+                opts = g[int(rng.random() * len(g))]
+                vals.append(opts[int(rng.random() * len(opts))])
+            if vals:
+                lbs.append(boot_lower(vals, draws, seed=int(rng.integers(2 ** 31)))[0])
+        best[r] = max(lbs) if lbs else float("nan")
+    ok = ~np.isnan(best)
+    share = float((best[ok] >= real_best_lb).mean()) if ok.any() else None
+    return dict(best_lb_per_rep=best, share_ge_real=share, n_reps=int(reps), n_reps_valid=int(ok.sum()),
+                verdict=("FAIL" if (share is None or share > 0.05) else "PASS"))
+
+
 # ---------------------------------------------------------------------------------------------------- db access
 def load_events(conn: sqlite3.Connection):
     """Returns (events {et: dict(markets {team: ticker}, result {team: 'yes'/'no'}, tip, settled)}, series {ticker: Series})."""
@@ -317,16 +362,15 @@ def build_universe(conn):
 
 
 def trade_jobs(conn: sqlite3.Connection):
-    """(ticker, min_ts, max_ts) print windows for each market whose ask at E_X lies in 0.70-0.95, for X in {6:00, 3:00}."""
+    """(ticker, min_ts, max_ts) print windows [E-1, E+61] for every (game, version) that would TRADE (exactly one team in band),
+    over all 16 versions and all games.  Slippage does not change which market/window is needed."""
     games, series, _ = build_universe(conn)
     jobs = set()
     for et, ev, pg in games:
         for X in XS:
-            r = decision(ev, series, pg, X, (0.70, 0.95))
-            if "asks" not in r:
-                continue
-            for t, a in r["asks"].items():
-                if a == a and 0.70 - EPS <= a <= 0.95 + EPS:
+            for band in BANDS.values():
+                r = decision(ev, series, pg, X, band)
+                if r["status"] == "trade":
                     E = int(r["E"])
-                    jobs.add((ev["markets"][t], E - 1, E + FILL_WINDOW_S + 1))
+                    jobs.add((ev["markets"][r["team"]], E - 1, E + FILL_WINDOW_S + 1))
     return sorted(jobs)

@@ -1,0 +1,41 @@
+{
+ "live_rule": {
+  "version": "A|F42|none|G4|none",
+  "n": 833,
+  "wins": 452,
+  "losses": 372,
+  "pushes": 9,
+  "mean_pnl": 0.04670959292808033,
+  "part": "A"
+ },
+ "parts": {
+  "A": {
+   "min_bets": 150,
+   "n_eligible": 152,
+   "chosen": {
+    "version": "A|E3|none|G8|EARLY",
+    "n": 274,
+    "wins": 156,
+    "losses": 117,
+    "pushes": 1,
+    "mean_pnl": 0.09057730590577305,
+    "part": "A"
+   },
+   "stop": false
+  },
+  "B": {
+   "min_bets": 80,
+   "n_eligible": 16,
+   "chosen": {
+    "version": "B|M20|T30|team",
+    "n": 312,
+    "wins": 173,
+    "losses": 132,
+    "pushes": 7,
+    "mean_pnl": 0.08100233100233101,
+    "part": "B"
+   },
+   "stop": false
+  }
+ }
+}

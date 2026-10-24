@@ -1,0 +1,35 @@
+{
+ "gate": "PASS (1-minute candles available for settled 2025-26 KXNBATOTAL markets)",
+ "date": "2026-10-22",
+ "endpoint_used": "GET /historical/markets/{ticker}/candlesticks?period_interval=1&start_ts&end_ts (all 2025-26 markets are historical-tier)",
+ "live_tier_endpoint_/series/KXNBATOTAL/markets/{ticker}/candlesticks": "HTTP 404 for settled historical-tier markets",
+ "event_level_endpoint_/series/KXNBATOTAL/events/{event}/candlesticks": "exists (HTTP 200) but returns market_candlesticks=[] and market_tickers=[] for settled historical events, so no 11x saving",
+ "probes": [
+  {
+   "ticker": "KXNBATOTAL-25OCT22BKNCHA-225",
+   "minute_candles_returned_T-6h..T": 144,
+   "event_level_n": 0
+  },
+  {
+   "ticker": "KXNBATOTAL-25DEC05LACMEM-236",
+   "minute_candles_returned_T-6h..T": 109,
+   "event_level_n": 0
+  },
+  {
+   "ticker": "KXNBATOTAL-26JAN23DENMIL-230",
+   "minute_candles_returned_T-6h..T": 277,
+   "event_level_n": 0
+  },
+  {
+   "ticker": "KXNBATOTAL-26MAR14DENLAL-247",
+   "minute_candles_returned_T-6h..T": 128,
+   "event_level_n": 0
+  },
+  {
+   "ticker": "KXNBATOTAL-26JUN08SASNYK-258",
+   "minute_candles_returned_T-6h..T": 0,
+   "event_level_n": 0
+  }
+ ],
+ "note": "candles are sparse: only minutes where the book/trade changed are returned (about 110-280 of 360 per market); a candle carries yes_bid/yes_ask open/high/low/close, so the book at any time is the last candle at or before it (carry-forward). The 5th probe (a playoff market, 2026-06-08) returned 0 candles (market opened after T-6h)."
+}

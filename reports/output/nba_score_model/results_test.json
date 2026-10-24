@@ -1,0 +1,1144 @@
+{
+ "model": "E1",
+ "reference": "B1",
+ "ot_report": {
+  "n_games": 4923,
+  "from_pbp": 2461,
+  "from_player_box_only": 2462,
+  "no_source": 0,
+  "cross_checked": 2461,
+  "disagree": 0,
+  "n_ot": 252
+ },
+ "blocks": {
+  "B1": {
+   "pooled_test": {
+    "n_games": 4923,
+    "total_mae": 15.125260243207142,
+    "pct_within_10": 0.40097501523461304,
+    "total_rmse": 19.0668077231795,
+    "bias": -0.3643989261991017,
+    "team_mae": 9.53762214346588,
+    "margin_mae": 11.416005229140104,
+    "winner_pct": 0.647775746496039,
+    "mae_excl_ot": 14.648529094539532,
+    "n_excl_ot": 4671,
+    "n_ot": 252,
+    "n_ot_unknown": 0,
+    "mae_ot_only": 23.96181260601039
+   }
+  },
+  "G": {
+   "pooled_test": {
+    "n_games": 4923,
+    "total_mae": 14.836891236844517,
+    "pct_within_10": 0.40686573227706685,
+    "total_rmse": 18.743356885085337,
+    "bias": -0.27427927380425765,
+    "team_mae": 9.372055596027892,
+    "margin_mae": 11.207838529958506,
+    "winner_pct": 0.6443225675401179,
+    "mae_excl_ot": 14.357490275611974,
+    "n_excl_ot": 4671,
+    "n_ot": 252,
+    "n_ot_unknown": 0,
+    "mae_ot_only": 23.72293048254776
+   }
+  },
+  "E1": {
+   "pooled_test": {
+    "n_games": 4923,
+    "total_mae": 14.79634434941582,
+    "pct_within_10": 0.40910014218972174,
+    "total_rmse": 18.66206563473521,
+    "bias": 0.8119510403644707,
+    "team_mae": 9.315002891249067,
+    "margin_mae": 11.033330677262594,
+    "winner_pct": 0.65569774527727,
+    "mae_excl_ot": 14.354002388586489,
+    "n_excl_ot": 4671,
+    "n_ot": 252,
+    "n_ot_unknown": 0,
+    "mae_ot_only": 22.99546855193098
+   }
+  }
+ },
+ "by_season": {
+  "B1": {
+   "2022-23": {
+    "n_games": 1230,
+    "total_mae": 14.768777538893406,
+    "pct_within_10": 0.432520325203252,
+    "total_rmse": 19.007988470100162,
+    "bias": -2.3267083650706097,
+    "team_mae": 9.120923802341267,
+    "margin_mae": 10.549800304151933,
+    "winner_pct": 0.6105691056910569,
+    "mae_excl_ot": 14.115471372376525,
+    "n_excl_ot": 1151,
+    "n_ot": 79,
+    "n_ot_unknown": 0,
+    "mae_ot_only": 24.28720029409502
+   },
+   "2023-24": {
+    "n_games": 1231,
+    "total_mae": 15.317758389795816,
+    "pct_within_10": 0.3826157595450853,
+    "total_rmse": 19.133533901331756,
+    "bias": 1.0781070160524884,
+    "team_mae": 9.6942382186788,
+    "margin_mae": 11.520894791708075,
+    "winner_pct": 0.6531275385865151,
+    "mae_excl_ot": 14.93189846310004,
+    "n_excl_ot": 1172,
+    "n_ot": 59,
+    "n_ot_unknown": 0,
+    "mae_ot_only": 22.982636933650873
+   },
+   "2024-25": {
+    "n_games": 1231,
+    "total_mae": 15.085769588421856,
+    "pct_within_10": 0.39886271324126726,
+    "total_rmse": 18.866776355927428,
+    "bias": -0.9192580154563437,
+    "team_mae": 9.550014659334268,
+    "margin_mae": 11.554858211906698,
+    "winner_pct": 0.6620633631194152,
+    "mae_excl_ot": 14.676553442153876,
+    "n_excl_ot": 1171,
+    "n_ot": 60,
+    "n_ot_unknown": 0,
+    "mae_ot_only": 23.07230470975187
+   },
+   "2025-26": {
+    "n_games": 1231,
+    "total_mae": 15.328445867817965,
+    "pct_within_10": 0.38992688870836717,
+    "total_rmse": 19.25668228006716,
+    "bias": 0.7086695821485127,
+    "team_mae": 9.784973389576509,
+    "margin_mae": 12.037763949228324,
+    "winner_pct": 0.6653127538586515,
+    "mae_excl_ot": 14.859764461744534,
+    "n_excl_ot": 1177,
+    "n_ot": 54,
+    "n_ot_unknown": 0,
+    "mae_ot_only": 25.543964663159212
+   }
+  },
+  "G": {
+   "2022-23": {
+    "n_games": 1230,
+    "total_mae": 14.667605391350568,
+    "pct_within_10": 0.43414634146341463,
+    "total_rmse": 18.826849341973766,
+    "bias": -1.6020694617737126,
+    "team_mae": 9.066346123345564,
+    "margin_mae": 10.485784946600718,
+    "winner_pct": 0.6065040650406504,
+    "mae_excl_ot": 14.036112019476802,
+    "n_excl_ot": 1151,
+    "n_ot": 79,
+    "n_ot_unknown": 0,
+    "mae_ot_only": 23.868224011941788
+   },
+   "2023-24": {
+    "n_games": 1231,
+    "total_mae": 14.838567350983746,
+    "pct_within_10": 0.3818034118602762,
+    "total_rmse": 18.51293079234466,
+    "bias": 0.680779288952923,
+    "team_mae": 9.421563776698779,
+    "margin_mae": 11.317434612927313,
+    "winner_pct": 0.6498781478472786,
+    "mae_excl_ot": 14.434150780366263,
+    "n_excl_ot": 1172,
+    "n_ot": 59,
+    "n_ot_unknown": 0,
+    "mae_ot_only": 22.87206261816493
+   },
+   "2024-25": {
+    "n_games": 1231,
+    "total_mae": 14.7570690734056,
+    "pct_within_10": 0.41186027619821286,
+    "total_rmse": 18.58809604073156,
+    "bias": -0.21544482513899102,
+    "team_mae": 9.371671666488572,
+    "margin_mae": 11.2958893632184,
+    "winner_pct": 0.6604386677497969,
+    "mae_excl_ot": 14.345115355407302,
+    "n_excl_ot": 1171,
+    "n_ot": 60,
+    "n_ot_unknown": 0,
+    "mae_ot_only": 22.797032469672455
+   },
+   "2025-26": {
+    "n_games": 1231,
+    "total_mae": 15.084185612673503,
+    "pct_within_10": 0.39967506092607635,
+    "total_rmse": 19.041010487769675,
+    "bias": 0.03853927545764111,
+    "team_mae": 9.628392475196295,
+    "margin_mae": 11.731658638530845,
+    "winner_pct": 0.6604386677497969,
+    "mae_excl_ot": 14.607746259298663,
+    "n_excl_ot": 1177,
+    "n_ot": 54,
+    "n_ot_unknown": 0,
+    "mae_ot_only": 25.46879892604733
+   }
+  },
+  "E1": {
+   "2022-23": {
+    "n_games": 1230,
+    "total_mae": 14.576913029018844,
+    "pct_within_10": 0.43821138211382116,
+    "total_rmse": 18.70193458323004,
+    "bias": -1.1771809230121728,
+    "team_mae": 8.992510761007443,
+    "margin_mae": 10.27447630476629,
+    "winner_pct": 0.6227642276422765,
+    "mae_excl_ot": 13.976154265591672,
+    "n_excl_ot": 1151,
+    "n_ot": 79,
+    "n_ot_unknown": 0,
+    "mae_ot_only": 23.329740075913463
+   },
+   "2023-24": {
+    "n_games": 1231,
+    "total_mae": 14.826322841895012,
+    "pct_within_10": 0.39480097481722176,
+    "total_rmse": 18.492399999682114,
+    "bias": 1.8932297351519172,
+    "team_mae": 9.390089144208307,
+    "margin_mae": 11.203558955920876,
+    "winner_pct": 0.6571892770105605,
+    "mae_excl_ot": 14.467055855801274,
+    "n_excl_ot": 1172,
+    "n_ot": 59,
+    "n_ot_unknown": 0,
+    "mae_ot_only": 21.96294839616383
+   },
+   "2024-25": {
+    "n_games": 1231,
+    "total_mae": 14.673233295759037,
+    "pct_within_10": 0.41348497156783104,
+    "total_rmse": 18.448953941663767,
+    "bias": 1.4053501119751846,
+    "team_mae": 9.26103038243713,
+    "margin_mae": 11.033087243146731,
+    "winner_pct": 0.6726238830219334,
+    "mae_excl_ot": 14.3045673188858,
+    "n_excl_ot": 1171,
+    "n_ot": 60,
+    "n_ot_unknown": 0,
+    "mae_ot_only": 21.86836427773503
+   },
+   "2025-26": {
+    "n_games": 1231,
+    "total_mae": 15.10872997646529,
+    "pct_within_10": 0.38992688870836717,
+    "total_rmse": 18.999917597189317,
+    "bias": 1.124789370597725,
+    "team_mae": 9.616119301608016,
+    "margin_mae": 11.621583751623874,
+    "winner_pct": 0.670186839967506,
+    "mae_excl_ot": 14.660113682223528,
+    "n_excl_ot": 1177,
+    "n_ot": 54,
+    "n_ot_unknown": 0,
+    "mae_ot_only": 24.886903649105108
+   }
+  }
+ },
+ "worst20": {
+  "B1": [
+   {
+    "game_id": 401469057,
+    "pred_total": 229.37919615894194,
+    "actual_total": 351.0,
+    "error": -121.62080384105806,
+    "date": "2023-02-24 00:00:00",
+    "home_team": "LAC",
+    "away_team": "SAC",
+    "season": "2022-23",
+    "ot": true
+   },
+   {
+    "game_id": 401585555,
+    "pred_total": 226.66267593700164,
+    "actual_total": 152.0,
+    "error": 74.66267593700164,
+    "date": "2024-03-10 00:00:00",
+    "home_team": "NY",
+    "away_team": "PHI",
+    "season": "2023-24",
+    "ot": false
+   },
+   {
+    "game_id": 401584127,
+    "pred_total": 238.0340202034766,
+    "actual_total": 309.0,
+    "error": -70.96597979652341,
+    "date": "2023-11-21 00:00:00",
+    "home_team": "ATL",
+    "away_team": "IND",
+    "season": "2023-24",
+    "ot": false
+   },
+   {
+    "game_id": 401585102,
+    "pred_total": 232.34651597709254,
+    "actual_total": 302.0,
+    "error": -69.65348402290746,
+    "date": "2024-01-03 00:00:00",
+    "home_team": "UTAH",
+    "away_team": "DET",
+    "season": "2023-24",
+    "ot": true
+   },
+   {
+    "game_id": 401705398,
+    "pred_total": 230.78077373525446,
+    "actual_total": 299.0,
+    "error": -68.21922626474554,
+    "date": "2025-02-25 00:00:00",
+    "home_team": "MEM",
+    "away_team": "PHX",
+    "season": "2024-25",
+    "ot": true
+   },
+   {
+    "game_id": 401705339,
+    "pred_total": 231.180342106404,
+    "actual_total": 297.0,
+    "error": -65.819657893596,
+    "date": "2025-02-12 00:00:00",
+    "home_team": "NY",
+    "away_team": "ATL",
+    "season": "2024-25",
+    "ot": true
+   },
+   {
+    "game_id": 401810251,
+    "pred_total": 239.8650563692242,
+    "actual_total": 302.0,
+    "error": -62.13494363077581,
+    "date": "2025-12-21 00:00:00",
+    "home_team": "ATL",
+    "away_team": "CHI",
+    "season": "2025-26",
+    "ot": false
+   },
+   {
+    "game_id": 401810681,
+    "pred_total": 230.31620072826829,
+    "actual_total": 169.0,
+    "error": 61.316200728268285,
+    "date": "2026-02-22 00:00:00",
+    "home_team": "PHX",
+    "away_team": "POR",
+    "season": "2025-26",
+    "ot": false
+   },
+   {
+    "game_id": 401469127,
+    "pred_total": 228.87017487840242,
+    "actual_total": 290.0,
+    "error": -61.12982512159758,
+    "date": "2023-03-06 00:00:00",
+    "home_team": "IND",
+    "away_team": "PHI",
+    "season": "2022-23",
+    "ot": false
+   },
+   {
+    "game_id": 401704679,
+    "pred_total": 222.82334040987556,
+    "actual_total": 283.0,
+    "error": -60.176659590124444,
+    "date": "2024-10-29 00:00:00",
+    "home_team": "BKN",
+    "away_team": "DEN",
+    "season": "2024-25",
+    "ot": true
+   },
+   {
+    "game_id": 401584855,
+    "pred_total": 232.089558706861,
+    "actual_total": 292.0,
+    "error": -59.910441293139,
+    "date": "2023-11-22 00:00:00",
+    "home_team": "ATL",
+    "away_team": "BKN",
+    "season": "2023-24",
+    "ot": true
+   },
+   {
+    "game_id": 401810908,
+    "pred_total": 234.13937911828228,
+    "actual_total": 294.0,
+    "error": -59.86062088171772,
+    "date": "2026-03-25 00:00:00",
+    "home_team": "PHI",
+    "away_team": "CHI",
+    "season": "2025-26",
+    "ot": false
+   },
+   {
+    "game_id": 401705380,
+    "pred_total": 231.4775627721009,
+    "actual_total": 291.0,
+    "error": -59.522437227899104,
+    "date": "2025-02-23 00:00:00",
+    "home_team": "ATL",
+    "away_team": "DET",
+    "season": "2024-25",
+    "ot": false
+   },
+   {
+    "game_id": 401468347,
+    "pred_total": 221.01802771266898,
+    "actual_total": 280.0,
+    "error": -58.98197228733102,
+    "date": "2022-11-13 00:00:00",
+    "home_team": "NY",
+    "away_team": "OKC",
+    "season": "2022-23",
+    "ot": false
+   },
+   {
+    "game_id": 401810176,
+    "pred_total": 232.43803343843996,
+    "actual_total": 291.0,
+    "error": -58.56196656156004,
+    "date": "2025-12-02 00:00:00",
+    "home_team": "NO",
+    "away_team": "MIN",
+    "season": "2025-26",
+    "ot": true
+   },
+   {
+    "game_id": 401705475,
+    "pred_total": 231.4911764598796,
+    "actual_total": 290.0,
+    "error": -58.5088235401204,
+    "date": "2025-03-07 00:00:00",
+    "home_team": "DEN",
+    "away_team": "PHX",
+    "season": "2024-25",
+    "ot": true
+   },
+   {
+    "game_id": 401810095,
+    "pred_total": 239.43040096750454,
+    "actual_total": 297.0,
+    "error": -57.56959903249546,
+    "date": "2025-11-16 00:00:00",
+    "home_team": "UTAH",
+    "away_team": "CHI",
+    "season": "2025-26",
+    "ot": true
+   },
+   {
+    "game_id": 401705551,
+    "pred_total": 223.70367770220267,
+    "actual_total": 281.0,
+    "error": -57.29632229779733,
+    "date": "2025-03-17 00:00:00",
+    "home_team": "HOU",
+    "away_team": "PHI",
+    "season": "2024-25",
+    "ot": true
+   },
+   {
+    "game_id": 401585660,
+    "pred_total": 237.88665627047956,
+    "actual_total": 295.0,
+    "error": -57.11334372952044,
+    "date": "2024-03-24 00:00:00",
+    "home_team": "LAL",
+    "away_team": "IND",
+    "season": "2023-24",
+    "ot": false
+   },
+   {
+    "game_id": 401585344,
+    "pred_total": 236.02633990616428,
+    "actual_total": 293.0,
+    "error": -56.97366009383572,
+    "date": "2024-02-05 00:00:00",
+    "home_team": "ATL",
+    "away_team": "LAC",
+    "season": "2023-24",
+    "ot": false
+   }
+  ],
+  "G": [
+   {
+    "game_id": 401469057,
+    "pred_total": 232.35138561519437,
+    "actual_total": 351.0,
+    "error": -118.64861438480563,
+    "date": "2023-02-24 00:00:00",
+    "home_team": "LAC",
+    "away_team": "SAC",
+    "season": "2022-23",
+    "ot": true
+   },
+   {
+    "game_id": 401585555,
+    "pred_total": 220.78835269745807,
+    "actual_total": 152.0,
+    "error": 68.78835269745807,
+    "date": "2024-03-10 00:00:00",
+    "home_team": "NY",
+    "away_team": "PHI",
+    "season": "2023-24",
+    "ot": false
+   },
+   {
+    "game_id": 401585102,
+    "pred_total": 234.7933219010791,
+    "actual_total": 302.0,
+    "error": -67.20667809892089,
+    "date": "2024-01-03 00:00:00",
+    "home_team": "UTAH",
+    "away_team": "DET",
+    "season": "2023-24",
+    "ot": true
+   },
+   {
+    "game_id": 401704679,
+    "pred_total": 216.90839473602773,
+    "actual_total": 283.0,
+    "error": -66.09160526397227,
+    "date": "2024-10-29 00:00:00",
+    "home_team": "BKN",
+    "away_team": "DEN",
+    "season": "2024-25",
+    "ot": true
+   },
+   {
+    "game_id": 401584127,
+    "pred_total": 243.60442882522216,
+    "actual_total": 309.0,
+    "error": -65.39557117477784,
+    "date": "2023-11-21 00:00:00",
+    "home_team": "ATL",
+    "away_team": "IND",
+    "season": "2023-24",
+    "ot": false
+   },
+   {
+    "game_id": 401705398,
+    "pred_total": 234.6557159374097,
+    "actual_total": 299.0,
+    "error": -64.3442840625903,
+    "date": "2025-02-25 00:00:00",
+    "home_team": "MEM",
+    "away_team": "PHX",
+    "season": "2024-25",
+    "ot": true
+   },
+   {
+    "game_id": 401810681,
+    "pred_total": 229.54326724628663,
+    "actual_total": 169.0,
+    "error": 60.54326724628663,
+    "date": "2026-02-22 00:00:00",
+    "home_team": "PHX",
+    "away_team": "POR",
+    "season": "2025-26",
+    "ot": false
+   },
+   {
+    "game_id": 401705339,
+    "pred_total": 236.5874177893565,
+    "actual_total": 297.0,
+    "error": -60.41258221064351,
+    "date": "2025-02-12 00:00:00",
+    "home_team": "NY",
+    "away_team": "ATL",
+    "season": "2024-25",
+    "ot": true
+   },
+   {
+    "game_id": 401469127,
+    "pred_total": 230.80258756814402,
+    "actual_total": 290.0,
+    "error": -59.19741243185598,
+    "date": "2023-03-06 00:00:00",
+    "home_team": "IND",
+    "away_team": "PHI",
+    "season": "2022-23",
+    "ot": false
+   },
+   {
+    "game_id": 401810176,
+    "pred_total": 232.50130409982677,
+    "actual_total": 291.0,
+    "error": -58.49869590017323,
+    "date": "2025-12-02 00:00:00",
+    "home_team": "NO",
+    "away_team": "MIN",
+    "season": "2025-26",
+    "ot": true
+   },
+   {
+    "game_id": 401810908,
+    "pred_total": 235.67370530616304,
+    "actual_total": 294.0,
+    "error": -58.32629469383696,
+    "date": "2026-03-25 00:00:00",
+    "home_team": "PHI",
+    "away_team": "CHI",
+    "season": "2025-26",
+    "ot": false
+   },
+   {
+    "game_id": 401468347,
+    "pred_total": 221.70416884501867,
+    "actual_total": 280.0,
+    "error": -58.29583115498133,
+    "date": "2022-11-13 00:00:00",
+    "home_team": "NY",
+    "away_team": "OKC",
+    "season": "2022-23",
+    "ot": false
+   },
+   {
+    "game_id": 401584855,
+    "pred_total": 234.59537941348026,
+    "actual_total": 292.0,
+    "error": -57.40462058651974,
+    "date": "2023-11-22 00:00:00",
+    "home_team": "ATL",
+    "away_team": "BKN",
+    "season": "2023-24",
+    "ot": true
+   },
+   {
+    "game_id": 401585660,
+    "pred_total": 237.90010622136438,
+    "actual_total": 295.0,
+    "error": -57.09989377863562,
+    "date": "2024-03-24 00:00:00",
+    "home_team": "LAL",
+    "away_team": "IND",
+    "season": "2023-24",
+    "ot": false
+   },
+   {
+    "game_id": 401468557,
+    "pred_total": 225.9719486817658,
+    "actual_total": 169.0,
+    "error": 56.97194868176581,
+    "date": "2022-12-12 00:00:00",
+    "home_team": "IND",
+    "away_team": "MIA",
+    "season": "2022-23",
+    "ot": false
+   },
+   {
+    "game_id": 401810807,
+    "pred_total": 224.16514395137727,
+    "actual_total": 281.0,
+    "error": -56.834856048622726,
+    "date": "2026-03-11 00:00:00",
+    "home_team": "LAC",
+    "away_team": "MIN",
+    "season": "2025-26",
+    "ot": false
+   },
+   {
+    "game_id": 401810251,
+    "pred_total": 245.45947508266318,
+    "actual_total": 302.0,
+    "error": -56.540524917336825,
+    "date": "2025-12-21 00:00:00",
+    "home_team": "ATL",
+    "away_team": "CHI",
+    "season": "2025-26",
+    "ot": false
+   },
+   {
+    "game_id": 401705551,
+    "pred_total": 225.17463337343543,
+    "actual_total": 281.0,
+    "error": -55.82536662656457,
+    "date": "2025-03-17 00:00:00",
+    "home_team": "HOU",
+    "away_team": "PHI",
+    "season": "2024-25",
+    "ot": true
+   },
+   {
+    "game_id": 401585759,
+    "pred_total": 227.5614612709893,
+    "actual_total": 283.0,
+    "error": -55.4385387290107,
+    "date": "2024-04-07 00:00:00",
+    "home_team": "DAL",
+    "away_team": "HOU",
+    "season": "2023-24",
+    "ot": true
+   },
+   {
+    "game_id": 401468707,
+    "pred_total": 224.03810449182538,
+    "actual_total": 279.0,
+    "error": -54.96189550817462,
+    "date": "2023-01-02 00:00:00",
+    "home_team": "CLE",
+    "away_team": "CHI",
+    "season": "2022-23",
+    "ot": true
+   }
+  ],
+  "E1": [
+   {
+    "game_id": 401469057,
+    "pred_total": 232.9637647494676,
+    "actual_total": 351.0,
+    "error": -118.0362352505324,
+    "date": "2023-02-24 00:00:00",
+    "home_team": "LAC",
+    "away_team": "SAC",
+    "season": "2022-23",
+    "ot": true
+   },
+   {
+    "game_id": 401585555,
+    "pred_total": 220.15463559055684,
+    "actual_total": 152.0,
+    "error": 68.15463559055684,
+    "date": "2024-03-10 00:00:00",
+    "home_team": "NY",
+    "away_team": "PHI",
+    "season": "2023-24",
+    "ot": false
+   },
+   {
+    "game_id": 401585102,
+    "pred_total": 236.20317640464972,
+    "actual_total": 302.0,
+    "error": -65.79682359535028,
+    "date": "2024-01-03 00:00:00",
+    "home_team": "UTAH",
+    "away_team": "DET",
+    "season": "2023-24",
+    "ot": true
+   },
+   {
+    "game_id": 401704679,
+    "pred_total": 219.52703826029244,
+    "actual_total": 283.0,
+    "error": -63.47296173970756,
+    "date": "2024-10-29 00:00:00",
+    "home_team": "BKN",
+    "away_team": "DEN",
+    "season": "2024-25",
+    "ot": true
+   },
+   {
+    "game_id": 401705398,
+    "pred_total": 235.9568049171659,
+    "actual_total": 299.0,
+    "error": -63.0431950828341,
+    "date": "2025-02-25 00:00:00",
+    "home_team": "MEM",
+    "away_team": "PHX",
+    "season": "2024-25",
+    "ot": true
+   },
+   {
+    "game_id": 401810681,
+    "pred_total": 231.50412405477906,
+    "actual_total": 169.0,
+    "error": 62.504124054779055,
+    "date": "2026-02-22 00:00:00",
+    "home_team": "PHX",
+    "away_team": "POR",
+    "season": "2025-26",
+    "ot": false
+   },
+   {
+    "game_id": 401584127,
+    "pred_total": 246.8632965829626,
+    "actual_total": 309.0,
+    "error": -62.13670341703741,
+    "date": "2023-11-21 00:00:00",
+    "home_team": "ATL",
+    "away_team": "IND",
+    "season": "2023-24",
+    "ot": false
+   },
+   {
+    "game_id": 401469127,
+    "pred_total": 230.3818275823822,
+    "actual_total": 290.0,
+    "error": -59.618172417617814,
+    "date": "2023-03-06 00:00:00",
+    "home_team": "IND",
+    "away_team": "PHI",
+    "season": "2022-23",
+    "ot": false
+   },
+   {
+    "game_id": 401705339,
+    "pred_total": 237.91086056321382,
+    "actual_total": 297.0,
+    "error": -59.08913943678618,
+    "date": "2025-02-12 00:00:00",
+    "home_team": "NY",
+    "away_team": "ATL",
+    "season": "2024-25",
+    "ot": true
+   },
+   {
+    "game_id": 401810176,
+    "pred_total": 232.61387154711292,
+    "actual_total": 291.0,
+    "error": -58.38612845288708,
+    "date": "2025-12-02 00:00:00",
+    "home_team": "NO",
+    "away_team": "MIN",
+    "season": "2025-26",
+    "ot": true
+   },
+   {
+    "game_id": 401468557,
+    "pred_total": 226.83375155403095,
+    "actual_total": 169.0,
+    "error": 57.833751554030954,
+    "date": "2022-12-12 00:00:00",
+    "home_team": "IND",
+    "away_team": "MIA",
+    "season": "2022-23",
+    "ot": false
+   },
+   {
+    "game_id": 401810251,
+    "pred_total": 244.48623228774375,
+    "actual_total": 302.0,
+    "error": -57.513767712256254,
+    "date": "2025-12-21 00:00:00",
+    "home_team": "ATL",
+    "away_team": "CHI",
+    "season": "2025-26",
+    "ot": false
+   },
+   {
+    "game_id": 401810908,
+    "pred_total": 237.97110338527096,
+    "actual_total": 294.0,
+    "error": -56.028896614729035,
+    "date": "2026-03-25 00:00:00",
+    "home_team": "PHI",
+    "away_team": "CHI",
+    "season": "2025-26",
+    "ot": false
+   },
+   {
+    "game_id": 401584855,
+    "pred_total": 236.13909642882095,
+    "actual_total": 292.0,
+    "error": -55.86090357117905,
+    "date": "2023-11-22 00:00:00",
+    "home_team": "ATL",
+    "away_team": "BKN",
+    "season": "2023-24",
+    "ot": true
+   },
+   {
+    "game_id": 401468707,
+    "pred_total": 223.35102781466483,
+    "actual_total": 279.0,
+    "error": -55.64897218533517,
+    "date": "2023-01-02 00:00:00",
+    "home_team": "CLE",
+    "away_team": "CHI",
+    "season": "2022-23",
+    "ot": true
+   },
+   {
+    "game_id": 401468347,
+    "pred_total": 224.38796327402872,
+    "actual_total": 280.0,
+    "error": -55.61203672597128,
+    "date": "2022-11-13 00:00:00",
+    "home_team": "NY",
+    "away_team": "OKC",
+    "season": "2022-23",
+    "ot": false
+   },
+   {
+    "game_id": 401811040,
+    "pred_total": 229.52348476478244,
+    "actual_total": 174.0,
+    "error": 55.52348476478244,
+    "date": "2026-04-10 00:00:00",
+    "home_team": "LAL",
+    "away_team": "PHX",
+    "season": "2025-26",
+    "ot": false
+   },
+   {
+    "game_id": 401585439,
+    "pred_total": 236.0846319452833,
+    "actual_total": 181.0,
+    "error": 55.08463194528329,
+    "date": "2024-02-23 00:00:00",
+    "home_team": "GS",
+    "away_team": "CHA",
+    "season": "2023-24",
+    "ot": false
+   },
+   {
+    "game_id": 401809982,
+    "pred_total": 231.88764341456883,
+    "actual_total": 177.0,
+    "error": 54.88764341456883,
+    "date": "2025-10-28 00:00:00",
+    "home_team": "GS",
+    "away_team": "LAC",
+    "season": "2025-26",
+    "ot": false
+   },
+   {
+    "game_id": 401810807,
+    "pred_total": 226.5733601256048,
+    "actual_total": 281.0,
+    "error": -54.42663987439519,
+    "date": "2026-03-11 00:00:00",
+    "home_team": "LAC",
+    "away_team": "MIN",
+    "season": "2025-26",
+    "ot": false
+   }
+  ]
+ },
+ "nan_predictions": {
+  "B1": 0,
+  "G": 0,
+  "E1": 0
+ },
+ "paired_bootstrap": {
+  "E1_vs_B1": {
+   "pooled": {
+    "diff": -0.3289158937913214,
+    "lo": -0.42373964720162854,
+    "hi": -0.23591793095944563,
+    "n_games": 4923
+   },
+   "by_season": {
+    "2022-23": {
+     "diff": -0.19186450987456088,
+     "lo": -0.32684304262592495,
+     "hi": -0.057842765319913524,
+     "n_games": 1230
+    },
+    "2023-24": {
+     "diff": -0.49143554790080485,
+     "lo": -0.6678980885084342,
+     "hi": -0.32164665964226885,
+     "n_games": 1231
+    },
+    "2024-25": {
+     "diff": -0.41253629266281583,
+     "lo": -0.6666428568432026,
+     "hi": -0.16590774578848383,
+     "n_games": 1231
+    },
+    "2025-26": {
+     "diff": -0.2197158913526795,
+     "lo": -0.40258824861115217,
+     "hi": -0.04175346422422437,
+     "n_games": 1231
+    }
+   },
+   "ci_upper_below_zero": true
+  },
+  "E1_vs_Gstar": {
+   "pooled": {
+    "diff": -0.04054688742869842,
+    "lo": -0.09544834963698529,
+    "hi": 0.01286519711444558,
+    "n_games": 4923
+   },
+   "by_season": {
+    "2022-23": {
+     "diff": -0.09069236233172456,
+     "lo": -0.17715012087123935,
+     "hi": -0.006073238131690251,
+     "n_games": 1230
+    },
+    "2023-24": {
+     "diff": -0.012244509088733148,
+     "lo": -0.11485468453058209,
+     "hi": 0.08506246890178609,
+     "n_games": 1231
+    },
+    "2024-25": {
+     "diff": -0.08383577764656164,
+     "lo": -0.21416340402912482,
+     "hi": 0.050610397562787075,
+     "n_games": 1231
+    },
+    "2025-26": {
+     "diff": 0.024544363791784537,
+     "lo": -0.08388061990552363,
+     "hi": 0.13573679393255833,
+     "n_games": 1231
+    }
+   },
+   "ci_upper_below_zero": false
+  },
+  "draws": 10000,
+  "seed": 20261023
+ },
+ "E1_more_accurate_than_B1": true,
+ "sensitivity_legacy_false": {
+  "label": "sensitivity, not primary",
+  "legacy_2022": false,
+  "E1": {
+   "pooled_2022_26_with_swap": {
+    "n_games": 4923,
+    "total_mae": 14.797937586431278,
+    "pct_within_10": 0.40849075766808857,
+    "total_rmse": 18.657756886287576,
+    "bias": 0.8904271971392655,
+    "team_mae": 9.315292355606964,
+    "margin_mae": 11.021538815540461,
+    "winner_pct": 0.6540727198862483,
+    "mae_excl_ot": 14.3583395615831,
+    "n_excl_ot": 4671,
+    "n_ot": 252,
+    "n_ot_unknown": 0,
+    "mae_ot_only": 22.94620097558144
+   },
+   "2022-23": {
+    "n_games": 1230,
+    "total_mae": 14.583289863024609,
+    "pct_within_10": 0.43577235772357725,
+    "total_rmse": 18.684719908167402,
+    "bias": -0.8630848906525669,
+    "team_mae": 8.99366932444966,
+    "margin_mae": 10.227280097239417,
+    "winner_pct": 0.616260162601626,
+    "mae_excl_ot": 13.993755425511024,
+    "n_excl_ot": 1151,
+    "n_ot": 79,
+    "n_ot_unknown": 0,
+    "mae_ot_only": 23.172582743760508
+   }
+  },
+  "B1": {
+   "pooled_2022_26_with_swap": {
+    "n_games": 4923,
+    "total_mae": 15.125260243207142,
+    "pct_within_10": 0.40097501523461304,
+    "total_rmse": 19.0668077231795,
+    "bias": -0.3643989261991017,
+    "team_mae": 9.53762214346588,
+    "margin_mae": 11.416005229140104,
+    "winner_pct": 0.647775746496039,
+    "mae_excl_ot": 14.648529094539532,
+    "n_excl_ot": 4671,
+    "n_ot": 252,
+    "n_ot_unknown": 0,
+    "mae_ot_only": 23.96181260601039
+   },
+   "2022-23": {
+    "n_games": 1230,
+    "total_mae": 14.768777538893406,
+    "pct_within_10": 0.432520325203252,
+    "total_rmse": 19.007988470100162,
+    "bias": -2.3267083650706097,
+    "team_mae": 9.120923802341267,
+    "margin_mae": 10.549800304151933,
+    "winner_pct": 0.6105691056910569,
+    "mae_excl_ot": 14.115471372376525,
+    "n_excl_ot": 1151,
+    "n_ot": 79,
+    "n_ot_unknown": 0,
+    "mae_ot_only": 24.28720029409502
+   }
+  },
+  "paired_E1_vs_B1": {
+   "pooled": {
+    "diff": -0.32732265677586525,
+    "lo": -0.4289210371682322,
+    "hi": -0.22877231125766098,
+    "n_games": 4923
+   },
+   "by_season": {
+    "2022-23": {
+     "diff": -0.18548767586879614,
+     "lo": -0.3711160291085705,
+     "hi": -0.0009247541079707416,
+     "n_games": 1230
+    },
+    "2023-24": {
+     "diff": -0.49143554790080485,
+     "lo": -0.6678980885084342,
+     "hi": -0.32164665964226885,
+     "n_games": 1231
+    },
+    "2024-25": {
+     "diff": -0.41253629266281583,
+     "lo": -0.6666428568432026,
+     "hi": -0.16590774578848383,
+     "n_games": 1231
+    },
+    "2025-26": {
+     "diff": -0.2197158913526795,
+     "lo": -0.40258824861115217,
+     "hi": -0.04175346422422437,
+     "n_games": 1231
+    }
+   },
+   "ci_upper_below_zero": true
+  }
+ },
+ "sportsbook_close_reference": {
+  "n_games_with_close": 4859,
+  "close_total_mae": 14.279429923852645,
+  "frozen_model_mae_same_games": 14.822701643205882
+ },
+ "forward_2026_27": {
+  "n_games": 14,
+  "note": "descriptive; snapshot of team_box_2027; no OT source",
+  "E1": {
+   "n_games": 14,
+   "total_mae": 11.528494620761695,
+   "pct_within_10": 0.5714285714285714,
+   "total_rmse": 13.357564527407842,
+   "bias": 3.2333577564572216,
+   "team_mae": 9.428891683057122,
+   "margin_mae": 15.935572583441123,
+   "winner_pct": 0.6428571428571429,
+   "mae_excl_ot": null,
+   "n_excl_ot": 0,
+   "n_ot": 0,
+   "n_ot_unknown": 14,
+   "mae_ot_only": null
+  },
+  "B1": {
+   "n_games": 14,
+   "total_mae": 11.48230389336488,
+   "pct_within_10": 0.5,
+   "total_rmse": 13.344161732241425,
+   "bias": 1.6925313681315157,
+   "team_mae": 10.00749047064396,
+   "margin_mae": 16.43724552443743,
+   "winner_pct": 0.7142857142857143,
+   "mae_excl_ot": null,
+   "n_excl_ot": 0,
+   "n_ot": 0,
+   "n_ot_unknown": 14,
+   "mae_ot_only": null
+  }
+ }
+}

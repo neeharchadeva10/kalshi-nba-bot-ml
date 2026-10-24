@@ -1,0 +1,184 @@
+{
+ "live_rule_row": {
+  "version": "A|F42|none|G4|none",
+  "n": 833,
+  "wins": 452,
+  "losses": 372,
+  "pushes": 9,
+  "mean_pnl": 0.04670959292808033,
+  "part": "A"
+ },
+ "parts": {
+  "A": {
+   "chosen": {
+    "version": "A|E3|none|G8|EARLY",
+    "n": 274,
+    "wins": 156,
+    "losses": 117,
+    "pushes": 1,
+    "mean_pnl": 0.09057730590577305,
+    "part": "A"
+   },
+   "result": {
+    "version": "A|E3|none|G8|EARLY",
+    "per_window_sb": {
+     "H2-sb": {
+      "n": 234,
+      "mean": -0.09013209013209014,
+      "wins": 111,
+      "losses": 122,
+      "pushes": 1,
+      "win_rate_decided": 0.47639484978540775,
+      "total": -21.090909090909093
+     }
+    },
+    "pooled_sb": {
+     "n": 234,
+     "mean": -0.09013209013209014,
+     "wins": 111,
+     "losses": 122,
+     "pushes": 1,
+     "win_rate_decided": 0.47639484978540775,
+     "total": -21.090909090909093,
+     "boot_mean": -0.09013209013209014,
+     "boot_lo": -0.21250971250971248,
+     "boot_hi": 0.03224553224553225
+    },
+    "luck": {
+     "copies": 500,
+     "frac_copies_ge_actual": 0.804,
+     "copies_mean": -0.042829059829059817,
+     "actual_mean": -0.09013209013209014,
+     "n_bets": 234
+    },
+    "kalshi": {
+     "n": 87,
+     "mean_net": -0.007800172413793121,
+     "win_rate": 0.5287356321839081
+    }
+   },
+   "verdict": {
+    "criteria": {
+     "1_sb_pooled_mean_gt0_and_boot_lb_gt0": false,
+     "2_kalshi_mean_gt0_n_ge_30": false,
+     "3_luck_lt_5pct": false
+    },
+    "verdict": "FAIL"
+   }
+  },
+  "B": {
+   "chosen": {
+    "version": "B|M20|T30|team",
+    "n": 312,
+    "wins": 173,
+    "losses": 132,
+    "pushes": 7,
+    "mean_pnl": 0.08100233100233101,
+    "part": "B"
+   },
+   "result": {
+    "version": "B|M20|T30|team",
+    "per_window_sb": {
+     "H1": {
+      "n": 117,
+      "mean": 0.1181041181041181,
+      "wins": 68,
+      "losses": 48,
+      "pushes": 1,
+      "win_rate_decided": 0.5862068965517241,
+      "total": 13.818181818181817
+     },
+     "H2-sb": {
+      "n": 187,
+      "mean": -0.07583859990277102,
+      "wins": 90,
+      "losses": 96,
+      "pushes": 1,
+      "win_rate_decided": 0.4838709677419355,
+      "total": -14.18181818181818
+     }
+    },
+    "pooled_sb": {
+     "n": 304,
+     "mean": -0.0011961722488038238,
+     "wins": 158,
+     "losses": 144,
+     "pushes": 2,
+     "win_rate_decided": 0.5231788079470199,
+     "total": -0.3636363636363624,
+     "boot_mean": -0.0011961722488038238,
+     "boot_lo": -0.11124401913875596,
+     "boot_hi": 0.10227272727272728
+    },
+    "luck": {
+     "copies": 500,
+     "frac_copies_ge_actual": 0.298,
+     "copies_mean": -0.03192942583732057,
+     "actual_mean": -0.0011961722488038238,
+     "n_bets": 304
+    },
+    "kalshi": {
+     "n": 111,
+     "mean_net": -0.0577297837837838,
+     "win_rate": 0.4774774774774775
+    }
+   },
+   "verdict": {
+    "criteria": {
+     "1_sb_pooled_mean_gt0_and_boot_lb_gt0": false,
+     "2_kalshi_mean_gt0_n_ge_30": false,
+     "3_luck_lt_5pct": false
+    },
+    "verdict": "FAIL"
+   }
+  }
+ },
+ "live_rule_holdout": {
+  "result": {
+   "version": "A|F42|none|G4|none",
+   "per_window_sb": {
+    "H2-sb": {
+     "n": 1498,
+     "mean": -0.04569729336084475,
+     "wins": 742,
+     "losses": 743,
+     "pushes": 13,
+     "win_rate_decided": 0.49966329966329964,
+     "total": -68.45454545454544
+    }
+   },
+   "pooled_sb": {
+    "n": 1498,
+    "mean": -0.04569729336084475,
+    "wins": 742,
+    "losses": 743,
+    "pushes": 13,
+    "win_rate_decided": 0.49966329966329964,
+    "total": -68.45454545454544,
+    "boot_mean": -0.04569729336084475,
+    "boot_lo": -0.09230640854472628,
+    "boot_hi": 0.0027916009224420468
+   },
+   "luck": {
+    "copies": 500,
+    "frac_copies_ge_actual": 0.504,
+    "copies_mean": -0.04516968078650321,
+    "actual_mean": -0.04569729336084475,
+    "n_bets": 1498
+   },
+   "kalshi": {
+    "n": 730,
+    "mean_net": -0.02474001780821918,
+    "win_rate": 0.5082191780821917
+   }
+  },
+  "verdict_if_it_were_chosen": {
+   "criteria": {
+    "1_sb_pooled_mean_gt0_and_boot_lb_gt0": false,
+    "2_kalshi_mean_gt0_n_ge_30": false,
+    "3_luck_lt_5pct": false
+   },
+   "verdict": "FAIL"
+  }
+ }
+}

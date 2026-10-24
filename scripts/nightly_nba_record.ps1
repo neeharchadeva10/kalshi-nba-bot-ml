@@ -22,10 +22,15 @@ $running = Get-CimInstance Win32_Process -Filter "Name='python.exe'" |
     Where-Object { $_.CommandLine -like "*exec record*--tag $tag*" }
 if ($running) { Log "recorder $tag already running (pid $($running.ProcessId -join ',')); nothing to do"; exit 0 }
 
-# 2. Discover tonight's markets (keep a backup of any earlier list for this date).
+# 2. Discover tonight's markets (move any earlier list for this date to a backup, so a failed discovery can't leave a
+#    stale list in place).
 $mj = "data\ws\nba\$D\markets.json"
-if (Test-Path $mj) { Copy-Item $mj "$mj.bak-$([DateTime]::UtcNow.ToString('yyyyMMddHHmmss'))" }
-& .venv\Scripts\python.exe -m kpm nfl-markets --date $D --prefix KXNBA *>> $log
+if (Test-Path $mj) { Move-Item $mj "$mj.bak-$([DateTime]::UtcNow.ToString('yyyyMMddHHmmss'))" }
+# kpm logs harmless warnings (e.g. HTTP 429 retries) to stderr. Windows PowerShell 5.1 turns redirected native stderr
+# into a terminating error under ErrorActionPreference=Stop, which killed the 2026-10-22 run before it logged anything,
+# so cmd.exe does the redirection and the exit code decides.
+cmd.exe /c ".venv\Scripts\python.exe -m kpm nfl-markets --date $D --prefix KXNBA >> $log 2>&1"
+if ($LASTEXITCODE -ne 0) { Log "market discovery failed (exit $LASTEXITCODE); stopping"; exit 1 }
 if (-not (Test-Path $mj)) { Log "no markets file written; stopping"; exit 1 }
 $games = @((Get-Content $mj -Raw | ConvertFrom-Json).games.PSObject.Properties).Count
 if ($games -eq 0) { Log "no NBA games for $D; not starting a recorder"; exit 0 }

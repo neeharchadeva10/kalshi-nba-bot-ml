@@ -1,0 +1,102 @@
+{
+ "constants_rule": "each confirmation season S refits every constant on S-1 only (build_world)",
+ "forms": {
+  "player_corr": {
+   "T": 2,
+   "family": "player",
+   "selection_best": {
+    "T": 2,
+    "lb": 0.449034098557464,
+    "n": 1257,
+    "pushes": 14,
+    "rate": 0.47653142402545745,
+    "ub": 0.5041717601324777,
+    "wins": 599
+   },
+   "shift": -2.8063226907994125
+  },
+  "player_raw": {
+   "T": 2,
+   "family": "player",
+   "selection_best": {
+    "T": 2,
+    "lb": 0.4465000915163173,
+    "n": 1277,
+    "pushes": 13,
+    "rate": 0.47376664056382145,
+    "ub": 0.501190551885646,
+    "wins": 605
+   },
+   "shift": 0.0
+  },
+  "team_corr": {
+   "T": 4,
+   "family": "team",
+   "selection_best": {
+    "T": 4,
+    "lb": 0.4953854735802377,
+    "n": 966,
+    "pushes": 14,
+    "rate": 0.5269151138716356,
+    "ub": 0.5582315294437612,
+    "wins": 509
+   },
+   "shift": 0.3115843499393049
+  },
+  "team_raw": {
+   "T": 4,
+   "family": "team",
+   "selection_best": {
+    "T": 4,
+    "lb": 0.5031291682159399,
+    "n": 967,
+    "pushes": 12,
+    "rate": 0.5346432264736298,
+    "ub": 0.5658831196794284,
+    "wins": 517
+   },
+   "shift": 0.0
+  }
+ },
+ "player": {
+  "shift": -2.8063226907994125,
+  "version": {
+   "opp": true,
+   "pace": false,
+   "q": 0.5
+  },
+  "version_index": 2
+ },
+ "player_model_sha256": "56d758da3ca97251c9ca7f241ac9a8f56f059246c451c1b1aca4e573cb6338a4",
+ "preregistration": "reports/output/nba_formula_accuracy/PREREGISTRATION.md",
+ "primary": "team_raw",
+ "selection_seasons": [
+  "2022-23",
+  "2023-24"
+ ],
+ "team": {
+  "flat": 7791,
+  "names": {
+   "A": "w0.5",
+   "B": "own",
+   "C": "decay5",
+   "D": "0",
+   "E": "on",
+   "F": "none",
+   "G": "on",
+   "H": "on"
+  },
+  "shift": 0.3115843499393049,
+  "spec": [
+   2,
+   0,
+   1,
+   0,
+   1,
+   0,
+   1,
+   1
+  ]
+ },
+ "threshold_rule": "disagreement vs the sportsbook consensus close; pushes excluded; Wilson 95% LB"
+}

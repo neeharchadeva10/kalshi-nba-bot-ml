@@ -1,0 +1,512 @@
+{
+ "generated_utc": "2026-10-23T22:04:01+00:00",
+ "series_meta": {
+  "KXNFLTOTAL": {
+   "fee_type": "quadratic_with_maker_fees",
+   "fee_multiplier": 1,
+   "overtime_text": "(no overtime statement in series metadata; see per-market rules_primary)"
+  },
+  "KXNFLTEAMTOTAL": {
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "overtime_text": "(no overtime statement in series metadata; see per-market rules_primary)"
+  },
+  "KXNFL1HTOTAL": {
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "overtime_text": "**Important information:** Only points scored during the 1st and 2nd quarter count towards this market."
+  },
+  "KXNFL2HTOTAL": {
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "overtime_text": "**Important information:** 2nd half markets include overtime. Points scored during the 3rd and 4th quarter as well as any overtime periods count towards this market."
+  }
+ },
+ "n_markets_by_series": {
+  "KXNFLTOTAL": 2000
+ },
+ "strike_types": [
+  {
+   "series": "KXNFLTOTAL",
+   "strike_type": "greater",
+   "n": 2000
+  }
+ ],
+ "match_status_by_series": [
+  {
+   "series": "KXNFLTOTAL",
+   "status": "matched",
+   "n": 97
+  },
+  {
+   "series": "KXNFLTOTAL",
+   "status": "no_nflverse_game",
+   "n": 32
+  }
+ ],
+ "unmatched_events": [
+  {
+   "event_ticker": "KXNFLTOTAL-26AUG06CARARI",
+   "series": "KXNFLTOTAL",
+   "status": "no_nflverse_game",
+   "n_markets": 21
+  },
+  {
+   "event_ticker": "KXNFLTOTAL-26AUG13ARILV",
+   "series": "KXNFLTOTAL",
+   "status": "no_nflverse_game",
+   "n_markets": 19
+  },
+  {
+   "event_ticker": "KXNFLTOTAL-26AUG13DETCIN",
+   "series": "KXNFLTOTAL",
+   "status": "no_nflverse_game",
+   "n_markets": 19
+  },
+  {
+   "event_ticker": "KXNFLTOTAL-26AUG13GBPIT",
+   "series": "KXNFLTOTAL",
+   "status": "no_nflverse_game",
+   "n_markets": 19
+  },
+  {
+   "event_ticker": "KXNFLTOTAL-26AUG13INDNE",
+   "series": "KXNFLTOTAL",
+   "status": "no_nflverse_game",
+   "n_markets": 19
+  },
+  {
+   "event_ticker": "KXNFLTOTAL-26AUG13LACHOU",
+   "series": "KXNFLTOTAL",
+   "status": "no_nflverse_game",
+   "n_markets": 19
+  },
+  {
+   "event_ticker": "KXNFLTOTAL-26AUG13TENSF",
+   "series": "KXNFLTOTAL",
+   "status": "no_nflverse_game",
+   "n_markets": 19
+  },
+  {
+   "event_ticker": "KXNFLTOTAL-26AUG14DENATL",
+   "series": "KXNFLTOTAL",
+   "status": "no_nflverse_game",
+   "n_markets": 19
+  },
+  {
+   "event_ticker": "KXNFLTOTAL-26AUG14MIAWAS",
+   "series": "KXNFLTOTAL",
+   "status": "no_nflverse_game",
+   "n_markets": 19
+  },
+  {
+   "event_ticker": "KXNFLTOTAL-26AUG14TBNYJ",
+   "series": "KXNFLTOTAL",
+   "status": "no_nflverse_game",
+   "n_markets": 19
+  },
+  {
+   "event_ticker": "KXNFLTOTAL-26AUG15CARBUF",
+   "series": "KXNFLTOTAL",
+   "status": "no_nflverse_game",
+   "n_markets": 19
+  },
+  {
+   "event_ticker": "KXNFLTOTAL-26AUG15CLECHI",
+   "series": "KXNFLTOTAL",
+   "status": "no_nflverse_game",
+   "n_markets": 19
+  },
+  {
+   "event_ticker": "KXNFLTOTAL-26AUG15DALSEA",
+   "series": "KXNFLTOTAL",
+   "status": "no_nflverse_game",
+   "n_markets": 19
+  },
+  {
+   "event_ticker": "KXNFLTOTAL-26AUG15JACNO",
+   "series": "KXNFLTOTAL",
+   "status": "no_nflverse_game",
+   "n_markets": 19
+  },
+  {
+   "event_ticker": "KXNFLTOTAL-26AUG15LARKC",
+   "series": "KXNFLTOTAL",
+   "status": "no_nflverse_game",
+   "n_markets": 19
+  },
+  {
+   "event_ticker": "KXNFLTOTAL-26AUG15MINNYG",
+   "series": "KXNFLTOTAL",
+   "status": "no_nflverse_game",
+   "n_markets": 19
+  },
+  {
+   "event_ticker": "KXNFLTOTAL-26AUG15PHIBAL",
+   "series": "KXNFLTOTAL",
+   "status": "no_nflverse_game",
+   "n_markets": 19
+  },
+  {
+   "event_ticker": "KXNFLTOTAL-26AUG20LVHOU",
+   "series": "KXNFLTOTAL",
+   "status": "no_nflverse_game",
+   "n_markets": 19
+  },
+  {
+   "event_ticker": "KXNFLTOTAL-26AUG20SFLAC",
+   "series": "KXNFLTOTAL",
+   "status": "no_nflverse_game",
+   "n_markets": 19
+  },
+  {
+   "event_ticker": "KXNFLTOTAL-26AUG21CARJAC",
+   "series": "KXNFLTOTAL",
+   "status": "no_nflverse_game",
+   "n_markets": 19
+  },
+  {
+   "event_ticker": "KXNFLTOTAL-26AUG21GBDEN",
+   "series": "KXNFLTOTAL",
+   "status": "no_nflverse_game",
+   "n_markets": 19
+  },
+  {
+   "event_ticker": "KXNFLTOTAL-26AUG21NYJPIT",
+   "series": "KXNFLTOTAL",
+   "status": "no_nflverse_game",
+   "n_markets": 19
+  },
+  {
+   "event_ticker": "KXNFLTOTAL-26AUG22ATLIND",
+   "series": "KXNFLTOTAL",
+   "status": "no_nflverse_game",
+   "n_markets": 19
+  },
+  {
+   "event_ticker": "KXNFLTOTAL-26AUG22BALMIN",
+   "series": "KXNFLTOTAL",
+   "status": "no_nflverse_game",
+   "n_markets": 19
+  },
+  {
+   "event_ticker": "KXNFLTOTAL-26AUG22BUFCLE",
+   "series": "KXNFLTOTAL",
+   "status": "no_nflverse_game",
+   "n_markets": 19
+  },
+  {
+   "event_ticker": "KXNFLTOTAL-26AUG22CHICIN",
+   "series": "KXNFLTOTAL",
+   "status": "no_nflverse_game",
+   "n_markets": 19
+  },
+  {
+   "event_ticker": "KXNFLTOTAL-26AUG22DALARI",
+   "series": "KXNFLTOTAL",
+   "status": "no_nflverse_game",
+   "n_markets": 19
+  },
+  {
+   "event_ticker": "KXNFLTOTAL-26AUG22KCTB",
+   "series": "KXNFLTOTAL",
+   "status": "no_nflverse_game",
+   "n_markets": 19
+  },
+  {
+   "event_ticker": "KXNFLTOTAL-26AUG22NOLAR",
+   "series": "KXNFLTOTAL",
+   "status": "no_nflverse_game",
+   "n_markets": 19
+  },
+  {
+   "event_ticker": "KXNFLTOTAL-26AUG22NYGMIA",
+   "series": "KXNFLTOTAL",
+   "status": "no_nflverse_game",
+   "n_markets": 19
+  },
+  {
+   "event_ticker": "KXNFLTOTAL-26AUG22PHINE",
+   "series": "KXNFLTOTAL",
+   "status": "no_nflverse_game",
+   "n_markets": 19
+  },
+  {
+   "event_ticker": "KXNFLTOTAL-26AUG22WASDET",
+   "series": "KXNFLTOTAL",
+   "status": "no_nflverse_game",
+   "n_markets": 19
+  }
+ ],
+ "order_mismatch_events": [],
+ "match_method_counts": {
+  "exact_date": 96,
+  "date-1": 1
+ },
+ "events_by_season_week": [
+  {
+   "season": 2025.0,
+   "week": 17.0,
+   "n_events": 13
+  },
+  {
+   "season": 2025.0,
+   "week": 18.0,
+   "n_events": 16
+  },
+  {
+   "season": 2025.0,
+   "week": 19.0,
+   "n_events": 6
+  },
+  {
+   "season": 2025.0,
+   "week": 20.0,
+   "n_events": 4
+  },
+  {
+   "season": 2025.0,
+   "week": 21.0,
+   "n_events": 2
+  },
+  {
+   "season": 2025.0,
+   "week": 22.0,
+   "n_events": 1
+  },
+  {
+   "season": 2026.0,
+   "week": 4.0,
+   "n_events": 11
+  },
+  {
+   "season": 2026.0,
+   "week": 5.0,
+   "n_events": 15
+  },
+  {
+   "season": 2026.0,
+   "week": 6.0,
+   "n_events": 14
+  },
+  {
+   "season": 2026.0,
+   "week": 7.0,
+   "n_events": 14
+  },
+  {
+   "season": 2026.0,
+   "week": 8.0,
+   "n_events": 1
+  }
+ ],
+ "markets_by_season_week": [
+  {
+   "season": 2025.0,
+   "week": 17.0,
+   "n_markets": 113
+  },
+  {
+   "season": 2025.0,
+   "week": 18.0,
+   "n_markets": 144
+  },
+  {
+   "season": 2025.0,
+   "week": 19.0,
+   "n_markets": 54
+  },
+  {
+   "season": 2025.0,
+   "week": 20.0,
+   "n_markets": 36
+  },
+  {
+   "season": 2025.0,
+   "week": 21.0,
+   "n_markets": 25
+  },
+  {
+   "season": 2025.0,
+   "week": 22.0,
+   "n_markets": 18
+  },
+  {
+   "season": 2026.0,
+   "week": 4.0,
+   "n_markets": 130
+  },
+  {
+   "season": 2026.0,
+   "week": 5.0,
+   "n_markets": 298
+  },
+  {
+   "season": 2026.0,
+   "week": 6.0,
+   "n_markets": 285
+  },
+  {
+   "season": 2026.0,
+   "week": 7.0,
+   "n_markets": 268
+  },
+  {
+   "season": 2026.0,
+   "week": 8.0,
+   "n_markets": 19
+  }
+ ],
+ "games_per_season_vs_nflverse": {
+  "2025": {
+   "nflverse_games_in_kalshi_date_range": 45,
+   "with_primary_event": 42,
+   "missing_game_ids": [
+    "2025_17_DET_MIN",
+    "2025_17_DEN_KC",
+    "2025_17_TB_MIA"
+   ]
+  },
+  "2026": {
+   "nflverse_games_in_kalshi_date_range": 108,
+   "with_primary_event": 55,
+   "missing_game_ids": [
+    "2026_01_NE_SEA",
+    "2026_01_SF_LA",
+    "2026_01_CHI_CAR",
+    "2026_01_TB_CIN",
+    "2026_01_NO_DET",
+    "2026_01_BUF_HOU",
+    "2026_01_BAL_IND",
+    "2026_01_CLE_JAX",
+    "2026_01_ATL_PIT",
+    "2026_01_NYJ_TEN",
+    "2026_01_ARI_LAC",
+    "2026_01_MIA_LV",
+    "2026_01_GB_MIN",
+    "2026_01_WAS_PHI",
+    "2026_01_DAL_NYG",
+    "2026_01_DEN_KC",
+    "2026_02_DET_BUF",
+    "2026_02_CAR_ATL",
+    "2026_02_NO_BAL",
+    "2026_02_MIN_CHI",
+    "2026_02_CIN_HOU",
+    "2026_02_PIT_NE",
+    "2026_02_GB_NYJ",
+    "2026_02_CLE_TB",
+    "2026_02_PHI_TEN",
+    "2026_02_JAX_DEN",
+    "2026_02_LV_LAC",
+    "2026_02_SEA_ARI",
+    "2026_02_WAS_DAL",
+    "2026_02_MIA_SF",
+    "2026_02_IND_KC",
+    "2026_02_NYG_LA",
+    "2026_03_ATL_GB",
+    "2026_03_LAC_BUF",
+    "2026_03_CAR_CLE",
+    "2026_03_NYJ_DET",
+    "2026_03_HOU_IND",
+    "2026_03_NE_JAX",
+    "2026_03_KC_MIA",
+    "2026_03_TEN_NYG",
+    "2026_03_CIN_PIT",
+    "2026_03_SEA_WAS",
+    "2026_03_ARI_SF",
+    "2026_03_MIN_TB",
+    "2026_03_BAL_DAL",
+    "2026_03_LV_NO",
+    "2026_03_LA_DEN",
+    "2026_03_PHI_CHI",
+    "2026_04_NE_BUF",
+    "2026_04_NYJ_CHI",
+    "2026_04_JAX_CIN",
+    "2026_04_LA_PHI",
+    "2026_04_LAC_SEA"
+   ]
+  }
+ },
+ "strikes_per_game_primary": {
+  "min": 2,
+  "median": 19.0,
+  "max": 25,
+  "n_games": 129
+ },
+ "duplicate_tickers_in_table": 0,
+ "duplicate_event_strike_rows": 0,
+ "duplicate_primary_event_strike_rows": 0,
+ "cross_tier_duplicates": [],
+ "settlement_bracket": {
+  "events_checked": 83,
+  "of_which_overtime": 7,
+  "n_disagreements": 0,
+  "disagreements": [],
+  "expiration_value_empty_markets": 311,
+  "expiration_value_rule_violating_markets": 14,
+  "expiration_value_violating_events": [
+   {
+    "event_ticker": "KXNFLTOTAL-26FEB08SEANE",
+    "game_id": "2025_22_SEA_NE",
+    "nflverse_total": 42.0,
+    "overtime": 0,
+    "bad_markets": [
+     {
+      "floor": 24.5,
+      "result": "yes",
+      "expiration_value": "Yes",
+      "why": "non-numeric"
+     },
+     {
+      "floor": 67.5,
+      "result": "no",
+      "expiration_value": "No",
+      "why": "non-numeric"
+     },
+     {
+      "floor": 47.5,
+      "result": "no",
+      "expiration_value": "No",
+      "why": "non-numeric"
+     },
+     {
+      "floor": 45.5,
+      "result": "no",
+      "expiration_value": "No",
+      "why": "non-numeric"
+     },
+     {
+      "floor": 64.5,
+      "result": "no",
+      "expiration_value": "No",
+      "why": "non-numeric"
+     },
+     {
+      "floor": 61.5,
+      "result": "no",
+      "expiration_value": "No",
+      "why": "non-numeric"
+     }
+    ],
+    "n_bad": 14
+   }
+  ]
+ },
+ "candles": {
+  "markets_fetched_ok": 2,
+  "markets_empty_window(opened after kickoff+15m)": 0,
+  "markets_fetched_but_no_1h_candles": [],
+  "markets_fetched_but_no_1m_candles": [],
+  "n_1h_rows": 297,
+  "n_1m_rows": 163,
+  "markets_never_attempted_or_no_kickoff": 1998
+ },
+ "coverage_summary": {
+  "share_2sided_exact_24h": 0.0010309278350515464,
+  "share_2sided_ffill_24h": 0.0010309278350515464,
+  "share_2sided_exact_3h": 0.0010309278350515464,
+  "share_2sided_ffill_3h": 0.0010309278350515464,
+  "share_2sided_exact_1h": 0.0010309278350515464,
+  "share_2sided_ffill_1h": 0.0010309278350515464
+ }
+}

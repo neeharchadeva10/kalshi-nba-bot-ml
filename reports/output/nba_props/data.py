@@ -262,26 +262,85 @@ def decision_candle(candles, tip_ts: int):
     return best
 
 
+SHARED_SELECTION = ROOT / "reports" / "output" / "nba_teammate_out" / "selection.csv"       # #48: PTS/REB/AST, 2 strikes per player-game
+SHARED_CANDLES = ROOT / "data" / "raw" / "kalshi_props_hourly"                              # #48's raw cache
+THREES_SELECTION = HERE / "threes_selection.csv"                                              # #36 job 1: 3PT, same rule
+THREES_CANDLES = ROOT / "data" / "raw" / "kalshi_props_hourly_3pt"
+
+
+def candle_file(stat: str, ticker: str, game_date: str) -> Path:
+    base = THREES_CANDLES if stat == "3PT" else SHARED_CANDLES
+    return base / game_date / f"{ticker}.json.gz"
+
+
+def parse_candles(resp):
+    """Raw hourly-candle response -> [(end_ts, yes_bid close, yes_ask close, volume)] (None where the side has no close)."""
+    out = []
+    for c in (resp or {}).get("candlesticks", []) or []:
+        def g(side):
+            v = (c.get(side) or {}).get("close")
+            return float(v) if v not in (None, "") else None
+        vol = c.get("volume")
+        out.append((int(c["end_period_ts"]), g("yes_bid"), g("yes_ask"), float(vol) if vol not in (None, "") else 0.0))
+    return out
+
+
+def read_cached_candles(path: Path):
+    """None if not downloaded; [] for a cached 404 / empty response; else the parsed candles."""
+    import gzip
+    if not path.exists():
+        return None
+    with gzip.open(path, "rt", encoding="utf-8") as fh:
+        rec = json.load(fh)
+    return parse_candles(rec.get("response"))
+
+
+def read_selected_tickers():
+    """{ticker} of the downloaded-price scope: #48's PTS/REB/AST selection plus the 3PT selection (2 strikes per player-stat-game)."""
+    import csv
+    sel = set()
+    for p in (SHARED_SELECTION, THREES_SELECTION):
+        if p.exists():
+            with p.open() as fh:
+                sel.update(r["ticker"] for r in csv.DictReader(fh))
+    return sel
+
+
+def download_status():
+    """-> dict(selected, cached, missing) over both selections (file existence only; no content read)."""
+    import csv
+    out = {}
+    for name, p, base in (("pts_reb_ast", SHARED_SELECTION, SHARED_CANDLES), ("3pt", THREES_SELECTION, THREES_CANDLES)):
+        n = c = 0
+        if p.exists():
+            with p.open() as fh:
+                for r in csv.DictReader(fh):
+                    n += 1
+                    c += (base / r["game_date"] / f"{r['ticker']}.json.gz").exists()
+        out[name] = {"selected": n, "cached": c, "missing": n - c}
+    return out
+
+
 def load_markets(db: Path | None = None):
-    """-> list of dicts (one per market, all four series) with the T-1h quote attached (bid/ask None if no valid quote)."""
+    """-> list of dicts (one per market, all four series) with the T-1h quote attached (bid/ask None if no valid quote).
+    Prices come ONLY from the shared raw caches of the 2-strike selections; a market outside the selection (or selected but not
+    cached) has downloaded=False and is counted as "not downloaded" (it is never given a price)."""
     sys.path.insert(0, str(HERE))
     import collect as C
     conn = sqlite3.connect(f"file:{(db or DB).as_posix()}?mode=ro", uri=True)
     tips = C.game_tips()
-    q = defaultdict(list)
-    for t, e, b, a, v in conn.execute("SELECT ticker, end_ts, bid, ask, volume FROM q"):
-        q[t].append((e, b, a, v))
-    done = {t: n for t, n in conn.execute("SELECT ticker, n FROM done")}
+    selected = read_selected_tickers()
     out = []
     for (t, s, stat, gd, gc, team, pk, pname, fs, res, status, occ, exp) in conn.execute(
             "SELECT ticker, series, stat, game_date, game_code, team, player_key, player_name, floor_strike, result, status, "
             "occ_ts, exp_ts FROM mk ORDER BY game_date, ticker"):
         tip, src = C.tip_of(gd, gc, occ, exp, tips)
-        c = decision_candle(q.get(t, []), tip) if tip is not None else None
+        candles = read_cached_candles(candle_file(stat, t, gd)) if t in selected else None
+        c = decision_candle(candles, tip) if (candles and tip is not None) else None
         bid, ask = (c[1], c[2]) if c else (None, None)
         out.append({"ticker": t, "stat": stat, "game_date": gd, "game_code": gc, "team": team, "player_key": pk,
                     "player_name": pname, "strike": int(round(fs + 0.5)) if fs is not None else None, "result": res,
-                    "tip": tip, "tip_src": src, "downloaded": t in done, "n_candles": done.get(t),
+                    "tip": tip, "tip_src": src, "downloaded": candles is not None, "n_candles": None if candles is None else len(candles),
                     "has_candle": c is not None, "cand_end": c[0] if c else None,
                     "age_min": (tip - 3600 - c[0]) / 60 if (c and tip is not None) else None, "volume_c": c[3] if c else None,
                     "bid": bid if valid_quote(bid, ask) else None, "ask": ask if valid_quote(bid, ask) else None,

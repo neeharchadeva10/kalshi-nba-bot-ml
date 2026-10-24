@@ -1,0 +1,41 @@
+trade jobs 2236
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/trades; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/trades; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/trades; retry in 1.0s
+200/2236 elapsed 150s eta 1529s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/trades; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/trades; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/trades; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/trades; retry in 1.0s
+400/2236 elapsed 297s eta 1364s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/trades; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/trades; retry in 1.0s
+600/2236 elapsed 441s eta 1202s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/trades; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/trades; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/trades; retry in 1.0s
+800/2236 elapsed 584s eta 1049s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/trades; retry in 1.0s
+1000/2236 elapsed 728s eta 900s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/trades; retry in 1.0s
+1200/2236 elapsed 877s eta 757s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/trades; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/trades; retry in 1.0s
+1400/2236 elapsed 1021s eta 610s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/trades; retry in 1.0s
+1600/2236 elapsed 1163s eta 462s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/trades; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/trades; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/trades; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/trades; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/trades; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/trades; retry in 1.0s
+1800/2236 elapsed 1313s eta 318s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/trades; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/trades; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/trades; retry in 1.0s
+2000/2236 elapsed 1481s eta 175s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/trades; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/trades; retry in 1.0s
+2200/2236 elapsed 1628s eta 27s
+DONE 2236 {'hits': 0, 'fetches': 2286, 'retries': 28}

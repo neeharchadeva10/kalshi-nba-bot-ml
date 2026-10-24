@@ -1,0 +1,11 @@
+version
+A|E1|none|G2|Q+EARLY
+A|E1|none|G4|none
+A|E1|none|G8|Q+NEW
+A|E1|rolling|G2|Q+NEW
+A|E3|none|G2|Q+EARLY
+A|E3|none|G8|Q
+A|E3|none|G8|Q+EARLY
+A|E3|rolling|G2|none
+A|F42|none|G6|none
+A|F42|rolling|G6|none

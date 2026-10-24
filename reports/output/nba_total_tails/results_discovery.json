@@ -1,0 +1,503 @@
+{
+ "split": "discovery",
+ "dates": [
+  "2025-10-21",
+  "2026-01-22"
+ ],
+ "games_with_ingame_records": 648,
+ "game_checkpoint_records": {
+  "T-1h": 664,
+  "HT": 644,
+  "Q3": 642
+ },
+ "game_level_skips": {
+  "bad_wallclock": 14,
+  "no_decision_candle_HT": 4,
+  "no_decision_candle_Q3": 6,
+  "no_pbp_match": 1,
+  "no_pbp_rows": 1
+ },
+ "versions": [
+  {
+   "cp": "T-1h",
+   "band": 0.05,
+   "tail": "over",
+   "n": 0,
+   "win": null,
+   "mean_entry": null,
+   "mean": null,
+   "sd": null,
+   "lb": null
+  },
+  {
+   "cp": "T-1h",
+   "band": 0.05,
+   "tail": "under",
+   "n": 0,
+   "win": null,
+   "mean_entry": null,
+   "mean": null,
+   "sd": null,
+   "lb": null
+  },
+  {
+   "cp": "T-1h",
+   "band": 0.1,
+   "tail": "over",
+   "n": 0,
+   "win": null,
+   "mean_entry": null,
+   "mean": null,
+   "sd": null,
+   "lb": null
+  },
+  {
+   "cp": "T-1h",
+   "band": 0.1,
+   "tail": "under",
+   "n": 6,
+   "win": 1.0,
+   "mean_entry": 0.94,
+   "mean": 0.05600000000000003,
+   "sd": 0.010297184081097093,
+   "lb": 0.047760536716508824
+  },
+  {
+   "cp": "HT",
+   "band": 0.05,
+   "tail": "over",
+   "n": 65,
+   "win": 0.9692307692307692,
+   "mean_entry": 0.9830769230769231,
+   "mean": -0.015030769230769217,
+   "sd": 0.17533399816767295,
+   "lb": -0.05765588084806569
+  },
+  {
+   "cp": "HT",
+   "band": 0.05,
+   "tail": "under",
+   "n": 96,
+   "win": 0.9270833333333334,
+   "mean_entry": 0.9833333333333334,
+   "mean": -0.05741666666666665,
+   "sd": 0.2613360231243602,
+   "lb": -0.10969475915846752
+  },
+  {
+   "cp": "HT",
+   "band": 0.1,
+   "tail": "over",
+   "n": 141,
+   "win": 0.9290780141843972,
+   "mean_entry": 0.9549645390070922,
+   "mean": -0.02891489361702125,
+   "sd": 0.26030389106804985,
+   "lb": -0.07188111631413467
+  },
+  {
+   "cp": "HT",
+   "band": 0.1,
+   "tail": "under",
+   "n": 163,
+   "win": 0.9447852760736196,
+   "mean_entry": 0.9577914110429449,
+   "mean": -0.01585092024539875,
+   "sd": 0.22835216558405066,
+   "lb": -0.05090732735973201
+  },
+  {
+   "cp": "Q3",
+   "band": 0.05,
+   "tail": "over",
+   "n": 95,
+   "win": 0.9578947368421052,
+   "mean_entry": 0.9830526315789474,
+   "mean": -0.026344210526315776,
+   "sd": 0.20336994888562676,
+   "lb": -0.06724023087049398
+  },
+  {
+   "cp": "Q3",
+   "band": 0.05,
+   "tail": "under",
+   "n": 75,
+   "win": 0.96,
+   "mean_entry": 0.9856,
+   "mean": -0.02660799999999999,
+   "sd": 0.19822547751269295,
+   "lb": -0.07147064885846058
+  },
+  {
+   "cp": "Q3",
+   "band": 0.1,
+   "tail": "over",
+   "n": 168,
+   "win": 0.9285714285714286,
+   "mean_entry": 0.9564880952380952,
+   "mean": -0.030844047619047597,
+   "sd": 0.25942213851632046,
+   "lb": -0.07007315854589771
+  },
+  {
+   "cp": "Q3",
+   "band": 0.1,
+   "tail": "under",
+   "n": 154,
+   "win": 0.8961038961038961,
+   "mean_entry": 0.9643506493506493,
+   "mean": -0.07066883116883114,
+   "sd": 0.30640340480016653,
+   "lb": -0.1190625835381647
+  }
+ ],
+ "n_eligible_n_ge_60": 8,
+ "selected": {
+  "cp": "HT",
+  "band": 0.1,
+  "tail": "under",
+  "n": 163,
+  "win": 0.9447852760736196,
+  "mean_entry": 0.9577914110429449,
+  "mean": -0.01585092024539875,
+  "sd": 0.22835216558405066,
+  "lb": -0.05090732735973201
+ },
+ "luck_test": {
+  "real_best_lb": -0.05090732735973201,
+  "reps": 500,
+  "seed": 20261022,
+  "share_reps_ge_real": 0.64,
+  "rep_best_lb_mean": -0.045889998249543,
+  "rep_best_lb_p95": -0.026748050533878187,
+  "verdict": "FAIL"
+ },
+ "selected_loss_streak": {
+  "worst_loss_streak": 1,
+  "max_drawdown_dollars": 4.959499999999999,
+  "n": 163
+ },
+ "calibration": [
+  {
+   "bucket": "0-2c",
+   "n": 98,
+   "yes_rate": 0.0,
+   "mean_mid": 0.009846938775510211,
+   "yes_rate_minus_mid": -0.009846938775510211,
+   "n_spread_le_10c": 98,
+   "yes_rate_spread_le_10c": 0.0
+  },
+  {
+   "bucket": "2-5c",
+   "n": 512,
+   "yes_rate": 0.01953125,
+   "mean_mid": 0.034199218749999906,
+   "yes_rate_minus_mid": -0.014667968749999906,
+   "n_spread_le_10c": 512,
+   "yes_rate_spread_le_10c": 0.01953125
+  },
+  {
+   "bucket": "5-10c",
+   "n": 936,
+   "yes_rate": 0.05555555555555555,
+   "mean_mid": 0.07188034188034183,
+   "yes_rate_minus_mid": -0.016324786324786275,
+   "n_spread_le_10c": 713,
+   "yes_rate_spread_le_10c": 0.061711079943899017
+  },
+  {
+   "bucket": "10-15c",
+   "n": 878,
+   "yes_rate": 0.06150341685649203,
+   "mean_mid": 0.12216970387243706,
+   "yes_rate_minus_mid": -0.06066628701594503,
+   "n_spread_le_10c": 323,
+   "yes_rate_spread_le_10c": 0.0804953560371517
+  },
+  {
+   "bucket": "85-90c",
+   "n": 745,
+   "yes_rate": 0.9073825503355705,
+   "mean_mid": 0.8733758389261749,
+   "yes_rate_minus_mid": 0.034006711409395596,
+   "n_spread_le_10c": 301,
+   "yes_rate_spread_le_10c": 0.8837209302325582
+  },
+  {
+   "bucket": "90-95c",
+   "n": 813,
+   "yes_rate": 0.9360393603936039,
+   "mean_mid": 0.9230627306273013,
+   "yes_rate_minus_mid": 0.01297662976630265,
+   "n_spread_le_10c": 514,
+   "yes_rate_spread_le_10c": 0.9280155642023347
+  },
+  {
+   "bucket": "95-98c",
+   "n": 600,
+   "yes_rate": 0.97,
+   "mean_mid": 0.9633833333333373,
+   "yes_rate_minus_mid": 0.006616666666662718,
+   "n_spread_le_10c": 600,
+   "yes_rate_spread_le_10c": 0.97
+  },
+  {
+   "bucket": "98-100c",
+   "n": 741,
+   "yes_rate": 0.9946018893387314,
+   "mean_mid": 0.9901956815114779,
+   "yes_rate_minus_mid": 0.004406207827253539,
+   "n_spread_le_10c": 741,
+   "yes_rate_spread_le_10c": 0.9946018893387314
+  }
+ ],
+ "band_counts": {
+  "T-1h": {
+   "game_checkpoints": 664,
+   "over_0.05_any_strike_in_band": 0,
+   "over_0.05_bet_eligible": 0,
+   "over_0.10_any_strike_in_band": 0,
+   "over_0.10_bet_eligible": 0,
+   "under_0.05_any_strike_in_band": 0,
+   "under_0.05_bet_eligible": 0,
+   "under_0.10_any_strike_in_band": 6,
+   "under_0.10_bet_eligible": 6
+  },
+  "HT": {
+   "game_checkpoints": 644,
+   "over_0.05_any_strike_in_band": 89,
+   "over_0.05_bet_eligible": 65,
+   "over_0.10_any_strike_in_band": 214,
+   "over_0.10_bet_eligible": 141,
+   "under_0.05_any_strike_in_band": 160,
+   "under_0.05_bet_eligible": 96,
+   "under_0.10_any_strike_in_band": 252,
+   "under_0.10_bet_eligible": 163
+  },
+  "Q3": {
+   "game_checkpoints": 642,
+   "over_0.05_any_strike_in_band": 161,
+   "over_0.05_bet_eligible": 95,
+   "over_0.10_any_strike_in_band": 276,
+   "over_0.10_bet_eligible": 168,
+   "under_0.05_any_strike_in_band": 247,
+   "under_0.05_bet_eligible": 75,
+   "under_0.10_any_strike_in_band": 315,
+   "under_0.10_bet_eligible": 154
+  }
+ },
+ "tail_spread_and_age": {
+  "T-1h|over|0.05": {
+   "chosen_spread": {
+    "n": 0
+   },
+   "chosen_quote_age_s": {
+    "n": 0
+   }
+  },
+  "HT|over|0.05": {
+   "chosen_spread": {
+    "n": 89,
+    "mean": 0.042471910112359554,
+    "median": 0.04,
+    "p90": 0.07,
+    "max": 0.1
+   },
+   "chosen_quote_age_s": {
+    "n": 89,
+    "mean": 72.13483146067416,
+    "median": 0.0,
+    "p90": 120.0,
+    "max": 2880.0
+   }
+  },
+  "Q3|over|0.05": {
+   "chosen_spread": {
+    "n": 161,
+    "mean": 0.04490683229813665,
+    "median": 0.04,
+    "p90": 0.08,
+    "max": 0.1
+   },
+   "chosen_quote_age_s": {
+    "n": 161,
+    "mean": 23.47826086956522,
+    "median": 0.0,
+    "p90": 60.0,
+    "max": 660.0
+   }
+  },
+  "T-1h|over|0.10": {
+   "chosen_spread": {
+    "n": 0
+   },
+   "chosen_quote_age_s": {
+    "n": 0
+   }
+  },
+  "HT|over|0.10": {
+   "chosen_spread": {
+    "n": 214,
+    "mean": 0.07827102803738317,
+    "median": 0.07,
+    "p90": 0.15,
+    "max": 0.18
+   },
+   "chosen_quote_age_s": {
+    "n": 214,
+    "mean": 49.06542056074766,
+    "median": 0.0,
+    "p90": 102.00000000000102,
+    "max": 2880.0
+   }
+  },
+  "Q3|over|0.10": {
+   "chosen_spread": {
+    "n": 276,
+    "mean": 0.08105072463768116,
+    "median": 0.07,
+    "p90": 0.16,
+    "max": 0.2
+   },
+   "chosen_quote_age_s": {
+    "n": 276,
+    "mean": 41.52173913043478,
+    "median": 0.0,
+    "p90": 0.0,
+    "max": 2940.0
+   }
+  },
+  "T-1h|under|0.05": {
+   "chosen_spread": {
+    "n": 0
+   },
+   "chosen_quote_age_s": {
+    "n": 0
+   }
+  },
+  "HT|under|0.05": {
+   "chosen_spread": {
+    "n": 160,
+    "mean": 0.0409375,
+    "median": 0.04,
+    "p90": 0.07099999999999995,
+    "max": 0.1
+   },
+   "chosen_quote_age_s": {
+    "n": 160,
+    "mean": 29.25,
+    "median": 0.0,
+    "p90": 60.0,
+    "max": 840.0
+   }
+  },
+  "Q3|under|0.05": {
+   "chosen_spread": {
+    "n": 247,
+    "mean": 0.04935222672064777,
+    "median": 0.05,
+    "p90": 0.08,
+    "max": 0.1
+   },
+   "chosen_quote_age_s": {
+    "n": 247,
+    "mean": 19.91902834008097,
+    "median": 0.0,
+    "p90": 60.0,
+    "max": 360.0
+   }
+  },
+  "T-1h|under|0.10": {
+   "chosen_spread": {
+    "n": 6,
+    "mean": 0.045000000000000005,
+    "median": 0.05,
+    "p90": 0.06,
+    "max": 0.06
+   },
+   "chosen_quote_age_s": {
+    "n": 6,
+    "mean": 290.0,
+    "median": 210.0,
+    "p90": 570.0,
+    "max": 660.0
+   }
+  },
+  "HT|under|0.10": {
+   "chosen_spread": {
+    "n": 252,
+    "mean": 0.07916666666666666,
+    "median": 0.07,
+    "p90": 0.16,
+    "max": 0.2
+   },
+   "chosen_quote_age_s": {
+    "n": 252,
+    "mean": 30.714285714285715,
+    "median": 0.0,
+    "p90": 120.0,
+    "max": 900.0
+   }
+  },
+  "Q3|under|0.10": {
+   "chosen_spread": {
+    "n": 315,
+    "mean": 0.0899047619047619,
+    "median": 0.08,
+    "p90": 0.18,
+    "max": 0.2
+   },
+   "chosen_quote_age_s": {
+    "n": 315,
+    "mean": 17.142857142857142,
+    "median": 0.0,
+    "p90": 60.0,
+    "max": 960.0
+   }
+  }
+ },
+ "bet_skip_reasons": {
+  "T-1h|over|0.05|no_strike_in_band": 664,
+  "T-1h|over|0.10|no_strike_in_band": 664,
+  "T-1h|under|0.05|no_strike_in_band": 664,
+  "T-1h|under|0.10|no_strike_in_band": 658,
+  "HT|over|0.05|no_strike_in_band": 555,
+  "HT|over|0.10|no_strike_in_band": 430,
+  "HT|under|0.05|no_strike_in_band": 484,
+  "HT|under|0.10|no_strike_in_band": 392,
+  "Q3|over|0.05|no_strike_in_band": 481,
+  "Q3|over|0.10|no_strike_in_band": 366,
+  "Q3|under|0.05|no_strike_in_band": 395,
+  "Q3|under|0.10|no_strike_in_band": 327,
+  "HT|over|0.10|None": 141,
+  "Q3|over|0.05|yes_bid_below_1c": 17,
+  "Q3|over|0.10|None": 168,
+  "Q3|under|0.05|None": 75,
+  "Q3|under|0.10|None": 154,
+  "HT|over|0.05|None": 65,
+  "Q3|over|0.05|None": 95,
+  "HT|under|0.05|entry_ge_995": 47,
+  "HT|under|0.10|None": 163,
+  "Q3|under|0.05|entry_ge_995": 93,
+  "HT|under|0.05|None": 96,
+  "HT|over|0.10|spread_gt_10c": 63,
+  "Q3|over|0.10|spread_gt_10c": 80,
+  "Q3|over|0.05|entry_ge_995": 49,
+  "Q3|under|0.10|entry_ge_995": 35,
+  "Q3|over|0.10|entry_ge_995": 19,
+  "HT|under|0.10|spread_gt_10c": 72,
+  "Q3|under|0.10|spread_gt_10c": 72,
+  "Q3|under|0.05|yes_ask_above_99c": 79,
+  "Q3|under|0.10|yes_ask_above_99c": 54,
+  "HT|over|0.05|entry_ge_995": 18,
+  "HT|over|0.10|entry_ge_995": 8,
+  "HT|under|0.05|yes_ask_above_99c": 17,
+  "HT|under|0.10|yes_ask_above_99c": 10,
+  "HT|over|0.05|yes_bid_below_1c": 6,
+  "HT|under|0.10|entry_ge_995": 7,
+  "T-1h|under|0.10|None": 6,
+  "Q3|over|0.10|yes_bid_below_1c": 9,
+  "HT|over|0.10|yes_bid_below_1c": 2
+ },
+ "pass_bar_note": "Pass bar items 1-3 apply to UNSEEN only; the discovery luck test must be PASS to proceed."
+}

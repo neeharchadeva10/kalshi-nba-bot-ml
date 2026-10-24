@@ -1,0 +1,25 @@
+{
+ "season": "2025-26",
+ "spec": [
+  4,
+  3,
+  1,
+  2,
+  0,
+  2,
+  1,
+  0
+ ],
+ "n_games": 1231,
+ "max_abs_diff_projection": 0.0,
+ "max_abs_diff_consts": {
+  "c_b2b": 0.0,
+  "e_cat": 0.0,
+  "b": 0.0
+ },
+ "ff_coef_max_diff": 0.0,
+ "frozen_constants_pair_diff": 0.0,
+ "runtime_s": 4.294947624206543,
+ "baseline37_max_diff_vs_lib_build_ratings": 0.009740077759943233,
+ "baseline37_nan_in_lib_build_ratings": 0
+}

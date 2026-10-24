@@ -1,7 +1,8 @@
-"""Research log #35 backtest: buy the NBA favourite late in Q4 (reports/output/nba_late_fav/PREREGISTRATION.md).
+"""Research log #35 backtest: buy the NBA favourite late in Q4 (reports/output/nba_late_fav/PREREGISTRATION.md, incl. Amendments).
 
-  python run.py smoke   # first 20 discovery games: per-game t_X, E_X, candle used, favourite, ask.  NO P&L, NO win rates, no results read.
-  python run.py final   # full run -> results.json, trades.csv, README.md  (only after the audit)
+  python run.py smoke      # first 20 discovery games: per-game t_X, E_X, candle used, favourite, ask.  NO P&L.
+  python run.py discovery  # 16 versions on the DISCOVERY half only + luck test -> results_discovery.json, discovery_versions.csv
+  python run.py unseen     # REFUSES unless reports/output/nba_late_fav/AUDIT_OK exists (created by the auditor, never by the builder)
 """
 from __future__ import annotations
 
@@ -22,7 +23,7 @@ import lib  # noqa: E402
 from lib import BANDS, COUNT, SEED, XS  # noqa: E402
 
 DB = HERE / "nlf.sqlite"
-sys.path.insert(0, str(HERE.parents[3] / "src"))
+sys.path.insert(0, str(HERE.parents[2] / "src"))
 from kpm.core.timeutil import ET  # noqa: E402
 
 
@@ -58,11 +59,15 @@ def week_key(ts):
 
 
 # ------------------------------------------------------------------------------------------------ per-version trades
-def run_version(games, series, prints, X, band_name):
+def run_version(games, series, prints, X, band_name, gi_range=None, fetched=None):
+    """All trades of one version over games[gi_range] (default all).  The split label comes from the FULL list length.
+    Games outside gi_range are never touched (their results are never read)."""
     lo, hi = BANDS[band_name]
     n_disc = split_index(len(games))
+    rng_ = range(*gi_range) if gi_range else range(len(games))
     trades, skips = [], Counter()
-    for gi, (et, ev, pg) in enumerate(games):
+    for gi in rng_:
+        et, ev, pg = games[gi]
         r = lib.decision(ev, series, pg, X, (lo, hi))
         if r["status"] == "skip":
             skips[r["reason"]] += 1
@@ -73,7 +78,8 @@ def run_version(games, series, prints, X, band_name):
             skips["no_result"] += 1
             continue
         win = res == "yes"
-        ask = r["ask"]
+        ask = r["ask"]                                  # displayed ask (fill check and band use this)
+        paid = lib.entry_price(ask)                     # ask + 1c slippage; the fee is on the paid price
         ticker = ev["markets"][team]
         conf, qty = lib.confirmed_fill(prints.get(ticker, []), r["E"], ask)
         away_k, home_k = lib.parse_event_ticker(et)[1:]
@@ -82,9 +88,10 @@ def run_version(games, series, prints, X, band_name):
         fav_margin = (hm if is_home else -hm) if hm is not None else None
         trades.append(dict(
             version=vname(X, band_name), gi=gi, split="discovery" if gi < n_disc else "unseen", event=et, tip=ev["tip"],
-            week=week_key(ev["tip"]), team=team, home=int(is_home), t_x=int(r["tX"]), e_x=int(r["E"]), ask=ask,
-            bid=r["bid"], spread=round(ask - r["bid"], 4), win=int(win), fee=lib.fee(ask), net_pc=lib.net_per_contract(ask, win),
-            net_usd=COUNT * lib.net_per_contract(ask, win), confirmed=int(conf), print_qty=qty, fav_margin=fav_margin,
+            week=week_key(ev["tip"]), team=team, home=int(is_home), t_x=int(r["tX"]), e_x=int(r["E"]), ask=ask, paid=paid,
+            bid=r["bid"], spread=round(ask - r["bid"], 4), win=int(win), fee=lib.fee(paid), net_pc=lib.net_per_contract(paid, win),
+            net_usd=COUNT * lib.net_per_contract(paid, win), confirmed=int(conf), print_qty=qty,
+            prints_fetched=int(fetched is None or (ticker, int(r["E"]) - 1) in fetched), fav_margin=fav_margin,
             season_type=pg.season_type, ot=int(pg.max_period > 4)))
     return trades, skips
 
@@ -107,53 +114,65 @@ def game_minutes(ev, series, pg):
             a = q[2] if q else float("nan")
             asks[t] = a
             res = ev["result"].get(t)
-            nets[t] = lib.net_per_contract(a, res == "yes") if (a == a and res in ("yes", "no")) else float("nan")
+            nets[t] = lib.net_per_contract(lib.entry_price(a), res == "yes") if (a == a and res in ("yes", "no")) else float("nan")
         out.append(dict(ts=ts, period=per, asks=asks, nets=nets))
     return out
 
 
-def coin_stats(trades, games, series, band_name, minutes_cache):
-    """For one version and split: matched (periods 1-3, +-1c) and plain (any in-game minute, ask in band) coin flips."""
-    lo, hi = BANDS[band_name]
-    res = {}
-    for split in ("discovery", "unseen"):
-        tr = [t for t in trades if t["split"] == split]
-        if not tr:
-            res[split] = dict(n_trades=0)
-            continue
-        real = float(np.mean([t["net_pc"] for t in tr]))
-        g_matched, g_plain = [], []
-        for t in tr:
-            et, ev, pg = games[t["gi"]]
-            if et not in minutes_cache:
-                minutes_cache[et] = game_minutes(ev, series, pg)
-            mins = minutes_cache[et]
+def band_of(version: str) -> str:
+    return version.split("_", 1)[1]
+
+
+def build_groups(games, series, trades_by_version):
+    """One pass over games (memory: one game's minute grid at a time).  For every real trade returns
+      matched[v][k] = candidate minutes (periods 1-3, a team's displayed ask within 1c of the real displayed ask), each a list of net
+                      values (slippage included, one per qualifying team);
+      plain[v][k]   = every in-game minute where a team's ask is inside the version's band."""
+    by_gi = defaultdict(list)
+    matched = {v: [None] * len(tr) for v, tr in trades_by_version.items()}
+    plain = {v: [None] * len(tr) for v, tr in trades_by_version.items()}
+    for v, tr in trades_by_version.items():
+        for k, t in enumerate(tr):
+            by_gi[t["gi"]].append((v, k, t))
+    for gi in sorted(by_gi):
+        et, ev, pg = games[gi]
+        mins = game_minutes(ev, series, pg)
+        for v, k, t in by_gi[gi]:
+            lo, hi = BANDS[band_of(v)]
             cm = defaultdict(list)
             for i, team in lib.coin_candidates_matched(mins, t["ask"], 0.01):
-                cm[i].append(mins[i]["nets"][team])
-            g_matched.append([v for k, v in sorted(cm.items())])
+                n = mins[i]["nets"][team]
+                if n == n:
+                    cm[i].append(n)
+            matched[v][k] = [x for _, x in sorted(cm.items())]
             pl = defaultdict(list)
             for i, m in enumerate(mins):
                 for team, a in m["asks"].items():
                     if a == a and lo - lib.EPS <= a <= hi + lib.EPS and m["nets"][team] == m["nets"][team]:
                         pl[i].append(m["nets"][team])
-            g_plain.append([v for k, v in sorted(pl.items())])
-        out = dict(n_trades=len(tr), real_mean_all=real)
-        for name, groups in (("matched_p1to3", g_matched), ("plain_random", g_plain)):
-            means, n_used = lib.coin_flip(groups, 500, SEED)
-            used = [t for t, g in zip(tr, groups) if g]
-            real_used = float(np.mean([t["net_pc"] for t in used])) if used else float("nan")
-            out[name] = dict(n_trades_with_candidates=n_used, n_trades_dropped=len(tr) - n_used,
-                             real_mean_same_trades=real_used,
-                             copy_mean_avg=float(means.mean()) if len(means) else None,
-                             copy_mean_p5_p95=[float(np.percentile(means, 5)), float(np.percentile(means, 95))] if len(means) else None,
-                             frac_copies_ge_real_all=float((means >= real).mean()) if len(means) else None,
-                             frac_copies_ge_real_same_trades=float((means >= real_used).mean()) if len(means) else None)
-        res[split] = out
-    return res
+            plain[v][k] = [x for _, x in sorted(pl.items())]
+        del mins
+    return matched, plain
 
 
-# ------------------------------------------------------------------------------------------------ summaries
+def coin_summary(tr, g_matched, g_plain, copies=500, seed=SEED):
+    """Matched (periods 1-3, +-1c) and plain (any in-game minute, ask in band) coin flips for one version and one split."""
+    if not tr:
+        return dict(n_trades=0)
+    real = float(np.mean([t["net_pc"] for t in tr]))
+    out = dict(n_trades=len(tr), real_mean_all=real)
+    for name, groups in (("matched_p1to3", g_matched), ("plain_random", g_plain)):
+        means, n_used = lib.coin_flip(groups, copies, seed)
+        used = [t for t, g in zip(tr, groups) if g]
+        real_used = float(np.mean([t["net_pc"] for t in used])) if used else float("nan")
+        out[name] = dict(n_trades_with_candidates=n_used, n_trades_dropped=len(tr) - n_used, real_mean_same_trades=real_used,
+                         copy_mean_avg=float(means.mean()) if len(means) else None,
+                         copy_mean_p5_p95=[float(np.percentile(means, 5)), float(np.percentile(means, 95))] if len(means) else None,
+                         frac_copies_ge_real_all=float((means >= real).mean()) if len(means) else None,
+                         frac_copies_ge_real_same_trades=float((means >= real_used).mean()) if len(means) else None)
+    return out
+
+
 def summarize(tr):
     if not tr:
         return dict(n=0)
@@ -189,36 +208,63 @@ def weeks_with_games(games, lo_gi):
     return len({week_key(ev["tip"]) for _, ev, _ in games[lo_gi:]})
 
 
-def evaluate(games, series, prints, versions=None):
-    """Full evaluation.  games sorted by scheduled start."""
+def evaluate(games, series, prints, versions=None, splits=("discovery",), fetched=None, luck=False, luck_reps=lib.LUCK_REPS,
+             luck_draws=10_000, log=print):
+    """games sorted by scheduled start.  splits=("discovery",) touches ONLY the first half of the games (unseen games' results are
+    never read); ("unseen",) only the second half; both only in tests / after the audit."""
     n_disc = split_index(len(games))
-    unseen_weeks = weeks_with_games(games, n_disc)
-    minutes_cache: dict = {}
-    results, all_trades = {}, []
+    lo_gi = 0 if "discovery" in splits else n_disc
+    hi_gi = len(games) if "unseen" in splits else n_disc
+    n_range = hi_gi - lo_gi
+    unseen_weeks = weeks_with_games(games, n_disc) if "unseen" in splits else None
+    tby, skips_by = {}, {}
     for X in XS:
         for band_name in BANDS:
             if versions and (X, band_name) not in versions:
                 continue
-            tr, skips = run_version(games, series, prints, X, band_name)
-            all_trades += tr
-            disc = [t for t in tr if t["split"] == "discovery"]
-            uns = [t for t in tr if t["split"] == "unseen"]
-            b025, b05 = lib.boot_lower([t["net_pc"] for t in uns])
-            conf_u = [t for t in uns if t["confirmed"]]
-            conf_d = [t for t in disc if t["confirmed"]]
-            r = dict(
-                n_games=len(games), n_discovery_games=n_disc, n_unseen_games=len(games) - n_disc,
-                skips=dict(skips), skip_share={k: v / len(games) for k, v in skips.items()},
-                all=summarize(tr), discovery=summarize(disc), unseen=summarize(uns),
-                unseen_bootstrap_lower_2_5=b025, unseen_bootstrap_lower_5=b05,
-                unseen_weeks_with_games=unseen_weeks,
-                unseen_usd_per_week=(sum(t["net_usd"] for t in uns) / unseen_weeks) if unseen_weeks else None,
-                confirmed_unseen=summarize(conf_u), confirmed_discovery=summarize(conf_d),
-                unconfirmed_unseen=summarize([t for t in uns if not t["confirmed"]]),
-                breakdowns_all=breakdowns(tr), breakdowns_unseen=breakdowns(uns), breakdowns_discovery=breakdowns(disc),
-                coin_flips=coin_stats(tr, games, series, band_name, minutes_cache))
-            results[vname(X, band_name)] = r
-    return results, all_trades
+            tr, sk = run_version(games, series, prints, X, band_name, (lo_gi, hi_gi), fetched)
+            tby[vname(X, band_name)], skips_by[vname(X, band_name)] = tr, sk
+    log("trades built", {v: len(t) for v, t in tby.items()})
+    matched, plain = build_groups(games, series, tby)
+    results = {}
+    for v, tr in tby.items():
+        r = dict(n_games_in_range=n_range, n_games_total=len(games), n_discovery_games=n_disc, skips=dict(skips_by[v]),
+                 skip_share={k: x / n_range for k, x in skips_by[v].items()}, all=summarize(tr))
+        for sp in splits:
+            idx = [k for k, t in enumerate(tr) if t["split"] == sp]
+            sub = [tr[k] for k in idx]
+            lb = lib.boot_lower([t["net_pc"] for t in sub])
+            conf = [t for t in sub if t["confirmed"]]
+            r[sp] = summarize(sub)
+            r[f"{sp}_bootstrap_lower_2_5"], r[f"{sp}_bootstrap_lower_5"] = lb
+            r[f"confirmed_{sp}"] = summarize(conf)
+            r[f"unconfirmed_{sp}"] = summarize([t for t in sub if not t["confirmed"]])
+            r[f"prints_fetched_share_{sp}"] = float(np.mean([t["prints_fetched"] for t in sub])) if sub else None
+            r[f"breakdowns_{sp}"] = breakdowns(sub)
+            r.setdefault("coin_flips", {})[sp] = coin_summary(sub, [matched[v][k] for k in idx], [plain[v][k] for k in idx])
+        if "unseen" in splits:
+            r["unseen_weeks_with_games"] = unseen_weeks
+            r["unseen_usd_per_week"] = (r["unseen"].get("total_usd_10c", 0.0) / unseen_weeks) if unseen_weeks else None
+        results[v] = r
+    all_trades = [t for tr in tby.values() for t in tr]
+    out = dict(results=results, trades=all_trades)
+    if "discovery" in splits:
+        stats = {v: dict(n=r["discovery"].get("n", 0), lb=r["discovery_bootstrap_lower_2_5"]) for v, r in results.items()}
+        sel, elig = lib.select_version(stats)
+        out["selection"] = dict(selected=sel, eligible=elig, stats=stats, min_trades=lib.MIN_DISC_TRADES)
+        if luck and sel is not None:
+            idx_d = {v: [k for k, t in enumerate(tby[v]) if t["split"] == "discovery"] for v in tby}
+            groups = {v: [matched[v][k] for k in idx_d[v]] for v in elig}
+            real_lb = stats[sel]["lb"]
+            lt = lib.luck_test(groups, elig, real_lb, luck_reps, lib.SEED2, luck_draws)
+            b = lt["best_lb_per_rep"]
+            lt["real_best_lb"] = real_lb
+            lt["best_lb_per_rep_summary"] = dict(mean=float(np.nanmean(b)), p5=float(np.nanpercentile(b, 5)),
+                                                 median=float(np.nanmedian(b)), p95=float(np.nanpercentile(b, 95)),
+                                                 max=float(np.nanmax(b)))
+            del lt["best_lb_per_rep"]
+            out["luck_test"] = lt
+    return out
 
 
 def calibration(games, series):
@@ -254,25 +300,6 @@ def calibration(games, series):
     return out
 
 
-def pass_bar(res):
-    r = res[lib.PRIMARY_NAME]
-    c = r["coin_flips"].get("unseen", {}).get("matched_p1to3", {})
-    f = c.get("frac_copies_ge_real_all")
-    checks = {
-        "1_mean_pos_both_halves": bool(r["discovery"].get("mean_net_per_contract", -1) > 0 and r["unseen"].get("mean_net_per_contract", -1) > 0),
-        "2_unseen_boot_lb_gt0": bool(r["unseen_bootstrap_lower_2_5"] > 0),
-        "3_unseen_trades_ge_100": bool(r["unseen"]["n"] >= 100),
-        "4_matched_coin_le_5pct": bool(f is not None and f <= 0.05),
-        "5_usd_per_week_ge_2": bool((r["unseen_usd_per_week"] or -1) >= 2),
-        "6_confirmed_unseen_n_ge_50_mean_gt0": bool(r["confirmed_unseen"]["n"] >= 50 and r["confirmed_unseen"].get("mean_net_per_contract", -1) > 0),
-    }
-    return dict(checks=checks, PASS=all(checks.values()))
-
-
-lib.PRIMARY_NAME = vname(*lib.PRIMARY)
-
-
-# ------------------------------------------------------------------------------------------------ commands
 def smoke():
     conn = sqlite3.connect(f"file:{DB}?mode=ro", uri=True)
     games, series, rep = lib.build_universe(conn)
@@ -290,7 +317,7 @@ def smoke():
             row.append(f"X{X // 60}: tX={datetime.utcfromtimestamp(r['tX']):%H:%M:%S} E=tX+{(r.get('E', r['tX']) - r['tX']) / 60:.1f}m "
                        + " ".join(f"{t}:candle_age={(r['E'] - e) / 60:.0f}m/ask={r['asks'][t]:.2f}" if e else f"{t}:no_quote" for t, e in es.items())
                        + (f" -> BUY {r['team']}@{r['ask']:.2f}" if r["status"] == "trade" else f" -> {r['reason']}"))
-            if X == 360:
+            if X == 360 and 'E' in r:
                 n += 1
                 infav += r["status"] == "trade"
                 gaps += [(r['E'] - e) / 60 for e in es.values() if e]; gaps2.append((r['E'] - r['tX']) / 60)
@@ -298,23 +325,103 @@ def smoke():
     print(f"[smoke: games 1-20 of {n_disc} discovery] median minutes t_X->E_X {np.median(gaps2):.2f}, median candle age {np.median(gaps):.2f}; X=6:00 favourite in band 70-92: {infav}/{n}")
 
 
-def final():
-    conn = sqlite3.connect(f"file:{DB}?mode=ro", uri=True)
-    games, series, rep = lib.build_universe(conn)
-    prints = load_prints(conn)
-    results, trades = evaluate(games, series, prints)
-    out = dict(universe=dict(n_events=rep["n_events"], n_matched=rep["n_matched"], unmatched=rep["unmatched"],
-                             shifted=rep["shifted"], bad_parse=rep["bad_parse"]),
-               versions=results, calibration=calibration(games, series), pass_bar_primary=pass_bar(results),
-               seed=SEED, primary=lib.PRIMARY_NAME)
-    (HERE / "results.json").write_text(json.dumps(out, indent=2, default=lambda o: o.item() if hasattr(o, "item") else str(o)))
+def pass_bar(r):
+    """Pass bar items 1-6 for ONE version result that contains both splits (the selected version, run on unseen after the audit)."""
+    c = r["coin_flips"].get("unseen", {}).get("matched_p1to3", {})
+    f = c.get("frac_copies_ge_real_all")
+    checks = {
+        "1_mean_pos_both_halves": bool(r["discovery"].get("mean_net_per_contract", -1) > 0 and r["unseen"].get("mean_net_per_contract", -1) > 0),
+        "2_unseen_boot_lb_gt0": bool(r["unseen_bootstrap_lower_2_5"] > 0),
+        "3_unseen_trades_ge_100": bool(r["unseen"]["n"] >= 100),
+        "4_matched_coin_le_5pct": bool(f is not None and f <= 0.05),
+        "5_usd_per_week_ge_2": bool((r["unseen_usd_per_week"] or -1) >= 2),
+        "6_confirmed_unseen_n_ge_50_mean_gt0": bool(r["confirmed_unseen"]["n"] >= 50 and r["confirmed_unseen"].get("mean_net_per_contract", -1) > 0),
+    }
+    return dict(checks=checks, PASS=all(checks.values()))
+
+
+lib.PRIMARY_NAME = vname(*lib.PRIMARY)
+AUDIT_OK = HERE / "AUDIT_OK"
+
+
+def _J(o):
+    return o.item() if hasattr(o, "item") else str(o)
+
+
+def load_fetched(conn):
+    """(ticker, E-1) windows whose public-print download completed."""
+    out = set()
+    for t, step in conn.execute("SELECT ticker, step FROM done WHERE step LIKE 'trades:%'"):
+        out.add((t, int(step.split(":", 1)[1])))
+    return out
+
+
+def trades_csv(path, trades):
     cols = list(trades[0]) if trades else []
-    with open(HERE / "trades.csv", "w", newline="") as f:
+    with open(path, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=cols)
         w.writeheader()
         w.writerows(trades)
-    print(json.dumps(out["pass_bar_primary"], indent=2))
+
+
+def discovery():
+    conn = sqlite3.connect(f"file:{DB}?mode=ro", uri=True)
+    games, series, rep = lib.build_universe(conn)
+    prints, fetched = load_prints(conn), load_fetched(conn)
+    n_disc = split_index(len(games))
+    print(f"universe: {len(games)} matched games, discovery = first {n_disc} (games 0..{n_disc - 1}); unseen NOT evaluated", flush=True)
+    ev = evaluate(games, series, prints, splits=("discovery",), fetched=fetched, luck=True, log=lambda *a: print(*a, flush=True))
+    res, sel = ev["results"], ev["selection"]
+    out = dict(stage="DISCOVERY ONLY (unseen half not evaluated)",
+               universe=dict(n_events=rep["n_events"], n_matched=rep["n_matched"], n_discovery_games=n_disc,
+                             n_unseen_games_not_evaluated=len(games) - n_disc, unmatched=rep["unmatched"], shifted=rep["shifted"],
+                             bad_parse=rep["bad_parse"], discovery_first_tip=games[0][1]["tip"], discovery_last_tip=games[n_disc - 1][1]["tip"]),
+               slippage=lib.SLIP, selection=sel, original_primary=dict(version=lib.PRIMARY_NAME, result=res[lib.PRIMARY_NAME]),
+               luck_test=ev.get("luck_test"), versions=res, calibration=calibration(games[:n_disc], series),
+               seed=SEED, seed_luck=lib.SEED2)
+    (HERE / "results_discovery.json").write_text(json.dumps(out, indent=2, default=_J))
+    rows = []
+    for v, r in res.items():
+        d, cf = r["discovery"], r["coin_flips"]["discovery"]
+        m = cf.get("matched_p1to3", {})
+        rows.append(dict(version=v, n_trades=d.get("n", 0), eligible_ge_100=int(v in sel["eligible"]), selected=int(v == sel["selected"]),
+                         original_primary=int(v == lib.PRIMARY_NAME), win_rate=d.get("win_rate"), mean_ask=d.get("mean_ask"),
+                         mean_net_per_contract=d.get("mean_net_per_contract"), total_usd_10c=d.get("total_usd_10c"),
+                         boot_lb_2_5=r["discovery_bootstrap_lower_2_5"], boot_lb_5=r["discovery_bootstrap_lower_5"],
+                         mean_spread=d.get("mean_spread"), confirmed_n=r["confirmed_discovery"].get("n", 0),
+                         confirmed_mean_net=r["confirmed_discovery"].get("mean_net_per_contract"),
+                         prints_fetched_share=r["prints_fetched_share_discovery"],
+                         matched_coin_frac_ge_real=m.get("frac_copies_ge_real_all"), matched_coin_copy_mean=m.get("copy_mean_avg"),
+                         plain_coin_copy_mean=cf.get("plain_random", {}).get("copy_mean_avg"),
+                         n_skipped=sum(r["skips"].values())))
+    with open(HERE / "discovery_versions.csv", "w", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=list(rows[0]))
+        w.writeheader()
+        w.writerows(rows)
+    trades_csv(HERE / "trades_discovery.csv", ev["trades"])
+    print(json.dumps(dict(selection=sel["selected"], luck=ev.get("luck_test")), indent=2, default=_J))
+
+
+def unseen():
+    """Opens the unseen half for the SELECTED version only.  Refuses without AUDIT_OK."""
+    if not AUDIT_OK.exists():
+        sys.exit(f"REFUSED: {AUDIT_OK} does not exist.  The unseen half is opened only after the auditor creates AUDIT_OK.")
+    disc = json.loads((HERE / "results_discovery.json").read_text())
+    if (disc.get("luck_test") or {}).get("verdict") != "PASS":
+        sys.exit("REFUSED: the discovery luck test did not PASS (Amendment 2026-10-22: the unseen half is not opened).")
+    name = disc["selection"]["selected"]
+    X, band = int(name.split("_")[0][1:-1]) * 60, band_of(name)
+    conn = sqlite3.connect(f"file:{DB}?mode=ro", uri=True)
+    games, series, rep = lib.build_universe(conn)
+    prints, fetched = load_prints(conn), load_fetched(conn)
+    ev = evaluate(games, series, prints, versions={(X, band)}, splits=("unseen",), fetched=fetched)
+    r = ev["results"][name]
+    r["discovery"] = disc["versions"][name]["discovery"]                 # item 1 needs the discovery mean (already published)
+    out = dict(version=name, result=r, pass_bar=pass_bar(r))
+    (HERE / "results_unseen.json").write_text(json.dumps(out, indent=2, default=_J))
+    trades_csv(HERE / "trades_unseen.csv", ev["trades"])
+    print(json.dumps(out["pass_bar"], indent=2))
 
 
 if __name__ == "__main__":
-    {"smoke": smoke, "final": final}[sys.argv[1]]()
+    {"smoke": smoke, "discovery": discovery, "unseen": unseen}[sys.argv[1]]()

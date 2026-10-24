@@ -97,3 +97,12 @@ Games by scheduled start: **discovery** = the first half, **unseen** = the secon
 ## Amendments
 
 (none)
+
+- **2026-10-22 ~07:40Z (Opus), resume note** (no #36 result computed yet):
+  - **Prices:** #36 will use the shared props price download built for #48. That download covers the 2 strikes
+    nearest each player's last-10-game mean of that stat (pre-game, no look-ahead), at hourly candles T-4h to T-1h.
+    Model-vs-market disagreements on strikes outside that pair can't be tested; they are counted and reported as "not
+    downloaded".
+  - **Costs:** every betting version adds +1c slippage to the taker price (the user: "always include fees and
+    slippage").
+  - **Unchanged:** versions (6), gates and the pass bar.

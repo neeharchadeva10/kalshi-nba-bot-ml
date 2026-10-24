@@ -1,0 +1,1648 @@
+season,source,game_id,date,home,away,line,reason,detail
+2008-09,oddsdata,290418002,2009-04-18,Boston Celtics,Chicago Bulls,198.0,not_regular_season,season_type=3
+2008-09,oddsdata,290418005,2009-04-18,Cleveland Cavaliers,Detroit Pistons,175.5,not_regular_season,season_type=3
+2008-09,oddsdata,290418022,2009-04-18,Portland Trail Blazers,Houston Rockets,183.0,not_regular_season,season_type=3
+2008-09,oddsdata,290418024,2009-04-18,San Antonio Spurs,Dallas Mavericks,187.5,not_regular_season,season_type=3
+2008-09,oddsdata,290419001,2009-04-19,Atlanta Hawks,Miami Heat,187.0,not_regular_season,season_type=3
+2008-09,oddsdata,290419007,2009-04-19,Denver Nuggets,New Orleans Pelicans,195.0,not_regular_season,season_type=3
+2008-09,oddsdata,290419013,2009-04-19,Los Angeles Lakers,Utah Jazz,210.0,not_regular_season,season_type=3
+2008-09,oddsdata,290419019,2009-04-19,Orlando Magic,Philadelphia 76ers,191.0,not_regular_season,season_type=3
+2008-09,oddsdata,290420002,2009-04-20,Boston Celtics,Chicago Bulls,196.0,not_regular_season,season_type=3
+2008-09,oddsdata,290420024,2009-04-20,San Antonio Spurs,Dallas Mavericks,189.0,not_regular_season,season_type=3
+2008-09,oddsdata,290421005,2009-04-21,Cleveland Cavaliers,Detroit Pistons,178.0,not_regular_season,season_type=3
+2008-09,oddsdata,290421013,2009-04-21,Los Angeles Lakers,Utah Jazz,211.5,not_regular_season,season_type=3
+2008-09,oddsdata,290421022,2009-04-21,Portland Trail Blazers,Houston Rockets,184.0,not_regular_season,season_type=3
+2008-09,oddsdata,290422001,2009-04-22,Atlanta Hawks,Miami Heat,184.0,not_regular_season,season_type=3
+2008-09,oddsdata,290422007,2009-04-22,Denver Nuggets,New Orleans Pelicans,196.0,not_regular_season,season_type=3
+2008-09,oddsdata,290422019,2009-04-22,Orlando Magic,Philadelphia 76ers,193.5,not_regular_season,season_type=3
+2008-09,oddsdata,290423004,2009-04-23,Chicago Bulls,Boston Celtics,199.0,not_regular_season,season_type=3
+2008-09,oddsdata,290423006,2009-04-23,Dallas Mavericks,San Antonio Spurs,189.0,not_regular_season,season_type=3
+2008-09,oddsdata,290423026,2009-04-23,Utah Jazz,Los Angeles Lakers,215.0,not_regular_season,season_type=3
+2008-09,oddsdata,290424008,2009-04-24,Detroit Pistons,Cleveland Cavaliers,178.0,not_regular_season,season_type=3
+2008-09,oddsdata,290424010,2009-04-24,Houston Rockets,Portland Trail Blazers,184.5,not_regular_season,season_type=3
+2008-09,oddsdata,290424020,2009-04-24,Philadelphia 76ers,Orlando Magic,191.0,not_regular_season,season_type=3
+2008-09,oddsdata,290425006,2009-04-25,Dallas Mavericks,San Antonio Spurs,187.5,not_regular_season,season_type=3
+2008-09,oddsdata,290425014,2009-04-25,Miami Heat,Atlanta Hawks,185.5,not_regular_season,season_type=3
+2008-09,oddsdata,290425003,2009-04-25,New Orleans Pelicans,Denver Nuggets,200.0,not_regular_season,season_type=3
+2008-09,oddsdata,290425026,2009-04-25,Utah Jazz,Los Angeles Lakers,209.0,not_regular_season,season_type=3
+2008-09,oddsdata,290426004,2009-04-26,Chicago Bulls,Boston Celtics,200.0,not_regular_season,season_type=3
+2008-09,oddsdata,290426008,2009-04-26,Detroit Pistons,Cleveland Cavaliers,177.0,not_regular_season,season_type=3
+2008-09,oddsdata,290426010,2009-04-26,Houston Rockets,Portland Trail Blazers,182.0,not_regular_season,season_type=3
+2008-09,oddsdata,290426020,2009-04-26,Philadelphia 76ers,Orlando Magic,191.0,not_regular_season,season_type=3
+2008-09,oddsdata,290427013,2009-04-27,Los Angeles Lakers,Utah Jazz,211.5,not_regular_season,season_type=3
+2008-09,oddsdata,290427014,2009-04-27,Miami Heat,Atlanta Hawks,188.0,not_regular_season,season_type=3
+2008-09,oddsdata,290427003,2009-04-27,New Orleans Pelicans,Denver Nuggets,194.0,not_regular_season,season_type=3
+2008-09,oddsdata,290428002,2009-04-28,Boston Celtics,Chicago Bulls,200.0,not_regular_season,season_type=3
+2008-09,oddsdata,290428019,2009-04-28,Orlando Magic,Philadelphia 76ers,190.0,not_regular_season,season_type=3
+2008-09,oddsdata,290428022,2009-04-28,Portland Trail Blazers,Houston Rockets,182.0,not_regular_season,season_type=3
+2008-09,oddsdata,290428024,2009-04-28,San Antonio Spurs,Dallas Mavericks,188.5,not_regular_season,season_type=3
+2008-09,oddsdata,290429001,2009-04-29,Atlanta Hawks,Miami Heat,180.0,not_regular_season,season_type=3
+2008-09,oddsdata,290429007,2009-04-29,Denver Nuggets,New Orleans Pelicans,195.0,not_regular_season,season_type=3
+2008-09,oddsdata,290430004,2009-04-30,Chicago Bulls,Boston Celtics,197.0,not_regular_season,season_type=3
+2008-09,oddsdata,290430010,2009-04-30,Houston Rockets,Portland Trail Blazers,180.0,not_regular_season,season_type=3
+2008-09,oddsdata,290430020,2009-04-30,Philadelphia 76ers,Orlando Magic,184.0,not_regular_season,season_type=3
+2008-09,oddsdata,290501014,2009-05-01,Miami Heat,Atlanta Hawks,182.0,not_regular_season,season_type=3
+2008-09,oddsdata,290502002,2009-05-02,Boston Celtics,Chicago Bulls,195.0,not_regular_season,season_type=3
+2008-09,oddsdata,290503001,2009-05-03,Atlanta Hawks,Miami Heat,183.0,not_regular_season,season_type=3
+2008-09,oddsdata,290503007,2009-05-03,Denver Nuggets,Dallas Mavericks,205.0,not_regular_season,season_type=3
+2008-09,oddsdata,290504002,2009-05-04,Boston Celtics,Orlando Magic,189.0,not_regular_season,season_type=3
+2008-09,oddsdata,290504013,2009-05-04,Los Angeles Lakers,Houston Rockets,197.0,not_regular_season,season_type=3
+2008-09,oddsdata,290505005,2009-05-05,Cleveland Cavaliers,Atlanta Hawks,180.0,not_regular_season,season_type=3
+2008-09,oddsdata,290505007,2009-05-05,Denver Nuggets,Dallas Mavericks,206.0,not_regular_season,season_type=3
+2008-09,oddsdata,290506002,2009-05-06,Boston Celtics,Orlando Magic,188.0,not_regular_season,season_type=3
+2008-09,oddsdata,290506013,2009-05-06,Los Angeles Lakers,Houston Rockets,193.0,not_regular_season,season_type=3
+2008-09,oddsdata,290507005,2009-05-07,Cleveland Cavaliers,Atlanta Hawks,177.5,not_regular_season,season_type=3
+2008-09,oddsdata,290508010,2009-05-08,Houston Rockets,Los Angeles Lakers,194.0,not_regular_season,season_type=3
+2008-09,oddsdata,290508019,2009-05-08,Orlando Magic,Boston Celtics,189.0,not_regular_season,season_type=3
+2008-09,oddsdata,290509001,2009-05-09,Atlanta Hawks,Cleveland Cavaliers,180.0,not_regular_season,season_type=3
+2008-09,oddsdata,290509006,2009-05-09,Dallas Mavericks,Denver Nuggets,209.5,not_regular_season,season_type=3
+2008-09,oddsdata,290510010,2009-05-10,Houston Rockets,Los Angeles Lakers,195.5,not_regular_season,season_type=3
+2008-09,oddsdata,290510019,2009-05-10,Orlando Magic,Boston Celtics,192.0,not_regular_season,season_type=3
+2008-09,oddsdata,290511001,2009-05-11,Atlanta Hawks,Cleveland Cavaliers,180.0,not_regular_season,season_type=3
+2008-09,oddsdata,290511006,2009-05-11,Dallas Mavericks,Denver Nuggets,209.5,not_regular_season,season_type=3
+2008-09,oddsdata,290512002,2009-05-12,Boston Celtics,Orlando Magic,192.0,not_regular_season,season_type=3
+2008-09,oddsdata,290512013,2009-05-12,Los Angeles Lakers,Houston Rockets,197.0,not_regular_season,season_type=3
+2008-09,oddsdata,290513007,2009-05-13,Denver Nuggets,Dallas Mavericks,213.5,not_regular_season,season_type=3
+2008-09,oddsdata,290514010,2009-05-14,Houston Rockets,Los Angeles Lakers,197.0,not_regular_season,season_type=3
+2008-09,oddsdata,290514019,2009-05-14,Orlando Magic,Boston Celtics,190.0,not_regular_season,season_type=3
+2008-09,oddsdata,290517002,2009-05-17,Boston Celtics,Orlando Magic,187.5,not_regular_season,season_type=3
+2008-09,oddsdata,290517013,2009-05-17,Los Angeles Lakers,Houston Rockets,193.5,not_regular_season,season_type=3
+2008-09,oddsdata,290519013,2009-05-19,Los Angeles Lakers,Denver Nuggets,214.5,not_regular_season,season_type=3
+2008-09,oddsdata,290520005,2009-05-20,Cleveland Cavaliers,Orlando Magic,185.0,not_regular_season,season_type=3
+2008-09,oddsdata,290521013,2009-05-21,Los Angeles Lakers,Denver Nuggets,210.5,not_regular_season,season_type=3
+2008-09,oddsdata,290522005,2009-05-22,Cleveland Cavaliers,Orlando Magic,187.0,not_regular_season,season_type=3
+2008-09,oddsdata,290523007,2009-05-23,Denver Nuggets,Los Angeles Lakers,211.0,not_regular_season,season_type=3
+2008-09,oddsdata,290524019,2009-05-24,Orlando Magic,Cleveland Cavaliers,189.5,not_regular_season,season_type=3
+2008-09,oddsdata,290525007,2009-05-25,Denver Nuggets,Los Angeles Lakers,210.5,not_regular_season,season_type=3
+2008-09,oddsdata,290526019,2009-05-26,Orlando Magic,Cleveland Cavaliers,188.0,not_regular_season,season_type=3
+2008-09,oddsdata,290527013,2009-05-27,Los Angeles Lakers,Denver Nuggets,211.0,not_regular_season,season_type=3
+2008-09,oddsdata,290528005,2009-05-28,Cleveland Cavaliers,Orlando Magic,190.5,not_regular_season,season_type=3
+2008-09,oddsdata,290529007,2009-05-29,Denver Nuggets,Los Angeles Lakers,208.0,not_regular_season,season_type=3
+2008-09,oddsdata,290530019,2009-05-30,Orlando Magic,Cleveland Cavaliers,190.5,not_regular_season,season_type=3
+2008-09,oddsdata,290604013,2009-06-03,Los Angeles Lakers,Orlando Magic,206.0,not_regular_season,season_type=3
+2008-09,oddsdata,290607013,2009-06-07,Los Angeles Lakers,Orlando Magic,203.5,not_regular_season,season_type=3
+2008-09,oddsdata,290609019,2009-06-09,Orlando Magic,Los Angeles Lakers,199.5,not_regular_season,season_type=3
+2008-09,oddsdata,290611019,2009-06-11,Orlando Magic,Los Angeles Lakers,203.5,not_regular_season,season_type=3
+2008-09,oddsdata,290614019,2009-06-14,Orlando Magic,Los Angeles Lakers,198.5,not_regular_season,season_type=3
+2009-10,oddsdata,300417001,2010-04-17,Atlanta Hawks,Milwaukee Bucks,186.0,not_regular_season,season_type=3
+2009-10,oddsdata,300417002,2010-04-17,Boston Celtics,Miami Heat,185.0,not_regular_season,season_type=3
+2009-10,oddsdata,300417005,2010-04-17,Cleveland Cavaliers,Chicago Bulls,192.0,not_regular_season,season_type=3
+2009-10,oddsdata,300417007,2010-04-17,Denver Nuggets,Utah Jazz,209.0,not_regular_season,season_type=3
+2009-10,oddsdata,300418006,2010-04-18,Dallas Mavericks,San Antonio Spurs,194.0,not_regular_season,season_type=3
+2009-10,oddsdata,300418013,2010-04-18,Los Angeles Lakers,Oklahoma City Thunder,197.0,not_regular_season,season_type=3
+2009-10,oddsdata,300418019,2010-04-18,Orlando Magic,Charlotte Bobcats,187.5,not_regular_season,season_type=3
+2009-10,oddsdata,300418021,2010-04-18,Phoenix Suns,Portland Trail Blazers,205.0,not_regular_season,season_type=3
+2009-10,oddsdata,300419005,2010-04-19,Cleveland Cavaliers,Chicago Bulls,191.0,not_regular_season,season_type=3
+2009-10,oddsdata,300419007,2010-04-19,Denver Nuggets,Utah Jazz,213.0,not_regular_season,season_type=3
+2009-10,oddsdata,300420001,2010-04-20,Atlanta Hawks,Milwaukee Bucks,188.0,not_regular_season,season_type=3
+2009-10,oddsdata,300420002,2010-04-20,Boston Celtics,Miami Heat,179.0,not_regular_season,season_type=3
+2009-10,oddsdata,300420013,2010-04-20,Los Angeles Lakers,Oklahoma City Thunder,190.5,not_regular_season,season_type=3
+2009-10,oddsdata,300420021,2010-04-20,Phoenix Suns,Portland Trail Blazers,205.0,not_regular_season,season_type=3
+2009-10,oddsdata,300421006,2010-04-21,Dallas Mavericks,San Antonio Spurs,194.0,not_regular_season,season_type=3
+2009-10,oddsdata,300421019,2010-04-21,Orlando Magic,Charlotte Bobcats,187.0,not_regular_season,season_type=3
+2009-10,oddsdata,300422004,2010-04-22,Chicago Bulls,Cleveland Cavaliers,193.0,not_regular_season,season_type=3
+2009-10,oddsdata,300422025,2010-04-22,Oklahoma City Thunder,Los Angeles Lakers,191.0,not_regular_season,season_type=3
+2009-10,oddsdata,300422022,2010-04-22,Portland Trail Blazers,Phoenix Suns,205.0,not_regular_season,season_type=3
+2009-10,oddsdata,300423014,2010-04-23,Miami Heat,Boston Celtics,182.0,not_regular_season,season_type=3
+2009-10,oddsdata,300423024,2010-04-23,San Antonio Spurs,Dallas Mavericks,193.5,not_regular_season,season_type=3
+2009-10,oddsdata,300423026,2010-04-23,Utah Jazz,Denver Nuggets,217.0,not_regular_season,season_type=3
+2009-10,oddsdata,300424030,2010-04-24,Charlotte Bobcats,Orlando Magic,184.5,not_regular_season,season_type=3
+2009-10,oddsdata,300424015,2010-04-24,Milwaukee Bucks,Atlanta Hawks,187.0,not_regular_season,season_type=3
+2009-10,oddsdata,300424025,2010-04-24,Oklahoma City Thunder,Los Angeles Lakers,193.0,not_regular_season,season_type=3
+2009-10,oddsdata,300424022,2010-04-24,Portland Trail Blazers,Phoenix Suns,202.0,not_regular_season,season_type=3
+2009-10,oddsdata,300425004,2010-04-25,Chicago Bulls,Cleveland Cavaliers,194.0,not_regular_season,season_type=3
+2009-10,oddsdata,300425014,2010-04-25,Miami Heat,Boston Celtics,185.0,not_regular_season,season_type=3
+2009-10,oddsdata,300425024,2010-04-25,San Antonio Spurs,Dallas Mavericks,193.0,not_regular_season,season_type=3
+2009-10,oddsdata,300425026,2010-04-25,Utah Jazz,Denver Nuggets,212.0,not_regular_season,season_type=3
+2009-10,oddsdata,300426030,2010-04-26,Charlotte Bobcats,Orlando Magic,182.5,not_regular_season,season_type=3
+2009-10,oddsdata,300426015,2010-04-26,Milwaukee Bucks,Atlanta Hawks,190.0,not_regular_season,season_type=3
+2009-10,oddsdata,300426021,2010-04-26,Phoenix Suns,Portland Trail Blazers,202.0,not_regular_season,season_type=3
+2009-10,oddsdata,300427002,2010-04-27,Boston Celtics,Miami Heat,188.0,not_regular_season,season_type=3
+2009-10,oddsdata,300427005,2010-04-27,Cleveland Cavaliers,Chicago Bulls,199.5,not_regular_season,season_type=3
+2009-10,oddsdata,300427006,2010-04-27,Dallas Mavericks,San Antonio Spurs,192.5,not_regular_season,season_type=3
+2009-10,oddsdata,300427013,2010-04-27,Los Angeles Lakers,Oklahoma City Thunder,195.0,not_regular_season,season_type=3
+2009-10,oddsdata,300428001,2010-04-28,Atlanta Hawks,Milwaukee Bucks,191.0,not_regular_season,season_type=3
+2009-10,oddsdata,300428007,2010-04-28,Denver Nuggets,Utah Jazz,215.0,not_regular_season,season_type=3
+2009-10,oddsdata,300429022,2010-04-29,Portland Trail Blazers,Phoenix Suns,202.0,not_regular_season,season_type=3
+2009-10,oddsdata,300429024,2010-04-29,San Antonio Spurs,Dallas Mavericks,191.0,not_regular_season,season_type=3
+2009-10,oddsdata,300430015,2010-04-30,Milwaukee Bucks,Atlanta Hawks,190.0,not_regular_season,season_type=3
+2009-10,oddsdata,300430025,2010-04-30,Oklahoma City Thunder,Los Angeles Lakers,195.0,not_regular_season,season_type=3
+2009-10,oddsdata,300430026,2010-04-30,Utah Jazz,Denver Nuggets,218.0,not_regular_season,season_type=3
+2009-10,oddsdata,300501005,2010-05-01,Cleveland Cavaliers,Boston Celtics,193.0,not_regular_season,season_type=3
+2009-10,oddsdata,300502001,2010-05-02,Atlanta Hawks,Milwaukee Bucks,187.0,not_regular_season,season_type=3
+2009-10,oddsdata,300503005,2010-05-03,Cleveland Cavaliers,Boston Celtics,192.0,not_regular_season,season_type=3
+2009-10,oddsdata,-1,2010-05-03,Los Angeles Lakers,Utah Jazz,202.0,ambiguous_match,
+2009-10,oddsdata,300503021,2010-05-03,Phoenix Suns,San Antonio Spurs,202.0,not_regular_season,season_type=3
+2009-10,oddsdata,300504013,2010-05-04,Los Angeles Lakers,Utah Jazz,199.0,not_regular_season,season_type=3
+2009-10,oddsdata,300504019,2010-05-04,Orlando Magic,Atlanta Hawks,192.0,not_regular_season,season_type=3
+2009-10,oddsdata,300505021,2010-05-05,Phoenix Suns,San Antonio Spurs,205.0,not_regular_season,season_type=3
+2009-10,oddsdata,300506019,2010-05-06,Orlando Magic,Atlanta Hawks,189.0,not_regular_season,season_type=3
+2009-10,oddsdata,300507002,2010-05-07,Boston Celtics,Cleveland Cavaliers,191.0,not_regular_season,season_type=3
+2009-10,oddsdata,300507024,2010-05-07,San Antonio Spurs,Phoenix Suns,206.0,not_regular_season,season_type=3
+2009-10,oddsdata,300508001,2010-05-08,Atlanta Hawks,Orlando Magic,194.0,not_regular_season,season_type=3
+2009-10,oddsdata,300508026,2010-05-08,Utah Jazz,Los Angeles Lakers,203.5,not_regular_season,season_type=3
+2009-10,oddsdata,300509002,2010-05-09,Boston Celtics,Cleveland Cavaliers,195.0,not_regular_season,season_type=3
+2009-10,oddsdata,300509024,2010-05-09,San Antonio Spurs,Phoenix Suns,206.5,not_regular_season,season_type=3
+2009-10,oddsdata,300510001,2010-05-10,Atlanta Hawks,Orlando Magic,193.5,not_regular_season,season_type=3
+2009-10,oddsdata,300510026,2010-05-10,Utah Jazz,Los Angeles Lakers,205.5,not_regular_season,season_type=3
+2009-10,oddsdata,300511005,2010-05-11,Cleveland Cavaliers,Boston Celtics,195.0,not_regular_season,season_type=3
+2009-10,oddsdata,300513002,2010-05-13,Boston Celtics,Cleveland Cavaliers,196.0,not_regular_season,season_type=3
+2009-10,oddsdata,300516019,2010-05-16,Orlando Magic,Boston Celtics,189.5,not_regular_season,season_type=3
+2009-10,oddsdata,300517013,2010-05-17,Los Angeles Lakers,Phoenix Suns,212.0,not_regular_season,season_type=3
+2009-10,oddsdata,300518019,2010-05-18,Orlando Magic,Boston Celtics,186.5,not_regular_season,season_type=3
+2009-10,oddsdata,300519013,2010-05-19,Los Angeles Lakers,Phoenix Suns,214.0,not_regular_season,season_type=3
+2009-10,oddsdata,300522002,2010-05-22,Boston Celtics,Orlando Magic,190.0,not_regular_season,season_type=3
+2009-10,oddsdata,300523021,2010-05-23,Phoenix Suns,Los Angeles Lakers,219.0,not_regular_season,season_type=3
+2009-10,oddsdata,300524002,2010-05-24,Boston Celtics,Orlando Magic,188.0,not_regular_season,season_type=3
+2009-10,oddsdata,300525021,2010-05-25,Phoenix Suns,Los Angeles Lakers,222.0,not_regular_season,season_type=3
+2009-10,oddsdata,300526019,2010-05-26,Orlando Magic,Boston Celtics,186.0,not_regular_season,season_type=3
+2009-10,oddsdata,300527013,2010-05-27,Los Angeles Lakers,Phoenix Suns,219.0,not_regular_season,season_type=3
+2009-10,oddsdata,300528002,2010-05-28,Boston Celtics,Orlando Magic,189.0,not_regular_season,season_type=3
+2009-10,oddsdata,300529021,2010-05-29,Phoenix Suns,Los Angeles Lakers,215.0,not_regular_season,season_type=3
+2009-10,oddsdata,300603013,2010-06-03,Los Angeles Lakers,Boston Celtics,194.0,not_regular_season,season_type=3
+2009-10,oddsdata,300606013,2010-06-06,Los Angeles Lakers,Boston Celtics,190.0,not_regular_season,season_type=3
+2009-10,oddsdata,300608002,2010-06-08,Boston Celtics,Los Angeles Lakers,192.5,not_regular_season,season_type=3
+2009-10,oddsdata,300610002,2010-06-10,Boston Celtics,Los Angeles Lakers,191.0,not_regular_season,season_type=3
+2009-10,oddsdata,300613002,2010-06-13,Boston Celtics,Los Angeles Lakers,189.0,not_regular_season,season_type=3
+2009-10,oddsdata,300615013,2010-06-15,Los Angeles Lakers,Boston Celtics,187.0,not_regular_season,season_type=3
+2009-10,oddsdata,300617013,2010-06-17,Los Angeles Lakers,Boston Celtics,188.0,not_regular_season,season_type=3
+2010-11,oddsdata,301219002,2010-12-19,Boston Celtics,Indiana Pacers,47.0,line_out_of_range_170_275,line=47.0
+2010-11,oddsdata,301219017,2010-12-19,New Jersey Nets,Atlanta Hawks,1.0,line_out_of_range_170_275,line=1.0
+2010-11,oddsdata,301219028,2010-12-19,Toronto Raptors,Los Angeles Lakers,51.0,line_out_of_range_170_275,line=51.0
+2010-11,oddsdata,310416004,2011-04-16,Chicago Bulls,Indiana Pacers,190.0,not_regular_season,season_type=3
+2010-11,oddsdata,310416006,2011-04-16,Dallas Mavericks,Portland Trail Blazers,187.0,not_regular_season,season_type=3
+2010-11,oddsdata,310416014,2011-04-16,Miami Heat,Philadelphia 76ers,191.0,not_regular_season,season_type=3
+2010-11,oddsdata,310416019,2011-04-16,Orlando Magic,Atlanta Hawks,181.0,not_regular_season,season_type=3
+2010-11,oddsdata,310417002,2011-04-17,Boston Celtics,New York Knicks,199.0,not_regular_season,season_type=3
+2010-11,oddsdata,310417013,2011-04-17,Los Angeles Lakers,New Orleans Pelicans,184.0,not_regular_season,season_type=3
+2010-11,oddsdata,310417025,2011-04-17,Oklahoma City Thunder,Denver Nuggets,202.0,not_regular_season,season_type=3
+2010-11,oddsdata,310417024,2011-04-17,San Antonio Spurs,Memphis Grizzlies,196.0,not_regular_season,season_type=3
+2010-11,oddsdata,310418004,2011-04-18,Chicago Bulls,Indiana Pacers,191.0,not_regular_season,season_type=3
+2010-11,oddsdata,310418014,2011-04-18,Miami Heat,Philadelphia 76ers,189.5,not_regular_season,season_type=3
+2010-11,oddsdata,310419002,2011-04-19,Boston Celtics,New York Knicks,193.0,not_regular_season,season_type=3
+2010-11,oddsdata,310419006,2011-04-19,Dallas Mavericks,Portland Trail Blazers,183.0,not_regular_season,season_type=3
+2010-11,oddsdata,310419019,2011-04-19,Orlando Magic,Atlanta Hawks,182.5,not_regular_season,season_type=3
+2010-11,oddsdata,310420013,2011-04-20,Los Angeles Lakers,New Orleans Pelicans,187.0,not_regular_season,season_type=3
+2010-11,oddsdata,310420025,2011-04-20,Oklahoma City Thunder,Denver Nuggets,207.5,not_regular_season,season_type=3
+2010-11,oddsdata,310420024,2011-04-20,San Antonio Spurs,Memphis Grizzlies,195.5,not_regular_season,season_type=3
+2010-11,oddsdata,310421011,2011-04-21,Indiana Pacers,Chicago Bulls,189.0,not_regular_season,season_type=3
+2010-11,oddsdata,310421020,2011-04-21,Philadelphia 76ers,Miami Heat,187.0,not_regular_season,season_type=3
+2010-11,oddsdata,310421022,2011-04-21,Portland Trail Blazers,Dallas Mavericks,186.0,not_regular_season,season_type=3
+2010-11,oddsdata,310422001,2011-04-22,Atlanta Hawks,Orlando Magic,181.0,not_regular_season,season_type=3
+2010-11,oddsdata,310422003,2011-04-22,New Orleans Pelicans,Los Angeles Lakers,184.0,not_regular_season,season_type=3
+2010-11,oddsdata,310422018,2011-04-22,New York Knicks,Boston Celtics,191.5,not_regular_season,season_type=3
+2010-11,oddsdata,310423007,2011-04-23,Denver Nuggets,Oklahoma City Thunder,204.5,not_regular_season,season_type=3
+2010-11,oddsdata,310423011,2011-04-23,Indiana Pacers,Chicago Bulls,187.5,not_regular_season,season_type=3
+2010-11,oddsdata,310423029,2011-04-23,Memphis Grizzlies,San Antonio Spurs,192.0,not_regular_season,season_type=3
+2010-11,oddsdata,310423022,2011-04-23,Portland Trail Blazers,Dallas Mavericks,188.0,not_regular_season,season_type=3
+2010-11,oddsdata,310424001,2011-04-24,Atlanta Hawks,Orlando Magic,179.0,not_regular_season,season_type=3
+2010-11,oddsdata,310424003,2011-04-24,New Orleans Pelicans,Los Angeles Lakers,183.0,not_regular_season,season_type=3
+2010-11,oddsdata,310424018,2011-04-24,New York Knicks,Boston Celtics,194.0,not_regular_season,season_type=3
+2010-11,oddsdata,310424020,2011-04-24,Philadelphia 76ers,Miami Heat,186.5,not_regular_season,season_type=3
+2010-11,oddsdata,310425006,2011-04-25,Dallas Mavericks,Portland Trail Blazers,186.5,not_regular_season,season_type=3
+2010-11,oddsdata,310425007,2011-04-25,Denver Nuggets,Oklahoma City Thunder,205.0,not_regular_season,season_type=3
+2010-11,oddsdata,310425029,2011-04-25,Memphis Grizzlies,San Antonio Spurs,189.0,not_regular_season,season_type=3
+2010-11,oddsdata,310426004,2011-04-26,Chicago Bulls,Indiana Pacers,187.5,not_regular_season,season_type=3
+2010-11,oddsdata,310426013,2011-04-26,Los Angeles Lakers,New Orleans Pelicans,183.0,not_regular_season,season_type=3
+2010-11,oddsdata,310426019,2011-04-26,Orlando Magic,Atlanta Hawks,178.0,not_regular_season,season_type=3
+2010-11,oddsdata,310427014,2011-04-27,Miami Heat,Philadelphia 76ers,186.5,not_regular_season,season_type=3
+2010-11,oddsdata,310427025,2011-04-27,Oklahoma City Thunder,Denver Nuggets,205.0,not_regular_season,season_type=3
+2010-11,oddsdata,310427024,2011-04-27,San Antonio Spurs,Memphis Grizzlies,189.0,not_regular_season,season_type=3
+2010-11,oddsdata,310428001,2011-04-28,Atlanta Hawks,Orlando Magic,178.5,not_regular_season,season_type=3
+2010-11,oddsdata,310428003,2011-04-28,New Orleans Pelicans,Los Angeles Lakers,184.0,not_regular_season,season_type=3
+2010-11,oddsdata,310428022,2011-04-28,Portland Trail Blazers,Dallas Mavericks,182.0,not_regular_season,season_type=3
+2010-11,oddsdata,310429029,2011-04-29,Memphis Grizzlies,San Antonio Spurs,190.0,not_regular_season,season_type=3
+2010-11,oddsdata,310501014,2011-05-01,Miami Heat,Boston Celtics,182.5,not_regular_season,season_type=3
+2010-11,oddsdata,310501025,2011-05-01,Oklahoma City Thunder,Memphis Grizzlies,197.5,not_regular_season,season_type=3
+2010-11,oddsdata,310502004,2011-05-02,Chicago Bulls,Atlanta Hawks,179.0,not_regular_season,season_type=3
+2010-11,oddsdata,310502013,2011-05-02,Los Angeles Lakers,Dallas Mavericks,189.0,not_regular_season,season_type=3
+2010-11,oddsdata,310503014,2011-05-03,Miami Heat,Boston Celtics,182.5,not_regular_season,season_type=3
+2010-11,oddsdata,310503025,2011-05-03,Oklahoma City Thunder,Memphis Grizzlies,199.0,not_regular_season,season_type=3
+2010-11,oddsdata,310504004,2011-05-04,Chicago Bulls,Atlanta Hawks,180.0,not_regular_season,season_type=3
+2010-11,oddsdata,310504013,2011-05-04,Los Angeles Lakers,Dallas Mavericks,180.0,not_regular_season,season_type=3
+2010-11,oddsdata,310506001,2011-05-06,Atlanta Hawks,Chicago Bulls,178.0,not_regular_season,season_type=3
+2010-11,oddsdata,310506006,2011-05-06,Dallas Mavericks,Los Angeles Lakers,186.5,not_regular_season,season_type=3
+2010-11,oddsdata,310507002,2011-05-07,Boston Celtics,Miami Heat,183.0,not_regular_season,season_type=3
+2010-11,oddsdata,310507029,2011-05-07,Memphis Grizzlies,Oklahoma City Thunder,202.0,not_regular_season,season_type=3
+2010-11,oddsdata,310508001,2011-05-08,Atlanta Hawks,Chicago Bulls,179.0,not_regular_season,season_type=3
+2010-11,oddsdata,310508006,2011-05-08,Dallas Mavericks,Los Angeles Lakers,187.5,not_regular_season,season_type=3
+2010-11,oddsdata,310509002,2011-05-09,Boston Celtics,Miami Heat,181.5,not_regular_season,season_type=3
+2010-11,oddsdata,310509029,2011-05-09,Memphis Grizzlies,Oklahoma City Thunder,198.0,not_regular_season,season_type=3
+2010-11,oddsdata,310510004,2011-05-10,Chicago Bulls,Atlanta Hawks,181.0,not_regular_season,season_type=3
+2010-11,oddsdata,310511014,2011-05-11,Miami Heat,Boston Celtics,181.5,not_regular_season,season_type=3
+2010-11,oddsdata,310511025,2011-05-11,Oklahoma City Thunder,Memphis Grizzlies,197.5,not_regular_season,season_type=3
+2010-11,oddsdata,310512001,2011-05-12,Atlanta Hawks,Chicago Bulls,179.0,not_regular_season,season_type=3
+2010-11,oddsdata,310513029,2011-05-13,Memphis Grizzlies,Oklahoma City Thunder,195.5,not_regular_season,season_type=3
+2010-11,oddsdata,310515004,2011-05-15,Chicago Bulls,Miami Heat,182.5,not_regular_season,season_type=3
+2010-11,oddsdata,310515025,2011-05-15,Oklahoma City Thunder,Memphis Grizzlies,193.0,not_regular_season,season_type=3
+2010-11,oddsdata,310517006,2011-05-17,Dallas Mavericks,Oklahoma City Thunder,192.0,not_regular_season,season_type=3
+2010-11,oddsdata,310518004,2011-05-18,Chicago Bulls,Miami Heat,181.5,not_regular_season,season_type=3
+2010-11,oddsdata,310519006,2011-05-19,Dallas Mavericks,Oklahoma City Thunder,198.0,not_regular_season,season_type=3
+2010-11,oddsdata,310521025,2011-05-21,Oklahoma City Thunder,Dallas Mavericks,202.0,not_regular_season,season_type=3
+2010-11,oddsdata,310522014,2011-05-22,Miami Heat,Chicago Bulls,179.0,not_regular_season,season_type=3
+2010-11,oddsdata,310523025,2011-05-23,Oklahoma City Thunder,Dallas Mavericks,196.0,not_regular_season,season_type=3
+2010-11,oddsdata,310524014,2011-05-24,Miami Heat,Chicago Bulls,179.5,not_regular_season,season_type=3
+2010-11,oddsdata,310525006,2011-05-25,Dallas Mavericks,Oklahoma City Thunder,199.0,not_regular_season,season_type=3
+2010-11,oddsdata,310526004,2011-05-26,Chicago Bulls,Miami Heat,180.0,not_regular_season,season_type=3
+2010-11,oddsdata,310531014,2011-05-31,Miami Heat,Dallas Mavericks,188.0,not_regular_season,season_type=3
+2010-11,oddsdata,310602014,2011-06-02,Miami Heat,Dallas Mavericks,186.0,not_regular_season,season_type=3
+2010-11,oddsdata,310605006,2011-06-05,Dallas Mavericks,Miami Heat,188.0,not_regular_season,season_type=3
+2010-11,oddsdata,310607006,2011-06-07,Dallas Mavericks,Miami Heat,186.5,not_regular_season,season_type=3
+2010-11,oddsdata,310609006,2011-06-09,Dallas Mavericks,Miami Heat,186.0,not_regular_season,season_type=3
+2010-11,oddsdata,310612014,2011-06-12,Miami Heat,Dallas Mavericks,189.0,not_regular_season,season_type=3
+2011-12,oddsdata,320421004,2012-04-21,Chicago Bulls,Dallas Mavericks,160.0,line_out_of_range_170_275,line=160.0
+2011-12,oddsdata,320421029,2012-04-21,Memphis Grizzlies,Portland Trail Blazers,160.0,line_out_of_range_170_275,line=160.0
+2011-12,oddsdata,320421014,2012-04-21,Miami Heat,Washington Wizards,160.0,line_out_of_range_170_275,line=160.0
+2011-12,oddsdata,320421015,2012-04-21,Milwaukee Bucks,New Jersey Nets,160.0,line_out_of_range_170_275,line=160.0
+2011-12,oddsdata,320424026,2012-04-24,Utah Jazz,Phoenix Suns,160.0,line_out_of_range_170_275,line=160.0
+2011-12,oddsdata,320428004,2012-04-28,Chicago Bulls,Philadelphia 76ers,175.5,not_regular_season,season_type=3
+2011-12,oddsdata,320428011,2012-04-28,Indiana Pacers,Orlando Magic,191.0,not_regular_season,season_type=3
+2011-12,oddsdata,320428014,2012-04-28,Miami Heat,New York Knicks,187.0,not_regular_season,season_type=3
+2011-12,oddsdata,320428025,2012-04-28,Oklahoma City Thunder,Dallas Mavericks,194.0,not_regular_season,season_type=3
+2011-12,oddsdata,320429001,2012-04-29,Atlanta Hawks,Boston Celtics,180.0,not_regular_season,season_type=3
+2011-12,oddsdata,320429013,2012-04-29,Los Angeles Lakers,Denver Nuggets,202.5,not_regular_season,season_type=3
+2011-12,oddsdata,320429029,2012-04-29,Memphis Grizzlies,Los Angeles Clippers,185.0,not_regular_season,season_type=3
+2011-12,oddsdata,320429024,2012-04-29,San Antonio Spurs,Utah Jazz,207.0,not_regular_season,season_type=3
+2011-12,oddsdata,320430011,2012-04-30,Indiana Pacers,Orlando Magic,187.5,not_regular_season,season_type=3
+2011-12,oddsdata,320430014,2012-04-30,Miami Heat,New York Knicks,185.0,not_regular_season,season_type=3
+2011-12,oddsdata,320430025,2012-04-30,Oklahoma City Thunder,Dallas Mavericks,196.0,not_regular_season,season_type=3
+2011-12,oddsdata,320501001,2012-05-01,Atlanta Hawks,Boston Celtics,174.0,not_regular_season,season_type=3
+2011-12,oddsdata,320501004,2012-05-01,Chicago Bulls,Philadelphia 76ers,176.0,not_regular_season,season_type=3
+2011-12,oddsdata,320501013,2012-05-01,Los Angeles Lakers,Denver Nuggets,199.5,not_regular_season,season_type=3
+2011-12,oddsdata,320502029,2012-05-02,Memphis Grizzlies,Los Angeles Clippers,186.5,not_regular_season,season_type=3
+2011-12,oddsdata,320502019,2012-05-02,Orlando Magic,Indiana Pacers,183.0,not_regular_season,season_type=3
+2011-12,oddsdata,320502024,2012-05-02,San Antonio Spurs,Utah Jazz,204.5,not_regular_season,season_type=3
+2011-12,oddsdata,320503006,2012-05-03,Dallas Mavericks,Oklahoma City Thunder,196.0,not_regular_season,season_type=3
+2011-12,oddsdata,320503018,2012-05-03,New York Knicks,Miami Heat,186.5,not_regular_season,season_type=3
+2011-12,oddsdata,320504002,2012-05-04,Boston Celtics,Atlanta Hawks,174.5,not_regular_season,season_type=3
+2011-12,oddsdata,320504007,2012-05-04,Denver Nuggets,Los Angeles Lakers,204.0,not_regular_season,season_type=3
+2011-12,oddsdata,320504020,2012-05-04,Philadelphia 76ers,Chicago Bulls,178.5,not_regular_season,season_type=3
+2011-12,oddsdata,320505006,2012-05-05,Dallas Mavericks,Oklahoma City Thunder,192.5,not_regular_season,season_type=3
+2011-12,oddsdata,320505012,2012-05-05,Los Angeles Clippers,Memphis Grizzlies,187.0,not_regular_season,season_type=3
+2011-12,oddsdata,320505019,2012-05-05,Orlando Magic,Indiana Pacers,181.5,not_regular_season,season_type=3
+2011-12,oddsdata,320505026,2012-05-05,Utah Jazz,San Antonio Spurs,202.0,not_regular_season,season_type=3
+2011-12,oddsdata,320506002,2012-05-06,Boston Celtics,Atlanta Hawks,172.0,not_regular_season,season_type=3
+2011-12,oddsdata,320506007,2012-05-06,Denver Nuggets,Los Angeles Lakers,201.0,not_regular_season,season_type=3
+2011-12,oddsdata,320506018,2012-05-06,New York Knicks,Miami Heat,183.0,not_regular_season,season_type=3
+2011-12,oddsdata,320506020,2012-05-06,Philadelphia 76ers,Chicago Bulls,174.0,not_regular_season,season_type=3
+2011-12,oddsdata,320507012,2012-05-07,Los Angeles Clippers,Memphis Grizzlies,182.5,not_regular_season,season_type=3
+2011-12,oddsdata,320507026,2012-05-07,Utah Jazz,San Antonio Spurs,198.5,not_regular_season,season_type=3
+2011-12,oddsdata,320508001,2012-05-08,Atlanta Hawks,Boston Celtics,174.0,not_regular_season,season_type=3
+2011-12,oddsdata,320508004,2012-05-08,Chicago Bulls,Philadelphia 76ers,171.5,not_regular_season,season_type=3
+2011-12,oddsdata,320508011,2012-05-08,Indiana Pacers,Orlando Magic,179.0,not_regular_season,season_type=3
+2011-12,oddsdata,320508013,2012-05-08,Los Angeles Lakers,Denver Nuggets,199.5,not_regular_season,season_type=3
+2011-12,oddsdata,320509029,2012-05-09,Memphis Grizzlies,Los Angeles Clippers,183.5,not_regular_season,season_type=3
+2011-12,oddsdata,320509014,2012-05-09,Miami Heat,New York Knicks,183.5,not_regular_season,season_type=3
+2011-12,oddsdata,320510002,2012-05-10,Boston Celtics,Atlanta Hawks,175.0,not_regular_season,season_type=3
+2011-12,oddsdata,320510007,2012-05-10,Denver Nuggets,Los Angeles Lakers,199.0,not_regular_season,season_type=3
+2011-12,oddsdata,320510020,2012-05-10,Philadelphia 76ers,Chicago Bulls,170.0,not_regular_season,season_type=3
+2011-12,oddsdata,320511012,2012-05-11,Los Angeles Clippers,Memphis Grizzlies,180.5,not_regular_season,season_type=3
+2011-12,oddsdata,320512002,2012-05-12,Boston Celtics,Philadelphia 76ers,198.5,not_regular_season,season_type=3
+2011-12,oddsdata,320512013,2012-05-12,Los Angeles Lakers,Denver Nuggets,170.5,not_regular_season,season_type=3
+2011-12,oddsdata,320513029,2012-05-13,Memphis Grizzlies,Los Angeles Clippers,189.5,not_regular_season,season_type=3
+2011-12,oddsdata,320513014,2012-05-13,Miami Heat,Indiana Pacers,178.5,not_regular_season,season_type=3
+2011-12,oddsdata,320514002,2012-05-14,Boston Celtics,Philadelphia 76ers,174.0,not_regular_season,season_type=3
+2011-12,oddsdata,320514025,2012-05-14,Oklahoma City Thunder,Los Angeles Lakers,193.0,not_regular_season,season_type=3
+2011-12,oddsdata,320515014,2012-05-15,Miami Heat,Indiana Pacers,185.5,not_regular_season,season_type=3
+2011-12,oddsdata,320515024,2012-05-15,San Antonio Spurs,Los Angeles Clippers,191.5,not_regular_season,season_type=3
+2011-12,oddsdata,320516025,2012-05-16,Oklahoma City Thunder,Los Angeles Lakers,195.5,not_regular_season,season_type=3
+2011-12,oddsdata,320516020,2012-05-16,Philadelphia 76ers,Boston Celtics,172.5,not_regular_season,season_type=3
+2011-12,oddsdata,320517011,2012-05-17,Indiana Pacers,Miami Heat,182.0,not_regular_season,season_type=3
+2011-12,oddsdata,320517024,2012-05-17,San Antonio Spurs,Los Angeles Clippers,194.0,not_regular_season,season_type=3
+2011-12,oddsdata,320518013,2012-05-18,Los Angeles Lakers,Oklahoma City Thunder,194.0,not_regular_season,season_type=3
+2011-12,oddsdata,320518020,2012-05-18,Philadelphia 76ers,Boston Celtics,172.5,not_regular_season,season_type=3
+2011-12,oddsdata,320519012,2012-05-19,Los Angeles Clippers,San Antonio Spurs,193.0,not_regular_season,season_type=3
+2011-12,oddsdata,320519013,2012-05-19,Los Angeles Lakers,Oklahoma City Thunder,191.0,not_regular_season,season_type=3
+2011-12,oddsdata,320520011,2012-05-20,Indiana Pacers,Miami Heat,179.0,not_regular_season,season_type=3
+2011-12,oddsdata,320520012,2012-05-20,Los Angeles Clippers,San Antonio Spurs,194.0,not_regular_season,season_type=3
+2011-12,oddsdata,320521002,2012-05-21,Boston Celtics,Philadelphia 76ers,174.0,not_regular_season,season_type=3
+2011-12,oddsdata,320521025,2012-05-21,Oklahoma City Thunder,Los Angeles Lakers,191.5,not_regular_season,season_type=3
+2011-12,oddsdata,320522014,2012-05-22,Miami Heat,Indiana Pacers,180.5,not_regular_season,season_type=3
+2011-12,oddsdata,320523020,2012-05-23,Philadelphia 76ers,Boston Celtics,174.0,not_regular_season,season_type=3
+2011-12,oddsdata,320524011,2012-05-24,Indiana Pacers,Miami Heat,182.0,not_regular_season,season_type=3
+2011-12,oddsdata,320526002,2012-05-26,Boston Celtics,Philadelphia 76ers,171.5,not_regular_season,season_type=3
+2011-12,oddsdata,320527024,2012-05-27,San Antonio Spurs,Oklahoma City Thunder,201.0,not_regular_season,season_type=3
+2011-12,oddsdata,320528014,2012-05-28,Miami Heat,Boston Celtics,177.5,not_regular_season,season_type=3
+2011-12,oddsdata,320529024,2012-05-29,San Antonio Spurs,Oklahoma City Thunder,202.0,not_regular_season,season_type=3
+2011-12,oddsdata,320530014,2012-05-30,Miami Heat,Boston Celtics,177.5,not_regular_season,season_type=3
+2011-12,oddsdata,320531025,2012-05-31,Oklahoma City Thunder,San Antonio Spurs,206.5,not_regular_season,season_type=3
+2011-12,oddsdata,320601002,2012-06-01,Boston Celtics,Miami Heat,179.0,not_regular_season,season_type=3
+2011-12,oddsdata,320602025,2012-06-02,Oklahoma City Thunder,San Antonio Spurs,202.5,not_regular_season,season_type=3
+2011-12,oddsdata,320603002,2012-06-03,Boston Celtics,Miami Heat,182.0,not_regular_season,season_type=3
+2011-12,oddsdata,320604024,2012-06-04,San Antonio Spurs,Oklahoma City Thunder,203.5,not_regular_season,season_type=3
+2011-12,oddsdata,320605014,2012-06-05,Miami Heat,Boston Celtics,180.0,not_regular_season,season_type=3
+2011-12,oddsdata,320606025,2012-06-06,Oklahoma City Thunder,San Antonio Spurs,201.5,not_regular_season,season_type=3
+2011-12,oddsdata,320607002,2012-06-07,Boston Celtics,Miami Heat,179.5,not_regular_season,season_type=3
+2011-12,oddsdata,320609014,2012-06-09,Miami Heat,Boston Celtics,180.0,not_regular_season,season_type=3
+2011-12,oddsdata,320612025,2012-06-12,Oklahoma City Thunder,Miami Heat,192.0,not_regular_season,season_type=3
+2011-12,oddsdata,320614025,2012-06-14,Oklahoma City Thunder,Miami Heat,195.0,not_regular_season,season_type=3
+2011-12,oddsdata,320617014,2012-06-17,Miami Heat,Oklahoma City Thunder,195.0,not_regular_season,season_type=3
+2011-12,oddsdata,320619014,2012-06-19,Miami Heat,Oklahoma City Thunder,192.0,not_regular_season,season_type=3
+2011-12,oddsdata,320621014,2012-06-21,Miami Heat,Oklahoma City Thunder,193.0,not_regular_season,season_type=3
+2012-13,oddsdata,-1,2012-12-25,Miami Heat,Oklahoma City Thunder,203.0,unmatched,
+2012-13,oddsdata,-1,2013-01-29,Cleveland Cavaliers,Golden State Warriors,206.0,unmatched,
+2012-13,oddsdata,-1,2013-01-29,Detroit Pistons,Milwaukee Bucks,200.0,unmatched,
+2012-13,oddsdata,-1,2013-01-29,Los Angeles Lakers,New Orleans Pelicans,195.5,unmatched,
+2012-13,oddsdata,-1,2013-01-29,Portland Trail Blazers,Dallas Mavericks,201.5,unmatched,
+2012-13,oddsdata,400278574,2013-02-27,Washington Wizards,Detroit Pistons,19.5,line_out_of_range_170_275,line=19.5
+2012-13,oddsdata,400459778,2013-04-20,Brooklyn Nets,Chicago Bulls,182.5,not_regular_season,season_type=3
+2012-13,oddsdata,400459943,2013-04-20,Denver Nuggets,Golden State Warriors,210.0,not_regular_season,season_type=3
+2012-13,oddsdata,400459975,2013-04-20,Los Angeles Clippers,Memphis Grizzlies,179.0,not_regular_season,season_type=3
+2012-13,oddsdata,400459776,2013-04-20,New York Knicks,Boston Celtics,192.5,not_regular_season,season_type=3
+2012-13,oddsdata,400459777,2013-04-21,Indiana Pacers,Atlanta Hawks,185.0,not_regular_season,season_type=3
+2012-13,oddsdata,400459775,2013-04-21,Miami Heat,Milwaukee Bucks,199.0,not_regular_season,season_type=3
+2012-13,oddsdata,400459779,2013-04-21,Oklahoma City Thunder,Houston Rockets,212.5,not_regular_season,season_type=3
+2012-13,oddsdata,400459787,2013-04-21,San Antonio Spurs,Los Angeles Lakers,192.0,not_regular_season,season_type=3
+2012-13,oddsdata,400459947,2013-04-22,Brooklyn Nets,Chicago Bulls,183.0,not_regular_season,season_type=3
+2012-13,oddsdata,400459977,2013-04-22,Los Angeles Clippers,Memphis Grizzlies,181.5,not_regular_season,season_type=3
+2012-13,oddsdata,400459944,2013-04-23,Denver Nuggets,Golden State Warriors,207.0,not_regular_season,season_type=3
+2012-13,oddsdata,400459786,2013-04-23,Miami Heat,Milwaukee Bucks,197.5,not_regular_season,season_type=3
+2012-13,oddsdata,400459959,2013-04-23,New York Knicks,Boston Celtics,186.0,not_regular_season,season_type=3
+2012-13,oddsdata,400459980,2013-04-24,Indiana Pacers,Atlanta Hawks,188.0,not_regular_season,season_type=3
+2012-13,oddsdata,400459780,2013-04-24,Oklahoma City Thunder,Houston Rockets,212.0,not_regular_season,season_type=3
+2012-13,oddsdata,400459788,2013-04-24,San Antonio Spurs,Los Angeles Lakers,187.5,not_regular_season,season_type=3
+2012-13,oddsdata,400459951,2013-04-25,Chicago Bulls,Brooklyn Nets,181.0,not_regular_season,season_type=3
+2012-13,oddsdata,400459978,2013-04-25,Memphis Grizzlies,Los Angeles Clippers,180.5,not_regular_season,season_type=3
+2012-13,oddsdata,400459793,2013-04-25,Milwaukee Bucks,Miami Heat,195.5,not_regular_season,season_type=3
+2012-13,oddsdata,400459960,2013-04-26,Boston Celtics,New York Knicks,185.0,not_regular_season,season_type=3
+2012-13,oddsdata,400459945,2013-04-26,Golden State Warriors,Denver Nuggets,212.0,not_regular_season,season_type=3
+2012-13,oddsdata,400459789,2013-04-26,Los Angeles Lakers,San Antonio Spurs,189.5,not_regular_season,season_type=3
+2012-13,oddsdata,400459984,2013-04-27,Atlanta Hawks,Indiana Pacers,189.0,not_regular_season,season_type=3
+2012-13,oddsdata,400459952,2013-04-27,Chicago Bulls,Brooklyn Nets,178.5,not_regular_season,season_type=3
+2012-13,oddsdata,400459781,2013-04-27,Houston Rockets,Oklahoma City Thunder,211.5,not_regular_season,season_type=3
+2012-13,oddsdata,400459979,2013-04-27,Memphis Grizzlies,Los Angeles Clippers,177.0,not_regular_season,season_type=3
+2012-13,oddsdata,400459961,2013-04-28,Boston Celtics,New York Knicks,182.5,not_regular_season,season_type=3
+2012-13,oddsdata,400459946,2013-04-28,Golden State Warriors,Denver Nuggets,211.5,not_regular_season,season_type=3
+2012-13,oddsdata,400459790,2013-04-28,Los Angeles Lakers,San Antonio Spurs,188.0,not_regular_season,season_type=3
+2012-13,oddsdata,400459955,2013-04-28,Milwaukee Bucks,Miami Heat,196.0,not_regular_season,season_type=3
+2012-13,oddsdata,400459985,2013-04-29,Atlanta Hawks,Indiana Pacers,186.0,not_regular_season,season_type=3
+2012-13,oddsdata,400459953,2013-04-29,Brooklyn Nets,Chicago Bulls,180.0,not_regular_season,season_type=3
+2012-13,oddsdata,400459782,2013-04-29,Houston Rockets,Oklahoma City Thunder,206.5,not_regular_season,season_type=3
+2012-13,oddsdata,400459948,2013-04-30,Denver Nuggets,Golden State Warriors,213.5,not_regular_season,season_type=3
+2012-13,oddsdata,400459981,2013-04-30,Los Angeles Clippers,Memphis Grizzlies,180.0,not_regular_season,season_type=3
+2012-13,oddsdata,400459986,2013-05-01,Indiana Pacers,Atlanta Hawks,187.5,not_regular_season,season_type=3
+2012-13,oddsdata,400459962,2013-05-01,New York Knicks,Boston Celtics,181.5,not_regular_season,season_type=3
+2012-13,oddsdata,400459783,2013-05-01,Oklahoma City Thunder,Houston Rockets,208.0,not_regular_season,season_type=3
+2012-13,oddsdata,400459974,2013-05-02,Chicago Bulls,Brooklyn Nets,184.0,not_regular_season,season_type=3
+2012-13,oddsdata,400459949,2013-05-02,Golden State Warriors,Denver Nuggets,211.0,not_regular_season,season_type=3
+2012-13,oddsdata,400459987,2013-05-03,Atlanta Hawks,Indiana Pacers,188.0,not_regular_season,season_type=3
+2012-13,oddsdata,400459963,2013-05-03,Boston Celtics,New York Knicks,181.5,not_regular_season,season_type=3
+2012-13,oddsdata,400459784,2013-05-03,Houston Rockets,Oklahoma City Thunder,208.0,not_regular_season,season_type=3
+2012-13,oddsdata,400459982,2013-05-03,Memphis Grizzlies,Los Angeles Clippers,181.0,not_regular_season,season_type=3
+2012-13,oddsdata,400459976,2013-05-04,Brooklyn Nets,Chicago Bulls,183.5,not_regular_season,season_type=3
+2012-13,oddsdata,400464191,2013-05-05,New York Knicks,Indiana Pacers,185.5,not_regular_season,season_type=3
+2012-13,oddsdata,400464192,2013-05-05,Oklahoma City Thunder,Memphis Grizzlies,185.5,not_regular_season,season_type=3
+2012-13,oddsdata,400464356,2013-05-06,Miami Heat,Chicago Bulls,186.0,not_regular_season,season_type=3
+2012-13,oddsdata,400464174,2013-05-06,San Antonio Spurs,Golden State Warriors,201.0,not_regular_season,season_type=3
+2012-13,oddsdata,400464340,2013-05-07,New York Knicks,Indiana Pacers,184.5,not_regular_season,season_type=3
+2012-13,oddsdata,400464337,2013-05-07,Oklahoma City Thunder,Memphis Grizzlies,186.0,not_regular_season,season_type=3
+2012-13,oddsdata,400464357,2013-05-08,Miami Heat,Chicago Bulls,187.0,not_regular_season,season_type=3
+2012-13,oddsdata,400464175,2013-05-08,San Antonio Spurs,Golden State Warriors,204.0,not_regular_season,season_type=3
+2012-13,oddsdata,400464359,2013-05-10,Chicago Bulls,Miami Heat,188.0,not_regular_season,season_type=3
+2012-13,oddsdata,400464339,2013-05-10,Golden State Warriors,San Antonio Spurs,203.5,not_regular_season,season_type=3
+2012-13,oddsdata,400464341,2013-05-11,Indiana Pacers,New York Knicks,184.0,not_regular_season,season_type=3
+2012-13,oddsdata,400464338,2013-05-11,Memphis Grizzlies,Oklahoma City Thunder,188.5,not_regular_season,season_type=3
+2012-13,oddsdata,400464459,2013-05-12,Golden State Warriors,San Antonio Spurs,200.5,not_regular_season,season_type=3
+2012-13,oddsdata,400464463,2013-05-13,Chicago Bulls,Miami Heat,188.0,not_regular_season,season_type=3
+2012-13,oddsdata,400464455,2013-05-13,Memphis Grizzlies,Oklahoma City Thunder,184.5,not_regular_season,season_type=3
+2012-13,oddsdata,400464467,2013-05-14,Indiana Pacers,New York Knicks,180.5,not_regular_season,season_type=3
+2012-13,oddsdata,400464460,2013-05-14,San Antonio Spurs,Golden State Warriors,195.0,not_regular_season,season_type=3
+2012-13,oddsdata,400464464,2013-05-15,Miami Heat,Chicago Bulls,182.0,not_regular_season,season_type=3
+2012-13,oddsdata,400464456,2013-05-15,Oklahoma City Thunder,Memphis Grizzlies,185.0,not_regular_season,season_type=3
+2012-13,oddsdata,400464461,2013-05-16,Golden State Warriors,San Antonio Spurs,195.5,not_regular_season,season_type=3
+2012-13,oddsdata,400464468,2013-05-16,New York Knicks,Indiana Pacers,179.0,not_regular_season,season_type=3
+2012-13,oddsdata,400464469,2013-05-18,Indiana Pacers,New York Knicks,179.5,not_regular_season,season_type=3
+2012-13,oddsdata,400466474,2013-05-19,San Antonio Spurs,Memphis Grizzlies,184.0,not_regular_season,season_type=3
+2012-13,oddsdata,400466475,2013-05-21,San Antonio Spurs,Memphis Grizzlies,183.0,not_regular_season,season_type=3
+2012-13,oddsdata,400466594,2013-05-22,Miami Heat,Indiana Pacers,183.5,not_regular_season,season_type=3
+2012-13,oddsdata,400466595,2013-05-24,Miami Heat,Indiana Pacers,182.0,not_regular_season,season_type=3
+2012-13,oddsdata,400466476,2013-05-25,Memphis Grizzlies,San Antonio Spurs,179.0,not_regular_season,season_type=3
+2012-13,oddsdata,400466596,2013-05-26,Indiana Pacers,Miami Heat,183.5,not_regular_season,season_type=3
+2012-13,oddsdata,400466477,2013-05-27,Memphis Grizzlies,San Antonio Spurs,180.5,not_regular_season,season_type=3
+2012-13,oddsdata,400466597,2013-05-28,Indiana Pacers,Miami Heat,185.0,not_regular_season,season_type=3
+2012-13,oddsdata,400466598,2013-05-30,Miami Heat,Indiana Pacers,185.5,not_regular_season,season_type=3
+2012-13,oddsdata,400466599,2013-06-01,Indiana Pacers,Miami Heat,184.0,not_regular_season,season_type=3
+2012-13,oddsdata,400466600,2013-06-03,Miami Heat,Indiana Pacers,181.5,not_regular_season,season_type=3
+2012-13,oddsdata,400467195,2013-06-06,Miami Heat,San Antonio Spurs,188.0,not_regular_season,season_type=3
+2012-13,oddsdata,400467334,2013-06-09,Miami Heat,San Antonio Spurs,187.5,not_regular_season,season_type=3
+2012-13,oddsdata,400467335,2013-06-11,San Antonio Spurs,Miami Heat,188.5,not_regular_season,season_type=3
+2012-13,oddsdata,400467336,2013-06-13,San Antonio Spurs,Miami Heat,187.0,not_regular_season,season_type=3
+2012-13,oddsdata,400467337,2013-06-16,San Antonio Spurs,Miami Heat,187.0,not_regular_season,season_type=3
+2012-13,oddsdata,400467338,2013-06-18,Miami Heat,San Antonio Spurs,189.5,not_regular_season,season_type=3
+2012-13,oddsdata,400467339,2013-06-20,Miami Heat,San Antonio Spurs,191.0,not_regular_season,season_type=3
+2013-14,oddsdata,-1,2013-11-27,Charlotte Bobcats,Indiana Pacers,180.0,unmatched,
+2013-14,oddsdata,400553057,2014-04-19,Indiana Pacers,Atlanta Hawks,187.5,not_regular_season,season_type=3
+2013-14,oddsdata,400553078,2014-04-19,Los Angeles Clippers,Golden State Warriors,210.0,not_regular_season,season_type=3
+2013-14,oddsdata,400553066,2014-04-19,Oklahoma City Thunder,Memphis Grizzlies,192.5,not_regular_season,season_type=3
+2013-14,oddsdata,400553085,2014-04-19,Toronto Raptors,Brooklyn Nets,193.5,not_regular_season,season_type=3
+2013-14,oddsdata,400553096,2014-04-20,Chicago Bulls,Washington Wizards,182.5,not_regular_season,season_type=3
+2013-14,oddsdata,400553097,2014-04-20,Houston Rockets,Portland Trail Blazers,216.0,not_regular_season,season_type=3
+2013-14,oddsdata,400553072,2014-04-20,Miami Heat,Charlotte Bobcats,189.5,not_regular_season,season_type=3
+2013-14,oddsdata,400553054,2014-04-20,San Antonio Spurs,Dallas Mavericks,206.5,not_regular_season,season_type=3
+2013-14,oddsdata,400553081,2014-04-21,Los Angeles Clippers,Golden State Warriors,212.0,not_regular_season,season_type=3
+2013-14,oddsdata,400553067,2014-04-21,Oklahoma City Thunder,Memphis Grizzlies,189.5,not_regular_season,season_type=3
+2013-14,oddsdata,400553098,2014-04-22,Chicago Bulls,Washington Wizards,181.5,not_regular_season,season_type=3
+2013-14,oddsdata,400553059,2014-04-22,Indiana Pacers,Atlanta Hawks,187.0,not_regular_season,season_type=3
+2013-14,oddsdata,400553086,2014-04-22,Toronto Raptors,Brooklyn Nets,189.0,not_regular_season,season_type=3
+2013-14,oddsdata,400553099,2014-04-23,Houston Rockets,Portland Trail Blazers,212.5,not_regular_season,season_type=3
+2013-14,oddsdata,400553075,2014-04-23,Miami Heat,Charlotte Bobcats,185.5,not_regular_season,season_type=3
+2013-14,oddsdata,400553055,2014-04-23,San Antonio Spurs,Dallas Mavericks,198.0,not_regular_season,season_type=3
+2013-14,oddsdata,400553060,2014-04-24,Atlanta Hawks,Indiana Pacers,186.0,not_regular_season,season_type=3
+2013-14,oddsdata,400553084,2014-04-24,Golden State Warriors,Los Angeles Clippers,214.0,not_regular_season,season_type=3
+2013-14,oddsdata,400553069,2014-04-24,Memphis Grizzlies,Oklahoma City Thunder,190.0,not_regular_season,season_type=3
+2013-14,oddsdata,400553087,2014-04-25,Brooklyn Nets,Toronto Raptors,191.0,not_regular_season,season_type=3
+2013-14,oddsdata,400553101,2014-04-25,Portland Trail Blazers,Houston Rockets,216.0,not_regular_season,season_type=3
+2013-14,oddsdata,400553100,2014-04-25,Washington Wizards,Chicago Bulls,181.5,not_regular_season,season_type=3
+2013-14,oddsdata,400553062,2014-04-26,Atlanta Hawks,Indiana Pacers,185.0,not_regular_season,season_type=3
+2013-14,oddsdata,400553077,2014-04-26,Charlotte Bobcats,Miami Heat,188.0,not_regular_season,season_type=3
+2013-14,oddsdata,400553056,2014-04-26,Dallas Mavericks,San Antonio Spurs,202.5,not_regular_season,season_type=3
+2013-14,oddsdata,400553071,2014-04-26,Memphis Grizzlies,Oklahoma City Thunder,188.0,not_regular_season,season_type=3
+2013-14,oddsdata,400553089,2014-04-27,Brooklyn Nets,Toronto Raptors,192.0,not_regular_season,season_type=3
+2013-14,oddsdata,400553088,2014-04-27,Golden State Warriors,Los Angeles Clippers,210.5,not_regular_season,season_type=3
+2013-14,oddsdata,400553104,2014-04-27,Portland Trail Blazers,Houston Rockets,217.0,not_regular_season,season_type=3
+2013-14,oddsdata,400553102,2014-04-27,Washington Wizards,Chicago Bulls,182.0,not_regular_season,season_type=3
+2013-14,oddsdata,400553079,2014-04-28,Charlotte Bobcats,Miami Heat,187.0,not_regular_season,season_type=3
+2013-14,oddsdata,400553058,2014-04-28,Dallas Mavericks,San Antonio Spurs,204.0,not_regular_season,season_type=3
+2013-14,oddsdata,400553064,2014-04-28,Indiana Pacers,Atlanta Hawks,186.5,not_regular_season,season_type=3
+2013-14,oddsdata,400553103,2014-04-29,Chicago Bulls,Washington Wizards,184.0,not_regular_season,season_type=3
+2013-14,oddsdata,400553090,2014-04-29,Los Angeles Clippers,Golden State Warriors,211.0,not_regular_season,season_type=3
+2013-14,oddsdata,400553073,2014-04-29,Oklahoma City Thunder,Memphis Grizzlies,187.0,not_regular_season,season_type=3
+2013-14,oddsdata,400553107,2014-04-30,Houston Rockets,Portland Trail Blazers,213.5,not_regular_season,season_type=3
+2013-14,oddsdata,400553061,2014-04-30,San Antonio Spurs,Dallas Mavericks,198.5,not_regular_season,season_type=3
+2013-14,oddsdata,400553091,2014-04-30,Toronto Raptors,Brooklyn Nets,191.0,not_regular_season,season_type=3
+2013-14,oddsdata,400553068,2014-05-01,Atlanta Hawks,Indiana Pacers,187.5,not_regular_season,season_type=3
+2013-14,oddsdata,400553092,2014-05-01,Golden State Warriors,Los Angeles Clippers,210.0,not_regular_season,season_type=3
+2013-14,oddsdata,400553074,2014-05-01,Memphis Grizzlies,Oklahoma City Thunder,186.0,not_regular_season,season_type=3
+2013-14,oddsdata,400553093,2014-05-02,Brooklyn Nets,Toronto Raptors,191.0,not_regular_season,season_type=3
+2013-14,oddsdata,400553063,2014-05-02,Dallas Mavericks,San Antonio Spurs,199.5,not_regular_season,season_type=3
+2013-14,oddsdata,400553108,2014-05-02,Portland Trail Blazers,Houston Rockets,213.0,not_regular_season,season_type=3
+2013-14,oddsdata,400553070,2014-05-03,Indiana Pacers,Atlanta Hawks,186.0,not_regular_season,season_type=3
+2013-14,oddsdata,400553095,2014-05-03,Los Angeles Clippers,Golden State Warriors,209.5,not_regular_season,season_type=3
+2013-14,oddsdata,400553076,2014-05-03,Oklahoma City Thunder,Memphis Grizzlies,185.5,not_regular_season,season_type=3
+2013-14,oddsdata,400553065,2014-05-04,San Antonio Spurs,Dallas Mavericks,199.5,not_regular_season,season_type=3
+2013-14,oddsdata,400553094,2014-05-04,Toronto Raptors,Brooklyn Nets,189.5,not_regular_season,season_type=3
+2013-14,oddsdata,400556174,2014-05-05,Indiana Pacers,Washington Wizards,184.0,not_regular_season,season_type=3
+2013-14,oddsdata,400556254,2014-05-05,Oklahoma City Thunder,Los Angeles Clippers,212.0,not_regular_season,season_type=3
+2013-14,oddsdata,400556274,2014-05-06,Miami Heat,Brooklyn Nets,191.5,not_regular_season,season_type=3
+2013-14,oddsdata,400556334,2014-05-06,San Antonio Spurs,Portland Trail Blazers,204.5,not_regular_season,season_type=3
+2013-14,oddsdata,400556175,2014-05-07,Indiana Pacers,Washington Wizards,185.0,not_regular_season,season_type=3
+2013-14,oddsdata,400556255,2014-05-07,Oklahoma City Thunder,Los Angeles Clippers,215.0,not_regular_season,season_type=3
+2013-14,oddsdata,400556275,2014-05-08,Miami Heat,Brooklyn Nets,192.0,not_regular_season,season_type=3
+2013-14,oddsdata,400556335,2014-05-08,San Antonio Spurs,Portland Trail Blazers,207.0,not_regular_season,season_type=3
+2013-14,oddsdata,400556256,2014-05-09,Los Angeles Clippers,Oklahoma City Thunder,213.0,not_regular_season,season_type=3
+2013-14,oddsdata,400556176,2014-05-09,Washington Wizards,Indiana Pacers,183.0,not_regular_season,season_type=3
+2013-14,oddsdata,400556276,2014-05-10,Brooklyn Nets,Miami Heat,189.0,not_regular_season,season_type=3
+2013-14,oddsdata,400556336,2014-05-10,Portland Trail Blazers,San Antonio Spurs,209.0,not_regular_season,season_type=3
+2013-14,oddsdata,400556257,2014-05-11,Los Angeles Clippers,Oklahoma City Thunder,215.0,not_regular_season,season_type=3
+2013-14,oddsdata,400556177,2014-05-11,Washington Wizards,Indiana Pacers,180.0,not_regular_season,season_type=3
+2013-14,oddsdata,400556277,2014-05-12,Brooklyn Nets,Miami Heat,188.0,not_regular_season,season_type=3
+2013-14,oddsdata,400556337,2014-05-12,Portland Trail Blazers,San Antonio Spurs,212.0,not_regular_season,season_type=3
+2013-14,oddsdata,400556179,2014-05-13,Indiana Pacers,Washington Wizards,181.5,not_regular_season,season_type=3
+2013-14,oddsdata,400556258,2014-05-13,Oklahoma City Thunder,Los Angeles Clippers,212.5,not_regular_season,season_type=3
+2013-14,oddsdata,400556278,2014-05-14,Miami Heat,Brooklyn Nets,188.0,not_regular_season,season_type=3
+2013-14,oddsdata,400556338,2014-05-14,San Antonio Spurs,Portland Trail Blazers,207.5,not_regular_season,season_type=3
+2013-14,oddsdata,400556259,2014-05-15,Los Angeles Clippers,Oklahoma City Thunder,213.0,not_regular_season,season_type=3
+2013-14,oddsdata,400556180,2014-05-15,Washington Wizards,Indiana Pacers,181.0,not_regular_season,season_type=3
+2013-14,oddsdata,400558914,2014-05-18,Indiana Pacers,Miami Heat,182.0,not_regular_season,season_type=3
+2013-14,oddsdata,400558954,2014-05-19,San Antonio Spurs,Oklahoma City Thunder,210.0,not_regular_season,season_type=3
+2013-14,oddsdata,400558915,2014-05-20,Indiana Pacers,Miami Heat,184.0,not_regular_season,season_type=3
+2013-14,oddsdata,400558955,2014-05-21,San Antonio Spurs,Oklahoma City Thunder,210.5,not_regular_season,season_type=3
+2013-14,oddsdata,400558916,2014-05-24,Miami Heat,Indiana Pacers,182.5,not_regular_season,season_type=3
+2013-14,oddsdata,400558956,2014-05-25,Oklahoma City Thunder,San Antonio Spurs,208.0,not_regular_season,season_type=3
+2013-14,oddsdata,400558917,2014-05-26,Miami Heat,Indiana Pacers,183.5,not_regular_season,season_type=3
+2013-14,oddsdata,400558957,2014-05-27,Oklahoma City Thunder,San Antonio Spurs,207.5,not_regular_season,season_type=3
+2013-14,oddsdata,400558918,2014-05-28,Indiana Pacers,Miami Heat,184.0,not_regular_season,season_type=3
+2013-14,oddsdata,400558958,2014-05-29,San Antonio Spurs,Oklahoma City Thunder,206.0,not_regular_season,season_type=3
+2013-14,oddsdata,400558919,2014-05-30,Miami Heat,Indiana Pacers,183.5,not_regular_season,season_type=3
+2013-14,oddsdata,400558959,2014-05-31,Oklahoma City Thunder,San Antonio Spurs,206.5,not_regular_season,season_type=3
+2013-14,oddsdata,400559374,2014-06-05,San Antonio Spurs,Miami Heat,198.5,not_regular_season,season_type=3
+2013-14,oddsdata,400559375,2014-06-08,San Antonio Spurs,Miami Heat,200.0,not_regular_season,season_type=3
+2013-14,oddsdata,400559376,2014-06-10,Miami Heat,San Antonio Spurs,198.0,not_regular_season,season_type=3
+2013-14,oddsdata,400559377,2014-06-12,Miami Heat,San Antonio Spurs,198.0,not_regular_season,season_type=3
+2013-14,oddsdata,400559378,2014-06-15,San Antonio Spurs,Miami Heat,195.0,not_regular_season,season_type=3
+2014-15,oddsdata,400579073,2015-02-09,Dallas Mavericks,Los Angeles Clippers,20.5,line_out_of_range_170_275,line=20.5
+2014-15,oddsdata,400790919,2015-04-18,Chicago Bulls,Milwaukee Bucks,187.0,not_regular_season,season_type=3
+2014-15,oddsdata,400790901,2015-04-18,Golden State Warriors,New Orleans Pelicans,203.0,not_regular_season,season_type=3
+2014-15,oddsdata,400790914,2015-04-18,Houston Rockets,Dallas Mavericks,209.0,not_regular_season,season_type=3
+2014-15,oddsdata,400790928,2015-04-18,Toronto Raptors,Washington Wizards,192.0,not_regular_season,season_type=3
+2014-15,oddsdata,400790921,2015-04-19,Atlanta Hawks,Brooklyn Nets,201.5,not_regular_season,season_type=3
+2014-15,oddsdata,400790905,2015-04-19,Cleveland Cavaliers,Boston Celtics,203.0,not_regular_season,season_type=3
+2014-15,oddsdata,400790945,2015-04-19,Los Angeles Clippers,San Antonio Spurs,204.0,not_regular_season,season_type=3
+2014-15,oddsdata,400790953,2015-04-19,Memphis Grizzlies,Portland Trail Blazers,191.0,not_regular_season,season_type=3
+2014-15,oddsdata,400790943,2015-04-20,Chicago Bulls,Milwaukee Bucks,187.5,not_regular_season,season_type=3
+2014-15,oddsdata,400790902,2015-04-20,Golden State Warriors,New Orleans Pelicans,205.0,not_regular_season,season_type=3
+2014-15,oddsdata,400790907,2015-04-21,Cleveland Cavaliers,Boston Celtics,207.0,not_regular_season,season_type=3
+2014-15,oddsdata,400790916,2015-04-21,Houston Rockets,Dallas Mavericks,214.0,not_regular_season,season_type=3
+2014-15,oddsdata,400790929,2015-04-21,Toronto Raptors,Washington Wizards,190.5,not_regular_season,season_type=3
+2014-15,oddsdata,400790922,2015-04-22,Atlanta Hawks,Brooklyn Nets,202.0,not_regular_season,season_type=3
+2014-15,oddsdata,400790947,2015-04-22,Los Angeles Clippers,San Antonio Spurs,205.0,not_regular_season,season_type=3
+2014-15,oddsdata,400790955,2015-04-22,Memphis Grizzlies,Portland Trail Blazers,189.0,not_regular_season,season_type=3
+2014-15,oddsdata,400790909,2015-04-23,Boston Celtics,Cleveland Cavaliers,204.0,not_regular_season,season_type=3
+2014-15,oddsdata,400790944,2015-04-23,Milwaukee Bucks,Chicago Bulls,188.0,not_regular_season,season_type=3
+2014-15,oddsdata,400790903,2015-04-23,New Orleans Pelicans,Golden State Warriors,203.0,not_regular_season,season_type=3
+2014-15,oddsdata,400790917,2015-04-24,Dallas Mavericks,Houston Rockets,214.0,not_regular_season,season_type=3
+2014-15,oddsdata,400790950,2015-04-24,San Antonio Spurs,Los Angeles Clippers,205.0,not_regular_season,season_type=3
+2014-15,oddsdata,400790930,2015-04-24,Washington Wizards,Toronto Raptors,195.0,not_regular_season,season_type=3
+2014-15,oddsdata,400790923,2015-04-25,Brooklyn Nets,Atlanta Hawks,200.5,not_regular_season,season_type=3
+2014-15,oddsdata,400790946,2015-04-25,Milwaukee Bucks,Chicago Bulls,188.5,not_regular_season,season_type=3
+2014-15,oddsdata,400790904,2015-04-25,New Orleans Pelicans,Golden State Warriors,206.0,not_regular_season,season_type=3
+2014-15,oddsdata,400790956,2015-04-25,Portland Trail Blazers,Memphis Grizzlies,188.5,not_regular_season,season_type=3
+2014-15,oddsdata,400790911,2015-04-26,Boston Celtics,Cleveland Cavaliers,203.5,not_regular_season,season_type=3
+2014-15,oddsdata,400790918,2015-04-26,Dallas Mavericks,Houston Rockets,220.5,not_regular_season,season_type=3
+2014-15,oddsdata,400790952,2015-04-26,San Antonio Spurs,Los Angeles Clippers,202.0,not_regular_season,season_type=3
+2014-15,oddsdata,400790931,2015-04-26,Washington Wizards,Toronto Raptors,198.0,not_regular_season,season_type=3
+2014-15,oddsdata,400790924,2015-04-27,Brooklyn Nets,Atlanta Hawks,195.5,not_regular_season,season_type=3
+2014-15,oddsdata,400790948,2015-04-27,Chicago Bulls,Milwaukee Bucks,188.0,not_regular_season,season_type=3
+2014-15,oddsdata,400790958,2015-04-27,Portland Trail Blazers,Memphis Grizzlies,193.0,not_regular_season,season_type=3
+2014-15,oddsdata,400790920,2015-04-28,Houston Rockets,Dallas Mavericks,222.0,not_regular_season,season_type=3
+2014-15,oddsdata,400790954,2015-04-28,Los Angeles Clippers,San Antonio Spurs,205.5,not_regular_season,season_type=3
+2014-15,oddsdata,400790925,2015-04-29,Atlanta Hawks,Brooklyn Nets,200.0,not_regular_season,season_type=3
+2014-15,oddsdata,400790960,2015-04-29,Memphis Grizzlies,Portland Trail Blazers,191.5,not_regular_season,season_type=3
+2014-15,oddsdata,400790949,2015-04-30,Milwaukee Bucks,Chicago Bulls,187.5,not_regular_season,season_type=3
+2014-15,oddsdata,400790957,2015-04-30,San Antonio Spurs,Los Angeles Clippers,205.5,not_regular_season,season_type=3
+2014-15,oddsdata,400790926,2015-05-01,Brooklyn Nets,Atlanta Hawks,200.0,not_regular_season,season_type=3
+2014-15,oddsdata,400790959,2015-05-02,Los Angeles Clippers,San Antonio Spurs,204.5,not_regular_season,season_type=3
+2014-15,oddsdata,400793781,2015-05-03,Atlanta Hawks,Washington Wizards,197.0,not_regular_season,season_type=3
+2014-15,oddsdata,400792888,2015-05-03,Golden State Warriors,Memphis Grizzlies,198.5,not_regular_season,season_type=3
+2014-15,oddsdata,400793121,2015-05-04,Cleveland Cavaliers,Chicago Bulls,194.0,not_regular_season,season_type=3
+2014-15,oddsdata,400793861,2015-05-04,Houston Rockets,Los Angeles Clippers,212.0,not_regular_season,season_type=3
+2014-15,oddsdata,400793782,2015-05-05,Atlanta Hawks,Washington Wizards,199.0,not_regular_season,season_type=3
+2014-15,oddsdata,400792889,2015-05-05,Golden State Warriors,Memphis Grizzlies,194.5,not_regular_season,season_type=3
+2014-15,oddsdata,400793122,2015-05-06,Cleveland Cavaliers,Chicago Bulls,194.5,not_regular_season,season_type=3
+2014-15,oddsdata,400793862,2015-05-06,Houston Rockets,Los Angeles Clippers,213.5,not_regular_season,season_type=3
+2014-15,oddsdata,400793123,2015-05-08,Chicago Bulls,Cleveland Cavaliers,195.0,not_regular_season,season_type=3
+2014-15,oddsdata,400793863,2015-05-08,Los Angeles Clippers,Houston Rockets,217.0,not_regular_season,season_type=3
+2014-15,oddsdata,400792890,2015-05-09,Memphis Grizzlies,Golden State Warriors,196.0,not_regular_season,season_type=3
+2014-15,oddsdata,400793783,2015-05-09,Washington Wizards,Atlanta Hawks,199.0,not_regular_season,season_type=3
+2014-15,oddsdata,400793124,2015-05-10,Chicago Bulls,Cleveland Cavaliers,194.5,not_regular_season,season_type=3
+2014-15,oddsdata,400793864,2015-05-10,Los Angeles Clippers,Houston Rockets,217.0,not_regular_season,season_type=3
+2014-15,oddsdata,400792891,2015-05-11,Memphis Grizzlies,Golden State Warriors,196.0,not_regular_season,season_type=3
+2014-15,oddsdata,400793784,2015-05-11,Washington Wizards,Atlanta Hawks,198.5,not_regular_season,season_type=3
+2014-15,oddsdata,400793125,2015-05-12,Cleveland Cavaliers,Chicago Bulls,192.0,not_regular_season,season_type=3
+2014-15,oddsdata,400793865,2015-05-12,Houston Rockets,Los Angeles Clippers,219.0,not_regular_season,season_type=3
+2014-15,oddsdata,400793785,2015-05-13,Atlanta Hawks,Washington Wizards,200.0,not_regular_season,season_type=3
+2014-15,oddsdata,400792892,2015-05-13,Golden State Warriors,Memphis Grizzlies,195.0,not_regular_season,season_type=3
+2014-15,oddsdata,400793126,2015-05-14,Chicago Bulls,Cleveland Cavaliers,192.5,not_regular_season,season_type=3
+2014-15,oddsdata,400793866,2015-05-14,Los Angeles Clippers,Houston Rockets,219.0,not_regular_season,season_type=3
+2014-15,oddsdata,400792893,2015-05-15,Memphis Grizzlies,Golden State Warriors,195.0,not_regular_season,season_type=3
+2014-15,oddsdata,400793786,2015-05-15,Washington Wizards,Atlanta Hawks,198.0,not_regular_season,season_type=3
+2014-15,oddsdata,400793867,2015-05-17,Houston Rockets,Los Angeles Clippers,220.0,not_regular_season,season_type=3
+2014-15,oddsdata,400796355,2015-05-19,Golden State Warriors,Houston Rockets,218.5,not_regular_season,season_type=3
+2014-15,oddsdata,400796266,2015-05-20,Atlanta Hawks,Cleveland Cavaliers,197.5,not_regular_season,season_type=3
+2014-15,oddsdata,400796356,2015-05-21,Golden State Warriors,Houston Rockets,220.0,not_regular_season,season_type=3
+2014-15,oddsdata,400796267,2015-05-22,Atlanta Hawks,Cleveland Cavaliers,198.5,not_regular_season,season_type=3
+2014-15,oddsdata,400796357,2015-05-23,Houston Rockets,Golden State Warriors,217.0,not_regular_season,season_type=3
+2014-15,oddsdata,400796268,2015-05-24,Cleveland Cavaliers,Atlanta Hawks,190.0,not_regular_season,season_type=3
+2014-15,oddsdata,400796358,2015-05-25,Houston Rockets,Golden State Warriors,214.0,not_regular_season,season_type=3
+2014-15,oddsdata,400796269,2015-05-26,Cleveland Cavaliers,Atlanta Hawks,193.5,not_regular_season,season_type=3
+2014-15,oddsdata,400796359,2015-05-27,Golden State Warriors,Houston Rockets,215.5,not_regular_season,season_type=3
+2014-15,oddsdata,400796845,2015-06-04,Golden State Warriors,Cleveland Cavaliers,203.0,not_regular_season,season_type=3
+2014-15,oddsdata,400796846,2015-06-07,Golden State Warriors,Cleveland Cavaliers,201.5,not_regular_season,season_type=3
+2014-15,oddsdata,400796847,2015-06-09,Cleveland Cavaliers,Golden State Warriors,196.0,not_regular_season,season_type=3
+2014-15,oddsdata,400796848,2015-06-11,Cleveland Cavaliers,Golden State Warriors,192.5,not_regular_season,season_type=3
+2014-15,oddsdata,400796849,2015-06-14,Golden State Warriors,Cleveland Cavaliers,195.5,not_regular_season,season_type=3
+2014-15,oddsdata,400796850,2015-06-16,Cleveland Cavaliers,Golden State Warriors,195.0,not_regular_season,season_type=3
+2015-16,oddsdata,400874388,2016-04-16,Atlanta Hawks,Boston Celtics,204.5,not_regular_season,season_type=3
+2015-16,oddsdata,400874342,2016-04-16,Golden State Warriors,Houston Rockets,225.0,not_regular_season,season_type=3
+2015-16,oddsdata,400874364,2016-04-16,Oklahoma City Thunder,Dallas Mavericks,209.0,not_regular_season,season_type=3
+2015-16,oddsdata,400874380,2016-04-16,Toronto Raptors,Indiana Pacers,196.0,not_regular_season,season_type=3
+2015-16,oddsdata,400874343,2016-04-17,Cleveland Cavaliers,Detroit Pistons,201.5,not_regular_season,season_type=3
+2015-16,oddsdata,400874357,2016-04-17,Los Angeles Clippers,Portland Trail Blazers,207.5,not_regular_season,season_type=3
+2015-16,oddsdata,400874414,2016-04-17,Miami Heat,Charlotte Bobcats,202.5,not_regular_season,season_type=3
+2015-16,oddsdata,400874374,2016-04-17,San Antonio Spurs,Memphis Grizzlies,190.5,not_regular_season,season_type=3
+2015-16,oddsdata,400874344,2016-04-18,Golden State Warriors,Houston Rockets,221.5,not_regular_season,season_type=3
+2015-16,oddsdata,400874365,2016-04-18,Oklahoma City Thunder,Dallas Mavericks,203.5,not_regular_season,season_type=3
+2015-16,oddsdata,400874381,2016-04-18,Toronto Raptors,Indiana Pacers,193.0,not_regular_season,season_type=3
+2015-16,oddsdata,400874410,2016-04-19,Atlanta Hawks,Boston Celtics,205.0,not_regular_season,season_type=3
+2015-16,oddsdata,400874376,2016-04-19,San Antonio Spurs,Memphis Grizzlies,187.0,not_regular_season,season_type=3
+2015-16,oddsdata,400874345,2016-04-20,Cleveland Cavaliers,Detroit Pistons,202.0,not_regular_season,season_type=3
+2015-16,oddsdata,400874358,2016-04-20,Los Angeles Clippers,Portland Trail Blazers,206.0,not_regular_season,season_type=3
+2015-16,oddsdata,400874417,2016-04-20,Miami Heat,Charlotte Bobcats,203.0,not_regular_season,season_type=3
+2015-16,oddsdata,400874366,2016-04-21,Dallas Mavericks,Oklahoma City Thunder,198.0,not_regular_season,season_type=3
+2015-16,oddsdata,400874346,2016-04-21,Houston Rockets,Golden State Warriors,217.0,not_regular_season,season_type=3
+2015-16,oddsdata,400874384,2016-04-21,Indiana Pacers,Toronto Raptors,193.0,not_regular_season,season_type=3
+2015-16,oddsdata,400874412,2016-04-22,Boston Celtics,Atlanta Hawks,200.5,not_regular_season,season_type=3
+2015-16,oddsdata,400874347,2016-04-22,Detroit Pistons,Cleveland Cavaliers,201.0,not_regular_season,season_type=3
+2015-16,oddsdata,400874378,2016-04-22,Memphis Grizzlies,San Antonio Spurs,182.0,not_regular_season,season_type=3
+2015-16,oddsdata,400874419,2016-04-23,Charlotte Bobcats,Miami Heat,202.0,not_regular_season,season_type=3
+2015-16,oddsdata,400874367,2016-04-23,Dallas Mavericks,Oklahoma City Thunder,201.5,not_regular_season,season_type=3
+2015-16,oddsdata,400874386,2016-04-23,Indiana Pacers,Toronto Raptors,193.0,not_regular_season,season_type=3
+2015-16,oddsdata,400874359,2016-04-23,Portland Trail Blazers,Los Angeles Clippers,207.5,not_regular_season,season_type=3
+2015-16,oddsdata,400874413,2016-04-24,Boston Celtics,Atlanta Hawks,205.0,not_regular_season,season_type=3
+2015-16,oddsdata,400874349,2016-04-24,Detroit Pistons,Cleveland Cavaliers,198.5,not_regular_season,season_type=3
+2015-16,oddsdata,400874348,2016-04-24,Houston Rockets,Golden State Warriors,216.0,not_regular_season,season_type=3
+2015-16,oddsdata,400874379,2016-04-24,Memphis Grizzlies,San Antonio Spurs,183.0,not_regular_season,season_type=3
+2015-16,oddsdata,400874420,2016-04-25,Charlotte Bobcats,Miami Heat,195.5,not_regular_season,season_type=3
+2015-16,oddsdata,400874368,2016-04-25,Oklahoma City Thunder,Dallas Mavericks,205.0,not_regular_season,season_type=3
+2015-16,oddsdata,400874360,2016-04-25,Portland Trail Blazers,Los Angeles Clippers,206.0,not_regular_season,season_type=3
+2015-16,oddsdata,400874415,2016-04-26,Atlanta Hawks,Boston Celtics,200.0,not_regular_season,season_type=3
+2015-16,oddsdata,400874387,2016-04-26,Toronto Raptors,Indiana Pacers,191.5,not_regular_season,season_type=3
+2015-16,oddsdata,400874370,2016-04-27,Golden State Warriors,Houston Rockets,213.5,not_regular_season,season_type=3
+2015-16,oddsdata,400874361,2016-04-27,Los Angeles Clippers,Portland Trail Blazers,199.5,not_regular_season,season_type=3
+2015-16,oddsdata,400874421,2016-04-27,Miami Heat,Charlotte Bobcats,192.5,not_regular_season,season_type=3
+2015-16,oddsdata,400874416,2016-04-28,Boston Celtics,Atlanta Hawks,197.0,not_regular_season,season_type=3
+2015-16,oddsdata,400874422,2016-04-29,Charlotte Bobcats,Miami Heat,192.5,not_regular_season,season_type=3
+2015-16,oddsdata,400874389,2016-04-29,Indiana Pacers,Toronto Raptors,196.0,not_regular_season,season_type=3
+2015-16,oddsdata,400874362,2016-04-29,Portland Trail Blazers,Los Angeles Clippers,198.5,not_regular_season,season_type=3
+2015-16,oddsdata,400875651,2016-04-30,San Antonio Spurs,Oklahoma City Thunder,201.0,not_regular_season,season_type=3
+2015-16,oddsdata,400875806,2016-05-01,Golden State Warriors,Portland Trail Blazers,212.0,not_regular_season,season_type=3
+2015-16,oddsdata,400874423,2016-05-01,Miami Heat,Charlotte Bobcats,191.0,not_regular_season,season_type=3
+2015-16,oddsdata,400874411,2016-05-01,Toronto Raptors,Indiana Pacers,190.5,not_regular_season,season_type=3
+2015-16,oddsdata,400875765,2016-05-02,Cleveland Cavaliers,Atlanta Hawks,200.5,not_regular_season,season_type=3
+2015-16,oddsdata,400875652,2016-05-02,San Antonio Spurs,Oklahoma City Thunder,202.0,not_regular_season,season_type=3
+2015-16,oddsdata,400875807,2016-05-03,Golden State Warriors,Portland Trail Blazers,213.5,not_regular_season,season_type=3
+2015-16,oddsdata,400875890,2016-05-03,Toronto Raptors,Miami Heat,191.0,not_regular_season,season_type=3
+2015-16,oddsdata,400875766,2016-05-04,Cleveland Cavaliers,Atlanta Hawks,199.0,not_regular_season,season_type=3
+2015-16,oddsdata,400875891,2016-05-05,Toronto Raptors,Miami Heat,189.5,not_regular_season,season_type=3
+2015-16,oddsdata,400875767,2016-05-06,Atlanta Hawks,Cleveland Cavaliers,199.5,not_regular_season,season_type=3
+2015-16,oddsdata,400875653,2016-05-06,Oklahoma City Thunder,San Antonio Spurs,199.0,not_regular_season,season_type=3
+2015-16,oddsdata,400875892,2016-05-07,Miami Heat,Toronto Raptors,187.0,not_regular_season,season_type=3
+2015-16,oddsdata,400875808,2016-05-07,Portland Trail Blazers,Golden State Warriors,212.5,not_regular_season,season_type=3
+2015-16,oddsdata,400875768,2016-05-08,Atlanta Hawks,Cleveland Cavaliers,201.0,not_regular_season,season_type=3
+2015-16,oddsdata,400875654,2016-05-08,Oklahoma City Thunder,San Antonio Spurs,199.0,not_regular_season,season_type=3
+2015-16,oddsdata,400875893,2016-05-09,Miami Heat,Toronto Raptors,187.5,not_regular_season,season_type=3
+2015-16,oddsdata,400875809,2016-05-09,Portland Trail Blazers,Golden State Warriors,214.5,not_regular_season,season_type=3
+2015-16,oddsdata,400875655,2016-05-10,San Antonio Spurs,Oklahoma City Thunder,200.0,not_regular_season,season_type=3
+2015-16,oddsdata,400875810,2016-05-11,Golden State Warriors,Portland Trail Blazers,216.0,not_regular_season,season_type=3
+2015-16,oddsdata,400875894,2016-05-11,Toronto Raptors,Miami Heat,188.0,not_regular_season,season_type=3
+2015-16,oddsdata,400875656,2016-05-12,Oklahoma City Thunder,San Antonio Spurs,194.5,not_regular_season,season_type=3
+2015-16,oddsdata,400875895,2016-05-13,Miami Heat,Toronto Raptors,190.0,not_regular_season,season_type=3
+2015-16,oddsdata,400875896,2016-05-15,Toronto Raptors,Miami Heat,190.0,not_regular_season,season_type=3
+2015-16,oddsdata,400876750,2016-05-16,Golden State Warriors,Oklahoma City Thunder,222.5,not_regular_season,season_type=3
+2015-16,oddsdata,400876891,2016-05-17,Cleveland Cavaliers,Toronto Raptors,202.5,not_regular_season,season_type=3
+2015-16,oddsdata,400876751,2016-05-18,Golden State Warriors,Oklahoma City Thunder,222.0,not_regular_season,season_type=3
+2015-16,oddsdata,400876892,2016-05-19,Cleveland Cavaliers,Toronto Raptors,197.0,not_regular_season,season_type=3
+2015-16,oddsdata,400876893,2016-05-21,Toronto Raptors,Cleveland Cavaliers,197.5,not_regular_season,season_type=3
+2015-16,oddsdata,400876752,2016-05-22,Oklahoma City Thunder,Golden State Warriors,219.0,not_regular_season,season_type=3
+2015-16,oddsdata,400876894,2016-05-23,Toronto Raptors,Cleveland Cavaliers,197.5,not_regular_season,season_type=3
+2015-16,oddsdata,400876753,2016-05-24,Oklahoma City Thunder,Golden State Warriors,221.5,not_regular_season,season_type=3
+2015-16,oddsdata,400876895,2016-05-25,Cleveland Cavaliers,Toronto Raptors,199.0,not_regular_season,season_type=3
+2015-16,oddsdata,400876754,2016-05-26,Golden State Warriors,Oklahoma City Thunder,221.0,not_regular_season,season_type=3
+2015-16,oddsdata,400876896,2016-05-27,Toronto Raptors,Cleveland Cavaliers,197.0,not_regular_season,season_type=3
+2015-16,oddsdata,400876755,2016-05-28,Oklahoma City Thunder,Golden State Warriors,221.0,not_regular_season,season_type=3
+2015-16,oddsdata,400876756,2016-05-30,Golden State Warriors,Oklahoma City Thunder,219.5,not_regular_season,season_type=3
+2015-16,oddsdata,400878154,2016-06-02,Golden State Warriors,Cleveland Cavaliers,210.5,not_regular_season,season_type=3
+2015-16,oddsdata,400878155,2016-06-05,Golden State Warriors,Cleveland Cavaliers,206.5,not_regular_season,season_type=3
+2015-16,oddsdata,400878156,2016-06-08,Cleveland Cavaliers,Golden State Warriors,206.0,not_regular_season,season_type=3
+2015-16,oddsdata,400878157,2016-06-10,Cleveland Cavaliers,Golden State Warriors,206.5,not_regular_season,season_type=3
+2015-16,oddsdata,400878158,2016-06-13,Golden State Warriors,Cleveland Cavaliers,206.5,not_regular_season,season_type=3
+2015-16,oddsdata,400878159,2016-06-16,Cleveland Cavaliers,Golden State Warriors,208.0,not_regular_season,season_type=3
+2015-16,oddsdata,400878160,2016-06-19,Golden State Warriors,Cleveland Cavaliers,207.5,not_regular_season,season_type=3
+2016-17,oddsdata,400899623,2016-11-17,Utah Jazz,Chicago Bulls,1955.5,line_out_of_range_170_275,line=1955.5
+2016-17,oddsdata,-1,2017-01-29,Atlanta Hawks,New York Knicks,212.0,unmatched,
+2016-17,oddsdata,400950315,2017-04-15,Cleveland Cavaliers,Indiana Pacers,212.5,not_regular_season,season_type=3
+2016-17,oddsdata,400950417,2017-04-15,Los Angeles Clippers,Utah Jazz,201.0,not_regular_season,season_type=3
+2016-17,oddsdata,400950319,2017-04-15,San Antonio Spurs,Memphis Grizzlies,191.5,not_regular_season,season_type=3
+2016-17,oddsdata,400950316,2017-04-15,Toronto Raptors,Milwaukee Bucks,202.0,not_regular_season,season_type=3
+2016-17,oddsdata,400950314,2017-04-16,Boston Celtics,Chicago Bulls,207.5,not_regular_season,season_type=3
+2016-17,oddsdata,400950318,2017-04-16,Golden State Warriors,Portland Trail Blazers,222.0,not_regular_season,season_type=3
+2016-17,oddsdata,400950320,2017-04-16,Houston Rockets,Oklahoma City Thunder,228.0,not_regular_season,season_type=3
+2016-17,oddsdata,400950317,2017-04-16,Washington Wizards,Atlanta Hawks,212.0,not_regular_season,season_type=3
+2016-17,oddsdata,400950394,2017-04-17,Cleveland Cavaliers,Indiana Pacers,212.0,not_regular_season,season_type=3
+2016-17,oddsdata,400950393,2017-04-17,San Antonio Spurs,Memphis Grizzlies,191.0,not_regular_season,season_type=3
+2016-17,oddsdata,400950321,2017-04-18,Boston Celtics,Chicago Bulls,207.5,not_regular_season,season_type=3
+2016-17,oddsdata,400950414,2017-04-18,Los Angeles Clippers,Utah Jazz,196.5,not_regular_season,season_type=3
+2016-17,oddsdata,400950408,2017-04-18,Toronto Raptors,Milwaukee Bucks,193.5,not_regular_season,season_type=3
+2016-17,oddsdata,400950322,2017-04-19,Golden State Warriors,Portland Trail Blazers,221.5,not_regular_season,season_type=3
+2016-17,oddsdata,400950404,2017-04-19,Houston Rockets,Oklahoma City Thunder,224.0,not_regular_season,season_type=3
+2016-17,oddsdata,400950420,2017-04-19,Washington Wizards,Atlanta Hawks,212.0,not_regular_season,season_type=3
+2016-17,oddsdata,400950396,2017-04-20,Indiana Pacers,Cleveland Cavaliers,211.5,not_regular_season,season_type=3
+2016-17,oddsdata,400950395,2017-04-20,Memphis Grizzlies,San Antonio Spurs,185.5,not_regular_season,season_type=3
+2016-17,oddsdata,400950410,2017-04-20,Milwaukee Bucks,Toronto Raptors,196.5,not_regular_season,season_type=3
+2016-17,oddsdata,400950323,2017-04-21,Chicago Bulls,Boston Celtics,207.0,not_regular_season,season_type=3
+2016-17,oddsdata,400950406,2017-04-21,Oklahoma City Thunder,Houston Rockets,224.5,not_regular_season,season_type=3
+2016-17,oddsdata,400950419,2017-04-21,Utah Jazz,Los Angeles Clippers,197.0,not_regular_season,season_type=3
+2016-17,oddsdata,400950422,2017-04-22,Atlanta Hawks,Washington Wizards,210.0,not_regular_season,season_type=3
+2016-17,oddsdata,400950397,2017-04-22,Memphis Grizzlies,San Antonio Spurs,190.0,not_regular_season,season_type=3
+2016-17,oddsdata,400950413,2017-04-22,Milwaukee Bucks,Toronto Raptors,194.5,not_regular_season,season_type=3
+2016-17,oddsdata,400950324,2017-04-22,Portland Trail Blazers,Golden State Warriors,219.0,not_regular_season,season_type=3
+2016-17,oddsdata,400950325,2017-04-23,Chicago Bulls,Boston Celtics,204.0,not_regular_season,season_type=3
+2016-17,oddsdata,400950399,2017-04-23,Indiana Pacers,Cleveland Cavaliers,212.0,not_regular_season,season_type=3
+2016-17,oddsdata,400950407,2017-04-23,Oklahoma City Thunder,Houston Rockets,225.0,not_regular_season,season_type=3
+2016-17,oddsdata,400950421,2017-04-23,Utah Jazz,Los Angeles Clippers,198.0,not_regular_season,season_type=3
+2016-17,oddsdata,400950425,2017-04-24,Atlanta Hawks,Washington Wizards,211.5,not_regular_season,season_type=3
+2016-17,oddsdata,400950386,2017-04-24,Portland Trail Blazers,Golden State Warriors,219.0,not_regular_season,season_type=3
+2016-17,oddsdata,400950415,2017-04-24,Toronto Raptors,Milwaukee Bucks,192.5,not_regular_season,season_type=3
+2016-17,oddsdata,400950409,2017-04-25,Houston Rockets,Oklahoma City Thunder,223.5,not_regular_season,season_type=3
+2016-17,oddsdata,400950423,2017-04-25,Los Angeles Clippers,Utah Jazz,196.5,not_regular_season,season_type=3
+2016-17,oddsdata,400950398,2017-04-25,San Antonio Spurs,Memphis Grizzlies,186.5,not_regular_season,season_type=3
+2016-17,oddsdata,400950387,2017-04-26,Boston Celtics,Chicago Bulls,202.0,not_regular_season,season_type=3
+2016-17,oddsdata,400950427,2017-04-26,Washington Wizards,Atlanta Hawks,212.0,not_regular_season,season_type=3
+2016-17,oddsdata,400950400,2017-04-27,Memphis Grizzlies,San Antonio Spurs,190.0,not_regular_season,season_type=3
+2016-17,oddsdata,400950416,2017-04-27,Milwaukee Bucks,Toronto Raptors,195.0,not_regular_season,season_type=3
+2016-17,oddsdata,400950428,2017-04-28,Atlanta Hawks,Washington Wizards,210.0,not_regular_season,season_type=3
+2016-17,oddsdata,400950389,2017-04-28,Chicago Bulls,Boston Celtics,204.0,not_regular_season,season_type=3
+2016-17,oddsdata,400950424,2017-04-28,Utah Jazz,Los Angeles Clippers,191.5,not_regular_season,season_type=3
+2016-17,oddsdata,400952526,2017-04-30,Boston Celtics,Washington Wizards,214.0,not_regular_season,season_type=3
+2016-17,oddsdata,400950426,2017-04-30,Los Angeles Clippers,Utah Jazz,192.0,not_regular_season,season_type=3
+2016-17,oddsdata,400952462,2017-05-01,Cleveland Cavaliers,Toronto Raptors,208.5,not_regular_season,season_type=3
+2016-17,oddsdata,400952490,2017-05-01,San Antonio Spurs,Houston Rockets,215.5,not_regular_season,season_type=3
+2016-17,oddsdata,400952527,2017-05-02,Boston Celtics,Washington Wizards,219.0,not_regular_season,season_type=3
+2016-17,oddsdata,400952553,2017-05-02,Golden State Warriors,Utah Jazz,208.0,not_regular_season,season_type=3
+2016-17,oddsdata,400952463,2017-05-03,Cleveland Cavaliers,Toronto Raptors,214.0,not_regular_season,season_type=3
+2016-17,oddsdata,400952491,2017-05-03,San Antonio Spurs,Houston Rockets,216.5,not_regular_season,season_type=3
+2016-17,oddsdata,400952554,2017-05-04,Golden State Warriors,Utah Jazz,204.5,not_regular_season,season_type=3
+2016-17,oddsdata,400952528,2017-05-04,Washington Wizards,Boston Celtics,219.5,not_regular_season,season_type=3
+2016-17,oddsdata,400952492,2017-05-05,Houston Rockets,San Antonio Spurs,216.0,not_regular_season,season_type=3
+2016-17,oddsdata,400952464,2017-05-05,Toronto Raptors,Cleveland Cavaliers,214.5,not_regular_season,season_type=3
+2016-17,oddsdata,-1,2017-05-06,Houston Rockets,San Antonio Spurs,215.0,ambiguous_match,
+2016-17,oddsdata,-1,2017-05-06,Toronto Raptors,Cleveland Cavaliers,209.0,ambiguous_match,
+2016-17,oddsdata,400952529,2017-05-06,Washington Wizards,Boston Celtics,214.5,not_regular_season,season_type=3
+2016-17,oddsdata,-1,2017-05-07,Utah Jazz,Golden State Warriors,211.5,ambiguous_match,
+2016-17,oddsdata,400952607,2017-05-08,Utah Jazz,Golden State Warriors,206.5,not_regular_season,season_type=3
+2016-17,oddsdata,400952494,2017-05-09,San Antonio Spurs,Houston Rockets,215.0,not_regular_season,season_type=3
+2016-17,oddsdata,400952530,2017-05-10,Boston Celtics,Washington Wizards,215.0,not_regular_season,season_type=3
+2016-17,oddsdata,400952495,2017-05-11,Houston Rockets,San Antonio Spurs,215.0,not_regular_season,season_type=3
+2016-17,oddsdata,400952531,2017-05-12,Washington Wizards,Boston Celtics,216.5,not_regular_season,season_type=3
+2016-17,oddsdata,400953591,2017-05-14,Golden State Warriors,San Antonio Spurs,211.0,not_regular_season,season_type=3
+2016-17,oddsdata,400952532,2017-05-15,Boston Celtics,Washington Wizards,211.5,not_regular_season,season_type=3
+2016-17,oddsdata,400953592,2017-05-16,Golden State Warriors,San Antonio Spurs,211.0,not_regular_season,season_type=3
+2016-17,oddsdata,400953694,2017-05-17,Boston Celtics,Cleveland Cavaliers,219.5,not_regular_season,season_type=3
+2016-17,oddsdata,400953695,2017-05-19,Boston Celtics,Cleveland Cavaliers,219.5,not_regular_season,season_type=3
+2016-17,oddsdata,400953593,2017-05-20,San Antonio Spurs,Golden State Warriors,212.0,not_regular_season,season_type=3
+2016-17,oddsdata,400953696,2017-05-21,Cleveland Cavaliers,Boston Celtics,220.0,not_regular_season,season_type=3
+2016-17,oddsdata,400953594,2017-05-22,San Antonio Spurs,Golden State Warriors,216.0,not_regular_season,season_type=3
+2016-17,oddsdata,400953697,2017-05-23,Cleveland Cavaliers,Boston Celtics,216.0,not_regular_season,season_type=3
+2016-17,oddsdata,400953698,2017-05-25,Boston Celtics,Cleveland Cavaliers,214.5,not_regular_season,season_type=3
+2016-17,oddsdata,400954510,2017-06-01,Golden State Warriors,Cleveland Cavaliers,225.5,not_regular_season,season_type=3
+2016-17,oddsdata,400954511,2017-06-04,Golden State Warriors,Cleveland Cavaliers,221.5,not_regular_season,season_type=3
+2016-17,oddsdata,400954512,2017-06-07,Cleveland Cavaliers,Golden State Warriors,225.5,not_regular_season,season_type=3
+2016-17,oddsdata,400954513,2017-06-09,Cleveland Cavaliers,Golden State Warriors,228.5,not_regular_season,season_type=3
+2016-17,oddsdata,400954514,2017-06-12,Golden State Warriors,Cleveland Cavaliers,230.5,not_regular_season,season_type=3
+2017-18,oddsdata,-1,2017-12-31,Boston Celtics,Brooklyn Nets,210.0,unmatched,
+2017-18,oddsdata,401029441,2018-04-14,Golden State Warriors,San Antonio Spurs,210.0,not_regular_season,season_type=3
+2017-18,oddsdata,401029439,2018-04-14,Philadelphia 76ers,Miami Heat,210.0,not_regular_season,season_type=3
+2017-18,oddsdata,401029459,2018-04-14,Portland Trail Blazers,New Orleans Pelicans,216.0,not_regular_season,season_type=3
+2017-18,oddsdata,401029410,2018-04-14,Toronto Raptors,Washington Wizards,211.0,not_regular_season,season_type=3
+2017-18,oddsdata,401029429,2018-04-15,Boston Celtics,Milwaukee Bucks,203.0,not_regular_season,season_type=3
+2017-18,oddsdata,401029417,2018-04-15,Cleveland Cavaliers,Indiana Pacers,216.5,not_regular_season,season_type=3
+2017-18,oddsdata,401029411,2018-04-15,Houston Rockets,Minnesota Timberwolves,217.0,not_regular_season,season_type=3
+2017-18,oddsdata,401029438,2018-04-15,Oklahoma City Thunder,Utah Jazz,205.0,not_regular_season,season_type=3
+2017-18,oddsdata,401029446,2018-04-16,Golden State Warriors,San Antonio Spurs,207.0,not_regular_season,season_type=3
+2017-18,oddsdata,401029442,2018-04-16,Philadelphia 76ers,Miami Heat,215.5,not_regular_season,season_type=3
+2017-18,oddsdata,401029430,2018-04-17,Boston Celtics,Milwaukee Bucks,199.0,not_regular_season,season_type=3
+2017-18,oddsdata,401029460,2018-04-17,Portland Trail Blazers,New Orleans Pelicans,212.5,not_regular_season,season_type=3
+2017-18,oddsdata,401029412,2018-04-17,Toronto Raptors,Washington Wizards,215.0,not_regular_season,season_type=3
+2017-18,oddsdata,401029421,2018-04-18,Cleveland Cavaliers,Indiana Pacers,208.5,not_regular_season,season_type=3
+2017-18,oddsdata,401029414,2018-04-18,Houston Rockets,Minnesota Timberwolves,214.0,not_regular_season,season_type=3
+2017-18,oddsdata,401029440,2018-04-18,Oklahoma City Thunder,Utah Jazz,208.0,not_regular_season,season_type=3
+2017-18,oddsdata,401029443,2018-04-19,Miami Heat,Philadelphia 76ers,216.5,not_regular_season,season_type=3
+2017-18,oddsdata,401029461,2018-04-19,New Orleans Pelicans,Portland Trail Blazers,216.0,not_regular_season,season_type=3
+2017-18,oddsdata,401029453,2018-04-19,San Antonio Spurs,Golden State Warriors,207.0,not_regular_season,season_type=3
+2017-18,oddsdata,401029424,2018-04-20,Indiana Pacers,Cleveland Cavaliers,208.5,not_regular_season,season_type=3
+2017-18,oddsdata,401029432,2018-04-20,Milwaukee Bucks,Boston Celtics,202.5,not_regular_season,season_type=3
+2017-18,oddsdata,401029413,2018-04-20,Washington Wizards,Toronto Raptors,218.0,not_regular_season,season_type=3
+2017-18,oddsdata,401029444,2018-04-21,Miami Heat,Philadelphia 76ers,217.0,not_regular_season,season_type=3
+2017-18,oddsdata,401029418,2018-04-21,Minnesota Timberwolves,Houston Rockets,213.0,not_regular_season,season_type=3
+2017-18,oddsdata,401029462,2018-04-21,New Orleans Pelicans,Portland Trail Blazers,216.0,not_regular_season,season_type=3
+2017-18,oddsdata,401029445,2018-04-21,Utah Jazz,Oklahoma City Thunder,207.0,not_regular_season,season_type=3
+2017-18,oddsdata,401029427,2018-04-22,Indiana Pacers,Cleveland Cavaliers,205.5,not_regular_season,season_type=3
+2017-18,oddsdata,401029434,2018-04-22,Milwaukee Bucks,Boston Celtics,206.5,not_regular_season,season_type=3
+2017-18,oddsdata,401029455,2018-04-22,San Antonio Spurs,Golden State Warriors,203.5,not_regular_season,season_type=3
+2017-18,oddsdata,401029415,2018-04-22,Washington Wizards,Toronto Raptors,218.5,not_regular_season,season_type=3
+2017-18,oddsdata,401029422,2018-04-23,Minnesota Timberwolves,Houston Rockets,219.0,not_regular_season,season_type=3
+2017-18,oddsdata,401029450,2018-04-23,Utah Jazz,Oklahoma City Thunder,210.5,not_regular_season,season_type=3
+2017-18,oddsdata,401029435,2018-04-24,Boston Celtics,Milwaukee Bucks,204.0,not_regular_season,season_type=3
+2017-18,oddsdata,401029456,2018-04-24,Golden State Warriors,San Antonio Spurs,204.5,not_regular_season,season_type=3
+2017-18,oddsdata,401029447,2018-04-24,Philadelphia 76ers,Miami Heat,211.5,not_regular_season,season_type=3
+2017-18,oddsdata,401029428,2018-04-25,Cleveland Cavaliers,Indiana Pacers,205.0,not_regular_season,season_type=3
+2017-18,oddsdata,401029423,2018-04-25,Houston Rockets,Minnesota Timberwolves,219.0,not_regular_season,season_type=3
+2017-18,oddsdata,401029451,2018-04-25,Oklahoma City Thunder,Utah Jazz,208.0,not_regular_season,season_type=3
+2017-18,oddsdata,401029416,2018-04-25,Toronto Raptors,Washington Wizards,214.0,not_regular_season,season_type=3
+2017-18,oddsdata,401029436,2018-04-26,Milwaukee Bucks,Boston Celtics,200.0,not_regular_season,season_type=3
+2017-18,oddsdata,401029431,2018-04-27,Indiana Pacers,Cleveland Cavaliers,204.0,not_regular_season,season_type=3
+2017-18,oddsdata,401029452,2018-04-27,Utah Jazz,Oklahoma City Thunder,206.0,not_regular_season,season_type=3
+2017-18,oddsdata,401029419,2018-04-27,Washington Wizards,Toronto Raptors,215.0,not_regular_season,season_type=3
+2017-18,oddsdata,401029437,2018-04-28,Boston Celtics,Milwaukee Bucks,197.0,not_regular_season,season_type=3
+2017-18,oddsdata,401031412,2018-04-28,Golden State Warriors,New Orleans Pelicans,224.0,not_regular_season,season_type=3
+2017-18,oddsdata,401029433,2018-04-29,Cleveland Cavaliers,Indiana Pacers,200.0,not_regular_season,season_type=3
+2017-18,oddsdata,401031590,2018-04-29,Houston Rockets,Utah Jazz,205.0,not_regular_season,season_type=3
+2017-18,oddsdata,401031671,2018-04-30,Boston Celtics,Philadelphia 76ers,210.0,not_regular_season,season_type=3
+2017-18,oddsdata,401031645,2018-05-01,Golden State Warriors,New Orleans Pelicans,226.5,not_regular_season,season_type=3
+2017-18,oddsdata,401031713,2018-05-01,Toronto Raptors,Cleveland Cavaliers,218.0,not_regular_season,season_type=3
+2017-18,oddsdata,401031639,2018-05-02,Houston Rockets,Utah Jazz,206.0,not_regular_season,season_type=3
+2017-18,oddsdata,401031672,2018-05-03,Boston Celtics,Philadelphia 76ers,207.0,not_regular_season,season_type=3
+2017-18,oddsdata,401031714,2018-05-03,Toronto Raptors,Cleveland Cavaliers,212.5,not_regular_season,season_type=3
+2017-18,oddsdata,401031646,2018-05-04,New Orleans Pelicans,Golden State Warriors,230.5,not_regular_season,season_type=3
+2017-18,oddsdata,401031640,2018-05-04,Utah Jazz,Houston Rockets,207.0,not_regular_season,season_type=3
+2017-18,oddsdata,401031715,2018-05-05,Cleveland Cavaliers,Toronto Raptors,217.0,not_regular_season,season_type=3
+2017-18,oddsdata,401031673,2018-05-05,Philadelphia 76ers,Boston Celtics,208.0,not_regular_season,season_type=3
+2017-18,oddsdata,401031647,2018-05-06,New Orleans Pelicans,Golden State Warriors,222.0,not_regular_season,season_type=3
+2017-18,oddsdata,401031641,2018-05-06,Utah Jazz,Houston Rockets,208.5,not_regular_season,season_type=3
+2017-18,oddsdata,401031716,2018-05-07,Cleveland Cavaliers,Toronto Raptors,213.0,not_regular_season,season_type=3
+2017-18,oddsdata,401031674,2018-05-07,Philadelphia 76ers,Boston Celtics,204.5,not_regular_season,season_type=3
+2017-18,oddsdata,401031648,2018-05-08,Golden State Warriors,New Orleans Pelicans,229.0,not_regular_season,season_type=3
+2017-18,oddsdata,401031642,2018-05-08,Houston Rockets,Utah Jazz,209.5,not_regular_season,season_type=3
+2017-18,oddsdata,401031675,2018-05-09,Boston Celtics,Philadelphia 76ers,205.0,not_regular_season,season_type=3
+2017-18,oddsdata,401032840,2018-05-13,Boston Celtics,Cleveland Cavaliers,203.0,not_regular_season,season_type=3
+2017-18,oddsdata,401032761,2018-05-14,Houston Rockets,Golden State Warriors,225.0,not_regular_season,season_type=3
+2017-18,oddsdata,401032841,2018-05-15,Boston Celtics,Cleveland Cavaliers,202.5,not_regular_season,season_type=3
+2017-18,oddsdata,401032762,2018-05-16,Houston Rockets,Golden State Warriors,224.5,not_regular_season,season_type=3
+2017-18,oddsdata,401032842,2018-05-19,Cleveland Cavaliers,Boston Celtics,204.5,not_regular_season,season_type=3
+2017-18,oddsdata,401032763,2018-05-20,Golden State Warriors,Houston Rockets,226.5,not_regular_season,season_type=3
+2017-18,oddsdata,401032843,2018-05-21,Cleveland Cavaliers,Boston Celtics,206.5,not_regular_season,season_type=3
+2017-18,oddsdata,401032764,2018-05-22,Golden State Warriors,Houston Rockets,224.0,not_regular_season,season_type=3
+2017-18,oddsdata,401032844,2018-05-23,Boston Celtics,Cleveland Cavaliers,206.0,not_regular_season,season_type=3
+2017-18,oddsdata,401032765,2018-05-24,Houston Rockets,Golden State Warriors,219.0,not_regular_season,season_type=3
+2017-18,oddsdata,401032845,2018-05-25,Cleveland Cavaliers,Boston Celtics,201.5,not_regular_season,season_type=3
+2017-18,oddsdata,401032766,2018-05-26,Golden State Warriors,Houston Rockets,213.5,not_regular_season,season_type=3
+2017-18,oddsdata,401032846,2018-05-27,Boston Celtics,Cleveland Cavaliers,201.5,not_regular_season,season_type=3
+2017-18,oddsdata,401032767,2018-05-28,Houston Rockets,Golden State Warriors,210.0,not_regular_season,season_type=3
+2017-18,oddsdata,401034613,2018-05-31,Golden State Warriors,Cleveland Cavaliers,215.5,not_regular_season,season_type=3
+2017-18,oddsdata,401034614,2018-06-03,Golden State Warriors,Cleveland Cavaliers,216.0,not_regular_season,season_type=3
+2017-18,oddsdata,401034615,2018-06-06,Cleveland Cavaliers,Golden State Warriors,217.5,not_regular_season,season_type=3
+2017-18,oddsdata,401034616,2018-06-08,Cleveland Cavaliers,Golden State Warriors,216.0,not_regular_season,season_type=3
+2018-19,oddsdata,401126827,2019-04-13,Denver Nuggets,San Antonio Spurs,211.5,not_regular_season,season_type=3
+2018-19,oddsdata,401126814,2019-04-13,Golden State Warriors,Los Angeles Clippers,230.5,not_regular_season,season_type=3
+2018-19,oddsdata,401126843,2019-04-13,Philadelphia 76ers,Brooklyn Nets,232.0,not_regular_season,season_type=3
+2018-19,oddsdata,401126829,2019-04-13,Toronto Raptors,Orlando Magic,216.0,not_regular_season,season_type=3
+2018-19,oddsdata,401126858,2019-04-14,Boston Celtics,Indiana Pacers,209.5,not_regular_season,season_type=3
+2018-19,oddsdata,401126854,2019-04-14,Houston Rockets,Utah Jazz,219.0,not_regular_season,season_type=3
+2018-19,oddsdata,401126813,2019-04-14,Milwaukee Bucks,Detroit Pistons,219.5,not_regular_season,season_type=3
+2018-19,oddsdata,401126841,2019-04-14,Portland Trail Blazers,Oklahoma City Thunder,224.0,not_regular_season,season_type=3
+2018-19,oddsdata,401126816,2019-04-15,Golden State Warriors,Los Angeles Clippers,230.5,not_regular_season,season_type=3
+2018-19,oddsdata,401126845,2019-04-15,Philadelphia 76ers,Brooklyn Nets,226.0,not_regular_season,season_type=3
+2018-19,oddsdata,401126828,2019-04-16,Denver Nuggets,San Antonio Spurs,208.5,not_regular_season,season_type=3
+2018-19,oddsdata,401126842,2019-04-16,Portland Trail Blazers,Oklahoma City Thunder,218.0,not_regular_season,season_type=3
+2018-19,oddsdata,401126831,2019-04-16,Toronto Raptors,Orlando Magic,210.5,not_regular_season,season_type=3
+2018-19,oddsdata,401126860,2019-04-17,Boston Celtics,Indiana Pacers,204.0,not_regular_season,season_type=3
+2018-19,oddsdata,401126856,2019-04-17,Houston Rockets,Utah Jazz,212.5,not_regular_season,season_type=3
+2018-19,oddsdata,401126815,2019-04-17,Milwaukee Bucks,Detroit Pistons,210.5,not_regular_season,season_type=3
+2018-19,oddsdata,401126847,2019-04-18,Brooklyn Nets,Philadelphia 76ers,227.0,not_regular_season,season_type=3
+2018-19,oddsdata,401126818,2019-04-18,Los Angeles Clippers,Golden State Warriors,237.0,not_regular_season,season_type=3
+2018-19,oddsdata,401126830,2019-04-18,San Antonio Spurs,Denver Nuggets,212.0,not_regular_season,season_type=3
+2018-19,oddsdata,401126863,2019-04-19,Indiana Pacers,Boston Celtics,203.5,not_regular_season,season_type=3
+2018-19,oddsdata,401126844,2019-04-19,Oklahoma City Thunder,Portland Trail Blazers,221.5,not_regular_season,season_type=3
+2018-19,oddsdata,401126833,2019-04-19,Orlando Magic,Toronto Raptors,210.0,not_regular_season,season_type=3
+2018-19,oddsdata,401126850,2019-04-20,Brooklyn Nets,Philadelphia 76ers,233.0,not_regular_season,season_type=3
+2018-19,oddsdata,401126817,2019-04-20,Detroit Pistons,Milwaukee Bucks,217.0,not_regular_season,season_type=3
+2018-19,oddsdata,401126832,2019-04-20,San Antonio Spurs,Denver Nuggets,211.0,not_regular_season,season_type=3
+2018-19,oddsdata,401126857,2019-04-20,Utah Jazz,Houston Rockets,216.0,not_regular_season,season_type=3
+2018-19,oddsdata,401126865,2019-04-21,Indiana Pacers,Boston Celtics,203.0,not_regular_season,season_type=3
+2018-19,oddsdata,401126820,2019-04-21,Los Angeles Clippers,Golden State Warriors,235.0,not_regular_season,season_type=3
+2018-19,oddsdata,401126846,2019-04-21,Oklahoma City Thunder,Portland Trail Blazers,223.5,not_regular_season,season_type=3
+2018-19,oddsdata,401126836,2019-04-21,Orlando Magic,Toronto Raptors,207.0,not_regular_season,season_type=3
+2018-19,oddsdata,401126819,2019-04-22,Detroit Pistons,Milwaukee Bucks,218.5,not_regular_season,season_type=3
+2018-19,oddsdata,401126859,2019-04-22,Utah Jazz,Houston Rockets,212.5,not_regular_season,season_type=3
+2018-19,oddsdata,401126834,2019-04-23,Denver Nuggets,San Antonio Spurs,212.0,not_regular_season,season_type=3
+2018-19,oddsdata,401126851,2019-04-23,Philadelphia 76ers,Brooklyn Nets,230.0,not_regular_season,season_type=3
+2018-19,oddsdata,401126848,2019-04-23,Portland Trail Blazers,Oklahoma City Thunder,219.5,not_regular_season,season_type=3
+2018-19,oddsdata,401126837,2019-04-23,Toronto Raptors,Orlando Magic,205.0,not_regular_season,season_type=3
+2018-19,oddsdata,401126822,2019-04-24,Golden State Warriors,Los Angeles Clippers,235.0,not_regular_season,season_type=3
+2018-19,oddsdata,401126861,2019-04-24,Houston Rockets,Utah Jazz,213.0,not_regular_season,season_type=3
+2018-19,oddsdata,401126835,2019-04-25,San Antonio Spurs,Denver Nuggets,208.5,not_regular_season,season_type=3
+2018-19,oddsdata,401126824,2019-04-26,Los Angeles Clippers,Golden State Warriors,234.5,not_regular_season,season_type=3
+2018-19,oddsdata,401126838,2019-04-27,Denver Nuggets,San Antonio Spurs,211.0,not_regular_season,season_type=3
+2018-19,oddsdata,401129113,2019-04-27,Toronto Raptors,Philadelphia 76ers,222.5,not_regular_season,season_type=3
+2018-19,oddsdata,401129353,2019-04-28,Golden State Warriors,Houston Rockets,225.5,not_regular_season,season_type=3
+2018-19,oddsdata,401129114,2019-04-28,Milwaukee Bucks,Boston Celtics,224.0,not_regular_season,season_type=3
+2018-19,oddsdata,401129360,2019-04-29,Denver Nuggets,Portland Trail Blazers,216.5,not_regular_season,season_type=3
+2018-19,oddsdata,401129100,2019-04-29,Toronto Raptors,Philadelphia 76ers,220.5,not_regular_season,season_type=3
+2018-19,oddsdata,401129354,2019-04-30,Golden State Warriors,Houston Rockets,220.0,not_regular_season,season_type=3
+2018-19,oddsdata,401129094,2019-04-30,Milwaukee Bucks,Boston Celtics,220.5,not_regular_season,season_type=3
+2018-19,oddsdata,401129361,2019-05-01,Denver Nuggets,Portland Trail Blazers,217.5,not_regular_season,season_type=3
+2018-19,oddsdata,401129101,2019-05-02,Philadelphia 76ers,Toronto Raptors,216.0,not_regular_season,season_type=3
+2018-19,oddsdata,401129095,2019-05-03,Boston Celtics,Milwaukee Bucks,220.0,not_regular_season,season_type=3
+2018-19,oddsdata,401129362,2019-05-03,Portland Trail Blazers,Denver Nuggets,215.5,not_regular_season,season_type=3
+2018-19,oddsdata,401129355,2019-05-04,Houston Rockets,Golden State Warriors,222.0,not_regular_season,season_type=3
+2018-19,oddsdata,401129102,2019-05-05,Philadelphia 76ers,Toronto Raptors,215.0,not_regular_season,season_type=3
+2018-19,oddsdata,401129363,2019-05-05,Portland Trail Blazers,Denver Nuggets,214.0,not_regular_season,season_type=3
+2018-19,oddsdata,401129096,2019-05-06,Boston Celtics,Milwaukee Bucks,221.0,not_regular_season,season_type=3
+2018-19,oddsdata,401129356,2019-05-06,Houston Rockets,Golden State Warriors,221.0,not_regular_season,season_type=3
+2018-19,oddsdata,401129364,2019-05-07,Denver Nuggets,Portland Trail Blazers,212.5,not_regular_season,season_type=3
+2018-19,oddsdata,401129103,2019-05-07,Toronto Raptors,Philadelphia 76ers,211.0,not_regular_season,season_type=3
+2018-19,oddsdata,401129357,2019-05-08,Golden State Warriors,Houston Rockets,220.0,not_regular_season,season_type=3
+2018-19,oddsdata,401129097,2019-05-08,Milwaukee Bucks,Boston Celtics,217.5,not_regular_season,season_type=3
+2018-19,oddsdata,401129104,2019-05-09,Philadelphia 76ers,Toronto Raptors,213.0,not_regular_season,season_type=3
+2018-19,oddsdata,401129365,2019-05-09,Portland Trail Blazers,Denver Nuggets,215.0,not_regular_season,season_type=3
+2018-19,oddsdata,401129358,2019-05-10,Houston Rockets,Golden State Warriors,212.0,not_regular_season,season_type=3
+2018-19,oddsdata,401129366,2019-05-12,Denver Nuggets,Portland Trail Blazers,212.5,not_regular_season,season_type=3
+2018-19,oddsdata,401129105,2019-05-12,Toronto Raptors,Philadelphia 76ers,208.5,not_regular_season,season_type=3
+2018-19,oddsdata,401131833,2019-05-14,Golden State Warriors,Portland Trail Blazers,218.5,not_regular_season,season_type=3
+2018-19,oddsdata,401131840,2019-05-15,Milwaukee Bucks,Toronto Raptors,218.0,not_regular_season,season_type=3
+2018-19,oddsdata,401131834,2019-05-16,Golden State Warriors,Portland Trail Blazers,218.0,not_regular_season,season_type=3
+2018-19,oddsdata,401131841,2019-05-17,Milwaukee Bucks,Toronto Raptors,214.0,not_regular_season,season_type=3
+2018-19,oddsdata,401131835,2019-05-18,Portland Trail Blazers,Golden State Warriors,221.0,not_regular_season,season_type=3
+2018-19,oddsdata,401131842,2019-05-19,Toronto Raptors,Milwaukee Bucks,220.5,not_regular_season,season_type=3
+2018-19,oddsdata,401131836,2019-05-20,Portland Trail Blazers,Golden State Warriors,218.5,not_regular_season,season_type=3
+2018-19,oddsdata,401131843,2019-05-21,Toronto Raptors,Milwaukee Bucks,216.0,not_regular_season,season_type=3
+2018-19,oddsdata,401131844,2019-05-23,Milwaukee Bucks,Toronto Raptors,218.0,not_regular_season,season_type=3
+2018-19,oddsdata,401131845,2019-05-25,Toronto Raptors,Milwaukee Bucks,213.0,not_regular_season,season_type=3
+2018-19,oddsdata,401134815,2019-05-30,Toronto Raptors,Golden State Warriors,215.5,not_regular_season,season_type=3
+2018-19,oddsdata,401134816,2019-06-02,Toronto Raptors,Golden State Warriors,216.0,not_regular_season,season_type=3
+2018-19,oddsdata,401134817,2019-06-05,Golden State Warriors,Toronto Raptors,214.0,not_regular_season,season_type=3
+2018-19,oddsdata,401134818,2019-06-07,Golden State Warriors,Toronto Raptors,216.0,not_regular_season,season_type=3
+2018-19,oddsdata,401134819,2019-06-10,Toronto Raptors,Golden State Warriors,212.0,not_regular_season,season_type=3
+2018-19,oddsdata,401134820,2019-06-13,Golden State Warriors,Toronto Raptors,211.0,not_regular_season,season_type=3
+2019-20,oddsdata,401160985,2019-12-09,Indiana Pacers,Los Angeles Clippers,1105.0,line_out_of_range_170_275,line=1105.0
+2019-20,oddsdata,401160992,2019-12-09,Utah Jazz,Oklahoma City Thunder,1111.0,line_out_of_range_170_275,line=1111.0
+2019-20,oddsdata,401236333,2020-08-15,Portland Trail Blazers,Memphis Grizzlies,231.5,not_regular_season,season_type=5
+2019-20,oddsdata,401236268,2020-08-17,Boston Celtics,Philadelphia 76ers,220.0,not_regular_season,season_type=3
+2019-20,oddsdata,401236280,2020-08-17,Denver Nuggets,Utah Jazz,220.5,not_regular_season,season_type=3
+2019-20,oddsdata,401236273,2020-08-17,Los Angeles Clippers,Dallas Mavericks,231.0,not_regular_season,season_type=3
+2019-20,oddsdata,401236261,2020-08-17,Toronto Raptors,Brooklyn Nets,224.0,not_regular_season,season_type=3
+2019-20,oddsdata,401236294,2020-08-18,Houston Rockets,Oklahoma City Thunder,227.0,not_regular_season,season_type=3
+2019-20,oddsdata,401236315,2020-08-18,Indiana Pacers,Miami Heat,217.5,not_regular_season,season_type=3
+2019-20,oddsdata,401236287,2020-08-18,Los Angeles Lakers,Portland Trail Blazers,226.5,not_regular_season,season_type=3
+2019-20,oddsdata,401236254,2020-08-18,Milwaukee Bucks,Orlando Magic,224.5,not_regular_season,season_type=3
+2019-20,oddsdata,401236269,2020-08-19,Boston Celtics,Philadelphia 76ers,215.0,not_regular_season,season_type=3
+2019-20,oddsdata,401236281,2020-08-19,Denver Nuggets,Utah Jazz,218.5,not_regular_season,season_type=3
+2019-20,oddsdata,401236274,2020-08-19,Los Angeles Clippers,Dallas Mavericks,231.0,not_regular_season,season_type=3
+2019-20,oddsdata,401236262,2020-08-19,Toronto Raptors,Brooklyn Nets,226.5,not_regular_season,season_type=3
+2019-20,oddsdata,401236295,2020-08-20,Houston Rockets,Oklahoma City Thunder,227.5,not_regular_season,season_type=3
+2019-20,oddsdata,401236316,2020-08-20,Indiana Pacers,Miami Heat,215.0,not_regular_season,season_type=3
+2019-20,oddsdata,401236288,2020-08-20,Los Angeles Lakers,Portland Trail Blazers,226.5,not_regular_season,season_type=3
+2019-20,oddsdata,401236255,2020-08-20,Milwaukee Bucks,Orlando Magic,228.0,not_regular_season,season_type=3
+2019-20,oddsdata,401236263,2020-08-21,Brooklyn Nets,Toronto Raptors,223.0,not_regular_season,season_type=3
+2019-20,oddsdata,401236275,2020-08-21,Dallas Mavericks,Los Angeles Clippers,233.0,not_regular_season,season_type=3
+2019-20,oddsdata,401236270,2020-08-21,Philadelphia 76ers,Boston Celtics,216.0,not_regular_season,season_type=3
+2019-20,oddsdata,401236282,2020-08-21,Utah Jazz,Denver Nuggets,220.0,not_regular_season,season_type=3
+2019-20,oddsdata,401236317,2020-08-22,Miami Heat,Indiana Pacers,214.0,not_regular_season,season_type=3
+2019-20,oddsdata,401236296,2020-08-22,Oklahoma City Thunder,Houston Rockets,224.0,not_regular_season,season_type=3
+2019-20,oddsdata,401236256,2020-08-22,Orlando Magic,Milwaukee Bucks,226.0,not_regular_season,season_type=3
+2019-20,oddsdata,401236289,2020-08-22,Portland Trail Blazers,Los Angeles Lakers,225.0,not_regular_season,season_type=3
+2019-20,oddsdata,401236264,2020-08-23,Brooklyn Nets,Toronto Raptors,217.0,not_regular_season,season_type=3
+2019-20,oddsdata,401236276,2020-08-23,Dallas Mavericks,Los Angeles Clippers,231.5,not_regular_season,season_type=3
+2019-20,oddsdata,401236271,2020-08-23,Philadelphia 76ers,Boston Celtics,213.0,not_regular_season,season_type=3
+2019-20,oddsdata,401236283,2020-08-23,Utah Jazz,Denver Nuggets,214.0,not_regular_season,season_type=3
+2019-20,oddsdata,401236318,2020-08-24,Miami Heat,Indiana Pacers,216.5,not_regular_season,season_type=3
+2019-20,oddsdata,401236297,2020-08-24,Oklahoma City Thunder,Houston Rockets,221.0,not_regular_season,season_type=3
+2019-20,oddsdata,401236257,2020-08-24,Orlando Magic,Milwaukee Bucks,225.5,not_regular_season,season_type=3
+2019-20,oddsdata,401236290,2020-08-24,Portland Trail Blazers,Los Angeles Lakers,224.5,not_regular_season,season_type=3
+2019-20,oddsdata,401236284,2020-08-25,Denver Nuggets,Utah Jazz,220.5,not_regular_season,season_type=3
+2019-20,oddsdata,401236277,2020-08-25,Los Angeles Clippers,Dallas Mavericks,237.5,not_regular_season,season_type=3
+2019-20,oddsdata,401236300,2020-08-29,Houston Rockets,Oklahoma City Thunder,224.5,not_regular_season,season_type=3
+2019-20,oddsdata,401236293,2020-08-29,Los Angeles Lakers,Portland Trail Blazers,223.0,not_regular_season,season_type=3
+2019-20,oddsdata,401236260,2020-08-29,Milwaukee Bucks,Orlando Magic,226.0,not_regular_season,season_type=3
+2019-20,oddsdata,401236279,2020-08-30,Dallas Mavericks,Los Angeles Clippers,237.5,not_regular_season,season_type=3
+2019-20,oddsdata,401240076,2020-08-30,Toronto Raptors,Boston Celtics,216.0,not_regular_season,season_type=3
+2019-20,oddsdata,401236286,2020-08-30,Utah Jazz,Denver Nuggets,220.5,not_regular_season,season_type=3
+2019-20,oddsdata,401241760,2020-08-31,Milwaukee Bucks,Miami Heat,223.0,not_regular_season,season_type=3
+2019-20,oddsdata,401241638,2020-08-31,Oklahoma City Thunder,Houston Rockets,225.0,not_regular_season,season_type=3
+2019-20,oddsdata,401241818,2020-09-01,Denver Nuggets,Utah Jazz,220.5,not_regular_season,season_type=3
+2019-20,oddsdata,401240077,2020-09-01,Toronto Raptors,Boston Celtics,216.0,not_regular_season,season_type=3
+2019-20,oddsdata,401241819,2020-09-02,Houston Rockets,Oklahoma City Thunder,223.0,not_regular_season,season_type=3
+2019-20,oddsdata,401241766,2020-09-02,Milwaukee Bucks,Miami Heat,221.0,not_regular_season,season_type=3
+2019-20,oddsdata,401240078,2020-09-03,Boston Celtics,Toronto Raptors,214.0,not_regular_season,season_type=3
+2019-20,oddsdata,401241853,2020-09-03,Los Angeles Clippers,Denver Nuggets,223.0,not_regular_season,season_type=3
+2019-20,oddsdata,401242801,2020-09-04,Los Angeles Lakers,Houston Rockets,226.0,not_regular_season,season_type=3
+2019-20,oddsdata,401241767,2020-09-04,Miami Heat,Milwaukee Bucks,222.5,not_regular_season,season_type=3
+2019-20,oddsdata,401240079,2020-09-05,Boston Celtics,Toronto Raptors,212.0,not_regular_season,season_type=3
+2019-20,oddsdata,401242795,2020-09-05,Los Angeles Clippers,Denver Nuggets,221.5,not_regular_season,season_type=3
+2019-20,oddsdata,401242802,2020-09-06,Los Angeles Lakers,Houston Rockets,224.0,not_regular_season,season_type=3
+2019-20,oddsdata,401241769,2020-09-06,Miami Heat,Milwaukee Bucks,220.0,not_regular_season,season_type=3
+2019-20,oddsdata,401242796,2020-09-07,Denver Nuggets,Los Angeles Clippers,220.5,not_regular_season,season_type=3
+2019-20,oddsdata,401240080,2020-09-07,Toronto Raptors,Boston Celtics,212.5,not_regular_season,season_type=3
+2019-20,oddsdata,401242803,2020-09-08,Houston Rockets,Los Angeles Lakers,224.0,not_regular_season,season_type=3
+2019-20,oddsdata,401241770,2020-09-08,Milwaukee Bucks,Miami Heat,218.0,not_regular_season,season_type=3
+2019-20,oddsdata,401240081,2020-09-09,Boston Celtics,Toronto Raptors,209.5,not_regular_season,season_type=3
+2019-20,oddsdata,401242797,2020-09-09,Denver Nuggets,Los Angeles Clippers,220.5,not_regular_season,season_type=3
+2019-20,oddsdata,401242804,2020-09-10,Houston Rockets,Los Angeles Lakers,220.5,not_regular_season,season_type=3
+2019-20,oddsdata,401242798,2020-09-11,Los Angeles Clippers,Denver Nuggets,217.5,not_regular_season,season_type=3
+2019-20,oddsdata,401241765,2020-09-11,Toronto Raptors,Boston Celtics,209.0,not_regular_season,season_type=3
+2019-20,oddsdata,401242805,2020-09-12,Los Angeles Lakers,Houston Rockets,214.5,not_regular_season,season_type=3
+2019-20,oddsdata,401242799,2020-09-13,Denver Nuggets,Los Angeles Clippers,214.5,not_regular_season,season_type=3
+2019-20,oddsdata,401245393,2020-09-15,Boston Celtics,Miami Heat,211.5,not_regular_season,season_type=3
+2019-20,oddsdata,401242800,2020-09-15,Los Angeles Clippers,Denver Nuggets,211.5,not_regular_season,season_type=3
+2019-20,oddsdata,401245394,2020-09-17,Boston Celtics,Miami Heat,210.0,not_regular_season,season_type=3
+2019-20,oddsdata,401246234,2020-09-18,Los Angeles Lakers,Denver Nuggets,209.5,not_regular_season,season_type=3
+2019-20,oddsdata,401245395,2020-09-19,Miami Heat,Boston Celtics,207.5,not_regular_season,season_type=3
+2019-20,oddsdata,401246235,2020-09-20,Los Angeles Lakers,Denver Nuggets,214.0,not_regular_season,season_type=3
+2019-20,oddsdata,401246236,2020-09-22,Denver Nuggets,Los Angeles Lakers,213.5,not_regular_season,season_type=3
+2019-20,oddsdata,401247145,2020-09-23,Miami Heat,Boston Celtics,210.5,not_regular_season,season_type=3
+2019-20,oddsdata,401246237,2020-09-24,Denver Nuggets,Los Angeles Lakers,215.5,not_regular_season,season_type=3
+2019-20,oddsdata,401247146,2020-09-25,Boston Celtics,Miami Heat,214.0,not_regular_season,season_type=3
+2019-20,oddsdata,401246238,2020-09-26,Los Angeles Lakers,Denver Nuggets,215.5,not_regular_season,season_type=3
+2019-20,oddsdata,401247147,2020-09-27,Miami Heat,Boston Celtics,214.5,not_regular_season,season_type=3
+2019-20,oddsdata,401248433,2020-09-30,Los Angeles Lakers,Miami Heat,217.5,not_regular_season,season_type=3
+2019-20,oddsdata,401248434,2020-10-02,Los Angeles Lakers,Miami Heat,216.0,not_regular_season,season_type=3
+2019-20,oddsdata,401248435,2020-10-04,Miami Heat,Los Angeles Lakers,218.5,not_regular_season,season_type=3
+2019-20,oddsdata,401248436,2020-10-06,Miami Heat,Los Angeles Lakers,219.5,not_regular_season,season_type=3
+2019-20,oddsdata,401248437,2020-10-09,Los Angeles Lakers,Miami Heat,217.0,not_regular_season,season_type=3
+2019-20,oddsdata,401248438,2020-10-11,Miami Heat,Los Angeles Lakers,216.5,not_regular_season,season_type=3
+2020-21,closing_lines,401267241,,,,222.75,snapshot_at_or_after_commence,2021-01-03T00:35:00Z >= 2021-01-03T00:11:04Z
+2020-21,closing_lines,401267691,,,,226.0,snapshot_at_or_after_commence,2021-03-02T02:05:00Z >= 2021-03-02T01:10:00Z
+2020-21,closing_lines,401307432,,,,218.5,snapshot_at_or_after_commence,2021-03-21T17:15:00Z >= 2021-03-21T17:15:00Z
+2020-21,closing_lines,401307433,,,,218.5,snapshot_at_or_after_commence,2021-03-21T18:15:00Z >= 2021-03-21T18:15:00Z
+2020-21,closing_lines,401307434,,,,230.5,snapshot_at_or_after_commence,2021-03-21T19:15:00Z >= 2021-03-21T19:15:00Z
+2020-21,closing_lines,401307435,,,,215.5,snapshot_at_or_after_commence,2021-03-21T19:45:00Z >= 2021-03-21T19:45:00Z
+2020-21,closing_lines,401307436,,,,248.5,snapshot_at_or_after_commence,2021-03-21T23:15:00Z >= 2021-03-21T23:15:00Z
+2020-21,closing_lines,401307437,,,,216.5,snapshot_at_or_after_commence,2021-03-21T23:15:00Z >= 2021-03-21T23:15:00Z
+2020-21,closing_lines,401307438,,,,217.0,snapshot_at_or_after_commence,2021-03-21T23:15:00Z >= 2021-03-21T23:12:00Z
+2020-21,closing_lines,401307439,,,,211.5,snapshot_at_or_after_commence,2021-03-22T00:15:00Z >= 2021-03-22T00:12:00Z
+2020-21,closing_lines,401307440,,,,216.5,snapshot_at_or_after_commence,2021-03-22T02:15:00Z >= 2021-03-22T02:11:00Z
+2020-21,closing_lines,401307441,,,,227.5,snapshot_at_or_after_commence,2021-03-22T02:15:00Z >= 2021-03-22T02:12:00Z
+2020-21,closing_lines,401307785,,,,213.0,snapshot_at_or_after_commence,2021-05-04T02:15:00Z >= 2021-05-04T02:13:00Z
+2020-21,closing_lines,401307792,,,,217.5,snapshot_at_or_after_commence,2021-05-05T02:15:00Z >= 2021-05-05T02:15:00Z
+2020-21,closing_lines,401327714,,,,233.0,snapshot_at_or_after_commence,2021-05-23T00:15:00Z >= 2021-05-23T00:15:00Z
+2020-21,closing_lines,401327715,,,,226.5,not_regular_season,
+2020-21,closing_lines,401327716,,,,217.5,not_regular_season,
+2020-21,closing_lines,401327717,,,,226.0,not_regular_season,
+2020-21,closing_lines,401327718,,,,227.5,not_regular_season,
+2020-21,closing_lines,401327719,,,,213.5,not_regular_season,
+2020-21,closing_lines,401327720,,,,213.5,not_regular_season,
+2020-21,closing_lines,401327721,,,,216.5,not_regular_season,
+2020-21,closing_lines,401327864,,,,219.5,not_regular_season,
+2020-21,closing_lines,401327865,,,,210.75,not_regular_season,
+2020-21,closing_lines,401327866,,,,211.0,not_regular_season,
+2020-21,closing_lines,401327867,,,,209.5,not_regular_season,
+2020-21,closing_lines,401327868,,,,224.5,not_regular_season,
+2020-21,closing_lines,401327869,,,,227.0,not_regular_season,
+2020-21,closing_lines,401327870,,,,227.5,not_regular_season,
+2020-21,closing_lines,401327871,,,,215.75,not_regular_season,
+2020-21,closing_lines,401327872,,,,218.75,not_regular_season,
+2020-21,closing_lines,401327873,,,,219.5,not_regular_season,
+2020-21,closing_lines,401327874,,,,229.0,not_regular_season,
+2020-21,closing_lines,401327875,,,,228.0,not_regular_season,
+2020-21,closing_lines,401327876,,,,227.0,not_regular_season,
+2020-21,closing_lines,401327877,,,,228.75,not_regular_season,
+2020-21,closing_lines,401327878,,,,223.5,snapshot_at_or_after_commence,2021-05-24T23:45:00Z >= 2021-05-24T23:45:00Z
+2020-21,closing_lines,401327879,,,,224.0,not_regular_season,
+2020-21,closing_lines,401327880,,,,221.5,not_regular_season,
+2020-21,closing_lines,401327881,,,,213.25,not_regular_season,
+2020-21,closing_lines,401327882,,,,212.0,not_regular_season,
+2020-21,closing_lines,401327883,,,,209.0,not_regular_season,
+2020-21,closing_lines,401327884,,,,209.0,not_regular_season,
+2020-21,closing_lines,401327890,,,,234.5,snapshot_at_or_after_commence,2021-06-01T23:35:00Z >= 2021-06-01T23:32:00Z
+2020-21,closing_lines,401327893,,,,229.5,not_regular_season,
+2020-21,closing_lines,401327894,,,,231.0,not_regular_season,
+2020-21,closing_lines,401327895,,,,229.5,not_regular_season,
+2020-21,closing_lines,401327898,,,,217.5,not_regular_season,
+2020-21,closing_lines,401327899,,,,215.5,not_regular_season,
+2020-21,closing_lines,401327900,,,,211.5,not_regular_season,
+2020-21,closing_lines,401327901,,,,226.5,not_regular_season,
+2020-21,closing_lines,401327902,,,,228.0,not_regular_season,
+2020-21,closing_lines,401327904,,,,209.5,not_regular_season,
+2020-21,closing_lines,401327905,,,,207.5,not_regular_season,
+2020-21,closing_lines,401327907,,,,224.5,not_regular_season,
+2020-21,closing_lines,401327908,,,,224.5,not_regular_season,
+2020-21,closing_lines,401327909,,,,226.5,not_regular_season,
+2020-21,closing_lines,401332290,,,,240.0,not_regular_season,
+2020-21,closing_lines,401332409,,,,238.0,snapshot_at_or_after_commence,2021-06-07T23:45:00Z >= 2021-06-07T23:45:00Z
+2020-21,closing_lines,401332410,,,,221.5,not_regular_season,
+2020-21,closing_lines,401332840,,,,220.5,not_regular_season,
+2020-21,closing_lines,401332953,,,,225.0,not_regular_season,
+2020-21,closing_lines,401332954,,,,224.5,not_regular_season,
+2020-21,closing_lines,401332955,,,,226.0,not_regular_season,
+2020-21,closing_lines,401332956,,,,224.5,not_regular_season,
+2020-21,closing_lines,401332957,,,,223.0,not_regular_season,
+2020-21,closing_lines,401332958,,,,216.0,not_regular_season,
+2020-21,closing_lines,401332959,,,,234.5,snapshot_at_or_after_commence,2021-06-10T23:35:00Z >= 2021-06-10T23:35:00Z
+2020-21,closing_lines,401332960,,,,228.0,not_regular_season,
+2020-21,closing_lines,401332961,,,,222.0,not_regular_season,
+2020-21,closing_lines,401332962,,,,220.5,not_regular_season,
+2020-21,closing_lines,401332963,,,,215.5,not_regular_season,
+2020-21,closing_lines,401332964,,,,224.5,not_regular_season,
+2020-21,closing_lines,401332965,,,,223.5,not_regular_season,
+2020-21,closing_lines,401332966,,,,223.0,not_regular_season,
+2020-21,closing_lines,401333058,,,,221.5,not_regular_season,
+2020-21,closing_lines,401333059,,,,222.5,not_regular_season,
+2020-21,closing_lines,401333060,,,,222.25,not_regular_season,
+2020-21,closing_lines,401333061,,,,223.5,not_regular_season,
+2020-21,closing_lines,401333062,,,,220.0,not_regular_season,
+2020-21,closing_lines,401333063,,,,221.0,not_regular_season,
+2020-21,closing_lines,401337333,,,,219.5,not_regular_season,
+2020-21,closing_lines,401337334,,,,222.5,not_regular_season,
+2020-21,closing_lines,401337335,,,,221.5,not_regular_season,
+2020-21,closing_lines,401337336,,,,217.5,not_regular_season,
+2020-21,closing_lines,401337337,,,,213.5,not_regular_season,
+2020-21,closing_lines,401337338,,,,214.5,not_regular_season,
+2020-21,closing_lines,401337340,,,,225.0,snapshot_at_or_after_commence,2021-06-24T00:35:00Z >= 2021-06-24T00:35:00Z
+2020-21,closing_lines,401337341,,,,226.0,not_regular_season,
+2020-21,closing_lines,401337342,,,,224.0,not_regular_season,
+2020-21,closing_lines,401337343,,,,215.0,not_regular_season,
+2020-21,closing_lines,401337344,,,,212.75,snapshot_at_or_after_commence,2021-07-02T00:35:00Z >= 2021-07-02T00:35:00Z
+2020-21,closing_lines,401337345,,,,220.0,not_regular_season,
+2020-21,closing_lines,401344135,,,,219.5,not_regular_season,
+2020-21,closing_lines,401344136,,,,221.0,not_regular_season,
+2020-21,closing_lines,401344137,,,,220.0,not_regular_season,
+2020-21,closing_lines,401344138,,,,221.0,not_regular_season,
+2020-21,closing_lines,401344139,,,,220.0,not_regular_season,
+2020-21,closing_lines,401344140,,,,221.0,not_regular_season,
+2020-21,closing_lines,401267481,,,,217.0,unmatched,
+2020-21,closing_lines,401326988,,,,226.5,unmatched,
+2020-21,closing_lines,401326989,,,,233.0,unmatched,
+2020-21,closing_lines,401326990,,,,223.5,unmatched,
+2020-21,closing_lines,401326991,,,,217.0,unmatched,
+2020-21,closing_lines,401326993,,,,240.0,unmatched,
+2020-21,closing_lines,401326994,,,,220.5,unmatched,
+2021-22,closing_lines,401359864,,,,225.5,snapshot_at_or_after_commence,2021-10-25T01:35:00Z >= 2021-10-25T01:35:00Z
+2021-22,closing_lines,401359873,,,,230.0,snapshot_at_or_after_commence,2021-10-26T02:35:00Z >= 2021-10-26T02:35:00Z
+2021-22,closing_lines,401360580,,,,217.5,snapshot_at_or_after_commence,2022-02-01T00:05:00Z >= 2022-02-01T00:00:00Z
+2021-22,closing_lines,401401143,,,,207.25,snapshot_at_or_after_commence,2022-02-04T01:35:00Z >= 2022-02-04T00:10:16Z
+2021-22,closing_lines,401428070,,,,227.0,not_regular_season,
+2021-22,closing_lines,401428071,,,,231.0,not_regular_season,
+2021-22,closing_lines,401428072,,,,235.5,not_regular_season,
+2021-22,closing_lines,401428073,,,,225.0,not_regular_season,
+2021-22,closing_lines,401428074,,,,223.0,not_regular_season,
+2021-22,closing_lines,401428075,,,,216.0,not_regular_season,
+2021-22,closing_lines,401429872,,,,208.0,not_regular_season,
+2021-22,closing_lines,401429873,,,,237.5,not_regular_season,
+2021-22,closing_lines,401429874,,,,216.0,not_regular_season,
+2021-22,closing_lines,401429875,,,,223.5,not_regular_season,
+2021-22,closing_lines,401429890,,,,226.5,not_regular_season,
+2021-22,closing_lines,401429891,,,,220.5,not_regular_season,
+2021-22,closing_lines,401429892,,,,230.0,not_regular_season,
+2021-22,closing_lines,401429893,,,,224.0,not_regular_season,
+2021-22,closing_lines,401430210,,,,225.0,not_regular_season,
+2021-22,closing_lines,401430211,,,,222.5,not_regular_season,
+2021-22,closing_lines,401430212,,,,222.0,not_regular_season,
+2021-22,closing_lines,401430216,,,,221.5,not_regular_season,
+2021-22,closing_lines,401430217,,,,222.0,not_regular_season,
+2021-22,closing_lines,401430218,,,,220.5,not_regular_season,
+2021-22,closing_lines,401430219,,,,215.0,not_regular_season,
+2021-22,closing_lines,401430222,,,,221.5,not_regular_season,
+2021-22,closing_lines,401430223,,,,240.5,not_regular_season,
+2021-22,closing_lines,401430224,,,,215.0,not_regular_season,
+2021-22,closing_lines,401430225,,,,215.5,not_regular_season,
+2021-22,closing_lines,401430226,,,,216.0,not_regular_season,
+2021-22,closing_lines,401430227,,,,237.0,not_regular_season,
+2021-22,closing_lines,401430228,,,,216.0,not_regular_season,
+2021-22,closing_lines,401430230,,,,232.0,not_regular_season,
+2021-22,closing_lines,401430231,,,,231.5,not_regular_season,
+2021-22,closing_lines,401430232,,,,206.5,not_regular_season,
+2021-22,closing_lines,401430233,,,,217.0,not_regular_season,
+2021-22,closing_lines,401430234,,,,229.5,not_regular_season,
+2021-22,closing_lines,401430235,,,,207.5,not_regular_season,
+2021-22,closing_lines,401430236,,,,216.5,not_regular_season,
+2021-22,closing_lines,401430237,,,,214.0,not_regular_season,
+2021-22,closing_lines,401430239,,,,212.5,not_regular_season,
+2021-22,closing_lines,401430240,,,,213.0,not_regular_season,
+2021-22,closing_lines,401430241,,,,210.5,not_regular_season,
+2021-22,closing_lines,401430243,,,,211.5,not_regular_season,
+2021-22,closing_lines,401430244,,,,209.5,not_regular_season,
+2021-22,closing_lines,401430246,,,,224.5,not_regular_season,
+2021-22,closing_lines,401430247,,,,222.5,not_regular_season,
+2021-22,closing_lines,401430248,,,,222.0,not_regular_season,
+2021-22,closing_lines,401430249,,,,219.5,not_regular_season,
+2021-22,closing_lines,401430250,,,,222.5,not_regular_season,
+2021-22,closing_lines,401430251,,,,217.5,not_regular_season,
+2021-22,closing_lines,401430253,,,,224.5,not_regular_season,
+2021-22,closing_lines,401430255,,,,225.5,not_regular_season,
+2021-22,closing_lines,401433610,,,,218.5,not_regular_season,
+2021-22,closing_lines,401433611,,,,216.0,not_regular_season,
+2021-22,closing_lines,401433612,,,,212.0,not_regular_season,
+2021-22,closing_lines,401433613,,,,213.0,not_regular_season,
+2021-22,closing_lines,401433614,,,,212.0,not_regular_season,
+2021-22,closing_lines,401433615,,,,212.5,not_regular_season,
+2021-22,closing_lines,401433616,,,,205.5,not_regular_season,
+2021-22,closing_lines,401434050,,,,208.5,not_regular_season,
+2021-22,closing_lines,401434051,,,,208.5,not_regular_season,
+2021-22,closing_lines,401434052,,,,210.5,not_regular_season,
+2021-22,closing_lines,401434053,,,,208.0,not_regular_season,
+2021-22,closing_lines,401434054,,,,208.0,not_regular_season,
+2021-22,closing_lines,401434055,,,,206.0,not_regular_season,
+2021-22,closing_lines,401434070,,,,214.5,not_regular_season,
+2021-22,closing_lines,401434110,,,,217.5,not_regular_season,
+2021-22,closing_lines,401434111,,,,217.5,not_regular_season,
+2021-22,closing_lines,401434112,,,,214.5,not_regular_season,
+2021-22,closing_lines,401434113,,,,215.0,not_regular_season,
+2021-22,closing_lines,401434114,,,,210.5,not_regular_season,
+2021-22,closing_lines,401434115,,,,204.5,not_regular_season,
+2021-22,closing_lines,401434770,,,,223.5,not_regular_season,
+2021-22,closing_lines,401434771,,,,227.5,not_regular_season,
+2021-22,closing_lines,401434772,,,,225.5,not_regular_season,
+2021-22,closing_lines,401434773,,,,222.5,not_regular_season,
+2021-22,closing_lines,401434774,,,,219.0,not_regular_season,
+2021-22,closing_lines,401434775,,,,218.5,not_regular_season,
+2021-22,closing_lines,401438130,,,,203.0,not_regular_season,
+2021-22,closing_lines,401438131,,,,206.5,not_regular_season,
+2021-22,closing_lines,401438132,,,,207.0,not_regular_season,
+2021-22,closing_lines,401438133,,,,205.5,not_regular_season,
+2021-22,closing_lines,401438134,,,,203.5,not_regular_season,
+2021-22,closing_lines,401438135,,,,201.5,not_regular_season,
+2021-22,closing_lines,401438136,,,,198.0,not_regular_season,
+2021-22,closing_lines,401438944,,,,216.5,not_regular_season,
+2021-22,closing_lines,401438945,,,,215.5,not_regular_season,
+2021-22,closing_lines,401438946,,,,217.0,not_regular_season,
+2021-22,closing_lines,401438947,,,,215.5,not_regular_season,
+2021-22,closing_lines,401438948,,,,215.0,not_regular_season,
+2021-22,closing_lines,401442530,,,,214.0,not_regular_season,
+2021-22,closing_lines,401442531,,,,213.5,not_regular_season,
+2021-22,closing_lines,401442532,,,,213.5,not_regular_season,
+2021-22,closing_lines,401442533,,,,213.5,not_regular_season,
+2021-22,closing_lines,401442534,,,,211.0,not_regular_season,
+2021-22,closing_lines,401442535,,,,211.5,not_regular_season,
+2022-23,closing_lines,401468301,,,,223.5,snapshot_at_or_after_commence,2022-11-08T00:30:40Z >= 2022-11-08T00:30:00Z
+2022-23,closing_lines,401468303,,,,215.0,snapshot_at_or_after_commence,2022-11-08T01:00:40Z >= 2022-11-08T01:00:00Z
+2022-23,closing_lines,401468305,,,,216.5,snapshot_at_or_after_commence,2022-11-08T01:30:40Z >= 2022-11-08T01:30:00Z
+2022-23,closing_lines,401468309,,,,234.5,snapshot_at_or_after_commence,2022-11-08T02:30:39Z >= 2022-11-08T02:30:00Z
+2022-23,closing_lines,401468311,,,,236.0,snapshot_at_or_after_commence,2022-11-08T03:00:40Z >= 2022-11-08T03:00:00Z
+2022-23,closing_lines,401468314,,,,221.0,snapshot_at_or_after_commence,2022-11-10T00:00:39Z >= 2022-11-10T00:00:00Z
+2022-23,closing_lines,401468315,,,,235.5,snapshot_at_or_after_commence,2022-11-10T00:00:39Z >= 2022-11-10T00:00:00Z
+2022-23,closing_lines,401468321,,,,232.5,snapshot_at_or_after_commence,2022-11-10T01:00:39Z >= 2022-11-10T01:00:00Z
+2022-23,closing_lines,401468322,,,,224.0,snapshot_at_or_after_commence,2022-11-10T01:00:39Z >= 2022-11-10T01:00:00Z
+2022-23,closing_lines,401468323,,,,213.25,snapshot_at_or_after_commence,2022-11-10T01:00:39Z >= 2022-11-10T01:00:00Z
+2022-23,closing_lines,401468324,,,,234.0,snapshot_at_or_after_commence,2022-11-10T01:00:39Z >= 2022-11-10T01:00:00Z
+2022-23,closing_lines,401468557,,,,228.5,snapshot_at_or_after_commence,2022-12-13T00:00:39Z >= 2022-12-13T00:00:00Z
+2022-23,closing_lines,401468558,,,,227.25,snapshot_at_or_after_commence,2022-12-13T00:00:39Z >= 2022-12-13T00:00:00Z
+2022-23,closing_lines,401468560,,,,227.5,snapshot_at_or_after_commence,2022-12-13T01:30:38Z >= 2022-12-13T01:30:00Z
+2022-23,closing_lines,401468561,,,,221.0,snapshot_at_or_after_commence,2022-12-13T01:30:38Z >= 2022-12-13T01:30:00Z
+2022-23,closing_lines,401468923,,,,232.0,snapshot_at_or_after_commence,2023-02-01T03:00:38Z >= 2023-02-01T03:00:00Z
+2022-23,closing_lines,401469086,,,,234.5,snapshot_at_or_after_commence,2023-03-01T03:00:39Z >= 2023-03-01T03:00:00Z
+2022-23,closing_lines,401469168,,,,243.0,snapshot_at_or_after_commence,2023-03-12T03:00:38Z >= 2023-03-12T02:10:00Z
+2022-23,closing_lines,401469203,,,,247.5,snapshot_at_or_after_commence,2023-03-17T23:30:39Z >= 2023-03-17T23:30:00Z
+2022-23,closing_lines,401469204,,,,220.25,snapshot_at_or_after_commence,2023-03-17T23:30:39Z >= 2023-03-17T23:30:00Z
+2022-23,closing_lines,401469242,,,,219.5,snapshot_at_or_after_commence,2023-03-23T00:00:38Z >= 2023-03-23T00:00:00Z
+2022-23,closing_lines,401469244,,,,237.5,snapshot_at_or_after_commence,2023-03-23T00:00:38Z >= 2023-03-23T00:00:00Z
+2022-23,closing_lines,401469246,,,,235.0,snapshot_at_or_after_commence,2023-03-23T01:00:38Z >= 2023-03-23T01:00:00Z
+2022-23,closing_lines,401469247,,,,227.5,snapshot_at_or_after_commence,2023-03-23T02:00:38Z >= 2023-03-23T02:00:00Z
+2022-23,closing_lines,401469281,,,,227.5,snapshot_at_or_after_commence,2023-03-28T01:30:39Z >= 2023-03-28T01:30:00Z
+2022-23,closing_lines,401469310,,,,228.25,snapshot_at_or_after_commence,2023-04-01T00:00:40Z >= 2023-04-01T00:00:00Z
+2022-23,closing_lines,401469312,,,,232.5,snapshot_at_or_after_commence,2023-04-01T00:00:40Z >= 2023-04-01T00:00:00Z
+2022-23,closing_lines,401469313,,,,241.5,snapshot_at_or_after_commence,2023-04-01T02:00:39Z >= 2023-04-01T02:00:00Z
+2022-23,closing_lines,401469314,,,,230.5,snapshot_at_or_after_commence,2023-04-01T02:00:39Z >= 2023-04-01T02:00:00Z
+2022-23,closing_lines,401469316,,,,224.5,snapshot_at_or_after_commence,2023-04-01T23:30:38Z >= 2023-04-01T23:30:00Z
+2022-23,closing_lines,401539671,,,,227.5,not_regular_season,
+2022-23,closing_lines,401539672,,,,233.5,not_regular_season,
+2022-23,closing_lines,401539673,,,,212.5,not_regular_season,
+2022-23,closing_lines,401539674,,,,226.5,not_regular_season,
+2022-23,closing_lines,401539675,,,,209.0,not_regular_season,
+2022-23,closing_lines,401539676,,,,228.5,not_regular_season,
+2022-23,closing_lines,401540750,,,,213.5,not_regular_season,
+2022-23,closing_lines,401540751,,,,231.5,not_regular_season,
+2022-23,closing_lines,401540752,,,,216.0,not_regular_season,
+2022-23,closing_lines,401540753,,,,237.5,not_regular_season,
+2022-23,closing_lines,401540754,,,,221.0,not_regular_season,
+2022-23,closing_lines,401540755,,,,224.5,not_regular_season,
+2022-23,closing_lines,401540756,,,,228.5,not_regular_season,
+2022-23,closing_lines,401540757,,,,225.5,not_regular_season,
+2022-23,closing_lines,401541167,,,,222.0,not_regular_season,
+2022-23,closing_lines,401541168,,,,222.5,not_regular_season,
+2022-23,closing_lines,401541169,,,,238.5,not_regular_season,
+2022-23,closing_lines,401541170,,,,227.5,not_regular_season,
+2022-23,closing_lines,401541171,,,,216.0,not_regular_season,
+2022-23,closing_lines,401541172,,,,231.0,not_regular_season,
+2022-23,closing_lines,401541173,,,,211.0,not_regular_season,
+2022-23,closing_lines,401541174,,,,214.0,not_regular_season,
+2022-23,closing_lines,401541175,,,,223.5,not_regular_season,
+2022-23,closing_lines,401541176,,,,221.5,not_regular_season,
+2022-23,closing_lines,401541177,,,,241.0,not_regular_season,
+2022-23,closing_lines,401541178,,,,225.5,not_regular_season,
+2022-23,closing_lines,401541179,,,,215.5,not_regular_season,
+2022-23,closing_lines,401541180,,,,228.5,not_regular_season,
+2022-23,closing_lines,401541181,,,,209.5,not_regular_season,
+2022-23,closing_lines,401541182,,,,211.5,not_regular_season,
+2022-23,closing_lines,401541183,,,,222.5,not_regular_season,
+2022-23,closing_lines,401541184,,,,224.0,not_regular_season,
+2022-23,closing_lines,401541185,,,,236.5,not_regular_season,
+2022-23,closing_lines,401541186,,,,227.5,not_regular_season,
+2022-23,closing_lines,401541187,,,,218.0,not_regular_season,
+2022-23,closing_lines,401541188,,,,231.0,not_regular_season,
+2022-23,closing_lines,401541189,,,,210.0,not_regular_season,
+2022-23,closing_lines,401541190,,,,203.5,not_regular_season,
+2022-23,closing_lines,401541196,,,,220.5,not_regular_season,
+2022-23,closing_lines,401541231,,,,222.5,not_regular_season,
+2022-23,closing_lines,401541232,,,,220.0,not_regular_season,
+2022-23,closing_lines,401541234,,,,234.0,not_regular_season,
+2022-23,closing_lines,401541235,,,,236.5,not_regular_season,
+2022-23,closing_lines,401541236,,,,229.0,not_regular_season,
+2022-23,closing_lines,401541237,,,,225.5,not_regular_season,
+2022-23,closing_lines,401541240,,,,219.0,not_regular_season,
+2022-23,closing_lines,401541243,,,,230.5,not_regular_season,
+2022-23,closing_lines,401541244,,,,230.5,not_regular_season,
+2022-23,closing_lines,401541249,,,,202.0,not_regular_season,
+2022-23,closing_lines,401544334,,,,227.5,not_regular_season,
+2022-23,closing_lines,401544335,,,,229.0,not_regular_season,
+2022-23,closing_lines,401544336,,,,225.0,not_regular_season,
+2022-23,closing_lines,401544337,,,,226.0,not_regular_season,
+2022-23,closing_lines,401544338,,,,227.5,not_regular_season,
+2022-23,closing_lines,401544339,,,,226.0,not_regular_season,
+2022-23,closing_lines,401544846,,,,219.0,not_regular_season,
+2022-23,closing_lines,401544847,,,,216.5,not_regular_season,
+2022-23,closing_lines,401544848,,,,213.0,not_regular_season,
+2022-23,closing_lines,401544849,,,,211.5,not_regular_season,
+2022-23,closing_lines,401544850,,,,210.0,not_regular_season,
+2022-23,closing_lines,401544973,,,,210.0,not_regular_season,
+2022-23,closing_lines,401544974,,,,207.5,not_regular_season,
+2022-23,closing_lines,401544975,,,,207.0,not_regular_season,
+2022-23,closing_lines,401544976,,,,209.5,not_regular_season,
+2022-23,closing_lines,401544977,,,,209.25,not_regular_season,
+2022-23,closing_lines,401544978,,,,204.5,not_regular_season,
+2022-23,closing_lines,401545111,,,,215.0,not_regular_season,
+2022-23,closing_lines,401545112,,,,215.5,not_regular_season,
+2022-23,closing_lines,401545113,,,,213.5,not_regular_season,
+2022-23,closing_lines,401545114,,,,213.5,not_regular_season,
+2022-23,closing_lines,401545115,,,,213.5,not_regular_season,
+2022-23,closing_lines,401545116,,,,210.5,not_regular_season,
+2022-23,closing_lines,401545117,,,,201.0,not_regular_season,
+2022-23,closing_lines,401545231,,,,227.0,not_regular_season,
+2022-23,closing_lines,401545232,,,,226.5,not_regular_season,
+2022-23,closing_lines,401545233,,,,229.5,not_regular_season,
+2022-23,closing_lines,401545234,,,,228.0,not_regular_season,
+2022-23,closing_lines,401545235,,,,223.0,not_regular_season,
+2022-23,closing_lines,401545236,,,,218.0,not_regular_season,
+2022-23,closing_lines,401547671,,,,212.5,not_regular_season,
+2022-23,closing_lines,401547672,,,,215.0,not_regular_season,
+2022-23,closing_lines,401547673,,,,214.5,not_regular_season,
+2022-23,closing_lines,401547674,,,,216.5,not_regular_season,
+2022-23,closing_lines,401547675,,,,215.0,not_regular_season,
+2022-23,closing_lines,401547676,,,,208.5,not_regular_season,
+2022-23,closing_lines,401547678,,,,204.0,not_regular_season,
+2022-23,closing_lines,401547679,,,,222.5,not_regular_season,
+2022-23,closing_lines,401547682,,,,226.0,not_regular_season,
+2022-23,closing_lines,401547683,,,,223.0,not_regular_season,
+2022-23,closing_lines,401547684,,,,226.0,not_regular_season,
+2023-24,closing_lines,401585069,,,,248.5,snapshot_at_or_after_commence,2023-12-31T00:00:41Z >= 2023-12-31T00:00:00Z
+2023-24,closing_lines,401585140,,,,241.0,snapshot_at_or_after_commence,2024-01-10T00:00:39Z >= 2024-01-10T00:00:00Z
+2023-24,closing_lines,401585141,,,,217.25,snapshot_at_or_after_commence,2024-01-10T00:00:39Z >= 2024-01-10T00:00:00Z
+2023-24,closing_lines,401585341,,,,227.5,snapshot_at_or_after_commence,2024-02-06T00:00:38Z >= 2024-02-06T00:00:00Z
+2023-24,closing_lines,401585342,,,,235.0,snapshot_at_or_after_commence,2024-02-06T00:00:38Z >= 2024-02-06T00:00:00Z
+2023-24,closing_lines,401585343,,,,242.5,snapshot_at_or_after_commence,2024-02-06T00:00:38Z >= 2024-02-06T00:00:00Z
+2023-24,closing_lines,401585522,,,,225.0,snapshot_at_or_after_commence,2024-03-07T00:00:39Z >= 2024-03-07T00:00:00Z
+2023-24,closing_lines,401585780,,,,223.0,snapshot_at_or_after_commence,2024-04-10T00:00:39Z >= 2024-04-10T00:00:00Z
+2023-24,closing_lines,401654655,,,,224.5,not_regular_season,
+2023-24,closing_lines,401654656,,,,223.0,not_regular_season,
+2023-24,closing_lines,401654658,,,,222.5,not_regular_season,
+2023-24,closing_lines,401654659,,,,208.0,not_regular_season,
+2023-24,closing_lines,401654660,,,,207.0,not_regular_season,
+2023-24,closing_lines,401654661,,,,211.0,not_regular_season,
+2023-24,closing_lines,401654756,,,,208.0,not_regular_season,
+2023-24,closing_lines,401654757,,,,206.5,not_regular_season,
+2023-24,closing_lines,401654758,,,,227.0,not_regular_season,
+2023-24,closing_lines,401654759,,,,214.0,not_regular_season,
+2023-24,closing_lines,401654760,,,,210.25,not_regular_season,
+2023-24,closing_lines,401654761,,,,230.0,not_regular_season,
+2023-24,closing_lines,401654762,,,,216.5,not_regular_season,
+2023-24,closing_lines,401654763,,,,221.5,not_regular_season,
+2023-24,closing_lines,401655076,,,,211.0,not_regular_season,
+2023-24,closing_lines,401655077,,,,210.5,not_regular_season,
+2023-24,closing_lines,401655078,,,,208.5,not_regular_season,
+2023-24,closing_lines,401655082,,,,223.0,not_regular_season,
+2023-24,closing_lines,401655083,,,,217.5,not_regular_season,
+2023-24,closing_lines,401655084,,,,219.5,not_regular_season,
+2023-24,closing_lines,401655085,,,,217.0,not_regular_season,
+2023-24,closing_lines,401655088,,,,211.5,not_regular_season,
+2023-24,closing_lines,401655089,,,,209.0,not_regular_season,
+2023-24,closing_lines,401655090,,,,213.0,not_regular_season,
+2023-24,closing_lines,401655094,,,,216.5,not_regular_season,
+2023-24,closing_lines,401655095,,,,213.5,not_regular_season,
+2023-24,closing_lines,401655096,,,,209.5,not_regular_season,
+2023-24,closing_lines,401655097,,,,209.0,not_regular_season,
+2023-24,closing_lines,401655098,,,,209.5,not_regular_season,
+2023-24,closing_lines,401655100,,,,205.5,not_regular_season,
+2023-24,closing_lines,401655101,,,,205.5,not_regular_season,
+2023-24,closing_lines,401655102,,,,205.0,not_regular_season,
+2023-24,closing_lines,401655103,,,,201.5,not_regular_season,
+2023-24,closing_lines,401655106,,,,206.0,not_regular_season,
+2023-24,closing_lines,401655107,,,,205.0,not_regular_season,
+2023-24,closing_lines,401655108,,,,209.0,not_regular_season,
+2023-24,closing_lines,401655109,,,,204.0,not_regular_season,
+2023-24,closing_lines,401655110,,,,202.0,not_regular_season,
+2023-24,closing_lines,401655112,,,,223.5,not_regular_season,
+2023-24,closing_lines,401655113,,,,223.5,not_regular_season,
+2023-24,closing_lines,401655114,,,,214.5,not_regular_season,
+2023-24,closing_lines,401655115,,,,217.5,not_regular_season,
+2023-24,closing_lines,401655116,,,,217.0,not_regular_season,
+2023-24,closing_lines,401655118,,,,205.5,not_regular_season,
+2023-24,closing_lines,401655119,,,,202.0,not_regular_season,
+2023-24,closing_lines,401655120,,,,202.0,not_regular_season,
+2023-24,closing_lines,401655121,,,,203.0,not_regular_season,
+2023-24,closing_lines,401655122,,,,201.0,not_regular_season,
+2023-24,closing_lines,401655123,,,,195.5,not_regular_season,
+2023-24,closing_lines,401656359,,,,217.5,not_regular_season,
+2023-24,closing_lines,401656360,,,,215.0,not_regular_season,
+2023-24,closing_lines,401656361,,,,213.5,not_regular_season,
+2023-24,closing_lines,401656362,,,,211.5,not_regular_season,
+2023-24,closing_lines,401656363,,,,211.0,not_regular_season,
+2023-24,closing_lines,401657182,,,,209.5,not_regular_season,
+2023-24,closing_lines,401657183,,,,209.5,not_regular_season,
+2023-24,closing_lines,401657184,,,,205.5,not_regular_season,
+2023-24,closing_lines,401657185,,,,205.5,not_regular_season,
+2023-24,closing_lines,401657186,,,,205.5,not_regular_season,
+2023-24,closing_lines,401657187,,,,205.5,not_regular_season,
+2023-24,closing_lines,401657188,,,,201.5,not_regular_season,
+2023-24,closing_lines,401657231,,,,219.0,not_regular_season,
+2023-24,closing_lines,401657420,,,,217.0,snapshot_at_or_after_commence,2024-05-06T23:30:38Z >= 2024-05-06T23:30:00Z
+2023-24,closing_lines,401657421,,,,218.5,not_regular_season,
+2023-24,closing_lines,401657422,,,,221.5,not_regular_season,
+2023-24,closing_lines,401657423,,,,219.5,not_regular_season,
+2023-24,closing_lines,401658188,,,,217.0,not_regular_season,
+2023-24,closing_lines,401658190,,,,217.5,not_regular_season,
+2023-24,closing_lines,401658191,,,,215.0,not_regular_season,
+2023-24,closing_lines,401658192,,,,213.0,not_regular_season,
+2023-24,closing_lines,401658194,,,,208.5,not_regular_season,
+2023-24,closing_lines,401658196,,,,218.0,not_regular_season,
+2023-24,closing_lines,401658197,,,,216.0,not_regular_season,
+2023-24,closing_lines,401658198,,,,206.5,not_regular_season,
+2023-24,closing_lines,401658224,,,,211.5,not_regular_season,
+2023-24,closing_lines,401658225,,,,213.0,not_regular_season,
+2023-24,closing_lines,401658226,,,,211.0,not_regular_season,
+2023-24,closing_lines,401658227,,,,204.0,not_regular_season,
+2023-24,closing_lines,401658228,,,,205.5,not_regular_season,
+2023-24,closing_lines,401671998,,,,223.0,not_regular_season,
+2023-24,closing_lines,401671999,,,,225.0,not_regular_season,
+2023-24,closing_lines,401672000,,,,220.5,not_regular_season,
+2023-24,closing_lines,401672001,,,,222.5,not_regular_season,
+2023-24,closing_lines,401672976,,,,207.0,not_regular_season,
+2023-24,closing_lines,401672977,,,,207.0,not_regular_season,
+2023-24,closing_lines,401672978,,,,207.5,not_regular_season,
+2023-24,closing_lines,401672979,,,,211.0,not_regular_season,
+2023-24,closing_lines,401672980,,,,209.5,not_regular_season,
+2024-25,closing_lines,401704690,,,,226.0,snapshot_at_or_after_commence,2024-10-31T00:00:39Z >= 2024-10-31T00:00:00Z
+2024-25,closing_lines,401704940,,,,221.0,snapshot_at_or_after_commence,2024-12-21T00:30:38Z >= 2024-12-21T00:30:00Z
+2024-25,closing_lines,401705087,,,,222.25,snapshot_at_or_after_commence,2025-01-10T01:30:40Z >= 2025-01-10T00:40:00Z
+2024-25,closing_lines,401705120,,,,230.5,snapshot_at_or_after_commence,2025-01-15T00:00:38Z >= 2025-01-15T00:00:00Z
+2024-25,closing_lines,401705125,,,,235.0,snapshot_at_or_after_commence,2025-01-15T02:30:38Z >= 2025-01-15T02:30:00Z
+2024-25,closing_lines,401705142,,,,224.5,snapshot_at_or_after_commence,2025-01-17T03:00:38Z >= 2025-01-17T03:00:00Z
+2024-25,closing_lines,401705281,,,,222.5,snapshot_at_or_after_commence,2025-02-05T03:00:38Z >= 2025-02-05T03:00:00Z
+2024-25,closing_lines,401705331,,,,242.0,snapshot_at_or_after_commence,2025-02-12T00:30:38Z >= 2025-02-12T00:30:00Z
+2024-25,closing_lines,401705333,,,,246.0,snapshot_at_or_after_commence,2025-02-12T03:00:38Z >= 2025-02-12T03:00:00Z
+2024-25,closing_lines,401705351,,,,236.0,snapshot_at_or_after_commence,2025-02-14T01:00:38Z >= 2025-02-14T01:00:00Z
+2024-25,closing_lines,401705495,,,,230.0,snapshot_at_or_after_commence,2025-03-10T23:30:38Z >= 2025-03-10T23:30:00Z
+2024-25,closing_lines,401705501,,,,244.0,snapshot_at_or_after_commence,2025-03-11T00:00:38Z >= 2025-03-11T00:00:00Z
+2024-25,closing_lines,401766122,,,,229.5,not_regular_season,
+2024-25,closing_lines,401766123,,,,228.0,not_regular_season,
+2024-25,closing_lines,401766124,,,,226.0,not_regular_season,
+2024-25,closing_lines,401766125,,,,228.25,not_regular_season,
+2024-25,closing_lines,401766126,,,,223.0,not_regular_season,
+2024-25,closing_lines,401766127,,,,222.5,not_regular_season,
+2024-25,closing_lines,401766128,,,,215.5,snapshot_at_or_after_commence,2025-06-23T00:00:37Z >= 2025-06-23T00:00:00Z
+2024-25,closing_lines,401766458,,,,220.5,snapshot_at_or_after_commence,2025-04-15T23:30:39Z >= 2025-04-15T23:30:00Z
+2024-25,closing_lines,401766459,,,,226.5,not_regular_season,
+2024-25,closing_lines,401766460,,,,220.0,not_regular_season,
+2024-25,closing_lines,401766461,,,,213.5,not_regular_season,
+2024-25,closing_lines,401766462,,,,221.0,not_regular_season,
+2024-25,closing_lines,401766463,,,,222.0,not_regular_season,
+2024-25,closing_lines,401767816,,,,216.0,not_regular_season,
+2024-25,closing_lines,401767817,,,,227.5,not_regular_season,
+2024-25,closing_lines,401767818,,,,231.5,not_regular_season,
+2024-25,closing_lines,401767819,,,,224.5,not_regular_season,
+2024-25,closing_lines,401767820,,,,221.5,not_regular_season,
+2024-25,closing_lines,401767821,,,,215.5,not_regular_season,
+2024-25,closing_lines,401767822,,,,204.75,not_regular_season,
+2024-25,closing_lines,401767823,,,,213.0,not_regular_season,
+2024-25,closing_lines,401767903,,,,230.0,not_regular_season,
+2024-25,closing_lines,401767904,,,,229.5,not_regular_season,
+2024-25,closing_lines,401767905,,,,224.0,not_regular_season,
+2024-25,closing_lines,401767909,,,,204.5,not_regular_season,
+2024-25,closing_lines,401767910,,,,205.0,not_regular_season,
+2024-25,closing_lines,401767911,,,,204.0,not_regular_season,
+2024-25,closing_lines,401767912,,,,202.5,not_regular_season,
+2024-25,closing_lines,401767913,,,,208.0,not_regular_season,
+2024-25,closing_lines,401767914,,,,205.5,not_regular_season,
+2024-25,closing_lines,401767915,,,,211.0,not_regular_season,
+2024-25,closing_lines,401768029,,,,196.5,not_regular_season,
+2024-25,closing_lines,401768030,,,,200.5,not_regular_season,
+2024-25,closing_lines,401768031,,,,198.5,not_regular_season,
+2024-25,closing_lines,401768032,,,,199.5,not_regular_season,
+2024-25,closing_lines,401768035,,,,213.0,not_regular_season,
+2024-25,closing_lines,401768036,,,,212.0,not_regular_season,
+2024-25,closing_lines,401768037,,,,211.5,not_regular_season,
+2024-25,closing_lines,401768041,,,,221.5,not_regular_season,
+2024-25,closing_lines,401768042,,,,217.0,not_regular_season,
+2024-25,closing_lines,401768043,,,,216.5,not_regular_season,
+2024-25,closing_lines,401768044,,,,215.5,not_regular_season,
+2024-25,closing_lines,401768045,,,,213.0,not_regular_season,
+2024-25,closing_lines,401768047,,,,229.0,not_regular_season,
+2024-25,closing_lines,401768048,,,,229.5,not_regular_season,
+2024-25,closing_lines,401768049,,,,226.5,not_regular_season,
+2024-25,closing_lines,401768050,,,,222.0,not_regular_season,
+2024-25,closing_lines,401768056,,,,207.75,not_regular_season,
+2024-25,closing_lines,401768057,,,,208.5,not_regular_season,
+2024-25,closing_lines,401768058,,,,210.5,not_regular_season,
+2024-25,closing_lines,401768061,,,,217.25,not_regular_season,
+2024-25,closing_lines,401768062,,,,213.5,not_regular_season,
+2024-25,closing_lines,401768063,,,,211.5,not_regular_season,
+2024-25,closing_lines,401768064,,,,210.0,not_regular_season,
+2024-25,closing_lines,401768065,,,,212.5,not_regular_season,
+2024-25,closing_lines,401768066,,,,207.5,not_regular_season,
+2024-25,closing_lines,401769689,,,,229.0,not_regular_season,
+2024-25,closing_lines,401769740,,,,227.5,not_regular_season,
+2024-25,closing_lines,401769741,,,,232.0,not_regular_season,
+2024-25,closing_lines,401769742,,,,230.5,not_regular_season,
+2024-25,closing_lines,401769743,,,,230.5,not_regular_season,
+2024-25,closing_lines,401769746,,,,213.0,not_regular_season,
+2024-25,closing_lines,401769747,,,,211.0,not_regular_season,
+2024-25,closing_lines,401769748,,,,210.0,not_regular_season,
+2024-25,closing_lines,401769749,,,,208.5,not_regular_season,
+2024-25,closing_lines,401769750,,,,208.0,not_regular_season,
+2024-25,closing_lines,401769751,,,,211.5,not_regular_season,
+2024-25,closing_lines,401769820,,,,229.0,not_regular_season,
+2024-25,closing_lines,401769821,,,,230.0,not_regular_season,
+2024-25,closing_lines,401769822,,,,232.0,not_regular_season,
+2024-25,closing_lines,401769823,,,,228.0,not_regular_season,
+2024-25,closing_lines,401769837,,,,210.5,not_regular_season,
+2024-25,closing_lines,401769838,,,,201.5,not_regular_season,
+2024-25,closing_lines,401769839,,,,201.5,not_regular_season,
+2024-25,closing_lines,401769840,,,,201.5,not_regular_season,
+2024-25,closing_lines,401769987,,,,203.25,not_regular_season,
+2024-25,closing_lines,401769990,,,,221.5,not_regular_season,
+2024-25,closing_lines,401769991,,,,218.5,not_regular_season,
+2024-25,closing_lines,401769992,,,,214.0,not_regular_season,
+2024-25,closing_lines,401772989,,,,221.5,not_regular_season,
+2024-25,closing_lines,401772990,,,,224.5,not_regular_season,
+2024-25,closing_lines,401772991,,,,223.5,not_regular_season,
+2024-25,closing_lines,401772992,,,,219.0,not_regular_season,
+2024-25,closing_lines,401772993,,,,222.5,not_regular_season,
+2024-25,closing_lines,401772994,,,,222.5,not_regular_season,
+2024-25,closing_lines,401773148,,,,219.0,not_regular_season,
+2024-25,closing_lines,401773149,,,,217.5,not_regular_season,
+2024-25,closing_lines,401773150,,,,217.0,not_regular_season,
+2024-25,closing_lines,401773151,,,,219.5,not_regular_season,
+2024-25,closing_lines,401773152,,,,222.0,not_regular_season,
+2025-26,closing_lines,401809959,,,,234.0,snapshot_at_or_after_commence,2025-10-26T01:50:38Z >= 2025-10-26T01:13:37Z
+2025-26,closing_lines,401810106,,,,232.5,snapshot_at_or_after_commence,2025-11-19T01:00:38Z >= 2025-11-19T00:41:00Z
+2025-26,closing_lines,401810212,,,,229.5,snapshot_at_or_after_commence,2025-12-07T17:00:38Z >= 2025-12-07T17:00:00Z
+2025-26,closing_lines,401810216,,,,229.5,snapshot_at_or_after_commence,2025-12-08T00:00:39Z >= 2025-12-08T00:00:00Z
+2025-26,closing_lines,401810218,,,,233.5,snapshot_at_or_after_commence,2025-12-08T01:00:37Z >= 2025-12-08T01:00:00Z
+2025-26,closing_lines,401810258,,,,225.5,snapshot_at_or_after_commence,2025-12-23T00:30:37Z >= 2025-12-23T00:30:00Z
+2025-26,closing_lines,401810277,,,,217.5,snapshot_at_or_after_commence,2025-12-24T04:00:38Z >= 2025-12-24T03:42:00Z
+2025-26,closing_lines,401810496,,,,225.5,snapshot_at_or_after_commence,2026-01-24T02:30:37Z >= 2026-01-24T01:11:00Z
+2025-26,closing_lines,401810569,,,,243.5,snapshot_at_or_after_commence,2026-02-03T02:30:38Z >= 2026-02-03T00:44:00Z
+2025-26,closing_lines,401810570,,,,219.5,snapshot_at_or_after_commence,2026-02-03T03:30:37Z >= 2026-02-03T03:13:00Z
+2025-26,closing_lines,401810610,,,,229.0,snapshot_at_or_after_commence,2026-02-08T03:00:37Z >= 2026-02-08T03:00:00Z
+2025-26,closing_lines,401810853,,,,236.0,snapshot_at_or_after_commence,2026-03-18T03:00:37Z >= 2026-03-18T02:11:00Z
+2025-26,closing_lines,401810959,,,,225.5,snapshot_at_or_after_commence,2026-04-01T03:00:48Z >= 2026-04-01T03:00:00Z
+2025-26,closing_lines,401859963,,,,217.0,not_regular_season,
+2025-26,closing_lines,401859964,,,,217.0,not_regular_season,
+2025-26,closing_lines,401859965,,,,215.5,not_regular_season,
+2025-26,closing_lines,401859966,,,,216.5,not_regular_season,
+2025-26,closing_lines,401859967,,,,215.5,not_regular_season,
+2025-26,closing_lines,401866754,,,,215.5,not_regular_season,
+2025-26,closing_lines,401866755,,,,228.25,not_regular_season,
+2025-26,closing_lines,401866756,,,,220.5,not_regular_season,
+2025-26,closing_lines,401866757,,,,223.5,not_regular_season,
+2025-26,closing_lines,401866758,,,,218.0,not_regular_season,
+2025-26,closing_lines,401866759,,,,219.5,not_regular_season,
+2025-26,closing_lines,401869187,,,,222.0,not_regular_season,
+2025-26,closing_lines,401869188,,,,233.0,not_regular_season,
+2025-26,closing_lines,401869189,,,,218.0,not_regular_season,
+2025-26,closing_lines,401869190,,,,208.5,not_regular_season,
+2025-26,closing_lines,401869191,,,,216.5,not_regular_season,
+2025-26,closing_lines,401869192,,,,216.0,not_regular_season,
+2025-26,closing_lines,401869193,,,,221.0,not_regular_season,
+2025-26,closing_lines,401869194,,,,222.5,not_regular_season,
+2025-26,closing_lines,401869368,,,,216.0,not_regular_season,
+2025-26,closing_lines,401869369,,,,222.0,not_regular_season,
+2025-26,closing_lines,401869370,,,,212.5,not_regular_season,
+2025-26,closing_lines,401869373,,,,215.5,not_regular_season,
+2025-26,closing_lines,401869375,,,,221.0,not_regular_season,
+2025-26,closing_lines,401869377,,,,219.0,not_regular_season,
+2025-26,closing_lines,401869378,,,,221.5,not_regular_season,
+2025-26,closing_lines,401869380,,,,219.5,not_regular_season,
+2025-26,closing_lines,401869381,,,,218.5,not_regular_season,
+2025-26,closing_lines,401869382,,,,220.0,not_regular_season,
+2025-26,closing_lines,401869384,,,,209.0,not_regular_season,
+2025-26,closing_lines,401869385,,,,217.0,not_regular_season,
+2025-26,closing_lines,401869386,,,,219.0,not_regular_season,
+2025-26,closing_lines,401869387,,,,217.5,not_regular_season,
+2025-26,closing_lines,401869389,,,,214.5,not_regular_season,
+2025-26,closing_lines,401869391,,,,215.0,not_regular_season,
+2025-26,closing_lines,401869392,,,,215.0,not_regular_season,
+2025-26,closing_lines,401869393,,,,215.0,not_regular_season,
+2025-26,closing_lines,401869395,,,,233.0,not_regular_season,
+2025-26,closing_lines,401869396,,,,218.0,not_regular_season,
+2025-26,closing_lines,401869397,,,,209.0,not_regular_season,
+2025-26,closing_lines,401869398,,,,232.5,not_regular_season,
+2025-26,closing_lines,401869399,,,,228.5,not_regular_season,
+2025-26,closing_lines,401869400,,,,206.0,not_regular_season,
+2025-26,closing_lines,401869401,,,,225.5,not_regular_season,
+2025-26,closing_lines,401869402,,,,223.5,not_regular_season,
+2025-26,closing_lines,401869404,,,,215.5,not_regular_season,
+2025-26,closing_lines,401869405,,,,206.5,not_regular_season,
+2025-26,closing_lines,401869406,,,,213.0,not_regular_season,
+2025-26,closing_lines,401869407,,,,209.0,not_regular_season,
+2025-26,closing_lines,401869408,,,,214.5,not_regular_season,
+2025-26,closing_lines,401869409,,,,203.5,not_regular_season,
+2025-26,closing_lines,401869410,,,,214.0,not_regular_season,
+2025-26,closing_lines,401869411,,,,218.5,not_regular_season,
+2025-26,closing_lines,401869412,,,,205.0,not_regular_season,
+2025-26,closing_lines,401869414,,,,215.0,not_regular_season,
+2025-26,closing_lines,401869415,,,,214.0,not_regular_season,
+2025-26,closing_lines,401869416,,,,211.0,not_regular_season,
+2025-26,closing_lines,401869417,,,,210.5,not_regular_season,
+2025-26,closing_lines,401869418,,,,201.0,not_regular_season,
+2025-26,closing_lines,401871152,,,,218.5,not_regular_season,
+2025-26,closing_lines,401871153,,,,217.5,not_regular_season,
+2025-26,closing_lines,401871154,,,,216.5,not_regular_season,
+2025-26,closing_lines,401871155,,,,219.0,not_regular_season,
+2025-26,closing_lines,401871156,,,,218.5,not_regular_season,
+2025-26,closing_lines,401871157,,,,219.0,not_regular_season,
+2025-26,closing_lines,401871159,,,,212.5,not_regular_season,
+2025-26,closing_lines,401871160,,,,214.0,not_regular_season,
+2025-26,closing_lines,401871161,,,,214.5,not_regular_season,
+2025-26,closing_lines,401871162,,,,213.5,not_regular_season,
+2025-26,closing_lines,401871326,,,,212.5,not_regular_season,
+2025-26,closing_lines,401871327,,,,211.5,not_regular_season,
+2025-26,closing_lines,401871328,,,,210.5,not_regular_season,
+2025-26,closing_lines,401871329,,,,214.5,not_regular_season,
+2025-26,closing_lines,401871333,,,,217.0,not_regular_season,
+2025-26,closing_lines,401871334,,,,215.0,not_regular_season,
+2025-26,closing_lines,401871335,,,,211.5,not_regular_season,
+2025-26,closing_lines,401871336,,,,212.5,not_regular_season,
+2025-26,closing_lines,401871337,,,,210.5,not_regular_season,
+2025-26,closing_lines,401871338,,,,209.5,not_regular_season,
+2025-26,closing_lines,401871339,,,,204.5,not_regular_season,
+2025-26,closing_lines,401873197,,,,219.5,not_regular_season,
+2025-26,closing_lines,401873198,,,,214.0,not_regular_season,
+2025-26,closing_lines,401873199,,,,219.0,not_regular_season,
+2025-26,closing_lines,401873200,,,,219.0,not_regular_season,
+2025-26,closing_lines,401873201,,,,216.5,not_regular_season,
+2025-26,closing_lines,401873202,,,,219.5,not_regular_season,
+2025-26,closing_lines,401873203,,,,212.0,not_regular_season,
+2025-26,closing_lines,401873341,,,,218.0,not_regular_season,
+2025-26,closing_lines,401873342,,,,215.5,not_regular_season,
+2025-26,closing_lines,401873343,,,,216.0,not_regular_season,
+2025-26,closing_lines,401873344,,,,219.0,not_regular_season,
+2025-26,closing_lines,401810384,,,,237.5,unmatched,

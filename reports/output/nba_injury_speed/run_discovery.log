@@ -1,0 +1,66 @@
+discovery 0 664 1
+discovery 100 664 47
+discovery 200 664 89
+discovery 300 664 125
+discovery 400 664 168
+discovery 500 664 175
+discovery 600 664 216
+{
+ "events_in_window_ok": 241,
+ "events_by_direction": {
+  "DOWN": 241
+ },
+ "trade_skips_by_reason": {},
+ "n_traded": 241,
+ "descriptive": {
+  "overall": {
+   "n_events": 241,
+   "n_total_move_defined": 136,
+   "n_pre_share": 34,
+   "n_late_share": 34,
+   "median_pre_move_share": 0.12645,
+   "median_late_share": 0.8131999999999999
+  },
+  "era_15min": {
+   "n_events": 97,
+   "n_total_move_defined": 68,
+   "n_pre_share": 16,
+   "n_late_share": 16,
+   "median_pre_move_share": 0.08335,
+   "median_late_share": 0.8131999999999999
+  },
+  "era_hourly": {
+   "n_events": 144,
+   "n_total_move_defined": 68,
+   "n_pre_share": 18,
+   "n_late_share": 18,
+   "median_pre_move_share": 0.12645,
+   "median_late_share": 0.7854
+  }
+ },
+ "kill_rule": {
+  "median_pre_move_share_overall": 0.12645,
+  "median_pre_move_share_15min": 0.08335,
+  "fires_overall": false,
+  "fires_15min_era_only": false,
+  "primary_uses": "overall"
+ },
+ "trading": {
+  "n": 241,
+  "mean_net_cents": -4.973443983402492,
+  "lb_2.5_cents": -5.198886052474363,
+  "lb_5_cents": -5.1615815358937684,
+  "ub_97.5_cents": -4.743907039941483,
+  "n_games": 223,
+  "coin_flip_share_as_good": 0.292,
+  "win_rate": 0.024896265560165973
+ },
+ "pass_bar": {
+  "1_mean_net_gt_0": false,
+  "2_bootstrap_lb_gt_0": false,
+  "3_at_least_50_events": true,
+  "4_coin_flip_le_5pct": false,
+  "5_kill_rule_does_not_fire": true
+ },
+ "pass_bar_all": false
+}

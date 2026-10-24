@@ -1,0 +1,46 @@
+{
+ "runtime_s": 8,
+ "fee_type_by_series": {
+  "KXNBA1HTOTAL": "unknown (not in cached series definitions) -> maker fee charged",
+  "KXNBAAST": "unknown (not in cached series definitions) -> maker fee charged",
+  "KXNBAPTS": "unknown (not in cached series definitions) -> maker fee charged",
+  "KXNBAREB": "unknown (not in cached series definitions) -> maker fee charged",
+  "KXNBATEAMTOTAL": "unknown (not in cached series definitions) -> maker fee charged",
+  "KXNBATOTAL": "quadratic_with_maker_fees"
+ },
+ "n_games_49_discovery": 265,
+ "game_skips_49": {
+  "team_median_missing": 189,
+  "1H_median_missing": 111,
+  "no_game_total_median_at_E0": 1
+ },
+ "selected_version": null,
+ "selected_stats": null,
+ "versions_with_n_ge_60": 0,
+ "luck_test": {
+  "real_best_lb": null,
+  "selected": null,
+  "reps": 500,
+  "seed": 20261022,
+  "n_distinct_real_48_bets": 114,
+  "pool_size": 3694,
+  "n_bets_nearest_price_fallback": 8,
+  "n_bets_no_other_player": 0,
+  "share": null,
+  "rep_best_lb_quantiles": null,
+  "verdict": "NOT RUN (no version with n >= 60 filled bets)"
+ },
+ "counts_48": {
+  "games": 448,
+  "groups_ok": 3402,
+  "out_names_unmatched": 247,
+  "events_M28": 69,
+  "events_M28_late": 16,
+  "events_M32": 37,
+  "events_M32_late": 12,
+  "groups_no_post_window": 18,
+  "groups_no_candles": 67,
+  "games_no_report": 7,
+  "pool_excluded_listed_out_or_doubtful": 34
+ }
+}

@@ -1,0 +1,1007 @@
+{
+ "1_finals": {
+  "kalshi_vs_hoopr": {
+   "events": 1409,
+   "unparsed_event_tickers": 0,
+   "events_with_a_no_settled_strike": 640,
+   "events_without_no_strike": 769,
+   "matched_to_hoopr": 1335,
+   "unmatched_to_hoopr": [
+    "KXNBATOTAL-26JAN08MIACHI",
+    "KXNBATOTAL-26JAN25DALMIL",
+    "KXNBATOTAL-26JAN25DENMEM",
+    "KXNBATOTAL-26OCT03MIATOR",
+    "KXNBATOTAL-26OCT04GSWLAC",
+    "KXNBATOTAL-26OCT04UTADEN",
+    "KXNBATOTAL-26OCT05LALSAC",
+    "KXNBATOTAL-26OCT05MEMATL",
+    "KXNBATOTAL-26OCT05MINMIL",
+    "KXNBATOTAL-26OCT05NYKPHI",
+    "KXNBATOTAL-26OCT05PHXDET",
+    "KXNBATOTAL-26OCT06BKNCHA",
+    "KXNBATOTAL-26OCT06DENUTA",
+    "KXNBATOTAL-26OCT06LALGSW",
+    "KXNBATOTAL-26OCT06NOPOKC",
+    "KXNBATOTAL-26OCT07GSWPOR",
+    "KXNBATOTAL-26OCT07MILOKC",
+    "KXNBATOTAL-26OCT07MININD",
+    "KXNBATOTAL-26OCT07ORLMEM",
+    "KXNBATOTAL-26OCT07PHXCHI",
+    "KXNBATOTAL-26OCT08ATLSAS",
+    "KXNBATOTAL-26OCT08BOSCLE",
+    "KXNBATOTAL-26OCT08NOPMIA",
+    "KXNBATOTAL-26OCT08PHIBKN",
+    "KXNBATOTAL-26OCT08SACLAL",
+    "KXNBATOTAL-26OCT08WASNYK",
+    "KXNBATOTAL-26OCT09HOUDAL",
+    "KXNBATOTAL-26OCT09MEMCHI",
+    "KXNBATOTAL-26OCT10ATLIND",
+    "KXNBATOTAL-26OCT10DETWAS"
+   ],
+   "compared": 578,
+   "equal": 578,
+   "mismatches": [],
+   "n_mismatches": 0,
+   "events_where_no_strikes_disagree_among_themselves": 0,
+   "events_with_a_YES_value_above_final": 1,
+   "note": "end-of-game value = max expiration_value over NO-settled strikes; YES strikes settle early at the crossing"
+  },
+  "odds_points": {
+   "odds_2021-22": {
+    "season": "2021-22",
+    "odds_rows": 1323,
+    "matched_to_hoopr": 1323,
+    "unmatched": 0,
+    "points_mismatches": 0,
+    "mismatch_examples": [],
+    "ou_vs_closing_lines": {
+     "n": 1322,
+     "median_abs_diff": 2.0,
+     "share_diff_le_1pt": 0.28895612708018154,
+     "max_abs_diff": 227.75
+    }
+   },
+   "odds_2021-22_new": {
+    "season": "2021-22",
+    "odds_rows": 1323,
+    "matched_to_hoopr": 1323,
+    "unmatched": 0,
+    "points_mismatches": 0,
+    "mismatch_examples": [],
+    "ou_vs_closing_lines": {
+     "n": 1322,
+     "median_abs_diff": 2.0,
+     "share_diff_le_1pt": 0.28895612708018154,
+     "max_abs_diff": 227.75
+    }
+   },
+   "odds_2022-23": {
+    "season": "2022-23",
+    "odds_rows": 1319,
+    "matched_to_hoopr": 1318,
+    "unmatched": 1,
+    "points_mismatches": 0,
+    "mismatch_examples": [],
+    "ou_vs_closing_lines": {
+     "n": 1317,
+     "median_abs_diff": 0.25,
+     "share_diff_le_1pt": 0.9020501138952164,
+     "max_abs_diff": 37.0
+    }
+   },
+   "odds_2022-23_new": {
+    "season": "2022-23",
+    "odds_rows": 1319,
+    "matched_to_hoopr": 1318,
+    "unmatched": 1,
+    "points_mismatches": 0,
+    "mismatch_examples": [],
+    "ou_vs_closing_lines": {
+     "n": 1317,
+     "median_abs_diff": 0.25,
+     "share_diff_le_1pt": 0.9020501138952164,
+     "max_abs_diff": 37.0
+    }
+   },
+   "odds_2023-24_new": {
+    "season": "2023-24",
+    "odds_rows": 1195,
+    "matched_to_hoopr": 1195,
+    "unmatched": 0,
+    "points_mismatches": 4,
+    "mismatch_examples": [
+     {
+      "date": "2024-03-28",
+      "home": "ATL",
+      "away": "BOS",
+      "odds_points": 0,
+      "hoopr_total": 245.0
+     },
+     {
+      "date": "2024-03-28",
+      "home": "NOP",
+      "away": "MIL",
+      "odds_points": 0,
+      "hoopr_total": 207.0
+     },
+     {
+      "date": "2024-04-28",
+      "home": "IND",
+      "away": "MIL",
+      "odds_points": 53,
+      "hoopr_total": 239.0
+     },
+     {
+      "date": "2024-04-28",
+      "home": "PHX",
+      "away": "MIN",
+      "odds_points": 0,
+      "hoopr_total": 238.0
+     }
+    ],
+    "ou_vs_closing_lines": {
+     "n": 1195,
+     "median_abs_diff": 0.5,
+     "share_diff_le_1pt": 0.895397489539749,
+     "max_abs_diff": 11.5
+    }
+   },
+   "2023-24": {
+    "season": "2023-24",
+    "odds_rows": 1255,
+    "matched_to_hoopr": 1253,
+    "unmatched": 2,
+    "points_mismatches": 0,
+    "mismatch_examples": [],
+    "ou_vs_closing_lines": {
+     "n": 1253,
+     "median_abs_diff": 0.5,
+     "share_diff_le_1pt": 0.8922585794094174,
+     "max_abs_diff": 11.5
+    }
+   },
+   "2024-25": {
+    "season": "2024-25",
+    "odds_rows": 1326,
+    "matched_to_hoopr": 1321,
+    "unmatched": 5,
+    "points_mismatches": 2,
+    "mismatch_examples": [
+     {
+      "date": "2025-01-02",
+      "home": "OKC",
+      "away": "LAC",
+      "odds_points": 217,
+      "hoopr_total": 214.0
+     },
+     {
+      "date": "2025-02-23",
+      "home": "MIL",
+      "away": "MIA",
+      "odds_points": 236,
+      "hoopr_total": 233.0
+     }
+    ],
+    "ou_vs_closing_lines": {
+     "n": 1321,
+     "median_abs_diff": 0.25,
+     "share_diff_le_1pt": 0.9523088569265707,
+     "max_abs_diff": 7.0
+    }
+   },
+   "odds_2025-26": {
+    "season": "2025-26",
+    "odds_rows": 554,
+    "matched_to_hoopr": 554,
+    "unmatched": 0,
+    "points_mismatches": 0,
+    "mismatch_examples": [],
+    "ou_vs_closing_lines": {
+     "n": 554,
+     "median_abs_diff": 0.5,
+     "share_diff_le_1pt": 0.7184115523465704,
+     "max_abs_diff": 13.0
+    }
+   }
+  }
+ },
+ "2_player_sums": {
+  "2021-22": {
+   "team_games": 2648,
+   "no_player_rows": 0,
+   "no_player_rows_by_type": {},
+   "mismatches": 0,
+   "mismatch_by_type": {},
+   "examples": [],
+   "player_rows_nan_points_but_played": 0
+  },
+  "2022-23": {
+   "team_games": 2642,
+   "no_player_rows": 0,
+   "no_player_rows_by_type": {},
+   "mismatches": 0,
+   "mismatch_by_type": {},
+   "examples": [],
+   "player_rows_nan_points_but_played": 0
+  },
+  "2023-24": {
+   "team_games": 2640,
+   "no_player_rows": 0,
+   "no_player_rows_by_type": {},
+   "mismatches": 0,
+   "mismatch_by_type": {},
+   "examples": [],
+   "player_rows_nan_points_but_played": 0
+  },
+  "2024-25": {
+   "team_games": 2648,
+   "no_player_rows": 0,
+   "no_player_rows_by_type": {},
+   "mismatches": 0,
+   "mismatch_by_type": {},
+   "examples": [],
+   "player_rows_nan_points_but_played": 0
+  },
+  "2025-26": {
+   "team_games": 2652,
+   "no_player_rows": 0,
+   "no_player_rows_by_type": {},
+   "mismatches": 7,
+   "mismatch_by_type": {
+    "2": 7
+   },
+   "examples": [
+    {
+     "game_id": 401810760,
+     "team_abbreviation": "CHI",
+     "team_score": 105,
+     "psum": 101.0
+    },
+    {
+     "game_id": 401810633,
+     "team_abbreviation": "CHI",
+     "team_score": 105,
+     "psum": 98.0
+    },
+    {
+     "game_id": 401810577,
+     "team_abbreviation": "CHI",
+     "team_score": 115,
+     "psum": 113.0
+    },
+    {
+     "game_id": 401810560,
+     "team_abbreviation": "CHI",
+     "team_score": 91,
+     "psum": 82.0
+    },
+    {
+     "game_id": 401810547,
+     "team_abbreviation": "CHI",
+     "team_score": 125,
+     "psum": 123.0
+    },
+    {
+     "game_id": 401810372,
+     "team_abbreviation": "CHI",
+     "team_score": 93,
+     "psum": 91.0
+    },
+    {
+     "game_id": 401810150,
+     "team_abbreviation": "CHI",
+     "team_score": 101,
+     "psum": 99.0
+    }
+   ],
+   "player_rows_nan_points_but_played": 0
+  },
+  "2026-27": {
+   "status": "no player_box file on disk"
+  }
+ },
+ "2_player_sums_mismatch_games_vs_kalshi": {
+  "mismatch_example_games": 7,
+  "of_which_in_kalshi_events": 7,
+  "kalshi_final_equals_hoopr_team_box_total": 4,
+  "rows": [
+   {
+    "event": "KXNBATOTAL-25NOV29CHIIND",
+    "n_no": 0,
+    "kalshi_final": NaN,
+    "no_values_distinct": 0,
+    "yes_exp_above_final": 0,
+    "hoopr_total": 204.0,
+    "hoopr_id": 401810150.0
+   },
+   {
+    "event": "KXNBATOTAL-26FEB01CHIMIA",
+    "n_no": 9,
+    "kalshi_final": 225.0,
+    "no_values_distinct": 1,
+    "yes_exp_above_final": 0,
+    "hoopr_total": 225.0,
+    "hoopr_id": 401810560.0
+   },
+   {
+    "event": "KXNBATOTAL-26FEB03CHIMIL",
+    "n_no": 0,
+    "kalshi_final": NaN,
+    "no_values_distinct": 0,
+    "yes_exp_above_final": 0,
+    "hoopr_total": 246.0,
+    "hoopr_id": 401810577.0
+   },
+   {
+    "event": "KXNBATOTAL-26FEB11CHIBOS",
+    "n_no": 5,
+    "kalshi_final": 229.0,
+    "no_values_distinct": 1,
+    "yes_exp_above_final": 0,
+    "hoopr_total": 229.0,
+    "hoopr_id": 401810633.0
+   },
+   {
+    "event": "KXNBATOTAL-26JAN07CHIDET",
+    "n_no": 0,
+    "kalshi_final": NaN,
+    "no_values_distinct": 0,
+    "yes_exp_above_final": 0,
+    "hoopr_total": 201.0,
+    "hoopr_id": 401810372.0
+   },
+   {
+    "event": "KXNBATOTAL-26JAN31CHIMIA",
+    "n_no": 3,
+    "kalshi_final": 243.0,
+    "no_values_distinct": 1,
+    "yes_exp_above_final": 0,
+    "hoopr_total": 243.0,
+    "hoopr_id": 401810547.0
+   },
+   {
+    "event": "KXNBATOTAL-26MAR05CHIPHX",
+    "n_no": 11,
+    "kalshi_final": 208.0,
+    "no_values_distinct": 1,
+    "yes_exp_above_final": 0,
+    "hoopr_total": 208.0,
+    "hoopr_id": 401810760.0
+   }
+  ]
+ },
+ "3b_nba_official": {
+  "2021-22": {
+   "status": "not checked",
+   "reason": "not checked: ReadTimeout (25s) on the single GET attempt, 2026-10-22 ~16:35 ET"
+  },
+  "2022-23": {
+   "status": "not checked",
+   "reason": "not checked: ReadTimeout (25s) on the single GET attempt, 2026-10-22 ~16:35 ET"
+  },
+  "2023-24": {
+   "status": "not checked",
+   "reason": "not checked: ReadTimeout (25s) on the single GET attempt, 2026-10-22 ~16:35 ET"
+  },
+  "2024-25": {
+   "status": "not checked",
+   "reason": "not checked: ReadTimeout (25s) on the single GET attempt, 2026-10-22 ~16:35 ET"
+  },
+  "2025-26": {
+   "status": "not checked",
+   "reason": "not checked: ReadTimeout (25s) on the single GET attempt, 2026-10-22 ~16:35 ET"
+  }
+ },
+ "3_ratings": {
+  "2021-22": {
+   "teams": 30,
+   "games_per_team_min_max": [
+    82,
+    82
+   ],
+   "reg_season_game_ids_in_file": 1231,
+   "game_ids_dropped_by_team_games_g": [
+    401410564
+   ],
+   "max_abs_ortg_x_pace_minus_ppg": 0.5991596783660071,
+   "mean_abs_ortg_x_pace_minus_ppg": 0.22467092539159667,
+   "max_abs_drtg_x_pace_minus_oppg": 0.624556925399645,
+   "league_ppg": 110.61585365853658,
+   "league_pace": 101.1449756097561,
+   "league_ortg100": 109.36366635286129
+  },
+  "2022-23": {
+   "teams": 30,
+   "games_per_team_min_max": [
+    82,
+    82
+   ],
+   "reg_season_game_ids_in_file": 1231,
+   "game_ids_dropped_by_team_games_g": [
+    401524696
+   ],
+   "max_abs_ortg_x_pace_minus_ppg": 0.7582248659874011,
+   "mean_abs_ortg_x_pace_minus_ppg": 0.21820745018694698,
+   "max_abs_drtg_x_pace_minus_oppg": 0.8232694029618131,
+   "league_ppg": 114.68577235772358,
+   "league_pace": 102.31430894308943,
+   "league_ortg100": 112.09162583653433
+  },
+  "2023-24": {
+   "teams": 30,
+   "games_per_team_min_max": [
+    82,
+    83
+   ],
+   "reg_season_game_ids_in_file": 1232,
+   "game_ids_dropped_by_team_games_g": [
+    401623259
+   ],
+   "max_abs_ortg_x_pace_minus_ppg": 0.8651999250434415,
+   "mean_abs_ortg_x_pace_minus_ppg": 0.22798652573342462,
+   "max_abs_drtg_x_pace_minus_oppg": 0.8429591039126336,
+   "league_ppg": 114.21283509341998,
+   "league_pace": 101.52279447603574,
+   "league_ortg100": 112.49969593811733
+  },
+  "2024-25": {
+   "teams": 30,
+   "games_per_team_min_max": [
+    82,
+    83
+   ],
+   "reg_season_game_ids_in_file": 1234,
+   "game_ids_dropped_by_team_games_g": [
+    401752955,
+    401752956,
+    401752957
+   ],
+   "max_abs_ortg_x_pace_minus_ppg": 0.5366529776866145,
+   "mean_abs_ortg_x_pace_minus_ppg": 0.20183729907827938,
+   "max_abs_drtg_x_pace_minus_oppg": 0.5203528516786236,
+   "league_ppg": 113.80503655564581,
+   "league_pace": 101.94219333874898,
+   "league_ortg100": 111.63683341349855
+  },
+  "2025-26": {
+   "teams": 30,
+   "games_per_team_min_max": [
+    82,
+    83
+   ],
+   "reg_season_game_ids_in_file": 1235,
+   "game_ids_dropped_by_team_games_g": [
+    401838140,
+    401838141,
+    401838142,
+    401838143
+   ],
+   "max_abs_ortg_x_pace_minus_ppg": 0.9794109702545626,
+   "mean_abs_ortg_x_pace_minus_ppg": 0.21739721738598897,
+   "max_abs_drtg_x_pace_minus_oppg": 0.9547615752526895,
+   "league_ppg": 115.61007311129163,
+   "league_pace": 102.54963444354183,
+   "league_ortg100": 112.73572425549712
+  },
+  "2026-27": {
+   "teams": 28,
+   "games_per_team_min_max": [
+    1,
+    1
+   ],
+   "reg_season_game_ids_in_file": 14,
+   "game_ids_dropped_by_team_games_g": [],
+   "max_abs_ortg_x_pace_minus_ppg": 3.5526530612244756,
+   "mean_abs_ortg_x_pace_minus_ppg": 1.2559781435032324,
+   "max_abs_drtg_x_pace_minus_oppg": 3.5526530612244756,
+   "league_ppg": 114.32142857142857,
+   "league_pace": 105.38714285714286,
+   "league_ortg100": 108.47758604329614
+  }
+ },
+ "4_injury": {
+  "report_files": 3533,
+  "header_unparsed": 0,
+  "first_report": "2021-10-19T18:30:00-04:00",
+  "last_report": "2026-06-13T19:15:00-04:00",
+  "seasons": {
+   "2021-22": {
+    "regular_season_games": 1230,
+    "a_any_report_published_in_the_24h_up_to_T-60": [
+     1230,
+     100.0
+    ],
+    "b_latest_report_at_or_before_T-60_lists_the_game": [
+     1230,
+     100.0
+    ],
+    "c_some_report_at_or_before_T-60_lists_the_game": [
+     1230,
+     100.0
+    ],
+    "median_hours_from_latest_listing_report_to_T-60": 0.5,
+    "status_listings_out_doubtful_questionable": 67674,
+    "unmatched_name_listings": 4336,
+    "unmatched_share_pct": 6.41,
+    "distinct_unmatched_names": 10,
+    "top_unmatched": [
+     [
+      "Williamson,Zion",
+      536
+     ],
+     [
+      "Isaac,Jonathan",
+      531
+     ],
+     [
+      "Murray,Jamal",
+      518
+     ],
+     [
+      "Saric,Dario",
+      509
+     ],
+     [
+      "Warren,T.J.",
+      502
+     ],
+     [
+      "Wiseman,James",
+      495
+     ],
+     [
+      "Samanic,Luka",
+      446
+     ],
+     [
+      "Leonard,Kawhi",
+      429
+     ],
+     [
+      "Carter-Williams,Michael",
+      363
+     ],
+     [
+      "MartinJr.,Kenyon",
+      7
+     ]
+    ]
+   },
+   "2022-23": {
+    "regular_season_games": 1230,
+    "a_any_report_published_in_the_24h_up_to_T-60": [
+     1230,
+     100.0
+    ],
+    "b_latest_report_at_or_before_T-60_lists_the_game": [
+     1230,
+     100.0
+    ],
+    "c_some_report_at_or_before_T-60_lists_the_game": [
+     1230,
+     100.0
+    ],
+    "median_hours_from_latest_listing_report_to_T-60": 0.5,
+    "status_listings_out_doubtful_questionable": 57437,
+    "unmatched_name_listings": 2120,
+    "unmatched_share_pct": 3.69,
+    "distinct_unmatched_names": 7,
+    "top_unmatched": [
+     [
+      "Gallinari,Danilo",
+      532
+     ],
+     [
+      "Ball,Lonzo",
+      504
+     ],
+     [
+      "Gillespie,Collin",
+      497
+     ],
+     [
+      "Holmgren,Chet",
+      481
+     ],
+     [
+      "Lewis,Justin",
+      99
+     ],
+     [
+      "Paschall,Eric",
+      5
+     ],
+     [
+      "MartinJr.,Kenyon",
+      2
+     ]
+    ]
+   },
+   "2023-24": {
+    "regular_season_games": 1231,
+    "a_any_report_published_in_the_24h_up_to_T-60": [
+     1231,
+     100.0
+    ],
+    "b_latest_report_at_or_before_T-60_lists_the_game": [
+     1230,
+     99.92
+    ],
+    "c_some_report_at_or_before_T-60_lists_the_game": [
+     1230,
+     99.92
+    ],
+    "median_hours_from_latest_listing_report_to_T-60": 0.5,
+    "status_listings_out_doubtful_questionable": 60914,
+    "unmatched_name_listings": 2008,
+    "unmatched_share_pct": 3.3,
+    "distinct_unmatched_names": 10,
+    "top_unmatched": [
+     [
+      "Cancar,Vlatko",
+      484
+     ],
+     [
+      "Adams,Steven",
+      426
+     ],
+     [
+      "Lee,Damion",
+      404
+     ],
+     [
+      "Koloko,Christian",
+      241
+     ],
+     [
+      "Rubio,Ricky",
+      201
+     ],
+     [
+      "Lewis,Justin",
+      136
+     ],
+     [
+      "Knight,Nathan",
+      106
+     ],
+     [
+      "Tubelis,Azuolas",
+      6
+     ],
+     [
+      "Sumner,Edmond",
+      2
+     ],
+     [
+      "Hudgins,Trevor",
+      2
+     ]
+    ]
+   },
+   "2024-25": {
+    "regular_season_games": 1231,
+    "a_any_report_published_in_the_24h_up_to_T-60": [
+     1231,
+     100.0
+    ],
+    "b_latest_report_at_or_before_T-60_lists_the_game": [
+     1231,
+     100.0
+    ],
+    "c_some_report_at_or_before_T-60_lists_the_game": [
+     1231,
+     100.0
+    ],
+    "median_hours_from_latest_listing_report_to_T-60": 0.5,
+    "status_listings_out_doubtful_questionable": 66591,
+    "unmatched_name_listings": 2669,
+    "unmatched_share_pct": 4.01,
+    "distinct_unmatched_names": 13,
+    "top_unmatched": [
+     [
+      "HolmesII,DaRon",
+      498
+     ],
+     [
+      "Topic,Nikola",
+      496
+     ],
+     [
+      "Bey,Saddiq",
+      473
+     ],
+     [
+      "Zeller,Cody",
+      332
+     ],
+     [
+      "Bogdanovic,Bojan",
+      309
+     ],
+     [
+      "Lundy,Seth",
+      212
+     ],
+     [
+      "Steward,DJ",
+      168
+     ],
+     [
+      "JonesGarcia,David",
+      78
+     ],
+     [
+      "Yongxi,Cui",
+      48
+     ],
+     [
+      "Sarr,Alexandre",
+      23
+     ],
+     [
+      "Carrington,Carlton",
+      13
+     ],
+     [
+      "Crutcher,Jalen",
+      12
+     ]
+    ]
+   },
+   "2025-26": {
+    "regular_season_games": 1231,
+    "a_any_report_published_in_the_24h_up_to_T-60": [
+     1231,
+     100.0
+    ],
+    "b_latest_report_at_or_before_T-60_lists_the_game": [
+     1231,
+     100.0
+    ],
+    "c_some_report_at_or_before_T-60_lists_the_game": [
+     1231,
+     100.0
+    ],
+    "median_hours_from_latest_listing_report_to_T-60": 0.25,
+    "status_listings_out_doubtful_questionable": 84145,
+    "unmatched_name_listings": 3568,
+    "unmatched_share_pct": 4.24,
+    "distinct_unmatched_names": 12,
+    "top_unmatched": [
+     [
+      "VanVleet,Fred",
+      634
+     ],
+     [
+      "Irving,Kyrie",
+      599
+     ],
+     [
+      "Haliburton,Tyrese",
+      594
+     ],
+     [
+      "Sorber,Thomas",
+      592
+     ],
+     [
+      "Djurisic,Nikola",
+      367
+     ],
+     [
+      "Exum,Dante",
+      360
+     ],
+     [
+      "Ndiaye,EliJohn",
+      188
+     ],
+     [
+      "Yang,Hansen",
+      134
+     ],
+     [
+      "Toohey,Alex",
+      64
+     ],
+     [
+      "Mangas,Kyle",
+      19
+     ],
+     [
+      "Bernard,Jules",
+      10
+     ],
+     [
+      "Key,Tyreke",
+      7
+     ]
+    ]
+   }
+  },
+  "2026-27": {
+   "pdf_files_on_disk_from_2026-10": 0,
+   "note": "injury_parsed_v3.json ends 2026-06-13; 2026-27 PDFs are on disk but not parsed (not needed for the team family; the player model parses what it needs)"
+  }
+ },
+ "5_lines": {
+  "rows": 7942,
+  "duplicate_game_id_rows": 0,
+  "nan_over_under": 1,
+  "outside_180_270": 0,
+  "over_under_min_max_median": [
+   195.5,
+   262.0,
+   226.0
+  ],
+  "match_method": {
+   "exact": 7941,
+   "flipped": 1
+  },
+  "n_books_median_min": [
+   14.0,
+   1
+  ],
+  "snapshot_minutes_before_commence": {
+   "median": 9.35,
+   "q05": 5.0,
+   "q95": 11.35,
+   "negative_(after_tip)": 76
+  },
+  "by_season": {
+   "2021-22": {
+    "regular_season_games": 1230,
+    "with_line": 1229,
+    "coverage_pct": 99.92,
+    "all_types_games": 1323,
+    "all_types_with_line": 1322,
+    "commence_vs_hoopr_tip_minutes_median_max": [
+     10.0,
+     55.0
+    ],
+    "games_with_commence_diff_gt_30min": 1
+   },
+   "2022-23": {
+    "regular_season_games": 1230,
+    "with_line": 1229,
+    "coverage_pct": 99.92,
+    "all_types_games": 1320,
+    "all_types_with_line": 1319,
+    "commence_vs_hoopr_tip_minutes_median_max": [
+     10.0,
+     20.0
+    ],
+    "games_with_commence_diff_gt_30min": 0
+   },
+   "2023-24": {
+    "regular_season_games": 1231,
+    "with_line": 1231,
+    "coverage_pct": 100.0,
+    "all_types_games": 1319,
+    "all_types_with_line": 1319,
+    "commence_vs_hoopr_tip_minutes_median_max": [
+     10.0,
+     70.0
+    ],
+    "games_with_commence_diff_gt_30min": 1
+   },
+   "2024-25": {
+    "regular_season_games": 1231,
+    "with_line": 1231,
+    "coverage_pct": 100.0,
+    "all_types_games": 1321,
+    "all_types_with_line": 1321,
+    "commence_vs_hoopr_tip_minutes_median_max": [
+     10.0,
+     40.0
+    ],
+    "games_with_commence_diff_gt_30min": 1
+   },
+   "2025-26": {
+    "regular_season_games": 1231,
+    "with_line": 1231,
+    "coverage_pct": 100.0,
+    "all_types_games": 1322,
+    "all_types_with_line": 1322,
+    "commence_vs_hoopr_tip_minutes_median_max": [
+     10.0,
+     20.0
+    ],
+    "games_with_commence_diff_gt_30min": 0
+   }
+  },
+  "rows_matched_to_hoopr_2022_2026": 6603,
+  "rows_in_2022_2026_window": 6604,
+  "match_rate_of_window_rows_pct": 99.98,
+  "rows_before_2021-10_(2020 bubble/2021, not in the study window)": 1338,
+  "rows_in_window_unmatched_examples": [
+   {
+    "game_id": 401810384,
+    "commence_time": "2026-01-09T01:10:00Z"
+   }
+  ],
+  "no_2026-27_lines_in_file": true
+ },
+ "6_live": {
+  "date": "2026-10-22",
+  "box27_file": "data\\raw\\nba_open\\team_box_2027.parquet",
+  "box27_regular_season_games_used": 14,
+  "box27_last_game_date_et": "2026-10-21 22:30:00-04:00",
+  "prior_season_file": "team_box_2026.parquet (2025-26 regular season, season_type 2)",
+  "prior_2025_26_regular_season_games": 1235,
+  "games": {
+   "CLE@PHI": {
+    "tonight_py": 229.42938301249785,
+    "independent": 229.42938301249785,
+    "abs_diff": 0.0,
+    "independent_detail": {
+     "proj": 229.42938301249785,
+     "away": {
+      "D": 1.1188506953803667,
+      "P": 102.97341463414631,
+      "rest_cat": 3
+     },
+     "home": {
+      "D": 1.111476737915825,
+      "P": 103.49068524970964,
+      "rest_cat": 1
+     },
+     "inputs": {
+      "CLE": {
+       "prior_2025_26_games": 82,
+       "cur_2026_27_games": 0,
+       "cur_venue_games": 0,
+       "prior_D": 1.1188506953803667,
+       "prior_P": 102.97341463414631
+      },
+      "PHI": {
+       "prior_2025_26_games": 82,
+       "cur_2026_27_games": 1,
+       "cur_venue_games": 0,
+       "prior_D": 1.1202691376858678,
+       "prior_P": 103.32121951219513
+      }
+     },
+     "cur_league_rows": 28
+    }
+   },
+   "DEN@OKC": {
+    "tonight_py": 223.7199169367234,
+    "independent": 223.7199169367234,
+    "abs_diff": 0.0,
+    "independent_detail": {
+     "proj": 223.7199169367234,
+     "away": {
+      "D": 1.147010690120491,
+      "P": 102.08634146341461,
+      "rest_cat": 3
+     },
+     "home": {
+      "D": 1.044390650082324,
+      "P": 102.86933797909407,
+      "rest_cat": 1
+     },
+     "inputs": {
+      "DEN": {
+       "prior_2025_26_games": 82,
+       "cur_2026_27_games": 0,
+       "cur_venue_games": 0,
+       "prior_D": 1.147010690120491,
+       "prior_P": 102.08634146341461
+      },
+      "OKC": {
+       "prior_2025_26_games": 82,
+       "cur_2026_27_games": 1,
+       "cur_venue_games": 0,
+       "prior_D": 1.048462034438292,
+       "prior_P": 102.61780487804877
+      }
+     },
+     "cur_league_rows": 28
+    }
+   }
+  },
+  "max_abs_diff": 0.0
+ }
+}

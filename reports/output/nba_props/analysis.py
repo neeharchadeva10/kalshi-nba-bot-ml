@@ -13,6 +13,8 @@ import nbmodel as NB
 
 SEED = 20261021
 SIZE = 10
+MAX_PX = 0.99           # Kalshi's top price; a fill never exceeds it (caps ask+1c when ask >= 0.99)
+SLIP = 0.01             # resume amendment 2026-10-22: every betting version pays +1c on top of the taker price
 P_CLIP = 1e-3            # model / mid probabilities are clipped to [1e-3, 1-1e-3] inside logit() only
 
 
@@ -115,9 +117,10 @@ def gate3(p, bid, ask, tips, game_tips_all):
 
 # ------------------------------------------------------------------ betting rule
 def decide(p, bid, ask, theta, lo=0.15, hi=0.85, price_filter=True, count=SIZE):
-    """-> None or dict(side, price, fee, edge).  YES if p - ask - fee(ask) >= theta; NO if (1-p) - (1-bid) - fee(1-bid) >= theta;
+    """-> None or dict(side, price, fee, edge).  With ask' = ask + 1c and (1-bid)' = 1 - bid + 1c (slippage):
+    YES if p - ask' - fee(ask') >= theta; NO if (1-p) - (1-bid)' - fee((1-bid)') >= theta;
     one side per market (the larger edge if both qualify); price filter on the price paid, lo <= price <= hi (inclusive)."""
-    py, pn = ask, 1 - bid
+    py, pn = min(ask + SLIP, MAX_PX), min((1 - bid) + SLIP, MAX_PX)        # price paid = taker quote + 1c slippage; the fee is charged on the price paid
     fy, fn = NB.fee_per_contract(py, count), NB.fee_per_contract(pn, count)
     ey = p - py - fy
     en = (1 - p) - pn - fn
@@ -164,12 +167,13 @@ def coin_flip(bid, ask, result, strat_mean, lo=0.15, hi=0.85, price_filter=True,
     bid, ask = np.asarray(bid, float), np.asarray(ask, float)
     yes = np.asarray([r == "yes" for r in result])
     rng = np.random.default_rng(seed)
-    fy = np.array([NB.fee_per_contract(a, count) for a in ask])
-    fn = np.array([NB.fee_per_contract(1 - b, count) for b in bid])
-    pnl_y = yes.astype(float) - ask - fy
-    pnl_n = (~yes).astype(float) - (1 - bid) - fn
-    ok_y = (ask >= lo - 1e-12) & (ask <= hi + 1e-12) if price_filter else np.ones(len(ask), bool)
-    ok_n = ((1 - bid) >= lo - 1e-12) & ((1 - bid) <= hi + 1e-12) if price_filter else np.ones(len(ask), bool)
+    ay, an = np.minimum(ask + SLIP, MAX_PX), np.minimum((1 - bid) + SLIP, MAX_PX)                    # price paid incl. 1c slippage
+    fy = np.array([NB.fee_per_contract(float(a), count) for a in ay])
+    fn = np.array([NB.fee_per_contract(float(a), count) for a in an])
+    pnl_y = yes.astype(float) - ay - fy
+    pnl_n = (~yes).astype(float) - an - fn
+    ok_y = (ay >= lo - 1e-12) & (ay <= hi + 1e-12) if price_filter else np.ones(len(ask), bool)
+    ok_n = (an >= lo - 1e-12) & (an <= hi + 1e-12) if price_filter else np.ones(len(ask), bool)
     means = []
     for _ in range(copies):
         side_y = rng.random(len(ask)) < 0.5

@@ -1,0 +1,23 @@
+1700 open-air games 2018-2026 of 2499; groups: 206
+[10/206] requests=24 cached=6
+[20/206] requests=54 cached=6
+[30/206] requests=84 cached=6
+[40/206] requests=114 cached=6
+[50/206] requests=144 cached=6
+[60/206] requests=174 cached=6
+[70/206] requests=204 cached=6
+[80/206] requests=234 cached=6
+[90/206] requests=264 cached=6
+[100/206] requests=294 cached=6
+[110/206] requests=324 cached=6
+[120/206] requests=353 cached=6
+[130/206] requests=380 cached=6
+[140/206] requests=410 cached=6
+[150/206] requests=440 cached=6
+[160/206] requests=470 cached=6
+[170/206] requests=500 cached=6
+[180/206] requests=530 cached=6
+[190/206] requests=560 cached=6
+[200/206] requests=590 cached=6
+[206/206] requests=608 cached=6
+wrote wind_forecasts.parquet rows=1700 forecast_ok=448 requests=608 cached=6

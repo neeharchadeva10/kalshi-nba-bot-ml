@@ -273,37 +273,109 @@ def toy_universe():
     return games, series, prints
 
 
+def test_grid_is_16():
+    assert lib.XS == (540, 360, 180, 90)
+    assert set(lib.BANDS) == {"60-80", "70-92", "80-95", "90-97"}
+    assert lib.BANDS["60-80"] == (0.60, 0.80) and lib.BANDS["90-97"] == (0.90, 0.97)
+    assert len(lib.XS) * len(lib.BANDS) == 16
+    assert lib.PRIMARY == (360, "70-92")
+
+
+def test_slippage_applied_and_fee_on_paid_price():
+    assert lib.entry_price(0.85) == 0.86 and lib.entry_price(0.97) == 0.98
+    games, series, prints = toy_universe()
+    tr, _ = run.run_version(games, series, prints, 360, "70-92")
+    for t in tr:
+        assert t["ask"] == 0.85 and t["paid"] == 0.86                       # displayed ask kept for fill check, paid = ask + 1c
+        assert t["fee"] == lib.fee(0.86)                                    # fee on the paid price
+        assert t["net_pc"] == pytest.approx((1.0 if t["win"] else 0.0) - 0.86 - lib.fee(0.86) / 10)
+
+
 def test_end_to_end_toy():
     games, series, prints = toy_universe()
-    res, trades = run.evaluate(games, series, prints, versions={(360, "70-92")})
+    ev = run.evaluate(games, series, prints, versions={(360, "70-92")}, splits=("discovery", "unseen"))
+    res, trades = ev["results"], ev["trades"]
     r = res["X6m_70-92"]
     assert len(trades) == 4 and [t["split"] for t in trades] == ["discovery"] * 2 + ["unseen"] * 2
     assert all(t["ask"] == 0.85 and t["home"] == 1 for t in trades)
-    assert [t["confirmed"] for t in trades] == [1, 0, 1, 1]
-    win_net, lose_net = lib.net_per_contract(0.85, True), lib.net_per_contract(0.85, False)
+    assert [t["confirmed"] for t in trades] == [1, 0, 1, 1]            # fill check uses the displayed ask 0.85, not 0.86
+    win_net, lose_net = lib.net_per_contract(0.86, True), lib.net_per_contract(0.86, False)
     assert trades[2]["net_pc"] == pytest.approx(lose_net) and trades[0]["net_pc"] == pytest.approx(win_net)
     assert r["unseen"]["n"] == 2 and r["unseen"]["mean_net_per_contract"] == pytest.approx((win_net + lose_net) / 2)
     assert r["confirmed_unseen"]["n"] == 2
     assert r["unseen_weeks_with_games"] >= 1
-    # matched coin flip draws from the Q2 minute (period 2) at 0.85 -> same payoff as the real trade here
+    # matched coin flip draws from the Q2 minute (period 2) at 0.85 (+1c slippage) -> same payoff as the real trade here
     cf = r["coin_flips"]["unseen"]["matched_p1to3"]
     assert cf["n_trades_with_candidates"] == 2
     assert cf["copy_mean_avg"] == pytest.approx((win_net + lose_net) / 2)
-    again, _ = run.evaluate(games, series, prints, versions={(360, "70-92")})
+    again = run.evaluate(games, series, prints, versions={(360, "70-92")}, splits=("discovery", "unseen"))["results"]
     assert again["X6m_70-92"]["coin_flips"] == r["coin_flips"] and again["X6m_70-92"]["unseen_bootstrap_lower_2_5"] == r["unseen_bootstrap_lower_2_5"]
 
 
-def test_no_lookahead_in_result_independence():
-    """The trade decision (team, ask, E) must not depend on game results."""
+def test_discovery_mode_never_reads_unseen_results():
     games, series, prints = toy_universe()
-    a, _ = run.run_version(games, series, prints, 360, "70-92")
-    for _, ev, _ in games:
-        ev["result"] = {"SAS": "no", "NYK": "yes"}
-    b, _ = run.run_version(games, series, prints, 360, "70-92")
-    assert [(t["team"], t["ask"], t["e_x"]) for t in a] == [(t["team"], t["ask"], t["e_x"]) for t in b]
+
+    class Poison(dict):
+        def get(self, *a, **k):
+            raise AssertionError("unseen result was read")
+    for et, ev, pg in games[2:]:
+        ev["result"] = Poison()
+    out = run.evaluate(games, series, prints, versions={(360, "70-92")}, splits=("discovery",))
+    assert out["results"]["X6m_70-92"]["discovery"]["n"] == 2 and "unseen" not in out["results"]["X6m_70-92"]
+    assert all(t["split"] == "discovery" for t in out["trades"])
+
+
+def test_select_version_best_lb_among_eligible():
+    stats = {"a": dict(n=150, lb=0.01), "b": dict(n=99, lb=0.50), "c": dict(n=100, lb=0.02), "d": dict(n=300, lb=float("nan")),
+             "e": dict(n=120, lb=-0.1)}
+    sel, elig = lib.select_version(stats)
+    assert sel == "c" and elig == ["a", "c", "e"]                     # b has < 100 trades, d has no LB
+    assert lib.select_version({"x": dict(n=10, lb=1.0)}) == (None, [])
+    assert lib.select_version({"x": dict(n=100, lb=0.1), "w": dict(n=100, lb=0.1)})[0] == "w"   # deterministic tie-break
+
+
+def test_luck_test_deterministic_and_selection_rerun():
+    rng = np.random.default_rng(3)
+    groups = {v: [[[float(x)] for x in rng.normal(0, 0.3, 4)] for _ in range(30)] for v in ("v1", "v2", "v3")}
+    groups["v2"][5] = []                                              # a trade without candidates is dropped, not an error
+    a = lib.luck_test(groups, ["v1", "v2", "v3"], 0.0, reps=20, seed=lib.SEED2, draws=300)
+    b = lib.luck_test(groups, ["v1", "v2", "v3"], 0.0, reps=20, seed=lib.SEED2, draws=300)
+    assert np.array_equal(a["best_lb_per_rep"], b["best_lb_per_rep"]) and a["share_ge_real"] == b["share_ge_real"]
+    c = lib.luck_test(groups, ["v1", "v2", "v3"], 0.0, reps=20, seed=lib.SEED2 + 1, draws=300)
+    assert not np.array_equal(a["best_lb_per_rep"], c["best_lb_per_rep"])
+    one = lib.luck_test(groups, ["v1"], 0.0, reps=20, seed=lib.SEED2, draws=300)
+    assert (a["best_lb_per_rep"] >= one["best_lb_per_rep"] - 1).all()   # sanity: shapes
+    # the rep result is the MAX over eligible versions: with all copies identical per version the best equals the best constant
+    const = {"lo": [[[0.1]] for _ in range(10)], "hi": [[[0.3]] for _ in range(10)]}
+    r = lib.luck_test(const, ["lo", "hi"], 0.25, reps=5, seed=1, draws=200)
+    assert np.allclose(r["best_lb_per_rep"], 0.3) and r["share_ge_real"] == 1.0 and r["verdict"] == "FAIL"
+    r2 = lib.luck_test(const, ["lo", "hi"], 0.35, reps=5, seed=1, draws=200)
+    assert r2["share_ge_real"] == 0.0 and r2["verdict"] == "PASS"
+    assert lib.LUCK_REPS == 500 and lib.SEED2 == 20261022 and lib.MIN_DISC_TRADES == 100
+
+
+def test_unseen_refuses_without_audit_ok(monkeypatch, tmp_path):
+    monkeypatch.setattr(run, "AUDIT_OK", tmp_path / "AUDIT_OK")
+    with pytest.raises(SystemExit) as e:
+        run.unseen()
+    assert "REFUSED" in str(e.value)
+    assert not (Path(run.HERE) / "AUDIT_OK").exists()
 
 
 def test_split_and_buckets():
     assert run.split_index(10) == 5 and run.split_index(11) == 5
     assert run.price_bucket(0.70) == "70-74c" and run.price_bucket(0.92) == "90-94c"
     assert run.margin_bucket(5) == "0-5" and run.margin_bucket(21) == "21+"
+
+
+def test_load_pbp_wallclock_is_epoch_seconds(tmp_path):
+    """Regression: the wallclock string must become real UTC epoch seconds (an unit mix-up once gave 2026-01-21 for every event)."""
+    rows = []
+    for k, (per, cm, cs, w) in enumerate([(1, 12, 0, "2025-06-23T00:08:47Z"), (4, 6, 0, "2025-06-23T02:30:10Z")]):
+        rows.append(dict(game_id=7, game_play_number=k, sequence_number=k, period=per, clock_minutes=cm, clock_seconds=cs, wallclock=w,
+                         home_team_abbrev="OKC", away_team_abbrev="IND", game_date="2025-06-22", season_type=3, home_score=0, away_score=0))
+    for y in (2025, 2026):
+        pd.DataFrame(rows).to_parquet(tmp_path / f"play_by_play_{y}.parquet")
+    g = lib.load_pbp(tmp_path)[7]
+    assert g.first_wall == 1750637327.0                      # 2025-06-23T00:08:47Z
+    assert g.t[360] == 1750645810.0                          # 2025-06-23T02:30:10Z

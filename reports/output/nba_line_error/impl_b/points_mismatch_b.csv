@@ -1,0 +1,33 @@
+table,game_id,date,home_name,away_name,Points,hoopr_total
+odds_2023-24_new,401585688.0,2024-03-28,Atlanta Hawks,Boston Celtics,0,245.0
+odds_2023-24_new,401585689.0,2024-03-28,New Orleans Pelicans,Milwaukee Bucks,0,207.0
+2024-25,401705032.0,2025-01-02,Oklahoma City Thunder,LA Clippers,217,214.0
+2024-25,401705383.0,2025-02-23,Milwaukee Bucks,Miami Heat,236,233.0
+odds_2007-08,271116023.0,2007-11-16,Sacramento Kings,New York Knicks,234,241.0
+odds_2007-08,271219001.0,2007-12-19,Atlanta Hawks,Miami Heat,228,225.0
+odds_2008-09,281109007.0,2008-11-09,Denver Nuggets,Memphis Grizzlies,172,190.0
+odds_2008-09,281202023.0,2008-12-02,Sacramento Kings,Utah Jazz,191,193.0
+odds_2010-11,301127006.0,2010-11-27,Dallas Mavericks,Miami Heat,198,201.0
+odds_2012-13,400278141.0,2012-12-26,Phoenix Suns,New York Knicks,190,196.0
+odds_2012-13,400278274.0,2013-01-13,Portland Trail Blazers,Oklahoma City Thunder,149,170.0
+odds_2013-14,400489661.0,2014-02-12,Golden State Warriors,Miami Heat,187,221.0
+odds_2013-14,400489662.0,2014-02-12,Los Angeles Clippers,Portland Trail Blazers,207,239.0
+odds_2014-15,400578467.0,2014-11-21,Toronto Raptors,Milwaukee Bucks,207,206.0
+odds_2014-15,400578620.0,2014-12-12,Chicago Bulls,Portland Trail Blazers,221,211.0
+odds_2016-17,400899814.0,2016-12-13,Phoenix Suns,New York Knicks,22,224.0
+odds_2016-17,400900070.0,2017-01-20,Los Angeles Lakers,Indiana Pacers,204,203.0
+odds_2017-18,400974769.0,2017-10-19,Toronto Raptors,Chicago Bulls,218,217.0
+odds_2007-08_new,271116023.0,2007-11-16,Sacramento Kings,New York Knicks,234,241.0
+odds_2007-08_new,271219001.0,2007-12-19,Atlanta Hawks,Miami Heat,228,225.0
+odds_2008-09_new,281109007.0,2008-11-09,Denver Nuggets,Memphis Grizzlies,172,190.0
+odds_2008-09_new,281202023.0,2008-12-02,Sacramento Kings,Utah Jazz,191,193.0
+odds_2010-11_new,301127006.0,2010-11-27,Dallas Mavericks,Miami Heat,198,201.0
+odds_2012-13_new,400278141.0,2012-12-26,Phoenix Suns,New York Knicks,190,196.0
+odds_2012-13_new,400278274.0,2013-01-13,Portland Trail Blazers,Oklahoma City Thunder,149,170.0
+odds_2013-14_new,400489661.0,2014-02-12,Golden State Warriors,Miami Heat,187,221.0
+odds_2013-14_new,400489662.0,2014-02-12,Los Angeles Clippers,Portland Trail Blazers,207,239.0
+odds_2014-15_new,400578467.0,2014-11-21,Toronto Raptors,Milwaukee Bucks,207,206.0
+odds_2014-15_new,400578620.0,2014-12-12,Chicago Bulls,Portland Trail Blazers,221,211.0
+odds_2016-17_new,400899814.0,2016-12-13,Phoenix Suns,New York Knicks,22,224.0
+odds_2016-17_new,400900070.0,2017-01-20,Los Angeles Lakers,Indiana Pacers,204,203.0
+odds_2017-18_new,400974769.0,2017-10-19,Toronto Raptors,Chicago Bulls,218,217.0

@@ -23,6 +23,9 @@ ROOT = Path(__file__).resolve().parents[1]
 SECRET_PATH = ROOT / "secrets" / "discord_webhook.txt"
 STATE_PATH = ROOT / "logs" / "early_overs_notified.json"
 LOG_PATH = ROOT / "logs" / "early_overs_notify.log"
+BOT_HEARTBEAT = ROOT / "logs" / "early_overs_bot.heartbeat"   # JSON {"ts_utc","pid","live","night"} written by the bot
+BOT_FRESH_S = 300
+BOT_LINE = "🤖 Auto-placed on my account by my bot"
 PLACEHOLDER = "PASTE_WEBHOOK_URL_HERE"
 URL_PREFIXES = ("https://discord.com/api/webhooks/", "https://discordapp.com/api/webhooks/")
 FEE_COEF = 0.0175
@@ -104,6 +107,8 @@ ORDER_MODE = "taker"           # "maker" = limit at the bid (wait in line)
 # User, 2026-10-21 ~17:05 ET: the channel is shared with friends - "just send the picks". No schedule, no cancel checks.
 SEND_SCHEDULE = False
 SEND_CANCEL = False
+# User, 2026-10-21 ~20:55 ET: "just give the pick and thats it the rest is noise" -> 3 lines: game, order, cancel time.
+SHORT_PICKS = True
 TAKER_COEF = 0.07
 
 
@@ -139,6 +144,11 @@ def format_pick(row: dict, tip_et: datetime) -> str:
         bet = f"Bet: UNDER {strike} -> buy NO on 'Over {strike}' ({row['ticker']})"
         word = "under"
     limit_c = int(round(order_price(row) * 100))
+    if SHORT_PICKS:
+        yn = "YES" if row["side"] == "OVER" else "NO"
+        return (f"{away} @ {home} (tip {t12(tip_et)})\n"
+                f"BUY {yn} - {row['side']} {strike} - 1 share @ {limit_c}c LIMIT\n"
+                f"Cancel if not filled by {t12(tip_et - timedelta(minutes=15))}")
     ev_now = None
     if row.get("p_formula") is not None:
         px = limit_c / 100
@@ -190,6 +200,21 @@ def howto(away: str, home: str, side: str, strike: str, limit_c: int, cancel: da
             f"Screens can differ a bit - the key parts are: NO/YES, LIMIT, the price, 1 contract.")
 
 
+def bot_is_live(now: datetime) -> bool:
+    """True only if the bot heartbeat exists, is < 5 min old, and says placing == true (missing = False). Never raises."""
+    try:
+        hb = json.loads(Path(BOT_HEARTBEAT).read_text(encoding="utf-8"))
+        if hb.get("placing") is not True:
+            return False
+        ts = datetime.fromisoformat(str(hb["ts_utc"]).replace("Z", "+00:00"))
+        if ts.tzinfo is None:
+            ts = ts.replace(tzinfo=timezone.utc)
+        age = (now.astimezone(timezone.utc) - ts).total_seconds()
+        return -60 <= age <= BOT_FRESH_S
+    except Exception:  # noqa: BLE001
+        return False
+
+
 def pick_info(row: dict) -> dict:
     return {"side": row["side"], "strike": fmt_num(row["strike"]), "limit_c": int(round(order_price(row) * 100))}
 
@@ -225,7 +250,19 @@ def load_state(path: Path | None = None) -> dict:
 def save_state(state: dict, path: Path | None = None) -> None:
     path = path or STATE_PATH
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(state, indent=1, sort_keys=True), encoding="utf-8")
+    tmp = path.with_name(path.name + ".tmp")   # same directory, so os.replace is atomic: readers never see a partial file
+    tmp.write_text(json.dumps(state, indent=1, sort_keys=True), encoding="utf-8")
+    for i in range(10):   # Windows: replace fails with PermissionError while a reader (the bot) has the file open
+        try:
+            os.replace(tmp, path)
+            return
+        except OSError:
+            time.sleep(0.05)
+    path.write_text(json.dumps(state, indent=1, sort_keys=True), encoding="utf-8")   # last resort: never lose state
+    try:
+        tmp.unlink()
+    except OSError:
+        pass
 
 
 def log_sent(kind: str, content: str, now: datetime, path: Path | None = None) -> None:
@@ -259,7 +296,10 @@ def plan_messages(rows, tips: dict, day, now_et: datetime, state: dict, force_sc
             continue
         if r.get("side") is None or pick_key(day, r["game"]) in state:
             continue
-        out.append((pick_key(day, r["game"]), "pick", format_pick(r, tips[r["game"]])))
+        text = format_pick(r, tips[r["game"]])
+        if bot_is_live(now_et):
+            text = BOT_LINE + "\n" + text
+        out.append((pick_key(day, r["game"]), "pick", text))
     for g, tip in sorted(tips.items(), key=lambda x: (x[1], x[0])):
         if not SEND_CANCEL:
             break
@@ -364,7 +404,11 @@ def main(argv=None) -> int:
             state[skey] = {"sent": now.isoformat(), **pick_info(next(r for r in rows if r["game"] == g))}
         else:
             state[skey] = now.isoformat()
-        save_state(state)
+        try:
+            save_state(state)   # right after each successful post, so a later failure cannot cause a duplicate ping
+        except Exception as e:  # noqa: BLE001
+            print(f"ERROR saving state ({type(e).__name__})")
+            rc = 1
         log_sent(kind, text, now)
         print(f"sent {kind} {skey}")
     if dk_thread is not None:

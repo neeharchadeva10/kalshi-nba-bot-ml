@@ -1,0 +1,68 @@
+stadium_id,city,hit,nearest_hit_km,status
+ATL00,Atlanta,"Atlanta, Georgia, United States",1.5,ok
+ATL97,Atlanta,"Atlanta, Georgia, United States",1.4,ok
+BAL00,Baltimore,"Baltimore, Maryland, United States",1.6,ok
+BOS00,Foxborough,"Foxborough, Massachusetts, United States",3.1,ok
+BOS99,Foxborough,"Foxborough, Massachusetts, United States",3.4,ok
+BRG00,Baton Rouge,"Baton Rouge, Louisiana, United States",3.5,ok
+BUF00,Orchard Park,"Orchard Park, New York, United States",3.6,ok
+BUF01,Toronto,"Toronto Island, Ontario, Canada",2.8,ok
+CAR00,Charlotte,"Charlotte, North Carolina, United States",0.9,ok
+CHI98,Chicago,"Chicago, Illinois, United States",3.1,ok
+CHI99,Champaign,"Champaign, Illinois, United States",2.0,ok
+CIN00,Cincinnati,"Cincinnati, Ohio, United States",3.5,ok
+CIN99,Cincinnati,"Cincinnati, Ohio, United States",3.3,ok
+CLE00,Cleveland,"Cleveland, Ohio, United States",0.8,ok
+DAL00,Arlington,"Arlington, Texas, United States",1.8,ok
+DAL99,Irving,"Irving, Texas, United States",4.5,ok
+DEN00,Denver,"Denver, Colorado, United States",3.1,ok
+DEN99,Denver,"Denver, Colorado, United States",3.1,ok
+DET00,Detroit,"Detroit, Michigan, United States",1.0,ok
+DET99,Pontiac,"Pontiac, Michigan, United States",1.5,ok
+FRA00,Frankfurt,"Frankfurt-Flughafen, Hesse, Germany",4.0,ok
+GER00,Munich,"Munich, Bavaria, Germany",9.8,ok
+GNB00,Green Bay,"Green Bay, Wisconsin, United States",3.9,ok
+HOU00,Houston,"Houston, Texas, United States",9.9,ok
+IND00,Indianapolis,"Indianapolis, Indiana, United States",1.0,ok
+IND99,Indianapolis,"Indianapolis, Indiana, United States",0.7,ok
+JAX00,Jacksonville,"Jacksonville, Florida, United States",2.0,ok
+KAN00,Kansas City,"Kansas City Zoo, Missouri, United States",6.0,ok
+LAX01,Inglewood,"Inglewood, California, United States",1.6,ok
+LAX97,Carson,"Carson, California, United States",4.1,ok
+LAX99,Los Angeles,"Los Angeles, California, United States",5.9,ok
+LON00,London,"London, England, United Kingdom",11.9,ok
+LON01,Twickenham,"Twickenham, England, United Kingdom",1.3,ok
+LON02,London,"London, England, United Kingdom",11.4,ok
+MAD01,Madrid,"Madrid, Madrid, Spain",4.2,ok
+MEL00,Melbourne,"Melbourne CBD, Victoria, Australia",1.6,ok
+MEX00,Mexico City,"Mexico City, Mexico City, Mexico",14.2,ok
+MIA00,Miami Gardens,"Miami Gardens, Florida, United States",1.9,ok
+MIN00,Minneapolis,"Minneapolis, Minnesota, United States",0.8,ok
+MIN01,Minneapolis,"Minneapolis, Minnesota, United States",0.8,ok
+MIN98,Minneapolis,"Minneapolis, Minnesota, United States",3.1,ok
+MUN01,Munich,"Munich, Bavaria, Germany",9.8,ok
+NAS00,Nashville,"Nashville, Tennessee, United States",1.2,ok
+NOR00,New Orleans,"New Orleans Downtown Heliport, Louisiana, United States",0.2,ok
+NYC00,East Rutherford,"East Rutherford, New Jersey, United States",3.0,ok
+NYC01,East Rutherford,"East Rutherford, New Jersey, United States",3.0,ok
+OAK00,Oakland,"Oakland, California, United States",8.5,ok
+PAR00,Saint-Denis,"Saint-Denis, Île-de-France Region, France",1.3,ok
+PHI00,Philadelphia,"Philadelphia, Pennsylvania, United States",5.7,ok
+PHI99,Philadelphia,"Philadelphia, Pennsylvania, United States",5.2,ok
+PHO00,Glendale,"Glendale, Arizona, United States",7.2,ok
+PHO99,Tempe,"Tempe, Arizona, United States",2.5,ok
+PIT00,Pittsburgh,"Pittsburgh Aviary Conservatory, Pennsylvania, United States",0.9,ok
+PIT99,Pittsburgh,"Pittsburgh Aviary Conservatory, Pennsylvania, United States",0.9,ok
+RIO00,Rio de Janeiro,"Rio de Janeiro, Rio de Janeiro, Brazil",5.0,ok
+SAN00,San Antonio,"San Antonio, Texas, United States",1.7,ok
+SAO00,Sao Paulo,"São Paulo, São Paulo, Brazil",16.5,ok
+SDG00,San Diego,"San Diego, California, United States",8.6,ok
+SEA00,Seattle,"Seattle, Washington, United States",1.2,ok
+SEA98,Seattle,"Seattle, Washington, United States",1.3,ok
+SEA99,Seattle,"Seattle Private Number One Heliport, Washington, United States",4.4,ok
+SFO00,San Francisco,"San Francisco, California, United States",7.4,ok
+SFO01,Santa Clara,"Santa Clara, California, United States",5.6,ok
+STL00,St. Louis,"St Louis, Missouri, United States",1.0,ok
+TAM00,Tampa,"Tampa, Florida, United States",5.4,ok
+VEG00,Paradise,"Paradise, Nevada, United States",3.4,ok
+WAS00,Landover,"Landover, Maryland, United States",4.0,ok

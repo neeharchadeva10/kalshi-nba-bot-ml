@@ -104,3 +104,19 @@ Games ordered by scheduled start. **Discovery** = the first half. **Unseen** = t
      - and no wallclock steps backwards by more than 5 min within Q4 before t_X.
      - Otherwise the game is excluded as "bad_wallclock".
   7. **All-Star games** are unmatched and dropped.
+- **2026-10-22 ~07:00Z (Opus), expanded grid at the user's request** ("test everything all combinations"). This was
+  written before any #35 result was computed; the paused download had stopped at 2026-02-25, and no outcome was
+  analysed.
+  1. **Versions grow from 4 to 16:** X {9:00, 6:00, 3:00, 1:30} x band {60-80c, 70-92c, 80-95c, 90-97c}. The
+     original 4 are a subset.
+  2. **Slippage:** every version pays the displayed ask **+1c** on entry (the user: "always include fees and
+     slippage"). The confirmed-fill check is unchanged.
+  3. **Selection:**
+     - The version with the highest DISCOVERY bootstrap LB, among versions with at least 100 discovery trades, is
+       carried to unseen. It replaces "primary = 6:00 / 70-92c", which is still reported.
+     - **Discovery luck test:** price-matched random-minute copies (the pass-bar item 4 method, applied on discovery),
+       500 reps, seed 20261022, with the 16-version selection re-run in each rep.
+     - FAIL if more than 5% of reps reach the real best LB. In that case the unseen half is not opened.
+  4. **The pass bar** (items 1-6) applies to the selected version on unseen, with the +1c slippage.
+  5. **Data:** finish the paused KXNBAGAME 1-minute candle download through 2026-06-30, plus public trade prints via
+     /historical/trades for fill confirmation. Pace at most about 1.5 req/s while other downloads run.

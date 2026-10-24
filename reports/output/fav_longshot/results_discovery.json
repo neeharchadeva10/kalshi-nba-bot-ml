@@ -1,0 +1,51 @@
+{
+ "split": "discovery",
+ "n_versions": 30,
+ "selected_version": "NBA|T-1h|FAV|85-95",
+ "selected_stats": {
+  "n": 71,
+  "mean": 0.004278873239436626,
+  "sd": 0.29922250532027306,
+  "lb": -0.06532303584301427,
+  "win_rate": 0.9014084507042254,
+  "mean_entry": 0.880281690140845,
+  "maker_mean_info_only": 0.021126760563380274
+ },
+ "luck_test": {
+  "real_best": "NBA|T-1h|FAV|85-95",
+  "real_best_lb": -0.06532303584301427,
+  "reps": 500,
+  "seed": 20261022,
+  "n_versions_eligible": 21,
+  "share_reps_reaching_real_best_lb": 0.834,
+  "rep_best_lb_mean": -0.04338176794093248,
+  "rep_best_lb_p95": 0.002928415733885625,
+  "verdict": "FAIL"
+ },
+ "records_per_sport_D": {
+  "NBA|T-1h": 663,
+  "NBA|T-24h": 663,
+  "NBA|T-3h": 663,
+  "NFL|T-1h": 278,
+  "NFL|T-24h": 281,
+  "NFL|T-3h": 278
+ },
+ "games_with_T-1h_quotes": {
+  "NBA 2025-26": 663,
+  "NFL 2025": 278
+ },
+ "skips_and_counts": {
+  "NBA T-24h FAV 55-70: both teams in band, took higher ask/lower bid": 2,
+  "NBA: games in split 'discovery'": 663,
+  "NBA: no clean yes/no result (scalar/void)": 1,
+  "NBA: preseason (T before 2025-10-21)": 43,
+  "NFL T-1h: skipped, no_candle quote (older than 2h or none)": 1,
+  "NFL T-1h: skipped, stale quote (older than 2h or none)": 3,
+  "NFL T-24h: skipped, no_candle quote (older than 6h or none)": 1,
+  "NFL T-3h: skipped, no_candle quote (older than 2h or none)": 1,
+  "NFL T-3h: skipped, stale quote (older than 2h or none)": 3,
+  "NFL: games in split 'discovery'": 282,
+  "NFL: no clean yes/no result (scalar/void/unsettled)": 1
+ },
+ "min_n_for_selection": 60
+}

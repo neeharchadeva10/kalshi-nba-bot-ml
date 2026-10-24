@@ -18,7 +18,7 @@ GOOD = "https://discord.com/api/webhooks/123/SECRETTOKEN"
 
 
 @pytest.fixture(autouse=True)
-def _no_real_snapshot(monkeypatch):
+def _no_real_snapshot(monkeypatch, tmp_path):
     """The DraftKings snapshot hook must never run for real (live Odds API call, real key, real data files)."""
     import requests
     monkeypatch.setenv("ODDS_API_KEY", "")
@@ -26,6 +26,8 @@ def _no_real_snapshot(monkeypatch):
     monkeypatch.setattr(N, "ORDER_MODE", "maker")   # the tests below were written for limit-at-the-bid wording
     monkeypatch.setattr(N, "SEND_SCHEDULE", True)   # ...and with schedule / cancel-check messages on
     monkeypatch.setattr(N, "SEND_CANCEL", True)
+    monkeypatch.setattr(N, "SHORT_PICKS", False)    # ...and with the long pick text
+    monkeypatch.setattr(N, "BOT_HEARTBEAT", tmp_path / "no_such.heartbeat")   # never read the real bot heartbeat
 
     def boom(*a, **k):
         raise AssertionError("network call attempted in a test")
@@ -254,6 +256,20 @@ def test_taker_mode_uses_ask_price_fee_and_wording(monkeypatch):
     assert N.pick_info(row)["limit_c"] == 48 and len(msg) < 1900
 
 
+def test_short_pick_is_three_lines(monkeypatch):
+    """User 2026-10-21 ~20:55 ET: 'just give the pick' -> game, order, cancel time; nothing else."""
+    monkeypatch.setattr(N, "SHORT_PICKS", True)
+    monkeypatch.setattr(N, "ORDER_MODE", "taker")
+    row = {"game": "26OCT21SACLAC", "side": "OVER", "ticker": "KXNBATOTAL-26OCT21SACLAC-227", "strike": 226.5,
+           "limit": 0.50, "taker_price": 0.51, "proj": 232.9, "rule": "grid_winner", "p_formula": 0.63}
+    tip = datetime(2026, 10, 21, 22, 30, tzinfo=ZoneInfo("America/New_York"))
+    assert N.format_pick(row, tip) == ("SAC @ LAC (tip 10:30 PM)\n"
+                                       "BUY YES - OVER 226.5 - 1 share @ 51c LIMIT\n"
+                                       "Cancel if not filled by 10:15 PM")
+    under = N.format_pick({**row, "side": "UNDER", "proj": 220.0, "limit": 0.49, "taker_price": 0.50}, tip)
+    assert under.splitlines()[1] == "BUY NO - UNDER 226.5 - 1 share @ 50c LIMIT"
+
+
 def test_order_and_prices_lines():
     r = {**ROW, "yes_bid": 0.50, "yes_ask": 0.52}
     t = N.format_pick(r, TIP)
@@ -274,3 +290,109 @@ def test_picks_only_when_schedule_and_cancel_off(monkeypatch):
     state = {N.pick_key(day, "26OCT21ATLORL"): {"sent": "x", **N.pick_info(ROW)}}
     assert N.plan_messages([], tips, day, at(18, 50), state) == []          # no cancel check
     assert N.plan_messages([], tips, day, at(17, 1), {}, force_schedule=True) == []  # no schedule
+
+
+def _hb(tmp_path, monkeypatch, ts, placing=True, raw=None, **extra):
+    import json
+    p = tmp_path / "hb.json"
+    d = {"ts_utc": ts.isoformat(), "pid": 1, "live": True, "night": "2026-10-21"}
+    if placing is not None:
+        d["placing"] = placing
+    d.update(extra)
+    p.write_text(raw if raw is not None else json.dumps(d))
+    monkeypatch.setattr(N, "BOT_HEARTBEAT", p)
+
+
+def _short_plan(monkeypatch):
+    monkeypatch.setattr(N, "SHORT_PICKS", True)
+    monkeypatch.setattr(N, "SEND_SCHEDULE", False)
+    monkeypatch.setattr(N, "SEND_CANCEL", False)
+    now = datetime(2026, 10, 21, 18, 0, tzinfo=ET)
+    row = {**ROW, "status": "PLACE NOW (limit buy NO @ 0.48)"}
+    return N.plan_messages([row], {"26OCT21ATLORL": TIP}, date(2026, 10, 21), now, {})[0][2]
+
+
+def test_bot_line_is_first_when_placing(tmp_path, monkeypatch):
+    from datetime import timezone, timedelta
+    now = datetime(2026, 10, 21, 18, 0, tzinfo=ET)
+    _hb(tmp_path, monkeypatch, now.astimezone(timezone.utc) - timedelta(seconds=90))
+    lines = _short_plan(monkeypatch).splitlines()
+    assert len(lines) == 4
+    assert lines[0] == "🤖 Auto-placed on my account by my bot"
+    assert lines[1].startswith("ATL @ ORL")
+
+
+@pytest.mark.parametrize("case", ["stale", "missing", "notplacing", "noplacingfield", "badjson"])
+def test_bot_line_absent(tmp_path, monkeypatch, case):
+    from datetime import timezone, timedelta
+    now = datetime(2026, 10, 21, 18, 0, tzinfo=ET).astimezone(timezone.utc)
+    if case == "stale":
+        _hb(tmp_path, monkeypatch, now - timedelta(minutes=6))
+    elif case == "notplacing":
+        _hb(tmp_path, monkeypatch, now, placing=False)
+    elif case == "noplacingfield":
+        _hb(tmp_path, monkeypatch, now, placing=None)     # live true but no placing field
+    elif case == "badjson":
+        _hb(tmp_path, monkeypatch, now, raw="{not json")
+    text = _short_plan(monkeypatch)
+    assert len(text.splitlines()) == 3 and "BOT" not in text
+
+
+def test_save_state_atomic(tmp_path, monkeypatch):
+    import json
+    p = tmp_path / "s.json"
+    N.save_state({"a": 1}, p)
+    assert json.loads(p.read_text()) == {"a": 1} and [f.name for f in tmp_path.iterdir()] == ["s.json"]
+    monkeypatch.setattr(N.time, "sleep", lambda s: None)
+    real = N.os.replace
+    calls = []
+
+    def flaky(src, dst):
+        calls.append(1)
+        if len(calls) <= 3:
+            raise PermissionError(5, "Access denied")
+        return real(src, dst)
+    monkeypatch.setattr(N.os, "replace", flaky)
+    N.save_state({"a": 2}, p)
+    assert json.loads(p.read_text()) == {"a": 2} and len(calls) == 4
+    assert [f.name for f in tmp_path.iterdir()] == ["s.json"]
+
+
+def test_save_state_persistent_failure_falls_back(tmp_path, monkeypatch):
+    import json
+    p = tmp_path / "s.json"
+    N.save_state({"a": 1}, p)
+    monkeypatch.setattr(N.time, "sleep", lambda s: None)
+
+    def always(src, dst):
+        raise PermissionError(5, "Access denied")
+    monkeypatch.setattr(N.os, "replace", always)
+    N.save_state({"a": 9}, p)
+    assert json.loads(p.read_text()) == {"a": 9}
+
+
+def test_state_saved_after_each_post(tmp_path, monkeypatch):
+    import json
+    monkeypatch.setattr(N, "STATE_PATH", tmp_path / "s.json")
+    monkeypatch.setattr(N, "LOG_PATH", tmp_path / "l.log")
+    monkeypatch.setattr(N, "load_webhook", lambda: GOOD)
+    monkeypatch.setattr(N, "SEND_SCHEDULE", False)
+    monkeypatch.setattr(N, "SEND_CANCEL", False)
+    r1 = {**ROW, "status": "PLACE NOW (x)"}
+    r2 = {**ROW, "game": "26OCT21BOSNYK", "ticker": "KXNBATOTAL-26OCT21BOSNYK-234", "status": "PLACE NOW (x)"}
+    seen = []
+    posts = []
+
+    def post(url, text):
+        posts.append(text)
+        if len(posts) == 2:
+            seen.append(json.loads((tmp_path / "s.json").read_text()))   # state after post 1 already on disk
+            raise N.NotifyError("boom")
+    monkeypatch.setattr(N, "post_discord", post)
+    fake = mock.Mock()
+    fake.ET = ET
+    tip = datetime(2026, 10, 21, 19, 0, tzinfo=ET)
+    fake.compute_rows.return_value = ([r1, r2], 0, [(tip, "26OCT21ATLORL", None), (tip, "26OCT21BOSNYK", None)], None)
+    monkeypatch.setattr(N, "_load_picks", lambda: fake)
+    N.main([])
+    assert len(seen) == 1 and any(k.endswith("ATLORL") or k.endswith("BOSNYK") for k in seen[0])

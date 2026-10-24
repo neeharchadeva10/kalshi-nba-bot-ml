@@ -1,0 +1,252 @@
+2026-10-22 02:21:47 split=discovery games=664 game_skips={'no_team_or_1H_markets_listed': 662, 'no_game_total_median_at_T-1h': 2} jobs=0 already_done=0 todo=0
+2026-10-22 02:21:53 split=unseen games=569 game_skips={'no_team_or_1H_markets_listed': 127, 'no_1H_markets_listed': 10, 'no_team_markets_listed': 4} jobs=6704 already_done=0 todo=6704
+2026-10-22 02:26:22 split=discovery games=266 game_skips={'no_1H_markets_listed': 10, 'no_team_markets_listed': 4} jobs=4033 already_done=0 todo=4033
+2026-10-22 02:26:26 split=unseen games=267 game_skips={} jobs=4104 already_done=0 todo=4104
+2026-10-22 02:26:34 split=discovery games=266 game_skips={'no_1H_markets_listed': 10, 'no_team_markets_listed': 4} jobs=4033 already_done=0 todo=4033
+2026-10-22 02:26:36 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:26:46 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:26:51 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:27:16 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:27:56 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:28:01 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:28:16 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:28:37 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:28:42 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:29:32 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:29:57 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:30:57 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:31:37 50/4033 elapsed 303s ETA 24144s (6.71h) rate=0.20/s stats={'hits': 0, 'fetches': 50, 'r429': 12, 'retries': 0, '404': 0}
+2026-10-22 02:31:52 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:32:02 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:32:07 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:32:27 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:33:07 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:33:12 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:33:22 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:33:27 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:33:37 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:33:42 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:33:47 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:33:57 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:34:22 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:34:28 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:34:38 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:34:53 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:35:18 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:35:38 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:35:43 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:36:13 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:36:43 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:36:48 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:36:53 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:37:28 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:37:48 100/4033 elapsed 674s ETA 26519s (7.37h) rate=0.20/s stats={'hits': 0, 'fetches': 100, 'r429': 36, 'retries': 0, '404': 0}
+2026-10-22 02:38:08 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:38:23 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:38:28 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:38:48 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:38:53 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:39:08 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:39:18 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:39:53 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:40:33 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:40:53 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:41:48 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:42:08 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:42:23 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:42:29 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:42:59 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:43:14 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:43:19 150/4033 elapsed 1005s ETA 26015s (7.23h) rate=0.20/s stats={'hits': 0, 'fetches': 150, 'r429': 52, 'retries': 0, '404': 0}
+2026-10-22 02:43:24 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:43:54 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:43:59 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:44:14 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:45:09 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:46:42 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:47:22 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:47:47 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:47:52 200/4033 elapsed 1279s ETA 24506s (6.81h) rate=0.20/s stats={'hits': 0, 'fetches': 200, 'r429': 60, 'retries': 0, '404': 0}
+2026-10-22 02:48:12 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:49:22 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:49:27 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:49:42 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:50:18 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:50:23 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:51:13 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:51:18 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:51:23 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:51:28 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:52:03 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:52:53 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:52:58 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:53:03 250/4033 elapsed 1589s ETA 24048s (6.68h) rate=0.20/s stats={'hits': 0, 'fetches': 250, 'r429': 73, 'retries': 0, '404': 0}
+2026-10-22 02:53:53 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:53:58 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:54:23 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:54:48 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:55:08 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:55:18 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:55:28 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:55:38 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:55:43 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:55:48 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:56:03 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:56:08 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:56:18 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:56:28 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:56:34 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:57:09 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:57:19 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:57:24 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:57:29 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:57:34 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 02:58:47 300/4033 elapsed 1933s ETA 24058s (6.68h) rate=0.30/s stats={'hits': 0, 'fetches': 300, 'r429': 93, 'retries': 0, '404': 0}
+2026-10-22 03:00:58 350/4033 elapsed 2064s ETA 21721s (6.03h) rate=0.50/s stats={'hits': 0, 'fetches': 350, 'r429': 93, 'retries': 0, '404': 0}
+2026-10-22 03:01:56 429 -> rate 0.30/s retry-after=0.0
+2026-10-22 03:03:01 400/4033 elapsed 2187s ETA 19864s (5.52h) rate=0.40/s stats={'hits': 0, 'fetches': 400, 'r429': 94, 'retries': 0, '404': 0}
+2026-10-22 03:04:06 429 -> rate 0.25/s retry-after=0.0
+2026-10-22 03:05:32 450/4033 elapsed 2338s ETA 18615s (5.17h) rate=0.35/s stats={'hits': 0, 'fetches': 450, 'r429': 95, 'retries': 0, '404': 0}
+2026-10-22 03:07:26 500/4033 elapsed 2452s ETA 17328s (4.81h) rate=0.55/s stats={'hits': 0, 'fetches': 500, 'r429': 95, 'retries': 0, '404': 0}
+2026-10-22 03:07:44 429 -> rate 0.27/s retry-after=0.0
+2026-10-22 03:09:49 550/4033 elapsed 2595s ETA 16436s (4.57h) rate=0.47/s stats={'hits': 0, 'fetches': 550, 'r429': 96, 'retries': 0, '404': 0}
+2026-10-22 03:10:40 429 -> rate 0.24/s retry-after=0.0
+2026-10-22 03:12:19 600/4033 elapsed 2745s ETA 15705s (4.36h) rate=0.34/s stats={'hits': 0, 'fetches': 600, 'r429': 97, 'retries': 0, '404': 0}
+2026-10-22 03:14:12 650/4033 elapsed 2858s ETA 14874s (4.13h) rate=0.54/s stats={'hits': 0, 'fetches': 650, 'r429': 97, 'retries': 0, '404': 0}
+2026-10-22 03:15:35 700/4033 elapsed 2941s ETA 14003s (3.89h) rate=0.64/s stats={'hits': 0, 'fetches': 700, 'r429': 97, 'retries': 0, '404': 0}
+2026-10-22 03:16:22 429 -> rate 0.37/s retry-after=0.0
+2026-10-22 03:17:08 750/4033 elapsed 3034s ETA 13281s (3.69h) rate=0.37/s stats={'hits': 0, 'fetches': 750, 'r429': 98, 'retries': 0, '404': 0}
+2026-10-22 03:18:52 800/4033 elapsed 3138s ETA 12681s (3.52h) rate=0.57/s stats={'hits': 0, 'fetches': 800, 'r429': 98, 'retries': 0, '404': 0}
+2026-10-22 03:19:59 429 -> rate 0.33/s retry-after=0.0
+2026-10-22 03:20:26 850/4033 elapsed 3232s ETA 12104s (3.36h) rate=0.33/s stats={'hits': 0, 'fetches': 850, 'r429': 99, 'retries': 0, '404': 0}
+2026-10-22 03:22:24 900/4033 elapsed 3350s ETA 11662s (3.24h) rate=0.53/s stats={'hits': 0, 'fetches': 900, 'r429': 99, 'retries': 0, '404': 0}
+2026-10-22 03:23:48 950/4033 elapsed 3435s ETA 11147s (3.10h) rate=0.63/s stats={'hits': 0, 'fetches': 950, 'r429': 99, 'retries': 0, '404': 0}
+2026-10-22 03:24:58 1000/4033 elapsed 3505s ETA 10629s (2.95h) rate=0.73/s stats={'hits': 0, 'fetches': 1000, 'r429': 99, 'retries': 0, '404': 0}
+2026-10-22 03:25:32 429 -> rate 0.42/s retry-after=0.0
+2026-10-22 03:26:27 1050/4033 elapsed 3593s ETA 10209s (2.84h) rate=0.42/s stats={'hits': 0, 'fetches': 1050, 'r429': 100, 'retries': 0, '404': 0}
+2026-10-22 03:28:00 1100/4033 elapsed 3686s ETA 9829s (2.73h) rate=0.62/s stats={'hits': 0, 'fetches': 1100, 'r429': 100, 'retries': 0, '404': 0}
+2026-10-22 03:29:14 1150/4033 elapsed 3761s ETA 9428s (2.62h) rate=0.72/s stats={'hits': 0, 'fetches': 1150, 'r429': 100, 'retries': 0, '404': 0}
+2026-10-22 03:30:18 1200/4033 elapsed 3824s ETA 9028s (2.51h) rate=0.82/s stats={'hits': 0, 'fetches': 1200, 'r429': 100, 'retries': 0, '404': 0}
+2026-10-22 03:31:14 1250/4033 elapsed 3880s ETA 8639s (2.40h) rate=0.92/s stats={'hits': 0, 'fetches': 1250, 'r429': 100, 'retries': 0, '404': 0}
+2026-10-22 03:32:05 1300/4033 elapsed 3931s ETA 8265s (2.30h) rate=1.02/s stats={'hits': 0, 'fetches': 1300, 'r429': 100, 'retries': 0, '404': 0}
+2026-10-22 03:32:52 1350/4033 elapsed 3979s ETA 7907s (2.20h) rate=1.12/s stats={'hits': 0, 'fetches': 1350, 'r429': 100, 'retries': 0, '404': 0}
+2026-10-22 03:33:37 1400/4033 elapsed 4023s ETA 7567s (2.10h) rate=1.20/s stats={'hits': 0, 'fetches': 1400, 'r429': 100, 'retries': 0, '404': 0}
+2026-10-22 03:34:19 1450/4033 elapsed 4065s ETA 7241s (2.01h) rate=1.20/s stats={'hits': 0, 'fetches': 1450, 'r429': 100, 'retries': 0, '404': 0}
+2026-10-22 03:35:00 1500/4033 elapsed 4107s ETA 6935s (1.93h) rate=1.20/s stats={'hits': 0, 'fetches': 1500, 'r429': 100, 'retries': 0, '404': 0}
+2026-10-22 03:35:42 1550/4033 elapsed 4149s ETA 6646s (1.85h) rate=1.20/s stats={'hits': 0, 'fetches': 1550, 'r429': 100, 'retries': 0, '404': 0}
+2026-10-22 03:36:07 429 -> rate 0.60/s retry-after=0.0
+2026-10-22 03:36:42 1600/4033 elapsed 4209s ETA 6400s (1.78h) rate=0.60/s stats={'hits': 0, 'fetches': 1600, 'r429': 101, 'retries': 0, '404': 0}
+2026-10-22 03:37:58 1650/4033 elapsed 4284s ETA 6187s (1.72h) rate=0.70/s stats={'hits': 0, 'fetches': 1650, 'r429': 101, 'retries': 0, '404': 0}
+2026-10-22 03:39:01 1700/4033 elapsed 4348s ETA 5967s (1.66h) rate=0.80/s stats={'hits': 0, 'fetches': 1700, 'r429': 101, 'retries': 0, '404': 0}
+2026-10-22 03:39:58 1750/4033 elapsed 4404s ETA 5745s (1.60h) rate=0.90/s stats={'hits': 0, 'fetches': 1750, 'r429': 101, 'retries': 0, '404': 0}
+2026-10-22 03:40:49 1800/4033 elapsed 4455s ETA 5527s (1.54h) rate=1.00/s stats={'hits': 0, 'fetches': 1800, 'r429': 101, 'retries': 0, '404': 0}
+2026-10-22 03:41:36 1850/4033 elapsed 4502s ETA 5313s (1.48h) rate=1.10/s stats={'hits': 0, 'fetches': 1850, 'r429': 101, 'retries': 0, '404': 0}
+2026-10-22 03:42:21 1900/4033 elapsed 4547s ETA 5104s (1.42h) rate=1.20/s stats={'hits': 0, 'fetches': 1900, 'r429': 101, 'retries': 0, '404': 0}
+2026-10-22 03:43:02 1950/4033 elapsed 4589s ETA 4902s (1.36h) rate=1.20/s stats={'hits': 0, 'fetches': 1950, 'r429': 101, 'retries': 0, '404': 0}
+2026-10-22 03:43:44 2000/4033 elapsed 4630s ETA 4707s (1.31h) rate=1.20/s stats={'hits': 0, 'fetches': 2000, 'r429': 101, 'retries': 0, '404': 0}
+2026-10-22 03:44:26 2050/4033 elapsed 4672s ETA 4519s (1.26h) rate=1.20/s stats={'hits': 0, 'fetches': 2050, 'r429': 101, 'retries': 0, '404': 0}
+2026-10-22 03:45:08 2100/4033 elapsed 4714s ETA 4339s (1.21h) rate=1.20/s stats={'hits': 0, 'fetches': 2100, 'r429': 101, 'retries': 0, '404': 0}
+2026-10-22 03:45:49 2150/4033 elapsed 4756s ETA 4165s (1.16h) rate=1.20/s stats={'hits': 0, 'fetches': 2150, 'r429': 101, 'retries': 0, '404': 0}
+2026-10-22 03:46:31 2200/4033 elapsed 4797s ETA 3997s (1.11h) rate=1.20/s stats={'hits': 0, 'fetches': 2200, 'r429': 101, 'retries': 0, '404': 0}
+2026-10-22 03:47:13 2250/4033 elapsed 4839s ETA 3835s (1.07h) rate=1.20/s stats={'hits': 0, 'fetches': 2250, 'r429': 101, 'retries': 0, '404': 0}
+2026-10-22 03:47:54 2300/4033 elapsed 4881s ETA 3678s (1.02h) rate=1.20/s stats={'hits': 0, 'fetches': 2300, 'r429': 101, 'retries': 0, '404': 0}
+2026-10-22 03:48:36 2350/4033 elapsed 4923s ETA 3525s (0.98h) rate=1.20/s stats={'hits': 0, 'fetches': 2350, 'r429': 101, 'retries': 0, '404': 0}
+2026-10-22 03:49:18 2400/4033 elapsed 4964s ETA 3378s (0.94h) rate=1.20/s stats={'hits': 0, 'fetches': 2400, 'r429': 101, 'retries': 0, '404': 0}
+2026-10-22 03:49:27 429 -> rate 0.60/s retry-after=0.0
+2026-10-22 03:50:33 2450/4033 elapsed 5039s ETA 3256s (0.90h) rate=0.70/s stats={'hits': 0, 'fetches': 2450, 'r429': 102, 'retries': 0, '404': 0}
+2026-10-22 03:51:42 2500/4033 elapsed 5109s ETA 3133s (0.87h) rate=0.80/s stats={'hits': 0, 'fetches': 2500, 'r429': 102, 'retries': 0, '404': 0}
+2026-10-22 03:52:43 2550/4033 elapsed 5169s ETA 3006s (0.84h) rate=0.90/s stats={'hits': 0, 'fetches': 2550, 'r429': 102, 'retries': 0, '404': 0}
+2026-10-22 03:53:38 2600/4033 elapsed 5224s ETA 2879s (0.80h) rate=1.00/s stats={'hits': 0, 'fetches': 2600, 'r429': 102, 'retries': 0, '404': 0}
+2026-10-22 03:54:28 2650/4033 elapsed 5274s ETA 2752s (0.76h) rate=1.10/s stats={'hits': 0, 'fetches': 2650, 'r429': 102, 'retries': 0, '404': 0}
+2026-10-22 03:55:12 2700/4033 elapsed 5319s ETA 2626s (0.73h) rate=1.10/s stats={'hits': 1, 'fetches': 2699, 'r429': 102, 'retries': 0, '404': 0}
+2026-10-22 03:55:55 2750/4033 elapsed 5362s ETA 2501s (0.69h) rate=1.20/s stats={'hits': 1, 'fetches': 2749, 'r429': 102, 'retries': 0, '404': 0}
+2026-10-22 03:56:37 2800/4033 elapsed 5403s ETA 2379s (0.66h) rate=1.20/s stats={'hits': 1, 'fetches': 2799, 'r429': 102, 'retries': 0, '404': 0}
+2026-10-22 03:57:19 2850/4033 elapsed 5445s ETA 2260s (0.63h) rate=1.20/s stats={'hits': 1, 'fetches': 2849, 'r429': 102, 'retries': 0, '404': 0}
+2026-10-22 03:58:00 2900/4033 elapsed 5487s ETA 2144s (0.60h) rate=1.20/s stats={'hits': 1, 'fetches': 2899, 'r429': 102, 'retries': 0, '404': 0}
+2026-10-22 03:58:42 2950/4033 elapsed 5529s ETA 2030s (0.56h) rate=1.20/s stats={'hits': 1, 'fetches': 2949, 'r429': 102, 'retries': 0, '404': 0}
+2026-10-22 03:59:24 3000/4033 elapsed 5570s ETA 1918s (0.53h) rate=1.20/s stats={'hits': 1, 'fetches': 2999, 'r429': 102, 'retries': 0, '404': 0}
+2026-10-22 04:00:06 3050/4033 elapsed 5612s ETA 1809s (0.50h) rate=1.20/s stats={'hits': 1, 'fetches': 3049, 'r429': 102, 'retries': 0, '404': 0}
+2026-10-22 04:00:18 429 -> rate 0.60/s retry-after=0.0
+2026-10-22 04:00:25 429 -> rate 0.30/s retry-after=0.0
+2026-10-22 04:02:03 3100/4033 elapsed 5729s ETA 1724s (0.48h) rate=0.40/s stats={'hits': 1, 'fetches': 3099, 'r429': 104, 'retries': 0, '404': 0}
+2026-10-22 04:03:44 3150/4033 elapsed 5830s ETA 1634s (0.45h) rate=0.60/s stats={'hits': 1, 'fetches': 3149, 'r429': 104, 'retries': 0, '404': 0}
+2026-10-22 04:05:01 3200/4033 elapsed 5907s ETA 1538s (0.43h) rate=0.70/s stats={'hits': 1, 'fetches': 3199, 'r429': 104, 'retries': 0, '404': 0}
+2026-10-22 04:05:18 429 -> rate 0.35/s retry-after=0.0
+2026-10-22 04:06:27 429 -> rate 0.22/s retry-after=0.0
+2026-10-22 04:06:32 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:06:47 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:06:57 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:07:02 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:07:12 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:07:37 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:08:12 3250/4033 elapsed 6098s ETA 1469s (0.41h) rate=0.20/s stats={'hits': 1, 'fetches': 3249, 'r429': 112, 'retries': 0, '404': 0}
+2026-10-22 04:08:17 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:08:22 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:09:02 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:10:05 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:10:10 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:10:26 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:10:31 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:10:36 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:10:46 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:10:51 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:11:06 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:11:11 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:11:36 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:11:41 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:11:51 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:11:56 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:12:01 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:12:11 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:12:16 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:12:26 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:12:31 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:13:06 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:13:11 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:13:16 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:13:21 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:13:26 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:13:36 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:13:56 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:14:06 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:14:16 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:14:26 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:14:56 3300/4033 elapsed 6503s ETA 1444s (0.40h) rate=0.20/s stats={'hits': 1, 'fetches': 3299, 'r429': 143, 'retries': 0, '404': 0}
+2026-10-22 04:15:33 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:15:53 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:16:23 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:16:43 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:17:09 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:17:24 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:17:34 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:17:44 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:17:54 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:18:44 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:19:19 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:19:59 3350/4033 elapsed 6806s ETA 1388s (0.39h) rate=0.20/s stats={'hits': 1, 'fetches': 3349, 'r429': 154, 'retries': 0, '404': 0}
+2026-10-22 04:20:26 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:20:56 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:21:16 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:21:41 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:23:49 3400/4033 elapsed 7035s ETA 1310s (0.36h) rate=0.40/s stats={'hits': 1, 'fetches': 3399, 'r429': 158, 'retries': 0, '404': 0}
+2026-10-22 04:25:21 429 -> rate 0.25/s retry-after=0.0
+2026-10-22 04:26:01 3450/4033 elapsed 7168s ETA 1211s (0.34h) rate=0.25/s stats={'hits': 1, 'fetches': 3449, 'r429': 159, 'retries': 0, '404': 0}
+2026-10-22 04:28:15 3500/4033 elapsed 7301s ETA 1112s (0.31h) rate=0.45/s stats={'hits': 1, 'fetches': 3499, 'r429': 159, 'retries': 0, '404': 0}
+2026-10-22 04:29:43 3550/4033 elapsed 7389s ETA 1005s (0.28h) rate=0.65/s stats={'hits': 1, 'fetches': 3549, 'r429': 159, 'retries': 0, '404': 0}
+2026-10-22 04:30:55 3600/4033 elapsed 7461s ETA 897s (0.25h) rate=0.75/s stats={'hits': 1, 'fetches': 3599, 'r429': 159, 'retries': 0, '404': 0}
+2026-10-22 04:31:08 429 -> rate 0.37/s retry-after=0.0
+2026-10-22 04:32:48 3650/4033 elapsed 7574s ETA 795s (0.22h) rate=0.47/s stats={'hits': 1, 'fetches': 3649, 'r429': 160, 'retries': 0, '404': 0}
+2026-10-22 04:33:59 429 -> rate 0.29/s retry-after=0.0
+2026-10-22 04:34:41 3700/4033 elapsed 7687s ETA 692s (0.19h) rate=0.29/s stats={'hits': 1, 'fetches': 3699, 'r429': 161, 'retries': 0, '404': 0}
+2026-10-22 04:35:02 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:37:40 3750/4033 elapsed 7866s ETA 594s (0.16h) rate=0.40/s stats={'hits': 1, 'fetches': 3749, 'r429': 162, 'retries': 0, '404': 0}
+2026-10-22 04:39:21 3800/4033 elapsed 7967s ETA 488s (0.14h) rate=0.60/s stats={'hits': 1, 'fetches': 3799, 'r429': 162, 'retries': 0, '404': 0}
+2026-10-22 04:40:38 3850/4033 elapsed 8044s ETA 382s (0.11h) rate=0.70/s stats={'hits': 1, 'fetches': 3849, 'r429': 162, 'retries': 0, '404': 0}
+2026-10-22 04:41:14 429 -> rate 0.40/s retry-after=0.0
+2026-10-22 04:42:16 3900/4033 elapsed 8142s ETA 278s (0.08h) rate=0.50/s stats={'hits': 1, 'fetches': 3899, 'r429': 163, 'retries': 0, '404': 0}
+2026-10-22 04:43:49 3950/4033 elapsed 8235s ETA 173s (0.05h) rate=0.60/s stats={'hits': 1, 'fetches': 3949, 'r429': 163, 'retries': 0, '404': 0}
+2026-10-22 04:43:57 429 -> rate 0.30/s retry-after=0.0
+2026-10-22 04:45:33 429 -> rate 0.20/s retry-after=0.0
+2026-10-22 04:46:43 4000/4033 elapsed 8409s ETA 69s (0.02h) rate=0.30/s stats={'hits': 1, 'fetches': 3999, 'r429': 165, 'retries': 0, '404': 0}
+2026-10-22 04:48:18 DONE 4033 stats={'hits': 1, 'fetches': 4032, 'r429': 165, 'retries': 0, '404': 0}
+2026-10-22 04:48:21 split=unseen games=267 game_skips={} jobs=4104 already_done=0 todo=4104

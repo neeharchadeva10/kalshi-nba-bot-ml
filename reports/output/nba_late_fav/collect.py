@@ -14,7 +14,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-sys.path.insert(0, str(HERE.parents[3] / "src"))
+sys.path.insert(0, str(HERE.parents[2] / "src"))
 sys.path.insert(0, str(HERE))
 from kpm.clients.kalshi import KalshiClient  # noqa: E402
 from kpm.core.timeutil import parse_iso  # noqa: E402
@@ -152,5 +152,5 @@ if __name__ == "__main__":
     step = sys.argv[1]
     conn = connect()
     cl = KalshiClient(conn)
-    cl.http.min_interval_s = 0.15          # ~6.7 req/s shared across workers (another job is downloading too)
+    cl.http.min_interval_s = 0.7          # <= ~1.4 req/s total (user cap 1.5 req/s; other downloads run in parallel)
     {"markets": do_markets, "candles": do_candles, "trades": do_trades}[step](conn, cl)

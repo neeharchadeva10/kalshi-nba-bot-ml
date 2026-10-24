@@ -1,0 +1,1349 @@
+{
+ "seasons": {
+  "2008-09": {
+   "line_source": "oddsdata (X_new, else X)",
+   "hoopr_regular_games": 1230,
+   "line_rows_in": 1315,
+   "excluded": {
+    "snapshot_at_or_after_commence": 0,
+    "unmatched": 0,
+    "not_regular_season": 85,
+    "ambiguous_match": 0,
+    "duplicate_game": 0,
+    "line_missing": 0,
+    "line_disputed": 0,
+    "line_out_of_range_170_275": 0,
+    "line_far_from_team_mean_gt30": 0
+   },
+   "rows_out": 1230,
+   "hoopr_games_without_clean_line": 0
+  },
+  "2009-10": {
+   "line_source": "oddsdata (X_new, else X)",
+   "hoopr_regular_games": 1230,
+   "line_rows_in": 1312,
+   "excluded": {
+    "snapshot_at_or_after_commence": 0,
+    "unmatched": 0,
+    "not_regular_season": 81,
+    "ambiguous_match": 1,
+    "duplicate_game": 0,
+    "line_missing": 0,
+    "line_disputed": 0,
+    "line_out_of_range_170_275": 0,
+    "line_far_from_team_mean_gt30": 0
+   },
+   "rows_out": 1230,
+   "hoopr_games_without_clean_line": 0
+  },
+  "2010-11": {
+   "line_source": "oddsdata (X_new, else X)",
+   "hoopr_regular_games": 1230,
+   "line_rows_in": 1311,
+   "excluded": {
+    "snapshot_at_or_after_commence": 0,
+    "unmatched": 0,
+    "not_regular_season": 81,
+    "ambiguous_match": 0,
+    "duplicate_game": 0,
+    "line_missing": 0,
+    "line_disputed": 0,
+    "line_out_of_range_170_275": 3,
+    "line_far_from_team_mean_gt30": 0
+   },
+   "rows_out": 1227,
+   "hoopr_games_without_clean_line": 3
+  },
+  "2011-12": {
+   "line_source": "oddsdata (X_new, else X)",
+   "hoopr_regular_games": 990,
+   "line_rows_in": 1074,
+   "excluded": {
+    "snapshot_at_or_after_commence": 0,
+    "unmatched": 0,
+    "not_regular_season": 84,
+    "ambiguous_match": 0,
+    "duplicate_game": 0,
+    "line_missing": 0,
+    "line_disputed": 0,
+    "line_out_of_range_170_275": 5,
+    "line_far_from_team_mean_gt30": 0
+   },
+   "rows_out": 985,
+   "hoopr_games_without_clean_line": 5
+  },
+  "2012-13": {
+   "line_source": "oddsdata (X_new, else X)",
+   "hoopr_regular_games": 1224,
+   "line_rows_in": 1314,
+   "excluded": {
+    "snapshot_at_or_after_commence": 0,
+    "unmatched": 5,
+    "not_regular_season": 85,
+    "ambiguous_match": 0,
+    "duplicate_game": 0,
+    "line_missing": 0,
+    "line_disputed": 0,
+    "line_out_of_range_170_275": 1,
+    "line_far_from_team_mean_gt30": 0
+   },
+   "rows_out": 1223,
+   "hoopr_games_without_clean_line": 1
+  },
+  "2013-14": {
+   "line_source": "oddsdata (X_new, else X)",
+   "hoopr_regular_games": 1229,
+   "line_rows_in": 1319,
+   "excluded": {
+    "snapshot_at_or_after_commence": 0,
+    "unmatched": 1,
+    "not_regular_season": 89,
+    "ambiguous_match": 0,
+    "duplicate_game": 0,
+    "line_missing": 0,
+    "line_disputed": 0,
+    "line_out_of_range_170_275": 0,
+    "line_far_from_team_mean_gt30": 0
+   },
+   "rows_out": 1229,
+   "hoopr_games_without_clean_line": 0
+  },
+  "2014-15": {
+   "line_source": "oddsdata (X_new, else X)",
+   "hoopr_regular_games": 1230,
+   "line_rows_in": 1311,
+   "excluded": {
+    "snapshot_at_or_after_commence": 0,
+    "unmatched": 0,
+    "not_regular_season": 81,
+    "ambiguous_match": 0,
+    "duplicate_game": 0,
+    "line_missing": 0,
+    "line_disputed": 0,
+    "line_out_of_range_170_275": 1,
+    "line_far_from_team_mean_gt30": 0
+   },
+   "rows_out": 1229,
+   "hoopr_games_without_clean_line": 1
+  },
+  "2015-16": {
+   "line_source": "oddsdata (X_new, else X)",
+   "hoopr_regular_games": 1230,
+   "line_rows_in": 1316,
+   "excluded": {
+    "snapshot_at_or_after_commence": 0,
+    "unmatched": 0,
+    "not_regular_season": 86,
+    "ambiguous_match": 0,
+    "duplicate_game": 0,
+    "line_missing": 0,
+    "line_disputed": 0,
+    "line_out_of_range_170_275": 0,
+    "line_far_from_team_mean_gt30": 0
+   },
+   "rows_out": 1230,
+   "hoopr_games_without_clean_line": 0
+  },
+  "2016-17": {
+   "line_source": "oddsdata (X_new, else X)",
+   "hoopr_regular_games": 1229,
+   "line_rows_in": 1309,
+   "excluded": {
+    "snapshot_at_or_after_commence": 0,
+    "unmatched": 1,
+    "not_regular_season": 76,
+    "ambiguous_match": 3,
+    "duplicate_game": 0,
+    "line_missing": 0,
+    "line_disputed": 0,
+    "line_out_of_range_170_275": 1,
+    "line_far_from_team_mean_gt30": 0
+   },
+   "rows_out": 1228,
+   "hoopr_games_without_clean_line": 1
+  },
+  "2017-18": {
+   "line_source": "oddsdata (X_new, else X)",
+   "hoopr_regular_games": 1229,
+   "line_rows_in": 1312,
+   "excluded": {
+    "snapshot_at_or_after_commence": 0,
+    "unmatched": 1,
+    "not_regular_season": 82,
+    "ambiguous_match": 0,
+    "duplicate_game": 0,
+    "line_missing": 0,
+    "line_disputed": 0,
+    "line_out_of_range_170_275": 0,
+    "line_far_from_team_mean_gt30": 0
+   },
+   "rows_out": 1229,
+   "hoopr_games_without_clean_line": 0
+  },
+  "2018-19": {
+   "line_source": "oddsdata (X_new, else X)",
+   "hoopr_regular_games": 1230,
+   "line_rows_in": 1312,
+   "excluded": {
+    "snapshot_at_or_after_commence": 0,
+    "unmatched": 0,
+    "not_regular_season": 82,
+    "ambiguous_match": 0,
+    "duplicate_game": 0,
+    "line_missing": 0,
+    "line_disputed": 0,
+    "line_out_of_range_170_275": 0,
+    "line_far_from_team_mean_gt30": 0
+   },
+   "rows_out": 1230,
+   "hoopr_games_without_clean_line": 0
+  },
+  "2019-20": {
+   "line_source": "oddsdata (X_new, else X)",
+   "hoopr_regular_games": 1059,
+   "line_rows_in": 1143,
+   "excluded": {
+    "snapshot_at_or_after_commence": 0,
+    "unmatched": 0,
+    "not_regular_season": 84,
+    "ambiguous_match": 0,
+    "duplicate_game": 0,
+    "line_missing": 0,
+    "line_disputed": 0,
+    "line_out_of_range_170_275": 2,
+    "line_far_from_team_mean_gt30": 0
+   },
+   "rows_out": 1057,
+   "hoopr_games_without_clean_line": 2
+  },
+  "2020-21": {
+   "line_source": "closing_lines",
+   "hoopr_regular_games": 1080,
+   "line_rows_in": 1162,
+   "excluded": {
+    "snapshot_at_or_after_commence": 21,
+    "unmatched": 7,
+    "not_regular_season": 78,
+    "ambiguous_match": 0,
+    "duplicate_game": 0,
+    "line_missing": 0,
+    "line_disputed": 0,
+    "line_out_of_range_170_275": 0,
+    "line_far_from_team_mean_gt30": 0
+   },
+   "rows_out": 1056,
+   "hoopr_games_without_clean_line": 24,
+   "games_without_closing_but_with_oddsdata_row": 24
+  },
+  "2021-22": {
+   "line_source": "closing_lines",
+   "hoopr_regular_games": 1230,
+   "line_rows_in": 1322,
+   "excluded": {
+    "snapshot_at_or_after_commence": 4,
+    "unmatched": 0,
+    "not_regular_season": 93,
+    "ambiguous_match": 0,
+    "duplicate_game": 0,
+    "line_missing": 0,
+    "line_disputed": 0,
+    "line_out_of_range_170_275": 0,
+    "line_far_from_team_mean_gt30": 0
+   },
+   "rows_out": 1225,
+   "hoopr_games_without_clean_line": 5,
+   "games_without_closing_but_with_oddsdata_row": 5
+  },
+  "2022-23": {
+   "line_source": "closing_lines",
+   "hoopr_regular_games": 1230,
+   "line_rows_in": 1319,
+   "excluded": {
+    "snapshot_at_or_after_commence": 30,
+    "unmatched": 0,
+    "not_regular_season": 90,
+    "ambiguous_match": 0,
+    "duplicate_game": 0,
+    "line_missing": 0,
+    "line_disputed": 0,
+    "line_out_of_range_170_275": 0,
+    "line_far_from_team_mean_gt30": 0
+   },
+   "rows_out": 1199,
+   "hoopr_games_without_clean_line": 31,
+   "games_without_closing_but_with_oddsdata_row": 31
+  },
+  "2023-24": {
+   "line_source": "closing_lines",
+   "hoopr_regular_games": 1231,
+   "line_rows_in": 1319,
+   "excluded": {
+    "snapshot_at_or_after_commence": 9,
+    "unmatched": 0,
+    "not_regular_season": 87,
+    "ambiguous_match": 0,
+    "duplicate_game": 0,
+    "line_missing": 0,
+    "line_disputed": 0,
+    "line_out_of_range_170_275": 0,
+    "line_far_from_team_mean_gt30": 0
+   },
+   "rows_out": 1223,
+   "hoopr_games_without_clean_line": 8,
+   "games_without_closing_but_with_oddsdata_row": 8
+  },
+  "2024-25": {
+   "line_source": "closing_lines",
+   "hoopr_regular_games": 1231,
+   "line_rows_in": 1321,
+   "excluded": {
+    "snapshot_at_or_after_commence": 14,
+    "unmatched": 0,
+    "not_regular_season": 88,
+    "ambiguous_match": 0,
+    "duplicate_game": 0,
+    "line_missing": 0,
+    "line_disputed": 0,
+    "line_out_of_range_170_275": 0,
+    "line_far_from_team_mean_gt30": 0
+   },
+   "rows_out": 1219,
+   "hoopr_games_without_clean_line": 12,
+   "games_without_closing_but_with_oddsdata_row": 12
+  },
+  "2025-26": {
+   "line_source": "closing_lines",
+   "hoopr_regular_games": 1231,
+   "line_rows_in": 1323,
+   "excluded": {
+    "snapshot_at_or_after_commence": 13,
+    "unmatched": 1,
+    "not_regular_season": 91,
+    "ambiguous_match": 0,
+    "duplicate_game": 0,
+    "line_missing": 0,
+    "line_disputed": 0,
+    "line_out_of_range_170_275": 0,
+    "line_far_from_team_mean_gt30": 0
+   },
+   "rows_out": 1218,
+   "hoopr_games_without_clean_line": 13,
+   "games_without_closing_but_with_oddsdata_row": 7
+  }
+ },
+ "odds_x_vs_new": {
+  "2008-09": {
+   "rows_x": 1315,
+   "rows_new": 1315,
+   "rows_in_both": 1315,
+   "only_x": 0,
+   "only_new": 0,
+   "ou_differ_any": 0,
+   "ou_differ_gt1": 0,
+   "max_abs_ou_diff": 0.0,
+   "spread_differ_any": 0,
+   "points_differ_any": 0
+  },
+  "2009-10": {
+   "rows_x": 1312,
+   "rows_new": 1312,
+   "rows_in_both": 1312,
+   "only_x": 0,
+   "only_new": 0,
+   "ou_differ_any": 0,
+   "ou_differ_gt1": 0,
+   "max_abs_ou_diff": 0.0,
+   "spread_differ_any": 0,
+   "points_differ_any": 0
+  },
+  "2010-11": {
+   "rows_x": 1311,
+   "rows_new": 1311,
+   "rows_in_both": 1311,
+   "only_x": 0,
+   "only_new": 0,
+   "ou_differ_any": 0,
+   "ou_differ_gt1": 0,
+   "max_abs_ou_diff": 0.0,
+   "spread_differ_any": 0,
+   "points_differ_any": 0
+  },
+  "2011-12": {
+   "rows_x": 1074,
+   "rows_new": 1074,
+   "rows_in_both": 1074,
+   "only_x": 0,
+   "only_new": 0,
+   "ou_differ_any": 0,
+   "ou_differ_gt1": 0,
+   "max_abs_ou_diff": 0.0,
+   "spread_differ_any": 0,
+   "points_differ_any": 0
+  },
+  "2012-13": {
+   "rows_x": 1314,
+   "rows_new": 1314,
+   "rows_in_both": 1314,
+   "only_x": 0,
+   "only_new": 0,
+   "ou_differ_any": 0,
+   "ou_differ_gt1": 0,
+   "max_abs_ou_diff": 0.0,
+   "spread_differ_any": 0,
+   "points_differ_any": 0
+  },
+  "2013-14": {
+   "rows_x": 1319,
+   "rows_new": 1319,
+   "rows_in_both": 1319,
+   "only_x": 0,
+   "only_new": 0,
+   "ou_differ_any": 0,
+   "ou_differ_gt1": 0,
+   "max_abs_ou_diff": 0.0,
+   "spread_differ_any": 0,
+   "points_differ_any": 0
+  },
+  "2014-15": {
+   "rows_x": 1311,
+   "rows_new": 1311,
+   "rows_in_both": 1311,
+   "only_x": 0,
+   "only_new": 0,
+   "ou_differ_any": 0,
+   "ou_differ_gt1": 0,
+   "max_abs_ou_diff": 0.0,
+   "spread_differ_any": 0,
+   "points_differ_any": 0
+  },
+  "2015-16": {
+   "rows_x": 1316,
+   "rows_new": 1316,
+   "rows_in_both": 1316,
+   "only_x": 0,
+   "only_new": 0,
+   "ou_differ_any": 0,
+   "ou_differ_gt1": 0,
+   "max_abs_ou_diff": 0.0,
+   "spread_differ_any": 0,
+   "points_differ_any": 0
+  },
+  "2016-17": {
+   "rows_x": 1309,
+   "rows_new": 1309,
+   "rows_in_both": 1309,
+   "only_x": 0,
+   "only_new": 0,
+   "ou_differ_any": 0,
+   "ou_differ_gt1": 0,
+   "max_abs_ou_diff": 0.0,
+   "spread_differ_any": 0,
+   "points_differ_any": 0
+  },
+  "2017-18": {
+   "rows_x": 1312,
+   "rows_new": 1312,
+   "rows_in_both": 1312,
+   "only_x": 0,
+   "only_new": 0,
+   "ou_differ_any": 0,
+   "ou_differ_gt1": 0,
+   "max_abs_ou_diff": 0.0,
+   "spread_differ_any": 0,
+   "points_differ_any": 0
+  },
+  "2018-19": {
+   "rows_x": 1312,
+   "rows_new": 1312,
+   "rows_in_both": 1312,
+   "only_x": 0,
+   "only_new": 0,
+   "ou_differ_any": 0,
+   "ou_differ_gt1": 0,
+   "max_abs_ou_diff": 0.0,
+   "spread_differ_any": 0,
+   "points_differ_any": 0
+  },
+  "2019-20": {
+   "rows_x": 1143,
+   "rows_new": 1143,
+   "rows_in_both": 1143,
+   "only_x": 0,
+   "only_new": 0,
+   "ou_differ_any": 0,
+   "ou_differ_gt1": 0,
+   "max_abs_ou_diff": 0.0,
+   "spread_differ_any": 0,
+   "points_differ_any": 0
+  },
+  "2020-21": {
+   "rows_x": 1171,
+   "rows_new": 1171,
+   "rows_in_both": 1171,
+   "only_x": 0,
+   "only_new": 0,
+   "ou_differ_any": 0,
+   "ou_differ_gt1": 0,
+   "max_abs_ou_diff": 0.0,
+   "spread_differ_any": 0,
+   "points_differ_any": 0
+  },
+  "2021-22": {
+   "rows_x": 1323,
+   "rows_new": 1323,
+   "rows_in_both": 1323,
+   "only_x": 0,
+   "only_new": 0,
+   "ou_differ_any": 0,
+   "ou_differ_gt1": 0,
+   "max_abs_ou_diff": 0.0,
+   "spread_differ_any": 0,
+   "points_differ_any": 0
+  },
+  "2022-23": {
+   "rows_x": 1319,
+   "rows_new": 1319,
+   "rows_in_both": 1319,
+   "only_x": 0,
+   "only_new": 0,
+   "ou_differ_any": 0,
+   "ou_differ_gt1": 0,
+   "max_abs_ou_diff": 0.0,
+   "spread_differ_any": 0,
+   "points_differ_any": 0
+  },
+  "2023-24": {
+   "rows_x": 1255,
+   "rows_new": 1195,
+   "rows_in_both": 1113,
+   "only_x": 142,
+   "only_new": 82,
+   "ou_differ_any": 1,
+   "ou_differ_gt1": 0,
+   "max_abs_ou_diff": 1.0,
+   "spread_differ_any": 0,
+   "points_differ_any": 4
+  },
+  "2024-25": {
+   "rows_x": 1326,
+   "rows_new": 0,
+   "rows_in_both": 0,
+   "only_x": 1326,
+   "only_new": 0,
+   "ou_differ_any": 0,
+   "ou_differ_gt1": 0,
+   "max_abs_ou_diff": null,
+   "spread_differ_any": 0,
+   "points_differ_any": 0
+  },
+  "2025-26": {
+   "rows_x": 554,
+   "rows_new": 0,
+   "rows_in_both": 0,
+   "only_x": 554,
+   "only_new": 0,
+   "ou_differ_any": 0,
+   "ou_differ_gt1": 0,
+   "max_abs_ou_diff": null,
+   "spread_differ_any": 0,
+   "points_differ_any": 0
+  }
+ },
+ "closing_vs_odds": {
+  "2019-20": {
+   "oddsdata_new": {
+    "n_both": 88,
+    "exact": 5,
+    "abs_le_0.5": 19,
+    "abs_le_1": 24,
+    "abs_gt_1": 64,
+    "abs_gt_3": 35,
+    "mean_odds_minus_close": -1.2926136363636365,
+    "rmse": 4.058083263404939,
+    "median_abs": 2.5,
+    "n_odds_in_range": 88,
+    "rmse_in_range": 4.058083263404939
+   },
+   "oddsdata_x": {
+    "n_both": 88,
+    "exact": 5,
+    "abs_le_0.5": 19,
+    "abs_le_1": 24,
+    "abs_gt_1": 64,
+    "abs_gt_3": 35,
+    "mean_odds_minus_close": -1.2926136363636365,
+    "rmse": 4.058083263404939,
+    "median_abs": 2.5,
+    "n_odds_in_range": 88,
+    "rmse_in_range": 4.058083263404939
+   }
+  },
+  "2020-21": {
+   "oddsdata_new": {
+    "n_both": 1070,
+    "exact": 59,
+    "abs_le_0.5": 182,
+    "abs_le_1": 317,
+    "abs_gt_1": 753,
+    "abs_gt_3": 330,
+    "mean_odds_minus_close": -0.3425233644859813,
+    "rmse": 13.482460915443019,
+    "median_abs": 2.125,
+    "n_odds_in_range": 1066,
+    "rmse_in_range": 3.264759385644499
+   },
+   "oddsdata_x": {
+    "n_both": 1070,
+    "exact": 59,
+    "abs_le_0.5": 182,
+    "abs_le_1": 317,
+    "abs_gt_1": 753,
+    "abs_gt_3": 330,
+    "mean_odds_minus_close": -0.3425233644859813,
+    "rmse": 13.482460915443019,
+    "median_abs": 2.125,
+    "n_odds_in_range": 1066,
+    "rmse_in_range": 3.264759385644499
+   }
+  },
+  "2021-22": {
+   "oddsdata_new": {
+    "n_both": 1229,
+    "exact": 61,
+    "abs_le_0.5": 207,
+    "abs_le_1": 343,
+    "abs_gt_1": 886,
+    "abs_gt_3": 395,
+    "mean_odds_minus_close": -0.6558177379983726,
+    "rmse": 12.51273964312888,
+    "median_abs": 2.0,
+    "n_odds_in_range": 1225,
+    "rmse_in_range": 3.455201639173456
+   },
+   "oddsdata_x": {
+    "n_both": 1229,
+    "exact": 61,
+    "abs_le_0.5": 207,
+    "abs_le_1": 343,
+    "abs_gt_1": 886,
+    "abs_gt_3": 395,
+    "mean_odds_minus_close": -0.6558177379983726,
+    "rmse": 12.51273964312888,
+    "median_abs": 2.0,
+    "n_odds_in_range": 1225,
+    "rmse_in_range": 3.455201639173456
+   }
+  },
+  "2022-23": {
+   "oddsdata_new": {
+    "n_both": 1227,
+    "exact": 598,
+    "abs_le_0.5": 1021,
+    "abs_le_1": 1113,
+    "abs_gt_1": 114,
+    "abs_gt_3": 49,
+    "mean_odds_minus_close": 0.0582722086389568,
+    "rmse": 2.2710798281835163,
+    "median_abs": 0.25,
+    "n_odds_in_range": 1227,
+    "rmse_in_range": 2.2710798281835163
+   },
+   "oddsdata_x": {
+    "n_both": 1227,
+    "exact": 598,
+    "abs_le_0.5": 1021,
+    "abs_le_1": 1113,
+    "abs_gt_1": 114,
+    "abs_gt_3": 49,
+    "mean_odds_minus_close": 0.0582722086389568,
+    "rmse": 2.2710798281835163,
+    "median_abs": 0.25,
+    "n_odds_in_range": 1227,
+    "rmse_in_range": 2.2710798281835163
+   }
+  },
+  "2023-24": {
+   "oddsdata_new": {
+    "n_both": 1082,
+    "exact": 459,
+    "abs_le_0.5": 843,
+    "abs_le_1": 965,
+    "abs_gt_1": 117,
+    "abs_gt_3": 21,
+    "mean_odds_minus_close": 0.02564695009242144,
+    "rmse": 1.107835269055892,
+    "median_abs": 0.5,
+    "n_odds_in_range": 1082,
+    "rmse_in_range": 1.107835269055892
+   },
+   "oddsdata_x": {
+    "n_both": 1140,
+    "exact": 476,
+    "abs_le_0.5": 879,
+    "abs_le_1": 1013,
+    "abs_gt_1": 127,
+    "abs_gt_3": 23,
+    "mean_odds_minus_close": 0.023464912280701754,
+    "rmse": 1.1245125649684533,
+    "median_abs": 0.5,
+    "n_odds_in_range": 1140,
+    "rmse_in_range": 1.1245125649684533
+   }
+  },
+  "2024-25": {
+   "oddsdata_new": {
+    "n_both": 0,
+    "exact": 0,
+    "abs_le_0.5": 0,
+    "abs_le_1": 0,
+    "abs_gt_1": 0,
+    "abs_gt_3": 0,
+    "mean_odds_minus_close": null,
+    "rmse": null,
+    "median_abs": null,
+    "n_odds_in_range": 0,
+    "rmse_in_range": null
+   },
+   "oddsdata_x": {
+    "n_both": 1231,
+    "exact": 573,
+    "abs_le_0.5": 1043,
+    "abs_le_1": 1170,
+    "abs_gt_1": 61,
+    "abs_gt_3": 7,
+    "mean_odds_minus_close": -0.017871649065800164,
+    "rmse": 0.6995995140775054,
+    "median_abs": 0.25,
+    "n_odds_in_range": 1231,
+    "rmse_in_range": 0.6995995140775054
+   }
+  },
+  "2025-26": {
+   "oddsdata_new": {
+    "n_both": 0,
+    "exact": 0,
+    "abs_le_0.5": 0,
+    "abs_le_1": 0,
+    "abs_gt_1": 0,
+    "abs_gt_3": 0,
+    "mean_odds_minus_close": null,
+    "rmse": null,
+    "median_abs": null,
+    "n_odds_in_range": 0,
+    "rmse_in_range": null
+   },
+   "oddsdata_x": {
+    "n_both": 554,
+    "exact": 185,
+    "abs_le_0.5": 326,
+    "abs_le_1": 398,
+    "abs_gt_1": 156,
+    "abs_gt_3": 85,
+    "mean_odds_minus_close": 0.19810469314079424,
+    "rmse": 2.6793728386815188,
+    "median_abs": 0.5,
+    "n_odds_in_range": 554,
+    "rmse_in_range": 2.6793728386815188
+   }
+  }
+ },
+ "hoopr": {
+  "2007-08": {
+   "oreb_mean": 8.363821138211382,
+   "dreb_mean": 11.199593495934959,
+   "tov_mean": 14.113414634146341,
+   "tov_rule": "turnovers (total_turnovers is doubled)",
+   "tov_ratio": 2.0,
+   "tov_rows_total_lt_turnovers": 0,
+   "tov_rows_total_nan": 0,
+   "regular_season_games": 1230,
+   "teams": 30,
+   "games_per_team_min": 82,
+   "games_per_team_max": 82,
+   "first_date": "2007-10-30",
+   "last_date": "2008-04-16",
+   "score_inconsistent_home_vs_away": 0,
+   "game_id_duplicated_across_seasons": 0
+  },
+  "2008-09": {
+   "oreb_mean": 11.039430894308943,
+   "dreb_mean": 30.255691056910567,
+   "tov_mean": 14.03211382113821,
+   "tov_rule": "turnovers (total_turnovers is doubled)",
+   "tov_ratio": 2.0,
+   "tov_rows_total_lt_turnovers": 0,
+   "tov_rows_total_nan": 0,
+   "regular_season_games": 1230,
+   "teams": 30,
+   "games_per_team_min": 82,
+   "games_per_team_max": 82,
+   "first_date": "2008-10-28",
+   "last_date": "2009-04-15",
+   "score_inconsistent_home_vs_away": 0,
+   "game_id_duplicated_across_seasons": 0
+  },
+  "2009-10": {
+   "oreb_mean": 10.957317073170731,
+   "dreb_mean": 30.766666666666666,
+   "tov_mean": 14.220325203252033,
+   "tov_rule": "turnovers (total_turnovers is doubled)",
+   "tov_ratio": 2.0,
+   "tov_rows_total_lt_turnovers": 0,
+   "tov_rows_total_nan": 0,
+   "regular_season_games": 1230,
+   "teams": 30,
+   "games_per_team_min": 82,
+   "games_per_team_max": 82,
+   "first_date": "2009-10-27",
+   "last_date": "2010-04-14",
+   "score_inconsistent_home_vs_away": 0,
+   "game_id_duplicated_across_seasons": 0
+  },
+  "2010-11": {
+   "oreb_mean": 10.91219512195122,
+   "dreb_mean": 30.476422764227642,
+   "tov_mean": 14.254065040650406,
+   "tov_rule": "turnovers (total_turnovers is doubled)",
+   "tov_ratio": 2.0,
+   "tov_rows_total_lt_turnovers": 0,
+   "tov_rows_total_nan": 0,
+   "regular_season_games": 1230,
+   "teams": 30,
+   "games_per_team_min": 82,
+   "games_per_team_max": 82,
+   "first_date": "2010-10-26",
+   "last_date": "2011-04-13",
+   "score_inconsistent_home_vs_away": 0,
+   "game_id_duplicated_across_seasons": 0
+  },
+  "2011-12": {
+   "oreb_mean": 11.36969696969697,
+   "dreb_mean": 30.808585858585857,
+   "tov_mean": 14.575757575757576,
+   "tov_rule": "turnovers (total_turnovers is doubled)",
+   "tov_ratio": 2.0,
+   "tov_rows_total_lt_turnovers": 0,
+   "tov_rows_total_nan": 0,
+   "regular_season_games": 990,
+   "teams": 30,
+   "games_per_team_min": 66,
+   "games_per_team_max": 66,
+   "first_date": "2011-12-25",
+   "last_date": "2012-04-26",
+   "score_inconsistent_home_vs_away": 0,
+   "game_id_duplicated_across_seasons": 0
+  },
+  "2012-13": {
+   "oreb_mean": 11.16734693877551,
+   "dreb_mean": 30.97795918367347,
+   "tov_mean": 13.956734693877552,
+   "tov_rule": "total_turnovers if finite and >= turnovers, else turnovers",
+   "tov_ratio": 1.042814528864713,
+   "tov_rows_total_lt_turnovers": 0,
+   "tov_rows_total_nan": 0,
+   "regular_season_games": 1224,
+   "teams": 30,
+   "games_per_team_min": 81,
+   "games_per_team_max": 82,
+   "first_date": "2012-10-30",
+   "last_date": "2013-04-17",
+   "score_inconsistent_home_vs_away": 0,
+   "game_id_duplicated_across_seasons": 0
+  },
+  "2013-14": {
+   "oreb_mean": 10.915447154471545,
+   "dreb_mean": 31.833739837398372,
+   "tov_mean": 14.050813008130081,
+   "tov_rule": "total_turnovers if finite and >= turnovers, else turnovers",
+   "tov_ratio": 1.0424417763633733,
+   "tov_rows_total_lt_turnovers": 0,
+   "tov_rows_total_nan": 0,
+   "regular_season_games": 1229,
+   "teams": 30,
+   "games_per_team_min": 81,
+   "games_per_team_max": 82,
+   "first_date": "2013-10-29",
+   "last_date": "2014-04-16",
+   "score_inconsistent_home_vs_away": 0,
+   "game_id_duplicated_across_seasons": 0
+  },
+  "2014-15": {
+   "oreb_mean": 10.894394800974817,
+   "dreb_mean": 32.415515840779854,
+   "tov_mean": 13.714053614947197,
+   "tov_rule": "total_turnovers if finite and >= turnovers, else turnovers",
+   "tov_ratio": 1.0470323421395569,
+   "tov_rows_total_lt_turnovers": 0,
+   "tov_rows_total_nan": 0,
+   "regular_season_games": 1230,
+   "teams": 30,
+   "games_per_team_min": 82,
+   "games_per_team_max": 82,
+   "first_date": "2014-10-28",
+   "last_date": "2015-04-15",
+   "score_inconsistent_home_vs_away": 0,
+   "game_id_duplicated_across_seasons": 0
+  },
+  "2015-16": {
+   "oreb_mean": 10.420796100731113,
+   "dreb_mean": 33.34890333062551,
+   "tov_mean": 13.800162469536962,
+   "tov_rule": "total_turnovers if finite and >= turnovers, else turnovers",
+   "tov_ratio": 1.0425300211914292,
+   "tov_rows_total_lt_turnovers": 0,
+   "tov_rows_total_nan": 0,
+   "regular_season_games": 1230,
+   "teams": 30,
+   "games_per_team_min": 82,
+   "games_per_team_max": 82,
+   "first_date": "2015-10-27",
+   "last_date": "2016-04-13",
+   "score_inconsistent_home_vs_away": 0,
+   "game_id_duplicated_across_seasons": 0
+  },
+  "2016-17": {
+   "oreb_mean": 10.133739837398373,
+   "dreb_mean": 33.37357723577236,
+   "tov_mean": 13.376422764227643,
+   "tov_rule": "total_turnovers if finite and >= turnovers, else turnovers",
+   "tov_ratio": 1.0432747827143984,
+   "tov_rows_total_lt_turnovers": 0,
+   "tov_rows_total_nan": 0,
+   "regular_season_games": 1229,
+   "teams": 30,
+   "games_per_team_min": 81,
+   "games_per_team_max": 82,
+   "first_date": "2016-10-25",
+   "last_date": "2017-04-12",
+   "score_inconsistent_home_vs_away": 0,
+   "game_id_duplicated_across_seasons": 0
+  },
+  "2017-18": {
+   "oreb_mean": 9.717709179528839,
+   "dreb_mean": 33.808285946385055,
+   "tov_mean": 13.679122664500406,
+   "tov_rule": "turnovers (no total_turnovers)",
+   "tov_ratio": NaN,
+   "tov_rows_total_lt_turnovers": 0,
+   "tov_rows_total_nan": 2462,
+   "regular_season_games": 1229,
+   "teams": 30,
+   "games_per_team_min": 81,
+   "games_per_team_max": 82,
+   "first_date": "2017-10-17",
+   "last_date": "2018-04-11",
+   "score_inconsistent_home_vs_away": 0,
+   "game_id_duplicated_across_seasons": 0
+  },
+  "2018-19": {
+   "oreb_mean": 10.356331168831169,
+   "dreb_mean": 34.82913961038961,
+   "tov_mean": 13.534090909090908,
+   "tov_rule": "total_turnovers if finite and >= turnovers, else turnovers",
+   "tov_ratio": 1.0404522010315462,
+   "tov_rows_total_lt_turnovers": 0,
+   "tov_rows_total_nan": 0,
+   "regular_season_games": 1230,
+   "teams": 30,
+   "games_per_team_min": 82,
+   "games_per_team_max": 82,
+   "first_date": "2018-10-16",
+   "last_date": "2019-04-10",
+   "score_inconsistent_home_vs_away": 0,
+   "game_id_duplicated_across_seasons": 0
+  },
+  "2019-20": {
+   "oreb_mean": 10.079641847313855,
+   "dreb_mean": 34.762959472196044,
+   "tov_mean": 13.91894439208294,
+   "tov_rule": "total_turnovers if finite and >= turnovers, else turnovers",
+   "tov_ratio": 1.0450297941495126,
+   "tov_rows_total_lt_turnovers": 1,
+   "tov_rows_total_nan": 0,
+   "regular_season_games": 1059,
+   "teams": 30,
+   "games_per_team_min": 64,
+   "games_per_team_max": 75,
+   "first_date": "2019-10-22",
+   "last_date": "2020-08-14",
+   "score_inconsistent_home_vs_away": 0,
+   "game_id_duplicated_across_seasons": 0
+  },
+  "2020-21": {
+   "oreb_mean": 9.829787234042554,
+   "dreb_mean": 34.46993524514338,
+   "tov_mean": 13.229879740980573,
+   "tov_rule": "total_turnovers if finite and >= turnovers, else turnovers",
+   "tov_ratio": 1.0461140439814005,
+   "tov_rows_total_lt_turnovers": 6,
+   "tov_rows_total_nan": 0,
+   "regular_season_games": 1080,
+   "teams": 30,
+   "games_per_team_min": 72,
+   "games_per_team_max": 72,
+   "first_date": "2020-12-22",
+   "last_date": "2021-05-16",
+   "score_inconsistent_home_vs_away": 0,
+   "game_id_duplicated_across_seasons": 0
+  },
+  "2021-22": {
+   "oreb_mean": 10.336311941510967,
+   "dreb_mean": 34.11738424045492,
+   "tov_mean": 13.057270511779041,
+   "tov_rule": "total_turnovers if finite and >= turnovers, else turnovers",
+   "tov_ratio": 1.0540019286403086,
+   "tov_rows_total_lt_turnovers": 0,
+   "tov_rows_total_nan": 0,
+   "regular_season_games": 1230,
+   "teams": 30,
+   "games_per_team_min": 82,
+   "games_per_team_max": 82,
+   "first_date": "2021-10-19",
+   "last_date": "2022-04-10",
+   "score_inconsistent_home_vs_away": 0,
+   "game_id_duplicated_across_seasons": 0
+  },
+  "2022-23": {
+   "oreb_mean": 10.435418359057676,
+   "dreb_mean": 33.004874086108856,
+   "tov_mean": 13.429325751421608,
+   "tov_rule": "total_turnovers if finite and >= turnovers, else turnovers",
+   "tov_ratio": 1.0489973686598313,
+   "tov_rows_total_lt_turnovers": 1,
+   "tov_rows_total_nan": 0,
+   "regular_season_games": 1230,
+   "teams": 30,
+   "games_per_team_min": 82,
+   "games_per_team_max": 82,
+   "first_date": "2022-10-18",
+   "last_date": "2023-04-09",
+   "score_inconsistent_home_vs_away": 0,
+   "game_id_duplicated_across_seasons": 0
+  },
+  "2023-24": {
+   "oreb_mean": 10.561282467532468,
+   "dreb_mean": 32.991883116883116,
+   "tov_mean": 12.900568181818182,
+   "tov_rule": "total_turnovers if finite and >= turnovers, else turnovers",
+   "tov_ratio": 1.054991034070532,
+   "tov_rows_total_lt_turnovers": 0,
+   "tov_rows_total_nan": 0,
+   "regular_season_games": 1231,
+   "teams": 30,
+   "games_per_team_min": 82,
+   "games_per_team_max": 83,
+   "first_date": "2023-10-24",
+   "last_date": "2024-04-14",
+   "score_inconsistent_home_vs_away": 0,
+   "game_id_duplicated_across_seasons": 0
+  },
+  "2024-25": {
+   "oreb_mean": 11.09643435980551,
+   "dreb_mean": 32.94124797406807,
+   "tov_mean": 13.481766612641815,
+   "tov_rule": "total_turnovers if finite and >= turnovers, else turnovers",
+   "tov_ratio": 1.0579749346316834,
+   "tov_rows_total_lt_turnovers": 2,
+   "tov_rows_total_nan": 0,
+   "regular_season_games": 1231,
+   "teams": 30,
+   "games_per_team_min": 82,
+   "games_per_team_max": 83,
+   "first_date": "2024-10-22",
+   "last_date": "2025-04-13",
+   "score_inconsistent_home_vs_away": 0,
+   "game_id_duplicated_across_seasons": 0
+  },
+  "2025-26": {
+   "oreb_mean": 11.358704453441296,
+   "dreb_mean": 32.32267206477733,
+   "tov_mean": 13.759109311740891,
+   "tov_rule": "total_turnovers if finite and >= turnovers, else turnovers",
+   "tov_ratio": 1.0505650975435104,
+   "tov_rows_total_lt_turnovers": 4,
+   "tov_rows_total_nan": 1,
+   "regular_season_games": 1231,
+   "teams": 30,
+   "games_per_team_min": 82,
+   "games_per_team_max": 83,
+   "first_date": "2025-10-21",
+   "last_date": "2026-04-12",
+   "score_inconsistent_home_vs_away": 0,
+   "game_id_duplicated_across_seasons": 0
+  }
+ },
+ "pace_check": {
+  "2007-08": {
+   "max_abs_diff_ppg": 2.560475706192321,
+   "worst_team": "PHX",
+   "pace_min": 88.85432195121952,
+   "pace_max": 101.89276097560975,
+   "ortg_min": 98.36208619799538,
+   "ortg_max": 114.24326154613838
+  },
+  "2008-09": {
+   "max_abs_diff_ppg": 0.6084926977287068,
+   "worst_team": "MIN",
+   "pace_min": 86.3117268292683,
+   "pace_max": 97.9008,
+   "ortg_min": 103.67269598034412,
+   "ortg_max": 115.78604246351824
+  },
+  "2009-10": {
+   "max_abs_diff_ppg": 0.6526027681344289,
+   "worst_team": "ORL",
+   "pace_min": 87.36187317073171,
+   "pace_max": 98.86243902439024,
+   "ortg_min": 102.1360800455628,
+   "ortg_max": 117.40942056093414
+  },
+  "2010-11": {
+   "max_abs_diff_ppg": 0.5699531075403286,
+   "worst_team": "LAC",
+   "pace_min": 87.4464,
+   "pace_max": 95.70005853658536,
+   "ortg_min": 103.09060544918276,
+   "ortg_max": 114.04570961360677
+  },
+  "2011-12": {
+   "max_abs_diff_ppg": 0.45870072948555674,
+   "worst_team": "DET",
+   "pace_min": 87.59243636363637,
+   "pace_max": 93.95665454545454,
+   "ortg_min": 96.1688501804938,
+   "ortg_max": 113.06008787517241
+  },
+  "2012-13": {
+   "max_abs_diff_ppg": 0.7476065280561812,
+   "worst_team": "MIA",
+   "pace_min": 87.55105185185185,
+   "pace_max": 95.17767804878048,
+   "ortg_min": 101.92339201048611,
+   "ortg_max": 114.94041691825832
+  },
+  "2013-14": {
+   "max_abs_diff_ppg": 0.6156496194794698,
+   "worst_team": "MIN",
+   "pace_min": 89.1212487804878,
+   "pace_max": 98.42200975609757,
+   "ortg_min": 100.78149592909492,
+   "ortg_max": 113.98115223121776
+  },
+  "2014-15": {
+   "max_abs_diff_ppg": 0.7615439606839658,
+   "worst_team": "GS",
+   "pace_min": 89.1814243902439,
+   "pace_max": 96.91199999999999,
+   "ortg_min": 96.85538235453663,
+   "ortg_max": 114.41039073835141
+  },
+  "2015-16": {
+   "max_abs_diff_ppg": 0.6123625103754051,
+   "worst_team": "LAC",
+   "pace_min": 90.77783414634146,
+   "pace_max": 98.76901463414634,
+   "ortg_min": 100.65118342002339,
+   "ortg_max": 117.16822277408981
+  },
+  "2016-17": {
+   "max_abs_diff_ppg": 0.5264118497157142,
+   "worst_team": "DEN",
+   "pace_min": 90.21330731707316,
+   "pace_max": 99.81283902439024,
+   "ortg_min": 104.8577290332477,
+   "ortg_max": 117.9149295215406
+  },
+  "2017-18": {
+   "max_abs_diff_ppg": 0.9223460544526034,
+   "worst_team": "GS",
+   "pace_min": 92.88772682926829,
+   "pace_max": 99.45834146341463,
+   "ortg_min": 105.72638517692756,
+   "ortg_max": 117.69761241329239
+  },
+  "2018-19": {
+   "max_abs_diff_ppg": 0.6642409327591849,
+   "worst_team": "GS",
+   "pace_min": 95.3184,
+   "pace_max": 103.08971707317073,
+   "ortg_min": 106.39202808441843,
+   "ortg_max": 118.6971680749932
+  },
+  "2019-20": {
+   "max_abs_diff_ppg": 0.6782131739716561,
+   "worst_team": "CLE",
+   "pace_min": 95.1088246153846,
+   "pace_max": 103.38042739726028,
+   "ortg_min": 107.19326349890723,
+   "ortg_max": 118.411076627618
+  },
+  "2020-21": {
+   "max_abs_diff_ppg": 0.6934074596893822,
+   "worst_team": "BKN",
+   "pace_min": 95.06506666666667,
+   "pace_max": 102.89519999999999,
+   "ortg_min": 105.56526681537406,
+   "ortg_max": 121.16859151142553
+  },
+  "2021-22": {
+   "max_abs_diff_ppg": 0.5991596783659787,
+   "worst_team": "IND",
+   "pace_min": 93.95894634146342,
+   "pace_max": 99.85756097560976,
+   "ortg_min": 106.08859935940211,
+   "ortg_max": 118.76237579461348
+  },
+  "2022-23": {
+   "max_abs_diff_ppg": 0.758224865987458,
+   "worst_team": "HOU",
+   "pace_min": 95.02290731707316,
+   "pace_max": 100.7922731707317,
+   "ortg_min": 111.15405125606766,
+   "ortg_max": 121.8696563517017
+  },
+  "2023-24": {
+   "max_abs_diff_ppg": 0.8651999250434557,
+   "worst_team": "NY",
+   "pace_min": 94.17342439024391,
+   "pace_max": 101.00558048780488,
+   "ortg_min": 108.53613091121017,
+   "ortg_max": 125.18851082726776
+  },
+  "2024-25": {
+   "max_abs_diff_ppg": 0.536652977686586,
+   "worst_team": "HOU",
+   "pace_min": 94.9325268292683,
+   "pace_max": 102.05408780487805,
+   "ortg_min": 108.22891735886245,
+   "ortg_max": 124.02624697544154
+  },
+  "2025-26": {
+   "max_abs_diff_ppg": 0.9794109702545768,
+   "worst_team": "CHA",
+   "pace_min": 94.07157073170733,
+   "pace_max": 101.9730731707317,
+   "ortg_min": 110.24096140880995,
+   "ortg_max": 124.3830798055757
+  }
+ },
+ "odds_points_mismatch": {
+  "2008-09": {
+   "matched_regular_rows": 1230,
+   "points_differ": 2,
+   "points_differ_gt4": 1
+  },
+  "2009-10": {
+   "matched_regular_rows": 1230,
+   "points_differ": 0,
+   "points_differ_gt4": 0
+  },
+  "2010-11": {
+   "matched_regular_rows": 1230,
+   "points_differ": 1,
+   "points_differ_gt4": 0
+  },
+  "2011-12": {
+   "matched_regular_rows": 990,
+   "points_differ": 0,
+   "points_differ_gt4": 0
+  },
+  "2012-13": {
+   "matched_regular_rows": 1224,
+   "points_differ": 2,
+   "points_differ_gt4": 2
+  },
+  "2013-14": {
+   "matched_regular_rows": 1229,
+   "points_differ": 2,
+   "points_differ_gt4": 2
+  },
+  "2014-15": {
+   "matched_regular_rows": 1230,
+   "points_differ": 2,
+   "points_differ_gt4": 1
+  },
+  "2015-16": {
+   "matched_regular_rows": 1230,
+   "points_differ": 0,
+   "points_differ_gt4": 0
+  },
+  "2016-17": {
+   "matched_regular_rows": 1229,
+   "points_differ": 2,
+   "points_differ_gt4": 1
+  },
+  "2017-18": {
+   "matched_regular_rows": 1229,
+   "points_differ": 1,
+   "points_differ_gt4": 0
+  },
+  "2018-19": {
+   "matched_regular_rows": 1230,
+   "points_differ": 0,
+   "points_differ_gt4": 0
+  },
+  "2019-20": {
+   "matched_regular_rows": 1059,
+   "points_differ": 0,
+   "points_differ_gt4": 0
+  },
+  "2020-21": {
+   "matched_regular_rows": 1080,
+   "points_differ": 0,
+   "points_differ_gt4": 0
+  },
+  "2021-22": {
+   "matched_regular_rows": 1230,
+   "points_differ": 0,
+   "points_differ_gt4": 0
+  },
+  "2022-23": {
+   "matched_regular_rows": 1228,
+   "points_differ": 0,
+   "points_differ_gt4": 0
+  },
+  "2023-24": {
+   "matched_regular_rows": 1295,
+   "points_differ": 2,
+   "points_differ_gt4": 2
+  },
+  "2024-25": {
+   "matched_regular_rows": 1231,
+   "points_differ": 2,
+   "points_differ_gt4": 0
+  },
+  "2025-26": {
+   "matched_regular_rows": 554,
+   "points_differ": 0,
+   "points_differ_gt4": 0
+  }
+ },
+ "final_games_by_season": {
+  "2008-09": 1230,
+  "2009-10": 1230,
+  "2010-11": 1227,
+  "2011-12": 985,
+  "2012-13": 1223,
+  "2013-14": 1229,
+  "2014-15": 1229,
+  "2015-16": 1230,
+  "2016-17": 1228,
+  "2017-18": 1229,
+  "2018-19": 1230,
+  "2019-20": 1057,
+  "2020-21": 1080,
+  "2021-22": 1230,
+  "2022-23": 1230,
+  "2023-24": 1231,
+  "2024-25": 1231,
+  "2025-26": 1225
+ },
+ "final_fallback_by_season": {
+  "2020-21": 24,
+  "2021-22": 5,
+  "2022-23": 31,
+  "2023-24": 8,
+  "2024-25": 12,
+  "2025-26": 7
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "n_markets_defined": 16619,
+ "n_players": 129,
+ "map_methods": {
+  "exact": 129
+ },
+ "players_matched": 129,
+ "player_games": 3324,
+ "skips": {},
+ "markets_selected": 6648,
+ "reg_end": "2026-04-12",
+ "by_group": {
+  "0": 2256,
+  "1": 3330,
+  "2": 1062
+ }
+}

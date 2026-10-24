@@ -261,29 +261,40 @@ def test_split_games():
 # ------------------------------------------------------------------ edge rule / price filter
 def test_decide_yes_no_and_filter():
     fee = NB.fee_per_contract
-    # YES: p=0.60, ask=0.50 -> edge .10 - fee
+    # YES: p=0.60, ask=0.50 -> pays 0.51 (1c slippage), fee at 0.51
     d = A.decide(0.60, 0.48, 0.50, 0.03)
-    assert d["side"] == "yes" and d["price"] == 0.50 and d["edge"] == pytest.approx(0.60 - 0.50 - fee(0.50))
-    # NO: p=0.30, bid=0.50 -> pay 0.50, edge (1-.3)-(.5)-fee
+    assert d["side"] == "yes" and d["price"] == pytest.approx(0.51) and d["edge"] == pytest.approx(0.60 - 0.51 - fee(0.51))
+    # NO: p=0.30, bid=0.50 -> pays 0.50 + 0.01
     d = A.decide(0.30, 0.50, 0.52, 0.03)
-    assert d["side"] == "no" and d["price"] == pytest.approx(0.50) and d["edge"] == pytest.approx(0.70 - 0.50 - fee(0.50))
-    assert A.decide(0.51, 0.49, 0.51, 0.03) is None                       # below theta after fee
+    assert d["side"] == "no" and d["price"] == pytest.approx(0.51) and d["edge"] == pytest.approx(0.70 - 0.51 - fee(0.51))
+    assert A.decide(0.51, 0.49, 0.51, 0.03) is None                       # below theta after slippage and fee
     # theta is inclusive
-    e = 0.60 - 0.50 - fee(0.50)
-    assert A.decide(0.60, 0.48, 0.50, e) is not None and A.decide(0.60, 0.48, 0.50, e + 1e-6) is None
-    # price filter is on the PRICE PAID, 15-85c inclusive
-    assert A.decide(0.60, 0.08, 0.10, 0.03, price_filter=False)["price"] == 0.10
+    e = 0.60 - 0.51 - fee(0.51)
+    assert A.decide(0.60, 0.48, 0.50, e - 1e-9) is not None and A.decide(0.60, 0.48, 0.50, e + 1e-6) is None
+    # price filter is on the PRICE PAID (incl. slippage), 15-85c inclusive
+    assert A.decide(0.60, 0.08, 0.10, 0.03, price_filter=False)["price"] == pytest.approx(0.11)
 
 
 def test_decide_price_filter_cases():
-    # YES at ask 0.10 (below 15c) is filtered out in the primary version, kept in "all prices"
+    # YES at ask 0.10 (pays 0.11, below 15c) is filtered out in the primary version, kept in "all prices"
     assert A.decide(0.30, 0.08, 0.10, 0.03) is None
     assert A.decide(0.30, 0.08, 0.10, 0.03, price_filter=False)["side"] == "yes"
-    # NO paying 1-bid = 0.90 (> 85c) filtered; paying exactly 0.85 allowed
+    # NO paying 1-bid+1c = 0.91 (> 85c) filtered; paying exactly 0.85 (bid 0.16) allowed
     assert A.decide(0.02, 0.10, 0.12, 0.03) is None
-    assert A.decide(0.02, 0.15, 0.17, 0.001)["side"] == "no" and A.decide(0.02, 0.15, 0.17, 0.001)["price"] == pytest.approx(0.85)
-    # ask exactly 0.15 passes
-    assert A.decide(0.40, 0.13, 0.15, 0.03)["price"] == 0.15
+    assert A.decide(0.02, 0.16, 0.18, 0.001)["side"] == "no" and A.decide(0.02, 0.16, 0.18, 0.001)["price"] == pytest.approx(0.85)
+    # ask 0.14 -> pays exactly 0.15 passes; ask 0.13 -> pays 0.14 fails
+    assert A.decide(0.40, 0.12, 0.14, 0.03)["price"] == pytest.approx(0.15)
+    assert A.decide(0.40, 0.11, 0.13, 0.03) is None
+    # price paid never exceeds 99c (no ValueError in the fee)
+    assert A.decide(0.999, 0.98, 0.995, 0.0, price_filter=False)["price"] == pytest.approx(0.99)
+
+
+def test_fee_rounded_up_per_order_at_count_10():
+    # 0.07 * 10 * 0.51 * 0.49 = 0.17493 -> per-order total rounded UP to $0.000001, then / 10 per contract
+    assert NB.order_fee(0.51, 10) == pytest.approx(0.17493)
+    d = A.decide(0.60, 0.48, 0.50, 0.03)
+    assert d["fee"] == pytest.approx(0.017493, abs=1e-9)
+    assert NB.order_fee(0.1234, 10) >= 0.07 * 10 * 0.1234 * (1 - 0.1234)      # never rounds down
 
 
 def test_net_per_contract():

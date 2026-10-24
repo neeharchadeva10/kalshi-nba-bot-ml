@@ -1,0 +1,168 @@
+{
+ "series": {
+  "KXNFLTOTAL": {
+   "additional_prohibitions": [
+    "Current players, coaches, and staff of the league, association, or organization(s) governing the event. For college leagues/associations specifically, or where otherwise appropriate (as identified by the Exchange), this applies to current players/coaches/staff of the specific sport in <event> rather than the league/association as a whole (e.g., if the Division I Gonzaga Men\u2019s Basketball Team is playing in <event>, this prohibition will restrict trades by current players/coaches/staff on NCAA Basketball, rather than all current players/coaches/staff in any NCAA sport).",
+    "Paid employees of the league and league participants",
+    "Owners of teams and the league",
+    "and household members and immediate family of all above",
+    "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+    "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+   ],
+   "categories": [
+    "Sports"
+   ],
+   "category": "Sports",
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/FOOTBALLTOTALS.pdf",
+   "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/FOOTBALLTOTALS.pdf",
+   "exchange_index": 0,
+   "fee_multiplier": 1,
+   "fee_type": "quadratic_with_maker_fees",
+   "frequency": "custom",
+   "last_updated_ts": "2026-09-30T21:40:34.333596Z",
+   "product_metadata": {
+    "scope": "Point Total"
+   },
+   "settlement_sources": [
+    {
+     "name": "the Governing League",
+     "url": "https://www.nfl.com/"
+    }
+   ],
+   "tags": [
+    "Football"
+   ],
+   "ticker": "KXNFLTOTAL",
+   "title": "Pro Football Total Points",
+   "_includes_overtime_text": "(no overtime statement in series metadata; see per-market rules_primary)"
+  },
+  "KXNFLTEAMTOTAL": {
+   "additional_prohibitions": [
+    "Current players, coaches, and staff of the league, association, or organization(s) governing the event. For college leagues/associations specifically, or where otherwise appropriate (as identified by the Exchange), this applies to current players/coaches/staff of the specific sport in <event> rather than the league/association as a whole (e.g., if the Division I Gonzaga Men\u2019s Basketball Team is playing in <event>, this prohibition will restrict trades by current players/coaches/staff on NCAA Basketball, rather than all current players/coaches/staff in any NCAA sport).",
+    "Paid employees of the league and league participants",
+    "Owners of teams and the league",
+    "and household members and immediate family of all above",
+    "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+    "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+   ],
+   "categories": [
+    "Sports"
+   ],
+   "category": "Sports",
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/FOOTBALLENTITYSTAT.pdf",
+   "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/FOOTBALLENTITYSTAT.pdf",
+   "exchange_index": 0,
+   "fee_multiplier": 1,
+   "fee_type": "quadratic",
+   "frequency": "custom",
+   "last_updated_ts": "2026-10-09T21:41:55.364447Z",
+   "product_metadata": {
+    "scope": "Team Total"
+   },
+   "settlement_sources": [
+    {
+     "name": "the Governing League",
+     "url": "https://www.nfl.com/"
+    }
+   ],
+   "tags": [
+    "Football"
+   ],
+   "ticker": "KXNFLTEAMTOTAL",
+   "title": "Pro Football Team Total Points",
+   "_includes_overtime_text": "(no overtime statement in series metadata; see per-market rules_primary)"
+  },
+  "KXNFL1HTOTAL": {
+   "additional_prohibitions": [
+    "Current players, coaches, and staff of the league, association, or organization(s) governing the event. For college leagues/associations specifically, or where otherwise appropriate (as identified by the Exchange), this applies to current players/coaches/staff of the specific sport in <event> rather than the league/association as a whole (e.g., if the Division I Gonzaga Men\u2019s Basketball Team is playing in <event>, this prohibition will restrict trades by current players/coaches/staff on NCAA Basketball, rather than all current players/coaches/staff in any NCAA sport).",
+    "Paid employees of the league and league participants",
+    "Owners of teams and the league",
+    "and household members and immediate family of all above",
+    "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+    "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+   ],
+   "categories": [
+    "Sports"
+   ],
+   "category": "Sports",
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/FOOTBALLTOTALS.pdf",
+   "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/FOOTBALLTOTALS.pdf",
+   "exchange_index": 0,
+   "fee_multiplier": 1,
+   "fee_type": "quadratic",
+   "frequency": "custom",
+   "last_updated_ts": "2026-09-30T21:37:49.640631Z",
+   "product_metadata": {
+    "important_info": {
+     "id": "KXNFL1HTOTAL-2026-08-05",
+     "markdown": "**Important information:** Only points scored during the 1st and 2nd quarter count towards this market.",
+     "message": "",
+     "title": ""
+    },
+    "scope": "1st Half Total"
+   },
+   "settlement_sources": [
+    {
+     "name": "the Governing League",
+     "url": "https://www.nfl.com/"
+    }
+   ],
+   "tags": [
+    "Football"
+   ],
+   "ticker": "KXNFL1HTOTAL",
+   "title": "Pro Football 1st  Half Total Points",
+   "_includes_overtime_text": "**Important information:** Only points scored during the 1st and 2nd quarter count towards this market."
+  },
+  "KXNFL2HTOTAL": {
+   "additional_prohibitions": [
+    "Current players, coaches, and staff of the league, association, or organization(s) governing the event. For college leagues/associations specifically, or where otherwise appropriate (as identified by the Exchange), this applies to current players/coaches/staff of the specific sport in <event> rather than the league/association as a whole (e.g., if the Division I Gonzaga Men\u2019s Basketball Team is playing in <event>, this prohibition will restrict trades by current players/coaches/staff on NCAA Basketball, rather than all current players/coaches/staff in any NCAA sport).",
+    "Paid employees of the league and league participants",
+    "Owners of teams and the league",
+    "and household members and immediate family of all above",
+    "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+    "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+   ],
+   "categories": [
+    "Sports"
+   ],
+   "category": "Sports",
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/FOOTBALLTOTALS.pdf",
+   "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/FOOTBALLTOTALS.pdf",
+   "exchange_index": 0,
+   "fee_multiplier": 1,
+   "fee_type": "quadratic",
+   "frequency": "custom",
+   "last_updated_ts": "2026-09-30T21:37:53.217355Z",
+   "product_metadata": {
+    "important_info": {
+     "id": "KXNFL2HTOTAL-2026-07-30",
+     "markdown": "**Important information:** 2nd half markets include overtime. Points scored during the 3rd and 4th quarter as well as any overtime periods count towards this market.",
+     "message": "",
+     "title": ""
+    },
+    "scope": "2nd Half Total"
+   },
+   "settlement_sources": [
+    {
+     "name": "the Governing League",
+     "url": "https://www.nfl.com/"
+    }
+   ],
+   "tags": [
+    "Football"
+   ],
+   "ticker": "KXNFL2HTOTAL",
+   "title": "Pro Football 2nd Half Total",
+   "_includes_overtime_text": "**Important information:** 2nd half markets include overtime. Points scored during the 3rd and 4th quarter as well as any overtime periods count towards this market."
+  }
+ },
+ "fee_flags": {
+  "KXNFLTOTAL": [
+   "fee_type='quadratic_with_maker_fees' multiplier=1 differs from plain 'quadratic' x1 (0.07 coefficient)"
+  ],
+  "KXNFLTEAMTOTAL": [],
+  "KXNFL1HTOTAL": [],
+  "KXNFL2HTOTAL": []
+ }
+}
