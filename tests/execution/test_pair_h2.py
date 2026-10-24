@@ -836,7 +836,10 @@ def test_run_records_config_without_secrets(tmp_path):
     cfg = json.loads(sim.state.run_row()["config_json"])
     assert cfg["strategy"] == "pair_h2" and cfg["mode"] == "watch" and cfg["series"] == ["KXBTC15M", "KXBTCD"]
     assert cfg["contracts"] == "1" and cfg["min_edge_usd"] == "0.001" and cfg["max_loss_usd"] == "5.0"
-    assert "private" not in json.dumps(cfg).lower() and "key_id" not in json.dumps(cfg).lower()
+    text = json.dumps(cfg).lower()
+    for p in {str(tmp_path), str(tmp_path.resolve())}:           # macOS temp dirs live under /private/var
+        text = text.replace(p.lower(), "")
+    assert "private" not in text and "key_id" not in text
 
 
 def test_a_paper_twin_with_no_result_stays_pending_and_is_reported(tmp_path):

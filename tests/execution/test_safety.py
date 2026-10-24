@@ -337,7 +337,10 @@ def test_the_prompt_shows_the_caps_and_never_the_key(tmp_path, monkeypatch):
     text = "\n".join(shown)
     assert '"LIVE PROD 5"' in asked[0]
     assert "loss cap $5" in text and "1 contract" in text and "$1.00 collateral" in text and "KXBTC15M" in text
-    assert "key_fp deadbeef" in text and "PRIVATE" not in text.upper()
+    scrubbed = text
+    for p in {str(tmp_path), str(tmp_path.resolve())}:           # macOS temp dirs live under /private/var
+        scrubbed = scrubbed.replace(p, "")
+    assert "key_fp deadbeef" in text and "PRIVATE" not in scrubbed.upper()
     w2 = World(tmp_path / "b", started=False)
     seen = []
     monkeypatch.setattr(builtins, "input", lambda prompt="": seen.append(prompt) or PHRASE)
