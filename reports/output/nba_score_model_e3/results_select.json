@@ -1,0 +1,344 @@
+{
+ "train_seasons": [
+  "2021-22",
+  "2022-23"
+ ],
+ "validation_seasons": [
+  "2023-24"
+ ],
+ "n_versions": 8190,
+ "n_train_rows": 4920,
+ "n_val_rows": 2462,
+ "n_dropped_games_no_e1_train": 0,
+ "n_dropped_games_no_e1_val": 0,
+ "E1": {
+  "total_mae": 14.826322841895015,
+  "pct_within_10": 0.39480097481722176,
+  "team_mae": 9.390089144208307,
+  "bias": 1.8932297351519172
+ },
+ "best_by_total": {
+  "version": "c60:AST+3PM+TIER+AGE+Q",
+  "cutoff": "c60",
+  "families": "AST+3PM+TIER+AGE+Q",
+  "n_features": 18,
+  "total_mae": 14.756215599768263,
+  "pct_within_10": 0.40048740861088544,
+  "team_mae": 9.266978271329895,
+  "bias": 2.297138197130411,
+  "lambda": 1000.0
+ },
+ "best_by_team_mae": {
+  "version": "c20:AST+DEF+PM+AGE",
+  "cutoff": "c20",
+  "families": "AST+DEF+PM+AGE",
+  "n_features": 10,
+  "total_mae": 14.82517595265586,
+  "pct_within_10": 0.3980503655564582,
+  "team_mae": 9.258389518311358,
+  "bias": 2.2702735128419294,
+  "lambda": 100.0
+ },
+ "e1_team_mae": 9.390089144208307,
+ "top20": [
+  {
+   "version": "c60:AST+3PM+TIER+AGE+Q",
+   "cutoff": "c60",
+   "families": "AST+3PM+TIER+AGE+Q",
+   "n_features": 18,
+   "total_mae": 14.756215599768263,
+   "pct_within_10": 0.40048740861088544,
+   "team_mae": 9.266978271329895,
+   "bias": 2.297138197130411,
+   "lambda": 1000.0
+  },
+  {
+   "version": "c60:PTS+AST+3PM+TIER+AGE+Q",
+   "cutoff": "c60",
+   "families": "PTS+AST+3PM+TIER+AGE+Q",
+   "n_features": 20,
+   "total_mae": 14.756413145656152,
+   "pct_within_10": 0.40129975629569453,
+   "team_mae": 9.265398524782757,
+   "bias": 2.304526897983078,
+   "lambda": 1000.0
+  },
+  {
+   "version": "c60:AST+TIER+AGE+Q",
+   "cutoff": "c60",
+   "families": "AST+TIER+AGE+Q",
+   "n_features": 16,
+   "total_mae": 14.75668797175544,
+   "pct_within_10": 0.40048740861088544,
+   "team_mae": 9.265219812512111,
+   "bias": 2.295963334731923,
+   "lambda": 1000.0
+  },
+  {
+   "version": "c60:AST+3PM+USG+TIER+AGE+Q",
+   "cutoff": "c60",
+   "families": "AST+3PM+USG+TIER+AGE+Q",
+   "n_features": 20,
+   "total_mae": 14.756725805175549,
+   "pct_within_10": 0.4021121039805037,
+   "team_mae": 9.26566789273119,
+   "bias": 2.3155629262244144,
+   "lambda": 1000.0
+  },
+  {
+   "version": "c60:PTS+AST+TIER+AGE+Q",
+   "cutoff": "c60",
+   "families": "PTS+AST+TIER+AGE+Q",
+   "n_features": 18,
+   "total_mae": 14.75675062605045,
+   "pct_within_10": 0.40048740861088544,
+   "team_mae": 9.263929225220407,
+   "bias": 2.3045394964407095,
+   "lambda": 1000.0
+  },
+  {
+   "version": "c60:AST+USG+TIER+AGE+Q",
+   "cutoff": "c60",
+   "families": "AST+USG+TIER+AGE+Q",
+   "n_features": 18,
+   "total_mae": 14.756932645692777,
+   "pct_within_10": 0.4021121039805037,
+   "team_mae": 9.26418050817611,
+   "bias": 2.3156343434137483,
+   "lambda": 1000.0
+  },
+  {
+   "version": "c60:PTS+AST+USG+TIER+AGE+Q",
+   "cutoff": "c60",
+   "families": "PTS+AST+USG+TIER+AGE+Q",
+   "n_features": 20,
+   "total_mae": 14.756949650825659,
+   "pct_within_10": 0.40292445166531277,
+   "team_mae": 9.263619429279924,
+   "bias": 2.3178632919045454,
+   "lambda": 1000.0
+  },
+  {
+   "version": "c60:AST+3PM+PM+TIER+AGE+Q",
+   "cutoff": "c60",
+   "families": "AST+3PM+PM+TIER+AGE+Q",
+   "n_features": 20,
+   "total_mae": 14.756988335911077,
+   "pct_within_10": 0.40129975629569453,
+   "team_mae": 9.263479181128018,
+   "bias": 2.3250332665519053,
+   "lambda": 1000.0
+  },
+  {
+   "version": "c60:PTS+AST+3PM+PM+TIER+AGE+Q",
+   "cutoff": "c60",
+   "families": "PTS+AST+3PM+PM+TIER+AGE+Q",
+   "n_features": 22,
+   "total_mae": 14.75721726422842,
+   "pct_within_10": 0.4021121039805037,
+   "team_mae": 9.261741352847586,
+   "bias": 2.332422855665143,
+   "lambda": 1000.0
+  },
+  {
+   "version": "c60:AST+PM+TIER+AGE+Q",
+   "cutoff": "c60",
+   "families": "AST+PM+TIER+AGE+Q",
+   "n_features": 18,
+   "total_mae": 14.75747071533424,
+   "pct_within_10": 0.40129975629569453,
+   "team_mae": 9.260868876730303,
+   "bias": 2.3238797356242715,
+   "lambda": 1000.0
+  },
+  {
+   "version": "c60:PTS+AST+PM+TIER+AGE+Q",
+   "cutoff": "c60",
+   "families": "PTS+AST+PM+TIER+AGE+Q",
+   "n_features": 20,
+   "total_mae": 14.757548822717597,
+   "pct_within_10": 0.4021121039805037,
+   "team_mae": 9.259763357652139,
+   "bias": 2.3324470695167947,
+   "lambda": 1000.0
+  },
+  {
+   "version": "c60:AST+3PM+USG+PM+TIER+AGE+Q",
+   "cutoff": "c60",
+   "families": "AST+3PM+USG+PM+TIER+AGE+Q",
+   "n_features": 22,
+   "total_mae": 14.757667278434342,
+   "pct_within_10": 0.4021121039805037,
+   "team_mae": 9.26240519588288,
+   "bias": 2.3472213625944307,
+   "lambda": 1000.0
+  },
+  {
+   "version": "c60:PTS+AST+3PM+USG+PM+TIER+AGE+Q",
+   "cutoff": "c60",
+   "families": "PTS+AST+3PM+USG+PM+TIER+AGE+Q",
+   "n_features": 24,
+   "total_mae": 14.75772208359811,
+   "pct_within_10": 0.4021121039805037,
+   "team_mae": 9.261415959708676,
+   "bias": 2.34897442591344,
+   "lambda": 1000.0
+  },
+  {
+   "version": "c60:AST+USG+PM+TIER+AGE+Q",
+   "cutoff": "c60",
+   "families": "AST+USG+PM+TIER+AGE+Q",
+   "n_features": 20,
+   "total_mae": 14.757857331142645,
+   "pct_within_10": 0.4021121039805037,
+   "team_mae": 9.260243282078212,
+   "bias": 2.3473656749783953,
+   "lambda": 1000.0
+  },
+  {
+   "version": "c60:PTS+AST+USG+PM+TIER+AGE+Q",
+   "cutoff": "c60",
+   "families": "PTS+AST+USG+PM+TIER+AGE+Q",
+   "n_features": 22,
+   "total_mae": 14.7578623425381,
+   "pct_within_10": 0.4021121039805037,
+   "team_mae": 9.25962460778573,
+   "bias": 2.3492177567448294,
+   "lambda": 1000.0
+  },
+  {
+   "version": "c60:MIN+AST+3PM+TIER+AGE+Q",
+   "cutoff": "c60",
+   "families": "MIN+AST+3PM+TIER+AGE+Q",
+   "n_features": 20,
+   "total_mae": 14.7640639761251,
+   "pct_within_10": 0.39967506092607635,
+   "team_mae": 9.265790357146095,
+   "bias": 2.31348441723607,
+   "lambda": 1000.0
+  },
+  {
+   "version": "c60:MIN+AST+3PM+PM+TIER+AGE+Q",
+   "cutoff": "c60",
+   "families": "MIN+AST+3PM+PM+TIER+AGE+Q",
+   "n_features": 22,
+   "total_mae": 14.764309248669063,
+   "pct_within_10": 0.39967506092607635,
+   "team_mae": 9.26279976548579,
+   "bias": 2.3385698154296444,
+   "lambda": 1000.0
+  },
+  {
+   "version": "c60:MIN+AST+TIER+AGE+Q",
+   "cutoff": "c60",
+   "families": "MIN+AST+TIER+AGE+Q",
+   "n_features": 18,
+   "total_mae": 14.7649774393007,
+   "pct_within_10": 0.39886271324126726,
+   "team_mae": 9.264110430572504,
+   "bias": 2.3085392590883362,
+   "lambda": 1000.0
+  },
+  {
+   "version": "c60:MIN+AST+PM+TIER+AGE+Q",
+   "cutoff": "c60",
+   "families": "MIN+AST+PM+TIER+AGE+Q",
+   "n_features": 20,
+   "total_mae": 14.765218659630513,
+   "pct_within_10": 0.39886271324126726,
+   "team_mae": 9.260854226239784,
+   "bias": 2.3339190801373175,
+   "lambda": 1000.0
+  },
+  {
+   "version": "c60:PTS+MIN+AST+3PM+TIER+AGE+Q",
+   "cutoff": "c60",
+   "families": "PTS+MIN+AST+3PM+TIER+AGE+Q",
+   "n_features": 22,
+   "total_mae": 14.765242307037324,
+   "pct_within_10": 0.40129975629569453,
+   "team_mae": 9.26583279056983,
+   "bias": 2.336055515508876,
+   "lambda": 1000.0
+  }
+ ],
+ "family_frequency_top100": {
+  "PTS": 52,
+  "MIN": 18,
+  "REB": 0,
+  "AST": 86,
+  "3PM": 52,
+  "DEF": 0,
+  "USG": 48,
+  "PM": 49,
+  "TIER": 95,
+  "AGE": 84,
+  "Q": 81,
+  "NEW": 0
+ },
+ "cutoff_frequency_top100": {
+  "c60": 65,
+  "c20": 35
+ },
+ "chosen": "c60:AST+3PM+TIER+AGE+Q",
+ "stop": false,
+ "n_versions_better_than_E1": 1773,
+ "rank_of_E1_by_total_mae": 1774,
+ "runtime_s": 17.602386951446533,
+ "e1_frozen_sha256": "d9866fc50baf038fb8a6869502bfe4da710b4190ab40075251241ad25e60e8a8",
+ "features_sha256": "9ad0520718ac27e545c5b06b43b3854b1bf1db0febb3a17dc08634655791a272",
+ "e1_stored_pooled_2022_26_total_mae": 14.79634434941582,
+ "read_log": [
+  [
+   [
+    "game_id",
+    "season",
+    "date",
+    "team",
+    "opp",
+    "ortg_x_season",
+    "ortg_x_l10",
+    "ortg_x_l5",
+    "ortg_x_prev",
+    "drtg_y_season",
+    "drtg_y_l10",
+    "drtg_y_l5",
+    "drtg_y_prev",
+    "pace_x_season",
+    "pace_x_l10",
+    "pace_x_prev",
+    "pace_y_season",
+    "pace_y_l10",
+    "pace_y_prev",
+    "lg_ortg",
+    "lg_pace",
+    "home",
+    "rest_x",
+    "rest_y",
+    "b2b_x",
+    "b2b_y",
+    "gp_x",
+    "gp_y",
+    "dos"
+   ],
+   [
+    "2021-22",
+    "2022-23",
+    "2023-24"
+   ]
+  ],
+  [
+   [
+    "game_id",
+    "team",
+    "season",
+    "pts"
+   ],
+   [
+    "2021-22",
+    "2022-23",
+    "2023-24"
+   ]
+  ]
+ ]
+}

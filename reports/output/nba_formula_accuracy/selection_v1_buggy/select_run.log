@@ -1,0 +1,60 @@
+frozen.json SHA-256: deadb2637e88577c89033c8d09013fc81aca368adaa6e8cc9f09a102021604ec
+selection games 2461 (with a sportsbook close: 2422); runtime 34s
+constants: {"2022-23": "no prior-season blend: constants fitted on 2021-22 with k = 0 (1214 games with history on both teams; league-level shift uses the in-sample season level)", "2023-24": "fitted on 2022-23 (k = 20, prior 2021-22)"}
+sportsbook close MAE/RMSE/bias: {'n': 2422, 'mae': 14.199, 'rmse': 17.959, 'bias': -0.63}
+#37 prior-only: {'n': 2461, 'mae': 16.015, 'rmse': 20.319, 'bias': -3.599}
+#38 default k=20: {'n': 2461, 'mae': 15.043, 'rmse': 19.071, 'bias': -0.624} rank 6144
+TOP 20 team formulas by pooled selection MAE (MAE on line-games in brackets):
+  1 flat  7791 w0.5  own     decay5     k 0 sh-on  none split-on  shr-on  MAE 14.611 [14.613] RMSE 18.558 bias -0.312
+  2 flat  8751 w0.5  avg     decay5     k 0 sh-on  none split-on  shr-on  MAE 14.612 [14.614] RMSE 18.556 bias -0.295
+  3 flat 10671 w0.5  termown decay5     k 0 sh-on  none split-on  shr-on  MAE 14.613 [14.615] RMSE 18.556 bias -0.287
+  4 flat  7795 w0.5  own     decay5     k 0 sh-on  b2b  split-on  shr-on  MAE 14.614 [14.616] RMSE 18.555 bias -0.148
+  5 flat  8755 w0.5  avg     decay5     k 0 sh-on  b2b  split-on  shr-on  MAE 14.615 [14.617] RMSE 18.554 bias -0.131
+  6 flat 10675 w0.5  termown decay5     k 0 sh-on  b2b  split-on  shr-on  MAE 14.616 [14.619] RMSE 18.554 bias -0.123
+  7 flat  7789 w0.5  own     decay5     k 0 sh-on  none split-off shr-on  MAE 14.629 [14.629] RMSE 18.585 bias -0.324
+  8 flat  7793 w0.5  own     decay5     k 0 sh-on  b2b  split-off shr-on  MAE 14.630 [14.631] RMSE 18.583 bias -0.160
+  9 flat  8749 w0.5  avg     decay5     k 0 sh-on  none split-off shr-on  MAE 14.631 [14.632] RMSE 18.584 bias -0.307
+ 10 flat  8753 w0.5  avg     decay5     k 0 sh-on  b2b  split-off shr-on  MAE 14.632 [14.633] RMSE 18.581 bias -0.144
+ 11 flat 10669 w0.5  termown decay5     k 0 sh-on  none split-off shr-on  MAE 14.632 [14.633] RMSE 18.583 bias -0.300
+ 12 flat  7889 w0.5  own     decay10    k 0 sh-on  b2b  split-off shr-on  MAE 14.633 [14.643] RMSE 18.560 bias -0.080
+ 13 flat  7885 w0.5  own     decay10    k 0 sh-on  none split-off shr-on  MAE 14.633 [14.643] RMSE 18.562 bias -0.252
+ 14 flat 10673 w0.5  termown decay5     k 0 sh-on  b2b  split-off shr-on  MAE 14.633 [14.635] RMSE 18.581 bias -0.136
+ 15 flat  8845 w0.5  avg     decay10    k 0 sh-on  none split-off shr-on  MAE 14.634 [14.644] RMSE 18.561 bias -0.233
+ 16 flat  8849 w0.5  avg     decay10    k 0 sh-on  b2b  split-off shr-on  MAE 14.634 [14.644] RMSE 18.559 bias -0.062
+ 17 flat  8739 w0.5  avg     decay5     k 0 sh-off none split-on  shr-on  MAE 14.635 [14.638] RMSE 18.577 bias -0.273
+ 18 flat  7779 w0.5  own     decay5     k 0 sh-off none split-on  shr-on  MAE 14.635 [14.637] RMSE 18.578 bias -0.290
+ 19 flat 10659 w0.5  termown decay5     k 0 sh-off none split-on  shr-on  MAE 14.636 [14.639] RMSE 18.577 bias -0.265
+ 20 flat 10765 w0.5  termown decay10    k 0 sh-on  none split-off shr-on  MAE 14.636 [14.646] RMSE 18.561 bias -0.223
+player version 0 {'q': 0.5, 'opp': False, 'pace': False} MAE 16.613 RMSE 20.827 bias +1.451
+player version 1 {'q': 0.5, 'opp': False, 'pace': True} MAE 16.617 RMSE 20.829 bias +1.462
+player version 2 {'q': 0.5, 'opp': True, 'pace': False} MAE 16.567 RMSE 20.808 bias +2.806
+player version 3 {'q': 0.5, 'opp': True, 'pace': True} MAE 16.577 RMSE 20.813 bias +2.839
+player version 4 {'q': 1.0, 'opp': False, 'pace': False} MAE 16.655 RMSE 20.893 bias +2.427
+player version 5 {'q': 1.0, 'opp': False, 'pace': True} MAE 16.658 RMSE 20.894 bias +2.435
+player version 6 {'q': 1.0, 'opp': True, 'pace': False} MAE 16.610 RMSE 20.887 bias +3.786
+player version 7 {'q': 1.0, 'opp': True, 'pace': True} MAE 16.621 RMSE 20.892 bias +3.816
+team_raw shift 0.0 MAE 14.611
+    T 2 n 1595 rate 0.5129 LB 0.4883
+    T 4 n 967 rate 0.5346 LB 0.5031
+    T 6 n 501 rate 0.507 LB 0.4633
+    T 8 n 231 rate 0.4978 LB 0.4339
+    best: (4, 0.5031)
+team_corr shift 0.312 MAE 14.615
+    T 2 n 1631 rate 0.5162 LB 0.492
+    T 4 n 966 rate 0.5269 LB 0.4954
+    T 6 n 513 rate 0.501 LB 0.4579
+    T 8 n 237 rate 0.5063 LB 0.4431
+    best: (4, 0.4954)
+player_raw shift 0.0 MAE 16.567
+    T 2 n 1277 rate 0.4738 LB 0.4465
+    T 4 n 1076 rate 0.4749 LB 0.4452
+    T 6 n 862 rate 0.4722 LB 0.439
+    T 8 n 675 rate 0.4741 LB 0.4367
+    best: (2, 0.4465)
+player_corr shift -2.806 MAE 16.385
+    T 2 n 1257 rate 0.4765 LB 0.449
+    T 4 n 1013 rate 0.4679 LB 0.4374
+    T 6 n 797 rate 0.4705 LB 0.4361
+    T 8 n 609 rate 0.4729 LB 0.4335
+    best: (2, 0.449)
+primary: team_raw

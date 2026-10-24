@@ -1,0 +1,616 @@
+{
+ "n_games": 1317,
+ "discovery_games": 659,
+ "unseen_games": 658,
+ "split_tip_utc": "2026-01-23T01:00:00+00:00",
+ "first_tip_utc": "2025-10-21T23:30:00+00:00",
+ "last_tip_utc": "2026-06-14T00:30:00+00:00",
+ "unseen_weeks": 21,
+ "loader_exclusions": {
+  "preseason (T before 2025-10-21)": 43,
+  "no clean result ['scalar', 'scalar']": 3
+ },
+ "feature_stats": {
+  "margin_ladder_bracket_estimate": 579,
+  "margin_ladder_exact": 8,
+  "margin_missing_or_rejected": 3,
+  "margin_exp_value": 727
+ },
+ "quote_exclusions": {
+  "no valid bid/ask at entry": 4
+ },
+ "games_with_valid_quotes": 1313,
+ "versions": {
+  "full theta=2c": {
+   "n_disc": 474,
+   "n_unseen": 476,
+   "disc_mean": 0.014546540084388186,
+   "unseen_mean": -0.01400271008403361,
+   "unseen_ci_lo": -0.050523391281512606,
+   "unseen_ci_hi": 0.024471112920168063,
+   "unseen_usd_per_week": -3.1739476190476177,
+   "unseen_total_usd": -66.65289999999997,
+   "coinflip_share_ge": 0.4,
+   "coinflip_mean": -0.018958962605042012
+  },
+  "full theta=4c": {
+   "n_disc": 400,
+   "n_unseen": 386,
+   "disc_mean": 0.02074655,
+   "unseen_mean": -0.027217331606217608,
+   "unseen_ci_lo": -0.06870275712435234,
+   "unseen_ci_hi": 0.01437984909326424,
+   "unseen_usd_per_week": -5.002804761904761,
+   "unseen_total_usd": -105.05889999999997,
+   "coinflip_share_ge": 0.696,
+   "coinflip_mean": -0.018587578497409326
+  },
+  "full theta=6c": {
+   "n_disc": 317,
+   "n_unseen": 301,
+   "disc_mean": 0.013949621451104103,
+   "unseen_mean": -0.03626548172757475,
+   "unseen_ci_lo": -0.08156221428571428,
+   "unseen_ci_hi": 0.009865166112956795,
+   "unseen_usd_per_week": -5.198052380952381,
+   "unseen_total_usd": -109.1591,
+   "coinflip_share_ge": 0.748,
+   "coinflip_mean": -0.019908161661129565
+  },
+  "elo_only theta=2c": {
+   "n_disc": 470,
+   "n_unseen": 420,
+   "disc_mean": 0.012580872340425531,
+   "unseen_mean": -0.041960476190476194,
+   "unseen_ci_lo": -0.0812297380952381,
+   "unseen_ci_hi": -0.001019332142857163,
+   "unseen_usd_per_week": -8.392095238095239,
+   "unseen_total_usd": -176.234,
+   "coinflip_share_ge": 0.866,
+   "coinflip_mean": -0.01882248933333333
+  },
+  "elo_only theta=4c": {
+   "n_disc": 389,
+   "n_unseen": 332,
+   "disc_mean": 0.00897511568123394,
+   "unseen_mean": -0.03796036144578313,
+   "unseen_ci_lo": -0.08220171912650602,
+   "unseen_ci_hi": 0.00679788328313251,
+   "unseen_usd_per_week": -6.0013523809523805,
+   "unseen_total_usd": -126.0284,
+   "coinflip_share_ge": 0.76,
+   "coinflip_mean": -0.020676420722891563
+  },
+  "elo_only theta=6c": {
+   "n_disc": 325,
+   "n_unseen": 248,
+   "disc_mean": 0.013990523076923077,
+   "unseen_mean": -0.00522568548387097,
+   "unseen_ci_lo": -0.05628563205645161,
+   "unseen_ci_hi": 0.047434809475806375,
+   "unseen_usd_per_week": -0.6171285714285718,
+   "unseen_total_usd": -12.959700000000005,
+   "coinflip_share_ge": 0.256,
+   "coinflip_mean": -0.020796633709677416
+  }
+ },
+ "models": {
+  "full": {
+   "cols": [
+    "elo_diff",
+    "net_diff",
+    "rest_diff",
+    "b2b_diff",
+    "miss_diff"
+   ],
+   "intercept_std": 0.256666478666257,
+   "weights_standardized": {
+    "elo_diff": 0.3108249497920669,
+    "net_diff": 0.46378292610878585,
+    "rest_diff": -0.06358980731132235,
+    "b2b_diff": -0.08035822283423803,
+    "miss_diff": -0.06345266209256191
+   },
+   "weights_per_raw_unit": {
+    "elo_diff": 0.002955831085101478,
+    "net_diff": 0.04934859920702226,
+    "rest_diff": -0.07509327890669568,
+    "b2b_diff": -0.16626074125864462,
+    "miss_diff": -0.005025348737567012
+   },
+   "feature_mean_disc": {
+    "elo_diff": -3.3214239641227086,
+    "net_diff": -0.3008099091938244,
+    "rest_diff": 0.025796661608497723,
+    "b2b_diff": -0.009104704097116844,
+    "miss_diff": -0.460699231640051
+   },
+   "feature_sd_disc": {
+    "elo_diff": 105.1565332534541,
+    "net_diff": 9.398097079983376,
+    "rest_diff": 0.8468109028816476,
+    "b2b_diff": 0.4833265040556281,
+    "miss_diff": 12.626519154426303
+   }
+  },
+  "elo_only": {
+   "cols": [
+    "elo_diff"
+   ],
+   "intercept_std": 0.25062205312038394,
+   "weights_standardized": {
+    "elo_diff": 0.6610290178537903
+   },
+   "weights_per_raw_unit": {
+    "elo_diff": 0.006286143118283881
+   },
+   "feature_mean_disc": {
+    "elo_diff": -3.3214239641227086
+   },
+   "feature_sd_disc": {
+    "elo_diff": 105.15653325345406
+   }
+  }
+ },
+ "listing_coverage": {
+  "both_teams_observed": 898,
+  "one_team": 190,
+  "none": 229
+ },
+ "quality": {
+  "discovery": {
+   "n_games": 659,
+   "market": {
+    "brier": 0.21554743872300836,
+    "logloss": 0.6195565300959505
+   },
+   "full": {
+    "brier": 0.22073455136036582,
+    "logloss": 0.6310931250054244
+   },
+   "full+market avg": {
+    "brier": 0.21498942710322957,
+    "logloss": 0.6184037975583666
+   },
+   "elo_only": {
+    "brier": 0.224672435306342,
+    "logloss": 0.6401312506447094
+   },
+   "elo_only+market avg": {
+    "brier": 0.21665261592870352,
+    "logloss": 0.6225499615678801
+   },
+   "calibration_full": [
+    {
+     "bucket": "0.1-0.2",
+     "n": 7,
+     "mean_p": 0.17326983984599204,
+     "win_rate": 0.14285714285714285
+    },
+    {
+     "bucket": "0.2-0.3",
+     "n": 38,
+     "mean_p": 0.2586409727949815,
+     "win_rate": 0.34210526315789475
+    },
+    {
+     "bucket": "0.3-0.4",
+     "n": 75,
+     "mean_p": 0.35195599523103144,
+     "win_rate": 0.38666666666666666
+    },
+    {
+     "bucket": "0.4-0.5",
+     "n": 115,
+     "mean_p": 0.45532902322785856,
+     "win_rate": 0.4
+    },
+    {
+     "bucket": "0.5-0.6",
+     "n": 157,
+     "mean_p": 0.5517970733218377,
+     "win_rate": 0.5286624203821656
+    },
+    {
+     "bucket": "0.6-0.7",
+     "n": 127,
+     "mean_p": 0.6441784558242666,
+     "win_rate": 0.6692913385826772
+    },
+    {
+     "bucket": "0.7-0.8",
+     "n": 99,
+     "mean_p": 0.7505469488833714,
+     "win_rate": 0.7575757575757576
+    },
+    {
+     "bucket": "0.8-0.9",
+     "n": 40,
+     "mean_p": 0.8380537141178518,
+     "win_rate": 0.85
+    },
+    {
+     "bucket": "0.9-1.0",
+     "n": 1,
+     "mean_p": 0.9301159359594446,
+     "win_rate": 1.0
+    }
+   ],
+   "calibration_market": [
+    {
+     "bucket": "0.0-0.1",
+     "n": 4,
+     "mean_p": 0.08499999999999999,
+     "win_rate": 0.0
+    },
+    {
+     "bucket": "0.1-0.2",
+     "n": 30,
+     "mean_p": 0.16640719128039208,
+     "win_rate": 0.2
+    },
+    {
+     "bucket": "0.2-0.3",
+     "n": 56,
+     "mean_p": 0.24630649112352598,
+     "win_rate": 0.3392857142857143
+    },
+    {
+     "bucket": "0.3-0.4",
+     "n": 94,
+     "mean_p": 0.3542266234341962,
+     "win_rate": 0.39361702127659576
+    },
+    {
+     "bucket": "0.4-0.5",
+     "n": 97,
+     "mean_p": 0.448231557256181,
+     "win_rate": 0.4845360824742268
+    },
+    {
+     "bucket": "0.5-0.6",
+     "n": 93,
+     "mean_p": 0.5522496786235586,
+     "win_rate": 0.5376344086021505
+    },
+    {
+     "bucket": "0.6-0.7",
+     "n": 104,
+     "mean_p": 0.6508924809162645,
+     "win_rate": 0.6634615384615384
+    },
+    {
+     "bucket": "0.7-0.8",
+     "n": 90,
+     "mean_p": 0.7471250952515576,
+     "win_rate": 0.7222222222222222
+    },
+    {
+     "bucket": "0.8-0.9",
+     "n": 85,
+     "mean_p": 0.8478000468829778,
+     "win_rate": 0.8
+    },
+    {
+     "bucket": "0.9-1.0",
+     "n": 6,
+     "mean_p": 0.9137091358389572,
+     "win_rate": 1.0
+    }
+   ],
+   "all_games_model_brier": {
+    "full": 0.22073455136036582,
+    "elo_only": 0.224672435306342
+   },
+   "home_win_rate": 0.5569044006069803
+  },
+  "unseen": {
+   "n_games": 654,
+   "market": {
+    "brier": 0.18027270790070493,
+    "logloss": 0.534950090575907
+   },
+   "full": {
+    "brier": 0.19313562343124438,
+    "logloss": 0.569451198003218
+   },
+   "full+market avg": {
+    "brier": 0.18307518666718978,
+    "logloss": 0.5452494945174845
+   },
+   "elo_only": {
+    "brier": 0.18952776470246596,
+    "logloss": 0.5623669983512616
+   },
+   "elo_only+market avg": {
+    "brier": 0.18222885721803345,
+    "logloss": 0.543139377191164
+   },
+   "calibration_full": [
+    {
+     "bucket": "0.0-0.1",
+     "n": 2,
+     "mean_p": 0.08979094526671376,
+     "win_rate": 0.0
+    },
+    {
+     "bucket": "0.1-0.2",
+     "n": 29,
+     "mean_p": 0.15503992238405256,
+     "win_rate": 0.0
+    },
+    {
+     "bucket": "0.2-0.3",
+     "n": 54,
+     "mean_p": 0.25490233628249714,
+     "win_rate": 0.12962962962962962
+    },
+    {
+     "bucket": "0.3-0.4",
+     "n": 68,
+     "mean_p": 0.35313010725249216,
+     "win_rate": 0.3382352941176471
+    },
+    {
+     "bucket": "0.4-0.5",
+     "n": 106,
+     "mean_p": 0.453020836063225,
+     "win_rate": 0.46226415094339623
+    },
+    {
+     "bucket": "0.5-0.6",
+     "n": 106,
+     "mean_p": 0.5589689616071389,
+     "win_rate": 0.6037735849056604
+    },
+    {
+     "bucket": "0.6-0.7",
+     "n": 89,
+     "mean_p": 0.6462063706293306,
+     "win_rate": 0.651685393258427
+    },
+    {
+     "bucket": "0.7-0.8",
+     "n": 104,
+     "mean_p": 0.7498018077209758,
+     "win_rate": 0.75
+    },
+    {
+     "bucket": "0.8-0.9",
+     "n": 77,
+     "mean_p": 0.8531476384580002,
+     "win_rate": 0.8311688311688312
+    },
+    {
+     "bucket": "0.9-1.0",
+     "n": 19,
+     "mean_p": 0.9230308604038487,
+     "win_rate": 0.8947368421052632
+    }
+   ],
+   "calibration_market": [
+    {
+     "bucket": "0.0-0.1",
+     "n": 19,
+     "mean_p": 0.07404589121905081,
+     "win_rate": 0.0
+    },
+    {
+     "bucket": "0.1-0.2",
+     "n": 45,
+     "mean_p": 0.14710902141117232,
+     "win_rate": 0.06666666666666667
+    },
+    {
+     "bucket": "0.2-0.3",
+     "n": 41,
+     "mean_p": 0.2522069045054118,
+     "win_rate": 0.12195121951219512
+    },
+    {
+     "bucket": "0.3-0.4",
+     "n": 70,
+     "mean_p": 0.34770167219280557,
+     "win_rate": 0.37142857142857144
+    },
+    {
+     "bucket": "0.4-0.5",
+     "n": 84,
+     "mean_p": 0.4501116957625839,
+     "win_rate": 0.5119047619047619
+    },
+    {
+     "bucket": "0.5-0.6",
+     "n": 89,
+     "mean_p": 0.5595785397693891,
+     "win_rate": 0.550561797752809
+    },
+    {
+     "bucket": "0.6-0.7",
+     "n": 93,
+     "mean_p": 0.6537252400270945,
+     "win_rate": 0.6021505376344086
+    },
+    {
+     "bucket": "0.7-0.8",
+     "n": 94,
+     "mean_p": 0.755769592133928,
+     "win_rate": 0.8297872340425532
+    },
+    {
+     "bucket": "0.8-0.9",
+     "n": 81,
+     "mean_p": 0.8514813636329542,
+     "win_rate": 0.7777777777777778
+    },
+    {
+     "bucket": "0.9-1.0",
+     "n": 38,
+     "mean_p": 0.9287708863187969,
+     "win_rate": 0.9736842105263158
+    }
+   ],
+   "all_games_model_brier": {
+    "full": 0.19244398995277567,
+    "elo_only": 0.18888215462975572
+   },
+   "home_win_rate": 0.5531914893617021
+  }
+ },
+ "primary": {
+  "pass": false,
+  "rules": [
+   [
+    "1 mean net per contract > 0 in discovery and unseen",
+    false,
+    "discovery +0.0207, unseen -0.0272"
+   ],
+   [
+    "2 unseen 95% bootstrap lower bound > 0",
+    false,
+    "CI [-0.0687, +0.0144]"
+   ],
+   [
+    "3 at least 100 unseen bets",
+    true,
+    "n_unseen 386"
+   ],
+   [
+    "4 coin flip: at most 5% of 500 copies do as well",
+    false,
+    "share 0.696"
+   ],
+   [
+    "5 at least $2/week at 10 contracts (unseen)",
+    false,
+    "$-5.00/wk"
+   ],
+   [
+    "6 model unseen Brier <= market Brier (or within 0.002 while rules 1-5 pass)",
+    false,
+    "model 0.1931 vs market 0.1803, diff +0.0129"
+   ]
+  ]
+ },
+ "bets_by_edge_full_theta2c": [
+  {
+   "edge_range": "0.02-0.04",
+   "n_disc": 74,
+   "mean_disc": -0.01896702702702702,
+   "n_unseen": 90,
+   "mean_unseen": 0.04267333333333334
+  },
+  {
+   "edge_range": "0.04-0.06",
+   "n_disc": 83,
+   "mean_disc": 0.04670590361445783,
+   "n_unseen": 85,
+   "mean_unseen": 0.00482376470588236
+  },
+  {
+   "edge_range": "0.06-0.10",
+   "n_disc": 142,
+   "mean_disc": -0.017188521126760562,
+   "n_unseen": 118,
+   "mean_unseen": -0.05689008474576271
+  },
+  {
+   "edge_range": "0.10-9.00",
+   "n_disc": 175,
+   "mean_disc": 0.03921600000000001,
+   "n_unseen": 183,
+   "mean_unseen": -0.02296655737704917
+  }
+ ],
+ "bets_by_key_missing_full_theta4c": {
+  "key player missing": {
+   "n_disc": 85,
+   "mean_disc": 0.011179058823529412,
+   "n_unseen": 125,
+   "mean_unseen": -0.017953759999999992
+  },
+  "no key player missing": {
+   "n_disc": 315,
+   "mean_disc": 0.02332825396825397,
+   "n_unseen": 261,
+   "mean_unseen": -0.03165390804597702
+  },
+  "both teams' listings observed": {
+   "n_disc": 178,
+   "mean_disc": 0.03791943820224719,
+   "n_unseen": 332,
+   "mean_unseen": -0.02333328313253012
+  }
+ },
+ "sensitivity_primary_both_observed": {
+  "n_disc": 178,
+  "n_unseen": 332,
+  "disc_mean": 0.03791943820224719,
+  "unseen_mean": -0.02333328313253012,
+  "unseen_ci_lo": -0.06919739683734939,
+  "unseen_ci_hi": 0.02141017545180721,
+  "unseen_usd_per_week": -3.688880952380952,
+  "unseen_total_usd": -77.4665,
+  "coinflip_share_ge": 0.556,
+  "coinflip_mean": -0.021112802771084332
+ },
+ "quality_by_key_missing": {
+  "discovery key_missing": {
+   "n": 156,
+   "model_brier": 0.2488459814925529,
+   "market_brier": 0.2472641091210752
+  },
+  "discovery not_key_missing": {
+   "n": 503,
+   "model_brier": 0.212016095891934,
+   "market_brier": 0.20571085704885647
+  },
+  "unseen key_missing": {
+   "n": 197,
+   "model_brier": 0.20380598986144707,
+   "market_brier": 0.19015078210105538
+  },
+  "unseen not_key_missing": {
+   "n": 457,
+   "model_brier": 0.18853592499196664,
+   "market_brier": 0.17601454462396748
+  }
+ },
+ "availability_vs_market": {
+  "games_with_abs_missing_diff_ge_8": 460,
+  "disagree": 241,
+  "disagree_share": 0.5239130434782608,
+  "when_disagree_availability_side_win_rate": 0.34854771784232363,
+  "when_disagree_market_side_win_rate": 0.6514522821576764
+ },
+ "feature_summary": {
+  "elo_diff": {
+   "mean": 3.6317212898467823,
+   "sd": 138.0488784621917
+  },
+  "net_diff": {
+   "mean": -0.04094352243554991,
+   "sd": 10.462968686046265
+  },
+  "rest_diff": {
+   "mean": 0.03720577069096431,
+   "sd": 0.8244447372048294
+  },
+  "b2b_diff": {
+   "mean": -0.008352315869400152,
+   "sd": 0.47799578770540735
+  },
+  "miss_diff": {
+   "mean": -0.04033367080064121,
+   "sd": 13.268817728469188
+  },
+  "key_missing": {
+   "mean": 0.2680334092634776,
+   "sd": 0.44293509770854095
+  },
+  "both_observed": {
+   "mean": 0.6818526955201215,
+   "sd": 0.46575701511846923
+  }
+ }
+}

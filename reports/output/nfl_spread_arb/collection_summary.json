@@ -1,0 +1,53 @@
+{
+  "generated_ts": 1791878386,
+  "eligible_games": 364,
+  "games_by_season": {
+    "2025": {
+      "eligible": 285,
+      "both_series": 283,
+      "missing_spread": 0,
+      "missing_win": 2,
+      "missing_both": 0
+    },
+    "2026": {
+      "eligible": 79,
+      "both_series": 79,
+      "missing_spread": 0,
+      "missing_win": 0,
+      "missing_both": 0
+    }
+  },
+  "games_missing_a_series": 2,
+  "markets_by_kind": {
+    "spread": 8010,
+    "win": 724
+  },
+  "quote_rows": 17848037,
+  "coverage_by_kind": {
+    "spread": {
+      "markets": 8006,
+      "median": 0.08816917177245212,
+      "p05": 0.001925688594146457,
+      "min": 0.00010928394427611682
+    },
+    "win": {
+      "markets": 722,
+      "median": 0.57510082087224,
+      "p05": 0.28007830972314346,
+      "min": 0.1640288427540524
+    }
+  },
+  "null_shares_by_kind": {
+    "spread": {
+      "rows": 12524730,
+      "null_bid_share": 0.017006434470044463,
+      "null_ask_share": 0.0031766752656544293
+    },
+    "win": {
+      "rows": 5323307,
+      "null_bid_share": 0.00127608646279465,
+      "null_ask_share": 0.0012881090645345083
+    }
+  },
+  "markets_without_quotes": 6
+}

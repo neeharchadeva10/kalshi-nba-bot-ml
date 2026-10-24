@@ -1,0 +1,36 @@
+[    0.0s] 3 games, 1437 recorded tickers, 106 events
+[    0.0s]   metadata 25/106 events
+[    0.0s]   metadata 50/106 events
+[    0.0s]   metadata 75/106 events
+[    0.4s]   event KXNBARACE-26OCT20BOSDET: HttpError
+[    0.4s]   event KXNBARACE-26OCT20OKCSAS: HttpError
+[    0.5s]   event KXNBARACE-26OCT20PHINYK: HttpError
+[    0.5s]   metadata 100/106 events
+[    0.5s] metadata: 1780 markets listed by the API
+[  162.9s] 5M lines, 1 lock_open, 0 candidates
+[  297.2s] 10M lines, 4 lock_open, 0 candidates
+[  408.7s] 15M lines, 22 lock_open, 2 candidates
+[  511.5s] 20M lines, 42 lock_open, 5 candidates
+[  617.9s] 25M lines, 59 lock_open, 8 candidates
+[  719.4s] 30M lines, 90 lock_open, 13 candidates
+[  825.6s] 35M lines, 135 lock_open, 25 candidates
+[  930.5s] 40M lines, 168 lock_open, 25 candidates
+[ 1034.8s] 45M lines, 186 lock_open, 27 candidates
+[ 1147.9s] 50M lines, 195 lock_open, 27 candidates
+[ 1291.6s] 55M lines, 209 lock_open, 28 candidates
+[ 1447.4s] 60M lines, 218 lock_open, 31 candidates
+[ 1611.3s] 65M lines, 454 lock_open, 47 candidates
+[ 1798.3s] 70M lines, 471 lock_open, 47 candidates
+[ 2000.4s] 75M lines, 486 lock_open, 47 candidates
+[ 2151.5s] 80M lines, 503 lock_open, 50 candidates
+[ 2305.2s] 85M lines, 508 lock_open, 52 candidates
+[ 2472.4s] replay done: 89603117 lines, 588 lock_open (527 below $0.01 at count 1), 61 candidates
+
+label=source lock_open=588 candidates(>= $0.01)=61 deduped=50 runtime=2472.6s
+  cheapest-L10  events=    43 fills=    31 rate=0.721 meanPnL=0.0204 win=0.0968 price=0.0726 CI=[-0.0944, 0.2613] coin=0.24
+  cheapest-L40  events=    44 fills=    21 rate=0.477 meanPnL=0.0697 win=0.1429 price=0.0695 CI=[-0.0737, 0.4759] coin=0.054
+  stale-L10     events=    47 fills=    20 rate=0.426 meanPnL=0.0329 win=0.6 price=0.561 CI=[0.01, 0.0528] coin=0.134
+  stale-L40     events=    49 fills=     9 rate=0.184 meanPnL=0.0659 win=0.4444 price=0.3733 CI=[-0.0167, 0.1321] coin=0.202
+  trigger-L10   events=    46 fills=    29 rate=0.630 meanPnL=0.0502 win=0.2414 price=0.1869 CI=[-0.0175, 0.2613] coin=0.052
+  trigger-L40   events=    47 fills=    20 rate=0.426 meanPnL=0.0662 win=0.25 price=0.179 CI=[-0.0518, 0.4759] coin=0.052
+verdict: source night (not counted)

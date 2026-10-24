@@ -1,0 +1,34 @@
+{
+ "2022-23": {
+  "games_56": 1230,
+  "games_ext": 1230,
+  "games_both": 1230,
+  "max_abs_diff": 0.0,
+  "consts_note": "no prior-season blend: constants fitted on 2021-22 with k = 0 (1214 games with history on both teams; league-level shift uses the in-sample season level)",
+  "seconds": 4.6
+ },
+ "2023-24": {
+  "games_56": 1231,
+  "games_ext": 1231,
+  "games_both": 1231,
+  "max_abs_diff": 0.0,
+  "consts_note": "fitted on 2022-23 (k = 20, prior 2021-22)",
+  "seconds": 4.5
+ },
+ "2024-25": {
+  "games_56": 1231,
+  "games_ext": 1231,
+  "games_both": 1231,
+  "max_abs_diff": 0.0,
+  "consts_note": "fitted on 2023-24 (k = 20, prior 2022-23)",
+  "seconds": 4.2
+ },
+ "2025-26": {
+  "games_56": 1231,
+  "games_ext": 1231,
+  "games_both": 1231,
+  "max_abs_diff": 0.0,
+  "consts_note": "fitted on 2024-25 (k = 20, prior 2023-24)",
+  "seconds": 5.3
+ }
+}

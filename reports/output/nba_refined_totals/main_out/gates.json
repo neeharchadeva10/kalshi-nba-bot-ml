@@ -1,0 +1,46 @@
+{
+ "gates": [
+  {
+   "gate": "F42 reproduces #56 repro_check (#42 on 2025-26)",
+   "pass": true,
+   "max_abs_diff": 0.0,
+   "n_games": 1231
+  },
+  {
+   "gate": "E1 2022-26 total MAE = 14.79634 on 4,923 games",
+   "pass": true,
+   "max_abs_diff": 4.349415819504543e-06,
+   "n_games": 4923
+  },
+  {
+   "gate": "frozen E3 2024-26 total MAE = 14.903 (results_test.json)",
+   "pass": true,
+   "max_abs_diff": 0.0,
+   "n_games": 2462
+  },
+  {
+   "gate": "H2-K machinery fed E1 at G=4 reproduces #60 records.csv net_g4 per game",
+   "pass": true,
+   "max_abs_diff": 5.551115123125783e-17,
+   "same_bet_set": true,
+   "n_bets": 470,
+   "max_abs_diff_e1_vs_records": 5.684341886080802e-14
+  }
+ ],
+ "multi_source": {
+  "M20": {
+   "n_box_absentees": 4205,
+   "share_listed_out_doubtful_t60": 0.715576694411415,
+   "share_listed_out_doubtful_last_before_tip": 0.8302021403091557
+  },
+  "M28": {
+   "n_box_absentees": 1706,
+   "share_listed_out_doubtful_t60": 0.7145369284876905,
+   "share_listed_out_doubtful_last_before_tip": 0.8493552168815943
+  },
+  "kalshi_T-1h_median_vs_close_2025_26": {
+   "n": 1217,
+   "median_abs_line_diff": 0.4117647058823479
+  }
+ }
+}

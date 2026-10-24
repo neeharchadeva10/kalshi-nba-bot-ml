@@ -1,0 +1,161 @@
+[EXPLORATORY - discovery half only - information, not a test]
+discovery games with outcomes: 660; strikes: 7261; unseen events present: 0 (asserted)
+
+
+######## MODEL A (#37 original) [EXPLORATORY - discovery half only - information, not a test]
+discovery sigma 19.484  MAE(with median) 15.807 vs market 14.672  Brier 0.2265 vs market 0.2102
+
+1. Win rate vs the line (actual on formula's side of market median; exact ties dropped) [EXPLORATORY - discovery half only - information, not a test]
+|  | n | win_rate |
+|---|---|---|
+| [0,2) | 132.0000 | 0.5000 |
+| [2,4) | 137.0000 | 0.5255 |
+| [4,6) | 124.0000 | 0.5081 |
+| [6,8) | 78.0000 | 0.5641 |
+| [8,inf) | 189.0000 | 0.4868 |
+| all | 660.0000 | 0.5106 |
+
+2. Registered bet rule, mid 15-85c, edge with fee at count 10 [EXPLORATORY - discovery half only - information, not a test]  (weeks = 13.29)
+|  | n | contracts | win_rate | avg_price | mean_net_per_contract | total_usd | usd_per_week | ci95_lo | ci95_hi |
+|---|---|---|---|---|---|---|---|---|---|
+| theta 0.03 fixed10 | 528.0000 | 5280.0000 | 0.4072 | 0.3933 | -0.0023 | -12.1705 | -0.9154 | -0.0441 | 0.0388 |
+| theta 0.03 sized1-10 | 528.0000 | 4102.0000 | 0.4072 | 0.3933 | -0.0041 | -16.8597 | -1.2682 | -0.0490 | 0.0406 |
+| theta 0.06 fixed10 | 432.0000 | 4320.0000 | 0.4074 | 0.3917 | -0.0005 | -2.0524 | -0.1544 | -0.0461 | 0.0461 |
+| theta 0.06 sized1-10 | 432.0000 | 3629.0000 | 0.4074 | 0.3917 | -0.0080 | -29.1804 | -2.1949 | -0.0559 | 0.0402 |
+over/under split:
+|  | over_n | over_win | over_net_pc | under_n | under_win | under_net_pc |
+|---|---|---|---|---|---|---|
+| theta 0.03 fixed10 | 108.0000 | 0.4074 | -0.0313 | 420.0000 | 0.4071 | 0.0051 |
+| theta 0.03 sized1-10 | 108.0000 | 0.4074 | -0.0567 | 420.0000 | 0.4071 | 0.0058 |
+| theta 0.06 fixed10 | 68.0000 | 0.3824 | -0.0546 | 364.0000 | 0.4121 | 0.0096 |
+| theta 0.06 sized1-10 | 68.0000 | 0.3824 | -0.0830 | 364.0000 | 0.4121 | 0.0037 |
+
+3a. Alt lines: any quoted strike (mid 0.01-0.99), theta 3c, fixed 10 [EXPLORATORY - discovery half only - information, not a test]
+|  | n | contracts | win_rate | avg_price | mean_net_per_contract | total_usd | usd_per_week | ci95_lo | ci95_hi | over_n | over_win | over_net_pc | under_n | under_win | under_net_pc |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| alt_lines | 530.0000 | 5300.0000 | 0.4038 | 0.3906 | -0.0030 | -15.6480 | -1.1770 | -0.0436 | 0.0381 | 109.0000 | 0.4037 | -0.0293 | 421.0000 | 0.4038 | 0.0039 |
+
+3b. Every quoted strike, edge-side bet (larger edge, any sign), 10 contracts, by |strike - median| [EXPLORATORY - discovery half only - information, not a test]
+|  | n | win_rate | avg_price | mean_net_per_contract | mean_edge_claimed |
+|---|---|---|---|---|---|
+| [0,3) | 1273.0000 | 0.5161 | 0.5070 | -0.0083 | 0.0938 |
+| [3,6) | 1320.0000 | 0.5076 | 0.5138 | -0.0230 | 0.0814 |
+| [6,9) | 1316.0000 | 0.5152 | 0.5211 | -0.0215 | 0.0696 |
+| [9,12) | 1294.0000 | 0.5046 | 0.5204 | -0.0301 | 0.0602 |
+| [12,inf) | 2057.0000 | 0.4453 | 0.4755 | -0.0420 | 0.0551 |
+
+
+######## MODEL B (F1_R1_S0, #38) [EXPLORATORY - discovery half only - information, not a test]
+discovery sigma 19.333  MAE(with median) 15.370 vs market 14.672  Brier 0.2219 vs market 0.2102
+
+1. Win rate vs the line (actual on formula's side of market median; exact ties dropped) [EXPLORATORY - discovery half only - information, not a test]
+|  | n | win_rate |
+|---|---|---|
+| [0,2) | 211.0000 | 0.5213 |
+| [2,4) | 168.0000 | 0.4821 |
+| [4,6) | 111.0000 | 0.4595 |
+| [6,8) | 82.0000 | 0.4756 |
+| [8,inf) | 88.0000 | 0.4545 |
+| all | 660.0000 | 0.4864 |
+
+2. Registered bet rule, mid 15-85c, edge with fee at count 10 [EXPLORATORY - discovery half only - information, not a test]  (weeks = 13.29)
+|  | n | contracts | win_rate | avg_price | mean_net_per_contract | total_usd | usd_per_week | ci95_lo | ci95_hi |
+|---|---|---|---|---|---|---|---|---|---|
+| theta 0.03 fixed10 | 452.0000 | 4520.0000 | 0.3783 | 0.4204 | -0.0586 | -265.0051 | -19.9332 | -0.1010 | -0.0145 |
+| theta 0.03 sized1-10 | 452.0000 | 3048.0000 | 0.3783 | 0.4204 | -0.0455 | -138.6294 | -10.4275 | -0.0952 | 0.0044 |
+| theta 0.06 fixed10 | 314.0000 | 3140.0000 | 0.3949 | 0.4201 | -0.0419 | -131.6852 | -9.9051 | -0.0949 | 0.0135 |
+| theta 0.06 sized1-10 | 314.0000 | 2449.0000 | 0.3949 | 0.4201 | -0.0431 | -105.6380 | -7.9459 | -0.1006 | 0.0149 |
+over/under split:
+|  | over_n | over_win | over_net_pc | under_n | under_win | under_net_pc |
+|---|---|---|---|---|---|---|
+| theta 0.03 fixed10 | 263.0000 | 0.3764 | -0.0671 | 189.0000 | 0.3810 | -0.0468 |
+| theta 0.03 sized1-10 | 263.0000 | 0.3764 | -0.0649 | 189.0000 | 0.3810 | -0.0174 |
+| theta 0.06 fixed10 | 185.0000 | 0.3838 | -0.0610 | 129.0000 | 0.4109 | -0.0146 |
+| theta 0.06 sized1-10 | 185.0000 | 0.3838 | -0.0712 | 129.0000 | 0.4109 | -0.0024 |
+
+3a. Alt lines: any quoted strike (mid 0.01-0.99), theta 3c, fixed 10 [EXPLORATORY - discovery half only - information, not a test]
+|  | n | contracts | win_rate | avg_price | mean_net_per_contract | total_usd | usd_per_week | ci95_lo | ci95_hi | over_n | over_win | over_net_pc | under_n | under_win | under_net_pc |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| alt_lines | 453.0000 | 4530.0000 | 0.3753 | 0.4191 | -0.0603 | -273.3003 | -20.5572 | -0.1037 | -0.0163 | 263.0000 | 0.3726 | -0.0697 | 190.0000 | 0.3789 | -0.0473 |
+
+3b. Every quoted strike, edge-side bet (larger edge, any sign), 10 contracts, by |strike - median| [EXPLORATORY - discovery half only - information, not a test]
+|  | n | win_rate | avg_price | mean_net_per_contract | mean_edge_claimed |
+|---|---|---|---|---|---|
+| [0,3) | 1273.0000 | 0.4760 | 0.5043 | -0.0457 | 0.0577 |
+| [3,6) | 1320.0000 | 0.4773 | 0.5122 | -0.0516 | 0.0435 |
+| [6,9) | 1316.0000 | 0.4992 | 0.5189 | -0.0353 | 0.0334 |
+| [9,12) | 1294.0000 | 0.4884 | 0.5227 | -0.0485 | 0.0255 |
+| [12,inf) | 2057.0000 | 0.4088 | 0.4598 | -0.0628 | 0.0217 |
+
+
+######## MODEL C (F4_R2_S1, #39 winner) [EXPLORATORY - discovery half only - information, not a test]
+discovery sigma 19.268  MAE(with median) 15.303 vs market 14.672  Brier 0.2207 vs market 0.2102
+
+1. Win rate vs the line (actual on formula's side of market median; exact ties dropped) [EXPLORATORY - discovery half only - information, not a test]
+|  | n | win_rate |
+|---|---|---|
+| [0,2) | 200.0000 | 0.5150 |
+| [2,4) | 162.0000 | 0.4815 |
+| [4,6) | 122.0000 | 0.4426 |
+| [6,8) | 101.0000 | 0.5248 |
+| [8,inf) | 75.0000 | 0.4667 |
+| all | 660.0000 | 0.4894 |
+
+2. Registered bet rule, mid 15-85c, edge with fee at count 10 [EXPLORATORY - discovery half only - information, not a test]  (weeks = 13.29)
+|  | n | contracts | win_rate | avg_price | mean_net_per_contract | total_usd | usd_per_week | ci95_lo | ci95_hi |
+|---|---|---|---|---|---|---|---|---|---|
+| theta 0.03 fixed10 | 449.0000 | 4490.0000 | 0.3964 | 0.4236 | -0.0438 | -196.5868 | -14.7869 | -0.0876 | 0.0009 |
+| theta 0.03 sized1-10 | 449.0000 | 3102.0000 | 0.3964 | 0.4236 | -0.0329 | -102.0327 | -7.6747 | -0.0814 | 0.0174 |
+| theta 0.06 fixed10 | 320.0000 | 3200.0000 | 0.4062 | 0.4233 | -0.0338 | -108.0137 | -8.1246 | -0.0852 | 0.0182 |
+| theta 0.06 sized1-10 | 320.0000 | 2546.0000 | 0.4062 | 0.4233 | -0.0285 | -72.6556 | -5.4650 | -0.0836 | 0.0284 |
+over/under split:
+|  | over_n | over_win | over_net_pc | under_n | under_win | under_net_pc |
+|---|---|---|---|---|---|---|
+| theta 0.03 fixed10 | 228.0000 | 0.3904 | -0.0598 | 221.0000 | 0.4027 | -0.0273 |
+| theta 0.03 sized1-10 | 228.0000 | 0.3904 | -0.0537 | 221.0000 | 0.4027 | -0.0113 |
+| theta 0.06 fixed10 | 166.0000 | 0.4036 | -0.0462 | 154.0000 | 0.4091 | -0.0204 |
+| theta 0.06 sized1-10 | 166.0000 | 0.4036 | -0.0551 | 154.0000 | 0.4091 | -0.0006 |
+
+3a. Alt lines: any quoted strike (mid 0.01-0.99), theta 3c, fixed 10 [EXPLORATORY - discovery half only - information, not a test]
+|  | n | contracts | win_rate | avg_price | mean_net_per_contract | total_usd | usd_per_week | ci95_lo | ci95_hi | over_n | over_win | over_net_pc | under_n | under_win | under_net_pc |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| alt_lines | 451.0000 | 4510.0000 | 0.3925 | 0.4214 | -0.0455 | -205.2419 | -15.4379 | -0.0901 | -0.0010 | 228.0000 | 0.3860 | -0.0623 | 223.0000 | 0.3991 | -0.0283 |
+
+3b. Every quoted strike, edge-side bet (larger edge, any sign), 10 contracts, by |strike - median| [EXPLORATORY - discovery half only - information, not a test]
+|  | n | win_rate | avg_price | mean_net_per_contract | mean_edge_claimed |
+|---|---|---|---|---|---|
+| [0,3) | 1273.0000 | 0.4839 | 0.5053 | -0.0388 | 0.0584 |
+| [3,6) | 1320.0000 | 0.4765 | 0.5131 | -0.0533 | 0.0448 |
+| [6,9) | 1316.0000 | 0.4962 | 0.5178 | -0.0372 | 0.0346 |
+| [9,12) | 1294.0000 | 0.4938 | 0.5247 | -0.0451 | 0.0264 |
+| [12,inf) | 2057.0000 | 0.4254 | 0.4665 | -0.0529 | 0.0222 |
+
+
+######## 4. Market-only baselines (fixed 10 contracts, taker, held; no model) [EXPLORATORY - discovery half only - information, not a test]
+
+(a_YES_nearest_50c)
+|  | n | win_rate | avg_price | mean_net_per_contract | total_usd |
+|---|---|---|---|---|---|
+| all | 660.0000 | 0.4818 | 0.5116 | -0.0472 | -311.2602 |
+| 2025-10 | 80.0000 | 0.5625 | 0.5168 | 0.0286 | 22.8540 |
+| 2025-11 | 218.0000 | 0.4862 | 0.5142 | -0.0453 | -98.7047 |
+| 2025-12 | 198.0000 | 0.4949 | 0.5075 | -0.0300 | -59.4760 |
+| 2026-01 | 164.0000 | 0.4207 | 0.5105 | -0.1073 | -175.9334 |
+
+(b_NO_nearest_50c)
+|  | n | win_rate | avg_price | mean_net_per_contract | total_usd |
+|---|---|---|---|---|---|
+| all | 660.0000 | 0.5182 | 0.5096 | -0.0088 | -57.8705 |
+| 2025-10 | 80.0000 | 0.4375 | 0.5186 | -0.0983 | -78.6411 |
+| 2025-11 | 218.0000 | 0.5138 | 0.5116 | -0.0152 | -33.1113 |
+| 2025-12 | 198.0000 | 0.5051 | 0.5081 | -0.0205 | -40.6748 |
+| 2026-01 | 164.0000 | 0.5793 | 0.5041 | 0.0577 | 94.5566 |
+
+(c_middle_pair)
+|  | pairs | mean_pair_usd | total_usd | yes_leg_usd | no_leg_usd | share_total_in_between_(both win) | share_one_leg_wins | share_both_lose | avg_pair_cost_per_contract |
+|---|---|---|---|---|---|---|---|---|---|
+| all | 660.0000 | -0.8162 | -538.7164 | -348.1492 | -190.5672 | 0.2561 | 0.7439 | 0.0000 | 1.3062 |
+| 2025-10 | 80.0000 | -1.0631 | -85.0501 | -1.3185 | -83.7317 | 0.2375 | 0.7625 | 0.0000 | 1.3127 |
+| 2025-11 | 218.0000 | -0.7261 | -158.2850 | -87.3780 | -70.9070 | 0.2798 | 0.7202 | 0.0000 | 1.3214 |
+| 2025-12 | 198.0000 | -1.2159 | -240.7482 | -131.9030 | -108.8452 | 0.2071 | 0.7929 | 0.0000 | 1.2969 |
+| 2026-01 | 164.0000 | -0.3331 | -54.6331 | -127.5497 | 72.9167 | 0.2927 | 0.7073 | 0.0000 | 1.2941 |

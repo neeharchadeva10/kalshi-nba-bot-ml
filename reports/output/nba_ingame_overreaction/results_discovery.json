@@ -1,0 +1,184 @@
+{
+ "split": "discovery",
+ "dates": [
+  "2025-10-21",
+  "2026-01-22"
+ ],
+ "partial_download": false,
+ "coverage": {
+  "discovery_markets": 7294,
+  "not_downloaded": 0,
+  "notes": {
+   "ok": 7294
+  }
+ },
+ "games_processed": 648,
+ "game_level_skips": {
+  "bad_wallclock": 14,
+  "no_pbp_match": 1,
+  "no_pbp_rows": 1
+ },
+ "game_level_skip_events": {
+  "bad_wallclock": [
+   "KXNBATOTAL-25OCT28CHAMIA",
+   "KXNBATOTAL-25OCT28LACGSW",
+   "KXNBATOTAL-25OCT28NYKMIL",
+   "KXNBATOTAL-25OCT28SACOKC",
+   "KXNBATOTAL-25OCT29ATLBKN",
+   "KXNBATOTAL-25OCT29INDDAL",
+   "KXNBATOTAL-25OCT29LALMIN",
+   "KXNBATOTAL-25OCT29MEMPHX",
+   "KXNBATOTAL-25OCT29NOPDEN",
+   "KXNBATOTAL-25OCT29PORUTA",
+   "KXNBATOTAL-25OCT29SACCHI",
+   "KXNBATOTAL-25OCT30GSWMIL",
+   "KXNBATOTAL-25OCT30MIASAS",
+   "KXNBATOTAL-25OCT30WASOKC"
+  ],
+  "no_pbp_match": [
+   "KXNBATOTAL-26JAN08MIACHI"
+  ],
+  "no_pbp_rows": [
+   "KXNBATOTAL-26JAN20LACCHI"
+  ]
+ },
+ "checkpoint_skips": {
+  "HT|no_L0_crossing": 1,
+  "HT|no_L_C_crossing": 237,
+  "HT|no_decision_candle": 4,
+  "HT|no_main_strike_spread": 6,
+  "HT|None": 400,
+  "Q1|no_L0_crossing": 1,
+  "Q1|no_L_C_crossing": 152,
+  "Q1|no_main_strike_spread": 12,
+  "Q1|None": 483,
+  "Q3|no_L0_crossing": 1,
+  "Q3|no_L_C_crossing": 301,
+  "Q3|no_decision_candle": 6,
+  "Q3|no_main_strike_spread": 6,
+  "Q3|None": 334
+ },
+ "selected": {
+  "cp": "Q1",
+  "T": 10,
+  "dir": "follow",
+  "exit": "hold",
+  "n_fallback_hold": 0,
+  "n": 62,
+  "mean": 0.11464354838709676,
+  "sd": 0.4764282367720871,
+  "lb": -0.003949086902905755,
+  "win": 0.6774193548387096
+ },
+ "luck_test": {
+  "real_best_lb": -0.003949086902905755,
+  "reps": 500,
+  "seed": 20261022,
+  "share_reps_ge_real": 0.032,
+  "rep_best_lb_mean": -0.058620521622394894,
+  "rep_best_lb_p95": -0.012602090855405711,
+  "n_reps_no_eligible": 0,
+  "verdict": "PASS"
+ },
+ "calibration": {
+  "Q1": {
+   "n": 495,
+   "slope": 0.20276120503134584,
+   "se": 0.10966204847194673,
+   "intercept": -0.18905397931177462,
+   "mean_move": -0.16235080779850083,
+   "mean_final_minus_LC": -0.22197242473881107,
+   "sd_move": 6.591548721123757
+  },
+  "HT": {
+   "n": 406,
+   "slope": -0.022211484521295073,
+   "se": 0.08613665578997236,
+   "intercept": -0.21952353680297662,
+   "mean_move": -0.30507121689907957,
+   "mean_final_minus_LC": -0.21274745219093005,
+   "sd_move": 7.496296657596101
+  },
+  "Q3": {
+   "n": 340,
+   "slope": 0.06905159008427159,
+   "se": 0.070029388664674,
+   "intercept": 0.5001367793188414,
+   "mean_move": -0.5310482199442104,
+   "mean_final_minus_LC": 0.4634670553202716,
+   "sd_move": 8.284584730404585
+  }
+ },
+ "checkpoint_spread_main_strike": {
+  "Q1": {
+   "n": 483,
+   "mean": 0.049440993788819894,
+   "median": 0.050000000000000044,
+   "p90": 0.08000000000000002,
+   "max": 0.10000000000000003
+  },
+  "HT": {
+   "n": 400,
+   "mean": 0.05147500000000001,
+   "median": 0.050000000000000044,
+   "p90": 0.08999999999999997,
+   "max": 0.10000000000000003
+  },
+  "Q3": {
+   "n": 334,
+   "mean": 0.05601796407185629,
+   "median": 0.05999999999999994,
+   "p90": 0.09000000000000002,
+   "max": 0.10000000000000003
+  }
+ },
+ "decision_lag_s_after_C_plus_60": {
+  "Q1": {
+   "n": 483,
+   "mean": 29.401656314699792,
+   "median": 29.0,
+   "p90": 53.0,
+   "max": 59.0
+  },
+  "HT": {
+   "n": 400,
+   "mean": 29.165,
+   "median": 29.0,
+   "p90": 54.0,
+   "max": 70.0
+  },
+  "Q3": {
+   "n": 334,
+   "mean": 29.904191616766468,
+   "median": 31.5,
+   "p90": 54.0,
+   "max": 59.0
+  }
+ },
+ "main_strike_quote_age_s": {
+  "Q1": {
+   "n": 483,
+   "mean": 0.9937888198757764,
+   "median": 0.0,
+   "p90": 0.0,
+   "max": 120.0
+  },
+  "HT": {
+   "n": 400,
+   "mean": 1.65,
+   "median": 0.0,
+   "p90": 0.0,
+   "max": 120.0
+  },
+  "Q3": {
+   "n": 334,
+   "mean": 0.0,
+   "median": 0.0,
+   "p90": 0.0,
+   "max": 0.0
+  }
+ },
+ "n_versions": 48,
+ "n_eligible_n_ge_60": 48,
+ "pass_bar_note": "Pass bar items 1-3 apply to UNSEEN only; discovery luck test below must be PASS to proceed."
+}

@@ -1,0 +1,1046 @@
+{
+ "rule": "5 best cells by discovery mean net with n>=200 (no cell passed); 8 seeded entries per cell",
+ "cells": [
+  [
+   "low",
+   "S1",
+   "no",
+   "90-94c"
+  ],
+  [
+   "low",
+   "S1",
+   "no",
+   "94-97c"
+  ],
+  [
+   "low",
+   "S3",
+   "no",
+   "1-3c"
+  ],
+  [
+   "high",
+   "S1",
+   "no",
+   "97-99c"
+  ],
+  [
+   "high",
+   "S1",
+   "no",
+   "90-94c"
+  ]
+ ],
+ "entries_in_cells": {
+  "low|S1|no|90-94c": 2307,
+  "low|S1|no|94-97c": 4202,
+  "low|S3|no|1-3c": 1534,
+  "high|S1|no|97-99c": 9655,
+  "high|S1|no|90-94c": 5569
+ },
+ "checked": 40,
+ "mismatches": 0,
+ "rows": [
+  {
+   "cell": [
+    "low",
+    "S1",
+    "no",
+    "90-94c"
+   ],
+   "ticker": "KXLOWTPHIL-26APR22-B43.5",
+   "snapshot_ts": 1776808800,
+   "day": "2026-04-22",
+   "tier": "historical",
+   "stored_result": "no",
+   "fresh_result": "no",
+   "stored_quote": [
+    900,
+    1300
+   ],
+   "fresh_quote": [
+    900,
+    1300
+   ],
+   "stored_net10_usd": 0.8426,
+   "fresh_net10_usd": 0.8426,
+   "match": true
+  },
+  {
+   "cell": [
+    "low",
+    "S1",
+    "no",
+    "90-94c"
+   ],
+   "ticker": "KXLOWTDEN-26APR03-B36.5",
+   "snapshot_ts": 1775174400,
+   "day": "2026-04-03",
+   "tier": "historical",
+   "stored_result": "no",
+   "fresh_result": "no",
+   "stored_quote": [
+    700,
+    1100
+   ],
+   "fresh_quote": [
+    700,
+    1100
+   ],
+   "stored_net10_usd": 0.6544,
+   "fresh_net10_usd": 0.6544,
+   "match": true
+  },
+  {
+   "cell": [
+    "low",
+    "S1",
+    "no",
+    "90-94c"
+   ],
+   "ticker": "KXLOWTMIA-26SEP17-B74.5",
+   "snapshot_ts": 1789596000,
+   "day": "2026-09-17",
+   "tier": "live",
+   "stored_result": "no",
+   "fresh_result": "no",
+   "stored_quote": [
+    600,
+    900
+   ],
+   "fresh_quote": [
+    600,
+    900
+   ],
+   "stored_net10_usd": 0.5605,
+   "fresh_net10_usd": 0.5605,
+   "match": true
+  },
+  {
+   "cell": [
+    "low",
+    "S1",
+    "no",
+    "90-94c"
+   ],
+   "ticker": "KXLOWTPHX-26AUG12-T79",
+   "snapshot_ts": 1786496400,
+   "day": "2026-08-12",
+   "tier": "historical",
+   "stored_result": "no",
+   "fresh_result": "no",
+   "stored_quote": [
+    800,
+    1300
+   ],
+   "fresh_quote": [
+    800,
+    1300
+   ],
+   "stored_net10_usd": 0.7484,
+   "fresh_net10_usd": 0.7484,
+   "match": true
+  },
+  {
+   "cell": [
+    "low",
+    "S1",
+    "no",
+    "90-94c"
+   ],
+   "ticker": "KXLOWTCHI-26MAY04-B44.5",
+   "snapshot_ts": 1777849200,
+   "day": "2026-05-04",
+   "tier": "historical",
+   "stored_result": "no",
+   "fresh_result": "no",
+   "stored_quote": [
+    600,
+    700
+   ],
+   "fresh_quote": [
+    600,
+    700
+   ],
+   "stored_net10_usd": 0.5605,
+   "fresh_net10_usd": 0.5605,
+   "match": true
+  },
+  {
+   "cell": [
+    "low",
+    "S1",
+    "no",
+    "90-94c"
+   ],
+   "ticker": "KXLOWTNYC-26SEP30-T61",
+   "snapshot_ts": 1790719200,
+   "day": "2026-09-30",
+   "tier": "live",
+   "stored_result": "no",
+   "fresh_result": "no",
+   "stored_quote": [
+    600,
+    1200
+   ],
+   "fresh_quote": [
+    600,
+    1200
+   ],
+   "stored_net10_usd": 0.5605,
+   "fresh_net10_usd": 0.5605,
+   "match": true
+  },
+  {
+   "cell": [
+    "low",
+    "S1",
+    "no",
+    "90-94c"
+   ],
+   "ticker": "KXLOWTAUS-26JAN26-B12.5",
+   "snapshot_ts": 1769385600,
+   "day": "2026-01-26",
+   "tier": "historical",
+   "stored_result": "no",
+   "fresh_result": "no",
+   "stored_quote": [
+    900,
+    1400
+   ],
+   "fresh_quote": [
+    900,
+    1400
+   ],
+   "stored_net10_usd": 0.8426,
+   "fresh_net10_usd": 0.8426,
+   "match": true
+  },
+  {
+   "cell": [
+    "low",
+    "S1",
+    "no",
+    "90-94c"
+   ],
+   "ticker": "KXLOWTHOU-26MAY06-B71.5",
+   "snapshot_ts": 1778022000,
+   "day": "2026-05-06",
+   "tier": "historical",
+   "stored_result": "yes",
+   "fresh_result": "yes",
+   "stored_quote": [
+    900,
+    1800
+   ],
+   "fresh_quote": [
+    900,
+    1800
+   ],
+   "stored_net10_usd": -9.1574,
+   "fresh_net10_usd": -9.1574,
+   "match": true
+  },
+  {
+   "cell": [
+    "low",
+    "S1",
+    "no",
+    "94-97c"
+   ],
+   "ticker": "KXLOWTBOS-26OCT09-B48.5",
+   "snapshot_ts": 1791496800,
+   "day": "2026-10-09",
+   "tier": "live",
+   "stored_result": "no",
+   "fresh_result": "no",
+   "stored_quote": [
+    300,
+    600
+   ],
+   "fresh_quote": [
+    300,
+    600
+   ],
+   "stored_net10_usd": 0.2796,
+   "fresh_net10_usd": 0.2796,
+   "match": true
+  },
+  {
+   "cell": [
+    "low",
+    "S1",
+    "no",
+    "94-97c"
+   ],
+   "ticker": "KXLOWTATL-26SEP24-B59.5",
+   "snapshot_ts": 1790200800,
+   "day": "2026-09-24",
+   "tier": "live",
+   "stored_result": "no",
+   "fresh_result": "no",
+   "stored_quote": [
+    300,
+    800
+   ],
+   "fresh_quote": [
+    300,
+    800
+   ],
+   "stored_net10_usd": 0.2796,
+   "fresh_net10_usd": 0.2796,
+   "match": true
+  },
+  {
+   "cell": [
+    "low",
+    "S1",
+    "no",
+    "94-97c"
+   ],
+   "ticker": "KXLOWTLAX-26APR17-B50.5",
+   "snapshot_ts": 1776387600,
+   "day": "2026-04-17",
+   "tier": "historical",
+   "stored_result": "no",
+   "fresh_result": "no",
+   "stored_quote": [
+    300,
+    400
+   ],
+   "fresh_quote": [
+    300,
+    400
+   ],
+   "stored_net10_usd": 0.2796,
+   "fresh_net10_usd": 0.2796,
+   "match": true
+  },
+  {
+   "cell": [
+    "low",
+    "S1",
+    "no",
+    "94-97c"
+   ],
+   "ticker": "KXLOWTCHI-26OCT07-B53.5",
+   "snapshot_ts": 1791327600,
+   "day": "2026-10-07",
+   "tier": "live",
+   "stored_result": "no",
+   "fresh_result": "no",
+   "stored_quote": [
+    400,
+    1300
+   ],
+   "fresh_quote": [
+    400,
+    1300
+   ],
+   "stored_net10_usd": 0.3731,
+   "fresh_net10_usd": 0.3731,
+   "match": true
+  },
+  {
+   "cell": [
+    "low",
+    "S1",
+    "no",
+    "94-97c"
+   ],
+   "ticker": "KXLOWTLV-26APR28-B49.5",
+   "snapshot_ts": 1777338000,
+   "day": "2026-04-28",
+   "tier": "historical",
+   "stored_result": "no",
+   "fresh_result": "no",
+   "stored_quote": [
+    300,
+    600
+   ],
+   "fresh_quote": [
+    300,
+    600
+   ],
+   "stored_net10_usd": 0.2796,
+   "fresh_net10_usd": 0.2796,
+   "match": true
+  },
+  {
+   "cell": [
+    "low",
+    "S1",
+    "no",
+    "94-97c"
+   ],
+   "ticker": "KXLOWTDAL-26OCT04-B66.5",
+   "snapshot_ts": 1791068400,
+   "day": "2026-10-04",
+   "tier": "live",
+   "stored_result": "no",
+   "fresh_result": "no",
+   "stored_quote": [
+    500,
+    1300
+   ],
+   "fresh_quote": [
+    500,
+    1300
+   ],
+   "stored_net10_usd": 0.4667,
+   "fresh_net10_usd": 0.4667,
+   "match": true
+  },
+  {
+   "cell": [
+    "low",
+    "S1",
+    "no",
+    "94-97c"
+   ],
+   "ticker": "KXLOWTHOU-26APR24-B67.5",
+   "snapshot_ts": 1776985200,
+   "day": "2026-04-24",
+   "tier": "historical",
+   "stored_result": "no",
+   "fresh_result": "no",
+   "stored_quote": [
+    400,
+    900
+   ],
+   "fresh_quote": [
+    400,
+    900
+   ],
+   "stored_net10_usd": 0.3731,
+   "fresh_net10_usd": 0.3731,
+   "match": true
+  },
+  {
+   "cell": [
+    "low",
+    "S1",
+    "no",
+    "94-97c"
+   ],
+   "ticker": "KXLOWTPHX-26SEP03-B77.5",
+   "snapshot_ts": 1788397200,
+   "day": "2026-09-03",
+   "tier": "live",
+   "stored_result": "no",
+   "fresh_result": "no",
+   "stored_quote": [
+    400,
+    1100
+   ],
+   "fresh_quote": [
+    400,
+    1100
+   ],
+   "stored_net10_usd": 0.3731,
+   "fresh_net10_usd": 0.3731,
+   "match": true
+  },
+  {
+   "cell": [
+    "low",
+    "S3",
+    "no",
+    "1-3c"
+   ],
+   "ticker": "KXLOWTNYC-26JAN05-T26",
+   "snapshot_ts": 1767632400,
+   "day": "2026-01-05",
+   "tier": "historical",
+   "stored_result": "yes",
+   "fresh_result": "yes",
+   "stored_quote": [
+    9900,
+    null
+   ],
+   "fresh_quote": [
+    9900,
+    null
+   ],
+   "stored_net10_usd": -0.107,
+   "fresh_net10_usd": -0.107,
+   "match": true
+  },
+  {
+   "cell": [
+    "low",
+    "S3",
+    "no",
+    "1-3c"
+   ],
+   "ticker": "KXLOWTSFO-26AUG12-B57.5",
+   "snapshot_ts": 1786561200,
+   "day": "2026-08-12",
+   "tier": "historical",
+   "stored_result": "yes",
+   "fresh_result": "yes",
+   "stored_quote": [
+    9700,
+    9800
+   ],
+   "fresh_quote": [
+    9700,
+    9800
+   ],
+   "stored_net10_usd": -0.3204,
+   "fresh_net10_usd": -0.3204,
+   "match": true
+  },
+  {
+   "cell": [
+    "low",
+    "S3",
+    "no",
+    "1-3c"
+   ],
+   "ticker": "KXLOWTCHI-26OCT03-B49.5",
+   "snapshot_ts": 1791046800,
+   "day": "2026-10-03",
+   "tier": "live",
+   "stored_result": "yes",
+   "fresh_result": "yes",
+   "stored_quote": [
+    9900,
+    null
+   ],
+   "fresh_quote": [
+    9900,
+    null
+   ],
+   "stored_net10_usd": -0.107,
+   "fresh_net10_usd": -0.107,
+   "match": true
+  },
+  {
+   "cell": [
+    "low",
+    "S3",
+    "no",
+    "1-3c"
+   ],
+   "ticker": "KXLOWTAUS-26FEB09-T48",
+   "snapshot_ts": 1770660000,
+   "day": "2026-02-09",
+   "tier": "historical",
+   "stored_result": "yes",
+   "fresh_result": "yes",
+   "stored_quote": [
+    9900,
+    null
+   ],
+   "fresh_quote": [
+    9900,
+    null
+   ],
+   "stored_net10_usd": -0.107,
+   "fresh_net10_usd": -0.107,
+   "match": true
+  },
+  {
+   "cell": [
+    "low",
+    "S3",
+    "no",
+    "1-3c"
+   ],
+   "ticker": "KXLOWTCHI-26FEB16-B35.5",
+   "snapshot_ts": 1771264800,
+   "day": "2026-02-16",
+   "tier": "historical",
+   "stored_result": "yes",
+   "fresh_result": "yes",
+   "stored_quote": [
+    9900,
+    null
+   ],
+   "fresh_quote": [
+    9900,
+    null
+   ],
+   "stored_net10_usd": -0.107,
+   "fresh_net10_usd": -0.107,
+   "match": true
+  },
+  {
+   "cell": [
+    "low",
+    "S3",
+    "no",
+    "1-3c"
+   ],
+   "ticker": "KXLOWTSATX-26AUG23-B73.5",
+   "snapshot_ts": 1787504400,
+   "day": "2026-08-23",
+   "tier": "live",
+   "stored_result": "yes",
+   "fresh_result": "yes",
+   "stored_quote": [
+    9800,
+    9900
+   ],
+   "fresh_quote": [
+    9800,
+    9900
+   ],
+   "stored_net10_usd": -0.2138,
+   "fresh_net10_usd": -0.2138,
+   "match": true
+  },
+  {
+   "cell": [
+    "low",
+    "S3",
+    "no",
+    "1-3c"
+   ],
+   "ticker": "KXLOWTSDF-26OCT04-B54.5",
+   "snapshot_ts": 1791129600,
+   "day": "2026-10-04",
+   "tier": "live",
+   "stored_result": "yes",
+   "fresh_result": "yes",
+   "stored_quote": [
+    9900,
+    null
+   ],
+   "fresh_quote": [
+    9900,
+    null
+   ],
+   "stored_net10_usd": -0.107,
+   "fresh_net10_usd": -0.107,
+   "match": true
+  },
+  {
+   "cell": [
+    "low",
+    "S3",
+    "no",
+    "1-3c"
+   ],
+   "ticker": "KXLOWTDEN-26JUN11-T50",
+   "snapshot_ts": 1781200800,
+   "day": "2026-06-11",
+   "tier": "historical",
+   "stored_result": "yes",
+   "fresh_result": "yes",
+   "stored_quote": [
+    9900,
+    null
+   ],
+   "fresh_quote": [
+    9900,
+    null
+   ],
+   "stored_net10_usd": -0.107,
+   "fresh_net10_usd": -0.107,
+   "match": true
+  },
+  {
+   "cell": [
+    "high",
+    "S1",
+    "no",
+    "97-99c"
+   ],
+   "ticker": "KXHIGHLAX-26JAN10-T64",
+   "snapshot_ts": 1768010400,
+   "day": "2026-01-10",
+   "tier": "historical",
+   "stored_result": "no",
+   "fresh_result": "no",
+   "stored_quote": [
+    100,
+    300
+   ],
+   "fresh_quote": [
+    100,
+    300
+   ],
+   "stored_net10_usd": 0.093,
+   "fresh_net10_usd": 0.093,
+   "match": true
+  },
+  {
+   "cell": [
+    "high",
+    "S1",
+    "no",
+    "97-99c"
+   ],
+   "ticker": "KXHIGHTTTN-26SEP15-T80",
+   "snapshot_ts": 1789423200,
+   "day": "2026-09-15",
+   "tier": "live",
+   "stored_result": "no",
+   "fresh_result": "no",
+   "stored_quote": [
+    100,
+    200
+   ],
+   "fresh_quote": [
+    100,
+    200
+   ],
+   "stored_net10_usd": 0.093,
+   "fresh_net10_usd": 0.093,
+   "match": true
+  },
+  {
+   "cell": [
+    "high",
+    "S1",
+    "no",
+    "97-99c"
+   ],
+   "ticker": "HIGHNY-24JUL10-T85",
+   "snapshot_ts": 1720562400,
+   "day": "2024-07-10",
+   "tier": "historical",
+   "stored_result": "no",
+   "fresh_result": "no",
+   "stored_quote": [
+    100,
+    800
+   ],
+   "fresh_quote": [
+    100,
+    800
+   ],
+   "stored_net10_usd": 0.093,
+   "fresh_net10_usd": 0.093,
+   "match": true
+  },
+  {
+   "cell": [
+    "high",
+    "S1",
+    "no",
+    "97-99c"
+   ],
+   "ticker": "KXHIGHTBOS-26APR09-T60",
+   "snapshot_ts": 1775685600,
+   "day": "2026-04-09",
+   "tier": "historical",
+   "stored_result": "no",
+   "fresh_result": "no",
+   "stored_quote": [
+    200,
+    300
+   ],
+   "fresh_quote": [
+    200,
+    300
+   ],
+   "stored_net10_usd": 0.1862,
+   "fresh_net10_usd": 0.1862,
+   "match": true
+  },
+  {
+   "cell": [
+    "high",
+    "S1",
+    "no",
+    "97-99c"
+   ],
+   "ticker": "KXHIGHTDAL-26AUG16-T101",
+   "snapshot_ts": 1786834800,
+   "day": "2026-08-16",
+   "tier": "live",
+   "stored_result": "no",
+   "fresh_result": "no",
+   "stored_quote": [
+    200,
+    400
+   ],
+   "fresh_quote": [
+    200,
+    400
+   ],
+   "stored_net10_usd": 0.1862,
+   "fresh_net10_usd": 0.1862,
+   "match": true
+  },
+  {
+   "cell": [
+    "high",
+    "S1",
+    "no",
+    "97-99c"
+   ],
+   "ticker": "HIGHNY-23JAN13-T59",
+   "snapshot_ts": 1673564400,
+   "day": "2023-01-13",
+   "tier": "historical",
+   "stored_result": "no",
+   "fresh_result": "no",
+   "stored_quote": [
+    100,
+    9500
+   ],
+   "fresh_quote": [
+    100,
+    9500
+   ],
+   "stored_net10_usd": 0.093,
+   "fresh_net10_usd": 0.093,
+   "match": true
+  },
+  {
+   "cell": [
+    "high",
+    "S1",
+    "no",
+    "97-99c"
+   ],
+   "ticker": "KXHIGHTLV-26OCT10-T92",
+   "snapshot_ts": 1791594000,
+   "day": "2026-10-10",
+   "tier": "live",
+   "stored_result": "no",
+   "fresh_result": "no",
+   "stored_quote": [
+    200,
+    300
+   ],
+   "fresh_quote": [
+    200,
+    300
+   ],
+   "stored_net10_usd": 0.1862,
+   "fresh_net10_usd": 0.1862,
+   "match": true
+  },
+  {
+   "cell": [
+    "high",
+    "S1",
+    "no",
+    "97-99c"
+   ],
+   "ticker": "KXHIGHTSEA-26MAY13-B65.5",
+   "snapshot_ts": 1778634000,
+   "day": "2026-05-13",
+   "tier": "historical",
+   "stored_result": "no",
+   "fresh_result": "no",
+   "stored_quote": [
+    100,
+    200
+   ],
+   "fresh_quote": [
+    100,
+    200
+   ],
+   "stored_net10_usd": 0.093,
+   "fresh_net10_usd": 0.093,
+   "match": true
+  },
+  {
+   "cell": [
+    "high",
+    "S1",
+    "no",
+    "90-94c"
+   ],
+   "ticker": "KXHIGHTDAL-26MAY03-B79.5",
+   "snapshot_ts": 1777762800,
+   "day": "2026-05-03",
+   "tier": "historical",
+   "stored_result": "no",
+   "fresh_result": "no",
+   "stored_quote": [
+    900,
+    1000
+   ],
+   "fresh_quote": [
+    900,
+    1000
+   ],
+   "stored_net10_usd": 0.8426,
+   "fresh_net10_usd": 0.8426,
+   "match": true
+  },
+  {
+   "cell": [
+    "high",
+    "S1",
+    "no",
+    "90-94c"
+   ],
+   "ticker": "KXHIGHTDAL-26MAY02-B71.5",
+   "snapshot_ts": 1777676400,
+   "day": "2026-05-02",
+   "tier": "historical",
+   "stored_result": "no",
+   "fresh_result": "no",
+   "stored_quote": [
+    700,
+    800
+   ],
+   "fresh_quote": [
+    700,
+    800
+   ],
+   "stored_net10_usd": 0.6544,
+   "fresh_net10_usd": 0.6544,
+   "match": true
+  },
+  {
+   "cell": [
+    "high",
+    "S1",
+    "no",
+    "90-94c"
+   ],
+   "ticker": "KXHIGHTATL-26JUL26-B86.5",
+   "snapshot_ts": 1785016800,
+   "day": "2026-07-26",
+   "tier": "historical",
+   "stored_result": "no",
+   "fresh_result": "no",
+   "stored_quote": [
+    600,
+    1000
+   ],
+   "fresh_quote": [
+    600,
+    1000
+   ],
+   "stored_net10_usd": 0.5605,
+   "fresh_net10_usd": 0.5605,
+   "match": true
+  },
+  {
+   "cell": [
+    "high",
+    "S1",
+    "no",
+    "90-94c"
+   ],
+   "ticker": "KXHIGHTBOS-26APR22-T42",
+   "snapshot_ts": 1776808800,
+   "day": "2026-04-22",
+   "tier": "historical",
+   "stored_result": "no",
+   "fresh_result": "no",
+   "stored_quote": [
+    600,
+    700
+   ],
+   "fresh_quote": [
+    600,
+    700
+   ],
+   "stored_net10_usd": 0.5605,
+   "fresh_net10_usd": 0.5605,
+   "match": true
+  },
+  {
+   "cell": [
+    "high",
+    "S1",
+    "no",
+    "90-94c"
+   ],
+   "ticker": "KXHIGHPHIL-26MAR09-B68.5",
+   "snapshot_ts": 1773007200,
+   "day": "2026-03-09",
+   "tier": "historical",
+   "stored_result": "no",
+   "fresh_result": "no",
+   "stored_quote": [
+    700,
+    900
+   ],
+   "fresh_quote": [
+    700,
+    900
+   ],
+   "stored_net10_usd": 0.6544,
+   "fresh_net10_usd": 0.6544,
+   "match": true
+  },
+  {
+   "cell": [
+    "high",
+    "S1",
+    "no",
+    "90-94c"
+   ],
+   "ticker": "KXHIGHLAX-26AUG30-B80.5",
+   "snapshot_ts": 1788051600,
+   "day": "2026-08-30",
+   "tier": "live",
+   "stored_result": "no",
+   "fresh_result": "no",
+   "stored_quote": [
+    600,
+    800
+   ],
+   "fresh_quote": [
+    600,
+    800
+   ],
+   "stored_net10_usd": 0.5605,
+   "fresh_net10_usd": 0.5605,
+   "match": true
+  },
+  {
+   "cell": [
+    "high",
+    "S1",
+    "no",
+    "90-94c"
+   ],
+   "ticker": "KXHIGHNY-26JUN18-B83.5",
+   "snapshot_ts": 1781733600,
+   "day": "2026-06-18",
+   "tier": "historical",
+   "stored_result": "no",
+   "fresh_result": "no",
+   "stored_quote": [
+    700,
+    800
+   ],
+   "fresh_quote": [
+    700,
+    800
+   ],
+   "stored_net10_usd": 0.6544,
+   "fresh_net10_usd": 0.6544,
+   "match": true
+  },
+  {
+   "cell": [
+    "high",
+    "S1",
+    "no",
+    "90-94c"
+   ],
+   "ticker": "KXHIGHAUS-26FEB25-B84.5",
+   "snapshot_ts": 1771977600,
+   "day": "2026-02-25",
+   "tier": "historical",
+   "stored_result": "no",
+   "fresh_result": "no",
+   "stored_quote": [
+    900,
+    1000
+   ],
+   "fresh_quote": [
+    900,
+    1000
+   ],
+   "stored_net10_usd": 0.8426,
+   "fresh_net10_usd": 0.8426,
+   "match": true
+  }
+ ]
+}

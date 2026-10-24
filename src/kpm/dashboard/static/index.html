@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>KPM Bot Monitor</title>
+<link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/static/style.css">
+<script src="/static/app.js" defer></script>
+</head>
+<body>
+<header class="bar">
+  <div class="bar-in">
+    <div id="mode" class="mode none" role="status" aria-live="polite">
+      <span id="mode-text" class="mode-text">CONNECTING</span>
+      <span id="mode-sub" class="mode-sub">loading bot status</span>
+    </div>
+    <div class="bar-mid">
+      <div class="title"><span id="title-main">KPM bot monitor</span> <span id="title-sub" class="title-sub">Kalshi · localhost monitor</span></div>
+      <div class="bar-status">
+        <span id="strategy-chip" class="status-chip" hidden>Strategy: <b id="strategy-name">—</b></span>
+        <span id="bot-status" class="status-chip">Bot: <b>—</b></span>
+        <span id="hb" class="status-chip">Heartbeat: <b>—</b></span>
+      </div>
+    </div>
+    <div class="stop-wrap">
+      <button id="stop" class="stop" type="button">STOP BOT</button>
+    </div>
+  </div>
+</header>
+
+<main id="main" class="wrap">
+  <div id="banners" class="banners"></div>
+
+  <!-- 1. status: what the bot is doing right now -->
+  <section class="tiles" aria-label="Current state">
+    <div class="tile">
+      <div id="hour-label" class="tile-label">Market</div>
+      <div id="hour-market" class="tile-value mono">—</div>
+      <div id="hour-sub" class="tile-sub">shown once the bot watches a market</div>
+    </div>
+    <div class="tile">
+      <div id="window-label" class="tile-label">Trading window</div>
+      <div id="countdown" class="tile-value tnum">—</div>
+      <div id="window-sub" class="tile-sub">—</div>
+    </div>
+    <div class="tile">
+      <div class="tile-label">Kalshi balance</div>
+      <div id="balance" class="tile-value">—</div>
+      <div id="balance-sub" class="tile-sub">not reported yet</div>
+    </div>
+    <div class="tile">
+      <div class="tile-label">Trades this run</div>
+      <div id="trades-value" class="tile-value">—</div>
+      <div id="trades-sub" class="tile-sub">—</div>
+    </div>
+  </section>
+
+  <!-- one filter row above everything it scopes: the money figures, the graphs and the tables -->
+  <div class="filter-row" role="group" aria-label="Which runs the money figures, graphs and tables show">
+    <span class="filter-label">Show</span>
+    <div class="seg">
+      <!-- neither is pressed until the page knows: what the browser remembered, else "All runs" while the bot trades real money -->
+      <button type="button" data-scope="latest" aria-pressed="false">Latest run</button>
+      <button type="button" data-scope="all" aria-pressed="false">All runs</button>
+    </div>
+    <span id="scope-note" class="note scope-note"></span>
+  </div>
+
+  <!-- 2. money: the numbers -->
+  <section id="money" class="card" aria-labelledby="money-title">
+    <div class="card-head">
+      <div>
+        <h2 id="money-title">Money so far</h2>
+        <p id="money-sub" class="card-sub">Real-money trades only. A trade counts once its market has closed and paid out; until then it is open. The paper twin is the same trade at the price the bot saw when it decided.</p>
+      </div>
+    </div>
+    <div id="money-tiles" class="stats"></div>
+    <p id="money-note" class="note" hidden></p>
+  </section>
+
+  <!-- 3. graphs -->
+  <section class="graphs" aria-label="Graphs of the money">
+    <article id="pnl-card" class="card" aria-labelledby="pnl-title">
+      <div class="card-head">
+        <div>
+          <h2 id="pnl-title">Profit and loss over time</h2>
+          <p id="pnl-sub" class="card-sub">Running total after each settled trade: real money against the paper twin of the same trades.</p>
+        </div>
+      </div>
+      <ul id="pnl-legend" class="legend legend-static" aria-label="Lines on the chart"></ul>
+      <div id="pnl-chart" class="chart">
+        <svg id="pnl-svg" class="chart-svg" tabindex="0" role="img" aria-label="Running profit and loss after each settled trade. Use the left and right arrow keys to read the trades. The same numbers are in the table view below."></svg>
+        <div id="pnl-tip" class="tooltip" hidden></div>
+      </div>
+      <div id="pnl-live" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+      <p id="pnl-note" class="note" hidden></p>
+    </article>
+
+    <article id="bars-card" class="card" aria-labelledby="bars-title">
+      <div class="card-head">
+        <div>
+          <h2 id="bars-title">Result of each trade</h2>
+          <p class="card-sub">One bar per settled trade, oldest on the left. Up is a win, down is a loss, so small wins and big losses show at a glance.</p>
+        </div>
+      </div>
+      <ul id="bars-legend" class="legend legend-static" aria-label="What the bars mean"></ul>
+      <div id="bars-chart" class="chart">
+        <svg id="bars-svg" class="chart-svg" tabindex="0" role="img" aria-label="Result of each settled trade, one bar per trade. Use the left and right arrow keys to read the trades. The same numbers are in the table view below."></svg>
+        <div id="bars-tip" class="tooltip" hidden></div>
+      </div>
+      <div id="bars-live" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+      <p id="bars-note" class="note" hidden></p>
+    </article>
+  </section>
+
+  <section id="gauge-card" class="card" aria-labelledby="gauge-title">
+    <div class="card-head">
+      <div>
+        <h2 id="gauge-title">Loss used vs cap</h2>
+        <p id="loss-value" class="gauge-value">—</p>
+      </div>
+      <p id="loss-status" class="gauge-status"></p>
+    </div>
+    <div id="gauge-chart" class="gauge-chart" role="meter" aria-label="Loss used" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+      <svg id="gauge-svg" class="chart-svg" aria-hidden="true"></svg>
+    </div>
+    <p id="loss-sub" class="note">—</p>
+    <p id="gauge-note" class="note"></p>
+  </section>
+
+  <details id="table-view" class="card table-view">
+    <summary>Table view of the graphs: every settled trade with its running total</summary>
+    <div class="table-wrap scroll">
+      <table>
+        <thead><tr>
+          <th>Market closed</th><th>Market</th><th>Bought</th><th>Result</th><th class="num">Real P&amp;L</th>
+          <th class="num">Paper P&amp;L</th><th class="num">Running real</th><th class="num">Running paper</th>
+        </tr></thead>
+        <tbody id="tv-body"></tbody>
+      </table>
+    </div>
+  </details>
+
+  <!-- the pair bot's pricing chart (pair strategy only) -->
+  <section id="chart-card" class="card" aria-labelledby="chart-title">
+    <div class="card-head">
+      <div>
+        <h2 id="chart-title">Edge per strike, last 30 minutes</h2>
+        <p class="card-sub">Edge = $1 − cost of both legs − taker fees, in cents per pair. Points at or above the minimum edge are opportunities, and a tick along the top marks every detection the bot logged. Shaded columns are the trading windows (last 15 minutes of each hour).</p>
+      </div>
+      <div class="seg" role="group" aria-label="Vertical range">
+        <button type="button" data-zoom="all" aria-pressed="true">All values</button>
+        <button type="button" data-zoom="near" aria-pressed="false">Near break-even</button>
+      </div>
+    </div>
+    <ul id="legend" class="legend" aria-label="Strikes (click to show or hide)"></ul>
+    <div id="chart" class="chart">
+      <svg id="chart-svg" class="chart-svg" tabindex="0" role="img" aria-label="Edge per strike over the last 30 minutes. Use the left and right arrow keys to read values. The same numbers are in the table below."></svg>
+      <div id="tooltip" class="tooltip" hidden></div>
+    </div>
+    <div id="chart-live" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+    <p id="chart-note" class="note" hidden></p>
+    <h3>Latest pricing per strike</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr>
+          <th>Strike (hourly)</th><th>Pair (leg A + leg B)</th><th class="num">Leg A ask × size</th>
+          <th class="num">Leg B ask × size</th><th class="num">Cost</th><th class="num">Fees</th>
+          <th class="num">Edge</th><th class="num">Updated</th>
+        </tr></thead>
+        <tbody id="latest-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="caps" aria-label="Safety limits">
+    <ul id="caps" class="chips"></ul>
+    <p id="caps-note" class="note" hidden></p>
+    <details id="detail-more" class="more" hidden>
+      <summary>More from the bot's heartbeat</summary>
+      <dl id="detail-list" class="kvlist"></dl>
+    </details>
+  </section>
+
+  <section id="rule-card" class="card" aria-labelledby="rule-title" hidden>
+    <div class="card-head">
+      <div>
+        <h2 id="rule-title">The rule</h2>
+        <p id="rule-text" class="card-sub"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. tables -->
+  <section class="card" aria-labelledby="opp-title">
+    <div class="card-head">
+      <div>
+        <h2 id="opp-title">Trades and signals</h2>
+        <p id="opp-sub" class="card-sub">Every opportunity the bot detected. Paper figures are at detection prices (the paper twin); live figures are what the fills actually gave.</p>
+      </div>
+      <div class="seg" role="group" aria-label="Which signals the table lists">
+        <button type="button" data-opps="all" aria-pressed="true">All signals</button>
+        <button type="button" data-opps="real" aria-pressed="false">Real trades</button>
+      </div>
+    </div>
+    <div id="kpis" class="kpis"></div>
+    <p id="kpi-note" class="note" hidden></p>
+    <div class="table-wrap scroll">
+      <table>
+        <thead id="opp-head"><tr><th>Time</th><th>Market</th><th>Kind</th><th>Status</th><th class="num">Realized P&amp;L</th><th class="num">Paper P&amp;L</th></tr></thead>
+        <tbody id="opp-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="card" aria-labelledby="orders-title">
+    <div class="card-head"><div><h2 id="orders-title">Orders</h2>
+      <p class="card-sub">“Real money” orders went to Kalshi; “paper” orders are logged but never sent. The last column says what became of the trade the order belongs to.</p></div></div>
+    <div class="table-wrap scroll">
+      <table>
+        <thead><tr>
+          <th>Time</th><th>Ticker</th><th>Side / action</th><th class="num">Count</th><th class="num">Limit</th>
+          <th>Order status</th><th class="num">Filled</th><th class="num">Avg price</th><th class="num">Fees</th>
+          <th class="num">Ack</th><th>Money</th><th>Trade status</th>
+        </tr></thead>
+        <tbody id="orders-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="card" aria-labelledby="events-title">
+    <div class="card-head"><div><h2 id="events-title">Events</h2>
+      <p class="card-sub">Newest first. Messages with an arrow open to show their details.</p></div></div>
+    <div class="table-wrap scroll">
+      <table>
+        <thead><tr><th>Time</th><th>Level</th><th>Kind</th><th>Message</th></tr></thead>
+        <tbody id="events-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="card" aria-labelledby="research-title">
+    <div class="card-head"><div><h2 id="research-title">Research status</h2>
+      <p class="card-sub">Pre-registered mechanical-edge tests (reports/output/mechanical_edges). Refreshed every 15 seconds.</p></div></div>
+    <div id="research"></div>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <span>Read-only view of the bot's database. The only action on this page is STOP.</span>
+  <span id="foot-time"></span>
+</footer>
+</body>
+</html>

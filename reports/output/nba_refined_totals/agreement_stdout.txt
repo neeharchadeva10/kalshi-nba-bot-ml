@@ -1,0 +1,26 @@
+b rows 200 matched 200
+S_report_M20 disagree 0 max diff 3.552713678800501e-15 both-NaN 30
+S_report_M28 disagree 0 max diff 3.552713678800501e-15 both-NaN 30
+S_box_M20 disagree 0 max diff 3.552713678800501e-15 both-NaN 0
+S_box_M28 disagree 0 max diff 3.552713678800501e-15 both-NaN 0
+ids report 20 disagree 0
+ids report 28 disagree 0
+ids box 20 disagree 0
+ids box 28 disagree 0
+flags matched 200 of 200 {'q_skip': 0, 'new_skip': 0, 'early_skip': 0}
+lean rows 150 matched 150 max |b diff| 1.0658141036401503e-14 n disagree 0
+                  version   n_c   n_m  wins_c  wins_m  mean_pnl_c  mean_pnl_m    ok
+0    A|E1|none|G2|Q+EARLY   581   581     295     295   -0.011735   -0.011735  True
+1       A|E1|none|G4|none  1000  1000     496     496   -0.038091   -0.038091  True
+2      A|E1|none|G8|Q+NEW    48    48      19      19   -0.244318   -0.244318  True
+3   A|E1|rolling|G2|Q+NEW   412   412     188     188   -0.104590   -0.104590  True
+4    A|E3|none|G2|Q+EARLY   597   597     295     295   -0.039896   -0.039896  True
+5          A|E3|none|G8|Q   107   107      54      54   -0.027188   -0.027188  True
+6    A|E3|none|G8|Q+EARLY    98    98      52      52    0.023191    0.023191  True
+7    A|E3|rolling|G2|none  1646  1646     829     829   -0.022700   -0.022700  True
+8      A|F42|none|G6|none   678   678     369     369    0.047868    0.047868  True
+9   A|F42|rolling|G6|none   603   603     314     314   -0.002563   -0.002563  True
+10         B|M20|T15|team  1111  1111     566     566   -0.012110   -0.012110  True
+11         B|M28|T10|team   932   932     477     477   -0.008974   -0.008974  True
+12         B|M28|T20|team   504   504     262     262    0.010281    0.010281  True
+13         B|M28|T30|team   143   143      76      76    0.035601    0.035601  True

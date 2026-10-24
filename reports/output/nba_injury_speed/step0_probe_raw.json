@@ -1,0 +1,232 @@
+[
+ {
+  "ticker": "KXNBATOTAL-25OCT22BKNCHA-225",
+  "event": "KXNBATOTAL-25OCT22BKNCHA",
+  "T_base": 1761174000,
+  "hist_market": {
+   "keys": [
+    "candlesticks",
+    "ticker"
+   ],
+   "n": 144,
+   "first_item_type": "dict",
+   "sample": {
+    "end_period_ts": 1761165540,
+    "open_interest": "18118.00",
+    "price": {
+     "close": null,
+     "high": null,
+     "low": null,
+     "mean": null,
+     "open": null,
+     "previous": "0.5900"
+    },
+    "volume": "0.00",
+    "yes_ask": {
+     "close": "0.5900",
+     "high": "0.5900",
+     "low": "0.5900",
+     "open": "0.5900"
+    },
+    "yes_bid": {
+     "close": "0.5700",
+     "high": "0.5700",
+     "low": "0.5700",
+     "open": "0.5700"
+    }
+   }
+  },
+  "series_market": {
+   "error": "HTTP 404 for https://api.elections.kalshi.com/trade-api/v2/series/KXNBATOTAL/markets/KXNBATOTAL-25OCT22BKNCHA-225/candlesticks: {\"error\":{\"code\":\"not_found\",\"message\":\"not found\"}}"
+  },
+  "event_level": {
+   "keys": [
+    "adjusted_end_ts",
+    "market_candlesticks",
+    "market_tickers"
+   ],
+   "n": 0,
+   "first_item_type": null,
+   "raw_head": "{\"adjusted_end_ts\": 1761174000, \"market_candlesticks\": [], \"market_tickers\": []}"
+  }
+ },
+ {
+  "ticker": "KXNBATOTAL-25DEC05LACMEM-236",
+  "event": "KXNBATOTAL-25DEC05LACMEM",
+  "T_base": 1764982800,
+  "hist_market": {
+   "keys": [
+    "candlesticks",
+    "ticker"
+   ],
+   "n": 109,
+   "first_item_type": "dict",
+   "sample": {
+    "end_period_ts": 1764978300,
+    "open_interest": "782.00",
+    "price": {
+     "close": null,
+     "high": null,
+     "low": null,
+     "mean": null,
+     "open": null,
+     "previous": "0.2400"
+    },
+    "volume": "0.00",
+    "yes_ask": {
+     "close": "0.2400",
+     "high": "0.2400",
+     "low": "0.2400",
+     "open": "0.2400"
+    },
+    "yes_bid": {
+     "close": "0.2200",
+     "high": "0.2200",
+     "low": "0.2200",
+     "open": "0.2200"
+    }
+   }
+  },
+  "series_market": {
+   "error": "HTTP 404 for https://api.elections.kalshi.com/trade-api/v2/series/KXNBATOTAL/markets/KXNBATOTAL-25DEC05LACMEM-236/candlesticks: {\"error\":{\"code\":\"not_found\",\"message\":\"not found\"}}"
+  },
+  "event_level": {
+   "keys": [
+    "adjusted_end_ts",
+    "market_candlesticks",
+    "market_tickers"
+   ],
+   "n": 0,
+   "first_item_type": null,
+   "raw_head": "{\"adjusted_end_ts\": 1764982800, \"market_candlesticks\": [], \"market_tickers\": []}"
+  }
+ },
+ {
+  "ticker": "KXNBATOTAL-26JAN23DENMIL-230",
+  "event": "KXNBATOTAL-26JAN23DENMIL",
+  "T_base": 1769221800,
+  "hist_market": {
+   "keys": [
+    "candlesticks",
+    "ticker"
+   ],
+   "n": 277,
+   "first_item_type": "dict",
+   "sample": {
+    "end_period_ts": 1769209920,
+    "open_interest": "233.00",
+    "price": {
+     "close": null,
+     "high": null,
+     "low": null,
+     "mean": null,
+     "open": null,
+     "previous": "0.1800"
+    },
+    "volume": "0.00",
+    "yes_ask": {
+     "close": "0.2100",
+     "high": "0.2100",
+     "low": "0.2100",
+     "open": "0.2100"
+    },
+    "yes_bid": {
+     "close": "0.1700",
+     "high": "0.1700",
+     "low": "0.1700",
+     "open": "0.1700"
+    }
+   }
+  },
+  "series_market": {
+   "error": "HTTP 404 for https://api.elections.kalshi.com/trade-api/v2/series/KXNBATOTAL/markets/KXNBATOTAL-26JAN23DENMIL-230/candlesticks: {\"error\":{\"code\":\"not_found\",\"message\":\"not found\"}}"
+  },
+  "event_level": {
+   "keys": [
+    "adjusted_end_ts",
+    "market_candlesticks",
+    "market_tickers"
+   ],
+   "n": 0,
+   "first_item_type": null,
+   "raw_head": "{\"adjusted_end_ts\": 1769221800, \"market_candlesticks\": [], \"market_tickers\": []}"
+  }
+ },
+ {
+  "ticker": "KXNBATOTAL-26MAR14DENLAL-247",
+  "event": "KXNBATOTAL-26MAR14DENLAL",
+  "T_base": 1773534600,
+  "hist_market": {
+   "keys": [
+    "candlesticks",
+    "ticker"
+   ],
+   "n": 128,
+   "first_item_type": "dict",
+   "sample": {
+    "end_period_ts": 1773529740,
+    "open_interest": "4378.00",
+    "price": {
+     "close": "0.4200",
+     "high": "0.4200",
+     "low": "0.4200",
+     "mean": "0.4200",
+     "open": "0.4200",
+     "previous": "0.4200"
+    },
+    "volume": "150.00",
+    "yes_ask": {
+     "close": "0.4400",
+     "high": "0.4400",
+     "low": "0.4400",
+     "open": "0.4400"
+    },
+    "yes_bid": {
+     "close": "0.4200",
+     "high": "0.4200",
+     "low": "0.4200",
+     "open": "0.4200"
+    }
+   }
+  },
+  "series_market": {
+   "error": "HTTP 404 for https://api.elections.kalshi.com/trade-api/v2/series/KXNBATOTAL/markets/KXNBATOTAL-26MAR14DENLAL-247/candlesticks: {\"error\":{\"code\":\"not_found\",\"message\":\"not found\"}}"
+  },
+  "event_level": {
+   "keys": [
+    "adjusted_end_ts",
+    "market_candlesticks",
+    "market_tickers"
+   ],
+   "n": 0,
+   "first_item_type": null,
+   "raw_head": "{\"adjusted_end_ts\": 1773534600, \"market_candlesticks\": [], \"market_tickers\": []}"
+  }
+ },
+ {
+  "ticker": "KXNBATOTAL-26JUN08SASNYK-258",
+  "event": "KXNBATOTAL-26JUN08SASNYK",
+  "T_base": 1780965000,
+  "hist_market": {
+   "keys": [
+    "candlesticks",
+    "ticker"
+   ],
+   "n": 0,
+   "first_item_type": null
+  },
+  "series_market": {
+   "error": "HTTP 404 for https://api.elections.kalshi.com/trade-api/v2/series/KXNBATOTAL/markets/KXNBATOTAL-26JUN08SASNYK-258/candlesticks: {\"error\":{\"code\":\"not_found\",\"message\":\"not found\"}}"
+  },
+  "event_level": {
+   "keys": [
+    "adjusted_end_ts",
+    "market_candlesticks",
+    "market_tickers"
+   ],
+   "n": 0,
+   "first_item_type": null,
+   "raw_head": "{\"adjusted_end_ts\": 1780965000, \"market_candlesticks\": [], \"market_tickers\": []}"
+  }
+ }
+]

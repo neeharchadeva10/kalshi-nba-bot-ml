@@ -1,0 +1,75 @@
+{
+  "run_id": 1,
+  "chosen": {
+    "gap_close": {
+      "params": "thr=0.01|ttk=all|vol1h>=1000|poly=active",
+      "note": "best mean PnL per contract on dev among sets with enough trades"
+    },
+    "hold": {
+      "params": "thr=0.02|ttk=all|vol1h>=0|poly=all",
+      "note": "best mean PnL per contract on dev among sets with enough trades"
+    }
+  },
+  "quality": {
+    "resolution_summary": [
+      {
+        "platform": "kalshi",
+        "count": 564.0,
+        "mean": 60.3,
+        "std": 4.4,
+        "min": 60.0,
+        "25%": 60.0,
+        "50%": 60.0,
+        "75%": 60.0,
+        "max": 120.0
+      },
+      {
+        "platform": "polymarket",
+        "count": 570.0,
+        "mean": 60.0,
+        "std": 0.0,
+        "min": 60.0,
+        "25%": 60.0,
+        "50%": 60.0,
+        "75%": 60.0,
+        "max": 60.0
+      },
+      {
+        "platform": "polymarket_us",
+        "count": 322.0,
+        "mean": 60.0,
+        "std": 0.0,
+        "min": 60.0,
+        "25%": 60.0,
+        "50%": 60.0,
+        "75%": 60.0,
+        "max": 60.0
+      }
+    ],
+    "poly_sources": {
+      "poly_prices_history": 570
+    },
+    "poly_token_sum_abs_dev_c": {
+      "mean": 7.841144681665162e-06,
+      "p95": 0.0
+    },
+    "match_status_counts": [
+      {
+        "status": "approved",
+        "n": 874
+      },
+      {
+        "status": "manual_review",
+        "n": 12
+      }
+    ],
+    "volume_bucket_cuts": [
+      29.0,
+      500.33333333333326
+    ],
+    "games_in_analysis": {
+      "dev": 135,
+      "holdout": 144
+    }
+  }
+}

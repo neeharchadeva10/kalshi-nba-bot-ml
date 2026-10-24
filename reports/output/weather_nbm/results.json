@@ -1,0 +1,4285 @@
+{
+ "preregistration": "reports/output/weather_nbm/PREREGISTRATION.md",
+ "split": "2025-07-01",
+ "seed": 20261021,
+ "primary": {
+  "decision": "morning",
+  "theta": "5c"
+ },
+ "versions": {
+  "morning_3c": {
+   "decision": "morning",
+   "theta": "3c",
+   "discovery": {
+    "station_days_eligible": 4411,
+    "station_days_with_bets": 3888,
+    "bets": 9616,
+    "yes_bets": 4017,
+    "no_bets": 5599,
+    "mean_net_per_contract": -0.006363928868552414,
+    "total_net_dollars": -611.9554,
+    "win_rate": 0.4334442595673877,
+    "bootstrap": {
+     "lo95_two_sided": -0.014991227744197096,
+     "hi95": 0.0022094090426801358,
+     "lo_5pct_one_sided": -0.01365839044794538
+    },
+    "coin_flip": {
+     "share": 0.0,
+     "n_copies": 500,
+     "copies_total_mean_dollars": -5157.3755596,
+     "copies_total_p95_dollars": -4556.45643
+    },
+    "weeks_with_bets": 184,
+    "dollars_per_week": -3.326,
+    "breakdown": {
+     "station": {
+      "CLIAUS": {
+       "bets": 1800,
+       "net_dollars": 21.58,
+       "mean_net_per_contract": 0.0012
+      },
+      "CLIDEN": {
+       "bets": 672,
+       "net_dollars": -269.39,
+       "mean_net_per_contract": -0.0401
+      },
+      "CLILAX": {
+       "bets": 379,
+       "net_dollars": -13.8,
+       "mean_net_per_contract": -0.0036
+      },
+      "CLIMDW": {
+       "bets": 2517,
+       "net_dollars": -3.92,
+       "mean_net_per_contract": -0.0002
+      },
+      "CLIMIA": {
+       "bets": 1059,
+       "net_dollars": 37.35,
+       "mean_net_per_contract": 0.0035
+      },
+      "CLINYC": {
+       "bets": 2604,
+       "net_dollars": -349.36,
+       "mean_net_per_contract": -0.0134
+      },
+      "CLIPHL": {
+       "bets": 585,
+       "net_dollars": -34.42,
+       "mean_net_per_contract": -0.0059
+      }
+     },
+     "tz": {
+      "America/Chicago": {
+       "bets": 4317,
+       "net_dollars": 17.66,
+       "mean_net_per_contract": 0.0004
+      },
+      "America/Denver": {
+       "bets": 672,
+       "net_dollars": -269.39,
+       "mean_net_per_contract": -0.0401
+      },
+      "America/Los_Angeles": {
+       "bets": 379,
+       "net_dollars": -13.8,
+       "mean_net_per_contract": -0.0036
+      },
+      "America/New_York": {
+       "bets": 4248,
+       "net_dollars": -346.42,
+       "mean_net_per_contract": -0.0082
+      }
+     },
+     "season": {
+      "DJF": {
+       "bets": 2451,
+       "net_dollars": -390.34,
+       "mean_net_per_contract": -0.0159
+      },
+      "JJA": {
+       "bets": 2295,
+       "net_dollars": -226.72,
+       "mean_net_per_contract": -0.0099
+      },
+      "MAM": {
+       "bets": 3015,
+       "net_dollars": -413.1,
+       "mean_net_per_contract": -0.0137
+      },
+      "SON": {
+       "bets": 1855,
+       "net_dollars": 418.2,
+       "mean_net_per_contract": 0.0225
+      }
+     },
+     "nbm_version": {
+      "4.0": {
+       "bets": 1317,
+       "net_dollars": 182.8,
+       "mean_net_per_contract": 0.0139
+      },
+      "4.1": {
+       "bets": 2985,
+       "net_dollars": 56.44,
+       "mean_net_per_contract": 0.0019
+      },
+      "4.2": {
+       "bets": 4695,
+       "net_dollars": -596.38,
+       "mean_net_per_contract": -0.0127
+      },
+      "4.3": {
+       "bets": 619,
+       "net_dollars": -254.82,
+       "mean_net_per_contract": -0.0412
+      }
+     },
+     "side": {
+      "NO": {
+       "bets": 5599,
+       "net_dollars": -459.6,
+       "mean_net_per_contract": -0.0082
+      },
+      "YES": {
+       "bets": 4017,
+       "net_dollars": -152.36,
+       "mean_net_per_contract": -0.0038
+      }
+     },
+     "pbucket": {
+      "1-10c": {
+       "bets": 1849,
+       "net_dollars": -178.5,
+       "mean_net_per_contract": -0.0097
+      },
+      "10-30c": {
+       "bets": 1783,
+       "net_dollars": -539.62,
+       "mean_net_per_contract": -0.0303
+      },
+      "30-70c": {
+       "bets": 4306,
+       "net_dollars": 335.25,
+       "mean_net_per_contract": 0.0078
+      },
+      "70-90c": {
+       "bets": 1421,
+       "net_dollars": -197.72,
+       "mean_net_per_contract": -0.0139
+      },
+      "90-99c": {
+       "bets": 257,
+       "net_dollars": -31.36,
+       "mean_net_per_contract": -0.0122
+      }
+     }
+    }
+   },
+   "unseen": {
+    "station_days_eligible": 6704,
+    "station_days_with_bets": 6462,
+    "bets": 20170,
+    "yes_bets": 9951,
+    "no_bets": 10219,
+    "mean_net_per_contract": -0.030699388696083293,
+    "total_net_dollars": -6192.0667,
+    "win_rate": 0.33772930094199305,
+    "bootstrap": {
+     "lo95_two_sided": -0.03597292686722353,
+     "hi95": -0.025405193222172304,
+     "lo_5pct_one_sided": -0.03507773749933119
+    },
+    "coin_flip": {
+     "share": 0.998,
+     "n_copies": 500,
+     "copies_total_mean_dollars": -4575.663866399999,
+     "copies_total_p95_dollars": -3752.242750000001
+    },
+    "weeks_with_bets": 68,
+    "dollars_per_week": -91.06,
+    "breakdown": {
+     "station": {
+      "CLIATL": {
+       "bets": 818,
+       "net_dollars": -115.88,
+       "mean_net_per_contract": -0.0142
+      },
+      "CLIAUS": {
+       "bets": 1430,
+       "net_dollars": -536.51,
+       "mean_net_per_contract": -0.0375
+      },
+      "CLIBOS": {
+       "bets": 859,
+       "net_dollars": -199.97,
+       "mean_net_per_contract": -0.0233
+      },
+      "CLIDCA": {
+       "bets": 872,
+       "net_dollars": -149.19,
+       "mean_net_per_contract": -0.0171
+      },
+      "CLIDEN": {
+       "bets": 1432,
+       "net_dollars": -371.19,
+       "mean_net_per_contract": -0.0259
+      },
+      "CLIDFW": {
+       "bets": 746,
+       "net_dollars": -277.19,
+       "mean_net_per_contract": -0.0372
+      },
+      "CLIEWR": {
+       "bets": 86,
+       "net_dollars": -21.86,
+       "mean_net_per_contract": -0.0254
+      },
+      "CLIHOU": {
+       "bets": 692,
+       "net_dollars": -246.13,
+       "mean_net_per_contract": -0.0356
+      },
+      "CLILAS": {
+       "bets": 690,
+       "net_dollars": -416.19,
+       "mean_net_per_contract": -0.0603
+      },
+      "CLILAX": {
+       "bets": 1379,
+       "net_dollars": -509.67,
+       "mean_net_per_contract": -0.037
+      },
+      "CLIMDW": {
+       "bets": 1383,
+       "net_dollars": -541.44,
+       "mean_net_per_contract": -0.0391
+      },
+      "CLIMIA": {
+       "bets": 1117,
+       "net_dollars": -80.9,
+       "mean_net_per_contract": -0.0072
+      },
+      "CLIMSP": {
+       "bets": 842,
+       "net_dollars": -118.86,
+       "mean_net_per_contract": -0.0141
+      },
+      "CLIMSY": {
+       "bets": 759,
+       "net_dollars": -277.66,
+       "mean_net_per_contract": -0.0366
+      },
+      "CLINYC": {
+       "bets": 1311,
+       "net_dollars": -334.61,
+       "mean_net_per_contract": -0.0255
+      },
+      "CLIOKC": {
+       "bets": 845,
+       "net_dollars": -373.82,
+       "mean_net_per_contract": -0.0442
+      },
+      "CLIPHL": {
+       "bets": 1329,
+       "net_dollars": -384.14,
+       "mean_net_per_contract": -0.0289
+      },
+      "CLIPHX": {
+       "bets": 673,
+       "net_dollars": -297.94,
+       "mean_net_per_contract": -0.0443
+      },
+      "CLISAN": {
+       "bets": 107,
+       "net_dollars": -26.77,
+       "mean_net_per_contract": -0.025
+      },
+      "CLISAT": {
+       "bets": 755,
+       "net_dollars": -379.19,
+       "mean_net_per_contract": -0.0502
+      },
+      "CLISDF": {
+       "bets": 75,
+       "net_dollars": -47.87,
+       "mean_net_per_contract": -0.0638
+      },
+      "CLISEA": {
+       "bets": 895,
+       "net_dollars": -251.37,
+       "mean_net_per_contract": -0.0281
+      },
+      "CLISFO": {
+       "bets": 988,
+       "net_dollars": -207.07,
+       "mean_net_per_contract": -0.021
+      },
+      "CLITTN": {
+       "bets": 87,
+       "net_dollars": -26.63,
+       "mean_net_per_contract": -0.0306
+      }
+     },
+     "tz": {
+      "America/Chicago": {
+       "bets": 7452,
+       "net_dollars": -2750.8,
+       "mean_net_per_contract": -0.0369
+      },
+      "America/Denver": {
+       "bets": 1432,
+       "net_dollars": -371.19,
+       "mean_net_per_contract": -0.0259
+      },
+      "America/Los_Angeles": {
+       "bets": 4059,
+       "net_dollars": -1411.07,
+       "mean_net_per_contract": -0.0348
+      },
+      "America/New_York": {
+       "bets": 6554,
+       "net_dollars": -1361.06,
+       "mean_net_per_contract": -0.0208
+      },
+      "America/Phoenix": {
+       "bets": 673,
+       "net_dollars": -297.94,
+       "mean_net_per_contract": -0.0443
+      }
+     },
+     "season": {
+      "DJF": {
+       "bets": 3110,
+       "net_dollars": -836.74,
+       "mean_net_per_contract": -0.0269
+      },
+      "JJA": {
+       "bets": 6707,
+       "net_dollars": -2159.14,
+       "mean_net_per_contract": -0.0322
+      },
+      "MAM": {
+       "bets": 5861,
+       "net_dollars": -1601.24,
+       "mean_net_per_contract": -0.0273
+      },
+      "SON": {
+       "bets": 4492,
+       "net_dollars": -1594.95,
+       "mean_net_per_contract": -0.0355
+      }
+     },
+     "nbm_version": {
+      "4.3": {
+       "bets": 9915,
+       "net_dollars": -2692.25,
+       "mean_net_per_contract": -0.0272
+      },
+      "5.0": {
+       "bets": 10255,
+       "net_dollars": -3499.82,
+       "mean_net_per_contract": -0.0341
+      }
+     },
+     "side": {
+      "NO": {
+       "bets": 10219,
+       "net_dollars": -3480.86,
+       "mean_net_per_contract": -0.0341
+      },
+      "YES": {
+       "bets": 9951,
+       "net_dollars": -2711.21,
+       "mean_net_per_contract": -0.0272
+      }
+     },
+     "pbucket": {
+      "1-10c": {
+       "bets": 6629,
+       "net_dollars": -1142.94,
+       "mean_net_per_contract": -0.0172
+      },
+      "10-30c": {
+       "bets": 3128,
+       "net_dollars": -1608.37,
+       "mean_net_per_contract": -0.0514
+      },
+      "30-70c": {
+       "bets": 7594,
+       "net_dollars": -2688.71,
+       "mean_net_per_contract": -0.0354
+      },
+      "70-90c": {
+       "bets": 2358,
+       "net_dollars": -818.17,
+       "mean_net_per_contract": -0.0347
+      },
+      "90-99c": {
+       "bets": 461,
+       "net_dollars": 66.12,
+       "mean_net_per_contract": 0.0143
+      }
+     }
+    }
+   },
+   "pass_bar": {
+    "1_mean_net_pos_both": false,
+    "2_unseen_ci_lower_gt_0": false,
+    "3_unseen_bets_ge_200": true,
+    "4_coin_flip_share_le_5pct": false,
+    "5_dollars_per_week_ge_2": false,
+    "6_brier_model_le_market_or_within_0.002_while_1to5_pass": false
+   },
+   "passes_all": false
+  },
+  "morning_5c": {
+   "decision": "morning",
+   "theta": "5c",
+   "discovery": {
+    "station_days_eligible": 4411,
+    "station_days_with_bets": 3698,
+    "bets": 8324,
+    "yes_bets": 3378,
+    "no_bets": 4946,
+    "mean_net_per_contract": -0.002142431523306103,
+    "total_net_dollars": -178.336,
+    "win_rate": 0.4300816914944738,
+    "bootstrap": {
+     "lo95_two_sided": -0.011659559181140224,
+     "hi95": 0.007262386810433866,
+     "lo_5pct_one_sided": -0.010077875010927195
+    },
+    "coin_flip": {
+     "share": 0.0,
+     "n_copies": 500,
+     "copies_total_mean_dollars": -4413.0833575999995,
+     "copies_total_p95_dollars": -3851.49673
+    },
+    "weeks_with_bets": 184,
+    "dollars_per_week": -0.969,
+    "breakdown": {
+     "station": {
+      "CLIAUS": {
+       "bets": 1551,
+       "net_dollars": 188.77,
+       "mean_net_per_contract": 0.0122
+      },
+      "CLIDEN": {
+       "bets": 574,
+       "net_dollars": -289.79,
+       "mean_net_per_contract": -0.0505
+      },
+      "CLILAX": {
+       "bets": 309,
+       "net_dollars": -30.16,
+       "mean_net_per_contract": -0.0098
+      },
+      "CLIMDW": {
+       "bets": 2218,
+       "net_dollars": 34.43,
+       "mean_net_per_contract": 0.0016
+      },
+      "CLIMIA": {
+       "bets": 878,
+       "net_dollars": 138.51,
+       "mean_net_per_contract": 0.0158
+      },
+      "CLINYC": {
+       "bets": 2285,
+       "net_dollars": -198.54,
+       "mean_net_per_contract": -0.0087
+      },
+      "CLIPHL": {
+       "bets": 509,
+       "net_dollars": -21.56,
+       "mean_net_per_contract": -0.0042
+      }
+     },
+     "tz": {
+      "America/Chicago": {
+       "bets": 3769,
+       "net_dollars": 223.2,
+       "mean_net_per_contract": 0.0059
+      },
+      "America/Denver": {
+       "bets": 574,
+       "net_dollars": -289.79,
+       "mean_net_per_contract": -0.0505
+      },
+      "America/Los_Angeles": {
+       "bets": 309,
+       "net_dollars": -30.16,
+       "mean_net_per_contract": -0.0098
+      },
+      "America/New_York": {
+       "bets": 3672,
+       "net_dollars": -81.59,
+       "mean_net_per_contract": -0.0022
+      }
+     },
+     "season": {
+      "DJF": {
+       "bets": 2132,
+       "net_dollars": -187.41,
+       "mean_net_per_contract": -0.0088
+      },
+      "JJA": {
+       "bets": 1936,
+       "net_dollars": -83.87,
+       "mean_net_per_contract": -0.0043
+      },
+      "MAM": {
+       "bets": 2616,
+       "net_dollars": -330.42,
+       "mean_net_per_contract": -0.0126
+      },
+      "SON": {
+       "bets": 1640,
+       "net_dollars": 423.37,
+       "mean_net_per_contract": 0.0258
+      }
+     },
+     "nbm_version": {
+      "4.0": {
+       "bets": 1156,
+       "net_dollars": 209.01,
+       "mean_net_per_contract": 0.0181
+      },
+      "4.1": {
+       "bets": 2618,
+       "net_dollars": 221.07,
+       "mean_net_per_contract": 0.0084
+      },
+      "4.2": {
+       "bets": 4024,
+       "net_dollars": -344.0,
+       "mean_net_per_contract": -0.0085
+      },
+      "4.3": {
+       "bets": 526,
+       "net_dollars": -264.42,
+       "mean_net_per_contract": -0.0503
+      }
+     },
+     "side": {
+      "NO": {
+       "bets": 4946,
+       "net_dollars": -262.64,
+       "mean_net_per_contract": -0.0053
+      },
+      "YES": {
+       "bets": 3378,
+       "net_dollars": 84.31,
+       "mean_net_per_contract": 0.0025
+      }
+     },
+     "pbucket": {
+      "1-10c": {
+       "bets": 1599,
+       "net_dollars": -61.69,
+       "mean_net_per_contract": -0.0039
+      },
+      "10-30c": {
+       "bets": 1515,
+       "net_dollars": -405.45,
+       "mean_net_per_contract": -0.0268
+      },
+      "30-70c": {
+       "bets": 3975,
+       "net_dollars": 498.24,
+       "mean_net_per_contract": 0.0125
+      },
+      "70-90c": {
+       "bets": 1139,
+       "net_dollars": -177.63,
+       "mean_net_per_contract": -0.0156
+      },
+      "90-99c": {
+       "bets": 96,
+       "net_dollars": -31.81,
+       "mean_net_per_contract": -0.0331
+      }
+     }
+    }
+   },
+   "unseen": {
+    "station_days_eligible": 6704,
+    "station_days_with_bets": 6269,
+    "bets": 17453,
+    "yes_bets": 8413,
+    "no_bets": 9040,
+    "mean_net_per_contract": -0.031702700395347505,
+    "total_net_dollars": -5533.0723,
+    "win_rate": 0.33043029851601446,
+    "bootstrap": {
+     "lo95_two_sided": -0.03734040724083446,
+     "hi95": -0.02597763064021701,
+     "lo_5pct_one_sided": -0.0365595767434615
+    },
+    "coin_flip": {
+     "share": 1.0,
+     "n_copies": 500,
+     "copies_total_mean_dollars": -3907.8986408,
+     "copies_total_p95_dollars": -3125.6933950000002
+    },
+    "weeks_with_bets": 68,
+    "dollars_per_week": -81.369,
+    "breakdown": {
+     "station": {
+      "CLIATL": {
+       "bets": 688,
+       "net_dollars": -113.4,
+       "mean_net_per_contract": -0.0165
+      },
+      "CLIAUS": {
+       "bets": 1221,
+       "net_dollars": -453.67,
+       "mean_net_per_contract": -0.0372
+      },
+      "CLIBOS": {
+       "bets": 772,
+       "net_dollars": -199.0,
+       "mean_net_per_contract": -0.0258
+      },
+      "CLIDCA": {
+       "bets": 759,
+       "net_dollars": -142.2,
+       "mean_net_per_contract": -0.0187
+      },
+      "CLIDEN": {
+       "bets": 1228,
+       "net_dollars": -415.33,
+       "mean_net_per_contract": -0.0338
+      },
+      "CLIDFW": {
+       "bets": 648,
+       "net_dollars": -289.15,
+       "mean_net_per_contract": -0.0446
+      },
+      "CLIEWR": {
+       "bets": 72,
+       "net_dollars": -17.79,
+       "mean_net_per_contract": -0.0247
+      },
+      "CLIHOU": {
+       "bets": 601,
+       "net_dollars": -134.99,
+       "mean_net_per_contract": -0.0225
+      },
+      "CLILAS": {
+       "bets": 588,
+       "net_dollars": -352.27,
+       "mean_net_per_contract": -0.0599
+      },
+      "CLILAX": {
+       "bets": 1245,
+       "net_dollars": -492.46,
+       "mean_net_per_contract": -0.0396
+      },
+      "CLIMDW": {
+       "bets": 1204,
+       "net_dollars": -504.78,
+       "mean_net_per_contract": -0.0419
+      },
+      "CLIMIA": {
+       "bets": 901,
+       "net_dollars": -69.28,
+       "mean_net_per_contract": -0.0077
+      },
+      "CLIMSP": {
+       "bets": 735,
+       "net_dollars": -121.8,
+       "mean_net_per_contract": -0.0166
+      },
+      "CLIMSY": {
+       "bets": 647,
+       "net_dollars": -195.0,
+       "mean_net_per_contract": -0.0301
+      },
+      "CLINYC": {
+       "bets": 1168,
+       "net_dollars": -333.99,
+       "mean_net_per_contract": -0.0286
+      },
+      "CLIOKC": {
+       "bets": 740,
+       "net_dollars": -333.3,
+       "mean_net_per_contract": -0.045
+      },
+      "CLIPHL": {
+       "bets": 1139,
+       "net_dollars": -357.76,
+       "mean_net_per_contract": -0.0314
+      },
+      "CLIPHX": {
+       "bets": 585,
+       "net_dollars": -245.93,
+       "mean_net_per_contract": -0.042
+      },
+      "CLISAN": {
+       "bets": 89,
+       "net_dollars": -17.8,
+       "mean_net_per_contract": -0.02
+      },
+      "CLISAT": {
+       "bets": 659,
+       "net_dollars": -325.64,
+       "mean_net_per_contract": -0.0494
+      },
+      "CLISDF": {
+       "bets": 59,
+       "net_dollars": -44.6,
+       "mean_net_per_contract": -0.0756
+      },
+      "CLISEA": {
+       "bets": 781,
+       "net_dollars": -210.07,
+       "mean_net_per_contract": -0.0269
+      },
+      "CLISFO": {
+       "bets": 852,
+       "net_dollars": -154.01,
+       "mean_net_per_contract": -0.0181
+      },
+      "CLITTN": {
+       "bets": 72,
+       "net_dollars": -8.84,
+       "mean_net_per_contract": -0.0123
+      }
+     },
+     "tz": {
+      "America/Chicago": {
+       "bets": 6455,
+       "net_dollars": -2358.33,
+       "mean_net_per_contract": -0.0365
+      },
+      "America/Denver": {
+       "bets": 1228,
+       "net_dollars": -415.33,
+       "mean_net_per_contract": -0.0338
+      },
+      "America/Los_Angeles": {
+       "bets": 3555,
+       "net_dollars": -1226.62,
+       "mean_net_per_contract": -0.0345
+      },
+      "America/New_York": {
+       "bets": 5630,
+       "net_dollars": -1286.86,
+       "mean_net_per_contract": -0.0229
+      },
+      "America/Phoenix": {
+       "bets": 585,
+       "net_dollars": -245.93,
+       "mean_net_per_contract": -0.042
+      }
+     },
+     "season": {
+      "DJF": {
+       "bets": 2648,
+       "net_dollars": -762.9,
+       "mean_net_per_contract": -0.0288
+      },
+      "JJA": {
+       "bets": 5798,
+       "net_dollars": -2040.41,
+       "mean_net_per_contract": -0.0352
+      },
+      "MAM": {
+       "bets": 5112,
+       "net_dollars": -1370.63,
+       "mean_net_per_contract": -0.0268
+      },
+      "SON": {
+       "bets": 3895,
+       "net_dollars": -1359.14,
+       "mean_net_per_contract": -0.0349
+      }
+     },
+     "nbm_version": {
+      "4.3": {
+       "bets": 8483,
+       "net_dollars": -2461.76,
+       "mean_net_per_contract": -0.029
+      },
+      "5.0": {
+       "bets": 8970,
+       "net_dollars": -3071.31,
+       "mean_net_per_contract": -0.0342
+      }
+     },
+     "side": {
+      "NO": {
+       "bets": 9040,
+       "net_dollars": -3218.57,
+       "mean_net_per_contract": -0.0356
+      },
+      "YES": {
+       "bets": 8413,
+       "net_dollars": -2314.5,
+       "mean_net_per_contract": -0.0275
+      }
+     },
+     "pbucket": {
+      "1-10c": {
+       "bets": 5706,
+       "net_dollars": -1022.37,
+       "mean_net_per_contract": -0.0179
+      },
+      "10-30c": {
+       "bets": 2657,
+       "net_dollars": -1428.79,
+       "mean_net_per_contract": -0.0538
+      },
+      "30-70c": {
+       "bets": 7061,
+       "net_dollars": -2367.93,
+       "mean_net_per_contract": -0.0335
+      },
+      "70-90c": {
+       "bets": 1854,
+       "net_dollars": -727.72,
+       "mean_net_per_contract": -0.0393
+      },
+      "90-99c": {
+       "bets": 175,
+       "net_dollars": 13.74,
+       "mean_net_per_contract": 0.0079
+      }
+     }
+    }
+   },
+   "pass_bar": {
+    "1_mean_net_pos_both": false,
+    "2_unseen_ci_lower_gt_0": false,
+    "3_unseen_bets_ge_200": true,
+    "4_coin_flip_share_le_5pct": false,
+    "5_dollars_per_week_ge_2": false,
+    "6_brier_model_le_market_or_within_0.002_while_1to5_pass": false
+   },
+   "passes_all": false
+  },
+  "morning_8c": {
+   "decision": "morning",
+   "theta": "8c",
+   "discovery": {
+    "station_days_eligible": 4411,
+    "station_days_with_bets": 3363,
+    "bets": 6563,
+    "yes_bets": 2484,
+    "no_bets": 4079,
+    "mean_net_per_contract": 0.0019657702270303216,
+    "total_net_dollars": 129.0135,
+    "win_rate": 0.4302910254456803,
+    "bootstrap": {
+     "lo95_two_sided": -0.00890724074825911,
+     "hi95": 0.01288994945538632,
+     "lo_5pct_one_sided": -0.007055510898345081
+    },
+    "coin_flip": {
+     "share": 0.0,
+     "n_copies": 500,
+     "copies_total_mean_dollars": -3468.7405004,
+     "copies_total_p95_dollars": -2923.286735
+    },
+    "weeks_with_bets": 183,
+    "dollars_per_week": 0.705,
+    "breakdown": {
+     "station": {
+      "CLIAUS": {
+       "bets": 1223,
+       "net_dollars": 271.98,
+       "mean_net_per_contract": 0.0222
+      },
+      "CLIDEN": {
+       "bets": 442,
+       "net_dollars": -213.53,
+       "mean_net_per_contract": -0.0483
+      },
+      "CLILAX": {
+       "bets": 227,
+       "net_dollars": 30.86,
+       "mean_net_per_contract": 0.0136
+      },
+      "CLIMDW": {
+       "bets": 1790,
+       "net_dollars": 121.41,
+       "mean_net_per_contract": 0.0068
+      },
+      "CLIMIA": {
+       "bets": 654,
+       "net_dollars": 55.41,
+       "mean_net_per_contract": 0.0085
+      },
+      "CLINYC": {
+       "bets": 1819,
+       "net_dollars": -173.03,
+       "mean_net_per_contract": -0.0095
+      },
+      "CLIPHL": {
+       "bets": 408,
+       "net_dollars": 35.92,
+       "mean_net_per_contract": 0.0088
+      }
+     },
+     "tz": {
+      "America/Chicago": {
+       "bets": 3013,
+       "net_dollars": 393.39,
+       "mean_net_per_contract": 0.0131
+      },
+      "America/Denver": {
+       "bets": 442,
+       "net_dollars": -213.53,
+       "mean_net_per_contract": -0.0483
+      },
+      "America/Los_Angeles": {
+       "bets": 227,
+       "net_dollars": 30.86,
+       "mean_net_per_contract": 0.0136
+      },
+      "America/New_York": {
+       "bets": 2881,
+       "net_dollars": -81.7,
+       "mean_net_per_contract": -0.0028
+      }
+     },
+     "season": {
+      "DJF": {
+       "bets": 1695,
+       "net_dollars": -104.9,
+       "mean_net_per_contract": -0.0062
+      },
+      "JJA": {
+       "bets": 1507,
+       "net_dollars": 44.44,
+       "mean_net_per_contract": 0.0029
+      },
+      "MAM": {
+       "bets": 2076,
+       "net_dollars": -156.16,
+       "mean_net_per_contract": -0.0075
+      },
+      "SON": {
+       "bets": 1285,
+       "net_dollars": 345.64,
+       "mean_net_per_contract": 0.0269
+      }
+     },
+     "nbm_version": {
+      "4.0": {
+       "bets": 949,
+       "net_dollars": 215.46,
+       "mean_net_per_contract": 0.0227
+      },
+      "4.1": {
+       "bets": 2062,
+       "net_dollars": 167.55,
+       "mean_net_per_contract": 0.0081
+      },
+      "4.2": {
+       "bets": 3153,
+       "net_dollars": -104.78,
+       "mean_net_per_contract": -0.0033
+      },
+      "4.3": {
+       "bets": 399,
+       "net_dollars": -149.22,
+       "mean_net_per_contract": -0.0374
+      }
+     },
+     "side": {
+      "NO": {
+       "bets": 4079,
+       "net_dollars": -27.79,
+       "mean_net_per_contract": -0.0007
+      },
+      "YES": {
+       "bets": 2484,
+       "net_dollars": 156.81,
+       "mean_net_per_contract": 0.0063
+      }
+     },
+     "pbucket": {
+      "1-10c": {
+       "bets": 1184,
+       "net_dollars": -31.13,
+       "mean_net_per_contract": -0.0026
+      },
+      "10-30c": {
+       "bets": 1176,
+       "net_dollars": -194.45,
+       "mean_net_per_contract": -0.0165
+      },
+      "30-70c": {
+       "bets": 3453,
+       "net_dollars": 488.4,
+       "mean_net_per_contract": 0.0141
+      },
+      "70-90c": {
+       "bets": 747,
+       "net_dollars": -136.33,
+       "mean_net_per_contract": -0.0183
+      },
+      "90-99c": {
+       "bets": 3,
+       "net_dollars": 2.53,
+       "mean_net_per_contract": 0.0843
+      }
+     }
+    }
+   },
+   "unseen": {
+    "station_days_eligible": 6704,
+    "station_days_with_bets": 5873,
+    "bets": 13791,
+    "yes_bets": 6274,
+    "no_bets": 7517,
+    "mean_net_per_contract": -0.032978021173228914,
+    "total_net_dollars": -4547.9989,
+    "win_rate": 0.3258646943658908,
+    "bootstrap": {
+     "lo95_two_sided": -0.039470326459941286,
+     "hi95": -0.026446713591402687,
+     "lo_5pct_one_sided": -0.038424817958009214
+    },
+    "coin_flip": {
+     "share": 1.0,
+     "n_copies": 500,
+     "copies_total_mean_dollars": -3070.1292322,
+     "copies_total_p95_dollars": -2360.2174
+    },
+    "weeks_with_bets": 68,
+    "dollars_per_week": -66.882,
+    "breakdown": {
+     "station": {
+      "CLIATL": {
+       "bets": 515,
+       "net_dollars": -105.06,
+       "mean_net_per_contract": -0.0204
+      },
+      "CLIAUS": {
+       "bets": 958,
+       "net_dollars": -417.48,
+       "mean_net_per_contract": -0.0436
+      },
+      "CLIBOS": {
+       "bets": 628,
+       "net_dollars": -190.43,
+       "mean_net_per_contract": -0.0303
+      },
+      "CLIDCA": {
+       "bets": 592,
+       "net_dollars": -68.99,
+       "mean_net_per_contract": -0.0117
+      },
+      "CLIDEN": {
+       "bets": 955,
+       "net_dollars": -305.62,
+       "mean_net_per_contract": -0.032
+      },
+      "CLIDFW": {
+       "bets": 521,
+       "net_dollars": -271.76,
+       "mean_net_per_contract": -0.0522
+      },
+      "CLIEWR": {
+       "bets": 59,
+       "net_dollars": -18.35,
+       "mean_net_per_contract": -0.0311
+      },
+      "CLIHOU": {
+       "bets": 460,
+       "net_dollars": -131.27,
+       "mean_net_per_contract": -0.0285
+      },
+      "CLILAS": {
+       "bets": 465,
+       "net_dollars": -263.59,
+       "mean_net_per_contract": -0.0567
+      },
+      "CLILAX": {
+       "bets": 1031,
+       "net_dollars": -409.15,
+       "mean_net_per_contract": -0.0397
+      },
+      "CLIMDW": {
+       "bets": 962,
+       "net_dollars": -425.83,
+       "mean_net_per_contract": -0.0443
+      },
+      "CLIMIA": {
+       "bets": 661,
+       "net_dollars": 12.97,
+       "mean_net_per_contract": 0.002
+      },
+      "CLIMSP": {
+       "bets": 594,
+       "net_dollars": -147.37,
+       "mean_net_per_contract": -0.0248
+      },
+      "CLIMSY": {
+       "bets": 504,
+       "net_dollars": -131.57,
+       "mean_net_per_contract": -0.0261
+      },
+      "CLINYC": {
+       "bets": 984,
+       "net_dollars": -310.9,
+       "mean_net_per_contract": -0.0316
+      },
+      "CLIOKC": {
+       "bets": 573,
+       "net_dollars": -339.83,
+       "mean_net_per_contract": -0.0593
+      },
+      "CLIPHL": {
+       "bets": 896,
+       "net_dollars": -276.49,
+       "mean_net_per_contract": -0.0309
+      },
+      "CLIPHX": {
+       "bets": 449,
+       "net_dollars": -183.72,
+       "mean_net_per_contract": -0.0409
+      },
+      "CLISAN": {
+       "bets": 69,
+       "net_dollars": -51.76,
+       "mean_net_per_contract": -0.075
+      },
+      "CLISAT": {
+       "bets": 537,
+       "net_dollars": -247.07,
+       "mean_net_per_contract": -0.046
+      },
+      "CLISDF": {
+       "bets": 52,
+       "net_dollars": -35.74,
+       "mean_net_per_contract": -0.0687
+      },
+      "CLISEA": {
+       "bets": 614,
+       "net_dollars": -133.66,
+       "mean_net_per_contract": -0.0218
+      },
+      "CLISFO": {
+       "bets": 661,
+       "net_dollars": -122.29,
+       "mean_net_per_contract": -0.0185
+      },
+      "CLITTN": {
+       "bets": 51,
+       "net_dollars": 26.97,
+       "mean_net_per_contract": 0.0529
+      }
+     },
+     "tz": {
+      "America/Chicago": {
+       "bets": 5109,
+       "net_dollars": -2112.18,
+       "mean_net_per_contract": -0.0413
+      },
+      "America/Denver": {
+       "bets": 955,
+       "net_dollars": -305.62,
+       "mean_net_per_contract": -0.032
+      },
+      "America/Los_Angeles": {
+       "bets": 2840,
+       "net_dollars": -980.46,
+       "mean_net_per_contract": -0.0345
+      },
+      "America/New_York": {
+       "bets": 4438,
+       "net_dollars": -966.02,
+       "mean_net_per_contract": -0.0218
+      },
+      "America/Phoenix": {
+       "bets": 449,
+       "net_dollars": -183.72,
+       "mean_net_per_contract": -0.0409
+      }
+     },
+     "season": {
+      "DJF": {
+       "bets": 2029,
+       "net_dollars": -550.66,
+       "mean_net_per_contract": -0.0271
+      },
+      "JJA": {
+       "bets": 4660,
+       "net_dollars": -1774.52,
+       "mean_net_per_contract": -0.0381
+      },
+      "MAM": {
+       "bets": 4022,
+       "net_dollars": -1083.03,
+       "mean_net_per_contract": -0.0269
+      },
+      "SON": {
+       "bets": 3080,
+       "net_dollars": -1139.79,
+       "mean_net_per_contract": -0.037
+      }
+     },
+     "nbm_version": {
+      "4.3": {
+       "bets": 6540,
+       "net_dollars": -1857.21,
+       "mean_net_per_contract": -0.0284
+      },
+      "5.0": {
+       "bets": 7251,
+       "net_dollars": -2690.79,
+       "mean_net_per_contract": -0.0371
+      }
+     },
+     "side": {
+      "NO": {
+       "bets": 7517,
+       "net_dollars": -2873.47,
+       "mean_net_per_contract": -0.0382
+      },
+      "YES": {
+       "bets": 6274,
+       "net_dollars": -1674.53,
+       "mean_net_per_contract": -0.0267
+      }
+     },
+     "pbucket": {
+      "1-10c": {
+       "bets": 4387,
+       "net_dollars": -758.36,
+       "mean_net_per_contract": -0.0173
+      },
+      "10-30c": {
+       "bets": 2013,
+       "net_dollars": -1165.37,
+       "mean_net_per_contract": -0.0579
+      },
+      "30-70c": {
+       "bets": 6210,
+       "net_dollars": -2035.02,
+       "mean_net_per_contract": -0.0328
+      },
+      "70-90c": {
+       "bets": 1174,
+       "net_dollars": -585.15,
+       "mean_net_per_contract": -0.0498
+      },
+      "90-99c": {
+       "bets": 7,
+       "net_dollars": -4.1,
+       "mean_net_per_contract": -0.0586
+      }
+     }
+    }
+   },
+   "pass_bar": {
+    "1_mean_net_pos_both": false,
+    "2_unseen_ci_lower_gt_0": false,
+    "3_unseen_bets_ge_200": true,
+    "4_coin_flip_share_le_5pct": false,
+    "5_dollars_per_week_ge_2": false,
+    "6_brier_model_le_market_or_within_0.002_while_1to5_pass": false
+   },
+   "passes_all": false
+  },
+  "evening_3c": {
+   "decision": "evening",
+   "theta": "3c",
+   "discovery": {
+    "station_days_eligible": 4545,
+    "station_days_with_bets": 4148,
+    "bets": 10877,
+    "yes_bets": 4487,
+    "no_bets": 6390,
+    "mean_net_per_contract": 0.005400879838190678,
+    "total_net_dollars": 587.4537,
+    "win_rate": 0.5130091017743863,
+    "bootstrap": {
+     "lo95_two_sided": -0.002888241584183176,
+     "hi95": 0.013605387669534053,
+     "lo_5pct_one_sided": -0.0015914139905013978
+    },
+    "coin_flip": {
+     "share": 0.0,
+     "n_copies": 500,
+     "copies_total_mean_dollars": -4947.0601856,
+     "copies_total_p95_dollars": -4354.146395000001
+    },
+    "weeks_with_bets": 188,
+    "dollars_per_week": 3.125,
+    "breakdown": {
+     "station": {
+      "CLIAUS": {
+       "bets": 1857,
+       "net_dollars": 195.96,
+       "mean_net_per_contract": 0.0106
+      },
+      "CLIDEN": {
+       "bets": 667,
+       "net_dollars": -58.9,
+       "mean_net_per_contract": -0.0088
+      },
+      "CLILAX": {
+       "bets": 423,
+       "net_dollars": 99.39,
+       "mean_net_per_contract": 0.0235
+      },
+      "CLIMDW": {
+       "bets": 2992,
+       "net_dollars": 157.21,
+       "mean_net_per_contract": 0.0053
+      },
+      "CLIMIA": {
+       "bets": 1456,
+       "net_dollars": 460.52,
+       "mean_net_per_contract": 0.0316
+      },
+      "CLINYC": {
+       "bets": 2852,
+       "net_dollars": -310.0,
+       "mean_net_per_contract": -0.0109
+      },
+      "CLIPHL": {
+       "bets": 630,
+       "net_dollars": 43.28,
+       "mean_net_per_contract": 0.0069
+      }
+     },
+     "tz": {
+      "America/Chicago": {
+       "bets": 4849,
+       "net_dollars": 353.16,
+       "mean_net_per_contract": 0.0073
+      },
+      "America/Denver": {
+       "bets": 667,
+       "net_dollars": -58.9,
+       "mean_net_per_contract": -0.0088
+      },
+      "America/Los_Angeles": {
+       "bets": 423,
+       "net_dollars": 99.39,
+       "mean_net_per_contract": 0.0235
+      },
+      "America/New_York": {
+       "bets": 4938,
+       "net_dollars": 193.8,
+       "mean_net_per_contract": 0.0039
+      }
+     },
+     "season": {
+      "DJF": {
+       "bets": 2810,
+       "net_dollars": -282.07,
+       "mean_net_per_contract": -0.01
+      },
+      "JJA": {
+       "bets": 2637,
+       "net_dollars": 206.08,
+       "mean_net_per_contract": 0.0078
+      },
+      "MAM": {
+       "bets": 3350,
+       "net_dollars": 470.03,
+       "mean_net_per_contract": 0.014
+      },
+      "SON": {
+       "bets": 2080,
+       "net_dollars": 193.42,
+       "mean_net_per_contract": 0.0093
+      }
+     },
+     "nbm_version": {
+      "4.0": {
+       "bets": 1516,
+       "net_dollars": 132.34,
+       "mean_net_per_contract": 0.0087
+      },
+      "4.1": {
+       "bets": 3452,
+       "net_dollars": 550.03,
+       "mean_net_per_contract": 0.0159
+      },
+      "4.2": {
+       "bets": 5261,
+       "net_dollars": -88.55,
+       "mean_net_per_contract": -0.0017
+      },
+      "4.3": {
+       "bets": 648,
+       "net_dollars": -6.37,
+       "mean_net_per_contract": -0.001
+      }
+     },
+     "side": {
+      "NO": {
+       "bets": 6390,
+       "net_dollars": 237.02,
+       "mean_net_per_contract": 0.0037
+      },
+      "YES": {
+       "bets": 4487,
+       "net_dollars": 350.43,
+       "mean_net_per_contract": 0.0078
+      }
+     },
+     "pbucket": {
+      "1-10c": {
+       "bets": 1463,
+       "net_dollars": -73.46,
+       "mean_net_per_contract": -0.005
+      },
+      "10-30c": {
+       "bets": 1930,
+       "net_dollars": -182.51,
+       "mean_net_per_contract": -0.0095
+      },
+      "30-70c": {
+       "bets": 4394,
+       "net_dollars": 555.73,
+       "mean_net_per_contract": 0.0126
+      },
+      "70-90c": {
+       "bets": 2614,
+       "net_dollars": 288.75,
+       "mean_net_per_contract": 0.011
+      },
+      "90-99c": {
+       "bets": 476,
+       "net_dollars": -1.06,
+       "mean_net_per_contract": -0.0002
+      }
+     }
+    }
+   },
+   "unseen": {
+    "station_days_eligible": 6789,
+    "station_days_with_bets": 6540,
+    "bets": 22143,
+    "yes_bets": 10915,
+    "no_bets": 11228,
+    "mean_net_per_contract": -0.018653362236372668,
+    "total_net_dollars": -4130.414,
+    "win_rate": 0.40279094973580815,
+    "bootstrap": {
+     "lo95_two_sided": -0.023489099183669048,
+     "hi95": -0.01363626176204594,
+     "lo_5pct_one_sided": -0.02276463824394319
+    },
+    "coin_flip": {
+     "share": 0.22,
+     "n_copies": 500,
+     "copies_total_mean_dollars": -4518.274907,
+     "copies_total_p95_dollars": -3657.86711
+    },
+    "weeks_with_bets": 68,
+    "dollars_per_week": -60.741,
+    "breakdown": {
+     "station": {
+      "CLIATL": {
+       "bets": 893,
+       "net_dollars": 76.51,
+       "mean_net_per_contract": 0.0086
+      },
+      "CLIAUS": {
+       "bets": 1536,
+       "net_dollars": -33.02,
+       "mean_net_per_contract": -0.0022
+      },
+      "CLIBOS": {
+       "bets": 957,
+       "net_dollars": -444.32,
+       "mean_net_per_contract": -0.0464
+      },
+      "CLIDCA": {
+       "bets": 989,
+       "net_dollars": -266.66,
+       "mean_net_per_contract": -0.027
+      },
+      "CLIDEN": {
+       "bets": 1571,
+       "net_dollars": -262.66,
+       "mean_net_per_contract": -0.0167
+      },
+      "CLIDFW": {
+       "bets": 774,
+       "net_dollars": -191.09,
+       "mean_net_per_contract": -0.0247
+      },
+      "CLIEWR": {
+       "bets": 85,
+       "net_dollars": -15.1,
+       "mean_net_per_contract": -0.0178
+      },
+      "CLIHOU": {
+       "bets": 747,
+       "net_dollars": -236.55,
+       "mean_net_per_contract": -0.0317
+      },
+      "CLILAS": {
+       "bets": 734,
+       "net_dollars": -196.55,
+       "mean_net_per_contract": -0.0268
+      },
+      "CLILAX": {
+       "bets": 1595,
+       "net_dollars": -226.18,
+       "mean_net_per_contract": -0.0142
+      },
+      "CLIMDW": {
+       "bets": 1591,
+       "net_dollars": -540.44,
+       "mean_net_per_contract": -0.034
+      },
+      "CLIMIA": {
+       "bets": 1190,
+       "net_dollars": 480.01,
+       "mean_net_per_contract": 0.0403
+      },
+      "CLIMSP": {
+       "bets": 908,
+       "net_dollars": -394.07,
+       "mean_net_per_contract": -0.0434
+      },
+      "CLIMSY": {
+       "bets": 888,
+       "net_dollars": -247.37,
+       "mean_net_per_contract": -0.0279
+      },
+      "CLINYC": {
+       "bets": 1510,
+       "net_dollars": -187.97,
+       "mean_net_per_contract": -0.0124
+      },
+      "CLIOKC": {
+       "bets": 870,
+       "net_dollars": -273.48,
+       "mean_net_per_contract": -0.0314
+      },
+      "CLIPHL": {
+       "bets": 1580,
+       "net_dollars": -158.07,
+       "mean_net_per_contract": -0.01
+      },
+      "CLIPHX": {
+       "bets": 738,
+       "net_dollars": -289.24,
+       "mean_net_per_contract": -0.0392
+      },
+      "CLISAN": {
+       "bets": 94,
+       "net_dollars": -131.04,
+       "mean_net_per_contract": -0.1394
+      },
+      "CLISAT": {
+       "bets": 798,
+       "net_dollars": -143.89,
+       "mean_net_per_contract": -0.018
+      },
+      "CLISDF": {
+       "bets": 87,
+       "net_dollars": -69.83,
+       "mean_net_per_contract": -0.0803
+      },
+      "CLISEA": {
+       "bets": 923,
+       "net_dollars": -182.56,
+       "mean_net_per_contract": -0.0198
+      },
+      "CLISFO": {
+       "bets": 999,
+       "net_dollars": -183.86,
+       "mean_net_per_contract": -0.0184
+      },
+      "CLITTN": {
+       "bets": 86,
+       "net_dollars": -12.98,
+       "mean_net_per_contract": -0.0151
+      }
+     },
+     "tz": {
+      "America/Chicago": {
+       "bets": 8112,
+       "net_dollars": -2059.91,
+       "mean_net_per_contract": -0.0254
+      },
+      "America/Denver": {
+       "bets": 1571,
+       "net_dollars": -262.66,
+       "mean_net_per_contract": -0.0167
+      },
+      "America/Los_Angeles": {
+       "bets": 4345,
+       "net_dollars": -920.2,
+       "mean_net_per_contract": -0.0212
+      },
+      "America/New_York": {
+       "bets": 7377,
+       "net_dollars": -598.41,
+       "mean_net_per_contract": -0.0081
+      },
+      "America/Phoenix": {
+       "bets": 738,
+       "net_dollars": -289.24,
+       "mean_net_per_contract": -0.0392
+      }
+     },
+     "season": {
+      "DJF": {
+       "bets": 3496,
+       "net_dollars": -113.08,
+       "mean_net_per_contract": -0.0032
+      },
+      "JJA": {
+       "bets": 7139,
+       "net_dollars": -1612.15,
+       "mean_net_per_contract": -0.0226
+      },
+      "MAM": {
+       "bets": 6605,
+       "net_dollars": -1040.53,
+       "mean_net_per_contract": -0.0158
+      },
+      "SON": {
+       "bets": 4903,
+       "net_dollars": -1364.65,
+       "mean_net_per_contract": -0.0278
+      }
+     },
+     "nbm_version": {
+      "4.3": {
+       "bets": 10966,
+       "net_dollars": -354.83,
+       "mean_net_per_contract": -0.0032
+      },
+      "5.0": {
+       "bets": 11177,
+       "net_dollars": -3775.58,
+       "mean_net_per_contract": -0.0338
+      }
+     },
+     "side": {
+      "NO": {
+       "bets": 11228,
+       "net_dollars": -2173.67,
+       "mean_net_per_contract": -0.0194
+      },
+      "YES": {
+       "bets": 10915,
+       "net_dollars": -1956.75,
+       "mean_net_per_contract": -0.0179
+      }
+     },
+     "pbucket": {
+      "1-10c": {
+       "bets": 6504,
+       "net_dollars": -1167.52,
+       "mean_net_per_contract": -0.018
+      },
+      "10-30c": {
+       "bets": 3353,
+       "net_dollars": -1152.15,
+       "mean_net_per_contract": -0.0344
+      },
+      "30-70c": {
+       "bets": 7296,
+       "net_dollars": -1541.84,
+       "mean_net_per_contract": -0.0211
+      },
+      "70-90c": {
+       "bets": 3970,
+       "net_dollars": -405.76,
+       "mean_net_per_contract": -0.0102
+      },
+      "90-99c": {
+       "bets": 1020,
+       "net_dollars": 136.86,
+       "mean_net_per_contract": 0.0134
+      }
+     }
+    }
+   },
+   "pass_bar": {
+    "1_mean_net_pos_both": false,
+    "2_unseen_ci_lower_gt_0": false,
+    "3_unseen_bets_ge_200": true,
+    "4_coin_flip_share_le_5pct": false,
+    "5_dollars_per_week_ge_2": false,
+    "6_brier_model_le_market_or_within_0.002_while_1to5_pass": false
+   },
+   "passes_all": false
+  },
+  "evening_5c": {
+   "decision": "evening",
+   "theta": "5c",
+   "discovery": {
+    "station_days_eligible": 4545,
+    "station_days_with_bets": 3872,
+    "bets": 8955,
+    "yes_bets": 3693,
+    "no_bets": 5262,
+    "mean_net_per_contract": 0.012281112227805695,
+    "total_net_dollars": 1099.7736,
+    "win_rate": 0.5088777219430486,
+    "bootstrap": {
+     "lo95_two_sided": 0.0030609710225838376,
+     "hi95": 0.021383877607638935,
+     "lo_5pct_one_sided": 0.004412890719818479
+    },
+    "coin_flip": {
+     "share": 0.0,
+     "n_copies": 500,
+     "copies_total_mean_dollars": -4050.102665,
+     "copies_total_p95_dollars": -3452.6254200000003
+    },
+    "weeks_with_bets": 188,
+    "dollars_per_week": 5.85,
+    "breakdown": {
+     "station": {
+      "CLIAUS": {
+       "bets": 1496,
+       "net_dollars": 228.13,
+       "mean_net_per_contract": 0.0152
+      },
+      "CLIDEN": {
+       "bets": 531,
+       "net_dollars": -38.73,
+       "mean_net_per_contract": -0.0073
+      },
+      "CLILAX": {
+       "bets": 310,
+       "net_dollars": 104.27,
+       "mean_net_per_contract": 0.0336
+      },
+      "CLIMDW": {
+       "bets": 2524,
+       "net_dollars": 295.75,
+       "mean_net_per_contract": 0.0117
+      },
+      "CLIMIA": {
+       "bets": 1197,
+       "net_dollars": 512.5,
+       "mean_net_per_contract": 0.0428
+      },
+      "CLINYC": {
+       "bets": 2389,
+       "net_dollars": -42.89,
+       "mean_net_per_contract": -0.0018
+      },
+      "CLIPHL": {
+       "bets": 508,
+       "net_dollars": 40.75,
+       "mean_net_per_contract": 0.008
+      }
+     },
+     "tz": {
+      "America/Chicago": {
+       "bets": 4020,
+       "net_dollars": 523.88,
+       "mean_net_per_contract": 0.013
+      },
+      "America/Denver": {
+       "bets": 531,
+       "net_dollars": -38.73,
+       "mean_net_per_contract": -0.0073
+      },
+      "America/Los_Angeles": {
+       "bets": 310,
+       "net_dollars": 104.27,
+       "mean_net_per_contract": 0.0336
+      },
+      "America/New_York": {
+       "bets": 4094,
+       "net_dollars": 510.36,
+       "mean_net_per_contract": 0.0125
+      }
+     },
+     "season": {
+      "DJF": {
+       "bets": 2333,
+       "net_dollars": -154.42,
+       "mean_net_per_contract": -0.0066
+      },
+      "JJA": {
+       "bets": 2132,
+       "net_dollars": 224.79,
+       "mean_net_per_contract": 0.0105
+      },
+      "MAM": {
+       "bets": 2773,
+       "net_dollars": 741.68,
+       "mean_net_per_contract": 0.0267
+      },
+      "SON": {
+       "bets": 1717,
+       "net_dollars": 287.72,
+       "mean_net_per_contract": 0.0168
+      }
+     },
+     "nbm_version": {
+      "4.0": {
+       "bets": 1329,
+       "net_dollars": 196.98,
+       "mean_net_per_contract": 0.0148
+      },
+      "4.1": {
+       "bets": 2867,
+       "net_dollars": 692.49,
+       "mean_net_per_contract": 0.0242
+      },
+      "4.2": {
+       "bets": 4240,
+       "net_dollars": 210.74,
+       "mean_net_per_contract": 0.005
+      },
+      "4.3": {
+       "bets": 519,
+       "net_dollars": -0.43,
+       "mean_net_per_contract": -0.0001
+      }
+     },
+     "side": {
+      "NO": {
+       "bets": 5262,
+       "net_dollars": 492.68,
+       "mean_net_per_contract": 0.0094
+      },
+      "YES": {
+       "bets": 3693,
+       "net_dollars": 607.1,
+       "mean_net_per_contract": 0.0164
+      }
+     },
+     "pbucket": {
+      "1-10c": {
+       "bets": 1173,
+       "net_dollars": 31.45,
+       "mean_net_per_contract": 0.0027
+      },
+      "10-30c": {
+       "bets": 1612,
+       "net_dollars": -12.93,
+       "mean_net_per_contract": -0.0008
+      },
+      "30-70c": {
+       "bets": 3952,
+       "net_dollars": 749.39,
+       "mean_net_per_contract": 0.019
+      },
+      "70-90c": {
+       "bets": 2030,
+       "net_dollars": 337.92,
+       "mean_net_per_contract": 0.0166
+      },
+      "90-99c": {
+       "bets": 188,
+       "net_dollars": -6.05,
+       "mean_net_per_contract": -0.0032
+      }
+     }
+    }
+   },
+   "unseen": {
+    "station_days_eligible": 6789,
+    "station_days_with_bets": 6227,
+    "bets": 17952,
+    "yes_bets": 8803,
+    "no_bets": 9149,
+    "mean_net_per_contract": -0.019136104612299466,
+    "total_net_dollars": -3435.3135,
+    "win_rate": 0.39059714795008915,
+    "bootstrap": {
+     "lo95_two_sided": -0.02470599733442256,
+     "hi95": -0.013436827600834205,
+     "lo_5pct_one_sided": -0.02381377368402655
+    },
+    "coin_flip": {
+     "share": 0.316,
+     "n_copies": 500,
+     "copies_total_mean_dollars": -3642.3272,
+     "copies_total_p95_dollars": -2914.5290250000003
+    },
+    "weeks_with_bets": 68,
+    "dollars_per_week": -50.519,
+    "breakdown": {
+     "station": {
+      "CLIATL": {
+       "bets": 714,
+       "net_dollars": 6.96,
+       "mean_net_per_contract": 0.001
+      },
+      "CLIAUS": {
+       "bets": 1261,
+       "net_dollars": 0.58,
+       "mean_net_per_contract": 0.0
+      },
+      "CLIBOS": {
+       "bets": 787,
+       "net_dollars": -462.19,
+       "mean_net_per_contract": -0.0587
+      },
+      "CLIDCA": {
+       "bets": 787,
+       "net_dollars": -188.12,
+       "mean_net_per_contract": -0.0239
+      },
+      "CLIDEN": {
+       "bets": 1246,
+       "net_dollars": -295.48,
+       "mean_net_per_contract": -0.0237
+      },
+      "CLIDFW": {
+       "bets": 637,
+       "net_dollars": -180.5,
+       "mean_net_per_contract": -0.0283
+      },
+      "CLIEWR": {
+       "bets": 70,
+       "net_dollars": -41.15,
+       "mean_net_per_contract": -0.0588
+      },
+      "CLIHOU": {
+       "bets": 599,
+       "net_dollars": -245.75,
+       "mean_net_per_contract": -0.041
+      },
+      "CLILAS": {
+       "bets": 590,
+       "net_dollars": -175.22,
+       "mean_net_per_contract": -0.0297
+      },
+      "CLILAX": {
+       "bets": 1355,
+       "net_dollars": -180.56,
+       "mean_net_per_contract": -0.0133
+      },
+      "CLIMDW": {
+       "bets": 1306,
+       "net_dollars": -373.74,
+       "mean_net_per_contract": -0.0286
+      },
+      "CLIMIA": {
+       "bets": 928,
+       "net_dollars": 377.45,
+       "mean_net_per_contract": 0.0407
+      },
+      "CLIMSP": {
+       "bets": 720,
+       "net_dollars": -312.05,
+       "mean_net_per_contract": -0.0433
+      },
+      "CLIMSY": {
+       "bets": 701,
+       "net_dollars": -244.26,
+       "mean_net_per_contract": -0.0348
+      },
+      "CLINYC": {
+       "bets": 1270,
+       "net_dollars": -125.03,
+       "mean_net_per_contract": -0.0098
+      },
+      "CLIOKC": {
+       "bets": 686,
+       "net_dollars": -143.37,
+       "mean_net_per_contract": -0.0209
+      },
+      "CLIPHL": {
+       "bets": 1296,
+       "net_dollars": -74.81,
+       "mean_net_per_contract": -0.0058
+      },
+      "CLIPHX": {
+       "bets": 577,
+       "net_dollars": -229.35,
+       "mean_net_per_contract": -0.0397
+      },
+      "CLISAN": {
+       "bets": 76,
+       "net_dollars": -120.01,
+       "mean_net_per_contract": -0.1579
+      },
+      "CLISAT": {
+       "bets": 647,
+       "net_dollars": -109.85,
+       "mean_net_per_contract": -0.017
+      },
+      "CLISDF": {
+       "bets": 73,
+       "net_dollars": -58.26,
+       "mean_net_per_contract": -0.0798
+      },
+      "CLISEA": {
+       "bets": 754,
+       "net_dollars": -98.79,
+       "mean_net_per_contract": -0.0131
+      },
+      "CLISFO": {
+       "bets": 799,
+       "net_dollars": -146.27,
+       "mean_net_per_contract": -0.0183
+      },
+      "CLITTN": {
+       "bets": 73,
+       "net_dollars": -15.53,
+       "mean_net_per_contract": -0.0213
+      }
+     },
+     "tz": {
+      "America/Chicago": {
+       "bets": 6557,
+       "net_dollars": -1608.94,
+       "mean_net_per_contract": -0.0245
+      },
+      "America/Denver": {
+       "bets": 1246,
+       "net_dollars": -295.48,
+       "mean_net_per_contract": -0.0237
+      },
+      "America/Los_Angeles": {
+       "bets": 3574,
+       "net_dollars": -720.86,
+       "mean_net_per_contract": -0.0202
+      },
+      "America/New_York": {
+       "bets": 5998,
+       "net_dollars": -580.69,
+       "mean_net_per_contract": -0.0097
+      },
+      "America/Phoenix": {
+       "bets": 577,
+       "net_dollars": -229.35,
+       "mean_net_per_contract": -0.0397
+      }
+     },
+     "season": {
+      "DJF": {
+       "bets": 2739,
+       "net_dollars": -78.91,
+       "mean_net_per_contract": -0.0029
+      },
+      "JJA": {
+       "bets": 5802,
+       "net_dollars": -1291.62,
+       "mean_net_per_contract": -0.0223
+      },
+      "MAM": {
+       "bets": 5373,
+       "net_dollars": -826.6,
+       "mean_net_per_contract": -0.0154
+      },
+      "SON": {
+       "bets": 4038,
+       "net_dollars": -1238.18,
+       "mean_net_per_contract": -0.0307
+      }
+     },
+     "nbm_version": {
+      "4.3": {
+       "bets": 8747,
+       "net_dollars": -308.26,
+       "mean_net_per_contract": -0.0035
+      },
+      "5.0": {
+       "bets": 9205,
+       "net_dollars": -3127.06,
+       "mean_net_per_contract": -0.034
+      }
+     },
+     "side": {
+      "NO": {
+       "bets": 9149,
+       "net_dollars": -1748.47,
+       "mean_net_per_contract": -0.0191
+      },
+      "YES": {
+       "bets": 8803,
+       "net_dollars": -1686.84,
+       "mean_net_per_contract": -0.0192
+      }
+     },
+     "pbucket": {
+      "1-10c": {
+       "bets": 5285,
+       "net_dollars": -995.62,
+       "mean_net_per_contract": -0.0188
+      },
+      "10-30c": {
+       "bets": 2677,
+       "net_dollars": -1031.51,
+       "mean_net_per_contract": -0.0385
+      },
+      "30-70c": {
+       "bets": 6585,
+       "net_dollars": -1320.2,
+       "mean_net_per_contract": -0.02
+      },
+      "70-90c": {
+       "bets": 3049,
+       "net_dollars": -104.02,
+       "mean_net_per_contract": -0.0034
+      },
+      "90-99c": {
+       "bets": 356,
+       "net_dollars": 16.02,
+       "mean_net_per_contract": 0.0045
+      }
+     }
+    }
+   },
+   "pass_bar": {
+    "1_mean_net_pos_both": false,
+    "2_unseen_ci_lower_gt_0": false,
+    "3_unseen_bets_ge_200": true,
+    "4_coin_flip_share_le_5pct": false,
+    "5_dollars_per_week_ge_2": false,
+    "6_brier_model_le_market_or_within_0.002_while_1to5_pass": false
+   },
+   "passes_all": false
+  },
+  "evening_8c": {
+   "decision": "evening",
+   "theta": "8c",
+   "discovery": {
+    "station_days_eligible": 4545,
+    "station_days_with_bets": 3348,
+    "bets": 6595,
+    "yes_bets": 2708,
+    "no_bets": 3887,
+    "mean_net_per_contract": 0.018439633055344958,
+    "total_net_dollars": 1216.0938,
+    "win_rate": 0.5037149355572403,
+    "bootstrap": {
+     "lo95_two_sided": 0.007283514411412762,
+     "hi95": 0.029439725806742777,
+     "lo_5pct_one_sided": 0.009215237795578705
+    },
+    "coin_flip": {
+     "share": 0.0,
+     "n_copies": 500,
+     "copies_total_mean_dollars": -2998.6818052000003,
+     "copies_total_p95_dollars": -2448.6107650000004
+    },
+    "weeks_with_bets": 188,
+    "dollars_per_week": 6.469,
+    "breakdown": {
+     "station": {
+      "CLIAUS": {
+       "bets": 1059,
+       "net_dollars": 201.84,
+       "mean_net_per_contract": 0.0191
+      },
+      "CLIDEN": {
+       "bets": 371,
+       "net_dollars": 30.18,
+       "mean_net_per_contract": 0.0081
+      },
+      "CLILAX": {
+       "bets": 204,
+       "net_dollars": 161.43,
+       "mean_net_per_contract": 0.0791
+      },
+      "CLIMDW": {
+       "bets": 1901,
+       "net_dollars": 365.5,
+       "mean_net_per_contract": 0.0192
+      },
+      "CLIMIA": {
+       "bets": 881,
+       "net_dollars": 429.36,
+       "mean_net_per_contract": 0.0487
+      },
+      "CLINYC": {
+       "bets": 1805,
+       "net_dollars": 7.99,
+       "mean_net_per_contract": 0.0004
+      },
+      "CLIPHL": {
+       "bets": 374,
+       "net_dollars": 19.8,
+       "mean_net_per_contract": 0.0053
+      }
+     },
+     "tz": {
+      "America/Chicago": {
+       "bets": 2960,
+       "net_dollars": 567.34,
+       "mean_net_per_contract": 0.0192
+      },
+      "America/Denver": {
+       "bets": 371,
+       "net_dollars": 30.18,
+       "mean_net_per_contract": 0.0081
+      },
+      "America/Los_Angeles": {
+       "bets": 204,
+       "net_dollars": 161.43,
+       "mean_net_per_contract": 0.0791
+      },
+      "America/New_York": {
+       "bets": 3060,
+       "net_dollars": 457.15,
+       "mean_net_per_contract": 0.0149
+      }
+     },
+     "season": {
+      "DJF": {
+       "bets": 1708,
+       "net_dollars": 75.86,
+       "mean_net_per_contract": 0.0044
+      },
+      "JJA": {
+       "bets": 1532,
+       "net_dollars": 185.95,
+       "mean_net_per_contract": 0.0121
+      },
+      "MAM": {
+       "bets": 2040,
+       "net_dollars": 707.14,
+       "mean_net_per_contract": 0.0347
+      },
+      "SON": {
+       "bets": 1315,
+       "net_dollars": 247.14,
+       "mean_net_per_contract": 0.0188
+      }
+     },
+     "nbm_version": {
+      "4.0": {
+       "bets": 1082,
+       "net_dollars": 222.11,
+       "mean_net_per_contract": 0.0205
+      },
+      "4.1": {
+       "bets": 2084,
+       "net_dollars": 659.7,
+       "mean_net_per_contract": 0.0317
+      },
+      "4.2": {
+       "bets": 3062,
+       "net_dollars": 270.32,
+       "mean_net_per_contract": 0.0088
+      },
+      "4.3": {
+       "bets": 367,
+       "net_dollars": 63.97,
+       "mean_net_per_contract": 0.0174
+      }
+     },
+     "side": {
+      "NO": {
+       "bets": 3887,
+       "net_dollars": 630.47,
+       "mean_net_per_contract": 0.0162
+      },
+      "YES": {
+       "bets": 2708,
+       "net_dollars": 585.63,
+       "mean_net_per_contract": 0.0216
+      }
+     },
+     "pbucket": {
+      "1-10c": {
+       "bets": 808,
+       "net_dollars": 7.16,
+       "mean_net_per_contract": 0.0009
+      },
+      "10-30c": {
+       "bets": 1210,
+       "net_dollars": 22.96,
+       "mean_net_per_contract": 0.0019
+      },
+      "30-70c": {
+       "bets": 3251,
+       "net_dollars": 877.49,
+       "mean_net_per_contract": 0.027
+      },
+      "70-90c": {
+       "bets": 1310,
+       "net_dollars": 315.01,
+       "mean_net_per_contract": 0.024
+      },
+      "90-99c": {
+       "bets": 16,
+       "net_dollars": -6.52,
+       "mean_net_per_contract": -0.0407
+      }
+     }
+    }
+   },
+   "unseen": {
+    "station_days_eligible": 6789,
+    "station_days_with_bets": 5524,
+    "bets": 12918,
+    "yes_bets": 6131,
+    "no_bets": 6787,
+    "mean_net_per_contract": -0.019201021830004644,
+    "total_net_dollars": -2480.388,
+    "win_rate": 0.38419259947360274,
+    "bootstrap": {
+     "lo95_two_sided": -0.02605450027215217,
+     "hi95": -0.012096334391311884,
+     "lo_5pct_one_sided": -0.024923399850319113
+    },
+    "coin_flip": {
+     "share": 0.384,
+     "n_copies": 500,
+     "copies_total_mean_dollars": -2569.5564896,
+     "copies_total_p95_dollars": -1956.816485
+    },
+    "weeks_with_bets": 68,
+    "dollars_per_week": -36.476,
+    "breakdown": {
+     "station": {
+      "CLIATL": {
+       "bets": 513,
+       "net_dollars": -18.05,
+       "mean_net_per_contract": -0.0035
+      },
+      "CLIAUS": {
+       "bets": 917,
+       "net_dollars": -70.05,
+       "mean_net_per_contract": -0.0076
+      },
+      "CLIBOS": {
+       "bets": 574,
+       "net_dollars": -315.02,
+       "mean_net_per_contract": -0.0549
+      },
+      "CLIDCA": {
+       "bets": 563,
+       "net_dollars": -76.05,
+       "mean_net_per_contract": -0.0135
+      },
+      "CLIDEN": {
+       "bets": 837,
+       "net_dollars": -232.58,
+       "mean_net_per_contract": -0.0278
+      },
+      "CLIDFW": {
+       "bets": 466,
+       "net_dollars": -151.44,
+       "mean_net_per_contract": -0.0325
+      },
+      "CLIEWR": {
+       "bets": 55,
+       "net_dollars": 0.57,
+       "mean_net_per_contract": 0.001
+      },
+      "CLIHOU": {
+       "bets": 429,
+       "net_dollars": -232.37,
+       "mean_net_per_contract": -0.0542
+      },
+      "CLILAS": {
+       "bets": 426,
+       "net_dollars": -108.79,
+       "mean_net_per_contract": -0.0255
+      },
+      "CLILAX": {
+       "bets": 1055,
+       "net_dollars": -158.9,
+       "mean_net_per_contract": -0.0151
+      },
+      "CLIMDW": {
+       "bets": 927,
+       "net_dollars": -328.28,
+       "mean_net_per_contract": -0.0354
+      },
+      "CLIMIA": {
+       "bets": 652,
+       "net_dollars": 337.15,
+       "mean_net_per_contract": 0.0517
+      },
+      "CLIMSP": {
+       "bets": 511,
+       "net_dollars": -229.22,
+       "mean_net_per_contract": -0.0449
+      },
+      "CLIMSY": {
+       "bets": 482,
+       "net_dollars": -115.85,
+       "mean_net_per_contract": -0.024
+      },
+      "CLINYC": {
+       "bets": 930,
+       "net_dollars": -159.45,
+       "mean_net_per_contract": -0.0171
+      },
+      "CLIOKC": {
+       "bets": 488,
+       "net_dollars": -51.54,
+       "mean_net_per_contract": -0.0106
+      },
+      "CLIPHL": {
+       "bets": 939,
+       "net_dollars": -52.3,
+       "mean_net_per_contract": -0.0056
+      },
+      "CLIPHX": {
+       "bets": 393,
+       "net_dollars": -121.57,
+       "mean_net_per_contract": -0.0309
+      },
+      "CLISAN": {
+       "bets": 60,
+       "net_dollars": -87.42,
+       "mean_net_per_contract": -0.1457
+      },
+      "CLISAT": {
+       "bets": 491,
+       "net_dollars": -68.56,
+       "mean_net_per_contract": -0.014
+      },
+      "CLISDF": {
+       "bets": 62,
+       "net_dollars": -41.05,
+       "mean_net_per_contract": -0.0662
+      },
+      "CLISEA": {
+       "bets": 550,
+       "net_dollars": -71.17,
+       "mean_net_per_contract": -0.0129
+      },
+      "CLISFO": {
+       "bets": 547,
+       "net_dollars": -132.98,
+       "mean_net_per_contract": -0.0243
+      },
+      "CLITTN": {
+       "bets": 51,
+       "net_dollars": 4.54,
+       "mean_net_per_contract": 0.0089
+      }
+     },
+     "tz": {
+      "America/Chicago": {
+       "bets": 4711,
+       "net_dollars": -1247.32,
+       "mean_net_per_contract": -0.0265
+      },
+      "America/Denver": {
+       "bets": 837,
+       "net_dollars": -232.58,
+       "mean_net_per_contract": -0.0278
+      },
+      "America/Los_Angeles": {
+       "bets": 2638,
+       "net_dollars": -559.26,
+       "mean_net_per_contract": -0.0212
+      },
+      "America/New_York": {
+       "bets": 4339,
+       "net_dollars": -319.66,
+       "mean_net_per_contract": -0.0074
+      },
+      "America/Phoenix": {
+       "bets": 393,
+       "net_dollars": -121.57,
+       "mean_net_per_contract": -0.0309
+      }
+     },
+     "season": {
+      "DJF": {
+       "bets": 1894,
+       "net_dollars": -56.43,
+       "mean_net_per_contract": -0.003
+      },
+      "JJA": {
+       "bets": 4259,
+       "net_dollars": -885.34,
+       "mean_net_per_contract": -0.0208
+      },
+      "MAM": {
+       "bets": 3839,
+       "net_dollars": -590.95,
+       "mean_net_per_contract": -0.0154
+      },
+      "SON": {
+       "bets": 2926,
+       "net_dollars": -947.67,
+       "mean_net_per_contract": -0.0324
+      }
+     },
+     "nbm_version": {
+      "4.3": {
+       "bets": 6083,
+       "net_dollars": -163.68,
+       "mean_net_per_contract": -0.0027
+      },
+      "5.0": {
+       "bets": 6835,
+       "net_dollars": -2316.71,
+       "mean_net_per_contract": -0.0339
+      }
+     },
+     "side": {
+      "NO": {
+       "bets": 6787,
+       "net_dollars": -1319.19,
+       "mean_net_per_contract": -0.0194
+      },
+      "YES": {
+       "bets": 6131,
+       "net_dollars": -1161.2,
+       "mean_net_per_contract": -0.0189
+      }
+     },
+     "pbucket": {
+      "1-10c": {
+       "bets": 3667,
+       "net_dollars": -687.13,
+       "mean_net_per_contract": -0.0187
+      },
+      "10-30c": {
+       "bets": 1889,
+       "net_dollars": -775.58,
+       "mean_net_per_contract": -0.0411
+      },
+      "30-70c": {
+       "bets": 5465,
+       "net_dollars": -984.6,
+       "mean_net_per_contract": -0.018
+      },
+      "70-90c": {
+       "bets": 1875,
+       "net_dollars": -41.61,
+       "mean_net_per_contract": -0.0022
+      },
+      "90-99c": {
+       "bets": 22,
+       "net_dollars": 8.54,
+       "mean_net_per_contract": 0.0388
+      }
+     }
+    }
+   },
+   "pass_bar": {
+    "1_mean_net_pos_both": false,
+    "2_unseen_ci_lower_gt_0": false,
+    "3_unseen_bets_ge_200": true,
+    "4_coin_flip_share_le_5pct": false,
+    "5_dollars_per_week_ge_2": false,
+    "6_brier_model_le_market_or_within_0.002_while_1to5_pass": false
+   },
+   "passes_all": false
+  }
+ },
+ "quality": {
+  "morning": {
+   "discovery": {
+    "n": 16821,
+    "brier_model": 0.1696693839087112,
+    "brier_market": 0.15611226740384046,
+    "logloss_model": 0.5200448549708069,
+    "logloss_market": 0.4716719846514606,
+    "disagree_ge_5c": 0.722965340942869,
+    "disagree_ge_10c": 0.5186968670114738
+   },
+   "unseen": {
+    "n": 29594,
+    "brier_model": 0.15844863252214844,
+    "brier_market": 0.12995532709332974,
+    "logloss_model": 0.48965652319851516,
+    "logloss_market": 0.40046522271582424,
+    "disagree_ge_5c": 0.6981144826654051,
+    "disagree_ge_10c": 0.48070554842197744
+   },
+   "all_periods": {
+    "n": 46415,
+    "brier_model": 0.16251508214130975,
+    "brier_market": 0.139434717225035,
+    "logloss_model": 0.5006693881934892,
+    "logloss_market": 0.42627086620433746,
+    "disagree_ge_5c": 0.7071205429279328,
+    "disagree_ge_10c": 0.4944737692556286
+   }
+  },
+  "evening": {
+   "discovery": {
+    "n": 20318,
+    "brier_model": 0.15134335860663178,
+    "brier_market": 0.1471724406929816,
+    "logloss_model": 0.4722761856929706,
+    "logloss_market": 0.4518663947429304,
+    "disagree_ge_5c": 0.6706368737080421,
+    "disagree_ge_10c": 0.427256619746038
+   },
+   "unseen": {
+    "n": 37009,
+    "brier_model": 0.13353390477565338,
+    "brier_market": 0.1193747324975006,
+    "logloss_model": 0.4238243026204367,
+    "logloss_market": 0.3733473314289326,
+    "disagree_ge_5c": 0.6044205463535897,
+    "disagree_ge_10c": 0.3619660082682591
+   },
+   "all_periods": {
+    "n": 57327,
+    "brier_model": 0.13984598255641673,
+    "brier_market": 0.12922687607933434,
+    "logloss_model": 0.44099675818705875,
+    "logloss_market": 0.4011762833785167,
+    "disagree_ge_5c": 0.6278891272873166,
+    "disagree_ge_10c": 0.3851064943220472
+   }
+  }
+ },
+ "calibration": {
+  "morning_discovery": [
+   {
+    "model": [
+     {
+      "bucket": "[0.0, 0.02)",
+      "n": 1161,
+      "mean_p": 0.0072,
+      "freq_yes": 0.0491
+     },
+     {
+      "bucket": "[0.02, 0.05)",
+      "n": 925,
+      "mean_p": 0.0345,
+      "freq_yes": 0.0843
+     },
+     {
+      "bucket": "[0.05, 0.1)",
+      "n": 1657,
+      "mean_p": 0.0764,
+      "freq_yes": 0.099
+     },
+     {
+      "bucket": "[0.1, 0.2)",
+      "n": 4788,
+      "mean_p": 0.1519,
+      "freq_yes": 0.1888
+     },
+     {
+      "bucket": "[0.2, 0.3)",
+      "n": 3845,
+      "mean_p": 0.2475,
+      "freq_yes": 0.291
+     },
+     {
+      "bucket": "[0.3, 0.5)",
+      "n": 2933,
+      "mean_p": 0.3873,
+      "freq_yes": 0.3692
+     },
+     {
+      "bucket": "[0.5, 0.7)",
+      "n": 1374,
+      "mean_p": 0.5663,
+      "freq_yes": 0.5393
+     },
+     {
+      "bucket": "[0.7, 0.8)",
+      "n": 78,
+      "mean_p": 0.7508,
+      "freq_yes": 0.6923
+     },
+     {
+      "bucket": "[0.8, 0.9)",
+      "n": 28,
+      "mean_p": 0.8493,
+      "freq_yes": 0.7143
+     },
+     {
+      "bucket": "[0.9, 0.95)",
+      "n": 7,
+      "mean_p": 0.9302,
+      "freq_yes": 0.8571
+     },
+     {
+      "bucket": "[0.95, 0.98)",
+      "n": 8,
+      "mean_p": 0.9616,
+      "freq_yes": 0.875
+     },
+     {
+      "bucket": "[0.98, 1.0)",
+      "n": 17,
+      "mean_p": 0.9899,
+      "freq_yes": 0.9412
+     }
+    ]
+   },
+   {
+    "market_mid": [
+     {
+      "bucket": "[0.0, 0.02)",
+      "n": 237,
+      "mean_p": 0.015,
+      "freq_yes": 0.0084
+     },
+     {
+      "bucket": "[0.02, 0.05)",
+      "n": 1764,
+      "mean_p": 0.0322,
+      "freq_yes": 0.0283
+     },
+     {
+      "bucket": "[0.05, 0.1)",
+      "n": 2179,
+      "mean_p": 0.0708,
+      "freq_yes": 0.0569
+     },
+     {
+      "bucket": "[0.1, 0.2)",
+      "n": 3026,
+      "mean_p": 0.1444,
+      "freq_yes": 0.1355
+     },
+     {
+      "bucket": "[0.2, 0.3)",
+      "n": 2357,
+      "mean_p": 0.2461,
+      "freq_yes": 0.23
+     },
+     {
+      "bucket": "[0.3, 0.5)",
+      "n": 4384,
+      "mean_p": 0.3966,
+      "freq_yes": 0.3663
+     },
+     {
+      "bucket": "[0.5, 0.7)",
+      "n": 2392,
+      "mean_p": 0.5659,
+      "freq_yes": 0.4686
+     },
+     {
+      "bucket": "[0.7, 0.8)",
+      "n": 253,
+      "mean_p": 0.7402,
+      "freq_yes": 0.7312
+     },
+     {
+      "bucket": "[0.8, 0.9)",
+      "n": 127,
+      "mean_p": 0.845,
+      "freq_yes": 0.8583
+     },
+     {
+      "bucket": "[0.9, 0.95)",
+      "n": 58,
+      "mean_p": 0.9233,
+      "freq_yes": 0.9828
+     },
+     {
+      "bucket": "[0.95, 0.98)",
+      "n": 33,
+      "mean_p": 0.9623,
+      "freq_yes": 0.9697
+     },
+     {
+      "bucket": "[0.98, 1.0)",
+      "n": 11,
+      "mean_p": 0.9832,
+      "freq_yes": 1.0
+     }
+    ]
+   }
+  ],
+  "morning_unseen": [
+   {
+    "model": [
+     {
+      "bucket": "[0.0, 0.02)",
+      "n": 2404,
+      "mean_p": 0.0072,
+      "freq_yes": 0.0362
+     },
+     {
+      "bucket": "[0.02, 0.05)",
+      "n": 1707,
+      "mean_p": 0.0352,
+      "freq_yes": 0.0709
+     },
+     {
+      "bucket": "[0.05, 0.1)",
+      "n": 3220,
+      "mean_p": 0.0766,
+      "freq_yes": 0.1053
+     },
+     {
+      "bucket": "[0.1, 0.2)",
+      "n": 8654,
+      "mean_p": 0.1519,
+      "freq_yes": 0.174
+     },
+     {
+      "bucket": "[0.2, 0.3)",
+      "n": 7031,
+      "mean_p": 0.2462,
+      "freq_yes": 0.2675
+     },
+     {
+      "bucket": "[0.3, 0.5)",
+      "n": 5210,
+      "mean_p": 0.3803,
+      "freq_yes": 0.3843
+     },
+     {
+      "bucket": "[0.5, 0.7)",
+      "n": 1322,
+      "mean_p": 0.575,
+      "freq_yes": 0.5272
+     },
+     {
+      "bucket": "[0.7, 0.8)",
+      "n": 25,
+      "mean_p": 0.7508,
+      "freq_yes": 0.64
+     },
+     {
+      "bucket": "[0.8, 0.9)",
+      "n": 16,
+      "mean_p": 0.8419,
+      "freq_yes": 0.8125
+     },
+     {
+      "bucket": "[0.9, 0.95)",
+      "n": 3,
+      "mean_p": 0.9192,
+      "freq_yes": 1.0
+     },
+     {
+      "bucket": "[0.95, 0.98)",
+      "n": 1,
+      "mean_p": 0.9568,
+      "freq_yes": 1.0
+     },
+     {
+      "bucket": "[0.98, 1.0)",
+      "n": 1,
+      "mean_p": 0.9924,
+      "freq_yes": 1.0
+     }
+    ]
+   },
+   {
+    "market_mid": [
+     {
+      "bucket": "[0.0, 0.02)",
+      "n": 2157,
+      "mean_p": 0.015,
+      "freq_yes": 0.006
+     },
+     {
+      "bucket": "[0.02, 0.05)",
+      "n": 5413,
+      "mean_p": 0.0315,
+      "freq_yes": 0.0238
+     },
+     {
+      "bucket": "[0.05, 0.1)",
+      "n": 3903,
+      "mean_p": 0.0706,
+      "freq_yes": 0.0589
+     },
+     {
+      "bucket": "[0.1, 0.2)",
+      "n": 4369,
+      "mean_p": 0.1441,
+      "freq_yes": 0.1275
+     },
+     {
+      "bucket": "[0.2, 0.3)",
+      "n": 3489,
+      "mean_p": 0.2494,
+      "freq_yes": 0.2453
+     },
+     {
+      "bucket": "[0.3, 0.5)",
+      "n": 6580,
+      "mean_p": 0.3964,
+      "freq_yes": 0.3895
+     },
+     {
+      "bucket": "[0.5, 0.7)",
+      "n": 3069,
+      "mean_p": 0.5744,
+      "freq_yes": 0.5881
+     },
+     {
+      "bucket": "[0.7, 0.8)",
+      "n": 331,
+      "mean_p": 0.7396,
+      "freq_yes": 0.7613
+     },
+     {
+      "bucket": "[0.8, 0.9)",
+      "n": 157,
+      "mean_p": 0.8448,
+      "freq_yes": 0.9108
+     },
+     {
+      "bucket": "[0.9, 0.95)",
+      "n": 75,
+      "mean_p": 0.9239,
+      "freq_yes": 0.92
+     },
+     {
+      "bucket": "[0.95, 0.98)",
+      "n": 39,
+      "mean_p": 0.9619,
+      "freq_yes": 0.9744
+     },
+     {
+      "bucket": "[0.98, 1.0)",
+      "n": 12,
+      "mean_p": 0.9842,
+      "freq_yes": 1.0
+     }
+    ]
+   }
+  ],
+  "evening_discovery": [
+   {
+    "model": [
+     {
+      "bucket": "[0.0, 0.02)",
+      "n": 2144,
+      "mean_p": 0.0057,
+      "freq_yes": 0.0373
+     },
+     {
+      "bucket": "[0.02, 0.05)",
+      "n": 1212,
+      "mean_p": 0.0347,
+      "freq_yes": 0.0545
+     },
+     {
+      "bucket": "[0.05, 0.1)",
+      "n": 2152,
+      "mean_p": 0.0763,
+      "freq_yes": 0.0836
+     },
+     {
+      "bucket": "[0.1, 0.2)",
+      "n": 5901,
+      "mean_p": 0.1511,
+      "freq_yes": 0.1749
+     },
+     {
+      "bucket": "[0.2, 0.3)",
+      "n": 4272,
+      "mean_p": 0.2461,
+      "freq_yes": 0.2673
+     },
+     {
+      "bucket": "[0.3, 0.5)",
+      "n": 3162,
+      "mean_p": 0.384,
+      "freq_yes": 0.3621
+     },
+     {
+      "bucket": "[0.5, 0.7)",
+      "n": 1310,
+      "mean_p": 0.5734,
+      "freq_yes": 0.5214
+     },
+     {
+      "bucket": "[0.7, 0.8)",
+      "n": 75,
+      "mean_p": 0.7478,
+      "freq_yes": 0.72
+     },
+     {
+      "bucket": "[0.8, 0.9)",
+      "n": 38,
+      "mean_p": 0.8365,
+      "freq_yes": 0.7632
+     },
+     {
+      "bucket": "[0.9, 0.95)",
+      "n": 21,
+      "mean_p": 0.927,
+      "freq_yes": 0.8095
+     },
+     {
+      "bucket": "[0.95, 0.98)",
+      "n": 14,
+      "mean_p": 0.9611,
+      "freq_yes": 0.9286
+     },
+     {
+      "bucket": "[0.98, 1.0)",
+      "n": 17,
+      "mean_p": 0.9953,
+      "freq_yes": 0.7647
+     }
+    ]
+   },
+   {
+    "market_mid": [
+     {
+      "bucket": "[0.0, 0.02)",
+      "n": 160,
+      "mean_p": 0.015,
+      "freq_yes": 0.0062
+     },
+     {
+      "bucket": "[0.02, 0.05)",
+      "n": 2103,
+      "mean_p": 0.0329,
+      "freq_yes": 0.0238
+     },
+     {
+      "bucket": "[0.05, 0.1)",
+      "n": 2714,
+      "mean_p": 0.0712,
+      "freq_yes": 0.0538
+     },
+     {
+      "bucket": "[0.1, 0.2)",
+      "n": 4360,
+      "mean_p": 0.1446,
+      "freq_yes": 0.1229
+     },
+     {
+      "bucket": "[0.2, 0.3)",
+      "n": 3694,
+      "mean_p": 0.2483,
+      "freq_yes": 0.2304
+     },
+     {
+      "bucket": "[0.3, 0.5)",
+      "n": 5794,
+      "mean_p": 0.3779,
+      "freq_yes": 0.3624
+     },
+     {
+      "bucket": "[0.5, 0.7)",
+      "n": 1336,
+      "mean_p": 0.5568,
+      "freq_yes": 0.479
+     },
+     {
+      "bucket": "[0.7, 0.8)",
+      "n": 87,
+      "mean_p": 0.7409,
+      "freq_yes": 0.7931
+     },
+     {
+      "bucket": "[0.8, 0.9)",
+      "n": 53,
+      "mean_p": 0.8395,
+      "freq_yes": 0.8679
+     },
+     {
+      "bucket": "[0.9, 0.95)",
+      "n": 12,
+      "mean_p": 0.9188,
+      "freq_yes": 0.8333
+     },
+     {
+      "bucket": "[0.95, 0.98)",
+      "n": 4,
+      "mean_p": 0.965,
+      "freq_yes": 1.0
+     },
+     {
+      "bucket": "[0.98, 1.0)",
+      "n": 1,
+      "mean_p": 0.985,
+      "freq_yes": 1.0
+     }
+    ]
+   }
+  ],
+  "evening_unseen": [
+   {
+    "model": [
+     {
+      "bucket": "[0.0, 0.02)",
+      "n": 4863,
+      "mean_p": 0.0061,
+      "freq_yes": 0.0251
+     },
+     {
+      "bucket": "[0.02, 0.05)",
+      "n": 2780,
+      "mean_p": 0.0345,
+      "freq_yes": 0.0471
+     },
+     {
+      "bucket": "[0.05, 0.1)",
+      "n": 4543,
+      "mean_p": 0.0759,
+      "freq_yes": 0.0711
+     },
+     {
+      "bucket": "[0.1, 0.2)",
+      "n": 10615,
+      "mean_p": 0.1509,
+      "freq_yes": 0.1573
+     },
+     {
+      "bucket": "[0.2, 0.3)",
+      "n": 7863,
+      "mean_p": 0.2459,
+      "freq_yes": 0.2561
+     },
+     {
+      "bucket": "[0.3, 0.5)",
+      "n": 5060,
+      "mean_p": 0.3776,
+      "freq_yes": 0.369
+     },
+     {
+      "bucket": "[0.5, 0.7)",
+      "n": 1206,
+      "mean_p": 0.5708,
+      "freq_yes": 0.4967
+     },
+     {
+      "bucket": "[0.7, 0.8)",
+      "n": 27,
+      "mean_p": 0.744,
+      "freq_yes": 0.6296
+     },
+     {
+      "bucket": "[0.8, 0.9)",
+      "n": 18,
+      "mean_p": 0.8523,
+      "freq_yes": 0.2778
+     },
+     {
+      "bucket": "[0.9, 0.95)",
+      "n": 15,
+      "mean_p": 0.9255,
+      "freq_yes": 0.4
+     },
+     {
+      "bucket": "[0.95, 0.98)",
+      "n": 5,
+      "mean_p": 0.9602,
+      "freq_yes": 0.4
+     },
+     {
+      "bucket": "[0.98, 1.0)",
+      "n": 14,
+      "mean_p": 0.9963,
+      "freq_yes": 0.4286
+     }
+    ]
+   },
+   {
+    "market_mid": [
+     {
+      "bucket": "[0.0, 0.02)",
+      "n": 2781,
+      "mean_p": 0.015,
+      "freq_yes": 0.0054
+     },
+     {
+      "bucket": "[0.02, 0.05)",
+      "n": 7117,
+      "mean_p": 0.0324,
+      "freq_yes": 0.0178
+     },
+     {
+      "bucket": "[0.05, 0.1)",
+      "n": 5487,
+      "mean_p": 0.0703,
+      "freq_yes": 0.053
+     },
+     {
+      "bucket": "[0.1, 0.2)",
+      "n": 6307,
+      "mean_p": 0.1449,
+      "freq_yes": 0.1305
+     },
+     {
+      "bucket": "[0.2, 0.3)",
+      "n": 5524,
+      "mean_p": 0.2479,
+      "freq_yes": 0.2409
+     },
+     {
+      "bucket": "[0.3, 0.5)",
+      "n": 8086,
+      "mean_p": 0.3846,
+      "freq_yes": 0.3862
+     },
+     {
+      "bucket": "[0.5, 0.7)",
+      "n": 1567,
+      "mean_p": 0.5638,
+      "freq_yes": 0.5948
+     },
+     {
+      "bucket": "[0.7, 0.8)",
+      "n": 90,
+      "mean_p": 0.7337,
+      "freq_yes": 0.8444
+     },
+     {
+      "bucket": "[0.8, 0.9)",
+      "n": 41,
+      "mean_p": 0.8351,
+      "freq_yes": 0.878
+     },
+     {
+      "bucket": "[0.9, 0.95)",
+      "n": 6,
+      "mean_p": 0.9175,
+      "freq_yes": 1.0
+     },
+     {
+      "bucket": "[0.95, 0.98)",
+      "n": 2,
+      "mean_p": 0.9675,
+      "freq_yes": 0.5
+     },
+     {
+      "bucket": "[0.98, 1.0)",
+      "n": 1,
+      "mean_p": 0.985,
+      "freq_yes": 1.0
+     }
+    ]
+   }
+  ]
+ },
+ "nbm": {
+  "morning": {
+   "by_station": {
+    "CLIATL": {
+     "n": 250,
+     "mean_obs_minus_txn": 0.02,
+     "sd": 2.46,
+     "mean_xnd": 2.3
+    },
+    "CLIAUS": {
+     "n": 1174,
+     "mean_obs_minus_txn": 0.06,
+     "sd": 2.58,
+     "mean_xnd": 2.06
+    },
+    "CLIBOS": {
+     "n": 249,
+     "mean_obs_minus_txn": 0.01,
+     "sd": 3.6,
+     "mean_xnd": 2.38
+    },
+    "CLIDCA": {
+     "n": 264,
+     "mean_obs_minus_txn": 0.28,
+     "sd": 3.63,
+     "mean_xnd": 2.37
+    },
+    "CLIDEN": {
+     "n": 628,
+     "mean_obs_minus_txn": -0.07,
+     "sd": 3.1,
+     "mean_xnd": 2.11
+    },
+    "CLIDFW": {
+     "n": 243,
+     "mean_obs_minus_txn": -0.07,
+     "sd": 2.36,
+     "mean_xnd": 2.3
+    },
+    "CLIEWR": {
+     "n": 47,
+     "mean_obs_minus_txn": -0.02,
+     "sd": 2.13,
+     "mean_xnd": 2.06
+    },
+    "CLIHOU": {
+     "n": 243,
+     "mean_obs_minus_txn": -0.28,
+     "sd": 1.89,
+     "mean_xnd": 2.19
+    },
+    "CLILAS": {
+     "n": 271,
+     "mean_obs_minus_txn": -0.06,
+     "sd": 1.53,
+     "mean_xnd": 1.62
+    },
+    "CLILAX": {
+     "n": 582,
+     "mean_obs_minus_txn": 0.17,
+     "sd": 2.47,
+     "mean_xnd": 1.63
+    },
+    "CLIMDW": {
+     "n": 1613,
+     "mean_obs_minus_txn": 0.47,
+     "sd": 2.86,
+     "mean_xnd": 1.95
+    },
+    "CLIMIA": {
+     "n": 1170,
+     "mean_obs_minus_txn": 0.05,
+     "sd": 1.53,
+     "mean_xnd": 1.31
+    },
+    "CLIMSP": {
+     "n": 250,
+     "mean_obs_minus_txn": -0.1,
+     "sd": 2.74,
+     "mean_xnd": 2.66
+    },
+    "CLIMSY": {
+     "n": 270,
+     "mean_obs_minus_txn": -0.18,
+     "sd": 2.33,
+     "mean_xnd": 1.86
+    },
+    "CLINYC": {
+     "n": 1600,
+     "mean_obs_minus_txn": 0.27,
+     "sd": 2.59,
+     "mean_xnd": 1.82
+    },
+    "CLIOKC": {
+     "n": 243,
+     "mean_obs_minus_txn": -0.05,
+     "sd": 3.06,
+     "mean_xnd": 2.73
+    },
+    "CLIPHL": {
+     "n": 626,
+     "mean_obs_minus_txn": 0.22,
+     "sd": 2.72,
+     "mean_xnd": 1.98
+    },
+    "CLIPHX": {
+     "n": 251,
+     "mean_obs_minus_txn": -0.06,
+     "sd": 1.73,
+     "mean_xnd": 1.94
+    },
+    "CLISAN": {
+     "n": 54,
+     "mean_obs_minus_txn": 0.65,
+     "sd": 3.45,
+     "mean_xnd": 1.8
+    },
+    "CLISAT": {
+     "n": 243,
+     "mean_obs_minus_txn": -0.21,
+     "sd": 2.23,
+     "mean_xnd": 2.32
+    },
+    "CLISDF": {
+     "n": 45,
+     "mean_obs_minus_txn": 0.42,
+     "sd": 2.81,
+     "mean_xnd": 2.29
+    },
+    "CLISEA": {
+     "n": 271,
+     "mean_obs_minus_txn": -0.08,
+     "sd": 2.48,
+     "mean_xnd": 2.04
+    },
+    "CLISFO": {
+     "n": 271,
+     "mean_obs_minus_txn": -0.07,
+     "sd": 3.01,
+     "mean_xnd": 2.15
+    },
+    "CLITTN": {
+     "n": 47,
+     "mean_obs_minus_txn": 0.02,
+     "sd": 1.97,
+     "mean_xnd": 2.11
+    }
+   },
+   "by_station_year": {
+    "CLIATL|2026": {
+     "n": 250,
+     "mean_obs_minus_txn": 0.02,
+     "sd_obs_minus_txn": 2.46,
+     "mean_xnd": 2.3,
+     "mean_b_cal": 0.16,
+     "mean_k_cal": 1.22
+    },
+    "CLIAUS|2023": {
+     "n": 232,
+     "mean_obs_minus_txn": 0.16,
+     "sd_obs_minus_txn": 2.2,
+     "mean_xnd": 1.78,
+     "mean_b_cal": 0.4,
+     "mean_k_cal": 1.17
+    },
+    "CLIAUS|2024": {
+     "n": 363,
+     "mean_obs_minus_txn": 0.17,
+     "sd_obs_minus_txn": 2.57,
+     "mean_xnd": 2.05,
+     "mean_b_cal": 0.22,
+     "mean_k_cal": 1.31
+    },
+    "CLIAUS|2025": {
+     "n": 308,
+     "mean_obs_minus_txn": -0.11,
+     "sd_obs_minus_txn": 3.07,
+     "mean_xnd": 2.04,
+     "mean_b_cal": 0.22,
+     "mean_k_cal": 1.33
+    },
+    "CLIAUS|2026": {
+     "n": 271,
+     "mean_obs_minus_txn": 0.02,
+     "sd_obs_minus_txn": 2.25,
+     "mean_xnd": 2.32,
+     "mean_b_cal": 0.12,
+     "mean_k_cal": 1.1
+    },
+    "CLIBOS|2026": {
+     "n": 249,
+     "mean_obs_minus_txn": 0.01,
+     "sd_obs_minus_txn": 3.6,
+     "mean_xnd": 2.38,
+     "mean_b_cal": 0.06,
+     "mean_k_cal": 1.46
+    },
+    "CLIDCA|2026": {
+     "n": 264,
+     "mean_obs_minus_txn": 0.28,
+     "sd_obs_minus_txn": 3.63,
+     "mean_xnd": 2.37,
+     "mean_b_cal": 0.35,
+     "mean_k_cal": 1.32
+    },
+    "CLIDEN|2024": {
+     "n": 42,
+     "mean_obs_minus_txn": 1.48,
+     "sd_obs_minus_txn": 3.23,
+     "mean_xnd": 2.07,
+     "mean_b_cal": 0.68,
+     "mean_k_cal": 1.36
+    },
+    "CLIDEN|2025": {
+     "n": 312,
+     "mean_obs_minus_txn": -0.19,
+     "sd_obs_minus_txn": 3.45,
+     "mean_xnd": 2.0,
+     "mean_b_cal": 0.23,
+     "mean_k_cal": 1.47
+    },
+    "CLIDEN|2026": {
+     "n": 274,
+     "mean_obs_minus_txn": -0.17,
+     "sd_obs_minus_txn": 2.56,
+     "mean_xnd": 2.23,
+     "mean_b_cal": 0.22,
+     "mean_k_cal": 1.22
+    },
+    "CLIDFW|2026": {
+     "n": 243,
+     "mean_obs_minus_txn": -0.07,
+     "sd_obs_minus_txn": 2.36,
+     "mean_xnd": 2.3,
+     "mean_b_cal": -0.11,
+     "mean_k_cal": 1.11
+    },
+    "CLIEWR|2026": {
+     "n": 47,
+     "mean_obs_minus_txn": -0.02,
+     "sd_obs_minus_txn": 2.13,
+     "mean_xnd": 2.06,
+     "mean_b_cal": 0.05,
+     "mean_k_cal": 1.05
+    },
+    "CLIHOU|2026": {
+     "n": 243,
+     "mean_obs_minus_txn": -0.28,
+     "sd_obs_minus_txn": 1.89,
+     "mean_xnd": 2.19,
+     "mean_b_cal": -0.05,
+     "mean_k_cal": 0.98
+    },
+    "CLILAS|2026": {
+     "n": 271,
+     "mean_obs_minus_txn": -0.06,
+     "sd_obs_minus_txn": 1.53,
+     "mean_xnd": 1.62,
+     "mean_b_cal": 0.06,
+     "mean_k_cal": 1.02
+    },
+    "CLILAX|2025": {
+     "n": 308,
+     "mean_obs_minus_txn": -0.0,
+     "sd_obs_minus_txn": 2.12,
+     "mean_xnd": 1.59,
+     "mean_b_cal": 0.14,
+     "mean_k_cal": 1.27
+    },
+    "CLILAX|2026": {
+     "n": 274,
+     "mean_obs_minus_txn": 0.37,
+     "sd_obs_minus_txn": 2.8,
+     "mean_xnd": 1.67,
+     "mean_b_cal": 0.33,
+     "mean_k_cal": 1.44
+    },
+    "CLIMDW|2021": {
+     "n": 43,
+     "mean_obs_minus_txn": 2.26,
+     "sd_obs_minus_txn": 3.72,
+     "mean_xnd": 1.67,
+     "mean_b_cal": 1.01,
+     "mean_k_cal": 1.04
+    },
+    "CLIMDW|2022": {
+     "n": 260,
+     "mean_obs_minus_txn": 0.29,
+     "sd_obs_minus_txn": 3.19,
+     "mean_xnd": 1.84,
+     "mean_b_cal": 0.55,
+     "mean_k_cal": 1.59
+    },
+    "CLIMDW|2023": {
+     "n": 363,
+     "mean_obs_minus_txn": 0.69,
+     "sd_obs_minus_txn": 2.55,
+     "mean_xnd": 1.96,
+     "mean_b_cal": 0.41,
+     "mean_k_cal": 1.43
+    },
+    "CLIMDW|2024": {
+     "n": 364,
+     "mean_obs_minus_txn": 0.24,
+     "sd_obs_minus_txn": 2.62,
+     "mean_xnd": 1.82,
+     "mean_b_cal": 0.21,
+     "mean_k_cal": 1.47
+    },
+    "CLIMDW|2025": {
+     "n": 311,
+     "mean_obs_minus_txn": 0.38,
+     "sd_obs_minus_txn": 2.75,
+     "mean_xnd": 1.88,
+     "mean_b_cal": 0.41,
+     "mean_k_cal": 1.44
+    },
+    "CLIMDW|2026": {
+     "n": 272,
+     "mean_obs_minus_txn": 0.49,
+     "sd_obs_minus_txn": 3.09,
+     "mean_xnd": 2.34,
+     "mean_b_cal": 0.27,
+     "mean_k_cal": 1.32
+    },
+    "CLIMIA|2023": {
+     "n": 234,
+     "mean_obs_minus_txn": -0.04,
+     "sd_obs_minus_txn": 1.48,
+     "mean_xnd": 1.25,
+     "mean_b_cal": 0.21,
+     "mean_k_cal": 1.17
+    },
+    "CLIMIA|2024": {
+     "n": 363,
+     "mean_obs_minus_txn": 0.02,
+     "sd_obs_minus_txn": 1.44,
+     "mean_xnd": 1.26,
+     "mean_b_cal": 0.01,
+     "mean_k_cal": 1.18
+    },
+    "CLIMIA|2025": {
+     "n": 303,
+     "mean_obs_minus_txn": 0.12,
+     "sd_obs_minus_txn": 1.6,
+     "mean_xnd": 1.25,
+     "mean_b_cal": 0.19,
+     "mean_k_cal": 1.15
+    },
+    "CLIMIA|2026": {
+     "n": 270,
+     "mean_obs_minus_txn": 0.1,
+     "sd_obs_minus_txn": 1.6,
+     "mean_xnd": 1.5,
+     "mean_b_cal": 0.1,
+     "mean_k_cal": 1.08
+    },
+    "CLIMSP|2026": {
+     "n": 250,
+     "mean_obs_minus_txn": -0.1,
+     "sd_obs_minus_txn": 2.74,
+     "mean_xnd": 2.66,
+     "mean_b_cal": 0.02,
+     "mean_k_cal": 1.18
+    },
+    "CLIMSY|2026": {
+     "n": 270,
+     "mean_obs_minus_txn": -0.18,
+     "sd_obs_minus_txn": 2.33,
+     "mean_xnd": 1.86,
+     "mean_b_cal": -0.1,
+     "mean_k_cal": 1.19
+    },
+    "CLINYC|2021": {
+     "n": 34,
+     "mean_obs_minus_txn": 1.03,
+     "sd_obs_minus_txn": 1.85,
+     "mean_xnd": 1.79,
+     "mean_b_cal": 0.75,
+     "mean_k_cal": 0.99
+    },
+    "CLINYC|2022": {
+     "n": 260,
+     "mean_obs_minus_txn": 0.4,
+     "sd_obs_minus_txn": 2.55,
+     "mean_xnd": 1.71,
+     "mean_b_cal": 0.43,
+     "mean_k_cal": 1.51
+    },
+    "CLINYC|2023": {
+     "n": 363,
+     "mean_obs_minus_txn": 0.44,
+     "sd_obs_minus_txn": 2.5,
+     "mean_xnd": 1.73,
+     "mean_b_cal": 0.41,
+     "mean_k_cal": 1.4
+    },
+    "CLINYC|2024": {
+     "n": 364,
+     "mean_obs_minus_txn": 0.35,
+     "sd_obs_minus_txn": 2.42,
+     "mean_xnd": 1.73,
+     "mean_b_cal": 0.24,
+     "mean_k_cal": 1.43
+    },
+    "CLINYC|2025": {
+     "n": 308,
+     "mean_obs_minus_txn": 0.28,
+     "sd_obs_minus_txn": 2.54,
+     "mean_xnd": 1.75,
+     "mean_b_cal": 0.26,
+     "mean_k_cal": 1.43
+    },
+    "CLINYC|2026": {
+     "n": 271,
+     "mean_obs_minus_txn": -0.27,
+     "sd_obs_minus_txn": 3.03,
+     "mean_xnd": 2.27,
+     "mean_b_cal": -0.14,
+     "mean_k_cal": 1.23
+    },
+    "CLIOKC|2026": {
+     "n": 243,
+     "mean_obs_minus_txn": -0.05,
+     "sd_obs_minus_txn": 3.06,
+     "mean_xnd": 2.73,
+     "mean_b_cal": -0.04,
+     "mean_k_cal": 1.21
+    },
+    "CLIPHL|2024": {
+     "n": 42,
+     "mean_obs_minus_txn": 1.05,
+     "sd_obs_minus_txn": 1.82,
+     "mean_xnd": 1.48,
+     "mean_b_cal": 0.46,
+     "mean_k_cal": 1.26
+    },
+    "CLIPHL|2025": {
+     "n": 312,
+     "mean_obs_minus_txn": 0.12,
+     "sd_obs_minus_txn": 2.63,
+     "mean_xnd": 1.76,
+     "mean_b_cal": 0.31,
+     "mean_k_cal": 1.41
+    },
+    "CLIPHL|2026": {
+     "n": 272,
+     "mean_obs_minus_txn": 0.22,
+     "sd_obs_minus_txn": 2.92,
+     "mean_xnd": 2.3,
+     "mean_b_cal": 0.2,
+     "mean_k_cal": 1.21
+    },
+    "CLIPHX|2026": {
+     "n": 251,
+     "mean_obs_minus_txn": -0.06,
+     "sd_obs_minus_txn": 1.73,
+     "mean_xnd": 1.94,
+     "mean_b_cal": 0.03,
+     "mean_k_cal": 1.0
+    },
+    "CLISAN|2026": {
+     "n": 54,
+     "mean_obs_minus_txn": 0.65,
+     "sd_obs_minus_txn": 3.45,
+     "mean_xnd": 1.8,
+     "mean_b_cal": 0.12,
+     "mean_k_cal": 1.26
+    },
+    "CLISAT|2026": {
+     "n": 243,
+     "mean_obs_minus_txn": -0.21,
+     "sd_obs_minus_txn": 2.23,
+     "mean_xnd": 2.32,
+     "mean_b_cal": -0.0,
+     "mean_k_cal": 1.09
+    },
+    "CLISDF|2026": {
+     "n": 45,
+     "mean_obs_minus_txn": 0.42,
+     "sd_obs_minus_txn": 2.81,
+     "mean_xnd": 2.29,
+     "mean_b_cal": 0.13,
+     "mean_k_cal": 1.0
+    },
+    "CLISEA|2026": {
+     "n": 271,
+     "mean_obs_minus_txn": -0.08,
+     "sd_obs_minus_txn": 2.48,
+     "mean_xnd": 2.04,
+     "mean_b_cal": 0.19,
+     "mean_k_cal": 1.23
+    },
+    "CLISFO|2026": {
+     "n": 271,
+     "mean_obs_minus_txn": -0.07,
+     "sd_obs_minus_txn": 3.01,
+     "mean_xnd": 2.15,
+     "mean_b_cal": 0.19,
+     "mean_k_cal": 1.42
+    },
+    "CLITTN|2026": {
+     "n": 47,
+     "mean_obs_minus_txn": 0.02,
+     "sd_obs_minus_txn": 1.97,
+     "mean_xnd": 2.11,
+     "mean_b_cal": 0.1,
+     "mean_k_cal": 0.95
+    }
+   },
+   "pooled": {
+    "n": 10905,
+    "mean_err": 0.126,
+    "sd_err": 2.591
+   },
+   "staleness_quote_age_hours_median": 0.0
+  },
+  "evening": {
+   "by_station": {
+    "CLIATL": {
+     "n": 251,
+     "mean_obs_minus_txn": -0.01,
+     "sd": 2.53,
+     "mean_xnd": 2.46
+    },
+    "CLIAUS": {
+     "n": 1175,
+     "mean_obs_minus_txn": 0.12,
+     "sd": 2.61,
+     "mean_xnd": 2.18
+    },
+    "CLIBOS": {
+     "n": 250,
+     "mean_obs_minus_txn": 0.24,
+     "sd": 3.78,
+     "mean_xnd": 2.58
+    },
+    "CLIDCA": {
+     "n": 266,
+     "mean_obs_minus_txn": 0.29,
+     "sd": 3.68,
+     "mean_xnd": 2.6
+    },
+    "CLIDEN": {
+     "n": 629,
+     "mean_obs_minus_txn": -0.02,
+     "sd": 3.09,
+     "mean_xnd": 2.22
+    },
+    "CLIDFW": {
+     "n": 244,
+     "mean_obs_minus_txn": -0.05,
+     "sd": 2.47,
+     "mean_xnd": 2.46
+    },
+    "CLIEWR": {
+     "n": 48,
+     "mean_obs_minus_txn": -0.33,
+     "sd": 2.35,
+     "mean_xnd": 2.27
+    },
+    "CLIHOU": {
+     "n": 244,
+     "mean_obs_minus_txn": -0.18,
+     "sd": 2.02,
+     "mean_xnd": 2.35
+    },
+    "CLILAS": {
+     "n": 272,
+     "mean_obs_minus_txn": -0.06,
+     "sd": 1.62,
+     "mean_xnd": 1.73
+    },
+    "CLILAX": {
+     "n": 583,
+     "mean_obs_minus_txn": 0.21,
+     "sd": 2.48,
+     "mean_xnd": 1.69
+    },
+    "CLIMDW": {
+     "n": 1615,
+     "mean_obs_minus_txn": 0.51,
+     "sd": 2.94,
+     "mean_xnd": 2.05
+    },
+    "CLIMIA": {
+     "n": 1171,
+     "mean_obs_minus_txn": 0.05,
+     "sd": 1.55,
+     "mean_xnd": 1.36
+    },
+    "CLIMSP": {
+     "n": 251,
+     "mean_obs_minus_txn": -0.04,
+     "sd": 2.89,
+     "mean_xnd": 2.94
+    },
+    "CLIMSY": {
+     "n": 272,
+     "mean_obs_minus_txn": -0.21,
+     "sd": 2.45,
+     "mean_xnd": 1.93
+    },
+    "CLINYC": {
+     "n": 1602,
+     "mean_obs_minus_txn": 0.28,
+     "sd": 2.62,
+     "mean_xnd": 1.88
+    },
+    "CLIOKC": {
+     "n": 244,
+     "mean_obs_minus_txn": 0.04,
+     "sd": 3.12,
+     "mean_xnd": 2.9
+    },
+    "CLIPHL": {
+     "n": 628,
+     "mean_obs_minus_txn": 0.25,
+     "sd": 2.78,
+     "mean_xnd": 2.06
+    },
+    "CLIPHX": {
+     "n": 251,
+     "mean_obs_minus_txn": 0.01,
+     "sd": 1.88,
+     "mean_xnd": 2.05
+    },
+    "CLISAN": {
+     "n": 54,
+     "mean_obs_minus_txn": 0.69,
+     "sd": 3.5,
+     "mean_xnd": 1.98
+    },
+    "CLISAT": {
+     "n": 244,
+     "mean_obs_minus_txn": -0.2,
+     "sd": 2.27,
+     "mean_xnd": 2.46
+    },
+    "CLISDF": {
+     "n": 46,
+     "mean_obs_minus_txn": 0.2,
+     "sd": 3.0,
+     "mean_xnd": 2.54
+    },
+    "CLISEA": {
+     "n": 272,
+     "mean_obs_minus_txn": -0.08,
+     "sd": 2.64,
+     "mean_xnd": 2.28
+    },
+    "CLISFO": {
+     "n": 272,
+     "mean_obs_minus_txn": -0.0,
+     "sd": 3.13,
+     "mean_xnd": 2.18
+    },
+    "CLITTN": {
+     "n": 48,
+     "mean_obs_minus_txn": -0.27,
+     "sd": 2.19,
+     "mean_xnd": 2.35
+    }
+   },
+   "by_station_year": {
+    "CLIATL|2026": {
+     "n": 251,
+     "mean_obs_minus_txn": -0.01,
+     "sd_obs_minus_txn": 2.53,
+     "mean_xnd": 2.46,
+     "mean_b_cal": 0.13,
+     "mean_k_cal": 1.13
+    },
+    "CLIAUS|2023": {
+     "n": 231,
+     "mean_obs_minus_txn": 0.22,
+     "sd_obs_minus_txn": 2.15,
+     "mean_xnd": 1.84,
+     "mean_b_cal": 0.34,
+     "mean_k_cal": 1.13
+    },
+    "CLIAUS|2024": {
+     "n": 363,
+     "mean_obs_minus_txn": 0.2,
+     "sd_obs_minus_txn": 2.57,
+     "mean_xnd": 2.15,
+     "mean_b_cal": 0.19,
+     "mean_k_cal": 1.23
+    },
+    "CLIAUS|2025": {
+     "n": 308,
+     "mean_obs_minus_txn": -0.02,
+     "sd_obs_minus_txn": 3.08,
+     "mean_xnd": 2.13,
+     "mean_b_cal": 0.15,
+     "mean_k_cal": 1.42
+    },
+    "CLIAUS|2026": {
+     "n": 273,
+     "mean_obs_minus_txn": 0.07,
+     "sd_obs_minus_txn": 2.43,
+     "mean_xnd": 2.55,
+     "mean_b_cal": 0.22,
+     "mean_k_cal": 1.02
+    },
+    "CLIBOS|2026": {
+     "n": 250,
+     "mean_obs_minus_txn": 0.24,
+     "sd_obs_minus_txn": 3.78,
+     "mean_xnd": 2.58,
+     "mean_b_cal": -0.09,
+     "mean_k_cal": 1.39
+    },
+    "CLIDCA|2026": {
+     "n": 266,
+     "mean_obs_minus_txn": 0.29,
+     "sd_obs_minus_txn": 3.68,
+     "mean_xnd": 2.6,
+     "mean_b_cal": 0.32,
+     "mean_k_cal": 1.26
+    },
+    "CLIDEN|2024": {
+     "n": 42,
+     "mean_obs_minus_txn": 1.26,
+     "sd_obs_minus_txn": 3.25,
+     "mean_xnd": 2.17,
+     "mean_b_cal": 0.73,
+     "mean_k_cal": 1.34
+    },
+    "CLIDEN|2025": {
+     "n": 312,
+     "mean_obs_minus_txn": -0.13,
+     "sd_obs_minus_txn": 3.36,
+     "mean_xnd": 2.03,
+     "mean_b_cal": 0.24,
+     "mean_k_cal": 1.44
+    },
+    "CLIDEN|2026": {
+     "n": 275,
+     "mean_obs_minus_txn": -0.08,
+     "sd_obs_minus_txn": 2.69,
+     "mean_xnd": 2.44,
+     "mean_b_cal": 0.23,
+     "mean_k_cal": 1.26
+    },
+    "CLIDFW|2026": {
+     "n": 244,
+     "mean_obs_minus_txn": -0.05,
+     "sd_obs_minus_txn": 2.47,
+     "mean_xnd": 2.46,
+     "mean_b_cal": -0.1,
+     "mean_k_cal": 1.06
+    },
+    "CLIEWR|2026": {
+     "n": 48,
+     "mean_obs_minus_txn": -0.33,
+     "sd_obs_minus_txn": 2.35,
+     "mean_xnd": 2.27,
+     "mean_b_cal": -0.21,
+     "mean_k_cal": 1.0
+    },
+    "CLIHOU|2026": {
+     "n": 244,
+     "mean_obs_minus_txn": -0.18,
+     "sd_obs_minus_txn": 2.02,
+     "mean_xnd": 2.35,
+     "mean_b_cal": -0.02,
+     "mean_k_cal": 0.94
+    },
+    "CLILAS|2026": {
+     "n": 272,
+     "mean_obs_minus_txn": -0.06,
+     "sd_obs_minus_txn": 1.62,
+     "mean_xnd": 1.73,
+     "mean_b_cal": 0.02,
+     "mean_k_cal": 1.01
+    },
+    "CLILAX|2025": {
+     "n": 308,
+     "mean_obs_minus_txn": 0.03,
+     "sd_obs_minus_txn": 2.11,
+     "mean_xnd": 1.67,
+     "mean_b_cal": 0.1,
+     "mean_k_cal": 1.23
+    },
+    "CLILAX|2026": {
+     "n": 275,
+     "mean_obs_minus_txn": 0.42,
+     "sd_obs_minus_txn": 2.83,
+     "mean_xnd": 1.72,
+     "mean_b_cal": 0.34,
+     "mean_k_cal": 1.4
+    },
+    "CLIMDW|2021": {
+     "n": 43,
+     "mean_obs_minus_txn": 2.21,
+     "sd_obs_minus_txn": 3.59,
+     "mean_xnd": 1.84,
+     "mean_b_cal": 1.15,
+     "mean_k_cal": 0.88
+    },
+    "CLIMDW|2022": {
+     "n": 260,
+     "mean_obs_minus_txn": 0.3,
+     "sd_obs_minus_txn": 3.42,
+     "mean_xnd": 2.03,
+     "mean_b_cal": 0.62,
+     "mean_k_cal": 1.53
+    },
+    "CLIMDW|2023": {
+     "n": 363,
+     "mean_obs_minus_txn": 0.75,
+     "sd_obs_minus_txn": 2.58,
+     "mean_xnd": 1.97,
+     "mean_b_cal": 0.32,
+     "mean_k_cal": 1.43
+    },
+    "CLIMDW|2024": {
+     "n": 364,
+     "mean_obs_minus_txn": 0.32,
+     "sd_obs_minus_txn": 2.67,
+     "mean_xnd": 1.94,
+     "mean_b_cal": 0.32,
+     "mean_k_cal": 1.38
+    },
+    "CLIMDW|2025": {
+     "n": 311,
+     "mean_obs_minus_txn": 0.43,
+     "sd_obs_minus_txn": 2.78,
+     "mean_xnd": 1.95,
+     "mean_b_cal": 0.37,
+     "mean_k_cal": 1.43
+    },
+    "CLIMDW|2026": {
+     "n": 274,
+     "mean_obs_minus_txn": 0.5,
+     "sd_obs_minus_txn": 3.2,
+     "mean_xnd": 2.49,
+     "mean_b_cal": 0.23,
+     "mean_k_cal": 1.22
+    },
+    "CLIMIA|2023": {
+     "n": 233,
+     "mean_obs_minus_txn": -0.06,
+     "sd_obs_minus_txn": 1.53,
+     "mean_xnd": 1.29,
+     "mean_b_cal": 0.19,
+     "mean_k_cal": 1.1
+    },
+    "CLIMIA|2024": {
+     "n": 363,
+     "mean_obs_minus_txn": 0.02,
+     "sd_obs_minus_txn": 1.49,
+     "mean_xnd": 1.33,
+     "mean_b_cal": -0.02,
+     "mean_k_cal": 1.16
+    },
+    "CLIMIA|2025": {
+     "n": 303,
+     "mean_obs_minus_txn": 0.13,
+     "sd_obs_minus_txn": 1.57,
+     "mean_xnd": 1.25,
+     "mean_b_cal": 0.21,
+     "mean_k_cal": 1.16
+    },
+    "CLIMIA|2026": {
+     "n": 272,
+     "mean_obs_minus_txn": 0.1,
+     "sd_obs_minus_txn": 1.61,
+     "mean_xnd": 1.57,
+     "mean_b_cal": 0.08,
+     "mean_k_cal": 1.05
+    },
+    "CLIMSP|2026": {
+     "n": 251,
+     "mean_obs_minus_txn": -0.04,
+     "sd_obs_minus_txn": 2.89,
+     "mean_xnd": 2.94,
+     "mean_b_cal": -0.04,
+     "mean_k_cal": 1.11
+    },
+    "CLIMSY|2026": {
+     "n": 272,
+     "mean_obs_minus_txn": -0.21,
+     "sd_obs_minus_txn": 2.45,
+     "mean_xnd": 1.93,
+     "mean_b_cal": -0.14,
+     "mean_k_cal": 1.22
+    },
+    "CLINYC|2021": {
+     "n": 34,
+     "mean_obs_minus_txn": 1.12,
+     "sd_obs_minus_txn": 1.92,
+     "mean_xnd": 1.91,
+     "mean_b_cal": 0.9,
+     "mean_k_cal": 0.81
+    },
+    "CLINYC|2022": {
+     "n": 260,
+     "mean_obs_minus_txn": 0.39,
+     "sd_obs_minus_txn": 2.68,
+     "mean_xnd": 1.87,
+     "mean_b_cal": 0.46,
+     "mean_k_cal": 1.47
+    },
+    "CLINYC|2023": {
+     "n": 363,
+     "mean_obs_minus_txn": 0.46,
+     "sd_obs_minus_txn": 2.47,
+     "mean_xnd": 1.76,
+     "mean_b_cal": 0.26,
+     "mean_k_cal": 1.46
+    },
+    "CLINYC|2024": {
+     "n": 364,
+     "mean_obs_minus_txn": 0.35,
+     "sd_obs_minus_txn": 2.41,
+     "mean_xnd": 1.74,
+     "mean_b_cal": 0.21,
+     "mean_k_cal": 1.44
+    },
+    "CLINYC|2025": {
+     "n": 308,
+     "mean_obs_minus_txn": 0.26,
+     "sd_obs_minus_txn": 2.49,
+     "mean_xnd": 1.73,
+     "mean_b_cal": 0.25,
+     "mean_k_cal": 1.44
+    },
+    "CLINYC|2026": {
+     "n": 273,
+     "mean_obs_minus_txn": -0.26,
+     "sd_obs_minus_txn": 3.11,
+     "mean_xnd": 2.41,
+     "mean_b_cal": -0.22,
+     "mean_k_cal": 1.2
+    },
+    "CLIOKC|2026": {
+     "n": 244,
+     "mean_obs_minus_txn": 0.04,
+     "sd_obs_minus_txn": 3.12,
+     "mean_xnd": 2.9,
+     "mean_b_cal": 0.1,
+     "mean_k_cal": 1.13
+    },
+    "CLIPHL|2024": {
+     "n": 42,
+     "mean_obs_minus_txn": 0.88,
+     "sd_obs_minus_txn": 1.93,
+     "mean_xnd": 1.62,
+     "mean_b_cal": 0.45,
+     "mean_k_cal": 1.24
+    },
+    "CLIPHL|2025": {
+     "n": 312,
+     "mean_obs_minus_txn": 0.16,
+     "sd_obs_minus_txn": 2.59,
+     "mean_xnd": 1.76,
+     "mean_b_cal": 0.3,
+     "mean_k_cal": 1.48
+    },
+    "CLIPHL|2026": {
+     "n": 274,
+     "mean_obs_minus_txn": 0.25,
+     "sd_obs_minus_txn": 3.09,
+     "mean_xnd": 2.47,
+     "mean_b_cal": 0.16,
+     "mean_k_cal": 1.21
+    },
+    "CLIPHX|2026": {
+     "n": 251,
+     "mean_obs_minus_txn": 0.01,
+     "sd_obs_minus_txn": 1.88,
+     "mean_xnd": 2.05,
+     "mean_b_cal": 0.07,
+     "mean_k_cal": 1.02
+    },
+    "CLISAN|2026": {
+     "n": 54,
+     "mean_obs_minus_txn": 0.69,
+     "sd_obs_minus_txn": 3.5,
+     "mean_xnd": 1.98,
+     "mean_b_cal": 0.09,
+     "mean_k_cal": 1.12
+    },
+    "CLISAT|2026": {
+     "n": 244,
+     "mean_obs_minus_txn": -0.2,
+     "sd_obs_minus_txn": 2.27,
+     "mean_xnd": 2.46,
+     "mean_b_cal": 0.02,
+     "mean_k_cal": 0.99
+    },
+    "CLISDF|2026": {
+     "n": 46,
+     "mean_obs_minus_txn": 0.2,
+     "sd_obs_minus_txn": 3.0,
+     "mean_xnd": 2.54,
+     "mean_b_cal": 0.16,
+     "mean_k_cal": 0.95
+    },
+    "CLISEA|2026": {
+     "n": 272,
+     "mean_obs_minus_txn": -0.08,
+     "sd_obs_minus_txn": 2.64,
+     "mean_xnd": 2.28,
+     "mean_b_cal": 0.18,
+     "mean_k_cal": 1.16
+    },
+    "CLISFO|2026": {
+     "n": 272,
+     "mean_obs_minus_txn": -0.0,
+     "sd_obs_minus_txn": 3.13,
+     "mean_xnd": 2.18,
+     "mean_b_cal": 0.23,
+     "mean_k_cal": 1.41
+    },
+    "CLITTN|2026": {
+     "n": 48,
+     "mean_obs_minus_txn": -0.27,
+     "sd_obs_minus_txn": 2.19,
+     "mean_xnd": 2.35,
+     "mean_b_cal": -0.08,
+     "mean_k_cal": 0.94
+    }
+   },
+   "pooled": {
+    "n": 10932,
+    "mean_err": 0.155,
+    "sd_err": 2.651
+   },
+   "staleness_quote_age_hours_median": 0.03333333333333333
+  }
+ }
+}

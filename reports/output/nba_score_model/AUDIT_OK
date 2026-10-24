@@ -1,0 +1,31 @@
+{
+ "sha256": {
+  "sm_lib.py": "098734dcaf7bb72dcad3fa62f06774f56a6ed45fcbe769744d608c21c5576420",
+  "features.py": "751d38dd2686ec1cdd1acd7dacf3a7c7ef846b12c605c106bc4798d6bc2d5306",
+  "compare.py": "f1ed22694660768864f2f68686fc7f06dbb8adacb9e0d80ea95aa847746337c4",
+  "models.py": "fa36b2ffcf8dce7ec36df4821742d1a41e9d473041073c0081acba1d5f020262",
+  "run_select.py": "bbf7af4124b986e6e748be88407df7cd6f238d122e8997cf137e0d03b3b924b4",
+  "run_test.py": "609b557b63556065b81093f9a63e25ffd48702337f97cdf5f39a4e16e43d37a3",
+  "../PREREGISTRATION.md": "0f0bfb0840ad4ce374f49d42eb2f7be4854c3209f0ec657dc0a0078f2c29e300",
+  "../FEATURES.md": "84593a70c3761277c982a677c931631cd65089b3071f3f6afe90e6f7d8495fa7",
+  "../../nba_line_error/impl_a/lea_lib.py": "715eb25f8e2ba500ed187f38becae9903213e2ed7e5fe89aa57c709ad0ead98a",
+  "../../nba_line_error/impl_a/fa_ext.py": "c631ddcf414b94132265a03eff372061fb15bd56e0e837dde62a239ea941ba6f",
+  "../../nba_formula_accuracy/fa_lib.py": "e43eedab00ff8a7e4a85579c6a7b02cffe612d88a7fd6cd5596a0e719641360b",
+  "../../nba_totals_grid/grid_lib.py": "7871610b3e3055d87639dbd389ba9a15417c0904e74bc9da78d290dec37065e1",
+  "../../nba_totals_pace/lib.py": "e5c2a94321b5413959e2ba6b2106823ee1d0883801581efdbd8797e022c6ff57",
+  "../../nba_totals_v2/ratings2.py": "a0f4d7e68d1f4fb8d0533687d030502c27606be708eb2f87ecbb7b8c6f09688d",
+  "../../nba_totals_tourney/tourney.py": "9de67467f0d77fe65626782de128467394f41ac46729e9ac7009ceb852f155e7",
+  "../frozen.json": "d9866fc50baf038fb8a6869502bfe4da710b4190ab40075251241ad25e60e8a8",
+  "../team_games_features.parquet": "12cdc93403b2602afe64483fc2ca4b78046ce25b5487ce495d3cf6f37f8b2dc4",
+  "../../../../data/raw/nba_open/team_box_2022.parquet": "f8185936836a81240d6f170ec7afeab47e3e736a718fe2c9f72999e681434b7f",
+  "../../../../data/raw/nba_open/team_box_2023.parquet": "b86bb087fe57eeeacead4e27965a20d1e67fdb39a3ee2ca36294a0b7d014e9b6",
+  "../../../../data/raw/nba_open/team_box_2024.parquet": "5e4d1b7a2ccc287f212f65888dcd674e370adec8a0e32d7ae0825eecacaaa8a9",
+  "../../../../data/raw/nba_open/team_box_2025.parquet": "f735bf3b743618e50987f3e3e296734e1dba43c450a21af848d7c34f23bf2aee",
+  "../../../../data/raw/nba_open/team_box_2026.parquet": "db846dfb39b0f75eee50ad91b1b5b7a7a62dd31d3ec0bb066a0a3bb08e366f7e",
+  "../../../../data/raw/nba_open/play_by_play_2025.parquet": "71d7d02671268f793f13a13d1a8a271cba1241cd9ba28c3a363a3f16ad56acc7",
+  "../../../../data/raw/nba_open/play_by_play_2026.parquet": "f7051c5c0c5b605419fcc0e0c13dd90df7803f96dab290554c1ef737433a98b2",
+  "../../../../data/raw/nba_open/player_box_2023.parquet": "968d835cd04b10533c5b5af8c0e41bf0154a73782e9446c76f765109223e8679",
+  "../../../../data/raw/nba_open/player_box_2024.parquet": "1e500a538ec45ddbcb58d9789b5494f8db4f25658eafd01d90f2d09600921665",
+  "../../../../data/raw/nba_odds_samples/closing_lines_odds_api.parquet": "b58911bf54af2cff9f33b214787cf90a8e8545ebe4b807e11569e178f542ede7"
+ }
+}

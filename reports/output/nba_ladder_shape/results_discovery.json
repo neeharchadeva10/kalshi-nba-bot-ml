@@ -1,0 +1,255 @@
+{
+ "split": "discovery",
+ "dates": [
+  "2025-10-21",
+  "2026-01-22"
+ ],
+ "events_in_window": 664,
+ "games_processed": 664,
+ "quote_check_excluded_games": [],
+ "game_level_skips": {
+  "no_fit": 26,
+  "no_M_crossing": 3
+ },
+ "candidate_outcomes_per_game_band_tail": {
+  "bet_possible": 2256,
+  "spread_gt_0.10": 74,
+  "no_strike_in_band": 310,
+  "no_M_crossing": 12,
+  "no_result": 4
+ },
+ "part_A": {
+  "summary": {
+   "n_fits": 638,
+   "sigma": {
+    "median": 18.58334683551343,
+    "mean": 18.739083294156917,
+    "p10": 17.57835402215723,
+    "p25": 18.031265695668715,
+    "p75": 19.273702750921384,
+    "p90": 20.114219485561595
+   },
+   "n_z": 636,
+   "z": {
+    "sd": 0.9853573893650281,
+    "mean": -0.02233114823972391,
+    "approx_se_sd": 0.027649795100780913,
+    "reading": "SD>1: market too narrow; SD<1: too wide"
+   }
+  },
+  "calibration": [
+   {
+    "bucket": "-15..-12",
+    "n_strikes": 508,
+    "n_games": 508,
+    "mean_mid": 0.7678641732283465,
+    "yes_rate": 0.7618110236220472,
+    "yes_minus_mid": -0.006053149606299324
+   },
+   {
+    "bucket": "-12..-9",
+    "n_strikes": 575,
+    "n_games": 575,
+    "mean_mid": 0.7163739130434782,
+    "yes_rate": 0.7008695652173913,
+    "yes_minus_mid": -0.015504347826086895
+   },
+   {
+    "bucket": "-9..-6",
+    "n_strikes": 588,
+    "n_games": 588,
+    "mean_mid": 0.6612755102040816,
+    "yes_rate": 0.6530612244897959,
+    "yes_minus_mid": -0.00821428571428573
+   },
+   {
+    "bucket": "-6..-3",
+    "n_strikes": 618,
+    "n_games": 618,
+    "mean_mid": 0.6014724919093851,
+    "yes_rate": 0.5825242718446602,
+    "yes_minus_mid": -0.018948220064724963
+   },
+   {
+    "bucket": "-3..0",
+    "n_strikes": 658,
+    "n_games": 658,
+    "mean_mid": 0.5368693009118541,
+    "yes_rate": 0.5151975683890577,
+    "yes_minus_mid": -0.021671732522796416
+   },
+   {
+    "bucket": "0..3",
+    "n_strikes": 660,
+    "n_games": 660,
+    "mean_mid": 0.46475757575757576,
+    "yes_rate": 0.453030303030303,
+    "yes_minus_mid": -0.011727272727272753
+   },
+   {
+    "bucket": "3..6",
+    "n_strikes": 611,
+    "n_games": 611,
+    "mean_mid": 0.403518821603928,
+    "yes_rate": 0.3780687397708674,
+    "yes_minus_mid": -0.025450081833060578
+   },
+   {
+    "bucket": "6..9",
+    "n_strikes": 587,
+    "n_games": 587,
+    "mean_mid": 0.34602214650766605,
+    "yes_rate": 0.31686541737649065,
+    "yes_minus_mid": -0.029156729131175396
+   },
+   {
+    "bucket": "9..12",
+    "n_strikes": 565,
+    "n_games": 565,
+    "mean_mid": 0.29273451327433625,
+    "yes_rate": 0.26194690265486725,
+    "yes_minus_mid": -0.030787610619468997
+   },
+   {
+    "bucket": "12..15",
+    "n_strikes": 498,
+    "n_games": 498,
+    "mean_mid": 0.24124497991967872,
+    "yes_rate": 0.22088353413654618,
+    "yes_minus_mid": -0.020361445783132537
+   }
+  ],
+  "n_games_with_final": 636
+ },
+ "versions": [
+  {
+   "band": "6-10",
+   "tail": "high",
+   "dir": "buy",
+   "n_cell_candidates": 574,
+   "n_entry_skipped": 0,
+   "avg_paid": 0.36327526132404175,
+   "n": 574,
+   "mean": -0.06938484320557492,
+   "sd": 0.46118676152073396,
+   "lb": -0.10711398767498682,
+   "win": 0.31010452961672474
+  },
+  {
+   "band": "6-10",
+   "tail": "high",
+   "dir": "sell",
+   "n_cell_candidates": 574,
+   "n_entry_skipped": 0,
+   "avg_paid": 0.6904006968641114,
+   "n": 574,
+   "mean": -0.015481533101045287,
+   "sd": 0.4625601509382752,
+   "lb": -0.05332303293724247,
+   "win": 0.6898954703832753
+  },
+  {
+   "band": "6-10",
+   "tail": "low",
+   "dir": "buy",
+   "n_cell_candidates": 579,
+   "n_entry_skipped": 0,
+   "avg_paid": 0.3571157167530224,
+   "n": 579,
+   "mean": -0.03814525043177894,
+   "sd": 0.472064431622247,
+   "lb": -0.0765971738430017,
+   "win": 0.33506044905008636
+  },
+  {
+   "band": "6-10",
+   "tail": "low",
+   "dir": "sell",
+   "n_cell_candidates": 579,
+   "n_entry_skipped": 0,
+   "avg_paid": 0.6985492227979274,
+   "n": 579,
+   "mean": -0.048355267702936085,
+   "sd": 0.4703230731465,
+   "lb": -0.08666534907257396,
+   "win": 0.6649395509499136
+  },
+  {
+   "band": "10-16",
+   "tail": "high",
+   "dir": "buy",
+   "n_cell_candidates": 550,
+   "n_entry_skipped": 0,
+   "avg_paid": 0.28440000000000004,
+   "n": 550,
+   "mean": -0.07318709090909091,
+   "sd": 0.4165394082785937,
+   "lb": -0.1079992390013435,
+   "win": 0.22545454545454546
+  },
+  {
+   "band": "10-16",
+   "tail": "high",
+   "dir": "sell",
+   "n_cell_candidates": 550,
+   "n_entry_skipped": 0,
+   "avg_paid": 0.7801636363636364,
+   "n": 550,
+   "mean": -0.017621636363636378,
+   "sd": 0.41747347695062564,
+   "lb": -0.05251184894700997,
+   "win": 0.7745454545454545
+  },
+  {
+   "band": "10-16",
+   "tail": "low",
+   "dir": "buy",
+   "n_cell_candidates": 553,
+   "n_entry_skipped": 0,
+   "avg_paid": 0.27450271247739605,
+   "n": 553,
+   "mean": -0.028043037974683546,
+   "sd": 0.43995880339851756,
+   "lb": -0.06471258269332014,
+   "win": 0.2603978300180832
+  },
+  {
+   "band": "10-16",
+   "tail": "low",
+   "dir": "sell",
+   "n_cell_candidates": 553,
+   "n_entry_skipped": 0,
+   "avg_paid": 0.7897287522603978,
+   "n": 553,
+   "mean": -0.061752983725135636,
+   "sd": 0.43911941386517106,
+   "lb": -0.09835256727515454,
+   "win": 0.7396021699819169
+  }
+ ],
+ "selected": {
+  "band": "10-16",
+  "tail": "high",
+  "dir": "sell",
+  "n_cell_candidates": 550,
+  "n_entry_skipped": 0,
+  "avg_paid": 0.7801636363636364,
+  "n": 550,
+  "mean": -0.017621636363636378,
+  "sd": 0.41747347695062564,
+  "lb": -0.05251184894700997,
+  "win": 0.7745454545454545
+ },
+ "luck_test": {
+  "real_best_lb": -0.05251184894700997,
+  "reps": 500,
+  "seed": 20261023,
+  "share_reps_ge_real": 0.436,
+  "rep_best_lb_mean": -0.05298315623179697,
+  "rep_best_lb_p95": -0.033870899947171636,
+  "n_reps_no_eligible": 0,
+  "verdict": "FAIL"
+ },
+ "n_eligible_n_ge_60": 8,
+ "pass_bar_note": "Pass bar items 1-3 apply to UNSEEN only; the discovery luck test must be PASS to proceed."
+}

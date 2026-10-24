@@ -1,0 +1,13 @@
+split=discovery weeks=[(2025, 5), (2025, 6), (2025, 7), (2025, 8), (2025, 9), (2025, 10), (2025, 11), (2025, 12), (2025, 13), (2025, 14)] units_total=2715 tagged=280 kept=540 candle_requests=1080 skip={'player_not_in_nflverse': 36, 'player_lt4_prior_games': 15}
+T(kalshi expected_exp-3h) minus schedule kickoff, minutes: median 0.0 p10/p90 [0. 0.]
+50 / 540 {'hits': 0, 'fetches': 100, 'r429': 35} rate 0.2
+100 / 540 {'hits': 0, 'fetches': 200, 'r429': 73} rate 0.2
+150 / 540 {'hits': 0, 'fetches': 300, 'r429': 74} rate 0.35
+200 / 540 {'hits': 0, 'fetches': 400, 'r429': 76} rate 0.4
+250 / 540 {'hits': 0, 'fetches': 500, 'r429': 77} rate 0.55
+300 / 540 {'hits': 0, 'fetches': 600, 'r429': 77} rate 0.75
+350 / 540 {'hits': 0, 'fetches': 700, 'r429': 78} rate 0.575
+400 / 540 {'hits': 0, 'fetches': 800, 'r429': 78} rate 0.775
+450 / 540 {'hits': 0, 'fetches': 900, 'r429': 79} rate 0.4875
+500 / 540 {'hits': 0, 'fetches': 1000, 'r429': 79} rate 0.7875
+written 540 {'hits': 0, 'fetches': 1080, 'r429': 79}

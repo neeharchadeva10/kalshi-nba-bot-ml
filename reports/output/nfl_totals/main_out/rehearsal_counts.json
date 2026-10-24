@@ -1,0 +1,388 @@
+{
+ "n_hk_games_t60_usable": 0,
+ "n_hk_games_settled": 0,
+ "A": {
+  "result": {
+   "per_window_sb": {
+    "H1": {
+     "n": 330
+    },
+    "H2": {
+     "n": 181
+    },
+    "H3": {
+     "n": 7
+    }
+   },
+   "pooled_sb": {
+    "n": 511
+   },
+   "luck": {
+    "copies": 50,
+    "n_bets": 511
+   },
+   "kalshi": {
+    "n": 0
+   },
+   "controls": {
+    "H1H2": {
+     "side_mix": {
+      "n_over": 506,
+      "n_under": 5
+     },
+     "always_over": {
+      "n": 3028
+     },
+     "always_under": {
+      "n": 3028
+     },
+     "luck_side_preserving": {
+      "copies": 50,
+      "n_bets": 511
+     }
+    },
+    "H3": {
+     "side_mix": {
+      "n_over": 7,
+      "n_under": 0
+     },
+     "always_over": {
+      "n": 94
+     },
+     "always_under": {
+      "n": 94
+     },
+     "luck_side_preserving": {
+      "copies": 50,
+      "n_bets": 7
+     }
+    }
+   }
+  },
+  "chosen_counts": {
+   "n": 633
+  }
+ },
+ "A_secondary": {
+  "result": {
+   "per_window_sb": {
+    "H1": {
+     "n": 398
+    },
+    "H2": {
+     "n": 141
+    },
+    "H3": {
+     "n": 23
+    }
+   },
+   "pooled_sb": {
+    "n": 539
+   },
+   "luck": {
+    "copies": 50,
+    "n_bets": 539
+   },
+   "kalshi": {
+    "n": 0
+   },
+   "controls": {
+    "H1H2": {
+     "side_mix": {
+      "n_over": 327,
+      "n_under": 212
+     },
+     "always_over": {
+      "n": 3028
+     },
+     "always_under": {
+      "n": 3028
+     },
+     "luck_side_preserving": {
+      "copies": 50,
+      "n_bets": 539
+     }
+    },
+    "H3": {
+     "side_mix": {
+      "n_over": 14,
+      "n_under": 9
+     },
+     "always_over": {
+      "n": 94
+     },
+     "always_under": {
+      "n": 94
+     },
+     "luck_side_preserving": {
+      "copies": 50,
+      "n_bets": 23
+     }
+    }
+   }
+  }
+ },
+ "B": {
+  "B1": {
+   "result": {
+    "controls": {
+     "side_mix": {
+      "n_over": 0,
+      "n_under": 12
+     },
+     "always_over": {
+      "n": 94
+     },
+     "always_under": {
+      "n": 94
+     },
+     "luck_side_preserving": {
+      "copies": 50,
+      "n_bets": 12
+     }
+    },
+    "per_window_sb": {
+     "W": {
+      "n": 491
+     },
+     "D": {
+      "n": 585
+     },
+     "H1": {
+      "n": 473
+     },
+     "H2": {
+      "n": 160
+     },
+     "H3": {
+      "n": 12
+     }
+    },
+    "clean_pooled_sb": {
+     "n": 12
+    },
+    "luck": {
+     "copies": 50,
+     "n_bets": 12
+    },
+    "kalshi": {
+     "n": 0
+    }
+   }
+  },
+  "B2": {
+   "result": {
+    "controls": {
+     "side_mix": {
+      "n_over": 0,
+      "n_under": 16
+     },
+     "always_over": {
+      "n": 94
+     },
+     "always_under": {
+      "n": 94
+     },
+     "luck_side_preserving": {
+      "copies": 50,
+      "n_bets": 16
+     }
+    },
+    "per_window_sb": {
+     "W": {
+      "n": 0
+     },
+     "D": {
+      "n": 0
+     },
+     "H1": {
+      "n": 0
+     },
+     "H2": {
+      "n": 112
+     },
+     "H3": {
+      "n": 16
+     }
+    },
+    "second_look_2021_25": {
+     "n": 112
+    },
+    "clean_pooled_sb": {
+     "n": 16
+    },
+    "luck": {
+     "copies": 50,
+     "n_bets": 16
+    },
+    "kalshi": {
+     "n": 0
+    },
+    "hindsight_all_forecast_era": {
+     "obs_ge_fc": {
+      "n": 37
+     },
+     "obs_lt_fc": {
+      "n": 84
+     }
+    },
+    "hindsight_h3": {
+     "obs_ge_fc": {
+      "n": 2
+     },
+     "obs_lt_fc": {
+      "n": 7
+     }
+    }
+   }
+  },
+  "B3": {
+   "result": {
+    "controls": {
+     "side_mix": {
+      "n_over": 0,
+      "n_under": 0
+     },
+     "always_over": {
+      "n": 94
+     },
+     "always_under": {
+      "n": 94
+     },
+     "luck_side_preserving": {
+      "copies": 50,
+      "n_bets": 0
+     }
+    },
+    "per_window_sb": {
+     "W": {
+      "n": 0
+     },
+     "D": {
+      "n": 0
+     },
+     "H1": {
+      "n": 0
+     },
+     "H2": {
+      "n": 5
+     },
+     "H3": {
+      "n": 0
+     }
+    },
+    "second_look_2021_25": {
+     "n": 5
+    },
+    "clean_pooled_sb": {
+     "n": 0
+    },
+    "luck": {
+     "copies": 50,
+     "n_bets": 0
+    },
+    "kalshi": {
+     "n": 0
+    }
+   }
+  },
+  "B4": {
+   "result": {
+    "controls": {
+     "side_mix": {
+      "n_over": 0,
+      "n_under": 314
+     },
+     "always_over": {
+      "n": 2497
+     },
+     "always_under": {
+      "n": 2497
+     },
+     "luck_side_preserving": {
+      "copies": 50,
+      "n_bets": 314
+     }
+    },
+    "per_window_sb": {
+     "W": {
+      "n": 96
+     },
+     "D": {
+      "n": 302
+     },
+     "H1": {
+      "n": 278
+     },
+     "H2": {
+      "n": 115
+     },
+     "H3": {
+      "n": 12
+     }
+    },
+    "clean_pooled_sb": {
+     "n": 314
+    },
+    "luck": {
+     "copies": 50,
+     "n_bets": 314
+    },
+    "kalshi": {
+     "n": 0
+    }
+   }
+  },
+  "B5": {
+   "result": {
+    "controls": {
+     "side_mix": {
+      "n_over": 0,
+      "n_under": 104
+     },
+     "always_over": {
+      "n": 2497
+     },
+     "always_under": {
+      "n": 2497
+     },
+     "luck_side_preserving": {
+      "copies": 50,
+      "n_bets": 104
+     }
+    },
+    "per_window_sb": {
+     "W": {
+      "n": 22
+     },
+     "D": {
+      "n": 98
+     },
+     "H1": {
+      "n": 130
+     },
+     "H2": {
+      "n": 56
+     },
+     "H3": {
+      "n": 6
+     }
+    },
+    "clean_pooled_sb": {
+     "n": 104
+    },
+    "luck": {
+     "copies": 50,
+     "n_bets": 104
+    },
+    "kalshi": {
+     "n": 0
+    }
+   }
+  }
+ },
+ "C": {
+  "status": "inputs missing (Kalshi parquet files not downloaded yet)"
+ },
+ "rehearsal_note": "Kalshi parquet files not downloaded yet: HK (Part A/B Kalshi legs) and Part C skipped (inputs missing); Part A version from results_select.json (stand-in if absent), 50 bootstrap/luck draws, counts only"
+}

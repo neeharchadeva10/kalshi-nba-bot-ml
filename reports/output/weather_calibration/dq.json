@@ -1,0 +1,567 @@
+{
+  "generated_ts": 1792390186,
+  "W1": {
+    "events_total": 16730,
+    "markets_total": 97224,
+    "by_reason": {
+      "multiple_yes": {
+        "events": 138,
+        "markets": 276
+      },
+      "no_yes": {
+        "events": 177,
+        "markets": 303
+      },
+      "overlapping_ranges": {
+        "events": 308,
+        "markets": 616
+      },
+      "scalar_result": {
+        "events": 8,
+        "markets": 48
+      }
+    },
+    "by_series": {
+      "KXHIGHCHI": {
+        "multiple_yes": {
+          "events": 74,
+          "markets": 148
+        },
+        "no_yes": {
+          "events": 71,
+          "markets": 113
+        },
+        "overlapping_ranges": {
+          "events": 155,
+          "markets": 310
+        }
+      },
+      "KXHIGHMIA": {
+        "no_yes": {
+          "events": 1,
+          "markets": 6
+        },
+        "scalar_result": {
+          "events": 1,
+          "markets": 6
+        }
+      },
+      "KXHIGHNY": {
+        "multiple_yes": {
+          "events": 64,
+          "markets": 128
+        },
+        "no_yes": {
+          "events": 98,
+          "markets": 142
+        },
+        "overlapping_ranges": {
+          "events": 153,
+          "markets": 306
+        }
+      },
+      "KXHIGHTDC": {
+        "no_yes": {
+          "events": 3,
+          "markets": 18
+        },
+        "scalar_result": {
+          "events": 3,
+          "markets": 18
+        }
+      },
+      "KXLOWTATL": {
+        "no_yes": {
+          "events": 1,
+          "markets": 6
+        },
+        "scalar_result": {
+          "events": 1,
+          "markets": 6
+        }
+      },
+      "KXLOWTMIA": {
+        "no_yes": {
+          "events": 3,
+          "markets": 18
+        },
+        "scalar_result": {
+          "events": 3,
+          "markets": 18
+        }
+      }
+    },
+    "excluded_events": 399,
+    "excluded_markets": 747,
+    "events_candles_incomplete": 0,
+    "events_analysed": 16331,
+    "markets_analysed": 96477
+  },
+  "W4": {
+    "markets_checked": 94261,
+    "unparseable_rules": 0,
+    "disagree": 0,
+    "disagree_examples": [],
+    "source_split_by_series": {
+      "KXHIGHAUS": {
+        "NWS": 7119,
+        "TWC": 360
+      },
+      "KXHIGHCHI": {
+        "NWS": 9350,
+        "OTHER": 17,
+        "TWC": 360
+      },
+      "KXHIGHDEN": {
+        "NWS": 3792,
+        "TWC": 360
+      },
+      "KXHIGHHOU": {
+        "NWS": 420
+      },
+      "KXHIGHLAX": {
+        "NWS": 3516,
+        "TWC": 360
+      },
+      "KXHIGHMIA": {
+        "NWS": 7138,
+        "TWC": 360
+      },
+      "KXHIGHNY": {
+        "NWS": 9343,
+        "OTHER": 27,
+        "TWC": 360
+      },
+      "KXHIGHPHIL": {
+        "NWS": 3792,
+        "TWC": 360
+      },
+      "KXHIGHTATL": {
+        "NWS": 1146,
+        "TWC": 360
+      },
+      "KXHIGHTBOS": {
+        "NWS": 1140,
+        "TWC": 360
+      },
+      "KXHIGHTDAL": {
+        "NWS": 1104,
+        "TWC": 360
+      },
+      "KXHIGHTDC": {
+        "NWS": 1254,
+        "TWC": 360
+      },
+      "KXHIGHTEWR": {
+        "TWC": 288
+      },
+      "KXHIGHTHOU": {
+        "NWS": 1104,
+        "TWC": 360
+      },
+      "KXHIGHTLV": {
+        "NWS": 1272,
+        "TWC": 360
+      },
+      "KXHIGHTMIN": {
+        "NWS": 1146,
+        "TWC": 360
+      },
+      "KXHIGHTNOLA": {
+        "NWS": 1272,
+        "TWC": 360
+      },
+      "KXHIGHTOKC": {
+        "NWS": 1104,
+        "TWC": 360
+      },
+      "KXHIGHTPHX": {
+        "NWS": 1146,
+        "TWC": 360
+      },
+      "KXHIGHTSAN": {
+        "TWC": 324
+      },
+      "KXHIGHTSATX": {
+        "NWS": 1104,
+        "TWC": 360
+      },
+      "KXHIGHTSDF": {
+        "TWC": 276
+      },
+      "KXHIGHTSEA": {
+        "NWS": 1272,
+        "TWC": 360
+      },
+      "KXHIGHTSFO": {
+        "NWS": 1272,
+        "TWC": 360
+      },
+      "KXHIGHTTTN": {
+        "TWC": 288
+      },
+      "KXLOWTATL": {
+        "NWS": 798,
+        "TWC": 360
+      },
+      "KXLOWTAUS": {
+        "NWS": 1464,
+        "TWC": 360
+      },
+      "KXLOWTBOS": {
+        "NWS": 798,
+        "TWC": 360
+      },
+      "KXLOWTCHI": {
+        "NWS": 1464,
+        "TWC": 360
+      },
+      "KXLOWTDAL": {
+        "NWS": 798,
+        "TWC": 360
+      },
+      "KXLOWTDC": {
+        "NWS": 798,
+        "TWC": 360
+      },
+      "KXLOWTDEN": {
+        "NWS": 1464,
+        "TWC": 360
+      },
+      "KXLOWTEWR": {
+        "TWC": 288
+      },
+      "KXLOWTHOU": {
+        "NWS": 798,
+        "TWC": 360
+      },
+      "KXLOWTLAX": {
+        "NWS": 1464,
+        "TWC": 360
+      },
+      "KXLOWTLV": {
+        "NWS": 798,
+        "TWC": 360
+      },
+      "KXLOWTMIA": {
+        "NWS": 1464,
+        "TWC": 360
+      },
+      "KXLOWTMIN": {
+        "NWS": 798,
+        "TWC": 360
+      },
+      "KXLOWTNOLA": {
+        "NWS": 798,
+        "TWC": 360
+      },
+      "KXLOWTNYC": {
+        "NWS": 1464,
+        "TWC": 360
+      },
+      "KXLOWTOKC": {
+        "NWS": 798,
+        "TWC": 360
+      },
+      "KXLOWTPHIL": {
+        "NWS": 1464,
+        "TWC": 360
+      },
+      "KXLOWTPHX": {
+        "NWS": 798,
+        "TWC": 360
+      },
+      "KXLOWTSAN": {
+        "TWC": 324
+      },
+      "KXLOWTSATX": {
+        "NWS": 798,
+        "TWC": 360
+      },
+      "KXLOWTSDF": {
+        "TWC": 276
+      },
+      "KXLOWTSEA": {
+        "NWS": 798,
+        "TWC": 360
+      },
+      "KXLOWTSFO": {
+        "NWS": 798,
+        "TWC": 360
+      },
+      "KXLOWTTTN": {
+        "TWC": 288
+      }
+    }
+  },
+  "W2": {
+    "candles_after_gap": 18141101,
+    "gap_open_equals_prev_close": 18140759,
+    "gap_share": 0.9999811477814935,
+    "consecutive_minute_candles": 53342361,
+    "consecutive_open_equals_prev_close": 53281300,
+    "consecutive_share": 0.9988553000119361,
+    "threshold": 0.99,
+    "stop": false
+  },
+  "W3": {
+    "candles_total": 71580686,
+    "crossed_quotes": 329
+  },
+  "W5": {
+    "KXHIGHAUS": {
+      "slots": 29886,
+      "with_quote": 29860,
+      "share": 0.9991300274375962
+    },
+    "KXHIGHCHI": {
+      "slots": 37522,
+      "with_quote": 37497,
+      "share": 0.9993337242151271
+    },
+    "KXHIGHDEN": {
+      "slots": 16602,
+      "with_quote": 16602,
+      "share": 1.0
+    },
+    "KXHIGHHOU": {
+      "slots": 1680,
+      "with_quote": 1680,
+      "share": 1.0
+    },
+    "KXHIGHLAX": {
+      "slots": 15498,
+      "with_quote": 15498,
+      "share": 1.0
+    },
+    "KXHIGHMIA": {
+      "slots": 29932,
+      "with_quote": 29909,
+      "share": 0.999231591607644
+    },
+    "KXHIGHNY": {
+      "slots": 37438,
+      "with_quote": 37415,
+      "share": 0.9993856509428922
+    },
+    "KXHIGHPHIL": {
+      "slots": 16602,
+      "with_quote": 16602,
+      "share": 1.0
+    },
+    "KXHIGHTATL": {
+      "slots": 6024,
+      "with_quote": 6024,
+      "share": 1.0
+    },
+    "KXHIGHTBOS": {
+      "slots": 6000,
+      "with_quote": 6000,
+      "share": 1.0
+    },
+    "KXHIGHTDAL": {
+      "slots": 5856,
+      "with_quote": 5855,
+      "share": 0.9998292349726776
+    },
+    "KXHIGHTDC": {
+      "slots": 6384,
+      "with_quote": 6384,
+      "share": 1.0
+    },
+    "KXHIGHTEWR": {
+      "slots": 1152,
+      "with_quote": 1152,
+      "share": 1.0
+    },
+    "KXHIGHTHOU": {
+      "slots": 5856,
+      "with_quote": 5848,
+      "share": 0.9986338797814208
+    },
+    "KXHIGHTLV": {
+      "slots": 6528,
+      "with_quote": 6528,
+      "share": 1.0
+    },
+    "KXHIGHTMIN": {
+      "slots": 6024,
+      "with_quote": 6024,
+      "share": 1.0
+    },
+    "KXHIGHTNOLA": {
+      "slots": 6522,
+      "with_quote": 6522,
+      "share": 1.0
+    },
+    "KXHIGHTOKC": {
+      "slots": 5856,
+      "with_quote": 5846,
+      "share": 0.9982923497267759
+    },
+    "KXHIGHTPHX": {
+      "slots": 6024,
+      "with_quote": 6024,
+      "share": 1.0
+    },
+    "KXHIGHTSAN": {
+      "slots": 1296,
+      "with_quote": 1296,
+      "share": 1.0
+    },
+    "KXHIGHTSATX": {
+      "slots": 5856,
+      "with_quote": 5847,
+      "share": 0.9984631147540983
+    },
+    "KXHIGHTSDF": {
+      "slots": 1104,
+      "with_quote": 1104,
+      "share": 1.0
+    },
+    "KXHIGHTSEA": {
+      "slots": 6528,
+      "with_quote": 6528,
+      "share": 1.0
+    },
+    "KXHIGHTSFO": {
+      "slots": 6528,
+      "with_quote": 6528,
+      "share": 1.0
+    },
+    "KXHIGHTTTN": {
+      "slots": 1152,
+      "with_quote": 1152,
+      "share": 1.0
+    },
+    "KXLOWTATL": {
+      "slots": 4608,
+      "with_quote": 4608,
+      "share": 1.0
+    },
+    "KXLOWTAUS": {
+      "slots": 7296,
+      "with_quote": 7294,
+      "share": 0.9997258771929824
+    },
+    "KXLOWTBOS": {
+      "slots": 4632,
+      "with_quote": 4632,
+      "share": 1.0
+    },
+    "KXLOWTCHI": {
+      "slots": 7296,
+      "with_quote": 7291,
+      "share": 0.9993146929824561
+    },
+    "KXLOWTDAL": {
+      "slots": 4632,
+      "with_quote": 4632,
+      "share": 1.0
+    },
+    "KXLOWTDC": {
+      "slots": 4632,
+      "with_quote": 4632,
+      "share": 1.0
+    },
+    "KXLOWTDEN": {
+      "slots": 7296,
+      "with_quote": 7289,
+      "share": 0.9990405701754386
+    },
+    "KXLOWTEWR": {
+      "slots": 1152,
+      "with_quote": 1152,
+      "share": 1.0
+    },
+    "KXLOWTHOU": {
+      "slots": 4632,
+      "with_quote": 4632,
+      "share": 1.0
+    },
+    "KXLOWTLAX": {
+      "slots": 7296,
+      "with_quote": 7291,
+      "share": 0.9993146929824561
+    },
+    "KXLOWTLV": {
+      "slots": 4632,
+      "with_quote": 4632,
+      "share": 1.0
+    },
+    "KXLOWTMIA": {
+      "slots": 7224,
+      "with_quote": 7218,
+      "share": 0.9991694352159468
+    },
+    "KXLOWTMIN": {
+      "slots": 4632,
+      "with_quote": 4632,
+      "share": 1.0
+    },
+    "KXLOWTNOLA": {
+      "slots": 4632,
+      "with_quote": 4632,
+      "share": 1.0
+    },
+    "KXLOWTNYC": {
+      "slots": 7296,
+      "with_quote": 7290,
+      "share": 0.9991776315789473
+    },
+    "KXLOWTOKC": {
+      "slots": 4632,
+      "with_quote": 4632,
+      "share": 1.0
+    },
+    "KXLOWTPHIL": {
+      "slots": 7296,
+      "with_quote": 7290,
+      "share": 0.9991776315789473
+    },
+    "KXLOWTPHX": {
+      "slots": 4632,
+      "with_quote": 4632,
+      "share": 1.0
+    },
+    "KXLOWTSAN": {
+      "slots": 1296,
+      "with_quote": 1296,
+      "share": 1.0
+    },
+    "KXLOWTSATX": {
+      "slots": 4632,
+      "with_quote": 4632,
+      "share": 1.0
+    },
+    "KXLOWTSDF": {
+      "slots": 1104,
+      "with_quote": 1104,
+      "share": 1.0
+    },
+    "KXLOWTSEA": {
+      "slots": 4632,
+      "with_quote": 4632,
+      "share": 1.0
+    },
+    "KXLOWTSFO": {
+      "slots": 4632,
+      "with_quote": 4632,
+      "share": 1.0
+    },
+    "KXLOWTTTN": {
+      "slots": 1152,
+      "with_quote": 1152,
+      "share": 1.0
+    }
+  },
+  "stop_flag": false,
+  "run": {
+    "elapsed_s": 122.8,
+    "peak_rss_mb": 488.2,
+    "fills": true,
+    "n_boot": 10000,
+    "n_boot_exploratory": 2000,
+    "seed": 20261013
+  }
+}

@@ -1,0 +1,165 @@
+# OKCSAS full scan
+Pulled UTC 2026-10-20 19:39:09; markets 577, with a quote 577, in tickers list but not open 0
+
+## Ladder groups
+
+- KXNBA1HSPREAD-26OCT20OKCSAS | OKC | ge | n=9 strikes [1.5, 2.5, 4.5, 6.5, 8.5, 10.5, 12.5, 14.5, 16.5]
+- KXNBA1HSPREAD-26OCT20OKCSAS | SAS | ge | n=10 strikes [1.5, 3.5, 5.5, 7.5, 9.5, 11.5, 13.5, 15.5, 17.5, 19.5]
+- KXNBA1HTEAMTOTAL-26OCT20OKCSAS | OKC | ge | n=11 strikes [45.5, 47.5, 49.5, 51.5, 53.5, 55.5, 57.5, 59.5, 61.5, 63.5, 65.5]
+- KXNBA1HTEAMTOTAL-26OCT20OKCSAS | SAS | ge | n=11 strikes [46.5, 48.5, 50.5, 52.5, 54.5, 56.5, 58.5, 60.5, 62.5, 64.5, 66.5]
+- KXNBA1HTOTAL-26OCT20OKCSAS |  | ge | n=19 strikes [94.5, 96.5, 98.5, 100.5, 102.5, 104.5, 106.5, 108.5, 110.5, 112.5, 114.5, 116.5, 118.5, 120.5, 122.5, 124.5, 126.5, 128.5, 130.5]
+- KXNBA1QSPREAD-26OCT20OKCSAS | OKC | ge | n=6 strikes [1.5, 2.5, 4.5, 6.5, 8.5, 10.5]
+- KXNBA1QSPREAD-26OCT20OKCSAS | SAS | ge | n=7 strikes [1.5, 3.5, 5.5, 7.5, 9.5, 11.5, 13.5]
+- KXNBA1QTOTAL-26OCT20OKCSAS |  | ge | n=13 strikes [44.5, 46.5, 48.5, 50.5, 52.5, 54.5, 56.5, 58.5, 60.5, 62.5, 64.5, 66.5, 68.5]
+- KXNBA2D-26OCT20OKCSAS | OKCCHOLMGREN | ge | n=1 strikes [0.5]
+- KXNBA2D-26OCT20OKCSAS | OKCIHARTENSTEIN | ge | n=1 strikes [0.5]
+- KXNBA2D-26OCT20OKCSAS | OKCSGILGEOUSALEXANDER | ge | n=1 strikes [0.5]
+- KXNBA2D-26OCT20OKCSAS | SASSCASTLE | ge | n=1 strikes [0.5]
+- KXNBA2D-26OCT20OKCSAS | SASVWEMBANYAMA | ge | n=1 strikes [0.5]
+- KXNBA2HSPREAD-26OCT20OKCSAS | OKC | ge | n=9 strikes [1.5, 2.5, 4.5, 6.5, 8.5, 10.5, 12.5, 14.5, 16.5]
+- KXNBA2HSPREAD-26OCT20OKCSAS | SAS | ge | n=10 strikes [1.5, 3.5, 5.5, 7.5, 9.5, 11.5, 13.5, 15.5, 17.5, 19.5]
+- KXNBA2HTOTAL-26OCT20OKCSAS |  | ge | n=19 strikes [100.5, 102.5, 104.5, 106.5, 108.5, 110.5, 112.5, 114.5, 116.5, 118.5, 120.5, 122.5, 124.5, 126.5, 128.5, 130.5, 132.5, 134.5, 136.5]
+- KXNBA2QSPREAD-26OCT20OKCSAS | OKC | ge | n=6 strikes [1.5, 2.5, 4.5, 6.5, 8.5, 10.5]
+- KXNBA2QSPREAD-26OCT20OKCSAS | SAS | ge | n=7 strikes [1.5, 3.5, 5.5, 7.5, 9.5, 11.5, 13.5]
+- KXNBA2QTOTAL-26OCT20OKCSAS |  | ge | n=13 strikes [43.5, 45.5, 47.5, 49.5, 51.5, 53.5, 55.5, 57.5, 59.5, 61.5, 63.5, 65.5, 67.5]
+- KXNBA3D-26OCT20OKCSAS | SASSCASTLE | ge | n=1 strikes [0.5]
+- KXNBA3D-26OCT20OKCSAS | SASVWEMBANYAMA | ge | n=1 strikes [0.5]
+- KXNBA3PT-26OCT20OKCSAS | OKCCHOLMGREN7 | ge | n=4 strikes [0.5, 1.5, 2.5, 3.5]
+- KXNBA3PT-26OCT20OKCSAS | OKCCWALLACE22 | ge | n=5 strikes [0.5, 1.5, 2.5, 3.5, 4.5]
+- KXNBA3PT-26OCT20OKCSAS | OKCJWILLIAMS8 | ge | n=5 strikes [0.5, 1.5, 2.5, 3.5, 4.5]
+- KXNBA3PT-26OCT20OKCSAS | OKCSGILGEOUSALEXANDER2 | ge | n=5 strikes [0.5, 1.5, 2.5, 3.5, 4.5]
+- KXNBA3PT-26OCT20OKCSAS | SASDFOX4 | ge | n=5 strikes [0.5, 1.5, 2.5, 3.5, 4.5]
+- KXNBA3PT-26OCT20OKCSAS | SASDHARPER2 | ge | n=5 strikes [0.5, 1.5, 2.5, 3.5, 4.5]
+- KXNBA3PT-26OCT20OKCSAS | SASDVASSELL24 | ge | n=5 strikes [0.5, 1.5, 2.5, 3.5, 4.5]
+- KXNBA3PT-26OCT20OKCSAS | SASJCHAMPAGNIE30 | ge | n=5 strikes [0.5, 1.5, 2.5, 3.5, 4.5]
+- KXNBA3PT-26OCT20OKCSAS | SASKJOHNSON3 | ge | n=4 strikes [0.5, 1.5, 2.5, 3.5]
+- KXNBA3PT-26OCT20OKCSAS | SASSCASTLE5 | ge | n=5 strikes [0.5, 1.5, 2.5, 3.5, 4.5]
+- KXNBA3PT-26OCT20OKCSAS | SASVWEMBANYAMA1 | ge | n=5 strikes [0.5, 1.5, 2.5, 3.5, 4.5]
+- KXNBA3QSPREAD-26OCT20OKCSAS | OKC | ge | n=6 strikes [1.5, 2.5, 4.5, 6.5, 8.5, 10.5]
+- KXNBA3QSPREAD-26OCT20OKCSAS | SAS | ge | n=7 strikes [1.5, 3.5, 5.5, 7.5, 9.5, 11.5, 13.5]
+- KXNBA3QTOTAL-26OCT20OKCSAS |  | ge | n=13 strikes [48.5, 50.5, 52.5, 54.5, 56.5, 58.5, 60.5, 62.5, 64.5, 66.5, 68.5, 70.5, 72.5]
+- KXNBA4QSPREAD-26OCT20OKCSAS | OKC | ge | n=6 strikes [1.5, 2.5, 4.5, 6.5, 8.5, 10.5]
+- KXNBA4QSPREAD-26OCT20OKCSAS | SAS | ge | n=7 strikes [1.5, 3.5, 5.5, 7.5, 9.5, 11.5, 13.5]
+- KXNBA4QTOTAL-26OCT20OKCSAS |  | ge | n=13 strikes [46.5, 48.5, 50.5, 52.5, 54.5, 56.5, 58.5, 60.5, 62.5, 64.5, 66.5, 68.5, 70.5]
+- KXNBAAST-26OCT20OKCSAS | OKCCHOLMGREN7 | ge | n=3 strikes [1.5, 3.5, 5.5]
+- KXNBAAST-26OCT20OKCSAS | OKCCWALLACE22 | ge | n=3 strikes [1.5, 3.5, 5.5]
+- KXNBAAST-26OCT20OKCSAS | OKCIHARTENSTEIN55 | ge | n=3 strikes [1.5, 3.5, 5.5]
+- KXNBAAST-26OCT20OKCSAS | OKCJWILLIAMS8 | ge | n=4 strikes [1.5, 3.5, 5.5, 7.5]
+- KXNBAAST-26OCT20OKCSAS | OKCSGILGEOUSALEXANDER2 | ge | n=4 strikes [3.5, 5.5, 7.5, 9.5]
+- KXNBAAST-26OCT20OKCSAS | SASDFOX4 | ge | n=4 strikes [1.5, 3.5, 5.5, 7.5]
+- KXNBAAST-26OCT20OKCSAS | SASDHARPER2 | ge | n=4 strikes [1.5, 3.5, 5.5, 7.5]
+- KXNBAAST-26OCT20OKCSAS | SASDVASSELL24 | ge | n=3 strikes [1.5, 3.5, 5.5]
+- KXNBAAST-26OCT20OKCSAS | SASSCASTLE5 | ge | n=5 strikes [1.5, 3.5, 5.5, 7.5, 9.5]
+- KXNBAAST-26OCT20OKCSAS | SASVWEMBANYAMA1 | ge | n=4 strikes [1.5, 3.5, 5.5, 7.5]
+- KXNBABLK-26OCT20OKCSAS | OKCCHOLMGREN7 | ge | n=3 strikes [0.5, 1.5, 2.5]
+- KXNBABLK-26OCT20OKCSAS | OKCIHARTENSTEIN55 | ge | n=2 strikes [0.5, 1.5]
+- KXNBABLK-26OCT20OKCSAS | OKCSGILGEOUSALEXANDER2 | ge | n=2 strikes [0.5, 1.5]
+- KXNBABLK-26OCT20OKCSAS | SASVWEMBANYAMA1 | ge | n=3 strikes [2.5, 3.5, 4.5]
+- KXNBAOT-26OCT20OKCSAS |  | ge | n=1 strikes [0.5]
+- KXNBAPRA-26OCT20OKCSAS | OKCCHOLMGREN7 | ge | n=3 strikes [19.5, 24.5, 29.5]
+- KXNBAPRA-26OCT20OKCSAS | OKCJWILLIAMS8 | ge | n=4 strikes [19.5, 24.5, 29.5, 34.5]
+- KXNBAPRA-26OCT20OKCSAS | OKCSGILGEOUSALEXANDER2 | ge | n=3 strikes [34.5, 39.5, 44.5]
+- KXNBAPRA-26OCT20OKCSAS | SASDFOX4 | ge | n=3 strikes [19.5, 24.5, 29.5]
+- KXNBAPRA-26OCT20OKCSAS | SASSCASTLE5 | ge | n=3 strikes [24.5, 29.5, 34.5]
+- KXNBAPRA-26OCT20OKCSAS | SASVWEMBANYAMA1 | ge | n=3 strikes [34.5, 39.5, 44.5]
+- KXNBAPTS-26OCT20OKCSAS | OKCCHOLMGREN7 | ge | n=3 strikes [9.5, 14.5, 19.5]
+- KXNBAPTS-26OCT20OKCSAS | OKCCWALLACE22 | ge | n=3 strikes [9.5, 14.5, 19.5]
+- KXNBAPTS-26OCT20OKCSAS | OKCIHARTENSTEIN55 | ge | n=2 strikes [9.5, 14.5]
+- KXNBAPTS-26OCT20OKCSAS | OKCJWILLIAMS8 | ge | n=4 strikes [9.5, 14.5, 19.5, 24.5]
+- KXNBAPTS-26OCT20OKCSAS | OKCSGILGEOUSALEXANDER2 | ge | n=5 strikes [19.5, 24.5, 29.5, 34.5, 39.5]
+- KXNBAPTS-26OCT20OKCSAS | SASDFOX4 | ge | n=4 strikes [9.5, 14.5, 19.5, 24.5]
+- KXNBAPTS-26OCT20OKCSAS | SASDHARPER2 | ge | n=4 strikes [9.5, 14.5, 19.5, 24.5]
+- KXNBAPTS-26OCT20OKCSAS | SASDVASSELL24 | ge | n=3 strikes [9.5, 14.5, 19.5]
+- KXNBAPTS-26OCT20OKCSAS | SASJCHAMPAGNIE30 | ge | n=3 strikes [9.5, 14.5, 19.5]
+- KXNBAPTS-26OCT20OKCSAS | SASKJOHNSON3 | ge | n=2 strikes [9.5, 14.5]
+- KXNBAPTS-26OCT20OKCSAS | SASSCASTLE5 | ge | n=4 strikes [9.5, 14.5, 19.5, 24.5]
+- KXNBAPTS-26OCT20OKCSAS | SASVWEMBANYAMA1 | ge | n=4 strikes [19.5, 24.5, 29.5, 34.5]
+- KXNBAREB-26OCT20OKCSAS | OKCCHOLMGREN7 | ge | n=5 strikes [3.5, 5.5, 7.5, 9.5, 11.5]
+- KXNBAREB-26OCT20OKCSAS | OKCCWALLACE22 | ge | n=4 strikes [1.5, 3.5, 5.5, 7.5]
+- KXNBAREB-26OCT20OKCSAS | OKCIHARTENSTEIN55 | ge | n=5 strikes [3.5, 5.5, 7.5, 9.5, 11.5]
+- KXNBAREB-26OCT20OKCSAS | OKCJWILLIAMS8 | ge | n=4 strikes [1.5, 3.5, 5.5, 7.5]
+- KXNBAREB-26OCT20OKCSAS | OKCSGILGEOUSALEXANDER2 | ge | n=4 strikes [1.5, 3.5, 5.5, 7.5]
+- KXNBAREB-26OCT20OKCSAS | SASDFOX4 | ge | n=4 strikes [1.5, 3.5, 5.5, 7.5]
+- KXNBAREB-26OCT20OKCSAS | SASDHARPER2 | ge | n=4 strikes [1.5, 3.5, 5.5, 7.5]
+- KXNBAREB-26OCT20OKCSAS | SASDVASSELL24 | ge | n=4 strikes [1.5, 3.5, 5.5, 7.5]
+- KXNBAREB-26OCT20OKCSAS | SASJCHAMPAGNIE30 | ge | n=4 strikes [1.5, 3.5, 5.5, 7.5]
+- KXNBAREB-26OCT20OKCSAS | SASKJOHNSON3 | ge | n=4 strikes [1.5, 3.5, 5.5, 7.5]
+- KXNBAREB-26OCT20OKCSAS | SASSCASTLE5 | ge | n=4 strikes [1.5, 3.5, 5.5, 7.5]
+- KXNBAREB-26OCT20OKCSAS | SASVWEMBANYAMA1 | ge | n=5 strikes [7.5, 9.5, 11.5, 13.5, 15.5]
+- KXNBASPREAD-26OCT20OKCSAS | OKC | ge | n=15 strikes [1.5, 2.5, 3.5, 4.5, 5.5, 7.5, 9.5, 11.5, 13.5, 15.5, 17.5, 19.5, 21.5, 23.5, 25.5]
+- KXNBASPREAD-26OCT20OKCSAS | SAS | ge | n=18 strikes [1.5, 2.5, 3.5, 4.5, 5.5, 6.5, 7.5, 8.5, 10.5, 12.5, 14.5, 16.5, 18.5, 20.5, 22.5, 24.5, 26.5, 28.5]
+- KXNBASTL-26OCT20OKCSAS | OKCCWALLACE22 | ge | n=3 strikes [0.5, 1.5, 2.5]
+- KXNBASTL-26OCT20OKCSAS | OKCJWILLIAMS8 | ge | n=3 strikes [0.5, 1.5, 2.5]
+- KXNBASTL-26OCT20OKCSAS | OKCSGILGEOUSALEXANDER2 | ge | n=3 strikes [0.5, 1.5, 2.5]
+- KXNBASTL-26OCT20OKCSAS | SASDFOX4 | ge | n=3 strikes [0.5, 1.5, 2.5]
+- KXNBASTL-26OCT20OKCSAS | SASDHARPER2 | ge | n=3 strikes [0.5, 1.5, 2.5]
+- KXNBASTL-26OCT20OKCSAS | SASSCASTLE5 | ge | n=3 strikes [0.5, 1.5, 2.5]
+- KXNBASTL-26OCT20OKCSAS | SASVWEMBANYAMA1 | ge | n=2 strikes [0.5, 1.5]
+- KXNBATEAMTOTAL-26OCT20OKCSAS | OKC | ge | n=19 strikes [96.5, 98.5, 100.5, 102.5, 104.5, 106.5, 108.5, 110.5, 112.5, 114.5, 116.5, 118.5, 120.5, 122.5, 124.5, 126.5, 128.5, 130.5, 132.5]
+- KXNBATEAMTOTAL-26OCT20OKCSAS | SAS | ge | n=19 strikes [98.5, 100.5, 102.5, 104.5, 106.5, 108.5, 110.5, 112.5, 114.5, 116.5, 118.5, 120.5, 122.5, 124.5, 126.5, 128.5, 130.5, 132.5, 134.5]
+- KXNBATOTAL-26OCT20OKCSAS |  | ge | n=29 strikes [203.5, 205.5, 207.5, 209.5, 211.5, 213.5, 215.5, 217.5, 219.5, 221.5, 223.5, 225.5, 227.5, 229.5, 231.5, 233.5, 235.5, 237.5, 239.5, 241.5, 243.5, 245.5, 247.5, 249.5, 251.5, 253.5, 255.5, 257.5, 259.5]
+
+## Check 1 riskless ladder inversions (bid_strong > ask_weak)
+
+- none
+
+Nearest misses (within 3c)
+
+- KXNBASPREAD-26OCT20OKCSAS-SAS19 ask 0.09 vs KXNBASPREAD-26OCT20OKCSAS-SAS21 bid 0.07 gross -0.020
+- KXNBASPREAD-26OCT20OKCSAS-SAS27 ask 0.03 vs KXNBASPREAD-26OCT20OKCSAS-SAS29 bid 0.01 gross -0.020
+- KXNBASPREAD-26OCT20OKCSAS-OKC24 ask 0.05 vs KXNBASPREAD-26OCT20OKCSAS-OKC26 bid 0.03 gross -0.020
+- KXNBATOTAL-26OCT20OKCSAS-258 ask 0.08 vs KXNBATOTAL-26OCT20OKCSAS-260 bid 0.06 gross -0.020
+- KXNBA2QSPREAD-26OCT20OKCSAS-OKC2 ask 0.44 vs KXNBA2QSPREAD-26OCT20OKCSAS-OKC3 bid 0.42 gross -0.020
+- KXNBATOTAL-26OCT20OKCSAS-208 ask 0.92 vs KXNBATOTAL-26OCT20OKCSAS-210 bid 0.9 gross -0.020
+- KXNBA1HTOTAL-26OCT20OKCSAS-95 ask 0.95 vs KXNBA1HTOTAL-26OCT20OKCSAS-97 bid 0.92 gross -0.030
+- KXNBATOTAL-26OCT20OKCSAS-204 ask 0.96 vs KXNBATOTAL-26OCT20OKCSAS-206 bid 0.93 gross -0.030
+- KXNBATOTAL-26OCT20OKCSAS-206 ask 0.94 vs KXNBATOTAL-26OCT20OKCSAS-208 bid 0.91 gross -0.030
+- KXNBASPREAD-26OCT20OKCSAS-OKC4 ask 0.42 vs KXNBASPREAD-26OCT20OKCSAS-OKC5 bid 0.39 gross -0.030
+- KXNBASPREAD-26OCT20OKCSAS-SAS3 ask 0.43 vs KXNBASPREAD-26OCT20OKCSAS-SAS4 bid 0.4 gross -0.030
+
+## Check 2 mutually exclusive sets
+
+- KXNBA1H-26OCT20OKCSAS n=3 me=True exh=False sumbid=0.970 sumask=1.030 NOall margin=-0.067 YESall margin=-
+- KXNBA1Q-26OCT20OKCSAS n=3 me=True exh=False sumbid=1.000 sumask=1.030 NOall margin=-0.037 YESall margin=-
+- KXNBA2H-26OCT20OKCSAS n=3 me=True exh=False sumbid=0.940 sumask=1.060 NOall margin=-0.096 YESall margin=-
+- KXNBA2Q-26OCT20OKCSAS n=3 me=True exh=False sumbid=0.860 sumask=1.070 NOall margin=-0.176 YESall margin=-
+- KXNBA3Q-26OCT20OKCSAS n=3 me=True exh=False sumbid=0.930 sumask=1.070 NOall margin=-0.107 YESall margin=-
+- KXNBA4Q-26OCT20OKCSAS n=3 me=True exh=False sumbid=0.830 sumask=1.070 NOall margin=-0.206 YESall margin=-
+- KXNBAGAME-26OCT20OKCSAS n=2 me=True exh=True sumbid=0.990 sumask=1.010 NOall margin=-0.045 YESall margin=-0.045
+- KXNBARACE-26OCT20OKCSAS-10 n=2 me=True exh=False sumbid=0.960 sumask=1.000 NOall margin=-0.075 YESall margin=-
+- KXNBARACE-26OCT20OKCSAS-25 n=3 me=True exh=False sumbid=0.030 sumask=2.970 NOall margin=-0.972 YESall margin=-
+- KXNBARACE-26OCT20OKCSAS-50 n=3 me=True exh=False sumbid=0.030 sumask=2.970 NOall margin=-0.972 YESall margin=-
+- KXNBAWINMARGIN-26OCT20OKCSAS n=8 me=True exh=True sumbid=0.600 sumask=1.110 NOall margin=-0.438 YESall margin=-0.177
+
+## Check 3 margin buckets (game mids {'OKC': 0.515, 'SAS': 0.485})
+
+- {"ticker": "KXNBAWINMARGIN-26OCT20OKCSAS-OKC1TO5", "title": "Oklahoma City wins by 1-5 points", "bid": 0.07, "bsz": 24.0, "ask": 0.13, "asz": 1.0, "fair": 0.16000000000000003, "ev_yes_1": 0.022000000000000026, "ev_yes_sz": 0.022000000000000026, "ev_no_1": -0.09460000000000002, "ev_no_sz": -0.09455833333333336}
+- {"ticker": "KXNBAWINMARGIN-26OCT20OKCSAS-OKC6TO10", "title": "Oklahoma City wins by 6-10 points", "bid": 0.08, "bsz": 11.0, "ask": 0.16, "asz": 10.0, "skip": "invalid input leg"}
+- {"ticker": "KXNBAWINMARGIN-26OCT20OKCSAS-OKC11TO20", "title": "Oklahoma City wins by 11-20 points", "bid": 0.1, "bsz": 11.0, "ask": 0.15, "asz": 9.0, "skip": "invalid input leg"}
+- {"ticker": "KXNBAWINMARGIN-26OCT20OKCSAS-OKC21PLUS", "title": "Oklahoma City wins by 21+ points", "bid": 0.01, "bsz": 1013.0, "ask": 0.07, "asz": 12.0, "skip": "invalid input leg"}
+- {"ticker": "KXNBAWINMARGIN-26OCT20OKCSAS-SAS1TO5", "title": "San Antonio wins by 1-5 points", "bid": 0.08, "bsz": 13.5, "ask": 0.16, "asz": 88.03, "fair": 0.14500000000000002, "ev_yes_1": -0.024499999999999987, "ev_yes_sz": -0.024409090909090894, "ev_no_1": -0.07020000000000001, "ev_no_sz": -0.07015384615384616}
+- {"ticker": "KXNBAWINMARGIN-26OCT20OKCSAS-SAS6TO10", "title": "San Antonio wins by 6-10 points", "bid": 0.08, "bsz": 25.66, "ask": 0.18, "asz": 13.0, "fair": 0.12499999999999997, "ev_yes_1": -0.06540000000000003, "ev_yes_sz": -0.06533846153846157, "ev_no_1": -0.050199999999999974, "ev_no_sz": -0.050151999999999974}
+- {"ticker": "KXNBAWINMARGIN-26OCT20OKCSAS-SAS11TO20", "title": "San Antonio wins by 11-20 points", "bid": 0.13, "bsz": 17.5, "ask": 0.18, "asz": 504.1, "fair": 0.13999999999999999, "ev_yes_1": -0.05040000000000001, "ev_yes_sz": -0.05033214285714287, "ev_no_1": -0.01799999999999998, "ev_no_sz": -0.01791764705882351}
+- {"ticker": "KXNBAWINMARGIN-26OCT20OKCSAS-SAS21PLUS", "title": "San Antonio wins by 21+ points", "bid": 0.05, "bsz": 14.5, "ask": 0.08, "asz": 123.0, "fair": 0.07500000000000001, "ev_yes_1": -0.01019999999999999, "ev_yes_sz": -0.010152032520325194, "ev_no_1": -0.02840000000000001, "ev_no_sz": -0.028328571428571436}
+
+## Check 4 totals
+
+total ladder mids [(203.5, 0.955), (205.5, 0.935), (207.5, 0.915), (209.5, 0.905), (211.5, 0.88), (213.5, 0.85), (215.5, 0.825), (217.5, 0.785), (219.5, 0.745), (221.5, 0.715), (223.5, 0.675), (225.5, 0.625), (227.5, 0.58), (229.5, 0.535), (231.5, 0.485), (233.5, 0.435), (235.5, 0.39), (237.5, 0.36), (239.5, 0.305), (241.5, 0.28), (243.5, 0.25), (245.5, 0.22), (247.5, 0.19), (249.5, 0.15500000000000003), (251.5, 0.13), (253.5, 0.11), (255.5, 0.09), (257.5, 0.07), (259.5, 0.065)]
+median total 230.9, sd 17.97627872498147; margin(OKC) median 0.9285714285714286, sd 13.936249073387696
+- KXNBATEAMTOTAL-26OCT20OKCSAS-OKC107 Oklahoma City over 106.5 points mid 0.810 model 0.796 diff +0.014
+- KXNBATEAMTOTAL-26OCT20OKCSAS-OKC109 Oklahoma City over 108.5 points mid 0.750 model 0.743 diff +0.007
+- KXNBATEAMTOTAL-26OCT20OKCSAS-OKC111 Oklahoma City over 110.5 points mid 0.695 model 0.683 diff +0.012
+- KXNBATEAMTOTAL-26OCT20OKCSAS-OKC113 Oklahoma City over 112.5 points mid 0.615 model 0.618 diff -0.003
+- KXNBATEAMTOTAL-26OCT20OKCSAS-OKC115 Oklahoma City over 114.5 points mid 0.555 model 0.549 diff +0.006
+- KXNBATEAMTOTAL-26OCT20OKCSAS-OKC117 Oklahoma City over 116.5 points mid 0.465 model 0.479 diff -0.014
+- KXNBATEAMTOTAL-26OCT20OKCSAS-OKC119 Oklahoma City over 118.5 points mid 0.410 model 0.410 diff -0.000
+- KXNBATEAMTOTAL-26OCT20OKCSAS-OKC121 Oklahoma City over 120.5 points mid 0.345 model 0.343 diff +0.002
+- KXNBATEAMTOTAL-26OCT20OKCSAS-OKC123 Oklahoma City over 122.5 points mid 0.285 model 0.281 diff +0.004
+- KXNBATEAMTOTAL-26OCT20OKCSAS-SAS111 San Antonio over 110.5 points mid 0.665 model 0.653 diff +0.012
+- KXNBATEAMTOTAL-26OCT20OKCSAS-SAS113 San Antonio over 112.5 points mid 0.600 model 0.587 diff +0.013
+- KXNBATEAMTOTAL-26OCT20OKCSAS-SAS115 San Antonio over 114.5 points mid 0.530 model 0.517 diff +0.013
+- KXNBATEAMTOTAL-26OCT20OKCSAS-SAS117 San Antonio over 116.5 points mid 0.470 model 0.447 diff +0.023
+- KXNBATEAMTOTAL-26OCT20OKCSAS-SAS119 San Antonio over 118.5 points mid 0.390 model 0.379 diff +0.011
+- KXNBATEAMTOTAL-26OCT20OKCSAS-SAS121 San Antonio over 120.5 points mid 0.330 model 0.314 diff +0.016
+- KXNBATEAMTOTAL-26OCT20OKCSAS-SAS123 San Antonio over 122.5 points mid 0.270 model 0.254 diff +0.016
+- KXNBATEAMTOTAL-26OCT20OKCSAS-SAS125 San Antonio over 124.5 points mid 0.220 model 0.201 diff +0.019

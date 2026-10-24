@@ -1,0 +1,484 @@
+{
+  "generated": "2026-10-20 05:31:16",
+  "runtime_s": 10.4,
+  "primary": "T-th2-X2",
+  "coverage": {
+    "games_in_db": 92,
+    "dropped": {},
+    "offgrid_candles": 0,
+    "inputs_skipped": {
+      "A_missing_input": 108
+    },
+    "fee_types": {
+      "KXNFLWINMARGIN": "quadratic",
+      "KXNFLGAME": "quadratic_with_maker_fees",
+      "KXNFLTIE": "quadratic",
+      "KXNFLSPREAD": "quadratic_with_maker_fees"
+    }
+  },
+  "games": {
+    "discovery": {
+      "games": 48,
+      "first": "2026-09-10 03:20:00",
+      "last": "2026-09-29 03:15:00",
+      "markets": 1753,
+      "targets": 186,
+      "mean_known_share_by_series": {
+        "KXNFLWINMARGIN": 0.724995275888133,
+        "KXNFLGAME": 0.7465277777777777,
+        "KXNFLSPREAD": 0.7078439854367182
+      }
+    },
+    "unseen": {
+      "games": 44,
+      "first": "2026-10-02 00:15:00",
+      "last": "2026-10-19 00:20:00",
+      "markets": 1627,
+      "targets": 258,
+      "mean_known_share_by_series": {
+        "KXNFLWINMARGIN": 0.8338899196042052,
+        "KXNFLGAME": 0.872763347763348,
+        "KXNFLTIE": 0.7677128427128427,
+        "KXNFLSPREAD": 0.8333426939998129
+      }
+    }
+  },
+  "unseen_games": 44,
+  "versions": {
+    "T-th1-X1": {
+      "discovery": {
+        "games": 48,
+        "trades": 185,
+        "contracts": 610,
+        "net_per_contract_c": 3.0062131147540985,
+        "total_usd": 18.3379,
+        "usd_per_week": 5.730593750000001,
+        "boot_lo_c": -2.9424662671821302,
+        "boot_hi_c": 9.231834963002113,
+        "fill_check_share": 0.2756756756756757,
+        "win_rate": 0.572972972972973,
+        "share_x2": 0.0,
+        "markout_1m_c": -5.646892655367232,
+        "markout_1m_n": 177,
+        "markout_5m_c": -3.2440476190476195,
+        "markout_5m_n": 168,
+        "markout_15m_c": -2.267080745341615,
+        "markout_15m_n": 161
+      },
+      "unseen": {
+        "games": 44,
+        "trades": 353,
+        "contracts": 1108,
+        "net_per_contract_c": 0.9700180505415167,
+        "total_usd": 10.747800000000005,
+        "usd_per_week": 3.6640227272727293,
+        "boot_lo_c": -1.5721006776612427,
+        "boot_hi_c": 3.573858184887931,
+        "fill_check_share": 0.21813031161473087,
+        "win_rate": 0.5495750708215298,
+        "share_x2": 0.0,
+        "markout_1m_c": -1.6942857142857142,
+        "markout_1m_n": 350,
+        "markout_5m_c": -0.3786127167630058,
+        "markout_5m_n": 346,
+        "markout_15m_c": -0.06676557863501485,
+        "markout_15m_n": 337
+      }
+    },
+    "T-th1-X2": {
+      "discovery": {
+        "games": 48,
+        "trades": 240,
+        "contracts": 810,
+        "net_per_contract_c": 0.7913950617283949,
+        "total_usd": 6.4102999999999986,
+        "usd_per_week": 2.0032187499999994,
+        "boot_lo_c": -2.2762193011130636,
+        "boot_hi_c": 4.337711810197776,
+        "fill_check_share": 0.3416666666666667,
+        "win_rate": 0.5625,
+        "share_x2": 0.7208333333333333,
+        "markout_1m_c": -5.1000000000000005,
+        "markout_1m_n": 230,
+        "markout_5m_c": -3.0659090909090914,
+        "markout_5m_n": 220,
+        "markout_15m_c": -1.5434782608695654,
+        "markout_15m_n": 207
+      },
+      "unseen": {
+        "games": 44,
+        "trades": 506,
+        "contracts": 1605,
+        "net_per_contract_c": -0.5190841121495327,
+        "total_usd": -8.331299999999999,
+        "usd_per_week": -2.840215909090909,
+        "boot_lo_c": -2.2525829950755396,
+        "boot_hi_c": 1.4834446358912663,
+        "fill_check_share": 0.2707509881422925,
+        "win_rate": 0.41106719367588934,
+        "share_x2": 0.7885375494071146,
+        "markout_1m_c": -1.7766599597585517,
+        "markout_1m_n": 497,
+        "markout_5m_c": -0.6080246913580248,
+        "markout_5m_n": 486,
+        "markout_15m_c": -0.43454935622317603,
+        "markout_15m_n": 466
+      }
+    },
+    "T-th2-X1": {
+      "discovery": {
+        "games": 48,
+        "trades": 111,
+        "contracts": 354,
+        "net_per_contract_c": 4.575169491525423,
+        "total_usd": 16.196099999999998,
+        "usd_per_week": 5.061281249999999,
+        "boot_lo_c": -4.5686108916535,
+        "boot_hi_c": 14.564729332740722,
+        "fill_check_share": 0.35135135135135137,
+        "win_rate": 0.5675675675675675,
+        "share_x2": 0.0,
+        "markout_1m_c": -6.159090909090907,
+        "markout_1m_n": 110,
+        "markout_5m_c": -3.2211538461538467,
+        "markout_5m_n": 104,
+        "markout_15m_c": -1.9846938775510203,
+        "markout_15m_n": 98
+      },
+      "unseen": {
+        "games": 44,
+        "trades": 178,
+        "contracts": 552,
+        "net_per_contract_c": -2.38143115942029,
+        "total_usd": -13.1455,
+        "usd_per_week": -4.481420454545455,
+        "boot_lo_c": -6.983007107142855,
+        "boot_hi_c": 2.895150658560595,
+        "fill_check_share": 0.29213483146067415,
+        "win_rate": 0.47752808988764045,
+        "share_x2": 0.0,
+        "markout_1m_c": -1.615819209039548,
+        "markout_1m_n": 177,
+        "markout_5m_c": -0.4545454545454546,
+        "markout_5m_n": 176,
+        "markout_15m_c": -0.057142857142857106,
+        "markout_15m_n": 175
+      }
+    },
+    "T-th2-X2": {
+      "discovery": {
+        "games": 48,
+        "trades": 123,
+        "contracts": 387,
+        "net_per_contract_c": 1.7225581395348826,
+        "total_usd": 6.666299999999996,
+        "usd_per_week": 2.083218749999999,
+        "boot_lo_c": -2.672150609180609,
+        "boot_hi_c": 7.031524933686998,
+        "fill_check_share": 0.3902439024390244,
+        "win_rate": 0.6097560975609756,
+        "share_x2": 0.6829268292682927,
+        "markout_1m_c": -5.9549180327868845,
+        "markout_1m_n": 122,
+        "markout_5m_c": -3.0862068965517246,
+        "markout_5m_n": 116,
+        "markout_15m_c": -1.5324074074074077,
+        "markout_15m_n": 108
+      },
+      "unseen": {
+        "games": 44,
+        "trades": 216,
+        "contracts": 674,
+        "net_per_contract_c": 0.9674777448071218,
+        "total_usd": 6.520800000000001,
+        "usd_per_week": 2.2230000000000003,
+        "boot_lo_c": -2.5194994553706502,
+        "boot_hi_c": 5.061357953211889,
+        "fill_check_share": 0.32407407407407407,
+        "win_rate": 0.36574074074074076,
+        "share_x2": 0.75,
+        "markout_1m_c": -1.8192488262910798,
+        "markout_1m_n": 213,
+        "markout_5m_c": -0.22511848341232227,
+        "markout_5m_n": 211,
+        "markout_15m_c": -0.4583333333333336,
+        "markout_15m_n": 204
+      }
+    },
+    "T-th3-X1": {
+      "discovery": {
+        "games": 48,
+        "trades": 54,
+        "contracts": 148,
+        "net_per_contract_c": 7.016689189189189,
+        "total_usd": 10.3847,
+        "usd_per_week": 3.24521875,
+        "boot_lo_c": -7.932627952755904,
+        "boot_hi_c": 25.980886111111086,
+        "fill_check_share": 0.42592592592592593,
+        "win_rate": 0.6111111111111112,
+        "share_x2": 0.0,
+        "markout_1m_c": -6.333333333333334,
+        "markout_1m_n": 54,
+        "markout_5m_c": -2.0288461538461537,
+        "markout_5m_n": 52,
+        "markout_15m_c": -1.2653061224489794,
+        "markout_15m_n": 49
+      },
+      "unseen": {
+        "games": 44,
+        "trades": 83,
+        "contracts": 272,
+        "net_per_contract_c": 3.1459191176470584,
+        "total_usd": 8.556899999999999,
+        "usd_per_week": 2.9171249999999995,
+        "boot_lo_c": -5.705743550368551,
+        "boot_hi_c": 13.283991908226964,
+        "fill_check_share": 0.2891566265060241,
+        "win_rate": 0.43373493975903615,
+        "share_x2": 0.0,
+        "markout_1m_c": -1.6829268292682928,
+        "markout_1m_n": 82,
+        "markout_5m_c": -0.9268292682926829,
+        "markout_5m_n": 82,
+        "markout_15m_c": -1.201219512195122,
+        "markout_15m_n": 82
+      }
+    },
+    "T-th3-X2": {
+      "discovery": {
+        "games": 48,
+        "trades": 58,
+        "contracts": 159,
+        "net_per_contract_c": 5.524528301886792,
+        "total_usd": 8.783999999999999,
+        "usd_per_week": 2.7449999999999997,
+        "boot_lo_c": -3.671261484047508,
+        "boot_hi_c": 19.19777817370289,
+        "fill_check_share": 0.41379310344827586,
+        "win_rate": 0.6724137931034483,
+        "share_x2": 0.6379310344827587,
+        "markout_1m_c": -6.431034482758621,
+        "markout_1m_n": 58,
+        "markout_5m_c": -2.142857142857143,
+        "markout_5m_n": 56,
+        "markout_15m_c": -1.3529411764705885,
+        "markout_15m_n": 51
+      },
+      "unseen": {
+        "games": 44,
+        "trades": 94,
+        "contracts": 312,
+        "net_per_contract_c": 5.390576923076922,
+        "total_usd": 16.818599999999996,
+        "usd_per_week": 5.733613636363636,
+        "boot_lo_c": -1.328171942934782,
+        "boot_hi_c": 13.863169409613372,
+        "fill_check_share": 0.30851063829787234,
+        "win_rate": 0.43617021276595747,
+        "share_x2": 0.723404255319149,
+        "markout_1m_c": -1.8478260869565217,
+        "markout_1m_n": 92,
+        "markout_5m_c": -0.7197802197802198,
+        "markout_5m_n": 91,
+        "markout_15m_c": -0.8426966292134833,
+        "markout_15m_n": 89
+      }
+    },
+    "M-d1": {
+      "discovery": {
+        "games": 48,
+        "trades": 201,
+        "contracts": 938,
+        "net_per_contract_c": -0.06396588486140645,
+        "total_usd": -0.5999999999999925,
+        "usd_per_week": -0.18749999999999767,
+        "boot_lo_c": -2.7692881899507698,
+        "boot_hi_c": 3.3614801206379745,
+        "fill_check_share": null,
+        "win_rate": 0.3582089552238806,
+        "share_x2": 0.8009950248756219,
+        "markout_1m_c": 1.4736842105263157,
+        "markout_1m_n": 190,
+        "markout_5m_c": 1.8235294117647058,
+        "markout_5m_n": 187,
+        "markout_15m_c": 2.0764705882352943,
+        "markout_15m_n": 170
+      },
+      "unseen": {
+        "games": 44,
+        "trades": 366,
+        "contracts": 1624,
+        "net_per_contract_c": -0.4998091133004924,
+        "total_usd": -8.116899999999996,
+        "usd_per_week": -2.7671249999999987,
+        "boot_lo_c": -1.94673324616929,
+        "boot_hi_c": 0.9170652782660175,
+        "fill_check_share": null,
+        "win_rate": 0.31693989071038253,
+        "share_x2": 0.7622950819672131,
+        "markout_1m_c": -1.267605633802817,
+        "markout_1m_n": 355,
+        "markout_5m_c": -0.8313953488372093,
+        "markout_5m_n": 344,
+        "markout_15m_c": -0.8412698412698412,
+        "markout_15m_n": 315
+      }
+    },
+    "M-d2": {
+      "discovery": {
+        "games": 48,
+        "trades": 167,
+        "contracts": 761,
+        "net_per_contract_c": 0.3379632063074901,
+        "total_usd": 2.5718999999999994,
+        "usd_per_week": 0.8037187499999998,
+        "boot_lo_c": -2.9488266992075673,
+        "boot_hi_c": 4.304411616335721,
+        "fill_check_share": null,
+        "win_rate": 0.39520958083832336,
+        "share_x2": 0.7784431137724551,
+        "markout_1m_c": 2.449044585987261,
+        "markout_1m_n": 157,
+        "markout_5m_c": 3.0769230769230766,
+        "markout_5m_n": 156,
+        "markout_15m_c": 2.5144927536231885,
+        "markout_15m_n": 138
+      },
+      "unseen": {
+        "games": 44,
+        "trades": 299,
+        "contracts": 1295,
+        "net_per_contract_c": 0.10224710424710408,
+        "total_usd": 1.3240999999999978,
+        "usd_per_week": 0.45139772727272653,
+        "boot_lo_c": -1.7724103939317477,
+        "boot_hi_c": 2.034100005390539,
+        "fill_check_share": null,
+        "win_rate": 0.3377926421404682,
+        "share_x2": 0.7391304347826086,
+        "markout_1m_c": -0.7197231833910035,
+        "markout_1m_n": 289,
+        "markout_5m_c": -0.3826714801444044,
+        "markout_5m_n": 277,
+        "markout_15m_c": 0.12204724409448808,
+        "markout_15m_n": 254
+      }
+    }
+  },
+  "primary_detail": {
+    "discovery": {
+      "by_phase": {
+        "ingame": {
+          "trades": 45,
+          "contracts": 103,
+          "net_per_contract_c": 7.850194174757282,
+          "total_usd": 8.0857
+        },
+        "pregame": {
+          "trades": 78,
+          "contracts": 284,
+          "net_per_contract_c": -0.49978873239436594,
+          "total_usd": -1.4193999999999993
+        }
+      },
+      "by_bucket": {
+        "15+": {
+          "trades": 31,
+          "contracts": 82,
+          "net_per_contract_c": -0.188658536585366,
+          "total_usd": -0.15470000000000012
+        },
+        "7-14": {
+          "trades": 92,
+          "contracts": 305,
+          "net_per_contract_c": 2.236393442622951,
+          "total_usd": 6.821000000000001
+        }
+      },
+      "by_side": {
+        "no": {
+          "trades": 62,
+          "contracts": 70,
+          "net_per_contract_c": 3.7128571428571435,
+          "total_usd": 2.5990000000000006
+        },
+        "yes": {
+          "trades": 61,
+          "contracts": 317,
+          "net_per_contract_c": 1.2830599369085163,
+          "total_usd": 4.067299999999997
+        }
+      }
+    },
+    "unseen": {
+      "by_phase": {
+        "ingame": {
+          "trades": 181,
+          "contracts": 533,
+          "net_per_contract_c": -0.3070168855534708,
+          "total_usd": -1.6363999999999992
+        },
+        "pregame": {
+          "trades": 35,
+          "contracts": 141,
+          "net_per_contract_c": 5.785248226950354,
+          "total_usd": 8.1572
+        }
+      },
+      "by_bucket": {
+        "1-6": {
+          "trades": 116,
+          "contracts": 376,
+          "net_per_contract_c": 1.1704255319148935,
+          "total_usd": 4.400799999999999
+        },
+        "15+": {
+          "trades": 9,
+          "contracts": 41,
+          "net_per_contract_c": -1.131463414634147,
+          "total_usd": -0.46390000000000026
+        },
+        "7-14": {
+          "trades": 91,
+          "contracts": 257,
+          "net_per_contract_c": 1.0054085603112835,
+          "total_usd": 2.5838999999999985
+        }
+      },
+      "by_side": {
+        "no": {
+          "trades": 94,
+          "contracts": 104,
+          "net_per_contract_c": -3.414903846153846,
+          "total_usd": -3.5515
+        },
+        "yes": {
+          "trades": 122,
+          "contracts": 570,
+          "net_per_contract_c": 1.7670701754385958,
+          "total_usd": 10.072299999999995
+        }
+      }
+    }
+  },
+  "coin_flip_primary_unseen": {
+    "copies": 500,
+    "real_c": 0.9674777448071218,
+    "share_as_good": 0.006,
+    "copy_mean_c": -1.7286638663591556,
+    "copy_p95_c": 0.07099876645766658
+  },
+  "verdict": {
+    "run": true,
+    "lines": {
+      "1 mean net/contract > 0 in discovery and unseen": true,
+      "2 unseen bootstrap lower bound > 0": false,
+      "3 at least 100 unseen trades": true,
+      "4 coin flip: <= 5% of copies as good on unseen": true,
+      "5 >= $2/week at real size (discovery and unseen)": true,
+      "6 >= 50% of entries with a print at the entry price within the minute (discovery and unseen)": false
+    },
+    "pass": false
+  }
+}

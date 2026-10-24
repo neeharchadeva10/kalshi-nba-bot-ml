@@ -1,0 +1,18 @@
+{
+ "sha256": {
+  "fa_lib.py": "e43eedab00ff8a7e4a85579c6a7b02cffe612d88a7fd6cd5596a0e719641360b",
+  "run_confirm.py": "cdb63ea3c8f1cc3cb15eee66824c72917b385831df0d3917707a06c9be350ff5",
+  "player_model.py": "f21fb78ba9721b7e8f9c7eda73b679c102113d0edcfb244fd095c283c632f4de",
+  "repro_check.py": "5ab8b6b30f5ff6ad4bdb865582c32c3a9be6b2c41ee7dea88883670f1fcc9575",
+  "../nba_totals_grid/grid_lib.py": "7871610b3e3055d87639dbd389ba9a15417c0904e74bc9da78d290dec37065e1",
+  "../nba_totals_grid/grid_bets.py": "f8010c5f9cc3845a257287b4db9fa79ca52ab35c093023e6186e3c6332dae88d",
+  "../nba_totals_grid/grid_run.py": "a806f0184ca1113b35af313d5fb60c19d96446f02e27679303b8a94e183d7ef8",
+  "../nba_totals_pace/lib.py": "e5c2a94321b5413959e2ba6b2106823ee1d0883801581efdbd8797e022c6ff57",
+  "../nba_totals_pace/prep.py": "eff25a56a3edd73d80d4dd7d53fe77499adcfec1ed3e9fb63f172e1b69866ce4",
+  "../nba_totals_pace/run.py": "59784d54e6710c4397fdf594cb9b9008e5545bf436359ca9a23b3d055dad3f51",
+  "../nba_totals_v2/ratings2.py": "a0f4d7e68d1f4fb8d0533687d030502c27606be708eb2f87ecbb7b8c6f09688d",
+  "../nba_totals_v2/run.py": "133472876bc738e6d855fa1a75352e90da379598142ec48ff0816048977b9863",
+  "../nba_totals_tourney/tourney.py": "9de67467f0d77fe65626782de128467394f41ac46729e9ac7009ceb852f155e7",
+  "../nba_teammate_out/tm_lib.py": "c6dc27d040eb97d02e9f21433503ec696d57f9c22c88491789c8e7be1e8a7edf"
+ }
+}

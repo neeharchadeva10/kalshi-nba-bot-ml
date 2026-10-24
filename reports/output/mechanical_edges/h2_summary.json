@@ -1,0 +1,53 @@
+{
+  "pairs": 11095,
+  "by_split": [
+    {
+      "split": "early",
+      "hours": 701,
+      "snapshots": 30080,
+      "violations": 62,
+      "hours_with_violation": 41,
+      "mean_profit_c": 0.5546886363636365,
+      "realized_mean_c": 2.8274159090909095,
+      "persist_next_min": 0.1774193548387097,
+      "usd_per_day_1_contract": 0.04146876666666667,
+      "payout_below_1": 0
+    },
+    {
+      "split": "fresh",
+      "hours": 1404,
+      "snapshots": 54894,
+      "violations": 119,
+      "hours_with_violation": 77,
+      "mean_profit_c": 0.860771951219513,
+      "realized_mean_c": 4.519308536585366,
+      "persist_next_min": 0.20168067226890757,
+      "usd_per_day_1_contract": 0.06176388333333334,
+      "payout_below_1": 0
+    },
+    {
+      "split": "later",
+      "hours": 819,
+      "snapshots": 30061,
+      "violations": 58,
+      "hours_with_violation": 42,
+      "mean_profit_c": 0.8561534883720943,
+      "realized_mean_c": 3.1817348837209303,
+      "persist_next_min": 0.15517241379310345,
+      "usd_per_day_1_contract": 0.03908988571428572,
+      "payout_below_1": 0
+    },
+    {
+      "split": "all",
+      "hours": 2924,
+      "snapshots": 115035,
+      "violations": 239,
+      "hours_with_violation": 160,
+      "mean_profit_c": 0.7799065088757404,
+      "realized_mean_c": 3.738486390532546,
+      "persist_next_min": 0.18410041841004185,
+      "usd_per_day_1_contract": 0.050544336000000016,
+      "payout_below_1": 0
+    }
+  ]
+}

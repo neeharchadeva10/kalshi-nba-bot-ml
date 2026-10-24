@@ -1,0 +1,229 @@
+{
+ "about": "Fixtures for tests/execution. 'public_capture' files are byte-exact public market-data responses (no authentication was used). 'spec_example' files are verbatim OpenAPI 3.32.0 / AsyncAPI examples. 'synthetic' files are shaped from the OpenAPI 3.32.0 schemas and the verified research notes; replace them with redacted demo recordings when those exist. No file contains a key, key id, signature or account identifier.",
+ "files": {
+  "markets_KXBTC15M_open_1400.json": {
+   "kind": "public_capture",
+   "source": "GET external-api.kalshi.com /markets?series_ticker=KXBTC15M&status=open (17:45Z; just before close, empty ask side as 1.0000 x 0.00)",
+   "note": "public unauthenticated GET, 2026-10-05, saved by the research agents"
+  },
+  "markets_KXBTC15M_open_1430.json": {
+   "kind": "public_capture",
+   "source": "GET /markets?series_ticker=KXBTC15M&status=open (18:15Z; tapered_deci_cent, exchange_index 2)",
+   "note": "public unauthenticated GET, 2026-10-05, saved by the research agents"
+  },
+  "markets_KXBTC15M_open_demo.json": {
+   "kind": "public_capture",
+   "source": "GET external-api.demo.kalshi.co /markets?series_ticker=KXBTC15M&status=open (includes a stale 'closed' May market on shard 0)",
+   "note": "public unauthenticated GET, 2026-10-05, saved by the research agents"
+  },
+  "market_KXBTC15M-26OCT051430-30.json": {
+   "kind": "public_capture",
+   "source": "GET /markets/KXBTC15M-26OCT051430-30 (the {market: ...} wrapper)",
+   "note": "public unauthenticated GET, 2026-10-05, saved by the research agents"
+  },
+  "markets_KXUSDJPY15M_open.json": {
+   "kind": "public_capture",
+   "source": "GET /markets?series_ticker=KXUSDJPY15M&status=open (linear_cent, exchange_index 0)",
+   "note": "public unauthenticated GET, 2026-10-05, saved by the research agents"
+  },
+  "series_KXBTC15M.json": {
+   "kind": "public_capture",
+   "source": "GET /series/KXBTC15M (exchange_index 2, quadratic, multiplier 1)",
+   "note": "public unauthenticated GET, 2026-10-05, saved by the research agents"
+  },
+  "series_KXUSDJPY15M.json": {
+   "kind": "public_capture",
+   "source": "GET /series/KXUSDJPY15M (exchange_index 0)",
+   "note": "public unauthenticated GET, 2026-10-05, saved by the research agents"
+  },
+  "series_KXTEMPMIAH.json": {
+   "kind": "public_capture",
+   "source": "GET /series/KXTEMPMIAH (exchange_index 0)",
+   "note": "public unauthenticated GET, 2026-10-05, saved by the research agents"
+  },
+  "orderbook_KXBTC15M-26OCT051430-30_full.json": {
+   "kind": "public_capture",
+   "source": "GET /markets/KXBTC15M-26OCT051430-30/orderbook (~18:16Z; ascending, best bid last)",
+   "note": "public unauthenticated GET, 2026-10-05, saved by the research agents"
+  },
+  "orderbook_KXBTC15M-26OCT051430-30_depth3.json": {
+   "kind": "public_capture",
+   "source": "GET /markets/KXBTC15M-26OCT051430-30/orderbook?depth=3 (~18:16Z)",
+   "note": "public unauthenticated GET, 2026-10-05, saved by the research agents"
+  },
+  "orderbook_KXBTC15M-26OCT051430-30_full_subcent.json": {
+   "kind": "public_capture",
+   "source": "GET /markets/KXBTC15M-26OCT051430-30/orderbook (~18:25Z; sub-cent YES levels above 0.90)",
+   "note": "public unauthenticated GET, 2026-10-05, saved by the research agents"
+  },
+  "orderbook_demo_one_sided.json": {
+   "kind": "public_capture",
+   "source": "GET external-api.demo.kalshi.co /markets/KXBTC15M-26OCT051430-30/orderbook (NO side empty)",
+   "note": "public unauthenticated GET, 2026-10-05, saved by the research agents"
+  },
+  "exchange_status_prod.json": {
+   "kind": "public_capture",
+   "source": "GET external-api.kalshi.com /exchange/status",
+   "note": "public unauthenticated GET, 2026-10-05, saved by the research agents"
+  },
+  "exchange_status_demo.json": {
+   "kind": "public_capture",
+   "source": "GET external-api.demo.kalshi.co /exchange/status",
+   "note": "public unauthenticated GET, 2026-10-05, saved by the research agents"
+  },
+  "error_404_not_found.json": {
+   "kind": "public_capture",
+   "source": "GET /markets/NOT-A-REAL-TICKER-XYZ -> HTTP 404",
+   "note": "public unauthenticated GET, 2026-10-05, saved by the research agents"
+  },
+  "error_429_nested.json": {
+   "kind": "public_capture",
+   "source": "GET api.elections.kalshi.com /markets?limit=1 -> HTTP 429 (CloudFront; nested body)",
+   "note": "public unauthenticated GET, 2026-10-05, saved by the research agents"
+  },
+  "incentive_programs_active.json": {
+   "kind": "public_capture",
+   "source": "GET /incentive_programs?status=active&type=liquidity&limit=3",
+   "note": "public unauthenticated GET, 2026-10-05, saved by the research agents"
+  },
+  "user_data_timestamp.json": {
+   "kind": "public_capture",
+   "source": "GET /exchange/user_data_timestamp",
+   "note": "public unauthenticated GET, 2026-10-05, saved by the research agents"
+  },
+  "historical_cutoff.json": {
+   "kind": "public_capture",
+   "source": "GET /historical/cutoff",
+   "note": "public unauthenticated GET, 2026-10-05, saved by the research agents"
+  },
+  "markets_KXBTCD-26AUG2722_settled.json": {
+   "kind": "public_capture",
+   "source": "GET api.elections.kalshi.com /markets?event_ticker=KXBTCD-26AUG2722&limit=1000 from the research cache (data/raw/kalshi); hourly strikes, linear_cent, exchange_index 2, finalized with results",
+   "note": "public unauthenticated GET cached by the research collectors; re-serialized compactly"
+  },
+  "synthetic/account_limits.json": {
+   "kind": "synthetic",
+   "source": "shaped from the OpenAPI 3.32.0 schema; values invented"
+  },
+  "synthetic/amend_200_no_remaining.json": {
+   "kind": "synthetic",
+   "source": "shaped from the OpenAPI 3.32.0 schema; values invented"
+  },
+  "synthetic/balance.json": {
+   "kind": "synthetic",
+   "source": "shaped from the OpenAPI 3.32.0 schema; values invented"
+  },
+  "synthetic/balance_shard2.json": {
+   "kind": "synthetic",
+   "source": "shaped from the OpenAPI 3.32.0 schema; values invented"
+  },
+  "synthetic/batch_cancel_200.json": {
+   "kind": "spec_example",
+   "source": "OpenAPI 3.32.0 / AsyncAPI documented example"
+  },
+  "synthetic/batch_cancel_200_one_error.json": {
+   "kind": "synthetic",
+   "source": "shaped from the OpenAPI 3.32.0 schema; values invented"
+  },
+  "synthetic/batch_create_201_both_filled.json": {
+   "kind": "synthetic",
+   "source": "shaped from the OpenAPI 3.32.0 schema; values invented"
+  },
+  "synthetic/batch_create_201_one_error.json": {
+   "kind": "synthetic",
+   "source": "shaped from the OpenAPI 3.32.0 schema; values invented"
+  },
+  "synthetic/cancel_200.json": {
+   "kind": "spec_example",
+   "source": "OpenAPI 3.32.0 / AsyncAPI documented example"
+  },
+  "synthetic/cancel_200_other_order.json": {
+   "kind": "synthetic",
+   "source": "shaped from the OpenAPI 3.32.0 schema; values invented"
+  },
+  "synthetic/create_201_ioc_filled.json": {
+   "kind": "synthetic",
+   "source": "shaped from the OpenAPI 3.32.0 schema; values invented"
+  },
+  "synthetic/create_201_ioc_unfilled.json": {
+   "kind": "synthetic",
+   "source": "shaped from the OpenAPI 3.32.0 schema; values invented"
+  },
+  "synthetic/create_201_resting.json": {
+   "kind": "spec_example",
+   "source": "OpenAPI 3.32.0 / AsyncAPI documented example"
+  },
+  "synthetic/decrease_200.json": {
+   "kind": "spec_example",
+   "source": "OpenAPI 3.32.0 / AsyncAPI documented example"
+  },
+  "synthetic/error_400_bad_request.json": {
+   "kind": "synthetic",
+   "source": "live public 400 body quoted in the orders verification notes"
+  },
+  "synthetic/error_400_msg.json": {
+   "kind": "synthetic",
+   "source": "shape of a live public parameter-validation 400 (message text reconstructed)"
+  },
+  "synthetic/error_400_post_only_cross.json": {
+   "kind": "synthetic",
+   "source": "legacy-era changelog code/details for a crossing post-only order"
+  },
+  "synthetic/error_401.json": {
+   "kind": "synthetic",
+   "source": "shaped from the OpenAPI 3.32.0 schema; values invented"
+  },
+  "synthetic/error_409_duplicate.json": {
+   "kind": "synthetic",
+   "source": "shaped from the OpenAPI 3.32.0 schema; values invented"
+  },
+  "synthetic/error_429_flat.json": {
+   "kind": "spec_example",
+   "source": "OpenAPI 3.32.0 / AsyncAPI documented example"
+  },
+  "synthetic/fills.json": {
+   "kind": "synthetic",
+   "source": "shaped from the OpenAPI 3.32.0 schema; values invented"
+  },
+  "synthetic/order_single.json": {
+   "kind": "synthetic",
+   "source": "shaped from the OpenAPI 3.32.0 schema; values invented"
+  },
+  "synthetic/orders.json": {
+   "kind": "synthetic",
+   "source": "shaped from the OpenAPI 3.32.0 schema; values invented"
+  },
+  "synthetic/orders_page1.json": {
+   "kind": "synthetic",
+   "source": "shaped from the OpenAPI 3.32.0 schema; values invented"
+  },
+  "synthetic/orders_page2.json": {
+   "kind": "synthetic",
+   "source": "shaped from the OpenAPI 3.32.0 schema; values invented"
+  },
+  "synthetic/positions.json": {
+   "kind": "synthetic",
+   "source": "shaped from the OpenAPI 3.32.0 schema; values invented"
+  },
+  "synthetic/queue_position.json": {
+   "kind": "synthetic",
+   "source": "shaped from the OpenAPI 3.32.0 schema; values invented"
+  },
+  "synthetic/settlements.json": {
+   "kind": "synthetic",
+   "source": "shaped from the OpenAPI 3.32.0 schema; values invented"
+  },
+  "synthetic/ws_fill.json": {
+   "kind": "spec_example",
+   "source": "OpenAPI 3.32.0 / AsyncAPI documented example"
+  },
+  "synthetic/ws_market_position.json": {
+   "kind": "spec_example",
+   "source": "OpenAPI 3.32.0 / AsyncAPI documented example"
+  },
+  "synthetic/ws_user_order.json": {
+   "kind": "spec_example",
+   "source": "OpenAPI 3.32.0 / AsyncAPI documented example"
+  }
+ }
+}

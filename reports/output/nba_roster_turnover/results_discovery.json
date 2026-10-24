@@ -1,0 +1,236 @@
+{
+ "data_checks": {
+  "2023": {
+   "season_end": 2023,
+   "season": "2022-23",
+   "season_start_et": "2022-10-18",
+   "hoopr_regular_games": 1230,
+   "odds_rows": 1319,
+   "matched_exact_date": 1228,
+   "matched_shifted_1day": 0,
+   "odds_unmatched_or_not_regular_season": 91,
+   "hoopr_regular_games_without_line": 2,
+   "match_rate_of_regular_games": 0.9984,
+   "teams": 30,
+   "players_with_rows_for_2plus_teams_prev_season": 106,
+   "spread_sign_agrees_with_ML_home_fav": 0.9723,
+   "rows_missing_line_or_result": 0,
+   "points_mismatch_vs_hoopR": 0,
+   "margin_mismatch_vs_hoopR": 0,
+   "win_margin_is_home_minus_away": true
+  },
+  "2024": {
+   "season_end": 2024,
+   "season": "2023-24",
+   "season_start_et": "2023-10-24",
+   "hoopr_regular_games": 1231,
+   "odds_rows": 1255,
+   "matched_exact_date": 1217,
+   "matched_shifted_1day": 0,
+   "odds_unmatched_or_not_regular_season": 38,
+   "hoopr_regular_games_without_line": 14,
+   "match_rate_of_regular_games": 0.9886,
+   "teams": 30,
+   "players_with_rows_for_2plus_teams_prev_season": 70,
+   "spread_sign_agrees_with_ML_home_fav": 0.9729,
+   "rows_missing_line_or_result": 0,
+   "points_mismatch_vs_hoopR": 0,
+   "margin_mismatch_vs_hoopR": 0,
+   "win_margin_is_home_minus_away": true
+  },
+  "2025": {
+   "season_end": 2025,
+   "season": "2024-25",
+   "season_start_et": "2024-10-22",
+   "hoopr_regular_games": 1231,
+   "odds_rows": 1326,
+   "matched_exact_date": 1231,
+   "matched_shifted_1day": 0,
+   "odds_unmatched_or_not_regular_season": 95,
+   "hoopr_regular_games_without_line": 0,
+   "match_rate_of_regular_games": 1.0,
+   "teams": 30,
+   "players_with_rows_for_2plus_teams_prev_season": 82,
+   "spread_sign_agrees_with_ML_home_fav": 0.9821,
+   "rows_missing_line_or_result": 0
+  },
+  "2026": {
+   "season_end": 2026,
+   "season": "2025-26",
+   "season_start_et": "2025-10-21",
+   "hoopr_regular_games": 1231,
+   "odds_rows": 554,
+   "matched_exact_date": 554,
+   "matched_shifted_1day": 0,
+   "odds_unmatched_or_not_regular_season": 0,
+   "hoopr_regular_games_without_line": 677,
+   "match_rate_of_regular_games": 0.45,
+   "teams": 30,
+   "players_with_rows_for_2plus_teams_prev_season": 85,
+   "spread_sign_agrees_with_ML_home_fav": 0.9747,
+   "rows_missing_line_or_result": 0
+  }
+ },
+ "n_discovery_games_with_line": 2445,
+ "n_discovery_games_excluded_first3": 93,
+ "n_discovery_games_in_bet_pool": 2352,
+ "n_versions": 32,
+ "selected": {
+  "version": "spread-back-low20-d30-low_in_game",
+  "market": "spread",
+  "dir": "back",
+  "thr": 20,
+  "win": 30,
+  "inv": "low_in_game",
+  "n_games_in_set": 104,
+  "n": 102,
+  "win_pct": 0.5686274509803921,
+  "mean": 0.08556149732620322,
+  "sd": 0.9501806278276886,
+  "lb": -0.09883902942321024
+ },
+ "skips": {
+  "first3_either_team": 93,
+  "spread_both_teams_low20_in_pool": 94,
+  "spread_both_teams_low33_in_pool": 245,
+  "pushes_spread_in_pool": 27,
+  "pushes_total_in_pool": 22
+ },
+ "luck_test": {
+  "reps": 500,
+  "seed": 20261022,
+  "real_best_lb": -0.09883902942321024,
+  "share_reps_best_lb_ge_real": 0.326,
+  "rep_best_lb_median": -0.12795935566420422,
+  "rep_best_lb_p95": 0.01189849658430661,
+  "verdict": "FAIL: indistinguishable from luck; unseen not to be opened"
+ },
+ "accuracy_discovery": [
+  {
+   "season_end": 2023,
+   "terc": "low",
+   "team_games": 788,
+   "spread_mae": 9.7138324873,
+   "spread_bias": 0.0590101523,
+   "total_mae": 13.5184010152,
+   "total_bias": 1.0856598985,
+   "window": "all post-first-3 games"
+  },
+  {
+   "season_end": 2023,
+   "terc": "mid",
+   "team_games": 790,
+   "spread_mae": 9.8512658228,
+   "spread_bias": -0.7132911392,
+   "total_mae": 14.7170886076,
+   "total_bias": 1.403164557,
+   "window": "all post-first-3 games"
+  },
+  {
+   "season_end": 2023,
+   "terc": "high",
+   "team_games": 788,
+   "spread_mae": 9.711928934,
+   "spread_bias": 0.6560913706,
+   "total_mae": 14.1560913706,
+   "total_bias": 0.1827411168,
+   "window": "all post-first-3 games"
+  },
+  {
+   "season_end": 2024,
+   "terc": "low",
+   "team_games": 780,
+   "spread_mae": 10.4333333333,
+   "spread_bias": -0.4897435897,
+   "total_mae": 14.1647435897,
+   "total_bias": 0.3224358974,
+   "window": "all post-first-3 games"
+  },
+  {
+   "season_end": 2024,
+   "terc": "mid",
+   "team_games": 777,
+   "spread_mae": 10.5263835264,
+   "spread_bias": 0.0476190476,
+   "total_mae": 13.8751608752,
+   "total_bias": 0.0308880309,
+   "window": "all post-first-3 games"
+  },
+  {
+   "season_end": 2024,
+   "terc": "high",
+   "team_games": 781,
+   "spread_mae": 10.6901408451,
+   "spread_bias": 0.4417413572,
+   "total_mae": 14.0864276569,
+   "total_bias": 0.6626120359,
+   "window": "all post-first-3 games"
+  },
+  {
+   "season_end": 2023,
+   "terc": "low",
+   "team_games": 111,
+   "spread_mae": 11.1981981982,
+   "spread_bias": 1.5585585586,
+   "total_mae": 12.4189189189,
+   "total_bias": -1.7342342342,
+   "window": "first 30 days"
+  },
+  {
+   "season_end": 2023,
+   "terc": "mid",
+   "team_games": 118,
+   "spread_mae": 9.5762711864,
+   "spread_bias": -2.1440677966,
+   "total_mae": 13.8644067797,
+   "total_bias": -0.2288135593,
+   "window": "first 30 days"
+  },
+  {
+   "season_end": 2023,
+   "terc": "high",
+   "team_games": 117,
+   "spread_mae": 10.0085470085,
+   "spread_bias": 0.6837606838,
+   "total_mae": 14.0982905983,
+   "total_bias": 1.6196581197,
+   "window": "first 30 days"
+  },
+  {
+   "season_end": 2024,
+   "terc": "low",
+   "team_games": 114,
+   "spread_mae": 9.0921052632,
+   "spread_bias": -0.3728070175,
+   "total_mae": 14.0087719298,
+   "total_bias": 2.1666666667,
+   "window": "first 30 days"
+  },
+  {
+   "season_end": 2024,
+   "terc": "mid",
+   "team_games": 116,
+   "spread_mae": 9.6767241379,
+   "spread_bias": -0.7198275862,
+   "total_mae": 12.8189655172,
+   "total_bias": 1.9051724138,
+   "window": "first 30 days"
+  },
+  {
+   "season_end": 2024,
+   "terc": "high",
+   "team_games": 114,
+   "spread_mae": 10.7543859649,
+   "spread_bias": 1.1052631579,
+   "total_mae": 13.9912280702,
+   "total_bias": 3.5,
+   "window": "first 30 days"
+  }
+ ],
+ "kalshi_join": {
+  "kalshi_2025_26_events": 1321,
+  "with_main_strike": 1321,
+  "matched_to_odds_by_date_teams": 553,
+  "odds_2025_26_rows": 554
+ }
+}

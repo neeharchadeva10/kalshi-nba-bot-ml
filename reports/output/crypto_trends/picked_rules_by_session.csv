@@ -1,0 +1,91 @@
+rule,split,session,n,mean_c
+buy favorite 0.50-0.60 | 10-14 min left,early,US day (9-17 ET),521,2.9346065259117062
+buy favorite 0.50-0.60 | 10-14 min left,early,US night/Asia,1008,1.582847222222221
+buy favorite 0.50-0.60 | 10-14 min left,early,weekend,614,-2.5956514657980474
+buy favorite 0.50-0.60 | 10-14 min left,fresh,US day (9-17 ET),1052,-2.74207224334601
+buy favorite 0.50-0.60 | 10-14 min left,fresh,US night/Asia,2045,-2.5398239608801974
+buy favorite 0.50-0.60 | 10-14 min left,fresh,weekend,1265,-1.0208458498023736
+buy favorite 0.50-0.60 | 10-14 min left,later,US day (9-17 ET),593,-1.1564924114671185
+buy favorite 0.50-0.60 | 10-14 min left,later,US night/Asia,1181,-2.754530059271805
+buy favorite 0.50-0.60 | 10-14 min left,later,weekend,722,-3.6489196675900297
+buy favorite 0.70-0.80 | 7-10 min left,early,US day (9-17 ET),347,-4.665590778097982
+buy favorite 0.70-0.80 | 7-10 min left,early,US night/Asia,645,4.181937984496124
+buy favorite 0.70-0.80 | 7-10 min left,early,weekend,357,-0.30817927170868253
+buy favorite 0.70-0.80 | 7-10 min left,fresh,US day (9-17 ET),676,-1.1874556213017753
+buy favorite 0.70-0.80 | 7-10 min left,fresh,US night/Asia,1320,1.0517196969696976
+buy favorite 0.70-0.80 | 7-10 min left,fresh,weekend,787,0.545311308767472
+buy favorite 0.70-0.80 | 7-10 min left,later,US day (9-17 ET),366,-2.3199453551912566
+buy favorite 0.70-0.80 | 7-10 min left,later,US night/Asia,687,-0.6553420669577872
+buy favorite 0.70-0.80 | 7-10 min left,later,weekend,462,0.09023809523809544
+buy favorite 0.80-0.90 | 7-10 min left,early,US day (9-17 ET),312,-1.2138141025641032
+buy favorite 0.80-0.90 | 7-10 min left,early,US night/Asia,591,1.9471573604060914
+buy favorite 0.80-0.90 | 7-10 min left,early,weekend,342,-0.09745614035087724
+buy favorite 0.80-0.90 | 7-10 min left,fresh,US day (9-17 ET),577,0.5252339688041596
+buy favorite 0.80-0.90 | 7-10 min left,fresh,US night/Asia,1074,0.4501582867783983
+buy favorite 0.80-0.90 | 7-10 min left,fresh,weekend,570,3.316684210526316
+buy favorite 0.80-0.90 | 7-10 min left,later,US day (9-17 ET),349,-1.0420630372492834
+buy favorite 0.80-0.90 | 7-10 min left,later,US night/Asia,641,0.7839001560062404
+buy favorite 0.80-0.90 | 7-10 min left,later,weekend,381,1.1132020997375334
+buy favorite 0.90-0.95 | 2-4 min left,early,US day (9-17 ET),177,0.225028248587571
+buy favorite 0.90-0.95 | 2-4 min left,early,US night/Asia,346,3.2725433526011547
+buy favorite 0.90-0.95 | 2-4 min left,early,weekend,204,-0.642254901960785
+buy favorite 0.90-0.95 | 2-4 min left,fresh,US day (9-17 ET),343,1.267725947521864
+buy favorite 0.90-0.95 | 2-4 min left,fresh,US night/Asia,746,-2.729115281501341
+buy favorite 0.90-0.95 | 2-4 min left,fresh,weekend,473,0.7236575052854111
+buy favorite 0.90-0.95 | 2-4 min left,later,US day (9-17 ET),182,0.1497252747252735
+buy favorite 0.90-0.95 | 2-4 min left,later,US night/Asia,386,-0.3256476683937828
+buy favorite 0.90-0.95 | 2-4 min left,later,weekend,222,-0.6112612612612623
+buy favorite 0.90-0.95 | 4-7 min left,early,US day (9-17 ET),245,-0.018897959183674876
+buy favorite 0.90-0.95 | 4-7 min left,early,US night/Asia,510,1.2563921568627436
+buy favorite 0.90-0.95 | 4-7 min left,early,weekend,288,0.6452083333333323
+buy favorite 0.90-0.95 | 4-7 min left,fresh,US day (9-17 ET),462,1.994047619047618
+buy favorite 0.90-0.95 | 4-7 min left,fresh,US night/Asia,946,0.684841437632134
+buy favorite 0.90-0.95 | 4-7 min left,fresh,weekend,522,2.473429118773945
+buy favorite 0.90-0.95 | 4-7 min left,later,US day (9-17 ET),276,0.6788768115942017
+buy favorite 0.90-0.95 | 4-7 min left,later,US night/Asia,570,0.7152456140350868
+buy favorite 0.90-0.95 | 4-7 min left,later,weekend,335,1.6540298507462678
+buy favorite 0.90-0.95 | 7-10 min left,early,US day (9-17 ET),137,2.7345985401459836
+buy favorite 0.90-0.95 | 7-10 min left,early,US night/Asia,268,-0.727276119402987
+buy favorite 0.90-0.95 | 7-10 min left,early,weekend,167,1.1197604790419147
+buy favorite 0.90-0.95 | 7-10 min left,fresh,US day (9-17 ET),256,-0.10562500000000224
+buy favorite 0.90-0.95 | 7-10 min left,fresh,US night/Asia,422,0.6495260663507088
+buy favorite 0.90-0.95 | 7-10 min left,fresh,weekend,204,2.413137254901959
+buy favorite 0.90-0.95 | 7-10 min left,later,US day (9-17 ET),175,-2.5840571428571444
+buy favorite 0.90-0.95 | 7-10 min left,later,US night/Asia,328,0.1840243902439008
+buy favorite 0.90-0.95 | 7-10 min left,later,weekend,189,2.8340740740740724
+buy favorite 0.95-0.98 | 4-7 min left,early,US day (9-17 ET),204,0.20093137254902277
+buy favorite 0.95-0.98 | 4-7 min left,early,US night/Asia,401,0.1986034912718235
+buy favorite 0.95-0.98 | 4-7 min left,early,weekend,211,1.8503791469194342
+buy favorite 0.95-0.98 | 4-7 min left,fresh,US day (9-17 ET),367,-0.02482288828337553
+buy favorite 0.95-0.98 | 4-7 min left,fresh,US night/Asia,637,0.4884458398744146
+buy favorite 0.95-0.98 | 4-7 min left,fresh,weekend,302,0.06668874172185733
+buy favorite 0.95-0.98 | 4-7 min left,later,US day (9-17 ET),233,-0.659442060085834
+buy favorite 0.95-0.98 | 4-7 min left,later,US night/Asia,456,0.1795614035087749
+buy favorite 0.95-0.98 | 4-7 min left,later,weekend,293,0.17604095563140237
+buy favorite 0.98-1.00 | 4-7 min left,early,US day (9-17 ET),97,1.210000000000001
+buy favorite 0.98-1.00 | 4-7 min left,early,US night/Asia,173,0.6554335260115619
+buy favorite 0.98-1.00 | 4-7 min left,early,weekend,94,1.2962765957446822
+buy favorite 0.98-1.00 | 4-7 min left,fresh,US day (9-17 ET),173,0.16144508670520366
+buy favorite 0.98-1.00 | 4-7 min left,fresh,US night/Asia,203,0.3776847290640407
+buy favorite 0.98-1.00 | 4-7 min left,fresh,weekend,79,1.3789873417721528
+buy favorite 0.98-1.00 | 4-7 min left,later,US day (9-17 ET),129,0.4669767441860479
+buy favorite 0.98-1.00 | 4-7 min left,later,US night/Asia,214,-0.13957943925233499
+buy favorite 0.98-1.00 | 4-7 min left,later,weekend,111,-0.5476576576576564
+buy underdog 0.40-0.50 | 4-7 min left,early,US day (9-17 ET),182,-1.8474725274725263
+buy underdog 0.40-0.50 | 4-7 min left,early,US night/Asia,306,2.0790522875817006
+buy underdog 0.40-0.50 | 4-7 min left,early,weekend,203,2.0294088669950763
+buy underdog 0.40-0.50 | 4-7 min left,fresh,US day (9-17 ET),381,1.0031758530183748
+buy underdog 0.40-0.50 | 4-7 min left,fresh,US night/Asia,720,-5.60472222222222
+buy underdog 0.40-0.50 | 4-7 min left,fresh,weekend,467,-5.209978586723768
+buy underdog 0.40-0.50 | 4-7 min left,later,US day (9-17 ET),215,-3.4029302325581385
+buy underdog 0.40-0.50 | 4-7 min left,later,US night/Asia,371,-2.6660916442048497
+buy underdog 0.40-0.50 | 4-7 min left,later,weekend,253,-4.069288537549406
+momentum fade down 25bp | 1-4 min,early,US day (9-17 ET),104,3.726057692307693
+momentum fade down 25bp | 1-4 min,early,US night/Asia,90,0.07033333333333347
+momentum fade down 25bp | 1-4 min,early,weekend,32,0.8256249999999999
+momentum fade down 25bp | 1-4 min,fresh,US day (9-17 ET),98,7.74122448979592
+momentum fade down 25bp | 1-4 min,fresh,US night/Asia,53,-6.771320754716981
+momentum fade down 25bp | 1-4 min,fresh,weekend,17,-0.03470588235294143
+momentum fade down 25bp | 1-4 min,later,US day (9-17 ET),43,-0.38604651162790715
+momentum fade down 25bp | 1-4 min,later,US night/Asia,27,-6.329259259259261
+momentum fade down 25bp | 1-4 min,later,weekend,9,-0.6566666666666667

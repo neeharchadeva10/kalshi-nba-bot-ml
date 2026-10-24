@@ -1,0 +1,67 @@
+{
+ "2022": {
+  "files": 708,
+  "errors": 0,
+  "files_with_problems": 0,
+  "problem_items": 0,
+  "zero_row_files": 0,
+  "layouts": {
+   "old": 708,
+   "new": 0,
+   "?": 0
+  },
+  "rows": 74250
+ },
+ "2023": {
+  "files": 691,
+  "errors": 0,
+  "files_with_problems": 0,
+  "problem_items": 0,
+  "zero_row_files": 0,
+  "layouts": {
+   "old": 654,
+   "new": 37,
+   "?": 0
+  },
+  "rows": 65448
+ },
+ "2024": {
+  "files": 651,
+  "errors": 0,
+  "files_with_problems": 0,
+  "problem_items": 0,
+  "zero_row_files": 0,
+  "layouts": {
+   "old": 0,
+   "new": 651,
+   "?": 0
+  },
+  "rows": 69497
+ },
+ "2025": {
+  "files": 662,
+  "errors": 0,
+  "files_with_problems": 0,
+  "problem_items": 0,
+  "zero_row_files": 0,
+  "layouts": {
+   "old": 0,
+   "new": 662,
+   "?": 0
+  },
+  "rows": 76279
+ },
+ "2026": {
+  "files": 821,
+  "errors": 0,
+  "files_with_problems": 0,
+  "problem_items": 0,
+  "zero_row_files": 0,
+  "layouts": {
+   "old": 0,
+   "new": 821,
+   "?": 0
+  },
+  "rows": 97319
+ }
+}

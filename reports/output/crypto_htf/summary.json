@@ -1,0 +1,60 @@
+{
+  "markets": 11818,
+  "share_up_by_split": {
+    "early": 0.47841472045293704,
+    "fresh": 0.5029919042590637,
+    "later": 0.5004535833081343
+  },
+  "best_on_early": {
+    "signal": "strong 1h trend (>0.5%)",
+    "mode": "fade"
+  },
+  "best_results": [
+    {
+      "entry": "window start",
+      "split": "early",
+      "win_rate": 0.5224963715529753,
+      "avg_entry": 0.4892133526850508,
+      "n_trades": 689,
+      "mean_c": 1.7121190130624089,
+      "ci95_c": [
+        -1.46,
+        5.03
+      ],
+      "total_usd": 1179.6499999999999,
+      "max_drawdown_usd": 818.4699999999999,
+      "breakeven_win_rate": 0.5067133526850508
+    },
+    {
+      "entry": "window start",
+      "split": "fresh",
+      "win_rate": 0.5038402457757296,
+      "avg_entry": 0.4924423963133641,
+      "n_trades": 651,
+      "mean_c": -0.5072043010752678,
+      "ci95_c": [
+        -3.74,
+        2.74
+      ],
+      "total_usd": -330.1899999999994,
+      "max_drawdown_usd": 1444.8500000000008,
+      "breakeven_win_rate": 0.5099423963133641
+    },
+    {
+      "entry": "window start",
+      "split": "later",
+      "win_rate": 0.5013333333333333,
+      "avg_entry": 0.4989573333333333,
+      "n_trades": 375,
+      "mean_c": -1.3894933333333324,
+      "ci95_c": [
+        -4.43,
+        1.98
+      ],
+      "total_usd": -521.0599999999996,
+      "max_drawdown_usd": 1157.68,
+      "breakeven_win_rate": 0.5164573333333333
+    }
+  ],
+  "early_follow_signals_positive": 0
+}

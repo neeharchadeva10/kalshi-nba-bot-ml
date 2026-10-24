@@ -1,0 +1,287 @@
+fit[F1,R1] a = +1.3562  c = -1.1953  (n_games 1231, n_b2b_team_games 450)
+fit[F1,R2] a = +1.0565  c = -1.2106  (n_games 1231, n_b2b_team_games 450)
+fit[F1,R3] a = +1.3598  c = -1.2085  (n_games 1231, n_b2b_team_games 450)
+fit[F2,R1] a = +1.4804  c = -1.2247  (n_games 1231, n_b2b_team_games 450)
+fit[F2,R2] a = +0.8765  c = -1.2578  (n_games 1231, n_b2b_team_games 450)
+fit[F2,R3] a = +1.4856  c = -1.2505  (n_games 1231, n_b2b_team_games 450)
+fit[F3,R1] a = +1.5224  c = -1.0737  (n_games 1231, n_b2b_team_games 450)
+fit[F3,R2] a = +0.7671  c = -1.1349  (n_games 1231, n_b2b_team_games 450)
+fit[F3,R3] a = +1.5296  c = -1.1001  (n_games 1231, n_b2b_team_games 450)
+fit[F4,R1] a = +1.3504  c = -1.1955  (n_games 1231, n_b2b_team_games 450)
+fit[F4,R2] a = +1.0494  c = -1.2105  (n_games 1231, n_b2b_team_games 450)
+fit[F4,R3] a = +1.3541  c = -1.2087  (n_games 1231, n_b2b_team_games 450)
+fit[F5,R1] a = +1.4717  c = -1.2197  (n_games 1231, n_b2b_team_games 450)
+fit[F5,R2] a = +0.8696  c = -1.2497  (n_games 1231, n_b2b_team_games 450)
+fit[F5,R3] a = +1.4791  c = -1.2462  (n_games 1231, n_b2b_team_games 450)
+  [   14.7s] F1_R1_S0: mae 15.370 brier 0.2219 coef -0.105 [-0.415,+0.193]
+  [   29.0s] F1_R1_S1: mae 15.343 brier 0.2212 coef -0.085 [-0.392,+0.214]
+  [   40.9s] F1_R2_S0: mae 15.326 brier 0.2214 coef -0.074 [-0.380,+0.222]
+  [   53.2s] F1_R2_S1: mae 15.304 brier 0.2207 coef -0.054 [-0.358,+0.245]
+  [   65.6s] F1_R3_S0: mae 15.400 brier 0.2223 coef -0.118 [-0.425,+0.178]
+  [   77.2s] F1_R3_S1: mae 15.378 brier 0.2216 coef -0.097 [-0.402,+0.199]
+  [   89.2s] F2_R1_S0: mae 15.606 brier 0.2248 coef -0.147 [-0.431,+0.136]
+  [  100.5s] F2_R1_S1: mae 15.553 brier 0.2239 coef -0.131 [-0.416,+0.151]
+  [  112.2s] F2_R2_S0: mae 15.655 brier 0.2252 coef -0.082 [-0.343,+0.181]
+  [  123.8s] F2_R2_S1: mae 15.606 brier 0.2244 coef -0.067 [-0.330,+0.194]
+  [  135.0s] F2_R3_S0: mae 15.678 brier 0.2259 coef -0.162 [-0.438,+0.114]
+  [  145.5s] F2_R3_S1: mae 15.627 brier 0.2250 coef -0.146 [-0.422,+0.127]
+  [  156.5s] F3_R1_S0: mae 15.529 brier 0.2242 coef -0.117 [-0.406,+0.159]
+  [  167.4s] F3_R1_S1: mae 15.483 brier 0.2235 coef -0.102 [-0.388,+0.178]
+  [  178.3s] F3_R2_S0: mae 15.526 brier 0.2237 coef -0.070 [-0.351,+0.196]
+  [  189.0s] F3_R2_S1: mae 15.480 brier 0.2230 coef -0.055 [-0.332,+0.211]
+  [  201.6s] F3_R3_S0: mae 15.609 brier 0.2253 coef -0.133 [-0.413,+0.136]
+  [  212.9s] F3_R3_S1: mae 15.559 brier 0.2245 coef -0.118 [-0.395,+0.152]
+  [  225.6s] F4_R1_S0: mae 15.369 brier 0.2219 coef -0.106 [-0.415,+0.193]
+  [  237.4s] F4_R1_S1: mae 15.343 brier 0.2212 coef -0.085 [-0.393,+0.214]
+  [  247.6s] F4_R2_S0: mae 15.325 brier 0.2214 coef -0.074 [-0.381,+0.222]
+  [  257.6s] F4_R2_S1: mae 15.303 brier 0.2207 coef -0.054 [-0.358,+0.245]
+  [  267.7s] F4_R3_S0: mae 15.399 brier 0.2223 coef -0.118 [-0.425,+0.177]
+  [  277.8s] F4_R3_S1: mae 15.377 brier 0.2215 coef -0.098 [-0.402,+0.198]
+  [  290.4s] F5_R1_S0: mae 15.610 brier 0.2249 coef -0.156 [-0.441,+0.128]
+  [  302.9s] F5_R1_S1: mae 15.557 brier 0.2240 coef -0.139 [-0.426,+0.144]
+  [  312.9s] F5_R2_S0: mae 15.661 brier 0.2253 coef -0.087 [-0.349,+0.174]
+  [  323.5s] F5_R2_S1: mae 15.612 brier 0.2245 coef -0.073 [-0.336,+0.188]
+  [  333.7s] F5_R3_S0: mae 15.680 brier 0.2260 coef -0.168 [-0.445,+0.106]
+  [  343.7s] F5_R3_S1: mae 15.630 brier 0.2251 coef -0.152 [-0.430,+0.120]
+{
+ "build_info": {
+  "markets": 16999,
+  "events": 1409,
+  "unparsed_events": [],
+  "no_T": 0,
+  "T_from_drift": 1319,
+  "T_from_own": 90,
+  "unmatched_hoopr": [
+   "KXNBATOTAL-26JAN08MIACHI",
+   "KXNBATOTAL-26JAN25DALMIL",
+   "KXNBATOTAL-26JAN25DENMEM"
+  ],
+  "unrated": [
+   "KXNBATOTAL-26OCT12LIOPOR"
+  ],
+  "no_ratings_team": [],
+  "T_moved_to_hoopr_tip": [
+   "KXNBATOTAL-26FEB02NOPCHA",
+   "KXNBATOTAL-26JAN24WASCHA",
+   "KXNBATOTAL-26JAN26INDATL",
+   "KXNBATOTAL-26JAN26PHICHA"
+  ],
+  "games": 1405,
+  "games_by_split": {
+   "unseen": 661,
+   "discovery": 660,
+   "forward": 84
+  }
+ },
+ "preregistered_versions": 32,
+ "versions_grid": [
+  "F1_R1_S0",
+  "F1_R1_S1",
+  "F1_R2_S0",
+  "F1_R2_S1",
+  "F1_R3_S0",
+  "F1_R3_S1",
+  "F2_R1_S0",
+  "F2_R1_S1",
+  "F2_R2_S0",
+  "F2_R2_S1",
+  "F2_R3_S0",
+  "F2_R3_S1",
+  "F3_R1_S0",
+  "F3_R1_S1",
+  "F3_R2_S0",
+  "F3_R2_S1",
+  "F3_R3_S0",
+  "F3_R3_S1",
+  "F4_R1_S0",
+  "F4_R1_S1",
+  "F4_R2_S0",
+  "F4_R2_S1",
+  "F4_R3_S0",
+  "F4_R3_S1",
+  "F5_R1_S0",
+  "F5_R1_S1",
+  "F5_R2_S0",
+  "F5_R2_S1",
+  "F5_R3_S0",
+  "F5_R3_S1"
+ ],
+ "discovery_missing_actual": 0,
+ "near_duplicate_structure": {
+  "F4-F1_R1": {
+   "sd": 0.026959114025310305,
+   "max_abs": 0.18366160639391182
+  },
+  "F5-F2_R1": {
+   "sd": 0.17024329171190233,
+   "max_abs": 0.7524433606129151
+  },
+  "F4-F1_R2": {
+   "sd": 0.02885422144003971,
+   "max_abs": 0.18366160639391182
+  },
+  "F5-F2_R2": {
+   "sd": 0.18275929072792998,
+   "max_abs": 0.7181840900783811
+  },
+  "F4-F1_R3": {
+   "sd": 0.028235568196870876,
+   "max_abs": 0.1987750151738794
+  },
+  "F5-F2_R3": {
+   "sd": 0.16179452331267372,
+   "max_abs": 0.7823126106427765
+  },
+  "F1_R2-R1": {
+   "sd": 0.8808244481070974,
+   "max_abs": 4.466193265096308
+  },
+  "F1_R3-R1": {
+   "sd": 0.35254660697678003,
+   "max_abs": 1.6899634858855848
+  }
+ },
+ "depth_caveat": "Fills of up to 10 contracts are assumed at the T-1h candle bid/ask; no order-book depth data exists, so size-10 fills may be optimistic.",
+ "winner": "F4_R2_S1",
+ "sigma": 19.267843992934566,
+ "gates": {
+  "accuracy": {
+   "games": 660,
+   "games_with_median": 660,
+   "model_mae": 15.30281127365618,
+   "market_mae": 14.672125944717134,
+   "model_mae_all": 15.30281127365618,
+   "strikes_quoted": 7260,
+   "model_brier": 0.2207228039047044,
+   "market_brier": 0.21024046831955923
+  },
+  "gate1_pass": false,
+  "residual_test": {
+   "coef": -0.05386137927724421,
+   "ci95": [
+    -0.357975469865482,
+    0.24475411556187307
+   ],
+   "gate2_pass": false
+  },
+  "volume": {
+   "strikes_over_cost": 4973,
+   "per_week": 374.0604432505037,
+   "gate3_pass": true
+  }
+ },
+ "all_gates_pass": false,
+ "verdict": "winner failed a gate on discovery; no betting rule run, unseen split never loaded",
+ "runtime_s": 343.7053632736206,
+ "rest_fit_a_c_n": {
+  "F1_R1": {
+   "a_not_applied": 1.3562158309573389,
+   "c": -1.195322379737166,
+   "n_games": 1231,
+   "n_b2b": 450
+  },
+  "F1_R2": {
+   "a_not_applied": 1.0564795526523048,
+   "c": -1.210585526293941,
+   "n_games": 1231,
+   "n_b2b": 450
+  },
+  "F1_R3": {
+   "a_not_applied": 1.3597804141038488,
+   "c": -1.2085454622855978,
+   "n_games": 1231,
+   "n_b2b": 450
+  },
+  "F2_R1": {
+   "a_not_applied": 1.4803750053256965,
+   "c": -1.2246972243589433,
+   "n_games": 1231,
+   "n_b2b": 450
+  },
+  "F2_R2": {
+   "a_not_applied": 0.8764806271030914,
+   "c": -1.2578066008935955,
+   "n_games": 1231,
+   "n_b2b": 450
+  },
+  "F2_R3": {
+   "a_not_applied": 1.4856307072081927,
+   "c": -1.2505486001241854,
+   "n_games": 1231,
+   "n_b2b": 450
+  },
+  "F3_R1": {
+   "a_not_applied": 1.5224414742777754,
+   "c": -1.0736674664820092,
+   "n_games": 1231,
+   "n_b2b": 450
+  },
+  "F3_R2": {
+   "a_not_applied": 0.7671015639737484,
+   "c": -1.134904786343798,
+   "n_games": 1231,
+   "n_b2b": 450
+  },
+  "F3_R3": {
+   "a_not_applied": 1.5295706405707985,
+   "c": -1.1001136315788769,
+   "n_games": 1231,
+   "n_b2b": 450
+  },
+  "F4_R1": {
+   "a_not_applied": 1.3504113110827398,
+   "c": -1.1954638857095277,
+   "n_games": 1231,
+   "n_b2b": 450
+  },
+  "F4_R2": {
+   "a_not_applied": 1.0493523057854044,
+   "c": -1.210484883584942,
+   "n_games": 1231,
+   "n_b2b": 450
+  },
+  "F4_R3": {
+   "a_not_applied": 1.354096057219916,
+   "c": -1.2087290408145799,
+   "n_games": 1231,
+   "n_b2b": 450
+  },
+  "F5_R1": {
+   "a_not_applied": 1.4717316489588217,
+   "c": -1.219672773810216,
+   "n_games": 1231,
+   "n_b2b": 450
+  },
+  "F5_R2": {
+   "a_not_applied": 0.8696136383641528,
+   "c": -1.2497147695610453,
+   "n_games": 1231,
+   "n_b2b": 450
+  },
+  "F5_R3": {
+   "a_not_applied": 1.4791011412331758,
+   "c": -1.246203084020321,
+   "n_games": 1231,
+   "n_b2b": 450
+  }
+ },
+ "r3_cap_hits_2025_26_gate_stage": [
+  [
+   "2025-10-27",
+   100,
+   1.0600851603870254e-05
+  ]
+ ],
+ "r3_cap_hits_2024_25_fit": [
+  [
+   "2024-10-26",
+   100,
+   0.0005106587233232318
+  ],
+  [
+   "2024-10-27",
+   100,
+   0.0001417345199712372
+  ]
+ ]
+}

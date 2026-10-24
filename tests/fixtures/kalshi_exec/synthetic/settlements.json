@@ -1,0 +1,33 @@
+{
+ "settlements": [
+  {
+   "ticker": "KXBTCD-26OCT0515-T85249.99",
+   "event_ticker": "KXBTCD-26OCT0515",
+   "exchange_index": 2,
+   "market_result": "yes",
+   "yes_count_fp": "1.00",
+   "yes_total_cost_dollars": "0.5600",
+   "no_count_fp": "0.00",
+   "no_total_cost_dollars": "0.0000",
+   "revenue": 100,
+   "value": 100,
+   "fee_cost": "0.017248",
+   "settled_time": "2026-10-05T19:02:31.123456Z"
+  },
+  {
+   "ticker": "KXBTC15M-26OCT051500-00",
+   "event_ticker": "KXBTC15M-26OCT051500",
+   "exchange_index": 2,
+   "market_result": "yes",
+   "yes_count_fp": "0.00",
+   "yes_total_cost_dollars": "0.0000",
+   "no_count_fp": "1.00",
+   "no_total_cost_dollars": "0.4100",
+   "revenue": 0,
+   "value": 100,
+   "fee_cost": "0.016933",
+   "settled_time": "2026-10-05T19:01:05.5Z"
+  }
+ ],
+ "cursor": ""
+}

@@ -1,0 +1,1002 @@
+jobs 13532
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT21GSWLAL-235/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT21GSWLAL-223/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT21GSWLAL-214/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT21HOUOKC-233/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT21HOUOKC-218/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT21HOUOKC-215/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT21HOUOKC-212/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22BKNCHA-240/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22CLENYK-243/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22CLENYK-243/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22CLENYK-240/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22CLENYK-240/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22CLENYK-240/candlesticks; retry in 4.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22CLENYK-234/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22CLENYK-231/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22CLENYK-228/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22CLENYK-216/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22DETCHI-218/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22DETCHI-218/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22LACUTA-242/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22LACUTA-242/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22LACUTA-242/candlesticks; retry in 4.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22LACUTA-239/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22LACUTA-221/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22LACUTA-215/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22MIAORL-223/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22MINPOR-221/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22MINPOR-206/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22MINPOR-206/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22MINPOR-206/candlesticks; retry in 4.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22NOPMEM-252/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22NOPMEM-252/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22NOPMEM-237/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22NOPMEM-225/candlesticks; retry in 1.0s
+100 13532 139 {'ok': 100} {'hits': 1, 'fetches': 99, 'retries': 34}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22PHIBOS-234/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22PHIBOS-225/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22SACPHX-231/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22SACPHX-216/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22SASDAL-233/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22TORATL-244/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22TORATL-241/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT22WASMIL-215/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT23DENGSW-248/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT23OKCIND-242/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT23OKCIND-227/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24ATLORL-246/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24BOSNYK-235/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24BOSNYK-235/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24BOSNYK-235/candlesticks; retry in 4.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24BOSNYK-235/candlesticks; retry in 8.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24BOSNYK-235/candlesticks; retry in 16.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24BOSNYK-229/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24BOSNYK-223/candlesticks; retry in 1.0s
+200 13532 265 {'ok': 200} {'hits': 1, 'fetches': 199, 'retries': 53}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24CLEBKN-236/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24CLEBKN-236/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24CLEBKN-236/candlesticks; retry in 4.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24CLEBKN-233/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24DETHOU-235/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24DETHOU-217/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24GSWPOR-211/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24MIAMEM-247/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24MIAMEM-247/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24MIAMEM-238/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24MIAMEM-229/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24MIAMEM-220/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24MILTOR-246/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24MILTOR-222/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24MILTOR-219/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24MINLAL-236/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24MINLAL-215/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24MINLAL-209/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24PHXLAC-219/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24PHXLAC-219/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24PHXLAC-216/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24PHXLAC-216/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24PHXLAC-213/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24SASNOP-239/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24SASNOP-239/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24SASNOP-230/candlesticks; retry in 1.0s
+300 13532 384 {'ok': 300} {'hits': 1, 'fetches': 299, 'retries': 79}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT24WASDAL-213/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT25CHIORL-248/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT25INDMEM-251/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT25INDMEM-251/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT25INDMEM-242/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT25INDMEM-230/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT25OKCATL-232/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT25OKCATL-226/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT25OKCATL-226/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT25PHXDEN-249/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT26BKNSAS-239/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT26BKNSAS-236/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT26BKNSAS-218/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT26BOSDET-240/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT26BOSDET-222/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT26CHAWAS-237/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT26CHAWAS-225/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT26INDMIN-244/candlesticks; retry in 1.0s
+400 13532 484 {'ok': 400} {'hits': 1, 'fetches': 399, 'retries': 97}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT26INDMIN-226/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT26INDMIN-220/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT26LALSAC-242/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT26LALSAC-233/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT26MILCLE-249/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT26MILCLE-249/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT26MILCLE-249/candlesticks; retry in 4.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT26MILCLE-231/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT26MILCLE-228/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT26MILCLE-219/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT26MILCLE-219/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT26NYKMIA-236/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT26NYKMIA-233/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT26NYKMIA-215/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT26NYKMIA-212/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT26TORDAL-244/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT26TORDAL-226/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT26TORDAL-226/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT26TORDAL-226/candlesticks; retry in 4.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT26TORDAL-226/candlesticks; retry in 8.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT26TORDAL-217/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT27ATLCHI-250/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT27ATLCHI-223/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT27BKNHOU-219/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT27CLEDET-237/candlesticks; retry in 1.0s
+500 13532 610 {'ok': 500} {'hits': 1, 'fetches': 499, 'retries': 122}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT27CLEDET-225/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT27DENMIN-238/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT27DENMIN-226/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT27DENMIN-220/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT27DENMIN-220/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT27MEMGSW-249/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT27MEMGSW-240/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT27MEMGSW-240/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT27MEMGSW-234/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT27MEMGSW-231/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT27MEMGSW-231/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT27MEMGSW-222/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT27OKCDAL-229/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT27OKCDAL-217/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT27ORLPHI-217/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT27PHXUTA-243/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT27PHXUTA-240/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT27PHXUTA-225/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT27PORLAL-233/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT27PORLAL-233/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT27TORSAS-247/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT27TORSAS-244/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT27TORSAS-223/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT27TORSAS-220/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT27TORSAS-217/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT27TORSAS-217/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT28CHAMIA-252/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT28CHAMIA-228/candlesticks; retry in 1.0s
+600 13532 730 {'ok': 600} {'hits': 1, 'fetches': 599, 'retries': 150}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT28LACGSW-224/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT28LACGSW-218/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT28PHIWAS-234/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT28PHIWAS-231/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT28PHIWAS-225/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT28PHIWAS-222/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT28SACOKC-233/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT28SACOKC-230/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT28SACOKC-230/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT28SACOKC-230/candlesticks; retry in 4.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT28SACOKC-215/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT29ATLBKN-238/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT29ATLBKN-235/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT29CLEBOS-243/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT29CLEBOS-240/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT29HOUTOR-248/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT29HOUTOR-224/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT29INDDAL-234/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT29INDDAL-222/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT29INDDAL-222/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT29LALMIN-228/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT29LALMIN-222/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT29LALMIN-216/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT29LALMIN-210/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT29MEMPHX-256/candlesticks; retry in 1.0s
+700 13532 844 {'ok': 700} {'hits': 1, 'fetches': 699, 'retries': 175}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT29NOPDEN-227/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT29ORLDET-230/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT29ORLDET-227/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT29ORLDET-227/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT29ORLDET-221/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT29ORLDET-218/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT29ORLDET-212/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT29PORUTA-232/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT29PORUTA-229/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT29SACCHI-253/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT29SACCHI-253/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT29SACCHI-223/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT30MIASAS-229/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT30MIASAS-223/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT30MIASAS-220/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT30MIASAS-217/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT30ORLCHA-251/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT30ORLCHA-242/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT30ORLCHA-233/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT30WASOKC-241/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT30WASOKC-229/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT30WASOKC-217/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT31ATLIND-246/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT31ATLIND-243/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT31ATLIND-240/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT31ATLIND-240/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT31ATLIND-240/candlesticks; retry in 4.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT31ATLIND-237/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT31ATLIND-231/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT31ATLIND-228/candlesticks; retry in 1.0s
+800 13532 969 {'ok': 800} {'hits': 1, 'fetches': 799, 'retries': 205}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT31ATLIND-216/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT31DENPOR-221/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT31LALMEM-248/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT31LALMEM-227/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT31LALMEM-221/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT31NOPLAC-240/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT31NOPLAC-237/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT31NOPLAC-237/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT31NOPLAC-222/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT31NOPLAC-219/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT31NOPLAC-219/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT31NOPLAC-213/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT31NYKCHI-244/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT31NYKCHI-238/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT31NYKCHI-223/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT31TORCLE-220/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT31UTAPHX-242/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25OCT31UTAPHX-236/candlesticks; retry in 1.0s
+900 13532 1069 {'ok': 900} {'hits': 1, 'fetches': 899, 'retries': 223}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV01GSWIND-217/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV01HOUBOS-236/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV01MINCHA-230/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV01MINCHA-230/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV01MINCHA-230/candlesticks; retry in 4.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV01MINCHA-227/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV01ORLWAS-248/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV01ORLWAS-227/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV01SACMIL-226/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV01SACMIL-217/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV02ATLCLE-246/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV02ATLCLE-246/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV02ATLCLE-225/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV02CHINYK-247/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV02CHINYK-229/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV02NOPOKC-244/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV02NOPOKC-229/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV02NOPOKC-223/candlesticks; retry in 1.0s
+1000 13532 1171 {'ok': 1000} {'hits': 1, 'fetches': 999, 'retries': 241}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV02PHIBKN-219/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV02SASPHX-225/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV02SASPHX-213/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV02UTACHA-243/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV02UTACHA-228/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV02UTACHA-222/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV03DALHOU-242/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV03DALHOU-227/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV03DALHOU-218/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV03DALHOU-215/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV03DETMEM-252/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV03DETMEM-240/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV03DETMEM-228/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV03DETMEM-222/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV03LALPOR-232/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV03MIALAC-243/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV03MIALAC-240/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV03MIALAC-216/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV03MILIND-246/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV03MILIND-243/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV03MILIND-240/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV03MILIND-219/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV03MILIND-219/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV03MINBKN-232/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV03MINBKN-220/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV03MINBKN-214/candlesticks; retry in 1.0s
+1100 13532 1284 {'ok': 1100} {'hits': 1, 'fetches': 1099, 'retries': 267}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV03SACDEN-248/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV03SACDEN-245/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV03UTABOS-247/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV03UTABOS-238/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV03UTABOS-223/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV03WASNYK-249/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV03WASNYK-249/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV03WASNYK-249/candlesticks; retry in 4.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV04MILTOR-249/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV04MILTOR-237/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV04MILTOR-231/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV04OKCLAC-227/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV04OKCLAC-215/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV04ORLATL-244/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV04ORLATL-238/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV04ORLATL-223/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV04ORLATL-223/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV04ORLATL-214/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV04PHICHI-248/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV04PHICHI-233/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV04PHXGSW-237/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV04PHXGSW-231/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV04PHXGSW-228/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV04PHXGSW-222/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV04PHXGSW-216/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV05BKNIND-247/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV05BKNIND-247/candlesticks; retry in 2.0s
+1200 13532 1403 {'ok': 1200} {'hits': 1, 'fetches': 1199, 'retries': 294}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV05BKNIND-244/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV05BKNIND-244/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV05BKNIND-241/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV05BKNIND-220/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV05HOUMEM-235/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV05MIADEN-243/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV05MIADEN-237/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV05MIADEN-234/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV05MIADEN-231/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV05MIADEN-228/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV05MINNYK-246/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV05MINNYK-225/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV05NOPDAL-229/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV05NOPDAL-217/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV05OKCPOR-243/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV05PHICLE-233/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV05PHICLE-227/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV05PHICLE-218/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV05PHICLE-218/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV05SASLAL-245/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV05SASLAL-233/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV05SASLAL-230/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV05SASLAL-227/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV05UTADET-242/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV05UTADET-221/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV05WASBOS-241/candlesticks; retry in 1.0s
+1300 13532 1517 {'ok': 1300} {'hits': 1, 'fetches': 1299, 'retries': 320}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV05WASBOS-238/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV06LACPHX-231/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV06LACPHX-225/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07BOSORL-239/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07BOSORL-227/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07BOSORL-221/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07CHAMIA-249/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07CHAMIA-234/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07CHIMIL-252/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07CHIMIL-243/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07CHIMIL-231/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07CHIMIL-231/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07CLEWAS-246/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07CLEWAS-246/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07CLEWAS-240/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07CLEWAS-237/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07CLEWAS-237/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07CLEWAS-234/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07CLEWAS-234/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07DALMEM-233/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07DALMEM-230/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07DALMEM-227/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07DALMEM-224/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07DALMEM-221/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07DALMEM-212/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07DETBKN-237/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07DETBKN-237/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07DETBKN-237/candlesticks; retry in 4.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07DETBKN-219/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07DETBKN-219/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07GSWDEN-247/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07GSWDEN-235/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07GSWDEN-223/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07GSWDEN-220/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07HOUSAS-241/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07HOUSAS-235/candlesticks; retry in 1.0s
+1400 13532 1654 {'ok': 1400} {'hits': 1, 'fetches': 1399, 'retries': 356}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07OKCSAC-241/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07OKCSAC-223/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07TORATL-246/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV07UTAMIN-223/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV08CHICLE-255/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV08CHICLE-255/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV08CHICLE-243/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV08CHICLE-240/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV08CHICLE-228/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV08DALWAS-242/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV08DALWAS-230/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV08INDDEN-249/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV08INDDEN-246/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV08INDDEN-234/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV08INDDEN-225/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV08LALATL-246/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV08NOPSAS-214/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV08NOPSAS-211/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV08PHXLAC-240/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV08PHXLAC-234/candlesticks; retry in 1.0s
+1500 13532 1756 {'ok': 1500} {'hits': 1, 'fetches': 1499, 'retries': 376}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV08PHXLAC-228/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV08PHXLAC-222/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV08PORMIA-255/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV08TORPHI-240/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV08TORPHI-234/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV09BKNNYK-245/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV09BKNNYK-239/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV09BKNNYK-239/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV09BKNNYK-233/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV09BKNNYK-221/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV09BOSORL-231/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV09BOSORL-231/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV09BOSORL-228/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV09BOSORL-213/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV09DETPHI-217/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV09HOUMIL-235/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV09HOUMIL-220/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV09INDGSW-233/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV09INDGSW-233/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV09INDGSW-221/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV09MINSAC-249/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV09MINSAC-246/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV09MINSAC-246/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV09MINSAC-234/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV09MINSAC-225/candlesticks; retry in 1.0s
+1600 13532 1870 {'ok': 1600} {'hits': 1, 'fetches': 1599, 'retries': 401}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV09OKCMEM-225/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV10ATLLAC-210/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV10ATLLAC-210/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV10CLEMIA-259/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV10CLEMIA-256/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV10CLEMIA-256/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV10CLEMIA-241/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV10CLEMIA-232/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV10CLEMIA-229/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV10LALCHA-240/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV10LALCHA-237/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV10LALCHA-228/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV10LALCHA-219/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV10MILDAL-246/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV10MILDAL-237/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV10MILDAL-216/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV10MINUTA-224/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV10MINUTA-224/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV10PORORL-223/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV10PORORL-223/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV10SASCHI-242/candlesticks; retry in 1.0s
+1700 13532 1977 {'ok': 1700} {'hits': 1, 'fetches': 1699, 'retries': 422}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV10WASDET-222/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV10WASDET-222/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV10WASDET-222/candlesticks; retry in 4.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV10WASDET-222/candlesticks; retry in 8.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV11BOSPHI-247/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV11BOSPHI-235/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV11BOSPHI-232/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV11BOSPHI-232/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV11BOSPHI-232/candlesticks; retry in 4.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV11BOSPHI-220/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV11DENSAC-254/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV11DENSAC-251/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV11DENSAC-236/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV11DENSAC-236/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV11DENSAC-236/candlesticks; retry in 4.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV11DENSAC-233/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV11DENSAC-227/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV11DENSAC-224/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV11GSWOKC-239/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV11GSWOKC-230/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV11GSWOKC-230/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV11GSWOKC-230/candlesticks; retry in 4.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV11GSWOKC-230/candlesticks; retry in 8.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV11GSWOKC-227/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV11INDUTA-240/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV11INDUTA-237/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV11INDUTA-225/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV11MEMNYK-248/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV11MEMNYK-242/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV11MEMNYK-239/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV11MEMNYK-236/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV11MEMNYK-233/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV11MEMNYK-230/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV11MEMNYK-227/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV11TORBKN-248/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV11TORBKN-242/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV11TORBKN-218/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12ATLSAC-235/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12CHIDET-241/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12CHIDET-238/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12CHIDET-232/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12CHIDET-229/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12CHIDET-226/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12CHIDET-226/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12CHIDET-220/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12CHIDET-220/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12CLEMIA-248/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12CLEMIA-236/candlesticks; retry in 1.0s
+1800 13532 2159 {'ok': 1800} {'hits': 1, 'fetches': 1799, 'retries': 470}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12CLEMIA-230/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12CLEMIA-230/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12CLEMIA-227/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12CLEMIA-224/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12CLEMIA-224/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12DENLAC-237/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12DENLAC-237/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12DENLAC-234/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12DENLAC-225/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12GSWSAS-236/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12GSWSAS-227/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12GSWSAS-215/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12LALOKC-228/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12LALOKC-213/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12MEMBOS-245/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12MEMBOS-236/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12MEMBOS-233/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12MEMBOS-224/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12MEMBOS-221/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12MEMBOS-221/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12MEMBOS-215/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12MILCHA-242/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12MILCHA-227/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12ORLNYK-243/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12ORLNYK-231/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12ORLNYK-225/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12PHXDAL-230/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12PHXDAL-227/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12PHXDAL-218/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12PORNOP-248/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12PORNOP-236/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12WASHOU-239/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12WASHOU-236/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12WASHOU-236/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12WASHOU-230/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12WASHOU-230/candlesticks; retry in 2.0s
+1900 13532 2293 {'ok': 1900} {'hits': 1, 'fetches': 1899, 'retries': 506}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV12WASHOU-221/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV13ATLUTA-248/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV13ATLUTA-230/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV13INDPHX-227/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV13TORCLE-250/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV13TORCLE-250/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV13TORCLE-244/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV13TORCLE-244/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV13TORCLE-229/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV14BKNORL-234/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV14BKNORL-228/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV14BKNORL-219/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV14BKNORL-219/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV14BKNORL-216/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV14CHAMIL-244/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV14CHAMIL-241/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV14CHAMIL-235/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV14CHAMIL-232/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV14CHAMIL-232/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV14CHAMIL-229/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV14CHAMIL-226/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV14GSWSAS-243/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV14GSWSAS-231/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV14LACDAL-234/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV14LACDAL-228/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV14LACDAL-210/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV14LACDAL-210/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV14LACDAL-207/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV14LALNOP-237/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV14LALNOP-237/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV14LALNOP-228/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV14LALNOP-222/candlesticks; retry in 1.0s
+2000 13532 2421 {'ok': 2000} {'hits': 1, 'fetches': 1999, 'retries': 538}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV14PHIDET-247/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV14PHIDET-235/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV14PHIDET-226/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV14PHIDET-223/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV14PORHOU-245/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV14PORHOU-230/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV14SACMIN-251/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV15MEMCLE-246/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV15MEMCLE-243/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV15MEMCLE-243/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV15OKCCHA-238/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV15OKCCHA-235/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV15OKCCHA-214/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV16ATLPHX-242/candlesticks; retry in 1.0s
+2100 13532 2513 {'ok': 2100} {'hits': 1, 'fetches': 2099, 'retries': 552}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV16BKNWAS-244/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV16BKNWAS-241/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV16BKNWAS-238/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV16BKNWAS-238/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV16BKNWAS-220/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV16BKNWAS-217/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV16CHIUTA-255/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV16LACBOS-224/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV16LACBOS-206/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV16ORLHOU-235/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV16ORLHOU-223/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV16ORLHOU-217/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV16PORDAL-232/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV16PORDAL-217/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV16SACSAS-252/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV17CHATOR-253/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV17CHATOR-250/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV17CHATOR-247/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV17CHATOR-238/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV17CHATOR-232/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV17CHIDEN-254/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV17CHIDEN-251/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV17CHIDEN-248/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV17CHIDEN-230/candlesticks; retry in 1.0s
+2200 13532 2622 {'ok': 2200} {'hits': 1, 'fetches': 2199, 'retries': 576}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV17DALMIN-239/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV17DALMIN-239/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV17DALMIN-239/candlesticks; retry in 4.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV17DALMIN-233/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV17DALMIN-212/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV17LACPHI-231/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV17LACPHI-231/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV17LACPHI-228/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV17LACPHI-225/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV17LACPHI-219/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV17LACPHI-216/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV17LACPHI-216/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV17LACPHI-213/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV17LACPHI-207/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV17MILCLE-240/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV17NYKMIA-256/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV17NYKMIA-256/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV17NYKMIA-253/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV17NYKMIA-250/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV17NYKMIA-247/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV17NYKMIA-235/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV17OKCNOP-235/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV17OKCNOP-217/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV18DETATL-242/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV18DETATL-236/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV18DETATL-221/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV18DETATL-212/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV18DETATL-212/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV18GSWORL-221/candlesticks; retry in 1.0s
+2300 13532 2746 {'ok': 2300} {'hits': 1, 'fetches': 2299, 'retries': 605}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV18MEMSAS-239/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV18MEMSAS-230/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV18PHXPOR-245/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV18PHXPOR-239/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV18PHXPOR-236/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV18PHXPOR-233/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV18UTALAL-238/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV19CHAIND-234/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV19CHAIND-225/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV19CHIPOR-258/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV19CHIPOR-258/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV19CHIPOR-240/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV19CHIPOR-231/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV19DENNOP-242/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV19DENNOP-224/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV19DENNOP-221/candlesticks; retry in 1.0s
+2400 13532 2842 {'ok': 2400} {'hits': 1, 'fetches': 2399, 'retries': 621}
+2500 13532 2909 {'ok': 2500} {'hits': 1, 'fetches': 2499, 'retries': 621}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV22LACCHA-243/candlesticks; retry in 1.0s
+2600 13532 2978 {'ok': 2600} {'hits': 1, 'fetches': 2599, 'retries': 622}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV22SACDEN-230/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV23LACCLE-232/candlesticks; retry in 1.0s
+2700 13532 3049 {'ok': 2700} {'hits': 1, 'fetches': 2699, 'retries': 624}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV23ORLBOS-233/candlesticks; retry in 1.0s
+2800 13532 3117 {'ok': 2800} {'hits': 1, 'fetches': 2799, 'retries': 625}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV24PORMIL-220/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV26DETBOS-234/candlesticks; retry in 1.0s
+2900 13532 3188 {'ok': 2900} {'hits': 1, 'fetches': 2899, 'retries': 627}
+3000 13532 3255 {'ok': 3000} {'hits': 1, 'fetches': 2999, 'retries': 627}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV28PHXOKC-233/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV28PHXOKC-215/candlesticks; retry in 1.0s
+3100 13532 3326 {'ok': 3100} {'hits': 1, 'fetches': 3099, 'retries': 629}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV28WASIND-222/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV29DALLAC-207/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV29DALLAC-207/candlesticks; retry in 2.0s
+3200 13532 3399 {'ok': 3200} {'hits': 1, 'fetches': 3199, 'retries': 632}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25NOV30MEMSAC-231/candlesticks; retry in 1.0s
+3300 13532 3468 {'ok': 3300} {'hits': 1, 'fetches': 3299, 'retries': 633}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25DEC01CLEIND-237/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25DEC02MINNOP-225/candlesticks; retry in 1.0s
+3400 13532 3539 {'ok': 3400} {'hits': 1, 'fetches': 3399, 'retries': 635}
+3500 13532 3606 {'ok': 3500} {'hits': 1, 'fetches': 3499, 'retries': 635}
+3600 13532 3673 {'ok': 3600} {'hits': 1, 'fetches': 3599, 'retries': 635}
+3700 13532 3740 {'ok': 3700} {'hits': 2, 'fetches': 3698, 'retries': 635}
+3800 13532 3807 {'ok': 3800} {'hits': 2, 'fetches': 3798, 'retries': 635}
+3900 13532 3874 {'ok': 3900} {'hits': 2, 'fetches': 3898, 'retries': 635}
+4000 13532 3941 {'ok': 4000} {'hits': 2, 'fetches': 3998, 'retries': 635}
+4100 13532 4008 {'ok': 4100} {'hits': 2, 'fetches': 4098, 'retries': 635}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25DEC15DALUTA-252/candlesticks; retry in 1.0s
+4200 13532 4077 {'ok': 4200} {'hits': 2, 'fetches': 4198, 'retries': 636}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25DEC15DETBOS-242/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25DEC15DETBOS-215/candlesticks; retry in 1.0s
+4300 13532 4148 {'ok': 4300} {'hits': 2, 'fetches': 4298, 'retries': 638}
+4400 13532 4215 {'ok': 4400} {'hits': 2, 'fetches': 4398, 'retries': 638}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-25DEC20DALPHI-234/candlesticks; retry in 1.0s
+4500 13532 4284 {'ok': 4500} {'hits': 2, 'fetches': 4498, 'retries': 639}
+4600 13532 4351 {'ok': 4600} {'hits': 2, 'fetches': 4598, 'retries': 639}
+4700 13532 4418 {'ok': 4700} {'hits': 2, 'fetches': 4698, 'retries': 639}
+4800 13532 4485 {'ok': 4800} {'hits': 2, 'fetches': 4798, 'retries': 639}
+4900 13532 4552 {'ok': 4900} {'hits': 2, 'fetches': 4898, 'retries': 639}
+5000 13532 4620 {'ok': 5000} {'hits': 2, 'fetches': 4998, 'retries': 639}
+5100 13532 4687 {'ok': 5100} {'hits': 2, 'fetches': 5098, 'retries': 639}
+5200 13532 4754 {'ok': 5200} {'hits': 2, 'fetches': 5198, 'retries': 639}
+5300 13532 4821 {'ok': 5300} {'hits': 2, 'fetches': 5298, 'retries': 639}
+5400 13532 4888 {'ok': 5400} {'hits': 2, 'fetches': 5398, 'retries': 639}
+5500 13532 4955 {'ok': 5500} {'hits': 2, 'fetches': 5498, 'retries': 639}
+5600 13532 5023 {'ok': 5600} {'hits': 2, 'fetches': 5598, 'retries': 639}
+5700 13532 5090 {'ok': 5700} {'hits': 2, 'fetches': 5698, 'retries': 639}
+5800 13532 5157 {'ok': 5800} {'hits': 3, 'fetches': 5797, 'retries': 639}
+5900 13532 5224 {'ok': 5900} {'hits': 3, 'fetches': 5897, 'retries': 639}
+6000 13532 5291 {'ok': 6000} {'hits': 3, 'fetches': 5997, 'retries': 639}
+6100 13532 5358 {'ok': 6100} {'hits': 3, 'fetches': 6097, 'retries': 639}
+6200 13532 5425 {'ok': 6200} {'hits': 3, 'fetches': 6197, 'retries': 639}
+6300 13532 5493 {'ok': 6300} {'hits': 3, 'fetches': 6297, 'retries': 639}
+6400 13532 5560 {'ok': 6400} {'hits': 3, 'fetches': 6397, 'retries': 639}
+6500 13532 5627 {'ok': 6500} {'hits': 3, 'fetches': 6497, 'retries': 639}
+6600 13532 5694 {'ok': 6600} {'hits': 3, 'fetches': 6597, 'retries': 639}
+6700 13532 5761 {'ok': 6700} {'hits': 3, 'fetches': 6697, 'retries': 639}
+6800 13532 5828 {'ok': 6800} {'hits': 3, 'fetches': 6797, 'retries': 639}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26JAN17LALPOR-238/candlesticks; retry in 1.0s
+6900 13532 5897 {'ok': 6900} {'hits': 3, 'fetches': 6897, 'retries': 640}
+7000 13532 5965 {'ok': 7000} {'hits': 3, 'fetches': 6997, 'retries': 640}
+7100 13532 6032 {'ok': 7100} {'hits': 3, 'fetches': 7097, 'retries': 640}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26JAN21CLECHA-254/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26JAN21CLECHA-227/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26JAN21INDBOS-224/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26JAN21OKCMIL-211/candlesticks; retry in 1.0s
+7200 13532 6106 {'ok': 7200} {'hits': 3, 'fetches': 7197, 'retries': 644}
+7300 13532 6173 {'ok': 7300} {'hits': 3, 'fetches': 7297, 'retries': 644}
+7400 13532 6240 {'ok': 7400} {'hits': 3, 'fetches': 7397, 'retries': 644}
+7500 13532 6307 {'ok': 7500} {'hits': 3, 'fetches': 7497, 'retries': 644}
+7600 13532 6374 {'ok': 7600} {'hits': 3, 'fetches': 7597, 'retries': 644}
+7700 13532 6442 {'ok': 7700} {'hits': 3, 'fetches': 7697, 'retries': 644}
+7800 13532 6509 {'ok': 7800} {'hits': 3, 'fetches': 7797, 'retries': 644}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26JAN29MIACHI-236/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26JAN29MIACHI-236/candlesticks; retry in 2.0s
+7900 13532 6580 {'ok': 7900} {'hits': 3, 'fetches': 7897, 'retries': 646}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26JAN31MINMEM-223/candlesticks; retry in 1.0s
+8000 13532 6649 {'ok': 8000} {'hits': 3, 'fetches': 7997, 'retries': 647}
+8100 13532 6716 {'ok': 8100} {'hits': 3, 'fetches': 8097, 'retries': 647}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB02PHILAC-204/candlesticks; retry in 1.0s
+8200 13532 6785 {'ok': 8200} {'hits': 3, 'fetches': 8197, 'retries': 648}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB03PHIGSW-220/candlesticks; retry in 1.0s
+8300 13532 6854 {'ok': 8300} {'hits': 3, 'fetches': 8297, 'retries': 649}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB04NOPMIL-225/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB04NOPMIL-219/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB04NOPMIL-210/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB04NOPMIL-207/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB04OKCSAS-240/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB04OKCSAS-225/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB04OKCSAS-216/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB05BKNORL-210/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB05CHAHOU-223/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB05CHITOR-238/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB05CHITOR-238/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB05CHITOR-238/candlesticks; retry in 4.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB05CHITOR-217/candlesticks; retry in 1.0s
+8400 13532 6947 {'ok': 8400} {'hits': 3, 'fetches': 8397, 'retries': 662}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB05PHILAL-247/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB05PHILAL-217/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB05SASDAL-233/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB05UTAATL-237/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB05WASDET-227/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB05WASDET-218/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB06INDMIL-239/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB06INDMIL-215/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB06LACSAC-236/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB06LACSAC-230/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB06LACSAC-227/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB06LACSAC-218/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB06LACSAC-209/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB06MIABOS-238/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB06NOPMIN-241/candlesticks; retry in 1.0s
+8500 13532 7040 {'ok': 8500} {'hits': 3, 'fetches': 8497, 'retries': 677}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB06NOPMIN-232/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB06NOPMIN-229/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB06NYKDET-215/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB07CHAATL-228/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB07CHAATL-222/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB07CHAATL-222/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB07CLESAC-224/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB07CLESAC-221/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB07CLESAC-218/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB07DALSAS-238/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB07DALSAS-235/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB07DALSAS-235/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB07DALSAS-235/candlesticks; retry in 4.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB07DALSAS-235/candlesticks; retry in 8.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB07DALSAS-214/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB07DENCHI-243/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB07DENCHI-240/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB07DENCHI-237/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB07DENCHI-216/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB07DENCHI-216/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB07DENCHI-216/candlesticks; retry in 4.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB07GSWLAL-227/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB07GSWLAL-224/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB07GSWLAL-212/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB07HOUOKC-221/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB07MEMPOR-237/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB07PHIPHX-235/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB07PHIPHX-217/candlesticks; retry in 1.0s
+8600 13532 7171 {'ok': 8600} {'hits': 3, 'fetches': 8597, 'retries': 705}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB07PHIPHX-208/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB07PHIPHX-205/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB07UTAORL-232/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB07WASBKN-232/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB07WASBKN-223/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB07WASBKN-211/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB08INDTOR-217/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB08LACMIN-241/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB08LACMIN-238/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB08MIAWAS-251/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB08MIAWAS-230/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB08MIAWAS-227/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB08MIAWAS-224/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB08NYKBOS-219/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB08NYKBOS-210/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB08NYKBOS-207/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB08NYKBOS-207/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB08NYKBOS-207/candlesticks; retry in 4.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB08NYKBOS-204/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB09ATLMIN-250/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB09ATLMIN-250/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB09ATLMIN-250/candlesticks; retry in 4.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB09ATLMIN-247/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB09ATLMIN-247/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB09CHIBKN-214/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB09CHIBKN-211/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB09CLEDEN-230/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB09CLEDEN-227/candlesticks; retry in 1.0s
+8700 13532 7295 {'ok': 8700} {'hits': 3, 'fetches': 8697, 'retries': 733}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB09CLEDEN-221/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB09CLEDEN-218/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB09DETCHA-235/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB09DETCHA-232/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB09DETCHA-229/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB09DETCHA-217/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB09MEMGSW-235/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB09MEMGSW-220/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB09MEMGSW-217/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB09MEMGSW-214/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB09MEMGSW-214/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB09MILORL-218/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB09MILORL-218/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB09MILORL-203/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB09OKCLAL-235/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB09OKCLAL-232/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB09OKCLAL-223/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB09OKCLAL-220/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB09OKCLAL-214/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB09UTAMIA-241/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB10DALPHX-238/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB10DALPHX-211/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB10INDNYK-235/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB10INDNYK-232/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB10INDNYK-229/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB10INDNYK-220/candlesticks; retry in 1.0s
+8800 13532 7409 {'ok': 8800} {'hits': 3, 'fetches': 8797, 'retries': 759}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB10INDNYK-211/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB10INDNYK-208/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB10LACHOU-225/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB10LACHOU-207/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB10LACHOU-201/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB10LACHOU-198/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB10SASLAL-237/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB10SASLAL-234/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB10SASLAL-213/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB11ATLCHA-234/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB11ATLCHA-231/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB11ATLCHA-222/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB11ATLCHA-222/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB11ATLCHA-219/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB11ATLCHA-216/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB11CHIBOS-229/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB11CHIBOS-214/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB11DETTOR-235/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB11DETTOR-232/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB11DETTOR-217/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB11DETTOR-214/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB11DETTOR-211/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB11DETTOR-211/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB11INDBKN-216/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB11INDBKN-213/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB11INDBKN-198/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB11LACHOU-213/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB11LACHOU-198/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB11MEMDEN-224/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB11MEMDEN-224/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB11MIANOP-247/candlesticks; retry in 1.0s
+8900 13532 7532 {'ok': 8900} {'hits': 3, 'fetches': 8897, 'retries': 790}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB11OKCPHX-214/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB11OKCPHX-202/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB11PORMIN-248/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB11PORMIN-227/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB11SACUTA-249/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB11SACUTA-237/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB11SACUTA-228/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB11SASGSW-210/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB11WASCLE-238/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB11WASCLE-238/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB11WASCLE-235/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB12DALLAL-232/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB12DALLAL-217/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB12MILOKC-230/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB12MILOKC-221/candlesticks; retry in 1.0s
+9000 13532 7626 {'ok': 9000} {'hits': 3, 'fetches': 8997, 'retries': 805}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB12PORUTA-252/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB12PORUTA-249/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB12PORUTA-234/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB12PORUTA-225/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB12PORUTA-225/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB19ATLPHI-247/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB19ATLPHI-244/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB19ATLPHI-241/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB19BKNCLE-223/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB19BKNCLE-214/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB19BOSGSW-226/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB19BOSGSW-208/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB19DENLAC-237/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB19DENLAC-237/candlesticks; retry in 2.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB19DENLAC-228/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB19DENLAC-219/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB19DETNYK-231/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB19DETNYK-219/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB19HOUCHA-223/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB19HOUCHA-220/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB19HOUCHA-211/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB19HOUCHA-208/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB19HOUCHA-202/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB19INDWAS-249/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB19ORLSAC-232/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB19ORLSAC-229/candlesticks; retry in 1.0s
+9100 13532 7739 {'ok': 9100} {'hits': 3, 'fetches': 9097, 'retries': 831}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB19PHXSAS-237/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB19PHXSAS-228/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB19PHXSAS-213/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB19PHXSAS-210/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB19TORCHI-245/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB19TORCHI-239/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB19TORCHI-224/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB20BKNOKC-202/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB20BKNOKC-199/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB20BKNOKC-196/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB20CLECHA-250/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB20CLECHA-247/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB20DALMIN-229/candlesticks; retry in 1.0s
+9200 13532 7829 {'ok': 9200} {'hits': 3, 'fetches': 9197, 'retries': 844}
+9300 13532 7896 {'ok': 9300} {'hits': 3, 'fetches': 9297, 'retries': 844}
+9400 13532 7963 {'ok': 9400} {'hits': 3, 'fetches': 9397, 'retries': 844}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB24DALBKN-232/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB24DALBKN-217/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB24DALBKN-214/candlesticks; retry in 1.0s
+9500 13532 8035 {'ok': 9500} {'hits': 3, 'fetches': 9497, 'retries': 847}
+9600 13532 8102 {'ok': 9600} {'hits': 3, 'fetches': 9597, 'retries': 847}
+9700 13532 8170 {'ok': 9700} {'hits': 3, 'fetches': 9697, 'retries': 847}
+9800 13532 8237 {'ok': 9800} {'hits': 3, 'fetches': 9797, 'retries': 847}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB28LALGSW-234/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26FEB28LALGSW-216/candlesticks; retry in 1.0s
+9900 13532 8307 {'ok': 9900} {'hits': 3, 'fetches': 9897, 'retries': 849}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26MAR02BOSMIL-227/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26MAR02DENUTA-248/candlesticks; retry in 1.0s
+10000 13532 8378 {'ok': 10000} {'hits': 3, 'fetches': 9997, 'retries': 851}
+10100 13532 8445 {'ok': 10100} {'hits': 3, 'fetches': 10097, 'retries': 851}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26MAR04OKCNYK-215/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26MAR04UTAPHI-235/candlesticks; retry in 1.0s
+10200 13532 8516 {'ok': 10200} {'hits': 3, 'fetches': 10197, 'retries': 853}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26MAR05DETSAS-243/candlesticks; retry in 1.0s
+10300 13532 8585 {'ok': 10300} {'hits': 3, 'fetches': 10297, 'retries': 854}
+10400 13532 8652 {'ok': 10400} {'hits': 3, 'fetches': 10397, 'retries': 854}
+10500 13532 8719 {'ok': 10500} {'hits': 3, 'fetches': 10497, 'retries': 854}
+10600 13532 8786 {'ok': 10600} {'hits': 3, 'fetches': 10597, 'retries': 854}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26MAR10CHIGSW-244/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26MAR10CHIGSW-238/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26MAR10MEMPHI-220/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26MAR10MINLAL-239/candlesticks; retry in 1.0s
+10700 13532 8860 {'ok': 10700} {'hits': 3, 'fetches': 10697, 'retries': 858}
+10800 13532 8928 {'ok': 10800} {'hits': 3, 'fetches': 10797, 'retries': 858}
+10900 13532 8995 {'ok': 10900} {'hits': 3, 'fetches': 10897, 'retries': 858}
+11000 13532 9062 {'ok': 11000} {'hits': 3, 'fetches': 10997, 'retries': 858}
+11100 13532 9129 {'ok': 11100} {'hits': 3, 'fetches': 11097, 'retries': 858}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26MAR15PORPHI-232/candlesticks; retry in 1.0s
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26MAR16DALNOP-240/candlesticks; retry in 1.0s
+11200 13532 9200 {'ok': 11200} {'hits': 3, 'fetches': 11197, 'retries': 860}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26MAR17CLEMIL-236/candlesticks; retry in 1.0s
+11300 13532 9269 {'ok': 11300} {'hits': 3, 'fetches': 11297, 'retries': 861}
+11400 13532 9336 {'ok': 11400} {'hits': 3, 'fetches': 11397, 'retries': 861}
+11500 13532 9403 {'ok': 11500} {'hits': 3, 'fetches': 11497, 'retries': 861}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26MAR21GSWATL-231/candlesticks; retry in 1.0s
+11600 13532 9472 {'ok': 11600} {'hits': 3, 'fetches': 11597, 'retries': 862}
+11700 13532 9539 {'ok': 11700} {'hits': 3, 'fetches': 11697, 'retries': 862}
+11800 13532 9606 {'ok': 11800} {'hits': 3, 'fetches': 11797, 'retries': 862}
+11900 13532 9673 {'ok': 11900} {'hits': 3, 'fetches': 11897, 'retries': 862}
+12000 13532 9741 {'ok': 12000} {'hits': 3, 'fetches': 11997, 'retries': 862}
+12100 13532 9808 {'ok': 12100} {'hits': 3, 'fetches': 12097, 'retries': 862}
+12200 13532 9875 {'ok': 12200} {'hits': 3, 'fetches': 12197, 'retries': 862}
+12300 13532 9942 {'ok': 12300} {'hits': 3, 'fetches': 12297, 'retries': 862}
+12400 13532 10009 {'ok': 12400} {'hits': 3, 'fetches': 12397, 'retries': 862}
+12500 13532 10077 {'ok': 12500} {'hits': 3, 'fetches': 12497, 'retries': 862}
+12600 13532 10144 {'ok': 12600} {'hits': 3, 'fetches': 12597, 'retries': 862}
+12700 13532 10211 {'ok': 12700} {'hits': 3, 'fetches': 12697, 'retries': 862}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26APR05CHAMIN-231/candlesticks; retry in 1.0s
+12800 13532 10280 {'ok': 12800} {'hits': 3, 'fetches': 12797, 'retries': 863}
+12900 13532 10347 {'ok': 12900} {'hits': 3, 'fetches': 12897, 'retries': 863}
+13000 13532 10414 {'ok': 13000} {'hits': 3, 'fetches': 12997, 'retries': 863}
+13100 13532 10481 {'ok': 13100} {'hits': 3, 'fetches': 13097, 'retries': 863}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26APR09BOSNYK-229/candlesticks; retry in 1.0s
+13200 13532 10550 {'ok': 13200} {'hits': 3, 'fetches': 13197, 'retries': 864}
+13300 13532 10618 {'ok': 13300} {'hits': 3, 'fetches': 13297, 'retries': 864}
+13400 13532 10685 {'ok': 13400} {'hits': 3, 'fetches': 13397, 'retries': 864}
+HTTP 429 on https://api.elections.kalshi.com/trade-api/v2/historical/markets/KXNBATOTAL-26APR12PHXOKC-218/candlesticks; retry in 1.0s
+13500 13532 10754 {'ok': 13500} {'hits': 3, 'fetches': 13497, 'retries': 865}
+DONE 13532 {'ok': 13532}

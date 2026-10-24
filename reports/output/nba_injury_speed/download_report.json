@@ -1,0 +1,47 @@
+{
+ "candles": {
+  "endpoint": "GET /historical/markets/{ticker}/candlesticks period_interval=1, window T-8h..T (T = #37 tip rule)",
+  "markets_listed": 13565,
+  "markets_done": 10400,
+  "done_notes": {
+   "ok": 10400
+  },
+  "markets_with_zero_candles": 7,
+  "events_with_zero_candles": [],
+  "events_with_candles_done": 946,
+  "candle_rows": 1903211,
+  "failures": {},
+  "raw_cache": "data/raw/kalshi_1m_totals/",
+  "events_excluded_before_download": "91 (play-in / playoffs, not regular season; see download_candles.log)"
+ },
+ "injury": {
+  "era15_start_probed": "2025-12-22",
+  "days": 165,
+  "slots_probed": 5317,
+  "reports_found": 5317,
+  "slots_missing": 0,
+  "unreadable_pdf": [],
+  "probe_failures_unresolved": [],
+  "stat": {
+   "probes": 5423,
+   "net_get": 3872,
+   "local_read": 1446,
+   "cache_hit": 14,
+   "http_missing": 105,
+   "errors": 0
+  },
+  "days_with_zero_reports": [],
+  "reports_per_day_min_med_max": [
+   10,
+   43,
+   49
+  ]
+ },
+ "parse": {
+  "files_parsed": 5317,
+  "errors": 0,
+  "files_with_problems": 0,
+  "layout": "new x5317"
+ },
+ "fifteen_minute_era_start": "2025-12-22 (15-minute names probed daily 2025-12-01..2026-01-05 at 18:00/18:15/18:30/18:45/19:15 ET; first day with a hit is 2025-12-22, as README_V3 says; README_V2's 12-28 is wrong)"
+}

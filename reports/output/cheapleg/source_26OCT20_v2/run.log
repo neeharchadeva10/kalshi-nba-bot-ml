@@ -1,0 +1,20 @@
+[    0.0s]   metadata 25/106 events
+[    0.0s]   metadata 50/106 events
+[    0.0s]   metadata 75/106 events
+[    0.0s]   metadata 100/106 events
+[    1.2s]   6 tickers fetched one by one (not returned by their guessed event)
+[    1.3s]   event KXNBARACE-26OCT20BOSDET: HttpError
+[    1.5s]   event KXNBARACE-26OCT20OKCSAS: HttpError
+[    1.7s]   event KXNBARACE-26OCT20PHINYK: HttpError
+[    1.8s] 3 games, 1437 recorded tickers, 1786 markets known to the API
+[  151.1s] 5M lines, 1 lock_open, 0 candidates
+[  301.1s] 10M lines, 8 lock_open, 4 candidates
+[  446.2s] 15M lines, 26 lock_open, 6 candidates
+[  548.3s] 20M lines, 46 lock_open, 9 candidates
+[  654.4s] 25M lines, 63 lock_open, 12 candidates
+[  759.6s] 30M lines, 94 lock_open, 17 candidates
+[  862.3s] 35M lines, 139 lock_open, 29 candidates
+[  993.6s] 40M lines, 173 lock_open, 30 candidates
+[ 1180.3s] 45M lines, 191 lock_open, 32 candidates
+[ 1353.6s] 50M lines, 200 lock_open, 32 candidates
+[ 1527.1s] 55M lines, 214 lock_open, 33 candidates

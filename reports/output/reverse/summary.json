@@ -1,0 +1,25 @@
+{
+  "games": 158,
+  "games_by_split": {
+    "later": 85,
+    "early": 73
+  },
+  "chosen": {
+    "poly_gap_close": {
+      "params": "thr=0.010|poly_spread<=0.10",
+      "note": "no parameter set reached the minimum trade count on early weeks; picked the largest sample"
+    },
+    "poly_hold": {
+      "params": "thr=0.010|poly_spread<=0.10",
+      "note": "no parameter set reached the minimum trade count on early weeks; picked the largest sample"
+    },
+    "arb": {
+      "params": "thr=0.000|poly_spread<=0.03",
+      "note": "no parameter set reached the minimum trade count on early weeks; picked the largest sample"
+    }
+  },
+  "fees": {
+    "polymarket_us": 0.0695,
+    "kalshi": 0.07
+  }
+}

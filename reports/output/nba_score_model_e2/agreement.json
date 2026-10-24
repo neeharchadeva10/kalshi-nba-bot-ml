@@ -1,0 +1,79 @@
+{
+ "n_sample": 200,
+ "n_b": 200,
+ "dup_b": 0,
+ "sample_missing_in_main": 0,
+ "only_in_check": [],
+ "missing_in_check": [],
+ "n_common": 200,
+ "columns": {
+  "out_pts_own": {
+   "mismatch": 0,
+   "nan_pattern_mismatch": 0,
+   "gating": true,
+   "max_abs_diff": 1.4210854715202004e-14,
+   "examples": []
+  },
+  "q_pts_own": {
+   "mismatch": 0,
+   "nan_pattern_mismatch": 0,
+   "gating": true,
+   "max_abs_diff": 7.105427357601002e-15,
+   "examples": []
+  },
+  "back_pts_own": {
+   "mismatch": 0,
+   "nan_pattern_mismatch": 0,
+   "gating": true,
+   "max_abs_diff": 3.552713678800501e-15,
+   "examples": []
+  },
+  "out_min_own": {
+   "mismatch": 0,
+   "nan_pattern_mismatch": 0,
+   "gating": true,
+   "max_abs_diff": 1.1102230246251565e-16,
+   "examples": []
+  },
+  "out_pts_opp": {
+   "mismatch": 0,
+   "nan_pattern_mismatch": 0,
+   "gating": true,
+   "max_abs_diff": 1.4210854715202004e-14,
+   "examples": []
+  },
+  "q_pts_opp": {
+   "mismatch": 0,
+   "nan_pattern_mismatch": 0,
+   "gating": true,
+   "max_abs_diff": 3.552713678800501e-15,
+   "examples": []
+  },
+  "back_pts_opp": {
+   "mismatch": 0,
+   "nan_pattern_mismatch": 0,
+   "gating": true,
+   "max_abs_diff": 1.4210854715202004e-14,
+   "examples": []
+  },
+  "out_min_opp": {
+   "mismatch": 0,
+   "nan_pattern_mismatch": 0,
+   "gating": true,
+   "max_abs_diff": 2.220446049250313e-16,
+   "examples": []
+  },
+  "n_unmatched_own": {
+   "mismatch": 0,
+   "nan_pattern_mismatch": 0,
+   "gating": false,
+   "max_abs_diff": 0.0,
+   "examples": []
+  }
+ },
+ "mismatching_columns": [],
+ "info_mismatching_columns": [],
+ "pass": true,
+ "sha_main": "0ea03ad0ffd45ff2f003e79989f428afaef9eb5d00cd87ede9e759e0291b613a",
+ "sha_check": "002856bb4836d54f2ec9e3b4395e6289d3eff55d972e108b722f19113e77cde1"
+}

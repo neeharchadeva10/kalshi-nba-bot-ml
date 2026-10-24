@@ -1,0 +1,6 @@
+{
+ "error": {
+  "code": "authentication_error",
+  "message": "invalid signature"
+ }
+}

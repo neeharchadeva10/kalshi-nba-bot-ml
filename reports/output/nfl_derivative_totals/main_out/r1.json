@@ -1,0 +1,13 @@
+{
+ "r1": 0.5055117074104132,
+ "std": 0.14974446226092525,
+ "n_games": 2731,
+ "n_games_in_seasons": 2743,
+ "n_dropped": 12,
+ "seasons": [
+  2015,
+  2024
+ ],
+ "definition": "mean over games of (end-of-Q2 points / final points incl OT); pbp last qtr<=2 play total_*_score (Amendment 1); 39 pbp-bad games excluded",
+ "n_excluded_ids_listed": 39
+}

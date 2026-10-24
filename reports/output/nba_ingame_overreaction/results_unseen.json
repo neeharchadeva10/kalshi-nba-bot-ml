@@ -1,0 +1,166 @@
+{
+ "selected": {
+  "cp": "Q1",
+  "T": 10,
+  "dir": "follow",
+  "exit": "hold",
+  "n_fallback_hold": 0,
+  "n": 62,
+  "mean": 0.11464354838709676,
+  "sd": 0.4764282367720871,
+  "lb": -0.003949086902905755,
+  "win": 0.6774193548387096
+ },
+ "n": 74,
+ "mean": -0.04934864864864864,
+ "bootstrap_lb95": -0.15869199324324323,
+ "coin_flip_share_ge_real": 0.546,
+ "pass_bar": {
+  "1_mean_pos_and_boot_lb_pos": false,
+  "2_n_ge_60": true,
+  "3_coin_flip_share_le_5pct": false,
+  "4_discovery_luck_passed": true
+ },
+ "PASS": false,
+ "games_processed": 560,
+ "coverage": {
+  "markets": 6238,
+  "pre_tip_not_final": 0,
+  "ingame_not_final": 0,
+  "pre_tip_notes": {
+   "ok": 6238
+  },
+  "ingame_notes": {
+   "ok": 6238
+  },
+  "not_downloaded": 0
+ },
+ "game_level_skips": {
+  "stale_L0": 2,
+  "no_pbp_match": 2,
+  "bad_wallclock": 5
+ },
+ "game_level_skip_events": {
+  "stale_L0": [
+   "KXNBATOTAL-26JAN24GSWMIN",
+   "KXNBATOTAL-26FEB01ORLSAS"
+  ],
+  "no_pbp_match": [
+   "KXNBATOTAL-26JAN25DALMIL",
+   "KXNBATOTAL-26JAN25DENMEM"
+  ],
+  "bad_wallclock": [
+   "KXNBATOTAL-26MAR08BOSCLE",
+   "KXNBATOTAL-26MAR08DALTOR",
+   "KXNBATOTAL-26MAR08DETMIA",
+   "KXNBATOTAL-26MAR08NYKLAL",
+   "KXNBATOTAL-26MAR08WASNOP"
+  ]
+ },
+ "calibration": {
+  "Q1": {
+   "n": 509,
+   "slope": 0.12087992791364364,
+   "se": 0.10304136433169113,
+   "intercept": 1.1716711225759198,
+   "mean_move": 0.31151603690592417,
+   "mean_final_minus_LC": 1.209327158661052,
+   "sd_move": 6.772415701408848
+  },
+  "HT": {
+   "n": 429,
+   "slope": 0.0836281836135621,
+   "se": 0.08144928130386088,
+   "intercept": 0.923130240119243,
+   "mean_move": -0.3054665797509529,
+   "mean_final_minus_LC": 0.8975846249000236,
+   "sd_move": 7.868185092526301
+  },
+  "Q3": {
+   "n": 379,
+   "slope": 0.07921089100388992,
+   "se": 0.06144745469579548,
+   "intercept": -0.1595784860552465,
+   "mean_move": 0.4342079004235576,
+   "mean_final_minus_LC": -0.12518449138176818,
+   "sd_move": 8.26517708430903
+  }
+ },
+ "checkpoint_skips": {
+  "HT|no_L_C_crossing": 131,
+  "HT|None": 429,
+  "Q1|no_L_C_crossing": 51,
+  "Q1|None": 509,
+  "Q3|no_L_C_crossing": 181,
+  "Q3|None": 379
+ },
+ "checkpoint_spread_main_strike": {
+  "Q1": {
+   "n": 509,
+   "mean": 0.0275834970530452,
+   "median": 0.020000000000000018,
+   "p90": 0.050000000000000044,
+   "max": 0.10000000000000003
+  },
+  "HT": {
+   "n": 429,
+   "mean": 0.026503496503496513,
+   "median": 0.020000000000000018,
+   "p90": 0.05,
+   "max": 0.10000000000000003
+  },
+  "Q3": {
+   "n": 379,
+   "mean": 0.03382585751978892,
+   "median": 0.030000000000000027,
+   "p90": 0.06000000000000001,
+   "max": 0.10000000000000003
+  }
+ },
+ "decision_lag_s_after_C_plus_60": {
+  "Q1": {
+   "n": 509,
+   "mean": 29.68958742632613,
+   "median": 30.0,
+   "p90": 53.0,
+   "max": 59.0
+  },
+  "HT": {
+   "n": 429,
+   "mean": 28.685314685314687,
+   "median": 27.0,
+   "p90": 53.0,
+   "max": 59.0
+  },
+  "Q3": {
+   "n": 379,
+   "mean": 29.604221635883906,
+   "median": 30.0,
+   "p90": 53.0,
+   "max": 59.0
+  }
+ },
+ "main_strike_quote_age_s": {
+  "Q1": {
+   "n": 509,
+   "mean": 0.2357563850687623,
+   "median": 0.0,
+   "p90": 0.0,
+   "max": 60.0
+  },
+  "HT": {
+   "n": 429,
+   "mean": 0.13986013986013987,
+   "median": 0.0,
+   "p90": 0.0,
+   "max": 60.0
+  },
+  "Q3": {
+   "n": 379,
+   "mean": 0.0,
+   "median": 0.0,
+   "p90": 0.0,
+   "max": 0.0
+  }
+ }
+}

@@ -1,0 +1,17 @@
+season,game_id,date,home,away,odds_points,hoopr_total,diff
+2008-09,281109007,2008-11-09,Denver Nuggets,Memphis Grizzlies,172.0,190.0,-18.0
+2008-09,281202023,2008-12-02,Sacramento Kings,Utah Jazz,191.0,193.0,-2.0
+2010-11,301127006,2010-11-27,Dallas Mavericks,Miami Heat,198.0,201.0,-3.0
+2012-13,400278141,2012-12-26,Phoenix Suns,New York Knicks,190.0,196.0,-6.0
+2012-13,400278274,2013-01-13,Portland Trail Blazers,Oklahoma City Thunder,149.0,170.0,-21.0
+2013-14,400489661,2014-02-12,Golden State Warriors,Miami Heat,187.0,221.0,-34.0
+2013-14,400489662,2014-02-12,Los Angeles Clippers,Portland Trail Blazers,207.0,239.0,-32.0
+2014-15,400578467,2014-11-21,Toronto Raptors,Milwaukee Bucks,207.0,206.0,1.0
+2014-15,400578620,2014-12-12,Chicago Bulls,Portland Trail Blazers,221.0,211.0,10.0
+2016-17,400899814,2016-12-13,Phoenix Suns,New York Knicks,22.0,224.0,-202.0
+2016-17,400900070,2017-01-20,Los Angeles Lakers,Indiana Pacers,204.0,203.0,1.0
+2017-18,400974769,2017-10-19,Toronto Raptors,Chicago Bulls,218.0,217.0,1.0
+2023-24,401585688,2024-03-28,Atlanta Hawks,Boston Celtics,0.0,245.0,-245.0
+2023-24,401585689,2024-03-28,New Orleans Pelicans,Milwaukee Bucks,0.0,207.0,-207.0
+2024-25,401705032,2025-01-02,Oklahoma City Thunder,LA Clippers,217.0,214.0,3.0
+2024-25,401705383,2025-02-23,Milwaukee Bucks,Miami Heat,236.0,233.0,3.0

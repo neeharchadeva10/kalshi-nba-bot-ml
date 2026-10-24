@@ -1,0 +1,190 @@
+{
+  "split": "discovery",
+  "window": [
+    "2026-02-01",
+    "2026-06-30"
+  ],
+  "split_rule": "first n//2 games by scheduled start (amended 2026-10-22)",
+  "n_games_with_game_total_median": 266,
+  "game_skips": {
+    "team_median_missing": 156,
+    "1H_median_missing": 92
+  },
+  "versions": 16,
+  "k": 0.5112872776864621,
+  "k_n_games": 174,
+  "version_skips": {
+    "team|other_follows|>=1:no_bet(main strike missing / unsettled)": 2,
+    "team|other_follows|>=2:no_bet(main strike missing / unsettled)": 2
+  },
+  "distributions": {
+    "D_team": {
+      "n": 110,
+      "mean": -0.3676718762858387,
+      "sd": 0.7767934200009319,
+      "q05_25_50_75_95": [
+        -1.4407142857142774,
+        -0.6992524923589087,
+        -0.271185064935068,
+        0.04449006875479,
+        0.5681140481140587
+      ],
+      "abs_ge": {
+        "1": 15,
+        "2": 6,
+        "3": 2,
+        "4": 0
+      }
+    },
+    "D_1H": {
+      "n": 174,
+      "mean": -1.8166510334377268,
+      "sd": 3.024486944227855,
+      "q05_25_50_75_95": [
+        -6.307022807600186,
+        -5.372230308955704,
+        -5.886964686396823e-06,
+        0.628148210478578,
+        1.226537561209473
+      ],
+      "abs_ge": {
+        "1": 84,
+        "2": 66,
+        "3": 66,
+        "4": 63
+      }
+    }
+  },
+  "spreads": {
+    "game_total": {
+      "n": 266,
+      "median_of_game_mean_spread": 0.021818181818181813
+    },
+    "team_total": {
+      "n": 242,
+      "median_of_game_mean_spread": 0.14181818181818182
+    },
+    "first_half": {
+      "n": 241,
+      "median_of_game_mean_spread": 0.16399999999999998
+    }
+  },
+  "closer": {
+    "team": {
+      "n": 110,
+      "game_total_closer": 55,
+      "team_sum_closer": 55,
+      "ties": 0,
+      "mae_game_total": 13.921603792234595,
+      "mae_team_sum": 14.004346192270964
+    },
+    "1H": {
+      "n": 174,
+      "1H_market_closer": 104,
+      "k_x_game_total_closer": 70,
+      "ties": 0,
+      "mae_1H_market": 8.246212766713812,
+      "mae_k_x_game_total": 9.443009442257168
+    }
+  },
+  "selected_version": "1H|other_follows|>=1",
+  "eligible_versions": [
+    "1H|game_follows|>=1",
+    "1H|game_follows|>=2",
+    "1H|game_follows|>=3",
+    "1H|game_follows|>=4",
+    "1H|other_follows|>=1",
+    "1H|other_follows|>=2",
+    "1H|other_follows|>=3",
+    "1H|other_follows|>=4"
+  ],
+  "selected_stats": {
+    "n": 84,
+    "mean": -0.0025214285714285725,
+    "sd": 0.4959417034997397,
+    "lb": -0.10858031374483072,
+    "win_rate": 0.5476190476190477,
+    "total_net": -0.2118000000000001
+  },
+  "luck_test": {
+    "reps": 500,
+    "seed": 20261022,
+    "share_reaching_real_best_lb": 0.452,
+    "limit": 0.05,
+    "verdict": "FAIL"
+  },
+  "by_season_type": {
+    "regular": {
+      "n_games": 266,
+      "versions": {
+        "team|game_follows|>=1": {
+          "n": 15,
+          "mean": -0.13280666666666668
+        },
+        "team|game_follows|>=2": {
+          "n": 6,
+          "mean": -0.04079999999999998
+        },
+        "team|game_follows|>=3": {
+          "n": 2,
+          "mean": -0.027499999999999997
+        },
+        "team|game_follows|>=4": {
+          "n": 0,
+          "mean": null
+        },
+        "team|other_follows|>=1": {
+          "n": 13,
+          "mean": 0.12667307692307692
+        },
+        "team|other_follows|>=2": {
+          "n": 4,
+          "mean": 0.0700875
+        },
+        "team|other_follows|>=3": {
+          "n": 2,
+          "mean": -0.05487499999999998
+        },
+        "team|other_follows|>=4": {
+          "n": 0,
+          "mean": null
+        },
+        "1H|game_follows|>=1": {
+          "n": 84,
+          "mean": -0.04366904761904762
+        },
+        "1H|game_follows|>=2": {
+          "n": 66,
+          "mean": -0.031113636363636364
+        },
+        "1H|game_follows|>=3": {
+          "n": 66,
+          "mean": -0.031113636363636364
+        },
+        "1H|game_follows|>=4": {
+          "n": 63,
+          "mean": -0.038273015873015875
+        },
+        "1H|other_follows|>=1": {
+          "n": 84,
+          "mean": -0.0025214285714285725
+        },
+        "1H|other_follows|>=2": {
+          "n": 66,
+          "mean": -0.004219696969696976
+        },
+        "1H|other_follows|>=3": {
+          "n": 66,
+          "mean": -0.004219696969696976
+        },
+        "1H|other_follows|>=4": {
+          "n": 63,
+          "mean": 0.007039682539682541
+        }
+      }
+    }
+  },
+  "season_type_counts": {
+    "regular": 266
+  }
+}

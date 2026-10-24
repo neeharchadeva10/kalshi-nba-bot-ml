@@ -1,0 +1,19 @@
+{
+ "parts": {
+  "A": {
+   "min_bets": 200,
+   "n_eligible": 48,
+   "chosen": {
+    "version": "A-RES|g1.5",
+    "n": 633,
+    "wins": 355,
+    "losses": 264,
+    "pushes": 14,
+    "mean_pnl": 0.09277610225477523,
+    "win_rate_decided": 0.5735056542810986,
+    "total_pnl": 58.72727272727272
+   },
+   "stop": false
+  }
+ }
+}

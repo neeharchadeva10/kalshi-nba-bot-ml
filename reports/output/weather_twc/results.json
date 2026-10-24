@@ -1,0 +1,1082 @@
+{
+ "switch": [
+  {
+   "series": "KXHIGHAUS",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXHIGHCHI",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXHIGHDEN",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXHIGHLAX",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXHIGHMIA",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXHIGHNY",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXHIGHPHIL",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXHIGHTATL",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXHIGHTBOS",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXHIGHTDAL",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXHIGHTDC",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXHIGHTHOU",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXHIGHTLV",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXHIGHTMIN",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXHIGHTNOLA",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXHIGHTOKC",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXHIGHTPHX",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXHIGHTSATX",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXHIGHTSEA",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXHIGHTSFO",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXLOWTATL",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXLOWTAUS",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXLOWTBOS",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXLOWTCHI",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXLOWTDAL",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXLOWTDC",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXLOWTDEN",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXLOWTHOU",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXLOWTLAX",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXLOWTLV",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXLOWTMIA",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXLOWTMIN",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXLOWTNOLA",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXLOWTNYC",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXLOWTOKC",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXLOWTPHIL",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXLOWTPHX",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXLOWTSATX",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXLOWTSEA",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXLOWTSFO",
+   "last_nws_day": "2026-08-13",
+   "first_twc_day": "2026-08-14"
+  },
+  {
+   "series": "KXHIGHTSAN",
+   "last_nws_day": NaN,
+   "first_twc_day": "2026-08-19"
+  },
+  {
+   "series": "KXLOWTSAN",
+   "last_nws_day": NaN,
+   "first_twc_day": "2026-08-19"
+  },
+  {
+   "series": "KXHIGHTEWR",
+   "last_nws_day": NaN,
+   "first_twc_day": "2026-08-26"
+  },
+  {
+   "series": "KXHIGHTTTN",
+   "last_nws_day": NaN,
+   "first_twc_day": "2026-08-26"
+  },
+  {
+   "series": "KXLOWTEWR",
+   "last_nws_day": NaN,
+   "first_twc_day": "2026-08-26"
+  },
+  {
+   "series": "KXLOWTTTN",
+   "last_nws_day": NaN,
+   "first_twc_day": "2026-08-26"
+  },
+  {
+   "series": "KXHIGHTSDF",
+   "last_nws_day": NaN,
+   "first_twc_day": "2026-08-28"
+  },
+  {
+   "series": "KXLOWTSDF",
+   "last_nws_day": NaN,
+   "first_twc_day": "2026-08-28"
+  }
+ ],
+ "series_with_nws_after_twc": [],
+ "n_events_total": 17068,
+ "n_events_analysed": 16795,
+ "exclusions_all": [
+  {
+   "source": "NWS",
+   "excl_reason": "no_NOAA_value",
+   "events": 1
+  },
+  {
+   "source": "NWS",
+   "excl_reason": "no_US_CLI_station",
+   "events": 70
+  },
+  {
+   "source": "NWS",
+   "excl_reason": "no_yes",
+   "events": 148
+  },
+  {
+   "source": "NWS",
+   "excl_reason": "unresolved",
+   "events": 8
+  },
+  {
+   "source": "OTHER",
+   "excl_reason": "source_OTHER",
+   "events": 44
+  },
+  {
+   "source": "TWC",
+   "excl_reason": "no_NOAA_value",
+   "events": 2
+  }
+ ],
+ "exclusions_us_station_series": [
+  {
+   "source": "NWS",
+   "excl_reason": "no_NOAA_value",
+   "events": 1
+  },
+  {
+   "source": "NWS",
+   "excl_reason": "no_yes",
+   "events": 148
+  },
+  {
+   "source": "NWS",
+   "excl_reason": "unresolved",
+   "events": 8
+  },
+  {
+   "source": "OTHER",
+   "excl_reason": "source_OTHER",
+   "events": 44
+  },
+  {
+   "source": "TWC",
+   "excl_reason": "no_NOAA_value",
+   "events": 2
+  }
+ ],
+ "nws_era": {
+  "n": 13667,
+  "mismatches": 12,
+  "rate": 0.000878027365186215
+ },
+ "twc_era": {
+  "n": 3128,
+  "mismatches": 1,
+  "rate": 0.00031969309462915604
+ },
+ "nws_era_by_year": {
+  "2021": {
+   "n": 154,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  "2022": {
+   "n": 661,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  "2023": {
+   "n": 1194,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  "2024": {
+   "n": 1548,
+   "mismatches": 1,
+   "rate": 0.0006459948320413437
+  },
+  "2025": {
+   "n": 2684,
+   "mismatches": 2,
+   "rate": 0.0007451564828614009
+  },
+  "2026": {
+   "n": 7426,
+   "mismatches": 9,
+   "rate": 0.0012119579854565042
+  }
+ },
+ "by_source_kind": {
+  "NWS/high": {
+   "n": 10234,
+   "mismatches": 8,
+   "rate": 0.0007817080320500293
+  },
+  "NWS/low": {
+   "n": 3433,
+   "mismatches": 4,
+   "rate": 0.0011651616661811825
+  },
+  "TWC/high": {
+   "n": 1564,
+   "mismatches": 1,
+   "rate": 0.0006393861892583121
+  },
+  "TWC/low": {
+   "n": 1564,
+   "mismatches": 0,
+   "rate": 0.0
+  }
+ },
+ "by_station": [
+  {
+   "source": "NWS",
+   "cli": "CLIATL",
+   "n": 323,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "NWS",
+   "cli": "CLIAUS",
+   "n": 1431,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "NWS",
+   "cli": "CLIBOS",
+   "n": 323,
+   "mismatches": 1,
+   "rate": 0.0030959752321981426
+  },
+  {
+   "source": "NWS",
+   "cli": "CLIDCA",
+   "n": 339,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "NWS",
+   "cli": "CLIDEN",
+   "n": 876,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "NWS",
+   "cli": "CLIDFW",
+   "n": 317,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "NWS",
+   "cli": "CLIHOU",
+   "n": 317,
+   "mismatches": 5,
+   "rate": 0.015772870662460567
+  },
+  {
+   "source": "NWS",
+   "cli": "CLILAS",
+   "n": 345,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "NWS",
+   "cli": "CLILAX",
+   "n": 830,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "NWS",
+   "cli": "CLIMDW",
+   "n": 1978,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "NWS",
+   "cli": "CLIMIA",
+   "n": 1429,
+   "mismatches": 2,
+   "rate": 0.0013995801259622112
+  },
+  {
+   "source": "NWS",
+   "cli": "CLIMSP",
+   "n": 324,
+   "mismatches": 1,
+   "rate": 0.0030864197530864196
+  },
+  {
+   "source": "NWS",
+   "cli": "CLIMSY",
+   "n": 345,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "NWS",
+   "cli": "CLINYC",
+   "n": 1966,
+   "mismatches": 1,
+   "rate": 0.000508646998982706
+  },
+  {
+   "source": "NWS",
+   "cli": "CLIOKC",
+   "n": 317,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "NWS",
+   "cli": "CLIPHL",
+   "n": 876,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "NWS",
+   "cli": "CLIPHX",
+   "n": 324,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "NWS",
+   "cli": "CLISAT",
+   "n": 317,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "NWS",
+   "cli": "CLISEA",
+   "n": 345,
+   "mismatches": 2,
+   "rate": 0.005797101449275362
+  },
+  {
+   "source": "NWS",
+   "cli": "CLISFO",
+   "n": 345,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "TWC",
+   "cli": "CLIATL",
+   "n": 134,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "TWC",
+   "cli": "CLIAUS",
+   "n": 134,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "TWC",
+   "cli": "CLIBOS",
+   "n": 134,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "TWC",
+   "cli": "CLIDCA",
+   "n": 134,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "TWC",
+   "cli": "CLIDEN",
+   "n": 134,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "TWC",
+   "cli": "CLIDFW",
+   "n": 134,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "TWC",
+   "cli": "CLIEWR",
+   "n": 110,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "TWC",
+   "cli": "CLIHOU",
+   "n": 134,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "TWC",
+   "cli": "CLILAS",
+   "n": 134,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "TWC",
+   "cli": "CLILAX",
+   "n": 134,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "TWC",
+   "cli": "CLIMDW",
+   "n": 134,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "TWC",
+   "cli": "CLIMIA",
+   "n": 134,
+   "mismatches": 1,
+   "rate": 0.007462686567164179
+  },
+  {
+   "source": "TWC",
+   "cli": "CLIMSP",
+   "n": 134,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "TWC",
+   "cli": "CLIMSY",
+   "n": 134,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "TWC",
+   "cli": "CLINYC",
+   "n": 134,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "TWC",
+   "cli": "CLIOKC",
+   "n": 134,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "TWC",
+   "cli": "CLIPHL",
+   "n": 134,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "TWC",
+   "cli": "CLIPHX",
+   "n": 134,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "TWC",
+   "cli": "CLISAN",
+   "n": 123,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "TWC",
+   "cli": "CLISAT",
+   "n": 133,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "TWC",
+   "cli": "CLISDF",
+   "n": 106,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "TWC",
+   "cli": "CLISEA",
+   "n": 134,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "TWC",
+   "cli": "CLISFO",
+   "n": 134,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  {
+   "source": "TWC",
+   "cli": "CLITTN",
+   "n": 110,
+   "mismatches": 0,
+   "rate": 0.0
+  }
+ ],
+ "nws_value_source_counts": [
+  {
+   "source": "NWS",
+   "nws_src": "ghcn",
+   "n": 13667
+  },
+  {
+   "source": "TWC",
+   "nws_src": "cli",
+   "n": 95
+  },
+  {
+   "source": "TWC",
+   "nws_src": "ghcn",
+   "n": 3033
+  }
+ ],
+ "ghcn_vs_cli_crosscheck": {
+  "agree": 233,
+  "differences": []
+ },
+ "n_cli_products_parsed": 415,
+ "ghcn_last_date_and_n_qflagged": {
+  "CLIATL": [
+   "20261017",
+   0
+  ],
+  "CLIAUS": [
+   "20261017",
+   0
+  ],
+  "CLIBOS": [
+   "20261017",
+   0
+  ],
+  "CLIMDW": [
+   "20261017",
+   0
+  ],
+  "CLIDFW": [
+   "20261017",
+   0
+  ],
+  "CLIDCA": [
+   "20261017",
+   0
+  ],
+  "CLIDEN": [
+   "20261017",
+   0
+  ],
+  "CLIEWR": [
+   "20261017",
+   0
+  ],
+  "CLIHOU": [
+   "20261017",
+   1
+  ],
+  "CLILAX": [
+   "20261017",
+   1
+  ],
+  "CLILAS": [
+   "20261017",
+   0
+  ],
+  "CLIMIA": [
+   "20261017",
+   0
+  ],
+  "CLIMSP": [
+   "20261017",
+   0
+  ],
+  "CLIMSY": [
+   "20261017",
+   0
+  ],
+  "CLINYC": [
+   "20261017",
+   0
+  ],
+  "CLIOKC": [
+   "20261017",
+   0
+  ],
+  "CLIPHL": [
+   "20261017",
+   0
+  ],
+  "CLIPHX": [
+   "20261017",
+   0
+  ],
+  "CLISAN": [
+   "20261017",
+   1
+  ],
+  "CLISAT": [
+   "20261017",
+   0
+  ],
+  "CLISDF": [
+   "20261017",
+   0
+  ],
+  "CLISEA": [
+   "20261017",
+   0
+  ],
+  "CLISFO": [
+   "20261017",
+   0
+  ],
+  "CLITTN": [
+   "20261017",
+   0
+  ]
+ },
+ "twc_mismatch_size_direction": {
+  "by_mm": {
+   "5": 1
+  },
+  "twc_higher": 1,
+  "twc_lower": 0
+ },
+ "twc_mismatch_events": [
+  {
+   "event": "KXHIGHMIA-26AUG29",
+   "cli": "CLIMIA",
+   "kind": "high",
+   "day": "2026-08-29",
+   "nws": 85,
+   "lo": 90.0,
+   "hi": 91.0,
+   "mm": 5,
+   "nws_src": "ghcn",
+   "sflag": "1"
+  }
+ ],
+ "nws_mismatch_size_direction": {
+  "-3": 1,
+  "-1": 2,
+  "1": 4,
+  "2": 1,
+  "3": 3,
+  "4": 1
+ },
+ "nws_mismatch_events_first60": [
+  {
+   "event": "KXHIGHMIA-24NOV27",
+   "cli": "CLIMIA",
+   "kind": "high",
+   "day": "2024-11-27",
+   "nws": 81,
+   "lo": 84.0,
+   "hi": NaN,
+   "mm": 3,
+   "nws_src": "ghcn",
+   "sflag": "W"
+  },
+  {
+   "event": "KXHIGHMIA-25JAN20",
+   "cli": "CLIMIA",
+   "kind": "high",
+   "day": "2025-01-20",
+   "nws": 73,
+   "lo": 71.0,
+   "hi": 72.0,
+   "mm": -1,
+   "nws_src": "ghcn",
+   "sflag": "W"
+  },
+  {
+   "event": "KXHIGHNY-25FEB22",
+   "cli": "CLINYC",
+   "kind": "high",
+   "day": "2025-02-22",
+   "nws": 40,
+   "lo": 38.0,
+   "hi": 39.0,
+   "mm": -1,
+   "nws_src": "ghcn",
+   "sflag": "W"
+  },
+  {
+   "event": "KXHIGHTHOU-26JUL02",
+   "cli": "CLIHOU",
+   "kind": "high",
+   "day": "2026-07-02",
+   "nws": 92,
+   "lo": 95.0,
+   "hi": 96.0,
+   "mm": 3,
+   "nws_src": "ghcn",
+   "sflag": "1"
+  },
+  {
+   "event": "KXHIGHTHOU-26JUL03",
+   "cli": "CLIHOU",
+   "kind": "high",
+   "day": "2026-07-03",
+   "nws": 95,
+   "lo": 97.0,
+   "hi": 98.0,
+   "mm": 2,
+   "nws_src": "ghcn",
+   "sflag": "1"
+  },
+  {
+   "event": "KXHIGHTHOU-26JUL04",
+   "cli": "CLIHOU",
+   "kind": "high",
+   "day": "2026-07-04",
+   "nws": 95,
+   "lo": 99.0,
+   "hi": 100.0,
+   "mm": 4,
+   "nws_src": "ghcn",
+   "sflag": "1"
+  },
+  {
+   "event": "KXHIGHTHOU-26JUL05",
+   "cli": "CLIHOU",
+   "kind": "high",
+   "day": "2026-07-05",
+   "nws": 96,
+   "lo": 97.0,
+   "hi": 98.0,
+   "mm": 1,
+   "nws_src": "ghcn",
+   "sflag": "1"
+  },
+  {
+   "event": "KXHIGHTHOU-26JUL06",
+   "cli": "CLIHOU",
+   "kind": "high",
+   "day": "2026-07-06",
+   "nws": 96,
+   "lo": 97.0,
+   "hi": 98.0,
+   "mm": 1,
+   "nws_src": "ghcn",
+   "sflag": "1"
+  },
+  {
+   "event": "KXLOWTBOS-26MAY26",
+   "cli": "CLIBOS",
+   "kind": "low",
+   "day": "2026-05-26",
+   "nws": 57,
+   "lo": 53.0,
+   "hi": 54.0,
+   "mm": -3,
+   "nws_src": "ghcn",
+   "sflag": "1"
+  },
+  {
+   "event": "KXLOWTMIN-26MAY12",
+   "cli": "CLIMSP",
+   "kind": "low",
+   "day": "2026-05-12",
+   "nws": 52,
+   "lo": 55.0,
+   "hi": 56.0,
+   "mm": 3,
+   "nws_src": "ghcn",
+   "sflag": "1"
+  },
+  {
+   "event": "KXLOWTSEA-26JUL22",
+   "cli": "CLISEA",
+   "kind": "low",
+   "day": "2026-07-22",
+   "nws": 64,
+   "lo": 65.0,
+   "hi": 66.0,
+   "mm": 1,
+   "nws_src": "ghcn",
+   "sflag": "1"
+  },
+  {
+   "event": "KXLOWTSEA-26JUL28",
+   "cli": "CLISEA",
+   "kind": "low",
+   "day": "2026-07-28",
+   "nws": 58,
+   "lo": 59.0,
+   "hi": 60.0,
+   "mm": 1,
+   "nws_src": "ghcn",
+   "sflag": "1"
+  }
+ ],
+ "twc_by_nws_value_F_with_mismatch": {
+  "85": {
+   "n": 45,
+   "mismatches": 1,
+   "rate": 0.022222222222222223
+  }
+ },
+ "twc_by_date_with_mismatch": {
+  "2026-08-29": {
+   "n": 48,
+   "mismatches": 1,
+   "rate": 0.020833333333333332
+  }
+ },
+ "twc_by_month": {
+  "2026-08": {
+   "n": 778,
+   "mismatches": 1,
+   "rate": 0.0012853470437017994
+  },
+  "2026-09": {
+   "n": 1440,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  "2026-10": {
+   "n": 910,
+   "mismatches": 0,
+   "rate": 0.0
+  }
+ },
+ "twc_by_bracket_width_0_is_tail": {
+  "0": {
+   "n": 550,
+   "mismatches": 0,
+   "rate": 0.0
+  },
+  "2": {
+   "n": 2578,
+   "mismatches": 1,
+   "rate": 0.0003878975950349108
+  }
+ },
+ "twc_nws_position_in_bracket_matched_events": {
+  "low_edge": 1290,
+  "high_edge": 1287,
+  "tail": 550
+ },
+ "nws_nws_position_in_bracket_matched_events": {
+  "high_edge": 5553,
+  "low_edge": 5148,
+  "tail": 2953,
+  "interior": 1
+ },
+ "ladder_status_counts": [
+  {
+   "source": "NWS",
+   "status": "no_US_CLI_station",
+   "n": 70
+  },
+  {
+   "source": "NWS",
+   "status": "no_yes",
+   "n": 148
+  },
+  {
+   "source": "NWS",
+   "status": "ok",
+   "n": 13668
+  },
+  {
+   "source": "NWS",
+   "status": "unresolved",
+   "n": 8
+  },
+  {
+   "source": "OTHER",
+   "status": "source_OTHER",
+   "n": 44
+  },
+  {
+   "source": "TWC",
+   "status": "ok",
+   "n": 3130
+  }
+ ],
+ "latest_event_day_analysed": "2026-10-19",
+ "stats": {
+  "nws_era_wilson95": [
+   0.0005023509213641872,
+   0.0015342171857522032
+  ],
+  "twc_era_wilson95": [
+   5.6434458799592456e-05,
+   0.00180879397420928
+  ],
+  "fisher_p_nws_vs_twc": 0.4842127651427394,
+  "nws_era_excluding_HOU_jul2026_cluster": {
+   "n": 13662,
+   "mismatches": 7,
+   "wilson95": [
+    0.00024821497087311424,
+    0.001057346773673961
+   ]
+  },
+  "note": "GHCN source flag '1' = NWS CF6 monthly form, not the CLI itself; CF6-vs-CLI differences are the likely source of the NWS-era control mismatches"
+ }
+}

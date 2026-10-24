@@ -1,0 +1,49 @@
+[
+ {
+  "gate": "nflverse total = home_score + away_score",
+  "pass": true,
+  "n_checked": 7370,
+  "n_mismatch": 0
+ },
+ {
+  "gate": "A-PTS: truncated-history recompute and slow reference agree with the stored predictions",
+  "pass": true,
+  "n_games": 6,
+  "max_abs_diff_truncated": 0.0,
+  "max_abs_diff_reference": 2.842170943040401e-14
+ },
+ {
+  "gate": "T-60 main-strike picker reproduces #42's choice on synthetic ladders",
+  "pass": true,
+  "mine": [
+   44.5,
+   42.5,
+   42.5
+  ],
+  "ref": [
+   44.5,
+   42.5,
+   42.5
+  ],
+  "ref_source": "grid_bets.main_strike_table (#42)"
+ },
+ {
+  "gate": "fee: 51c ask -> P 0.52 -> fee $0.0175; 50c ask -> P 0.51 -> 0.0175",
+  "pass": true
+ },
+ {
+  "gate": "Kalshi settlement brackets agree with nflverse finals",
+  "pass": null,
+  "status": "pending (kalshi/markets.parquet not downloaded yet)"
+ },
+ {
+  "gate": "Kalshi occurrence_datetime - 3h = nflverse kickoff",
+  "pass": null,
+  "status": "pending (kalshi/markets.parquet not downloaded yet)"
+ },
+ {
+  "gate": "nflverse close vs Kalshi implied median (T-60, T-24h)",
+  "pass": null,
+  "status": "pending (kalshi parquet files not downloaded yet)"
+ }
+]

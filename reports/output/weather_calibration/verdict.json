@@ -1,0 +1,34 @@
+{
+  "verdict": "FAIL",
+  "exploratory_note": "none of the exploratory files affect the verdict",
+  "analysed": {
+    "events": 16331,
+    "markets": 96477,
+    "days": 1723,
+    "discovery_days": 1589,
+    "validation_days": 134
+  },
+  "n_candidates": 0,
+  "n_validation_pass": 0,
+  "n_pass_all": 0,
+  "criteria": {
+    "candidate": "discovery mean>0, 2.5th pct>0, n>=200, dates>=30",
+    "validation": "validation mean>0, 5th pct>0, n>=100",
+    "size": ">= $2.0/week at 10 contracts, trade-print confirmed"
+  },
+  "cells": [],
+  "size_check": null,
+  "bracket_sums": {
+    "event_snapshots_evaluated": 56530,
+    "yes_bundle_profitable": 56,
+    "no_bundle_profitable": 87
+  },
+  "run": {
+    "elapsed_s": 122.8,
+    "peak_rss_mb": 488.2,
+    "fills": true,
+    "n_boot": 10000,
+    "n_boot_exploratory": 2000,
+    "seed": 20261013
+  }
+}
