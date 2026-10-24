@@ -1,7 +1,7 @@
 """Static checks of the desktop START/STOP scripts (never runs them)."""
 import re
 import sys
-from pathlib import Path
+from pathlib import Path, PureWindowsPath
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
@@ -16,7 +16,7 @@ SHORT = (ROOT / "scripts" / "make_bot_shortcuts.ps1").read_text(encoding="utf-8"
 def ps_join(text, var):
     m = re.search(rf"^\${var}\s*=\s*Join-Path \$Root '([^']+)'", text, re.M)
     assert m, var
-    return (ROOT / m.group(1)).resolve()
+    return ROOT.joinpath(*PureWindowsPath(m.group(1)).parts).resolve()      # .ps1 paths use backslashes: split them the Windows way on any OS
 
 
 def test_stop_file_paths_match_the_bot():
