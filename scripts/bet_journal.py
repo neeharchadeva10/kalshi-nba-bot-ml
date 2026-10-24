@@ -15,7 +15,8 @@ replayed with kpm.analysis.ws_books (closing quote), public GET market (tip time
 as the closing-quote fallback, reports/output/ohio_trial/live_26OCT20/events.jsonl (lock-bot attempts).
 
 Conventions (documented, not hidden):
- * Tip time = Kalshi occurrence_datetime - 3h (the same proxy early_overs_picks.py uses); picks rows' tip_et wins.
+ * Tip time = hoopR schedule (kpm.collectors.nba_tip_time, the same lookup early_overs_picks.py uses); when the game
+   is not in the schedule, Kalshi occurrence_datetime - 3h with a logged warning. Picks rows' tip_et wins.
  * Position side: YES/NO; for KXNBATOTAL it is shown as OVER (yes) / UNDER (no). Line = market floor_strike.
  * Fills are position legs of their side (see trade_ledger.py); a locked pair is two positions (YES leg + NO leg) of
    one ticker, `ticker_net_pnl` shows the pair's net.
@@ -45,6 +46,7 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 sys.path.insert(0, str(ROOT / "src"))
+from kpm.collectors.nba_tip_time import get_tip_time  # noqa: E402
 ET = ZoneInfo("America/New_York")
 UTC = timezone.utc
 GAME_KEY_RE = re.compile(r"^(\d{2})([A-Z]{3})(\d{2})([A-Z]{3})([A-Z]{3})$")
@@ -64,7 +66,7 @@ COLUMNS = {
     "filled": "true if any contract filled; false for a pick that never filled",
     "first_fill_utc": "first fill time UTC", "last_fill_utc": "last fill time UTC",
     "first_fill_et": "first fill time ET", "last_fill_et": "last fill time ET",
-    "tip_utc": "estimated tip-off UTC (occurrence_datetime - 3h)",
+    "tip_utc": "tip-off UTC (hoopR schedule; occurrence_datetime - 3h fallback, logged)",
     "min_before_tip": "minutes from first fill to tip (positive = before tip)",
     "contracts": "total contracts filled", "avg_entry_price": "average entry price of our side, dollars",
     "fees": "total fees paid, dollars", "maker_taker": "taker / maker / mixed",
@@ -308,11 +310,10 @@ def game_facts(client, cache: Cache, game_key: str, total_ticker: str | None):
     if g and g.get("final"):
         return g
     info = {"tip_utc": None, "overtime": None, "final_total": None, "final": False}
+    occ = None
     ot = _mkt(client, f"KXNBAOT-{game_key}-1")
     if ot:
         occ = ot.get("occurrence_datetime")
-        if occ:
-            info["tip_utc"] = (_iso(occ) - timedelta(hours=3)).isoformat()
         if ot.get("result") in ("yes", "no"):
             info["overtime"] = ot["result"] == "yes"
     if total_ticker:
@@ -322,8 +323,10 @@ def game_facts(client, cache: Cache, game_key: str, total_ticker: str | None):
                 info["final_total"] = float(tm["expiration_value"])
             except ValueError:
                 pass
-        if tm and not info["tip_utc"] and tm.get("occurrence_datetime"):
-            info["tip_utc"] = (_iso(tm["occurrence_datetime"]) - timedelta(hours=3)).isoformat()
+        if tm and not occ:
+            occ = tm.get("occurrence_datetime")
+    tip = get_tip_time(game_key, occ, live=False).tip      # hoopR schedule; else occurrence - 3h with a warning
+    info["tip_utc"] = tip.isoformat() if tip else None
     info["final"] = info["final_total"] is not None and info["overtime"] is not None
     cache.d["games"][game_key] = info
     return info

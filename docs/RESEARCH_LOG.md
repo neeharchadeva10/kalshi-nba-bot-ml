@@ -2499,3 +2499,21 @@ Most ideas before this log did not record how many versions were tried: "n/r" (n
   - **Still to do after the Kalshi download:** bracket/kickoff/close-vs-M gates, the Part C independent check (200
     strike-snapshots), Kalshi counts, then a delta audit and AUDIT_OK.
 - **2026-10-23T23:24:45Z:** #68 build started (code only; no results until its own check and audit).
+
+### Data note — the "tip = Kalshi time − 3 h" rule is wrong for unscheduled playoff games — 2026-10-24
+- **Written 2026-10-24T05:47:10Z (date -u).** Not a new idea; no version count change.
+- **Measured:** 1,418 KXNBAGAME events (Apr 2025 – Oct 2026) matched to hoopR team_box tip times.
+  - expected_expiration_time − 3 h was exact on 1,384 (97.6%); 31 were off by more than 15 min.
+  - occurrence_datetime − 3 h (98 events carry it) was exact on 76; 17 were off by more than 15 min.
+- **The big misses are playoff games whose time was not set when Kalshi listed them.** Kalshi's placeholder made
+  the rule give 17:00Z (1 pm ET) while the real tip was 7:30-9:30 pm ET: off by 6 to 8.5 hours (e.g. 26MAY15SASMIN
+  −510 min, 26APR30BOSPHI −420 min, 25MAY05NYKBOS −360 min). A rescheduled game (26JAN26INDATL) was off by +6 h.
+  Settled playoff markets also had occurrence_datetime rewritten after the game (non-round seconds), off by ~20-37 min.
+- **Consequence for past work:** backtests in reports/output/ that set tip = Kalshi time − 3 h (nba_drift, nba_props,
+  nba_late_fav, nba_teammate_out, nba_injury_speed, nba_totals_pace, nba_internal_mismatch, cheapleg, and others) may
+  have read "pregame" prices at the wrong time — hours too early for unscheduled playoff games, and after tip for
+  rescheduled games like 26JAN26INDATL.
+  Regular-season games are almost all exact. Those scripts are left unchanged; any result leaning on playoff games
+  should be re-checked against the hoopR schedule before it is trusted.
+- **Live code** (early_overs_picks, the overs bot, DK snapshot, bet_journal, paper_league) now takes tip time from the
+  hoopR schedule via src/kpm/collectors/nba_tip_time.py; live betting skips any game without a confirmed schedule time.
