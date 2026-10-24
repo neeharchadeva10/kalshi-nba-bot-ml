@@ -154,7 +154,8 @@ def _games_on(box, d):
             for r in tab.itertuples()]
 
 
-@pytest.mark.needs_data("data/raw/nba_open/team_box_2027.parquet")
+@pytest.mark.needs_data("data/raw/nba_open/team_box_2025.parquet", "data/raw/nba_open/team_box_2026.parquet",
+                        "data/raw/nba_open/team_box_2027.parquet")
 def test_real_placeholders_never_contribute_and_equal_forward_block():
     """Predictions for the Oct 21 games, made from the box cut BEFORE Oct 21 + placeholders, equal the frozen forward_block-style
     prediction made from the full box; they do not change when the placeholder fill changes, nor when rows dated on/after Oct 21 are
@@ -191,7 +192,7 @@ def test_real_placeholders_never_contribute_and_equal_forward_block():
             assert p1[key][mod.lower() + "_" + side] == pytest.approx(pr[mod][i], abs=1e-9)
 
 
-@pytest.mark.needs_data("data/raw/nba_open/team_box_2027.parquet")
+@pytest.mark.needs_data("data/raw/nba_open/team_box_2026.parquet", "data/raw/nba_open/team_box_2027.parquet")
 def test_real_features_ignore_rows_on_or_after_the_game_date():
     S = T.load_model_modules()["S"]
     L = T.load_model_modules()["L"]
@@ -211,8 +212,14 @@ def test_real_features_ignore_rows_on_or_after_the_game_date():
 @pytest.mark.needs_data("data/raw/nba_open/team_box_2027.parquet")
 def test_box_stats_counts_only_earlier_games():
     full = pd.read_parquet(T.BOX_2027)
-    st = T.box_stats(full, dt.date(2026, 10, 22))
+    # team_box_2027 is hoopR's live file: it grows as games finish, so pin the box as it stood when an Oct 22 game locked
+    et = pd.to_datetime(full.game_date_time).dt.tz_convert("America/New_York").dt.date
+    at_lock = full[et < dt.date(2026, 10, 22)]
+    st = T.box_stats(at_lock, dt.date(2026, 10, 22))
     assert st["n_box_games"] == 14 and st["box_max_date"] == "2026-10-21" and st["box_games_prev_day"] >= 3
+    # the live box may also hold games on/after the game date: they are not counted, but box_max_date reports them
+    st = T.box_stats(full, dt.date(2026, 10, 22))
+    assert st["n_box_games"] == 14 and st["box_max_date"] == str(et[full.season_type == 2].max())
     assert T.box_stats(full, dt.date(2026, 10, 21))["n_box_games"] == 3 or T.box_stats(full, dt.date(2026, 10, 21))["n_box_games"] < 14
 
 
