@@ -1,6 +1,6 @@
 import json, numpy as np, pandas as pd
 from pathlib import Path
-O = Path(r"C:\Users\Jarvis\Documents\Kalshi-PM\reports\output\nba_refined_totals")
+O = Path(r"%USERPROFILE%\Documents\Kalshi-PM\reports\output\nba_refined_totals")
 out = {}
 # ---- B features
 m = pd.read_parquet(O / "main_out/b_features.parquet"); c = pd.read_csv(O / "check/out/b_check.csv")

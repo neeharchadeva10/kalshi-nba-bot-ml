@@ -638,8 +638,8 @@ Most ideas before this log did not record how many versions were tried: "n/r" (n
 - **Versions:** 1 (decision rule).
 - **Status:** server up 2026-10-20 ~20:45Z; trial running.
 - **2026-10-20 ~20:45Z, server up.**
-  - EC2 i-094e9277b9ca0d405 `kalshi-ohio`: t4g.small, Ubuntu 26.04 arm64, Python 3.14, us-east-2c.
-  - Address 18.223.21.99. SSH allowed from the user's IP only. Clock on Amazon Time Sync (offset about 2 us).
+  - EC2 <instance-id> `kalshi-ohio`: t4g.small, Ubuntu 26.04 arm64, Python 3.14, us-east-2c.
+  - Address <server-host>. SSH allowed from the user's IP only. Clock on Amazon Time Sync (offset about 2 us).
   - **Key:** the user chose to use their existing Kalshi API key on the server for now ("i will switch it out if
     something goes wrong"). It was copied without being printed; .env and the key are mode 600.
 - **First network comparison** (reports: scratchpad rtt.py), median:

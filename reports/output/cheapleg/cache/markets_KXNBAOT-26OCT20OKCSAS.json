@@ -1,1 +1,0 @@
-{"fetched_ts": 1792558727.44805, "markets": [{"ticker": "KXNBAOT-26OCT20OKCSAS-1", "event_ticker": "KXNBAOT-26OCT20OKCSAS", "status": "finalized", "result": "no", "strike_type": "greater", "floor_strike": 0.5, "cap_strike": null, "settlement_ts": "2026-10-21T04:29:41.776082Z", "expected_expiration_time": "2026-10-21T04:30:00Z", "occurrence_datetime": "2026-10-21T04:30:00Z"}]}

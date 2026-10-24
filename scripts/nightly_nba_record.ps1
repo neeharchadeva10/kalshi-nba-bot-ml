@@ -8,7 +8,7 @@
 # It does nothing if that night's recorder is already running, or if there are no games.
 # Delete with:  schtasks /Delete /TN "KalshiPM NBA recorder" /F
 $ErrorActionPreference = 'Stop'
-Set-Location 'C:\Users\Jarvis\Documents\Kalshi-PM'
+Set-Location '%USERPROFILE%\Documents\Kalshi-PM'
 
 $etZone = [System.TimeZoneInfo]::FindSystemTimeZoneById('Eastern Standard Time')
 $et = [System.TimeZoneInfo]::ConvertTimeFromUtc([DateTime]::UtcNow, $etZone)

@@ -1,1 +1,0 @@
-{"fetched_ts": 1792558727.6373112, "markets": [{"ticker": "KXNBAOT-26OCT20PHINYK-1", "event_ticker": "KXNBAOT-26OCT20PHINYK", "status": "finalized", "result": "no", "strike_type": "greater", "floor_strike": 0.5, "cap_strike": null, "settlement_ts": "2026-10-21T02:05:47.024983Z", "expected_expiration_time": "2026-10-21T02:00:00Z", "occurrence_datetime": "2026-10-21T02:00:00Z"}]}

@@ -29,3 +29,28 @@ reports/output/nba_model/injury_parsed_v3.json
 
 # Personal Claude Code settings
 .claude/settings.local.json
+
+# --- cleanup: generated research data (rebuildable from the collectors) ---
+reports/output/**/cache/
+reports/output/**/raw/
+/reports/output/crypto15m/trades.csv
+/reports/output/crypto_bot_rules/trades_v5_defaults.csv
+/reports/output/crypto_trends/rule_trades.csv
+/reports/output/market_making/per_market.csv
+/reports/output/market_making/robustness_per_market.csv
+/reports/output/nba_injury_speed/reports_parsed.jsonl
+/reports/output/nba_model/injury_parsed.json
+/reports/output/nba_score_model_e3/validation_all_versions.csv
+/reports/output/nba_teammate_out/injury_parsed_tm.jsonl
+/reports/output/nba_teammate_out/selection.csv
+/reports/output/nba_totals_grid/all_strategies.csv
+/reports/output/nfl_dip/jump_trades.csv
+/reports/output/nfl_dip/trades.csv
+/reports/output/nfl_props/markets_index.jsonl
+/reports/output/nfl_totals/kalshi/done.jsonl
+/reports/output/results/convergence_episodes.csv
+/reports/output/results/episodes.csv
+/reports/output/weather_nbm/bets_primary.csv.gz
+/reports/output/weather_nbm/rows_evening.csv.gz
+/reports/output/weather_nbm/rows_morning.csv.gz
+/reports/output/weather_twc/events.csv

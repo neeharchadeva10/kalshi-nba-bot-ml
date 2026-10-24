@@ -19,7 +19,7 @@ bot" and "STOP Kalshi bot" on the Desktop).
 
 ## Daily start (live), plain command alternative
 
-From C:\Users\Jarvis\Documents\Kalshi-PM, PowerShell:
+From %USERPROFILE%\Documents\Kalshi-PM, PowerShell:
 
     $env:KALSHI_ENV="prod"; .venv/Scripts/python.exe reports/output/early_overs_bot/overs_bot.py --live
 

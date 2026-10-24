@@ -6,8 +6,8 @@ set -e
 cd "$(dirname "$0")/../../.."
 .venv/Scripts/python.exe -m pytest reports/output/ohio_trial -q
 "/c/Windows/System32/OpenSSH/scp.exe" -q -i ~/.ssh/kalshi-ohio.pem reports/output/ohio_trial/lockbot.py \
-  ubuntu@18.223.21.99:kpm/reports/output/ohio_trial/lockbot.py
-"/c/Windows/System32/OpenSSH/ssh.exe" -o BatchMode=yes -i ~/.ssh/kalshi-ohio.pem ubuntu@18.223.21.99 \
+  ubuntu@${KALSHI_SERVER_HOST}:kpm/reports/output/ohio_trial/lockbot.py
+"/c/Windows/System32/OpenSSH/ssh.exe" -o BatchMode=yes -i ~/.ssh/kalshi-ohio.pem ubuntu@${KALSHI_SERVER_HOST} \
   "cd ~/kpm && .venv/bin/python -m py_compile reports/output/ohio_trial/lockbot.py && sha256sum reports/output/ohio_trial/lockbot.py"
 sha256sum reports/output/ohio_trial/lockbot.py
 echo "deployed (running bots keep the old code until the user restarts them)"

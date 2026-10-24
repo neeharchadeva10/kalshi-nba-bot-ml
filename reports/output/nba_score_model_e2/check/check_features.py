@@ -11,7 +11,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-ROOT = Path(r"C:\Users\Jarvis\Documents\Kalshi-PM")
+ROOT = Path(r"%USERPROFILE%\Documents\Kalshi-PM")
 RAW = ROOT / "data" / "raw" / "nba_open"
 PDFDIR = ROOT / "data" / "raw" / "nba_injury"
 INJ_TM = ROOT / "reports" / "output" / "nba_teammate_out" / "injury_parsed_tm.jsonl"

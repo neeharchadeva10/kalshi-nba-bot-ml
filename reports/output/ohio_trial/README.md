@@ -22,7 +22,7 @@ Keys are needed only for the WebSocket handshake; the REST structure discovery i
 
 ## Run at home (Windows)
 
-    cd C:\Users\Jarvis\Documents\Kalshi-PM
+    cd %USERPROFILE%\Documents\Kalshi-PM
     $env:KALSHI_ENV="prod"
     .venv\Scripts\python.exe reports\output\ohio_trial\lockwatch_night.py --date 26OCT21 --tag home
 

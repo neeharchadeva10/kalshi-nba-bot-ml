@@ -5,5 +5,5 @@
 DATE="${1:-26OCT20}"
 [[ "$DATE" =~ ^[0-9]{2}[A-Z]{3}[0-9]{2}$ ]] || { echo "bad date: $DATE"; exit 2; }
 exec "/c/Windows/System32/OpenSSH/ssh.exe" -o BatchMode=yes -o ServerAliveInterval=30 -i ~/.ssh/kalshi-ohio.pem \
-  ubuntu@18.223.21.99 "cd ~/kpm/logs && timeout 1800 tail -n 0 -F \$(ls lockbot_${DATE}_*.jsonl | grep -v dry) \
+  ubuntu@${KALSHI_SERVER_HOST} "cd ~/kpm/logs && timeout 1800 tail -n 0 -F \$(ls lockbot_${DATE}_*.jsonl | grep -v dry) \
   | grep -m 1 -E '\"event\": ?\"(attempt|stop|bot_error|attempt_error|cap_block)\"'"

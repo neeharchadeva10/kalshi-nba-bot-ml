@@ -1,6 +1,6 @@
 import pandas as pd, numpy as np
 from pathlib import Path
-R = Path(r"C:\Users\Jarvis\Documents\Kalshi-PM")
+R = Path(r"%USERPROFILE%\Documents\Kalshi-PM")
 B = R / "reports/output/nfl_totals"
 g = pd.read_csv(R / "data/raw/nflverse/games/games.csv")[["game_id", "roof", "stadium_id"]]
 st = pd.read_csv(B / "weather/stadiums.csv")[["stadium_id", "roof_category"]]

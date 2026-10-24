@@ -10,7 +10,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-ROOT = Path(r"C:\Users\Jarvis\Documents\Kalshi-PM")
+ROOT = Path(r"%USERPROFILE%\Documents\Kalshi-PM")
 E2CHK = ROOT / "reports" / "output" / "nba_score_model_e2" / "check"
 E3 = ROOT / "reports" / "output" / "nba_score_model_e3"
 OUT = E3 / "check"

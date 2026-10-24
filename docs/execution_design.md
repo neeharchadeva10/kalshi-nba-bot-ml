@@ -573,7 +573,7 @@ Reconciliation runs after every write, every 5 s while anything is open, at sett
 ### 6.1 Unit tests with recorded fixtures (no network), in `tests/execution/`
 - **Network guard.** An autouse fixture patches `requests.Session.request` and `socket.socket.connect` to raise. The client takes an injectable transport that replays fixtures keyed by (method, path, params).
 - **Fixtures** live in `tests/fixtures/kalshi_exec/`.
-  - **Real public captures from 2026-10-05.** Copy them now from the session scratchpad, which is temporary: `C:\Users\Jarvis\AppData\Local\Temp\claude\c--Users-Jarvis-Documents-Kalshi-PM\5805aad9-f58e-4981-a45a-fa35e3d20f67\scratchpad\` (`kdocs_auth\`, `kdocs_rt\live\`, `verify_auth2\pub\`).
+  - **Real public captures from 2026-10-05.** Copy them now from the session scratchpad, which is temporary: `%USERPROFILE%\AppData\Local\Temp\claude\c--Users-Jarvis-Documents-Kalshi-PM\5805aad9-f58e-4981-a45a-fa35e3d20f67\scratchpad\` (`kdocs_auth\`, `kdocs_rt\live\`, `verify_auth2\pub\`).
     - KXBTC15M markets (tapered grid, shard 2).
     - Series files for KXUSDJPY15M and KXTEMPMIAH.
     - Full and depth-3 orderbooks.

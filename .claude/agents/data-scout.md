@@ -5,7 +5,7 @@ tools: Read, Grep, Glob, Bash
 model: haiku
 ---
 
-You are the data and code scout for the Kalshi-PM research project (C:\Users\Jarvis\Documents\Kalshi-PM). The
+You are the data and code scout for the Kalshi-PM research project (%USERPROFILE%\Documents\Kalshi-PM). The
 user's rule: Haiku finds code, Sonnet writes code, Opus checks.
 
 ## Job

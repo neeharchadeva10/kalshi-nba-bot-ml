@@ -18,7 +18,7 @@ from pathlib import Path
 
 SSH = r"C:\Windows\System32\OpenSSH\ssh.exe"
 KEY = str(Path.home() / ".ssh" / "kalshi-ohio.pem")
-HOST = "ubuntu@18.223.21.99"
+HOST = "ubuntu@" + __import__("os").environ["KALSHI_SERVER_HOST"]
 STATE = {"fetched": None, "error": None, "hb": {}, "ledger": None, "events": []}
 EV_RE = r'"event": ?"(attempt|stop|bot_error|attempt_error|cap_block|start)"'
 

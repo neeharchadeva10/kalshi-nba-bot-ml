@@ -2,7 +2,7 @@
 import numpy as np, pandas as pd
 from pathlib import Path
 
-ROOT = Path(r"C:\Users\Jarvis\Documents\Kalshi-PM")
+ROOT = Path(r"%USERPROFILE%\Documents\Kalshi-PM")
 GAMES = ROOT / "data/raw/nflverse/games/games.csv"
 PBPDIR = ROOT / "data/raw/nflverse/pbp"
 BAD = ROOT / "reports/output/nfl_totals/data/pbp_running_vs_final_implausible.csv"

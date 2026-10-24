@@ -4,7 +4,7 @@
 # Native stderr is merged by cmd.exe, NOT by PowerShell's *>> (under ErrorActionPreference=Stop that pattern
 # turns any native stderr line into a terminating error and crashed the NBA recorder launcher).
 $ErrorActionPreference = 'Continue'
-$repo = 'C:\Users\Jarvis\Documents\Kalshi-PM'
+$repo = '%USERPROFILE%\Documents\Kalshi-PM'
 Set-Location $repo
 New-Item -ItemType Directory -Force -Path "$repo\logs" | Out-Null
 $stamp = (Get-Date).ToUniversalTime().ToString('yyyy-MM-ddTHH:mm:ssZ')

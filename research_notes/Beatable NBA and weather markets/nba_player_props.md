@@ -25,7 +25,7 @@ No rigorous academic or quant study of NBA player-prop efficiency turned up. Adj
 
 ### Gaps
 - No study on prop over/under bias, alt-ladder tails, stat-type or star-vs-role-player differences. Search tools did not index SSRN/JQAS directly; worth a manual SSRN/Google Scholar check.
-- Did not read the full Moshrefi paper (PDF was binary); saved copy at C:\Users\Jarvis\.claude\projects\C--Users-Jarvis-Documents-Kalshi-PM\202e17c4-729e-4c0b-a7d3-ce149a4ff08b\tool-results\webfetch-1792560170531-q3zfrs.pdf for local extraction.
+- Did not read the full Moshrefi paper (PDF was binary); saved copy at %USERPROFILE%\.claude\projects\C--Users-Jarvis-Documents-Kalshi-PM\202e17c4-729e-4c0b-a7d3-ce149a4ff08b\tool-results\webfetch-1792560170531-q3zfrs.pdf for local extraction.
 
 ## 2. Which specific testable patterns are reported (minutes after teammate injuries, blowouts, back-to-backs, news staleness, alt ladders), with magnitudes and recent persistence?
 

@@ -177,9 +177,9 @@ write-up.
   - Shards: KXNBAGAME is on exchange 0 and every other KXNBA series is on exchange 3. API orders need cash on that
     shard (`reports/output/picks/shard_transfer.py`, run by the user).
 
-- **Server:** EC2 `kalshi-ohio`, i-094e9277b9ca0d405, us-east-2c.
-  - Address: 18.223.21.99.
-  - SSH: `C:\Windows\System32\OpenSSH\ssh.exe -i ~/.ssh/kalshi-ohio.pem ubuntu@18.223.21.99`.
+- **Server:** EC2 `kalshi-ohio`, <instance-id>, us-east-2c.
+  - Address: <server-host>.
+  - SSH: `C:\Windows\System32\OpenSSH\ssh.exe -i ~/.ssh/kalshi-ohio.pem ubuntu@<server-host>`.
   - Code is in `~/kpm` (venv `.venv`), the env file is `~/kpm/.env`, and the key is `~/kpm/secrets/kalshi.key`.
   - It uses the user's existing Kalshi key (their choice, 2026-10-20).
   - **Cost about $16/month. Terminate it when the trial ends.**
@@ -238,6 +238,6 @@ write-up.
 ## Resuming
 
 ```powershell
-cd C:\Users\Jarvis\Documents\Kalshi-PM
+cd %USERPROFILE%\Documents\Kalshi-PM
 claude --continue        # or start fresh and say: "read docs/HANDOFF.md"
 ```

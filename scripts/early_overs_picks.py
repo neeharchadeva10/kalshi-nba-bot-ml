@@ -379,7 +379,7 @@ def compute_rows(day: date, now: datetime, on_header=None):
         tcost, tfee = cost_with_fee(taker_c, n)
         if RULE == "grid_winner":
             p_formula = phi(abs(proj - pick["strike"]) / GRID_SIGMA)
-            ev_c = round((p_formula - limit_c / 100 - fee / n) * 100, 2)
+            ev_c = round((p_formula - taker_c / 100 - tfee / n) * 100, 2)  # taker: the bot buys at the ask
         st = status_for(now, tip, limit_c, contract)
         if not in_test_window(tip):
             st += " [outside test window]"

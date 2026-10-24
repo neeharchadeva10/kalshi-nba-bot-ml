@@ -34,14 +34,14 @@ Use the region menu at the top right of the console. Choose **United States (Ohi
 
 Click **Launch instance**. Then, under **View instances**, select the server and copy its **Public IPv4 address**.
 
-Move the downloaded `kalshi-ohio.pem` to `C:\Users\Jarvis\.ssh\`, creating the folder if it doesn't exist.
+Move the downloaded `kalshi-ohio.pem` to `%USERPROFILE%\.ssh\`, creating the folder if it doesn't exist.
 
 ## 5. Make a separate Kalshi API key for the server
 
 On kalshi.com, go to **Account settings → API keys → Create key**. Name it `ohio-server`.
 
-- Save the **private key** file as `C:\Users\Jarvis\.ssh\kalshi-ohio-api.key`.
-- Save the **Key ID** in a plain text file `C:\Users\Jarvis\.ssh\kalshi-ohio-api.id`, containing only the ID on one
+- Save the **private key** file as `%USERPROFILE%\.ssh\kalshi-ohio-api.key`.
+- Save the **Key ID** in a plain text file `%USERPROFILE%\.ssh\kalshi-ohio-api.id`, containing only the ID on one
   line.
 - If the server is ever lost or anything looks wrong, delete this key on kalshi.com. Your main key isn't affected.
 
@@ -51,7 +51,7 @@ Send: the server's **public IP address**, and "files are in place". Nothing else
 
 ## What Claude does next (all read-only, no orders)
 
-1. Tightens the key file permissions on Windows and tests `ssh -i C:\Users\Jarvis\.ssh\kalshi-ohio.pem ubuntu@<IP>`.
+1. Tightens the key file permissions on Windows and tests `ssh -i %USERPROFILE%\.ssh\kalshi-ohio.pem ubuntu@<IP>`.
 2. Installs Python on the server and copies the code: `src/`, `pyproject.toml` and the trial scripts. No data, logs
    or `.env` from this PC.
 3. Copies the server key files over without printing them, and writes the server's own `.env`:
